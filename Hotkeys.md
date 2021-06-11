@@ -1,1 +1,206 @@
-test
+I only added hotkeys here that I really think are useful and that I use very often.
+(None of my key-bindings are changed. I also have Emulate Numpad turned on because my keyboard is 10 keyless)
+
+Move
+R + X/Y/Z + 90°/180°/270° or 45°/135°/225°/315° >>> To Snap Rotate
+G + X/Y/Z >>> To snap to that axis and move it
+G + Shift + X/Y/Z >>> To move object on any axis but that one
+G + X/Y/Z + Ctrl >>> To snap to that axis and move it with the magnet tool
+
+Objects
+Shift + R >>> Redo Last Action
+Shift + D >>> Duplicate Objects
+Alt + D >>> Duplicate Objects but all changes to the first object are applied to the alt d'ed objects (Duplicate linked)
+I >>> Inset Face
+E >>> Extrude (can be combined with S)
+H >>> Hide
+Alt + H >>> Unhide
+Ctrl + R >>> Add Loop Cut (Use Scroll to add more, use Right Click to center and use H to terminate so the Loop Cuts doesn't go around the whole form.
+K >>> Knife Loop Cut (Press Enter to confirm).
+F >>> Connect all selected Vertices with a Face (Also used to create a Edge between two selected Vertices, however this wont separate a face, use J for that)
+J >>> Used to make a face into 2 faces by selecting Vertices
+Ctrl + B >>> Bevel (Scroll to change amount of Bevels and click p to change the form even more).
+Ctrl + Shift + B >>> Bevel Vertex
+M >>> To Merge (To merge one to the other click on Vertex with the Mouse and select the second one with Shift and then click M)
+G + G >>> Slide (can be used on Vertices and Edges)
+Ctrl + X >>> Solidify selected edge or Vertex (soft delete)
+
+Menus
+F3 >>> Search
+T >>> Toggle Left Context Menu
+N >>> Toggle Right Context Menu
+Shift + A >>> Add Menu
+Shift + S >>> Cursor Menu
+Ctrl + A >>> Apply Menu (Only in Object Menu)
+Ctrl + V >>> Vertices Menu (Only in Edit Menu)
+Ctrl + E >>> Edge Menu (Only in Edit Menu)
+Ctrl + F >>> Faces Menu (Only in Edit Menu)
+Right Click >>> Stuff
+Alt + E >>> Extrude Menu
+Alt + N >>> Normals Menu
+U >>> UV Menu (select everything)
+P >>> Separate Menu
+
+Selecting
+A >>> Select everything
+AA >>> Deselect everything
+L >>> Select Liked (Ctrl + L)
+Alt + Left Click >>> Select the entire Loop Cut you clicked
+Shift + G >>> Select Similar
+Ctrl + Alt >>>
+Ctrl + + >>> Select More
+Ctrl + - >>> Select Less
+W >>>Cycle through select tools
+Ctrl + I >>> Inverts current selection
+Shift + G >>> ???
+Select>Checker Deselect >>> Checker Deselect
+Select>Select Random >>> Select Random (click again to select more)
+
+Other
+F1 >>> Help
+F2 >>> Rename
+Q >>> Quick Access
+Ctrl + Alt + Space >>> Fullscreen
+
+Cursor
+Shift + S >>> Cursor Menu (Being Object Mode and Edit Mode makes this do different things)
+Shift + C >>> Cursor to Center
+
+View
+1 >>> Front view
+1 + Ctrl >>> Back View
+3 >>> Right Side View
+3 + Ctrl >>> Left Side View
+7 >>> Top View
+7 + Ctrl >>> Bottom View
+^ >>> Hide all non selected objects
+
+
+------ADDON Hotkeys-------------------------------------------------------------------------------
+
+Grid Modeler(addon)
+H >>> Help
+W / Right Click >>> Switch between selection mode and normal mode
+Ctrl + Scroll >>> Subdivide Grid
+Alt + Scroll >>> Change Grid Size
+Ctrl + Click >>> Fit Grid to a Edge
+P >>> Rotate Grid at placed line (Ctrl+P Rotate grid at blue line or middle if there is no blue line)
+A >>> Switch between relative mode and absolute mode
+U >>> Disable Snapping
+F1 >>> Save Grid and Shapes
+F2 >>> Load grid and Shapes
+G >>> Center Grid to Face Center
+Arrow Key Up / Down >>> Move Grid
+Y >>> Construction Line
+Space >>> Stop drawing
+Enter >>> Finish
+
+G/ R/ S >>> Move/ Rotate/ Scale( X or Y to scale on axis)
+E >>> Edit Shape (Entf to dissolve, F to fill or delete, A to add)
+D >>> Array (C for rotation)
+B >>> Bevel
+C >>> Custom Shape (Hold Shift + Scroll to change edge amount)
+N >>> Flip Side ways
+M >>> Flip Horizontally
+I >>> Inset/ Outset
+Alt + N/ M >>> Mirror every selected shape at blue +
+
+Q >>> Boolean
+1 >>> Cut the face and fill by n-gon
+2 >>> Cut the face and fill by triangles
+3 >>> Create Face
+4 >>> Boolean subtract cut
+5 >>> Boolean slice
+9 >>> Edge Pipe
+
+How does text work????
+
+
+Boxcutter(addon)
+Alt + W >>> Switch between box cutter and hard ops or normal
+D >>> Boxcutter Pie Menu
+N > Boxcutter >>> Stuff
+When in select mode
+Tab >>> More control
+B/ Blue Dot >>> Bevel all edges (Scroll to adjust segment count)
+X >>> Cycle through the modes
+K >>> Knife
+J >>> Join (Make a new form from the surface of another)
+A >>> Make (Makes a new object)
+T >>> Solidify (Increase size,scale,depth)
+V >>> Array (Makes more of that cut, Scroll to make more, tap V again to make it go in a circle)
+D > Magnet, then hold Ctrl >>> Snap to dots (The button in D menu beside magnet gives you a snap grid)
+G/ S/ R >>> Move/ Scale / Rotate
+
+
+Mesh Mashien
+Y >>> Acces
+Fuse >>> Add Bevel
+Refuse >>> Modify Bevel
+Unfuse >>> Remove Bevel (only removes all bevels til to the last bevel)
+Unchamfer >>> Remove Bevel (only works on a single bevel)
+Unbevel >>>
+Unf*ck >>>
+Flaten >>> Select 2 faces and flatten the second selected one or select 3 verts with verts between them to make everything be in a straight line
+Change Width >>> Change Width
+
+
+Hard Ops
+
+Q menu in Object Mode
+---
+Sharpen
+---
+Bevel
+Click on Bevel >>> Adjust last bevel
+Ctrl + Click on Bevel >>> Add new bevel
+Ctrl + Shift + Click on Bevel >>> Add new bevel with 60° angle
+---
+Array V2 (Only works if no booleans exist)
+X >>> Change Axis
+Scroll >>> Change amount
+Hold X and tap Ctrl >>> Change Axis without getting set back to the object origin
+A >>> Add another Array
+---
+Mod Scroll/Toggle
+Allows you to scroll through all booleans
+Alt + Click on Mod Scroll >>> Smart Apply (applies all boolean modifiers)
+Shift + Click on Mod Scroll >>> Slowly reveals all booleans
+---
+Step
+---
+Dice
+A Powerful loop cut tool. Allows one to create loop cuts on n-gons.
+---
+Twist 360°
+Uses many modifiers to create a circle of your object
+---
+Radial Array
+A sirqular array
+---
+Ctrl + + >>> hops join
+Shift + N >>> Recalculate normals
+
+
+Q menu in Edit Mode
+---
+Mark
+A controlled Sharpen
+---
+Curve Extract
+Curve Extract >>> Replaces edges with pipes
+Alt + Click on Curve Extract >>> Replaces edges with pipes and deletes Face
+Ctrl + Click on Curve Extract >>> Duplicates a face and makes it to a new object
+Shift + Click on Curve Extract >>> Duplicates a face and makes it to a new object and gives it a Solidify Modifier
+---
+Circle
+Best on Vertices. Creates a circle that can be adjusted. Also works on corners.
+---
+EM Macro
+EM Macro >>> Extrude rotated Quads from a face
+Ctrl + Click on EM Macro >>> Extrudes Quad Spikes from a face
+Alt + Click on EM Macro >>> Extrude along Normals
+Shift + Click on EM Macro >>> Intrude the Face along the Edges (Ctrl to change size)
+---
+Alt+X >>> Mirror
+Alt + V >>> Viewport Menu
