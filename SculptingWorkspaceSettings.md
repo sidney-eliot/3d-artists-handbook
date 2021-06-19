@@ -44,4 +44,4 @@
   - Strength Pressure>On
   - Unified Strength>Off
   - Scrape>Tool Settings>Falloff>Constant
-  - Mask>Strength>Max
+  - Mask>Strength>Max ???
