@@ -53,6 +53,12 @@ Shift + G >>> ???
 Select>Checker Deselect >>> Checker Deselect
 Select>Select Random >>> Select Random (click again to select more)
 
+Camera
+Pos1 >>> Make Camera fill viewport
+0 >>> View from camera perspective
+Ctrl + Alt + 0 >>> Move camera to view
+
+
 Other
 F1 >>> Help
 F2 >>> Rename
