@@ -24,7 +24,7 @@
 - Simply Cloth Pro
 
 ### Other ADDONS
-- 3D Print Toolbox (Reveals unnecessary and bad mesh and fixes it)
+- 3D Print Toolbox (Find and clean up bad geo)
 
 ### Sort me in! ADDONS
 - A.N.T Landscape (Landscape generator)
