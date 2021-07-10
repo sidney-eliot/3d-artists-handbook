@@ -58,7 +58,6 @@ Pos1 >>> Make Camera fill viewport
 0 >>> View from camera perspective
 Ctrl + Alt + 0 >>> Move camera to view
 
-
 Other
 F1 >>> Help
 F2 >>> Rename
