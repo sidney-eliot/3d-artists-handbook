@@ -3,6 +3,7 @@
 #### Emission node
 
 #### Principled Hair BSDF node
+-Allways use for hair
 
 #### Mix Shader node
 - Takes to shaders and decides which is used more or less
@@ -29,3 +30,10 @@
 - Normal -> For normal maps node
 - Cearcoat Normal -> Controls the normals of the Clearcoat layer
 - Tangent -> Controls the tangent for the Anisotropic layer
+![image](https://user-images.githubusercontent.com/85735034/127783221-c8f4deda-9cb5-4e93-86fd-b0e5f0d02ce1.png)
+
+####Principled Volume
+- used for smoke
+
+####Subsurface Scattering
+- used for ski, wacs, marble
