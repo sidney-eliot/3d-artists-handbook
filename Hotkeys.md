@@ -69,12 +69,21 @@ Shift + S >>> Cursor Menu (Being Object Mode and Edit Mode makes this do differe
 Shift + C >>> Cursor to Center
 
 View
-1 >>> Front view
-1 + Ctrl >>> Back View
-3 >>> Right Side View
-3 + Ctrl >>> Left Side View
-7 >>> Top View
-7 + Ctrl >>> Bottom View
+1 >>> Front/ Back
+2 >>> Right/ Left
+3 >>> Top/ Bottom
+Ctrl + 1 >>> Back
+Ctrl + 2 >>> Left
+Ctrl + 3 >>> Bottom
+4 >>> Orbit Up
+5 >>> Orbit Down
+6 >>> Orbit Left
+7 >>> Orbit Right
+Ctrl + 4 >>> Pan View Up
+Ctrl +  5 >>> Pan View Down
+Ctrl +  6 >>> Pan View Left
+Ctrl +  7 >>> Pan View Right
+9 >>> Orbit 180°
 ^ >>> Hide all non selected objects
 
 
