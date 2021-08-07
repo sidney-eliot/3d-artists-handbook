@@ -86,7 +86,8 @@ Ctrl +  7 >>> Pan View Right
 9 >>> Orbit 180°
 ^ >>> Hide all non selected objects
 
-
+uncategorized
+Shift + Tab = Magnet
 ------ADDON Hotkeys-------------------------------------------------------------------------------
 
 Grid Modeler(addon)
