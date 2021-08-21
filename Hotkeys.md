@@ -52,6 +52,7 @@ Ctrl + I >>> Inverts current selection
 Shift + G >>> ???
 Select>Checker Deselect >>> Checker Deselect
 Select>Select Random >>> Select Random (click again to select more)
+B + LMB + Shift >>> Remove from selection
 
 Camera
 Pos1 >>> Make Camera fill viewport
