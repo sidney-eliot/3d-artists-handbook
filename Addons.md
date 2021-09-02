@@ -11,10 +11,14 @@
 ### Hardsurface modeling ADDONS
 - Hard Ops
 - BoxCutter (Boolean operations)
-- MESHmachine (Bevel modifier/ bool cleanup)
+- MESHmachine (Bevel modifier/ boolean cleanup)
 - Grid Modeler (Blockout/ Speed modeling)
-- Cablerator (Caple maker)
+- Cablerator (Cable maker)
 - LoopTools (Relax mesh)
+- Quad Swords (Dicing tool)
+- Safe Ngon (Boolean cleanup)
+- Attach Align
+
 
 ### Node ADDONS
 - Node Wrangler
