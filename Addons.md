@@ -15,9 +15,10 @@
 - Grid Modeler (Blockout/ Speed modeling)
 - Cablerator (Cable maker)
 - LoopTools (Relax mesh)
+- Edge Flow (Mesh manipulation)
 - Quad Swords (Dicing tool)
 - Safe Ngon (Boolean cleanup)
-- Attach Align
+- Attach Align (Great snapping tool)
 
 
 ### Node ADDONS
