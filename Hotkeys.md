@@ -120,6 +120,7 @@
 |P|Set Preview range
 |Alt + P|Remove Preview range
 |Ctrl + Alt + P|Auto preview range
+|L|Select linked Keyframes
 |Alt + LMB|Selects Keframes in column
 |H|Hide Transform
 |Shift + H|Hide all other Transforms
