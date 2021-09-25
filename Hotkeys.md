@@ -55,7 +55,7 @@
 |Ctrl + Alt|
 |Ctrl + +|Select More
 |Ctrl + -|Select Less
-|W >>>Cycle through select tools
+|W|Cycle through selection tools
 |Ctrl + I|Inverts current selection
 |Shift + G|???
 |Select>Checker Deselect|Checker Deselect
@@ -111,14 +111,20 @@
 |Space|Start Animation
 |Arrow Keyes|Move in Animation
 |Ctrl + Tab|Switch between Dope Sheet and Graph Editor
+|I|Insert Keyframe
 |R|Set Keyframe type
 |T|Set Keyframe Interpolation
+|V|Handle Type
+|M|Add Marker
+|Ctrl+M|Rename Marker
 
 
 Ctrl + Tab 
 uncategorized
 Shift + Tab = Magnet
-------ADDON Hotkeys-------------------------------------------------------------------------------
+
+---
+# ADDON Hotkeys
 
 Grid Modeler(addon)
 H >>> Help
