@@ -1,99 +1,123 @@
-Move
-R + X/Y/Z + 90°/180°/270° or 45°/135°/225°/315° >>> To Snap Rotate
-G + X/Y/Z >>> To snap to that axis and move it
-G + Shift + X/Y/Z >>> To move object on any axis but that one
-G + X/Y/Z + Ctrl >>> To snap to that axis and move it with the magnet tool
+### Move
+|Hotkey|Name    
+|:-:|:-:
+|R + X/Y/Z + 90°/180°/270° or 45°/135°/225°/315°|To Snap Rotate
+|G + X/Y/Z|To snap to that axis and move it
+|G + Shift + X/Y/Z|To move object on any axis but that one
+|G + X/Y/Z + Ctrl|To snap to that axis and move it with the magnet tool
 
-Objects
-Shift + R >>> Redo Last Action
-Shift + D >>> Duplicate Objects
-Alt + D >>> Duplicate Objects but all changes to the first object are applied to the alt d'ed objects (Duplicate linked)
-I >>> Inset Face
-E >>> Extrude (can be combined with S)
-H >>> Hide
-Alt + H >>> Unhide
-Ctrl + R >>> Add Loop Cut (Use Scroll to add more, use Right Click to center and use H to terminate so the Loop Cuts doesn't go around the whole form.
-K >>> Knife Loop Cut (Press Enter to confirm).
-F >>> Connect all selected Vertices with a Face (Also used to create a Edge between two selected Vertices, however this wont separate a face, use J for that)
-J >>> Used to make a face into 2 faces by selecting Vertices
-Ctrl + B >>> Bevel (Scroll to change amount of Bevels and click p to change the form even more).
-Ctrl + Shift + B >>> Bevel Vertex
-M >>> To Merge (To merge one to the other click on Vertex with the Mouse and select the second one with Shift and then click M)
-G + G >>> Slide (can be used on Vertices and Edges)
-Ctrl + X >>> Solidify selected edge or Vertex (soft delete)
+### Objects
+|Hotkey|Name    
+|:-:|:-:
+|Shift + R|Redo Last Action
+|Shift + D|Duplicate Objects
+|Alt + D|Duplicate Objects but all changes to the first object are applied to the alt d'ed objects (Duplicate linked)
+|I|Inset Face
+|E|Extrude (can be combined with S)
+|H|Hide
+|Alt + H|Unhide
+|Ctrl + R|Add Loop Cut (Use Scroll to add more, use Right Click to center and use H to terminate so the Loop Cuts doesn't go around the whole form.
+|K|Knife Loop Cut (Press Enter to confirm).
+|F|Connect all selected Vertices with a Face (Also used to create a Edge between two selected Vertices, however this wont separate a face, use J for that)
+|J|Used to make a face into 2 faces by selecting Vertices
+|Ctrl + B|Bevel (Scroll to change amount of Bevels and click p to change the form even more).
+|Ctrl + Shift + B|Bevel Vertex
+|M|To Merge (To merge one to the other click on Vertex with the Mouse and select the second one with Shift and then click M)
+|G + G|Slide (can be used on Vertices and Edges)
+|Ctrl + X|Solidify selected edge or Vertex (soft delete)
 
-Menus
-F3 >>> Search
-T >>> Toggle Left Context Menu
-N >>> Toggle Right Context Menu
-Shift + A >>> Add Menu
-Shift + S >>> Cursor Menu
-Ctrl + A >>> Apply Menu (Only in Object Menu)
-Ctrl + V >>> Vertices Menu (Only in Edit Menu)
-Ctrl + E >>> Edge Menu (Only in Edit Menu)
-Ctrl + F >>> Faces Menu (Only in Edit Menu)
-Right Click >>> Stuff
-Alt + E >>> Extrude Menu
-Alt + N >>> Normals Menu
-U >>> UV Menu (select everything)
-P >>> Separate Menu
+### Menus
+|Hotkey|Name    
+|:-:|:-:
+|F3|Search
+|T|Toggle Left Context Menu
+|N|Toggle Right Context Menu
+|Shift + A|Add Menu
+|Shift + S|Cursor Menu
+|Ctrl + A|Apply Menu (Only in Object Menu)
+|Ctrl + V|Vertices Menu (Only in Edit Menu)
+|Ctrl + E|Edge Menu (Only in Edit Menu)
+|Ctrl + F|Faces Menu (Only in Edit Menu)
+|Right Click|Stuff
+|Alt + E|Extrude Menu
+|Alt + N|Normals Menu
+|U|UV Menu (select everything)
+|P|Separate Menu
 
-Selecting
-A >>> Select everything
-AA >>> Deselect everything
-L >>> Select Liked (Ctrl + L)
-Alt + Left Click >>> Select the entire Loop Cut you clicked
-Shift + G >>> Select Similar
-Ctrl + Alt >>>
-Ctrl + + >>> Select More
-Ctrl + - >>> Select Less
-W >>>Cycle through select tools
-Ctrl + I >>> Inverts current selection
-Shift + G >>> ???
-Select>Checker Deselect >>> Checker Deselect
-Select>Select Random >>> Select Random (click again to select more)
-B + LMB + Shift >>> Remove from selection
+### Selecting
+|Hotkey|Name    
+|:-:|:-:
+|A|Select everything
+|AA|Deselect everything
+|L|Select Liked (Ctrl + L)
+|Alt + Left Click|Select the entire Loop Cut you clicked
+|Shift + G|Select Similar
+|Ctrl + Alt|
+|Ctrl + +|Select More
+|Ctrl + -|Select Less
+|W >>>Cycle through select tools
+|Ctrl + I|Inverts current selection
+|Shift + G|???
+|Select>Checker Deselect|Checker Deselect
+|Select>Select Random|Select Random (click again to select more)
+|B + LMB + Shift|Remove from selection
 
-Camera
-Pos1 >>> Make Camera fill viewport
-0 >>> View from camera perspective
-Ctrl + Alt + 0 >>> Move camera to view
+### Camera
+|Hotkey|Name    
+|:-:|:-:
+|Pos1|Make Camera fill viewport
+|0|View from camera perspective
+|Ctrl + Alt + 0|Move camera to view
 
-Other
-F1 >>> Help
-F2 >>> Rename
-Q >>> Quick Access
-Ctrl + Alt + Space >>> Fullscreen
+### Other
+|Hotkey|Name               
+|:-:|:-:
+|F1|Help
+|F2|Rename
+|Q|Quick Access
+|Ctrl + Alt + Space|Fullscreen
 
-Cursor
-Shift + S >>> Cursor Menu (Being Object Mode and Edit Mode makes this do different things)
-Shift + C >>> Cursor to Center
+### Cursor
+|Hotkey|Name               
+|:-:|:-:
+|Shift + S|Cursor Menu (Being Object Mode and Edit Mode makes this do different things)
+|Shift + C|Cursor to Center
 
-View
-1 >>> Front/ Back
-2 >>> Right/ Left
-3 >>> Top/ Bottom
-Ctrl + 1 >>> Back
-Ctrl + 2 >>> Left
-Ctrl + 3 >>> Bottom
-4 >>> Orbit Up
-5 >>> Orbit Down
-6 >>> Orbit Left
-7 >>> Orbit Right
-Ctrl + 4 >>> Pan View Up
-Ctrl +  5 >>> Pan View Down
-Ctrl +  6 >>> Pan View Left
-Ctrl +  7 >>> Pan View Right
-9 >>> Orbit 180°
-^ >>> Hide all non selected objects
+### View
+|Hotkey|Name             
+|:-:|:-:
+|1|Front/ Back
+|2|Right/ Left
+|3|Top/ Bottom
+|Ctrl + 1|Back
+|Ctrl + 2|Left
+|Ctrl + 3|Bottom
+|4|Orbit Up
+|5|Orbit Down
+|6|Orbit Left
+|7|Orbit Right
+|Ctrl + 4|Pan View Up
+|Ctrl +  5|Pan View Down
+|Ctrl +  6|Pan View Left
+|Ctrl +  7|Pan View Right
+|9|Orbit 180°
+|^|Hide all non selected objects
 
+
+
+### Animation
+|Hotkey|Name               
+|:-:|:-:
+|Space|Start Animation
+|Arrow Keyes|Move in Animation
+|Ctrl + Tab|Switch between Dope Sheet and Graph Editor
+|R|Set Keyframe type
+|T|Set Keyframe Interpolation
+
+
+Ctrl + Tab 
 uncategorized
 Shift + Tab = Magnet
-
-
-
-ANIMATION
-Ctrl + Tab 
 ------ADDON Hotkeys-------------------------------------------------------------------------------
 
 Grid Modeler(addon)
