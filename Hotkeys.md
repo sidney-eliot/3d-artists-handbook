@@ -89,6 +89,11 @@ Ctrl +  7 >>> Pan View Right
 
 uncategorized
 Shift + Tab = Magnet
+
+
+
+ANIMATION
+Ctrl + Tab 
 ------ADDON Hotkeys-------------------------------------------------------------------------------
 
 Grid Modeler(addon)
