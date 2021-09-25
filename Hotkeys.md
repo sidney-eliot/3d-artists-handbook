@@ -109,7 +109,8 @@
 |Hotkey|Name               
 |:-:|:-:
 |Space|Start Animation
-|Arrow Keyes|Move in Animation
+|Arrow Keyes Left/ Right|Move to next Frame
+|Arrow Keyes Up/ Down|Move to next Keframe
 |Ctrl + Tab|Switch between Dope Sheet and Graph Editor
 |I|Insert Keyframe
 |R|Set Keyframe type
