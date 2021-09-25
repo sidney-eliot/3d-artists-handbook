@@ -117,6 +117,13 @@
 |V|Handle Type
 |M|Add Marker
 |Ctrl+M|Rename Marker
+|P|Set Preview range
+|Alt + P|Remove Preview range
+|Ctrl + Alt + P|Auto preview range
+|Alt + LMB|Selects Keframes in column
+|H|Hide Transform
+|Shift + H|Hide all other Transforms
+|Alt + H|Unhide all Transforms
 
 
 Ctrl + Tab 
