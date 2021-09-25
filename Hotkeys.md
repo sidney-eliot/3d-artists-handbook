@@ -124,7 +124,8 @@
 |H|Hide Transform
 |Shift + H|Hide all other Transforms
 |Alt + H|Unhide all Transforms
-Ctrl + Shift + M|F-Curve Modifiers
+|Ctrl + Shift + M|F-Curve Modifiers
+|Shift + E|Extrapolation mode
 
 
 Ctrl + Tab 
