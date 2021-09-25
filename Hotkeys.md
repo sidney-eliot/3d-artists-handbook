@@ -126,7 +126,7 @@
 |Alt + H|Unhide all Transforms
 |Ctrl + Shift + M|F-Curve Modifiers
 |Shift + E|Extrapolation mode
-
+|Tab|Lock/Unlock Channel
 
 Ctrl + Tab 
 uncategorized
