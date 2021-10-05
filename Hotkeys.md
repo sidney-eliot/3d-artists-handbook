@@ -167,7 +167,7 @@ Shift + Tab = Magnet
 
 ## Boxcutter
 |Hotkey|Name
-|:|:|
+|:-:|:-:|
 |Alt + W|Switch between box cutter and hard ops or normal
 |D|Boxcutter Pie Menu
 |N > Boxcutter|Stuff
@@ -186,139 +186,68 @@ Shift + Tab = Magnet
 
 ## Mesh Mashien
 |Hotkey|Name
-|:|:|
+|:-:|:-:|
 |Y|Acces
 |Fuse|Add Bevel
 |Refuse|Modify Bevel
 |Unfuse|Remove Bevel (only removes all bevels til to the last bevel)
 |Unchamfer|Remove Bevel (only works on a single bevel)
 |Unbevel|
-|Unf*ck|
+|Unfck|
 |Flaten|Select 2 faces and flatten the second selected one or select 3 verts with verts between them to make everything be in a straight line
 |Change Width|Change Width
 
-
 ## Hard Ops
-Q menu in Object Mode
----
-Sharpen
----
-Bevel
-Click on Bevel >>> Adjust last bevel
-Ctrl + Click on Bevel >>> Add new bevel
-Ctrl + Shift + Click on Bevel >>> Add new bevel with 60° angle
----
-Array V2 (Only works if no booleans exist)
-X >>> Change Axis
-Scroll >>> Change amount
-Hold X and tap Ctrl >>> Change Axis without getting set back to the object origin
-A >>> Add another Array
----
-Mod Scroll/Toggle
-Allows you to scroll through all booleans
-Alt + Click on Mod Scroll >>> Smart Apply (applies all boolean modifiers)
-Shift + Click on Mod Scroll >>> Slowly reveals all booleans
----
-Step
----
-Dice
-A Powerful loop cut tool. Allows one to create loop cuts on n-gons.
----
-Twist 360°
-Uses many modifiers to create a circle of your object
----
-Radial Array
-A sirqular array
----
-Ctrl + + >>> hops join
-Shift + N >>> Recalculate normals
-
-
-Q menu in Edit Mode
----
-Mark
-A controlled Sharpen
----
-Curve Extract
-Curve Extract >>> Replaces edges with pipes
-Alt + Click on Curve Extract >>> Replaces edges with pipes and deletes Face
-Ctrl + Click on Curve Extract >>> Duplicates a face and makes it to a new object
-Shift + Click on Curve Extract >>> Duplicates a face and makes it to a new object and gives it a Solidify Modifier
----
-Circle
-Best on Vertices. Creates a circle that can be adjusted. Also works on corners.
----
-EM Macro
-EM Macro >>> Extrude rotated Quads from a face
-Ctrl + Click on EM Macro >>> Extrudes Quad Spikes from a face
-Alt + Click on EM Macro >>> Extrude along Normals
-Shift + Click on EM Macro >>> Intrude the Face along the Edges (Ctrl to change size)
----
-Alt+X >>> Mirror
-Alt + V >>> Viewport Menu
-
-
-
-
-fffff
-
-
-## Hard Ops
+### General
 |Hotkey|Name
-|:|:|
-|Q menu in Object Mode|---
-|---|---|
-|Sharpen|---
-|---|---|
-|Bevel|---
-|Click on Bevel >>> Adjust last bevel
-|Ctrl + Click on Bevel >>> Add new bevel
-|Ctrl + Shift + Click on Bevel >>> Add new bevel with 60° angle
-|---|---|
-|Array V2 (Only works if no booleans exist)
-|X >>> Change Axis
-|Scroll >>> Change amount
-|Hold X and tap Ctrl >>> Change Axis without getting set back to the object origin
-|A >>> Add another Array
-|---|---|
-|Mod Scroll/Toggle
-|Allows you to scroll through all booleans
-|Alt + Click on Mod Scroll >>> Smart Apply (applies all boolean modifiers)
-|Shift + Click on Mod Scroll >>> Slowly reveals all booleans
-|---|---|
-|Step|---
-|---|---|
-|Dice|---
-|A Powerful loop cut tool. Allows one to create loop cuts on n-gons.
-|---|---|
-|Twist 360°
-|Uses many modifiers to create a circle of your object
-|---|---|
-|Radial Array
-|A sirqular array
-|---|---|
-|Ctrl + + >>> hops join
-|Shift + N >>> Recalculate normals
+|:-:|:-:|
+|Alt+X|Mirror
+|Alt + V|Viewport Menu
 
+### Q menu in Object Mode
+|Hotkey|Name
+|:-:|:-:|
+|**Sharpen**|
+|---|---|
+|**Bevel**|After a bevel has been added adding a new bevel will edit the exsiting one
+|Ctrl + Click on Bevel|Add new bevel
+|Ctrl + Shift + Click on Bevel|Add new bevel with 60° angle
+|---|---|
+|**Array V2**|Only works if no booleans exist
+|X|Change Axis
+|Scroll|Change amount
+|Hold X and tap Ctrl|Change Axis without getting set back to the object origin
+|A|Add another Array
+|---|---|
+|**Mod Scroll/Toggle**|Allows you to scroll through all booleans
+|Alt + Click on Mod Scroll|Smart Apply (applies all boolean modifiers)
+|Shift + Click on Mod Scroll|Slowly reveals all booleans
+|---|---|
+|**Dice**|A Powerful loop cut tool. Allows one to create loop cuts on n-gons.
+|---|---|
+|**Twist 360°**|Uses many modifiers to create a circle of your object
+|---|---|
+|**Radial Array**|A sirqular array
+|---|---|
+|**Step**|
+|---|---|
+|Ctrl + +|hops join
+|Shift + N|Recalculate normals
 
-
-|Q menu in Edit Mode|---
-|Mark|---
-|A controlled Sharpen
+### Q menu in Edit Mode
+|Hotkey|Name
+|:-:|:-:|
+|**Mark**|A controlled Sharpen
 |Curve Extract|
-|Curve Extract >>> Replaces edges with pipes
-|Alt + Click on Curve Extract >>> Replaces edges with pipes and deletes Face
-|Ctrl + Click on Curve Extract >>> Duplicates a face and makes it to a new object
-|Shift + Click on Curve Extract >>> Duplicates a face and makes it to a new object and gives it a Solidify Modifier
+|Curve Extract|Replaces edges with pipes
+|Alt + Click on Curve Extract|Replaces edges with pipes and deletes Face
+|Ctrl + Click on Curve Extract|Duplicates a face and makes it to a new object
+|Shift + Click on Curve Extract|Duplicates a face and makes it to a new object and gives it a Solidify Modifier
 |---|---
-|Circle|---
-|Best on Vertices. Creates a circle that can be adjusted. Also works on corners.
+|**Circle**|Best on Vertices. Creates a circle that can be adjusted. Also works on corners.
 |---|---|
-|EM Macro|---
-|EM Macro >>> Extrude rotated Quads from a face
-|Ctrl + Click on EM Macro >>> Extrudes Quad Spikes from a face
-|Alt + Click on EM Macro >>> Extrude along Normals
-|Shift + Click on EM Macro >>> Intrude the Face along the Edges (Ctrl to change size)
+|**EM Macro**|EM Macro|Extrude rotated Quads from a face
+|Ctrl + Click on EM Macro|Extrudes Quad Spikes from a face
+|Alt + Click on EM Macro|Extrude along Normals
+|Shift + Click on EM Macro|Intrude the Face along the Edges (Ctrl to change size)
 |---|---|
-|Alt+X >>> Mirror
-|Alt + V >>> Viewport Menu
