@@ -1,12 +1,11 @@
 ### Sculpting ADDONS
-
-- Sculpt/Paint wheel
+- Sculpt/Paint wheel (Easy access to sculpting tools)
 - Retopo Flow (Retopolegy)
 
-### Asset, Material, HDRI ADDOns
+### Asset, Material, HDRI ADDONS
 - Blenderkit (Material Library)
 - Kit Ops Pro (Hard Surface modeling)
-- EEVEE-Materials
+- EEVEE-Materials (Material Library)
 
 ### Hardsurface modeling ADDONS
 - Hard Ops
@@ -19,23 +18,32 @@
 - Quad Swords (Dicing tool)
 - Safe Ngon (Boolean cleanup)
 - Attach Align (Great snapping tool)
+- Bygen (Organic modeling)
 
+### Rigging ADDONS
+- Auto Rig Pro (ultimate rigging addon)
+
+### Animation ADDONS
+
+### Texturing ADDONS
 
 ### Node ADDONS
 - Node Wrangler
-- Node Preview
+- Node Preview (Shows the texture of every node)
+
+### Generation/Procedual
+- A.N.T Landscape (Landscape generator)
 
 ### Clothing ADDONS
 - Simply Cloth Pro
 
 ### Other ADDONS
 - 3D Print Toolbox (Find and clean up bad geo)
+- Copy Attributes Menu (Copy any attribute from one object to another)
 
 ### Sort me in! ADDONS
-- A.N.T Landscape (Landscape generator)
 - Auto Mirror
-- Copy Attributes Menu
-- Bool Tool
+- Bool Tool (Primitive version of BoxCutter)
 
 ### Look at me! ADDONS
 - Cloth weaver
@@ -56,7 +64,6 @@
 - Power save
 - Mira tools
 - Loop tools
-- Bygen (Organic modeling)
 - Instant meshes remesh
 - Speed retopo
 - Retopo mt
@@ -66,3 +73,10 @@
 - Renderman
 - Rigify
 - Mashine tools
+- Pivot transform
+- VMesh
+- Smart fill
+- X Muscles system
+- Animiade
+- UV Pack Master
+- Extra Image List
