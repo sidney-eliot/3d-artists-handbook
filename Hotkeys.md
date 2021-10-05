@@ -203,6 +203,8 @@ Shift + Tab = Magnet
 |:-:|:-:|
 |Alt+X|Mirror
 |Alt + V|Viewport Menu
+|Ctrl + +|Hops Join
+|Shift + N|Recalculate Normals
 
 ### Q menu in Object Mode
 |Hotkey|Name
@@ -230,9 +232,6 @@ Shift + Tab = Magnet
 |**Radial Array**|A sirqular array
 |---|---|
 |**Step**|
-|---|---|
-|Ctrl + +|hops join
-|Shift + N|Recalculate normals
 
 ### Q menu in Edit Mode
 |Hotkey|Name
@@ -250,4 +249,3 @@ Shift + Tab = Magnet
 |Ctrl + Click on EM Macro|Extrudes Quad Spikes from a face
 |Alt + Click on EM Macro|Extrude along Normals
 |Shift + Click on EM Macro|Intrude the Face along the Edges (Ctrl to change size)
-|---|---|
