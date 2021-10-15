@@ -6,6 +6,7 @@
 - Blenderkit (Material Library)
 - Kit Ops Pro (Hard Surface modeling)
 - EEVEE-Materials (Material Library)
+- Extra Image List(Bigger texture preview)
 
 ### Hardsurface modeling ADDONS
 - Hard Ops
@@ -79,4 +80,4 @@
 - X Muscles system
 - Animiade
 - UV Pack Master
-- Extra Image List
+
