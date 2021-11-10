@@ -249,3 +249,19 @@ Shift + Tab = Magnet
 |Ctrl + Click on EM Macro|Extrudes Quad Spikes from a face
 |Alt + Click on EM Macro|Extrude along Normals
 |Shift + Click on EM Macro|Intrude the Face along the Edges (Ctrl to change size)
+
+### Workflow
+|Hotkey|Name
+|:-:|:-:
+|Tab|Lock Shape
+||
+||
+||
+||
+||
+
+
+
+
+other
+Ctrl + alt + x |origin pie menu
