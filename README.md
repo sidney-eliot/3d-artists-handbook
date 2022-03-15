@@ -6,6 +6,10 @@
 | [AddonEdition](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki)
 | [ExtraEdition](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki)
 
+-> Or go directly to one of the the other wikis
+| [Anatomy](https://github.com/Epicrex/Anatomy/wiki)
+| [UnrealEngine](https://github.com/Epicrex/UnrealEngine/wiki)
+
 (The config folder contains things like my workspace, keymaps and so on)
 
 
