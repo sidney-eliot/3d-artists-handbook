@@ -10,6 +10,6 @@
 | [Anatomy](https://github.com/Epicrex/AnatomyForArtists/wiki)
 | [UnrealEngine](https://github.com/Epicrex/UnrealEngine/wiki)
 
-(The config folder contains things like my workspace, keymaps and so on)
+(The config folders contain things like my workspace, keymaps and so on)
 
 
