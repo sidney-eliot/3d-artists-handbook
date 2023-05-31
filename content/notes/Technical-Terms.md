@@ -41,10 +41,19 @@ aaa
 
 ![image](tdmMtT4.png)
 
-
-<img src="./images/tdmMtT4.png">
+<img src="notes/images/tdmMtT4.png">
 
 <img src="notes/images/tdmMtT4.png">
+
+<img src="../images/tdmMtT4.png">
+
+<img src="/images/tdmMtT4.png">
+
+<img src="images/tdmMtT4.png">
+
+
+
+
 
 <img src="images/tdmMtT4.png">
 
