@@ -5,10 +5,8 @@ enableToc: true
 
 
 # Visual
-<details>
-<summary>Ambient Occlusion</summary>
 
----
+### Ambient Occlusion
 
 Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
 It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
@@ -17,30 +15,32 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 - Alternative to ray tracing occlusion, however ray tracing occlusion is better
 - Requires high res light maps to look good
 
-<details>
-<summary>Example</summary>
+Example:
 
-<img src="https://i.imgur.com/tdmMtT4.png" width="800">
-
-Ambient Occlusion OFF
-
-![No Ambient Occlusion](https://i.imgur.com/WkqM2Li.png)
-
-Ambient Occlusion ON
-
-![Ambient Occlusion](https://i.imgur.com/MkwP0Vn.png)
+![[images/tdmMtT4.png]]
 
 Ambient Occlusion OFF
 
-![No Ambient Occlusionon](https://i.imgur.com/vdGTOET.png)
+![[images/AO_off_1.png]]
 
 Ambient Occlusion ON
 
-![Ambient Occlusion](https://i.imgur.com/z6Id944.png)
-</details>
+![[images/AO_on_1.png]]
+
+Ambient Occlusion OFF
+
+![[images/AO_off_2.png]]
+
+Ambient Occlusion ON
+
+![[images/AO_on_2.png]]
 
 ---
-</details>
+---
+---
+---
+---
+
 
 <details>
 <summary>Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting</summary>
