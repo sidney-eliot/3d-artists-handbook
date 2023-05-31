@@ -7,13 +7,13 @@ name: Sidney
 enableToc: true
 
 # whether to by-default open or close the table of contents on each page
-openToc: false
+openToc: true
 
 # whether to display on-hover link preview cards
 enableLinkPreview: true
 
 # whether to render titles for code blocks
-enableCodeBlockTitle: true 
+enableCodeBlockTitle: false 
 
 # whether to render copy buttons for code blocks
 enableCodeBlockCopy: true 
@@ -41,7 +41,7 @@ enableRecentNotes: false
 
 # whether to display an 'edit' button next to the last edited field
 # that links to github
-enableGitHubEdit: false
+enableGitHubEdit: true
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 
 # whether to render mermaid diagrams
