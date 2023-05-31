@@ -13,7 +13,7 @@ openToc: false
 enableLinkPreview: true
 
 # whether to render titles for code blocks
-enableCodeBlockTitle: false 
+enableCodeBlockTitle: true 
 
 # whether to render copy buttons for code blocks
 enableCodeBlockCopy: true 
