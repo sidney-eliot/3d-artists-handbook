@@ -67,6 +67,6 @@ page_title:
 # links to show in the footer
 links:
   - link_name: Discord
-    link: x
+    link: https://github.com/Epicrex
   - link_name: GitHub
     link: https://github.com/Epicrex
