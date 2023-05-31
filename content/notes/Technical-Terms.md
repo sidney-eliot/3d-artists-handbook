@@ -1,3 +1,9 @@
+---
+title: "Glossary"
+enableToc: true
+---
+
+
 # Visual
 <details>
 <summary>Ambient Occlusion</summary>
