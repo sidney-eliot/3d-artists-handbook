@@ -30,8 +30,17 @@ Example:
 
 <img src="images/tdmMtT4.png">
 
+<img src=".\images\tdmMtT4.png">
+
+<img src="notes\images\tdmMtT4.png">
+
+<img src="images\tdmMtT4.png">
+
 ![[./images/tdmMtT4.png]]
 
+![[.\images\tdmMtT4.png]]
+
+![[notes\images\AO_off_1.png]]
 
 Ambient Occlusion OFF
 
