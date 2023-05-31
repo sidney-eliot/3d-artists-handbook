@@ -19,6 +19,11 @@ Example:
 
 ![image](./images/tdmMtT4.png)
 
+![image](notes/images/tdmMtT4.png)
+
+![image](images/tdmMtT4.png)
+
+
 <img src="./images/tdmMtT4.png">
 
 <img src="notes/images/tdmMtT4.png">
