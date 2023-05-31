@@ -17,11 +17,25 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 
 Example:
 
-![image](./images/tdmMtT4.png)
+![[notes/images/AO_off_1.png]]
+
+![[./images/tdmMtT4.png]]
+
+![[/images/tdmMtT4.png]]
+
+![[images/tdmMtT4.png]]
+
+![[tdmMtT4.png]]
 
 ![image](notes/images/tdmMtT4.png)
 
+![image](./images/tdmMtT4.png)
+
+![image](/images/tdmMtT4.png)
+
 ![image](images/tdmMtT4.png)
+
+![image](tdmMtT4.png)
 
 
 <img src="./images/tdmMtT4.png">
@@ -30,17 +44,6 @@ Example:
 
 <img src="images/tdmMtT4.png">
 
-<img src=".\images\tdmMtT4.png">
-
-<img src="notes\images\tdmMtT4.png">
-
-<img src="images\tdmMtT4.png">
-
-![[./images/tdmMtT4.png]]
-
-![[.\images\tdmMtT4.png]]
-
-![[notes\images\AO_off_1.png]]
 
 Ambient Occlusion OFF
 
