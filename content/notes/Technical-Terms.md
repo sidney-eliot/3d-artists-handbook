@@ -17,7 +17,7 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 
 Example:
 
-![[notes/images/tdmMtT4.png]]
+![[./images/tdmMtT4.png]]
 
 Ambient Occlusion OFF
 
