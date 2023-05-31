@@ -1,3 +1,5 @@
+# Links
+
 - https://www.youtube.com/watch?v=eL7r1Yav7qs (theory of sketching clothing before comitting)
 - https://www.youtube.com/watch?v=vaGvsk51vUI&list=RDCMUCH0FwuoIVHtYsuci4QMEbAA&index=2 (form zbrush base to marvelous)
 - https://www.youtube.com/watch?v=imp3j7l6V1U&list=RDCMUCH0FwuoIVHtYsuci4QMEbAA&index=3 (theory of correct cloth folds)
