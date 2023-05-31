@@ -1,5 +1,5 @@
 # The name to display in the footer
-name: Sidney
+name: Jacky Zhao
 
 # whether to globally show the table of contents on each page
 # this can be turned off on a per-page basis by adding this to the
@@ -7,13 +7,13 @@ name: Sidney
 enableToc: true
 
 # whether to by-default open or close the table of contents on each page
-openToc: true
+openToc: false
 
 # whether to display on-hover link preview cards
 enableLinkPreview: true
 
 # whether to render titles for code blocks
-enableCodeBlockTitle: false 
+enableCodeBlockTitle: true 
 
 # whether to render copy buttons for code blocks
 enableCodeBlockCopy: true 
@@ -57,16 +57,24 @@ search:
 
 # page description used for SEO
 description:
-  Covers all stages of the 3D creation process, as well as the theory side of things.
-  Helpful for 2D artists as well.
+  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
+  Wikilink support, backlinks, local graph, tags, and link previews.
 
 # title of the home page (also for SEO)
 page_title:
-  "🎴🦑 3D Artist's Handbook"
+  "🪴 Quartz 3.3"
 
 # links to show in the footer
 links:
-  - link_name: Discord
-    link: https://github.com/Epicrex
-  - link_name: GitHub
-    link: https://github.com/Epicrex
+  - link_name: Twitter
+    link: https://twitter.com/_jzhao
+  - link_name: Github
+    link: https://github.com/jackyzha0
+
+
+
+
+
+
+
+
