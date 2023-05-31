@@ -19,13 +19,15 @@ Example:
 
 ![[notes/images/AO_off_1.png]]
 
-![[./images/tdmMtT4.png]]
+![[../images/tdmMtT4.png]]
 
 ![[/images/tdmMtT4.png]]
 
 ![[images/tdmMtT4.png]]
 
 ![[tdmMtT4.png]]
+
+aaa
 
 ![image](notes/images/tdmMtT4.png)
 
