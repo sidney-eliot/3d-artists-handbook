@@ -1,8 +1,3 @@
----
-title: "🪴 3D Artist's Handbook"
-enableToc: false
----
-
 ## Hi
 I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me, you, and everyone else.
 <details>
@@ -52,4 +47,3 @@ _Note that things/ entire pages are unfinished. (The symbol ⚠ denotes that tho
 ## Awesome Blender Github by Mdsanima
 A treasure trove of links to all kinds of places.
 - [Awesome Blender](https://github.com/agmmnn/awesome-blender)
-
