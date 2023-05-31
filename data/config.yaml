@@ -10,7 +10,7 @@ enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: true
+enableGitHubEdit: false
 enableMermaid: false
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 search:
@@ -21,7 +21,7 @@ description:
   Covers all stages of the 3D creation process, as well as the theory side of things.
   Helpful for 2D artists as well.
 page_title:
-  "🎴🎨🦑 3D Artist's Handbook"
+  "🎴🦑 3D Artist's Handbook"
 links:
   - link_name: Discord
     link: x
