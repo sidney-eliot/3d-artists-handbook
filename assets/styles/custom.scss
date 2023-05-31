@@ -15,13 +15,13 @@
 }
 
 [saved-theme="dark"] {
-  --light: #0c0c18 !important;
-  --dark: #9c213a !important;
-  --secondary: #265e73 !important;
+  --light: #0c0c18 !important; //Background color
+  --dark: #9c213a !important; // Header color
+  --secondary: #265e73 !important; //Hyperlink color
   --visited: #4a575e !important;
   --tertiary: #84a59d !important;
-  --primary: #f58382 !important;
-  --gray: #521446 !important;
+  --primary: #9c213a !important; //Center dot in graph color
+  --gray: #521446 !important; //Normal text color
   --lightgray: #151528 !important;
   --outlinegray: #343434 !important;
   --highlighted: #574010;
