@@ -1,5 +1,5 @@
 # The name to display in the footer
-name: Jacky Zhao
+name: Sidney
 
 # whether to globally show the table of contents on each page
 # this can be turned off on a per-page basis by adding this to the
@@ -57,8 +57,8 @@ search:
 
 # page description used for SEO
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Covers all stages of the 3D creation process, as well as the theory side of things.
+  Helpful for 2D artists as well.
 
 # title of the home page (also for SEO)
 page_title:
@@ -66,15 +66,7 @@ page_title:
 
 # links to show in the footer
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
-  - link_name: Github
-    link: https://github.com/jackyzha0
-
-
-
-
-
-
-
-
+  - link_name: Discord
+    link: https://github.com/Epicrex
+  - link_name: GitHub
+    link: https://github.com/Epicrex
