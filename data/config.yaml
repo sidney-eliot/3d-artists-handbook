@@ -1,27 +1,29 @@
-name: Sidney
+name: "Jacky Zhao"
 enableToc: true
-openToc: true
+openToc: false
 enableLinkPreview: true
 enableLatex: true
-enableCodeBlockTitle: false
+enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: false
-enableGitHubEdit: false
+enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/Epicrex/3DArtistsHandbook/tree/hugo/content
+GitHubLink: "https://github.com/jackyzha0/quartz/tree/hugo/content"
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Covers all stages of the 3D creation process, as well as the theory side of things.
-  Helpful for 2D artists as well.
+  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
+  Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
-  "🎴🦑 3D Artist's Handbook"
+  "🪴 Quartz 3.3"
 links:
-  - link_name: GitHub
-    link: https://github.com/Epicrex
+  - link_name: "Twitter"
+    link: "https://twitter.com/_jzhao"
+  - link_name: "GitHub"
+    link: "https://github.com/jackyzha0"
