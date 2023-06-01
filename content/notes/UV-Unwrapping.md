@@ -4,19 +4,19 @@ enableToc: true
 ---
 
 # Table of Contents
-- [[#Overview UV-Unwrapping Table of Contents|Overview]]
-- [[#Placing Seams Table of Contents|Placing Seams]]
-- [Paddings/ Margins](#paddings-margins-)
-- [Mirroring UVs](#Mirroring-UVs)
-- [Scaling UVs](#Scaling-UVs-)
+- [[#Overview|Overview]]
+- [[#Placing Seams|Placing Seams]]
+- [[#Paddings/ Margins|Paddings/ Margins]]
+- [#Mirroring UVs](Mirroring UVs)
+- [#Scaling UVs](Scaling UVs)
 - [Things to Be Aware Of](#things-to-be-aware-of-)
 - [Blender UV Unwrapping Tools](#blender-uv-unwrapping-tools-)
 - [Good UV Unwrap Examples](#good-uv-unwrap-examples-)
 
-# Overview [[UV-Unwrapping#Table of Contents|^]]
+# Overview
 UV Unwrapping is best in blender, by far. When UV unwrapping it's good practice to use UV checker maps to better see distortions. Make sure that every part of the model that shares the same atlas texture map has the same UV checker map size. (My favorite collection of UV Checker Maps is [here](https://polycount.com/discussion/186513/free-checker-pattern-texture))
 
-# Placing Seams [[#Table of Contents|^]]
+# Placing Seams
 ## Helpful Stuff for Placing Seams
 - Seams can be selected in select menu (Shift + G or Select > Select Similar > Seam)
 - Seams can be placed at edges that surpass an angle threshold (Select > Select Sharp Edges or Shift + G)
