@@ -27,6 +27,10 @@ Example:
 
 ![[tdmMtT4.png]] Works in Obsidian
 
+![[/tdmMtT4.png]] Works in Obsidian
+
+![[./tdmMtT4.png]] Works in Obsidian
+
 ![image](../images/tdmMtT4.png) Works in Obsidian
 
 ![image](notes/images/tdmMtT4.png) Works in Hugo - Doesn't work in obsidian
