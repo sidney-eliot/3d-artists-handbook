@@ -7,10 +7,10 @@ enableToc: true
 - [[#Overview|Overview]]
 - [[#Placing Seams|Placing Seams]]
 - [[#Paddings/ Margins|Paddings/ Margins]]
-- [#Mirroring UVs](Mirroring UVs)
-- [#Scaling UVs](Scaling UVs)
-- [Things to Be Aware Of](#things-to-be-aware-of-)
-- [Blender UV Unwrapping Tools](#blender-uv-unwrapping-tools-)
+- [[#Mirroring UVs|Mirroring UVs]]
+- [[#Scaling UVs|Scaling UVs]]
+- [[#Things to be Aware of|Things to be Aware of]]
+- [[#Blender UV Unwrapping Tools|Blender UV Unwrapping Tools]]
 - [Good UV Unwrap Examples](#good-uv-unwrap-examples-)
 
 # Overview
@@ -64,7 +64,7 @@ Scaling UV's on separate meshes that go on the same texture map is fine, however
 
 When scaling make sure to always evenly scale along all axis
 
-# Things to Be Aware Of
+# Things to be Aware of
 - Not having objects transform scale set to 1 for all object on the same UV map, will result in size differences between UV islands when unwrapping
 - For baking only the low needs to be UV unwrapped
 
