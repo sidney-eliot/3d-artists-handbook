@@ -7,7 +7,7 @@ enableToc: true
 - [[#Overview Table of Contents|Overview]]
 - [[#Placing Seams Table of Contents|Placing Seams]]
 - [Paddings/ Margins](#paddings-margins-)
-- [Mirroring UVs](#Mirroring-UVs-)
+- [Mirroring UVs](#Mirroring-UVs)
 - [Scaling UVs](#Scaling-UVs-)
 - [Things to Be Aware Of](#things-to-be-aware-of-)
 - [Blender UV Unwrapping Tools](#blender-uv-unwrapping-tools-)
