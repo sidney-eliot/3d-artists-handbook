@@ -41,6 +41,16 @@ Example:
 
 ![image](images/tdmMtT4.png)
 
+here here here
+
+![Example image](/tdmMtT4.png)
+
+![Example image](./tdmMtT4.png)
+
+![Example image](tdmMtT4.png)
+
+here here here
+
 <img src="notes/images/tdmMtT4.png">
 
 <img src="notes/images/tdmMtT4.png"> Works in Hugo - Doesn't work in obsidian
