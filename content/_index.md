@@ -14,7 +14,7 @@ I'm a self-taught artist. I know just how difficult it can be, having to piece t
 
 
 
-This is probably best suited for intermediate and advanced 3D artist's. If you're a 2D artist look [[#All Relevant Things from This Handbook for 2D Artists|here]]. My 3D workflow mostly consists of following software: [`Blender`](https://www.blender.org/features/), [`ZBrush`](https://pixologic.com/), [`Marmoset`](https://marmoset.co/toolbag/), [`Substance Painter`](https://www.adobe.com/products/substance3d-painter.html), [`Photoshop`](https://www.adobe.com/products/photoshop.html) and [`Unreal`](https://www.unrealengine.com/en-US/features). So this handbook will cover workflows in said software, but many of the concepts can be applied to other software as well.
+This is probably best suited for intermediate and advanced 3D artist's. If you're a 2D artist look [[#All Relevant Things from This Handbook for 2D Artists|here]]. My 3D workflow mostly consists of following software: [Blender](https://www.blender.org/features/), [ZBrush](https://pixologic.com/), [Marmoset](https://marmoset.co/toolbag/), [Substance Painter](https://www.adobe.com/products/substance3d-painter.html), [Photoshop](https://www.adobe.com/products/photoshop.html) and [Unreal](https://www.unrealengine.com/en-US/features). So this handbook will cover workflows in said software, but many of the concepts can be applied to other software as well.
 
 If you don't understand a term give the [[notes/Glossary|glossary]] a visit.
 
