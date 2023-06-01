@@ -7,7 +7,7 @@ name: Sidney
 enableToc: true
 
 # whether to by-default open or close the table of contents on each page
-openToc: false
+openToc: true
 
 # whether to display on-hover link preview cards
 enableLinkPreview: true
