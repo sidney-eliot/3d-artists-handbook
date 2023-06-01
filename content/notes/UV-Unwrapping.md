@@ -4,10 +4,10 @@ enableToc: true
 ---
 
 # Table of Contents
-- [[#Overview|Overview]] 
-- [Overview](#Overview)
-- [[#Placing Seams|Placing Seams]]
-- [Placing Seams](#Placing-Seams)
+- [[#Overview|Overview]] works in obsidian - works in hugo
+- [Overview](#Overview) works in obsidian
+- [[#Placing Seams|Placing Seams]] works in obsidian
+- [Placing Seams](#Placing-Seams) doesn't work in obsidian
 
 
 
