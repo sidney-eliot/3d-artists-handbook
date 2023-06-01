@@ -17,7 +17,7 @@ enableToc: true
 UV Unwrapping is best in blender, by far. When UV unwrapping it's good practice to use UV checker maps to better see distortions. Make sure that every part of the model that shares the same atlas texture map has the same UV checker map size. (My favorite collection of UV Checker Maps is [here](https://polycount.com/discussion/186513/free-checker-pattern-texture))
 
 # Placing Seams [[#Table of Contents|^]]
-### Helpful Stuff for Placing Seams
+## Helpful Stuff for Placing Seams
 - Seams can be selected in select menu (Shift + G or Select > Select Similar > Seam)
 - Seams can be placed at edges that surpass an angle threshold (Select > Select Sharp Edges or Shift + G)
 - Smart UV unwrap can often do the job for hard surface objects
@@ -25,10 +25,10 @@ UV Unwrapping is best in blender, by far. When UV unwrapping it's good practice 
 - Seams can be recreated on the model based on the UV Islands, helpful for when seams are lost or extracting smart UV unwrap seams (UV > Seams from Islands)
 - One can cycle through different UV unwraps for one model, helpful for getting the best UV unwrap (Object Data Properties > UV Maps)
 
-### Rules for Placing Seams
+## Rules for Placing Seams
 - Make islands as big as possible. This reduces space because every island needs its own padding. For very long islands however, it still makes sense to split them into smaller islands. Another pro of bigger islands is that there are less islands so less seams.
 
-# Paddings/ Margins [^](#table-of-contents)
+# Paddings/ Margins
 Padding is important to avoid bleeding which is visible as seems on the model. Correct padding is also important for getting nice bevels when baking. Padding is between every UV island and margin between all islands and the texture borders. The amount of padding depends on the texture resolution. It also depends on how much downresing will happen. If the highest resolution is 4k and there is a low settings which downreses/ mips the texture to let's say 256px, then more padding is needed. How the texture will be viewed is also important, if it's a roof tile on an atlas environment sheet, it's viewed at extremely acute angles and will be mipped/ filtered to hell then more padding is generally good.
 
 Recommended paddings/ margins:
@@ -44,7 +44,7 @@ Baking software often adds a margins of it's own, when one lays out the UV's wit
 
 [Edge Padding (Polycount wiki)](http://wiki.polycount.com/wiki/Edge_padding)
 
-# Mirroring UVs [^](#table-of-contents)
+# Mirroring UVs
 Before UV unwrapping one has 2 choices, applying the mirror and UV unwrapping or UV unwrapping and applying the mirror at export. 
 
 Applying the mirror at export has the advantage that there's twice as much texture space because the UV's from the left and right are staked on top of each other, thus allowing to use smaller/ less textures or to just have a better resolution. However this has it's issues, generated textures for example don't look natural because everything perfectly mirrors to the other side
@@ -53,22 +53,22 @@ Applying the mirror before is often needed for specific designs and makes textur
 
 Best practice is to mix it up, object that connect at the middle and mirror form left to right should not have stacked UV's, however objects that are farther away from the middle can have stacked UV's. Another option is to split and object into two parts. And give the center a unique UV but stack the split object at the sides, this however comes with a hole another set of problems and should only be used if UV space optimization is key
 
-### Helpful Stuff for Mirroring UVs
+## Helpful Stuff for Mirroring UVs
 - A good workflow is to apply mirrors for all objects and then to stack UV's with tools that search for same UV's and stack them
 - Don't place seams for both sides. Either place them before mirroring or symmetrize topology so both sides have the same seam (Hard ops Alt+ X)
 
 [Video about mirrored UV's](https://www.youtube.com/watch?v=Rmv1Cxb3kb0)
 
-# Scaling UVs [^](#table-of-contents)
+# Scaling UVs
 Scaling UV's on separate meshes that go on the same texture map is fine, however scaling UV islands that touch each other on the same mesh will when texturing result in allot of issues with most of the procedural materials.
 
 When scaling make sure to always evenly scale along all axis
 
-# Things to Be Aware Of [^](#table-of-contents)
+# Things to Be Aware Of
 - Not having objects transform scale set to 1 for all object on the same UV map, will result in size differences between UV islands when unwrapping
 - For baking only the low needs to be UV unwrapped
 
-# Blender UV Unwrapping Tools [^](#table-of-contents)
+# Blender UV Unwrapping Tools
 ## UV Pack Master (Blender Addon)
 ### General
 - Enable Heuristic for better pack results
@@ -115,4 +115,4 @@ Allows one to fit UVs more tightly together and makes UV unwraps look better. It
 ## Zen UV (Blender Addon)
 - Wonder full UV unwrapping tool, I'll cover it at some point. [Here's](https://www.youtube.com/c/SergeyTyapkin/videos) the channel of the creator
 
-# Good UV Unwrap Examples [^](#table-of-contents)
+# Good UV Unwrap Examples
