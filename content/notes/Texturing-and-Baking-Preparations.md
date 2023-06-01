@@ -1,15 +1,8 @@
-# Table of Contents
-- [Great Resources](#Great-Resources-)
-- [Mesh](#mesh-)
-- [Normals](#normals-)
-- [UV Unwrapping](#uv-unwrapping-)
-- [Naming Conventions](#naming-conventions-)
-- [Color ID Mapping](#color-id-mapping-)
-- [Materials](#materials-)
-- [Extra](#extra-)
-- [Exporting](#exporting-)
-
-# Great Resources [^](#table-of-contents)
+---
+title: "Texturing/ Baking Preparations"
+enableToc: true
+---
+# Great Resources
 
 **Great Polycount Pages**
    - [Understanding averaged normals and ray projection](https://polycount.com/discussion/81154/understanding-averaged-normals-and-ray-projection-who-put-waviness-in-my-normal-map)
@@ -21,7 +14,7 @@
    - [Marmoset Official Baking Page](https://marmoset.co/posts/toolbag-baking-tutorial/)
    - [A Practical Guide On Normal Mapping for Games](https://docs.google.com/document/d/0B02lElvs8BcvYllmQWpXUGxod3M/edit?resourcekey=0-qyVFd0vGiqJl56hPbOnRWw)
 
-# Mesh [^](#table-of-contents)
+# Mesh
 - Try to keep the silhouette of the high and low mesh as close to each other as possible
 - Try to strategically use SubDiv modifiers, they will allot of the times be the cause for badly baked edges. For pieces that don't play a big role in the silhouette SubDiv is fine
 - When possible try to have as many mesh pieces that aren't connected as the high, connected as the low. This will reduce poly count, increase texture space and make weight painting/ animating so much easier
@@ -32,7 +25,7 @@
 - Floaters create AO map height offset (makes AO map look bad around floater)
 - Make sure floater has the exact angle of the the face below
 
-# Normals [^](#table-of-contents)
+# Normals [[Texturing-and-Baking-Preparations|^]]
 Normals or shading is very important and can dramatically alter the bake. Bad normals will result in a multitude of issues, some of them being grid patterns, black spots, bad angles of baked detail.
 
 The ultimate rule of thumb:
@@ -73,12 +66,12 @@ Sometimes however with more complex objects the generated cage won't work, then 
 - Import a custom cage
 - Split the object into separate parts
 
-# UV Unwrapping [^](#table-of-contents)
+# UV Unwrapping
 
 More in the [UV](UV-Unwrapping) page
 
 
-# Naming Conventions [^](#table-of-contents)
+# Naming Conventions
 The name indicates the low and high match however it doesn't indicate what is put on the same atlas, that depends on what was exported together in the same file. Numbers can be added to match more highs with a low. Use batch renamer to rename objects.
 - Needs to end with ```..._low``` or can also be ```..._low_...``` (Marmoset)
 - Not case sensitive
