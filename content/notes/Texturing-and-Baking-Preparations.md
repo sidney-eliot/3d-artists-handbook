@@ -4,13 +4,13 @@ enableToc: true
 ---
 # Great Resources
 
-**Great Polycount Pages**
+#### Great Polycount Pages
    - [Understanding averaged normals and ray projection](https://polycount.com/discussion/81154/understanding-averaged-normals-and-ray-projection-who-put-waviness-in-my-normal-map)
    - [Making sense of hard edges, uvs, normal maps](https://polycount.com/discussion/107196/youre-making-me-hard-making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts/p1)
    - [Bit Depths, Banding and Normal Maps](https://polycount.com/discussion/148303/of-bit-depths-banding-and-normal-maps/p1)
    - [Making sense of skewed normal map details](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details/p1)
 
-**Other Great Pages**
+#### Other Great Pages
    - [Marmoset Official Baking Page](https://marmoset.co/posts/toolbag-baking-tutorial/)
    - [A Practical Guide On Normal Mapping for Games](https://docs.google.com/document/d/0B02lElvs8BcvYllmQWpXUGxod3M/edit?resourcekey=0-qyVFd0vGiqJl56hPbOnRWw)
 

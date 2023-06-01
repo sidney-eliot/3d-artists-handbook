@@ -1,72 +1,29 @@
-# The name to display in the footer
-name: Sidney
-
-# whether to globally show the table of contents on each page
-# this can be turned off on a per-page basis by adding this to the
-# front-matter of that note
+name: Jacky Zhao
 enableToc: true
-
-# whether to by-default open or close the table of contents on each page
-openToc: true
-
-# whether to display on-hover link preview cards
+openToc: false
 enableLinkPreview: true
-
-# whether to render titles for code blocks
-enableCodeBlockTitle: false 
-
-# whether to render copy buttons for code blocks
-enableCodeBlockCopy: true 
-
-# whether to render callouts
-enableCallouts: true
-
-# whether to try to process Latex
 enableLatex: true
-
-# whether to enable single-page-app style rendering
-# this prevents flashes of unstyled content and improves
-# smoothness of Quartz. More info in issue #109 on GitHub
+enableCodeBlockTitle: true
+enableCodeBlockCopy: true
+enableCallouts: true
 enableSPA: true
-
-# whether to render a footer
 enableFooter: true
-
-# whether backlinks of pages should show the context in which
-# they were mentioned
 enableContextualBacklinks: true
-
-# whether to show a section of recent notes on the home page
 enableRecentNotes: false
-
-# whether to display an 'edit' button next to the last edited field
-# that links to github
-enableGitHubEdit: false
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
-
-# whether to render mermaid diagrams
+enableGitHubEdit: true
 enableMermaid: true
-
-# whether to use Operand to power semantic search
-# IMPORTANT: replace this API key with your own if you plan on using
-# Operand search!
+GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-
-# page description used for SEO
 description:
-  Covers all stages of the 3D creation process, as well as the theory side of things.
-  Helpful for 2D artists as well.
-
-# title of the home page (also for SEO)
+  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
+  Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
-  "🎴🦑 3D Artist's Handbook"
-
-# links to show in the footer
+  "🪴 Quartz 3.3"
 links:
-  - link_name: Discord
-    link: https://github.com/Epicrex
+  - link_name: Twitter
+    link: https://twitter.com/_jzhao
   - link_name: GitHub
-    link: https://github.com/Epicrex
+    link: https://github.com/jackyzha0
