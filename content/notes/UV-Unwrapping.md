@@ -4,14 +4,14 @@ enableToc: true
 ---
 
 # Table of Contents
-- [[#Overview|Overview]]
+- [[#./Overview|Overview]]
 - [[#Placing Seams|Placing Seams]]
 - [[#Paddings/ Margins|Paddings/ Margins]]
 - [[#Mirroring UVs|Mirroring UVs]]
 - [[#Scaling UVs|Scaling UVs]]
 - [[#Things to be Aware of|Things to be Aware of]]
 - [[#Blender UV Unwrapping Tools|Blender UV Unwrapping Tools]]
-- [Good UV Unwrap Examples](#good-uv-unwrap-examples-)
+- [[#Good UV Unwrap Examples|Good UV Unwrap Examples]]
 
 # Overview
 UV Unwrapping is best in blender, by far. When UV unwrapping it's good practice to use UV checker maps to better see distortions. Make sure that every part of the model that shares the same atlas texture map has the same UV checker map size. (My favorite collection of UV Checker Maps is [here](https://polycount.com/discussion/186513/free-checker-pattern-texture))
