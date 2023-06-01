@@ -15,19 +15,20 @@
 }
 
 [saved-theme="dark"] {
-  --light: #0c0c18 !important; //Background color
-  --dark: #9c213a !important; // Header color
-  --secondary: #86a59c !important; //Hyperlink color
+  --light: #101014 !important; //Background color
+  --dark: #fb3640 !important; // Header color
+  --secondary: #7fc6a4 !important; //Hyperlink color
   --visited: #4a575e !important;
   --tertiary: #84a59d !important;
   --primary: #9c213a !important; //Center dot in graph color
-  --gray: #265e73 !important; //Normal text color
+  --gray: #366a7d !important; //Normal text color
   --lightgray: #151528 !important; // Search box color, `text` color, code field color
   --outlinegray: #343434 !important; // Graph connection line color
   --highlighted: #574010;
 }
 
-
-
+//   --light: #0c0c18 !important; //Background color
+//   --dark: #9c213a !important; // Header color
 //   --gray: #691657 !important; //Normal text color
 //   --secondary: #265e73 !important; //Hyperlink color
+//   --lightgray: #151528 !important; // Search box color, `text` color, code field color
