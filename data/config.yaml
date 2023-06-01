@@ -12,7 +12,7 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: false
 enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/Epicrex/3DArtistsHandbook/tree/hugo/content
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
@@ -23,7 +23,5 @@ description:
 page_title:
   "🎴🦑 3D Artist's Handbook"
 links:
-  - link_name: Discord
-    link: https://github.com/Epicrex
   - link_name: GitHub
     link: https://github.com/Epicrex
