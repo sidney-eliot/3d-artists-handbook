@@ -17,51 +17,9 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 
 Example:
 
-![[notes/imagestdmMtT4.png]]
-
-![[../images/tdmMtT4.png]] Works in Obsidian
-
-![[/images/tdmMtT4.png]] Works in Obsidian
-
-![[images/tdmMtT4.png]] Works in Obsidian
-
-![[tdmMtT4.png]] Works in Obsidian
-
-![[/tdmMtT4.png]] Works in Obsidian
-
-![[./tdmMtT4.png]] Works in Obsidian
-
-![image](../images/tdmMtT4.png) Works in Obsidian
-
-![image](notes/images/tdmMtT4.png) Works in Hugo - Doesn't work in obsidian
-
-![image](./images/tdmMtT4.png)
-
-![image](/images/tdmMtT4.png)
-
-![image](images/tdmMtT4.png)
-
-here here here
-
-![Example image](/tdmMtT4.png)
-
-![Example image](./tdmMtT4.png)
-
+[[tdmMtT4.png]]
+![[tdmMtT4.png]]
 ![Example image](tdmMtT4.png)
-
-here here here
-
-<img src="notes/images/tdmMtT4.png">
-
-<img src="notes/images/tdmMtT4.png"> Works in Hugo - Doesn't work in obsidian
-
-<img src="../images/tdmMtT4.png">
-
-<img src="/images/tdmMtT4.png">
-
-<img src="images/tdmMtT4.png">
-
-
 
 
 Ambient Occlusion OFF
