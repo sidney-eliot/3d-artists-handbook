@@ -24,8 +24,10 @@ Example:
 ob
 ![[tdmMtT4.png]]
 ![[./tdmMtT4.png]]
-![[tdmMtT4.png]]
-![[tdmMtT4.png]]
+![[/tdmMtT4.png]]
+![[./images/tdmMtT4.png]]
+![[/images/tdmMtT4.png]]
+![[images/tdmMtT4.png]]
 ob
 
 
