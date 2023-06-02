@@ -21,6 +21,13 @@ Example:
 
 ![img](tdmMtT4.png)
 
+ob
+![[tdmMtT4.png]]
+![[./tdmMtT4.png]]
+![[tdmMtT4.png]]
+![[tdmMtT4.png]]
+ob
+
 
 Ambient Occlusion OFF
 
