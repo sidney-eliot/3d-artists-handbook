@@ -21,6 +21,10 @@ Example:
 <img src="/tdmMtT4.png" width="400">
 <img src="tdmMtT4.png" width="400">
 
+<img src="/notes/images/tdmMtT4.png" width="400">
+<img src="./notes/images/tdmMtT4.png" width="400">
+<img src="notes/images/tdmMtT4.png" width="400">
+
 ![img](tdmMtT4.png)
 
 ob
