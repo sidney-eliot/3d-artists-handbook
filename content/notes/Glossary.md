@@ -103,9 +103,8 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 - The further light travels in such a medium/material, the more it is absorbed and/or scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
 
 #### Examples
-Objects where SSS is vital
 
-> [!example]
+> [!example] Objects where SSS is vital
 > 
 > Fleshy characters, wacs, marble, milk
 
@@ -115,7 +114,7 @@ Objects where SSS is vital
 >  
 >  dirty water
 
-> [!hint] Objects that don’t scatter + absorb
+> [!hint]- Objects that don’t scatter + absorb
 >  
 > Clear Water
 
