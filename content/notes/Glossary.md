@@ -17,12 +17,12 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 
 Example:
 
-![[images/tdmMtT4.png|600]]
+![[tdmMtT4.png|600]]
 
 |Ambient Occlusion OFF|Ambient Occlusion ON
 |:-:|:-:
-|![[images/AO_off_1.png]]|![[images/AO_on_1.png]]
-|![[images/AO_off_2.png]]|![[images/AO_on_2.png]]
+|![[AO_off_1.png]]|![[AO_on_1.png]]
+|![[AO_off_2.png]]|![[AO_on_2.png]]
 
 
 ## Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
