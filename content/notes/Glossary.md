@@ -16,50 +16,12 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 - Requires high res light maps to look good
 
 Example:
+![[images/tdmMtT4.png|100]]
 
-1
-![[static/tdmMtT4.png]]
-
-2
-![[tdmMtT4.png]]
-
-3
-![[./tdmMtT4.png]]
-
-4
-![[/tdmMtT4.png]]
-
-5
-![[./images/tdmMtT4.png]]
-
-6
-![[/images/tdmMtT4.png]]
-![[images/tdmMtT4.png]]
-![[notes/images/tdmMtT4.png]]
-![[./notes/images/tdmMtT4.png]]
-
-
-Ambient Occlusion OFF
-
-![img](AO_off_1.png)
-
-Ambient Occlusion ON
-
-![img](AO_on_1.png)
-
-Ambient Occlusion OFF
-
-![img](AO_off_2.png)
-
-Ambient Occlusion ON
-
-![img](AO_on_2.png)
-
----
----
----
----
----
+|Ambient Occlusion OFF|Ambient Occlusion ON
+|:-:|:-:
+|![[images/AO_off_1.png]]|![[images/AO_on_1.png]]
+|![[images/AO_off_2.png]]|![[images/AO_on_2.png]]
 
 
 <details>
