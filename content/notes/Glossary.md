@@ -23,6 +23,7 @@ Example:
 |![[AO_off_1.png]]|![[AO_on_1.png]]
 |![[AO_off_2.png]]|![[AO_on_2.png]]
 
+---
 
 ### Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
@@ -39,6 +40,7 @@ Example of ray tracing making lighting and shadows worse:
 
 ![[20230603111140.png|600]]
 
+---
 
 ### Anisotropic Filtering
 Anisotropic or AF is a method of enhancing the image quality of textures on surfaces that are at oblique viewing 
@@ -118,7 +120,7 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 
 ### Volumetric effects: Volumetric Lighting/ Fog
 
-#### Volumetric Lighting
+**Volumetric Lighting**
 
 Volumetric lighting or God Rays let's beams of light shine across the environment
 
@@ -126,7 +128,7 @@ Example:
 
 ![[Pasted image 20230603124930.png|500]]
 
-#### Volumetric Fog
+**Volumetric Fog**
 
 > [!example] Volumetric Fog is used for 
 >
@@ -150,9 +152,10 @@ Example:
 
 
 ### Depth of Field
-Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends as well as the fall off can all be tweaked. Sometimes it is even possible to set multiple focal points.
+Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends as well as the fall off can all be adjusted in the render/ game engines settings. Sometimes it is even possible to set multiple focal points.
 
 Example:
+
 ![[Pasted image 20230603125653.png|700]]
 
 
