@@ -16,7 +16,7 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 - Requires high res light maps to look good
 
 Example:
-![[images/tdmMtT4.png|100]]
+![[images/tdmMtT4.png|600]]
 
 |Ambient Occlusion OFF|Ambient Occlusion ON
 |:-:|:-:
