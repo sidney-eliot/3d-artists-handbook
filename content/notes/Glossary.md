@@ -14,16 +14,12 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 - Alternative to ray tracing occlusion, however ray tracing occlusion is better
 - Requires high res light maps to look good
 
-Example:
-
-![[tdmMtT4.png|600]]
-
 |Ambient Occlusion OFF|Ambient Occlusion ON
 |:-:|:-:
 |![[AO_off_1.png]]|![[AO_on_1.png]]
 |![[AO_off_2.png]]|![[AO_on_2.png]]
 
----
+![[tdmMtT4.png|600]]
 
 ### Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
@@ -31,23 +27,21 @@ Ray Tracing is a rendering method that simulates the physical behavior of light 
 - Only works on NVIDIA RTX and some GTX series cards with DirectX ray tracing support
 - Enables ray traced results for shadows, AO, reflections, translucency and global illumination
 
-Example:
+Ray Tracing off vs on:
 
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
 
-On the flipped side, here's and example of ray tracing making lighting and shadows look way worse. This doesn't mean that Ray Tracing in it's nature makes lighting and shadows worse, but rather adding Ray Tracing into a scene that wasn't designed with Ray Tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how it will look like with Ray Tracing on. And potentially there needs to be 2 different presets for Ray Tracing on and off. 
+On the flipped side, here's and example of Ray Tracing makes the lighting and shadows look way worse. 
 
 ![[20230603111140.png|600]]
 
----
+This doesn't mean that Ray Tracing in it's nature makes lighting and shadows worse, but rather adding Ray Tracing into a scene that wasn't designed with Ray Tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with Ray Tracing on. And potentially there needs to be 2 different presets for Ray Tracing on and off. 
 
 ### Anisotropic Filtering
-Anisotropic or AF is a method of enhancing the image quality of textures on surfaces that are at oblique viewing 
-angles with respect to the camera
-Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing effects.
+ToDo: Explain better
 
-Example:
+Anisotropic filtering or AF for short, is a method of enhancing the image quality of textures on surfaces that are at oblique viewing angles with respect to the camera. Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing effects.
 
 ![[20230603111310.png|600]]
 
@@ -96,8 +90,6 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 - If there is no scattering and the absorption is low, rays can pass directly through
 - The further light travels in such a medium/material, the more it is absorbed and/or scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
 
-Examples:
-
 > [!example] Objects where SSS is vital
 > 
 > - Fleshy characters
@@ -122,17 +114,11 @@ Examples:
 
 #### Volumetric Lighting
 
-##### Volumetric Lighting
-
-###### Volumetric Lighting
-
-Volumetric lighting or God Rays let's beams of light shine across the environment
-
-Example:
+Volumetric lighting or God Rays lets beams of light shine across the environment.
 
 ![[Pasted image 20230603124930.png|500]]
 
-**Volumetric Fog**
+#### Volumetric Fog
 
 > [!example] Volumetric Fog is used for 
 >
@@ -144,21 +130,20 @@ Example:
 
 Volumetric fog has a great synergy with volumetric lighting.
 
+ToDo: Add image
 
 ### Chromatic Aberration
-- When a lens fails to focus all the colors into a single point, causing an ever so slight color shift on the edges of some objects
+ToDo: Restructure
+
+- In real life chromatic aberration occurs when a lens fails to focus all the colors into a single point, causing an ever so slight color shift on the edges of some objects
 - A color fringing or distortion
 - Basically the R, G and B channels are shifted to the left/ right. The shift amount and what channels are shifted can be tweaked
-
-Example:
 
 ![[Pasted image 20230603125616.png|700]]
 
 
 ### Depth of Field
 Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends as well as the fall off can all be adjusted in the render/ game engines settings. Sometimes it is even possible to set multiple focal points.
-
-Example:
 
 ![[Pasted image 20230603125653.png|700]]
 
@@ -174,7 +159,12 @@ Removes aliasing effect. Aliasing is the appearance of jagged edges in a rasteri
 
 
 ### Blending modes in 3D software
-Blend methods apply to every software(some have more and some less), every texture has to have a blend mode, the  most common one being Opaque. Blend Modes describe how the output of the current Material will blend over what is already being drawn in the background. Black = invisible/ not rendered and White = visible/ rendered.
+ToDo: Restructure
+
+Blend methods apply to every software (some have more or less modes). Every texture has to have a blend mode, the most common one being Opaque. Blend Modes describe how the output of the current material will blend over what is already being drawn (rendered) in the background.
+
+- Black = invisible/ not rendered
+- White = visible/ rendered
 
 #### Opaque Blend
 Surface through which light neither passes nor penetrates. The previous color will be overwritten and alpha is ignored. 
@@ -249,7 +239,7 @@ Multiplies the values of the Material against the pixels of the background.
 - When a light ray hits opaque surface one of two events occur:
 1. Incident light ray hit surface and `bounces off` in the same angle `(reflected light)`
 2. The light ray `passes through` the surface in a straight line `(refracted light)`
-- Absorption of the light ray doesn’t occur on the material surface
+- Absorption of the light ray ==doesn’t== occur on the material surface
 
 Examples:
 
