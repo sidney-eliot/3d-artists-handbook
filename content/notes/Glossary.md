@@ -38,7 +38,7 @@ Example:
 ![[20230603111117.png|600]]
 
 Example of ray tracing making lighting and shadows worse:
-
+<br>
 ![[20230603111140.png|600]]
 
 
