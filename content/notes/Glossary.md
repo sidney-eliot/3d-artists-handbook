@@ -6,7 +6,7 @@ enableToc: true
 
 # Visual
 
-### Ambient Occlusion
+## Ambient Occlusion
 
 Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
 It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
@@ -24,101 +24,57 @@ Example:
 |![[images/AO_off_2.png]]|![[images/AO_on_2.png]]
 
 
-<details>
-<summary>Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting</summary>
-
----
+## Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
 
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
 
 - Only works on NVIDIA RTX and some GTX series cards with DirectX ray tracing support
 - Enables ray traced results for shadows, AO, reflections, translucency and global illumination
 
-<details>
-<summary>Example</summary>
+Example:
 
-<img src="https://i.imgur.com/x9vLt9I.png" width="800">
-<img src="https://i.imgur.com/N7phljH.png" width="800">
-<p> Example of ray tracing making lighting and shadows worse</p>
-<img src=https://i.imgur.com/bcqJDR8.png" width="800">
+![[20230603110116.png|600]]
+![[Pasted image 20230603111117.png|600]]
+Example of ray tracing making lighting and shadows worse
+![[Pasted image 20230603111140.png|600]]
 
-</details>
 
----
-</details>
-
-<details>
-<summary>Anisotropic Filtering</summary>
-
----
+## Anisotropic Filtering
 
 Anisotropic or AF is a method of enhancing the image quality of textures on surfaces that are at oblique viewing 
 angles with respect to the camera
 Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing effects.
-<details>
-<summary>Example</summary>
 
-<img src="https://i.imgur.com/x1FPwwa.png">
-</details>
+Example:
 
----
-</details>
+![[Pasted image 20230603111310.png]]
 
-<details>
-<summary>Screen Space Refraction</summary>
 
----
+## Screen Space Refraction
 
 - Adds local reflections to the objects
 - Helps Glass, plastic, water, and other transparent/translucent materials.
 - Similar to screen space reflection. Screen Space Reflections and Ambient Occlusion aren't compatible with Screen Space Refraction. And are disabled on surfaces that use it.
 
----
 
-</details>
-
-
-<details>
-<summary>Screen Space Reflection</summary>
-
----
+## Screen Space Reflection
 
 A technique for reusing screen-space data to calculate reflections. Used for more subtle reflections like wet surfaces or puddles.
 
----
 
-</details>
-
-<details>
-<summary>Caustic</summary>
-
----
+## Caustic
 
 https://youtu.be/7l6QOcgWXfI
 
----
 
-</details>
-
-
-<details>
-<summary>Bloom</summary>
-
----
+## Bloom
 
 - Bloom/ light bloom (not to be confused with glow/emission) is a rendering technique to reproduce artifacts of real-world cameras. It produces fringes or feathers of light extending from the borders of bright areas in an image, contributing to the illusion of an extremely bright light overwhelming the camera or eye capturing the scene. 
 
 - Even tough bloom is most apparent around emissive objects, it can just as well happen with normal light sources
 
----
 
-</details>
-
-
-<details>
-<summary>Motion Blur</summary>
-
----
+## Motion Blur
 
 - Portrays the illusion of speed or movement blurring the objects
 - Tends to remove temporal aliasing effects
@@ -126,31 +82,15 @@ https://youtu.be/7l6QOcgWXfI
 - Not having Motion Blur on can lead to more eye strain, but can give you motion sickness
 - It can also increase the visual fidelity
 
----
 
-</details>
+## Lens Flare
 
-
-<details>
-<summary>Lens Flare</summary>
-
----
-
-<img src="https://i.imgur.com/bRmiQYC.png" width="400">
-
----
-
-</details>
+![[Pasted image 20230603111506.png|400]]
 
 
-<details>
-<summary>Sub Surface Scattering (SSS)</summary>
-
----
+## Sub Surface Scattering (SSS)
 
 Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS and thickness maps are used. For the SSS maps there mostly is a `SSS Color Map` and sometimes a `SSS Control Map` and to help the SSS `Thickness Maps`  are also often used.
-
-
 
 ### Theory behind SSS (Transparency and Translucency)
 - When traveling in an inhomogeneous medium(air) or translucent materials, light can be absorbed or scattered
@@ -172,16 +112,10 @@ Objects that scatter light: dirty water
 Objects that don’t scatter + absorb: Clear Water
 ```
 
-<img src="https://i.imgur.com/teScq0C.png" height="250">
+![[Pasted image 20230603111548.png|250]]
 
 
 
-
-
----
-
-
-</details>
 
 
 <details>
