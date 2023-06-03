@@ -111,6 +111,8 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 > - Marble
 > - Milk
 
+![[20230603111548.png|50]]
+
 > [!example] Objects that absorb light
 
 > [!example] Objects that scatter light
@@ -122,19 +124,6 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 > - Clear Water
 
 
-```
-Fleshy characters, wacs, marble, milk
-```
-
-```
-Objects that absorb light:
-
-Objects that scatter light: dirty water
-
-Objects that don’t scatter + absorb: Clear Water
-```
-
-![[20230603111548.png|50]]
 
 
 ### Volumetric effects: Volumetric Lighting/ Fog
