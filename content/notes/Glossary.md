@@ -96,7 +96,7 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 - If there is no scattering and the absorption is low, rays can pass directly through
 - The further light travels in such a medium/material, the more it is absorbed and/or scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
 
-#### Examples
+Examples:
 
 > [!example] Objects where SSS is vital
 > 
