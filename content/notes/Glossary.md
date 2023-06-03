@@ -36,7 +36,7 @@ Example:
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
 
-Example of ray tracing making lighting and shadows worse:
+On the flipped side, here's and example of ray tracing making lighting and shadows look way worse. This doesn't mean that Ray Tracing in it's nature makes lighting and shadows worse, but rather adding Ray Tracing into a scene that wasn't designed with Ray Tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how it will look like with Ray Tracing on. And potentially there needs to be 2 different presets for Ray Tracing on and off. 
 
 ![[20230603111140.png|600]]
 
