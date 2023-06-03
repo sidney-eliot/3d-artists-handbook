@@ -35,7 +35,7 @@ Ray Tracing is a rendering method that simulates the physical behavior of light 
 Example:
 
 ![[20230603110116.png|600]]
-![[20230603111117.png|600]]
+![[20230603123401.png|600]]
 
 Example of ray tracing making lighting and shadows worse:
 
@@ -106,15 +106,18 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 Objects where SSS is vital
 
 > [!example]
+> 
 > Fleshy characters, wacs, marble, milk
 
 > [!example] Objects that absorb light
 >
 
 >  [!example] Objects that scatter light:
+>  
 >  dirty water
 
 >  [!example] Objects that don’t scatter + absorb
+>  
 > Clear Water
 
 
