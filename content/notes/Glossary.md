@@ -120,7 +120,11 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 
 ### Volumetric effects: Volumetric Lighting/ Fog
 
-**Volumetric Lighting**
+#### Volumetric Lighting
+
+##### Volumetric Lighting
+
+###### Volumetric Lighting
 
 Volumetric lighting or God Rays let's beams of light shine across the environment
 
