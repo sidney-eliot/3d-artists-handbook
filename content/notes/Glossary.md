@@ -4,9 +4,9 @@ enableToc: true
 ---
 
 
-# Visual
+## Visual
 
-## Ambient Occlusion
+### Ambient Occlusion
 
 Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
 It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
@@ -25,7 +25,7 @@ Example:
 |![[AO_off_2.png]]|![[AO_on_2.png]]
 
 
-## Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
+### Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
 
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
 
@@ -36,11 +36,13 @@ Example:
 
 ![[20230603110116.png|600]]
 ![[20230603111117.png|600]]
-Example of ray tracing making lighting and shadows worse
+
+Example of ray tracing making lighting and shadows worse:
+
 ![[20230603111140.png|600]]
 
 
-## Anisotropic Filtering
+### Anisotropic Filtering
 
 Anisotropic or AF is a method of enhancing the image quality of textures on surfaces that are at oblique viewing 
 angles with respect to the camera
@@ -48,34 +50,34 @@ Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing
 
 Example:
 
-![[20230603111310.png]]
+![[20230603111310.png|600]]
 
 
-## Screen Space Refraction
+### Screen Space Refraction
 
 - Adds local reflections to the objects
 - Helps Glass, plastic, water, and other transparent/translucent materials.
 - Similar to screen space reflection. Screen Space Reflections and Ambient Occlusion aren't compatible with Screen Space Refraction. And are disabled on surfaces that use it.
 
 
-## Screen Space Reflection
+### Screen Space Reflection
 
 A technique for reusing screen-space data to calculate reflections. Used for more subtle reflections like wet surfaces or puddles.
 
 
-## Caustic
+### Caustic
 
 https://youtu.be/7l6QOcgWXfI
 
 
-## Bloom
+### Bloom
 
 - Bloom/ light bloom (not to be confused with glow/emission) is a rendering technique to reproduce artifacts of real-world cameras. It produces fringes or feathers of light extending from the borders of bright areas in an image, contributing to the illusion of an extremely bright light overwhelming the camera or eye capturing the scene. 
 
 - Even tough bloom is most apparent around emissive objects, it can just as well happen with normal light sources
 
 
-## Motion Blur
+### Motion Blur
 
 - Portrays the illusion of speed or movement blurring the objects
 - Tends to remove temporal aliasing effects
@@ -84,23 +86,23 @@ https://youtu.be/7l6QOcgWXfI
 - It can also increase the visual fidelity
 
 
-## Lens Flare
+### Lens Flare
 
 ![[20230603111506.png|400]]
 
 
-## Sub Surface Scattering (SSS)
+### Sub Surface Scattering (SSS)
 
 Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS and thickness maps are used. For the SSS maps there mostly is a `SSS Color Map` and sometimes a `SSS Control Map` and to help the SSS `Thickness Maps`  are also often used.
 
-### Theory behind SSS (Transparency and Translucency)
+#### Theory behind SSS (Transparency and Translucency)
 - When traveling in an inhomogeneous medium(air) or translucent materials, light can be absorbed or scattered
 - Absorption: `Light intensity decreases`, direction of the ray doesn’t change
 - Scattering: The ray direction changes randomly and doesn’t change its intensity (ear is thin -> low absorption = ear catches light)
 - If there is no scattering and the absorption is low, rays can pass directly through
 - The further light travels in such a medium/material, the more it is absorbed and/or scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
 
-### Examples
+#### Examples
 Objects where SSS is vital
 ```
 Fleshy characters, wacs, marble, milk
@@ -116,16 +118,11 @@ Objects that don’t scatter + absorb: Clear Water
 ![[20230603111548.png|250]]
 
 
+### Volumetric effects: Volumetric Lighting/ Fog
 
-
-
-<details>
-<summary>Volumetric effects: Volumetric Lighting/ Fog </summary>
-
----
 - Volumetric Lighting or God Rays let's beams of light shine across the environment
-  <details>
-  <summary>Example</summary>
+
+Example:
 
   <img src="https://i.imgur.com/awBOT8H.png" width="500">
 
