@@ -124,29 +124,28 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 > - Clear Water
 
 
-
-
 ### Volumetric effects: Volumetric Lighting/ Fog
 
-- Volumetric Lighting or God Rays let's beams of light shine across the environment
+#### Volumetric Lighting
+
+Volumetric lighting or God Rays let's beams of light shine across the environment
 
 Example:
 
 ![[Pasted image 20230603124930.png|500]]
 
+#### Volumetric Fog
 
+> [!example] Volumetric Fog is used for 
+>
+> - Fog
+> - clouds
+> - dust
+> - smoke
+> - Or any airborne material capable of partial occlusion
 
-  </details>
+Volumetric fog has a great synergy with volumetric lighting.
 
-- Volumetric Fog is used for 
-```
-Fog, clouds, dust, smoke or any airborne material capable of partial occlusion
-```
-Has a great synergy with Volumetric Lighting
-
----
-
-</details>
 
 <details>
 <summary>Chromatic Aberration</summary>
