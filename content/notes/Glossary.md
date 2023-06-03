@@ -17,11 +17,22 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 
 Example:
 
+1
 ![[static/tdmMtT4.png]]
+
+2
 ![[tdmMtT4.png]]
+
+3
 ![[./tdmMtT4.png]]
+
+4
 ![[/tdmMtT4.png]]
+
+5
 ![[./images/tdmMtT4.png]]
+
+6
 ![[/images/tdmMtT4.png]]
 ![[images/tdmMtT4.png]]
 ![[notes/images/tdmMtT4.png]]
