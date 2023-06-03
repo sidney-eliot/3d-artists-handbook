@@ -4,13 +4,14 @@
 
 {{if $.Site.Data.config.enableFooter}}
 <div class="page-end" id="footer">
+    <div class="backlinks-container">
+        {{partial "backlinks.html" .}}
+    </div>
     <div>
         {{partial "graph.html" .}}
     </div>
 </div>
-<div class="backlinks-container">
-    {{partial "backlinks.html" .}}
-</div>
+
 {{end}}
 
 {{partial "contact.html" .}}
