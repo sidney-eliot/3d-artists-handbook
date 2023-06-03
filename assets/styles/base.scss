@@ -52,16 +52,9 @@ h1, h2, h3, h4, h5, h6, thead {
 }
 
 // Lower saturation of subheaders
-h3, h4 {
+h4, h5, h6 {
   color: #a8242a
 }
-
-// Lower saturation of subheaders
-h5, h6 {
-  color: #ffffff
-}
-
-
 
 .hanchor {
   font-family: var(--font-header);
