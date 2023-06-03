@@ -132,7 +132,9 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 
 Example:
 
-  <img src="https://i.imgur.com/awBOT8H.png" width="500">
+![[Pasted image 20230603124930.png|500]]
+
+
 
   </details>
 
