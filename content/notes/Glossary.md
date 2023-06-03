@@ -104,7 +104,7 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 
 #### Examples
 
-> [!info] Objects where SSS is vital
+> [!example] Objects where SSS is vital
 > 
 > - Fleshy characters
 > - Wacs
@@ -115,11 +115,11 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 
 > [!example] Objects that scatter light
 >  
->  dirty water
+>  - dirty water
 
-> [!hint]- Objects that don’t scatter + absorb
+> [!example] Objects that don’t scatter/ absorb light
 >  
-> Clear Water
+> - Clear Water
 
 
 ```
