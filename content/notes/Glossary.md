@@ -34,7 +34,9 @@ ob
 ![[/tdmMtT4.png]]
 ![[./images/tdmMtT4.png]]
 ![[/images/tdmMtT4.png]]
+
 ![[images/tdmMtT4.png]]
+
 ![[notes/images/tdmMtT4.png]]
 ![[./notes/images/tdmMtT4.png]]
 ob
