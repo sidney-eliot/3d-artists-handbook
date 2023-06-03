@@ -51,6 +51,18 @@ h1, h2, h3, h4, h5, h6, thead {
   }
 }
 
+// Lower saturation of subheaders
+h2, h3, h4, h5, h6 {
+  color: #a8242a
+}
+
+// Lower saturation of subheaders
+thead {
+  color: #ffffff
+}
+
+
+
 .hanchor {
   font-family: var(--font-header);
   opacity: 0.8;
@@ -237,7 +249,7 @@ article {
     border: var(--outlinegray) 1px solid;
     padding: 0.2em 0.5em;
     &::before {
-      content: "###";
+      content: "#";
       margin-right: 0.3em;
       color: var(--outlinegray);
     }
