@@ -79,7 +79,7 @@ https://youtu.be/7l6QOcgWXfI
 - It can also increase the visual fidelity
 
 
-### Lens Flare
+### Lens Flare (ToDo)
 
 ![[20230603111506.png|400]]
 
@@ -208,7 +208,7 @@ No darkening, since all pixel values are added together.
 Multiplies the values of the Material against the pixels of the background.
 
 
-### Object properties</summary>
+### Object properties
 
 #### Transparent
 - With transparent objects almost all light passes directly through them. 
@@ -323,7 +323,7 @@ A pole is a set of edges that merge into a single vertex. Avoiding poles with si
 - Quad: 4 vert face
 - Ngon: 5+ vert face
 
-### Backface Culling (empty)
+### Backface Culling (ToDo)
 
 ### Convex/ Convex Hull
 Convex is means (ToDo). A convex hull is a mesh that wraps around another mesh in the most optimal way.
@@ -337,7 +337,7 @@ Convex is means (ToDo). A convex hull is a mesh that wraps around another mesh i
 ### Chamfer
 A corner with one edge is a hard edge, with 2 edges a chamfer and anything more than 2 is a bevel. Chamfers mostly have a 45° angle.
 
-### LOD's (Level of Detail) (empty)
+### LOD's (Level of Detail) (ToDo)
 
 ### Tessellation
 Also called triangulation. Is the process of the converting faces to random even triangles.
@@ -350,7 +350,7 @@ Banding artifacts are caused by a lack of precision with 8-bit normal maps. Ther
 
 [In depth PDF about banding](https://loopit.dk/banding_in_games.pdf)
 
-### Atlas/ Trim Sheet (empty)
+### Atlas/ Trim Sheet (ToDo)
 
 ### Dithering
 Adds noise to combat banding. So Dithering is mostly only used with low bit images. Dithering can be done by adding a noise filter in Photoshop.
@@ -383,17 +383,16 @@ The X is in all software the Right vector (Left/Right). The Y and X can either b
 
 It's important to use the same space for an assets and it's textures. When working with software that has different spaces this can be done by switching channels at export.
 
-### Mipmaps (empty)</summary>
+### Mipmaps (ToDo)
 
-### Tangent space</summary>
+### Tangent space ToDo
 https://marmoset.co/posts/toolbag-baking-tutorial/
-
 
 ## Animation
 
-### Apex/ Peak (empty)
+### Apex/ Peak (ToDo)
 
-### Bone Head/ Tail/ Body (empty)
+### Bone Head/ Tail/ Body (ToDo)
 
 
 ## Baking
@@ -401,9 +400,9 @@ https://marmoset.co/posts/toolbag-baking-tutorial/
 ### Floaters
 Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save allot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
 
-### Skews (empty)
+### Skews (ToDo)
 
-## Other (sort in)
+## Other (ToDo)
 
-#### Rigid body
+### Rigid body (ToDo)
 An object that is affected by forces gravity.
