@@ -110,13 +110,12 @@ Objects where SSS is vital
 > Fleshy characters, wacs, marble, milk
 
 > [!example] Objects that absorb light
->
 
->  [!example] Objects that scatter light:
+> [!example] Objects that scatter light
 >  
 >  dirty water
 
->  [!example] Objects that don’t scatter + absorb
+> [!example] Objects that don’t scatter + absorb
 >  
 > Clear Water
 
@@ -133,7 +132,7 @@ Objects that scatter light: dirty water
 Objects that don’t scatter + absorb: Clear Water
 ```
 
-![[20230603111548.png|250]]
+![[20230603111548.png|50]]
 
 
 ### Volumetric effects: Volumetric Lighting/ Fog
