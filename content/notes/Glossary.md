@@ -38,7 +38,7 @@ Example:
 ![[20230603111117.png|600]]
 
 Example of ray tracing making lighting and shadows worse:
-<br>
+
 ![[20230603111140.png|600]]
 
 
@@ -104,9 +104,24 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 
 #### Examples
 Objects where SSS is vital
+
+> [!example]
+> Fleshy characters, wacs, marble, milk
+
+> [!example] Objects that absorb light
+>
+
+>  [!example] Objects that scatter light:
+>  dirty water
+
+>  [!example] Objects that don’t scatter + absorb
+> Clear Water
+
+
 ```
 Fleshy characters, wacs, marble, milk
 ```
+
 ```
 Objects that absorb light:
 
