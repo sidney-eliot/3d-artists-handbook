@@ -104,9 +104,12 @@ Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS
 
 #### Examples
 
-> [!example] Objects where SSS is vital
+> [!info] Objects where SSS is vital
 > 
-> Fleshy characters, wacs, marble, milk
+> - Fleshy characters
+> - Wacs
+> - Marble
+> - Milk
 
 > [!example] Objects that absorb light
 
