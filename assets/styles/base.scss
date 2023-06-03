@@ -237,7 +237,7 @@ article {
     border: var(--outlinegray) 1px solid;
     padding: 0.2em 0.5em;
     &::before {
-      content: "#";
+      content: "###";
       margin-right: 0.3em;
       color: var(--outlinegray);
     }
