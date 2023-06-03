@@ -237,11 +237,9 @@ Multiplies the values of the Material against the pixels of the background.
 - A light ray that hits a surface is called the `incident ray` and the light that bounces of a surface is called the `reflected ray`
 - When the light ray hits an `opaque surface` the `reflected angle` is the `same` as the `incidence angle`
 - When a light ray hits opaque surface one of two events occur:
-1. Incident light ray hit surface and `bounces off` in the same angle `(reflected light)`
-2. The light ray `passes through` the surface in a straight line `(refracted light)`
+    1. Incident light ray hit surface and `bounces off` in the same angle `(reflected light)`
+    2. The light ray `passes through` the surface in a straight line `(refracted light)`
 - Absorption of the light ray ==doesn’t== occur on the material surface
-
-Examples:
 
 > [!example] Objects that reflect light
 > 
@@ -258,7 +256,7 @@ Examples:
 
 
 ### Specular Reflection
-- The more planar the surface is the more the incidence angle equals the reflected angle (law of reflection)
+- The more planar the surface is, the more the incidence angle equals the reflected angle (law of reflection)
 - Most surfaces are irregular
 - Rougher surfaces have `larger highlights` and are `dimmer` and `less reflective`
 - Smoother surfaces are `brighter` and `more reflective`
