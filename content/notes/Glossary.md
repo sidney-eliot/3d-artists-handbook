@@ -34,9 +34,9 @@ Ray Tracing is a rendering method that simulates the physical behavior of light 
 Example:
 
 ![[20230603110116.png|600]]
-![[Pasted image 20230603111117.png|600]]
+![[20230603111117.png|600]]
 Example of ray tracing making lighting and shadows worse
-![[Pasted image 20230603111140.png|600]]
+![[20230603111140.png|600]]
 
 
 ## Anisotropic Filtering
@@ -47,7 +47,7 @@ Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing
 
 Example:
 
-![[Pasted image 20230603111310.png]]
+![[20230603111310.png]]
 
 
 ## Screen Space Refraction
@@ -85,7 +85,7 @@ https://youtu.be/7l6QOcgWXfI
 
 ## Lens Flare
 
-![[Pasted image 20230603111506.png|400]]
+![[20230603111506.png|400]]
 
 
 ## Sub Surface Scattering (SSS)
@@ -112,7 +112,7 @@ Objects that scatter light: dirty water
 Objects that don’t scatter + absorb: Clear Water
 ```
 
-![[Pasted image 20230603111548.png|250]]
+![[20230603111548.png|250]]
 
 
 
