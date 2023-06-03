@@ -115,7 +115,7 @@ Objects where SSS is vital
 >  
 >  dirty water
 
-> [!example] Objects that don’t scatter + absorb
+> [!hint] Objects that don’t scatter + absorb
 >  
 > Clear Water
 
