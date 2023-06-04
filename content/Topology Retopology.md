@@ -1,5 +1,5 @@
 ---
-title: "Topology/ Retopology"
+title: "Topology and Retopology"
 enableToc: false
 ---
 
