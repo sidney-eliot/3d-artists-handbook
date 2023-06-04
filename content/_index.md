@@ -3,6 +3,10 @@ title: "Home"
 enableToc: false
 ---
 
+> [!warning] Warning
+> 
+> This handbook is still being migrated from the [GitHub wiki](https://github.com/Epicrex/3DArtistsHandbook/wiki), so many things are currently broken.
+
 ## Hi
 I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me, you, and everyone else.
 
