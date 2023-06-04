@@ -67,57 +67,39 @@ Rule of thirds isn't just used to place important points, but also to determine 
 
 ![[Pasted image 20230604144626.png|600]]
 
-> [!example]- Other Rule of Thirds examples
+>[!example]- Other Rule of Thirds examples
 > 
->![[Pasted image 20230604144633.png]]
->![[Pasted image 20230604144639.png]]
->![[Pasted image 20230604144646.png]]
->![[Pasted image 20230604144653.jpg]]
-
-
-<img src="https://i.imgur.com/V1sNuVS.png" width="400">
-
-<details>
-<summary>Other Rule of Thirds Examples</summary>
-<img src="https://i.imgur.com/cJqxQov.png" width="800">
-<img src="https://i.imgur.com/51PSmWe.png" width="700">
-<img src="https://i.imgur.com/qmofSZD.png" width="700">
-<img src="https://i.imgur.com/iYAG6Vl.jpg" width="700">
-
-
-
-</details>
+>![[Pasted image 20230604144633.png|800]]
+>![[Pasted image 20230604144639.png|700]]
+>![[Pasted image 20230604144646.png|700]]
+>![[Pasted image 20230604144653.jpg|700]]
 
 #### Triangle/ Pyramid
 Good for characters.
+![[Pasted image 20230604160548.png|250]]
 
-<img src="https://i.imgur.com/lXnPERU.png" width="250">
-
-<details>
-<summary>Other Triangle Examples</summary>
-<img src="https://user-images.githubusercontent.com/85735034/182139889-27f040e9-080b-4ac6-9f06-177cafad0586.png" width="250">
-<img src="https://user-images.githubusercontent.com/85735034/182140015-b623f318-a044-4f86-94e1-cd0282d91ed1.png" width="300">
-<img src="https://user-images.githubusercontent.com/85735034/182140577-bbc60a03-4abb-4735-b2b7-d7298f940e06.png" width="400">
-<img src="https://user-images.githubusercontent.com/85735034/182140104-30b37bce-1afe-44d3-b288-109e1b27019d.png" width="500">
-<img src="https://user-images.githubusercontent.com/85735034/222270391-96781cd8-d4c0-473f-af69-9b43d816155b.png" width="700">
-<img src="https://i.imgur.com/4jXTWym.png" width="400">
-</details>
+> [!example]- Other Triangle examples
+> 
+>![[Pasted image 20230604160636.png|250]]
+>![[Pasted image 20230604160650.png|300]]
+>![[Pasted image 20230604160705.png|400]]
+>![[Pasted image 20230604160718.png|500]]
+>![[Pasted image 20230604160736.png|700]]
+>![[Pasted image 20230604160753.png|400]]
 
 A reason why the triangle is so good, is because it's a sturdy shape:
 
-<img src="https://user-images.githubusercontent.com/85735034/182140243-b0cac4f1-d573-4fe2-8c8f-300443a8a224.png" width="220">
-
+![[Pasted image 20230604160811.png|220]]
 
 
 #### Flipped Triangle
 A more dynamic version of the triangle. The triangle can also be tilted which can make it a bit more interesting.
 
-<img src="https://user-images.githubusercontent.com/85735034/182140447-4ab5aba8-4c27-47b5-9893-73ff10393581.png" width="300">
+![[Pasted image 20230604160840.png|300]]
 
-<details>
-<summary>Other Flipped Triangle Examples</summary>
-<img src="https://user-images.githubusercontent.com/85735034/182140798-47aa2fc4-b4c1-4fcd-be4b-aa8ae2c13250.png" width="350">
-</details>
+> [!example]- Other Flipped Triangle examples
+> 
+>![[Pasted image 20230604160917.png|350]]
 
 
 
@@ -125,15 +107,15 @@ A more dynamic version of the triangle. The triangle can also be tilted which ca
 #### Symmetry
 Good to signal power, of a building for example. Symmetry line can be anywhere.
 
-<img src="https://i.imgur.com/24iSvf4.png" width="250">
 
-<details>
-<summary>Other Symmetry Examples</summary>
-<img src="https://i.imgur.com/SdnzW5H.png" width="700">
-<img src="https://i.imgur.com/r9A1m46.png" width="700">
+![[Pasted image 20230604160946.png|250]]
 
 
-</details>
+>[!example]- Other Symmetry examples
+> 
+>![[Pasted image 20230604161014.png|700]]
+>![[Pasted image 20230604161032.png|700]]
+
 
 #### Full Frame
 
