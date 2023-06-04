@@ -5,12 +5,11 @@ enableToc: false
 
 # Hi
 I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me, you, and everyone else.
-<details>
-<summary>More about this handbook</summary>
-~~~<br>
-I'm a self-taught artist. I know just how difficult it can be, having to piece together all the snippets one gets from all kinds of sources. So I made this handbook to cover the entire workflow, as well as other things like composition, character design theory, anatomy, and more. Now I'm not saying that this is the end-all-be-all, but it can definitely be your main support line that you compliment with a bit of your own research.
-<br>~~~
-</details>
+
+
+> [!info]- More about this handbook
+>
+> I'm a self-taught artist. I know just how difficult it can be, having to piece together all the snippets one gets from all kinds of sources. So I made this handbook to cover the entire workflow, as well as other things like composition, character design theory, anatomy, and more. Now I'm not saying that this is the end-all-be-all, but it can definitely be your main support line that you compliment with a bit of your own research.
 
 
 
@@ -23,9 +22,60 @@ Feel free to point out things that might not be the best practice or plain incor
 _Note that things/ entire pages are unfinished. (The symbol ⚠ denotes that those elements/ pages have not yet been finished/ integrated)_
 
 ## Main
-- Pages on the right --->
+_This section will be moved to a side panel so it can accessed from every page._
 
-  _(Or bottom on mobile)_
+> [!note]
+> 
+> ### Home
+> - [**Home**](https://github.com/Epicrex/3DArtistsHandbook/wiki#main)
+>   
+>  ### Theory
+>  - [**Glossary**](Technical-Terms) 📄
+>  - [**Composition**](Composition) 🌆
+>  - [**Technical Side of Character Design**](Technical-Side-of-Character-Design) 👩🏽‍💻
+>  - ⚠ [**Artistic Side of Character Design**](Artistic-Side-of-Character-Design)
+>  - [**Topology/ Retopology**](Topology)
+>  - [**Optimization**](Optimization) 📊
+>  - [**Color**](Color) 🎨🏳️‍🌈
+>  - [**Texture Maps**](Texture-Maps) 🗺️
+>  - [**Image Extension**](Image-Extensions) 
+> 
+> ### Process
+> - [**Organic/ Hardsurface/ Sculpting**](Hardsurface-Organic-Sculpting) 🧊🗿
+> - [**Blender <--> ZBrush Workflow**](ZBrush-To-Blender-Workflow) 🌀
+> - [**Blender Sculpting**](Sculpting)
+> - [**Hair**](Hair) 💇
+> - ⚠ [**Skin**](Skin)
+> - [**Anime Style Characters**](Anime-Style-Characters)
+> 
+> ### Texture
+> - [**UV Unwrapping**](UV-Unwrapping)
+> - [**Texturing/ Baking Preparations**](Texturing-and-Baking-Preparations)
+> - [**Baking**](Baking) 🎛️
+> - [**Texturing**](Texturing) 🖌️
+> 
+> ### Presentation
+> - [**Rigging**](Rigging) 🦴
+> - ⚠ [**Animating, Posing**](Animating,-Posing)
+> - ⚠ [**Lighting**](Lighting)
+> - [**Blender to Unreal Pipeline**](Blender-to-Unreal-Pipeline)
+> 
+> ### Post
+> - [**Rendering/ Compositing/ Posting**](Rendering,-Compositing,-Uploading)
+> 
+> ### Software Specific Knowledge
+> - [**ZBrush**](ZBrush) ⚪
+> - [**Blender**](Blender) 🟠
+> 
+> ### Other Relevant Wikis
+> - [**Anatomy**](https://github.com/Epicrex/AnatomyForArtists/wiki) 💪
+> - [**Hotkeys**](https://github.com/Epicrex/3DArtistsHandbookHotkeyEdition/wiki) ⌨️
+> - [**Addons**](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki) 🔮
+> - [**Extras**](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki)
+> - [**Unreal**](https://github.com/Epicrex/UnrealEngine/wiki)
+> 
+> ### Setup
+> - [**My Setup**](My-Setup)
 
 ## Anatomy
 - [Anatomy For Artists](https://github.com/Epicrex/AnatomyForArtists/wiki)
