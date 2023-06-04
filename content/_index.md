@@ -10,10 +10,6 @@ enableToc: false
 ## Hi
 I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me, you, and everyone else.
 
-[[#Anatomy]]
-
-[[_index#Anatomy]]
-
 > [!info]- More about this handbook
 >
 > I'm a self-taught artist. I know just how difficult it can be, having to piece together all the snippets one gets from all kinds of sources. So I made this handbook to cover the entire workflow, as well as other things like composition, character design theory, anatomy, and more. Now I'm not saying that this is the end-all-be-all, but it can definitely be your main support line that you compliment with a bit of your own research.

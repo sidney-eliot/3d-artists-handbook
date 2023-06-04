@@ -6,7 +6,7 @@ enableToc: true
 
 ## Table of Contents
 
-- [[Composition#Focal Elements/ Emphasis|Focal Elements/ Emphasis]]
+- [[Composition#Focal Elements Emphasis|Focal Elements/ Emphasis]]
 - [[Composition#Balance|Balanced]]
 - [[Composition#Positioning and Movement Direction|Positioning and Movement Direction]]
 - [[Composition#Tilt Shift Camera|Tilt Shift Camera]]
@@ -213,6 +213,13 @@ Another example of how to properly balance an image:
 ## Positioning and Movement Direction
 Moving to the left/ right, forward/ backward and so on, can portray different things in an image/ animation. Things like emotion, intent, power. (This can also apply to the direction in which the character is facing).
 
+>[!example]- Links
+>
+><br>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ys8-a0yD-MM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>- [Left or Right? Why a Character's Lateral Movement On-Screen Matters in Film](https://nofilmschool.com/2016/02/left-or-right-why-characters-lateral-movement-screen-matters-film)
+
 #### Left/ Right
 - **Moving from left to `RIGHT`:** Progression Of Time, Progress, Normality, To The Action _(Example: Soldiers running into battle to the right)_
 - **Moving from right to `LEFT`:** Moving Back In Time, Regression, Abnormality, Back To Safety _(Example: Soldiers carrying wounded to the left)_
@@ -227,16 +234,13 @@ Moving to the left/ right, forward/ backward and so on, can portray different th
 - **Moving `Up`/ being at the `Top`/ being `looked up` at:** Dominance, Power 
 - **Moving `Down`/ being at the `Bottom`/ `looking down` on:** Weak
 
-#### Why Is This/ Exmaples
+#### Why Is This/ Examples
 - Most languages read from left to right
 - Books begin at the left and end at the right
 - Evolution images show evolution starting at the left
 - In platformers one starts on the left and ends on the right
 - On graphs time increases as one moves to the right
 
-#### Links
-- https://youtu.be/Ys8-a0yD-MM
-- https://nofilmschool.com/2016/02/left-or-right-why-characters-lateral-movement-screen-matters-film
 
 ## Tilt Shift Camera
 Used to get straight lines in renders/ photographs and for panoramas. It's mainly used for architecture. It can also be done in compositing but that's a worst case scenario. To do this the camera should optimally be at an 90° angle, then change the shift amount on the desired axis. (In Blender this is in the camera tab)
@@ -250,8 +254,9 @@ Used to get straight lines in renders/ photographs and for panoramas. It's mainl
 >![[Pasted image 20230604162447.png]]
 >![[Pasted image 20230604162454.png]]
 
-Links:
-
-- https://www.youtube.com/watch?v=OeAXYgMwbyw
-- https://youtu.be/gvV5sINKnT8?t=102
-- https://www.youtube.com/watch?v=JuEkb6FNptE
+>[!example]- Links
+>
+><br>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OeAXYgMwbyw?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gvV5sINKnT8?start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
