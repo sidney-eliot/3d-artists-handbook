@@ -1,5 +1,5 @@
 ---
-title: "Hair"
+title: "Hair 💇🏼‍♀️"
 enableToc: true
 ---
 ## Table of Contents

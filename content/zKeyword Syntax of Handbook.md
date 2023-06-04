@@ -1,5 +1,5 @@
 ---
-title: "Anime Style Characters"
+title: "Keyword Syntax of Handbook"
 enableToc: false
 ---
 

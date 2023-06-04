@@ -1,5 +1,5 @@
 ---
-title: "Baking 🎛"
+title: "Baking 🎛️"
 enableToc: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Anime Style Characters"
+title: "Organic Hard Surface Sculpting 🧊🗿"
 enableToc: false
 ---
 

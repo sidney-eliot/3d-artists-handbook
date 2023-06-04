@@ -1,5 +1,5 @@
 ---
-title: "Anime Style Characters"
+title: "NameMe"
 enableToc: false
 ---
 

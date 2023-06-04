@@ -1,5 +1,5 @@
 ---
-title: "Anime Style Characters"
+title: "Workflow between ZBrush and Blender 🌀"
 enableToc: false
 ---
 

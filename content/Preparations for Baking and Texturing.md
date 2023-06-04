@@ -1,5 +1,5 @@
 ---
-title: "Texturing/ Baking Preparations"
+title: "Preparations for Baking and Texturing"
 enableToc: true
 ---
 # Great Resources

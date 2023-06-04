@@ -1,5 +1,5 @@
 ---
-title: "Composition"
+title: "Composition 🌆"
 enableToc: true
 ---
 

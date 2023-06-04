@@ -1,5 +1,5 @@
 ---
-title: "Glossary"
+title: "Glossary 📄"
 enableToc: true
 ---
 

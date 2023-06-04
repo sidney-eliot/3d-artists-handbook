@@ -1,5 +1,5 @@
 ---
-title: "Anime Style Characters"
+title: "Texture Maps 🗺️"
 enableToc: false
 ---
 
