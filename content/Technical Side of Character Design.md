@@ -1,5 +1,5 @@
 ---
-title: "Anime Style Characters"
+title: "Technical Side of Character Design"
 enableToc: false
 ---
 
