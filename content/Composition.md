@@ -1,6 +1,6 @@
 ---
 title: "Composition"
-enableToc: false
+enableToc: true
 ---
 
 
