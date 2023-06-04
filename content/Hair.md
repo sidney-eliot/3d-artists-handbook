@@ -50,8 +50,6 @@ Sculpting is great method for the final hair but where it really shines is as a 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bAL5O02HQ6Y_ESsW26t1wK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Hair Cards
-.markdown-source-view.mod-cm6 .internal-embed > img, .markdown-preview-view .internal-embed > img { box-shadow: 0 28px 8px -26px rgba(0, 0, 0); border:1px solid #ccc; margin: 0.25rem 0.25rem 0.75rem 0.25rem; }
-
 ![[Pasted image 20230604174906.png|400]]
 ![[Pasted image 20230604174914.png|400]]
 ![[Pasted image 20230604174921.png|400]]
