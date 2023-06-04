@@ -2,13 +2,6 @@
 title: "Hair"
 enableToc: true
 ---
-
-<style>
-img {  border-radius: 50%;}
-</style>
-
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/14f73be42900535619a13e28bb08b121a6a601fe/wiki_image_storage/hair_card_003.png">
-
 ## Table of Contents
 - [General](#general-)
 - [Good Software for Making Hair](#good-software-for-making-hair-)
@@ -59,10 +52,12 @@ Sculpting is great method for the final hair but where it really shines is as a 
 ## Hair Cards
 .markdown-source-view.mod-cm6 .internal-embed > img, .markdown-preview-view .internal-embed > img { box-shadow: 0 28px 8px -26px rgba(0, 0, 0); border:1px solid #ccc; margin: 0.25rem 0.25rem 0.75rem 0.25rem; }
 
+
+<div style="border-radius: 50%; overflow: hidden;">
 ![[Pasted image 20230604174906.png|400]]
 ![[Pasted image 20230604174914.png|400]]
 ![[Pasted image 20230604174921.png|400]]
-
+</div>
 
 ## About Hair Cards
 ### Info
