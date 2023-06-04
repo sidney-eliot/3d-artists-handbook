@@ -50,7 +50,9 @@ Having important points at the ratio of 1 to one edge and 1.68 to the opposite e
 >![[Pasted image 20230604144128.jpg|700]]
 >![[Pasted image 20230604144141.jpg|700]]
 >![[Pasted image 20230604144147.jpg|700]]
+>
 >And one more for laughs
+>
 >![[Pasted image 20230604144201.png|700]]
 
 #### Rule of Thirds
@@ -69,9 +71,8 @@ Rule of thirds isn't just used to place important points, but also to determine 
 >![[Pasted image 20230604144633.png]]
 >![[Pasted image 20230604144639.png]]
 >![[Pasted image 20230604144646.png]]
->![[Pasted image 20230604144653.jpg|2000]]
+>![[Pasted image 20230604144653.jpg]]
 
-![[Pasted image 20230604144653.jpg|2000]]
 
 <img src="https://i.imgur.com/V1sNuVS.png" width="400">
 
