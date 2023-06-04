@@ -1,13 +1,13 @@
+---
+title: "Hair"
+enableToc: true
+---
+
 <style>
 img {  border-radius: 50%;}
 </style>
 
 <img src="https://github.com/Epicrex/3DArtistsHandbook/blob/14f73be42900535619a13e28bb08b121a6a601fe/wiki_image_storage/hair_card_003.png">
-
----
-title: "Hair"
-enableToc: true
----
 
 ## Table of Contents
 - [General](#general-)
