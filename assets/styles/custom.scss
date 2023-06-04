@@ -15,6 +15,21 @@
 }
 
 [saved-theme="dark"] {
+  --light: #131316 !important; //Background color
+  --dark: #ccc8b1 !important; // Header color
+  --secondary: #1f4a48 !important; //Hyperlink color
+  --visited: #4a575e !important;
+  --tertiary: #84a59d !important;
+  --primary: #f58382 !important; //Center dot in graph color
+  --gray: #ccc8b1 !important; //Normal text color
+  --lightgray: #292633 !important; // Search box color, `text` color, code field color
+  --outlinegray: #343434 !important; // Graph connection line color
+  --highlighted: #574010;
+}
+
+
+/*
+[saved-theme="dark"] {
   --light: #101014 !important; //Background color
   --dark: #fb3640 !important; // Header color
   --secondary: #7fc6a4 !important; //Hyperlink color
@@ -26,6 +41,8 @@
   --outlinegray: #343434 !important; // Graph connection line color
   --highlighted: #574010;
 }
+*/
+
 
 // maybe this is a good header/ link color #533566
 
