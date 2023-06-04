@@ -6,30 +6,30 @@ enableToc: false
 
 ## Table of Contents
 
-- [[#Focal Elements/ Emphasis]]
+- [[Composition#Focal Elements/ Emphasis|Focal Elements/ Emphasis]]
 - [[Composition#Balance|Balanced]]
-- [[#Positioning and Movement Direction]]
-- [[#Tilt Shift Camera]]
+- [[Composition#Positioning and Movement Direction|Positioning and Movement Direction]]
+- [[Composition#Tilt Shift Camera|Tilt Shift Camera]]
 
 ## Focal Elements/ Emphasis
 Focal Elements/ Emphasis dictates the rough order at which the eye looks at the different elements of the artwork. This doesn't just apply to static renders but composition can also be achieved in games and even outside of cutscenes. 
 
 Great composition is achieved through:
 
-- [[#Color/ Saturation/ Contrast]]
-- [[#Placement of Key Elements]]
-- [[#Negative Space]]
-- [[#Energy Lines]]
-- [[#Guiding Lines]]
-- [[#Framing]]
+- [[Composition#Color/ Saturation/ Contrast|Color/ Saturation/ Contrast]]
+- [[Composition#Placement of Key Elements|Placement of Key Elements]]
+- [[Composition#Negative Space|Negative Space]]
+- [[Composition#Energy Lines|Energy Lines]]
+- [[Composition#Guiding Lines|Guiding Lines]]
+- [[Composition#Framing|Framing]]
 - Camera Focus
 - Motion
 - Faces/ Figures
 - Geometric Shapes
 
-[[#Other Elements/ Emphasis Examples]]
+[[Composition#Other Elements/ Emphasis Examples|Other Elements/ Emphasis Examples]]
 
-[[#Bad Examples]]
+[[Composition#Bad Examples|Bad Examples]]
 
 > [!example]- Videos about Composition
 > 
