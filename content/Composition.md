@@ -5,6 +5,7 @@ enableToc: false
 
 
 ## Table of Contents
+
 - [[#Focal Elements/ Emphasis]]
 - [[#Balance]]
 - [[#Positioning and Movement Direction]]
@@ -64,7 +65,7 @@ Rule of thirds isn't just used to place important points, but also to determine 
 
 1/3 stands out more than the 2/3.
 
-![[Pasted image 20230604144626.png|400]]
+![[Pasted image 20230604144626.png|600]]
 
 > [!example]- Other Rule of Thirds examples
 > 
