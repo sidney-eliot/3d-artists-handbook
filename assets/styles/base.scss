@@ -134,9 +134,6 @@ img {
   margin: 1em 0;
 }
 
-iframe{
-  border-radius: 12px;
-}
 
 p > img + em {
   display: block;
@@ -647,4 +644,16 @@ h4 {
 }
 h5 {
   font-size: 13.28px;
+}
+
+img {
+  border-radius: 12px;
+}
+
+iframe{
+  border-radius: 12px;
+}
+
+table {
+  border-radius: 12px;
 }

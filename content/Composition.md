@@ -1,6 +1,6 @@
 ---
 title: "Composition 🌆"
-enableToc: true
+enableToc: false
 ---
 
 
@@ -31,14 +31,17 @@ Great composition is achieved through:
 
 [[Composition#Bad Examples|Bad Examples]]
 
+
+
+
 > [!example]- Videos about Composition
 > 
 ><br>
 ><div style="text-align: center;">
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JuEkb6FNptE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O8i7OKbWmRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zbi_XUtb1Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VArISvUuyr0?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JuEkb6FNptE?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O8i7OKbWmRM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zbi_XUtb1Mk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VArISvUuyr0?start=9&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ></div>
 
 ### Color/ Saturation/ Contrast
