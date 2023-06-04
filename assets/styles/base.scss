@@ -134,7 +134,10 @@ img {
   margin: 1em 0;
   box-shadow: 0 28px 8px -26px rgba(0, 0, 0);
   border:1px solid #ccc;
+}
 
+iframe{
+  border-radius: 18px;
 }
 
 p > img + em {
