@@ -28,7 +28,7 @@ _Note that things/ entire pages are unfinished. (The symbol ⚠ denotes that tho
 ## Main
 _This section will be moved to a side panel so it can accessed from every page._
 
-> [!note]
+> [!note] Sidebar
 > 
 > ### Home
 > - [[_index|Home]]
