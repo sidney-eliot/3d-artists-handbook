@@ -29,7 +29,7 @@ Great composition is achieved through:
 
 [[#Other Elements/ Emphasis Examples]]
 
-[[#Bad Example]]
+[[#Bad Examples]]
 
 Videos about Composition:
 - https://www.youtube.com/watch?v=JuEkb6FNptE
@@ -121,15 +121,13 @@ Good to signal power, of a building for example. Symmetry line can be anywhere.
 
 Full frame allows the viewer to focus on what is important and to se more detail. It is almost only used for characters and creatures. A great thing about full frame composition is that it can be achieved with basically every finished painting by cutting away sides and doing some small tweaks if, though preparing for a full frame instead of it being afterthought is still better.
 
-<img src="https://user-images.githubusercontent.com/85735034/180183225-2e64c7b5-b8b5-4899-b812-b643d59ef67c.png" width="250">
+![[Pasted image 20230604161107.png|250]]
 
-<details>
-<summary>Other Full Frame Examples</summary>
-<img src="https://user-images.githubusercontent.com/85735034/182144014-43bf7e59-c6e4-464b-a93e-244acabecb07.png" width="400">
-<img src="https://i.imgur.com/ianL7dF.png" width="500">
-<img src="https://user-images.githubusercontent.com/85735034/182143460-c1dc3ffa-d2e7-413d-aeb4-10933662d32c.png" width="300">
-
-</details>
+>[!example]- Other Full Frame examples
+>
+>![[Pasted image 20230604161140.png|400]]
+>![[Pasted image 20230604161206.png|500]]
+>![[Pasted image 20230604161225.png|300]]
 
 ### Negative Space
 Positive space is a subject or point of interest and negative space is the surrounding area. More negative space gives the artwork space to breath while less negative space makes it more claustrophobic. Both can be good or bad depending on what kind of mood the artwork should convey. 
@@ -139,25 +137,21 @@ Positive space is a subject or point of interest and negative space is the surro
 ### Energy Lines
 Found in the pose of the character, can however also appear in the environment as rivers and roads for example.
 
-<img src="https://i.imgur.com/fp8rsQ4.png" width="450">
+![[Pasted image 20230604161249.png|450]]
 
-<details>
-<summary>Other Energy Line Examples</summary>
-
-</details>
 
 ### Guiding Lines
 
 An object that guides the eye to a position, when correctly placed they can make the eye travel around the image the way the artist wants them to. An all time favourite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
 
-<img src="https://i.imgur.com/chrQhpp.jpg" width="450">
+![[Pasted image 20230604161413.jpg|450]]
 
-<details>
-<summary>Other Guiding Line Examples</summary>
-<img src="https://i.imgur.com/3v0f7XT.jpg" width="700">
-<img src="https://i.imgur.com/Dj5PXk2.png" width="700">
-<img src="https://i.imgur.com/8P490Ot.png" width="700">
-</details>
+>[!example]- Other Guiding Line examples
+>
+>![[Pasted image 20230604161445.jpg|700]]
+>![[Pasted image 20230604161502.png|700]]
+>![[Pasted image 20230604161509.png|700]]
+
 
 ### Framing
 - Vignettes
@@ -165,33 +159,31 @@ An object that guides the eye to a position, when correctly placed they can make
 - Openings to the sky among dense buildings
 - Dense trees at the left and right leading to a point in the middle
 
-<img src="https://i.imgur.com/LmGfllD.png" width="600">
+![[Pasted image 20230604161531.png|600]]
 
-<details>
-<summary>Other Framing Examples</summary>
-<img src="https://user-images.githubusercontent.com/85735034/180187046-cb1cae18-9770-4059-9ce1-574076c4a955.png" width="500">
-
-<img src="https://user-images.githubusercontent.com/85735034/180188210-5a740068-e02d-47c6-b352-c0fad20d70ab.png" width="600">
-</details>
+>[!example]- Other Framing examples
+>
+>![[Pasted image 20230604161557.png|500]]
+>![[Pasted image 20230604161612.png|600]]
 
 ### Other Elements/ Emphasis Examples
 
-<details>
-<summary>Example</summary>
-<img src="https://i.imgur.com/hP2YsbN.png" width="800">
-<img src="https://i.imgur.com/UbH2d8e.png" width="800">
-<img src="https://i.imgur.com/Ubj5Hf2.png" width="800">
-<img src="https://i.imgur.com/vFrHluc.png" width="800">
-<img src="https://i.imgur.com/Q2ALWdU.png" width="800">
-<img src="https://i.imgur.com/VWdLqxD.png" width="800">
-</details>
+>[!example]- Other elements/ emphasis examples
+>
+>![[Pasted image 20230604161708.png|800]]
+>![[Pasted image 20230604161717.png|800]]
+>![[Pasted image 20230604161723.png|800]]
+>![[Pasted image 20230604161729.png|800]]
+>![[Pasted image 20230604161736.png|800]]
+>![[Pasted image 20230604161749.png|800]]
 
-### Bad Example
-<details>
-<summary>Example</summary>
-<img src="https://i.imgur.com/nMLf2gc.png" width="800">
-<img src="https://user-images.githubusercontent.com/85735034/180189325-dab28efd-099a-4fe6-ab43-fa72cb87c556.png" width="800">
-</details>
+### Bad Examples
+
+
+>[!example]- Bad examples
+>
+>![[Pasted image 20230604161922.png|800]]
+>![[Pasted image 20230604161940.png|800]]
 
 
 ## Balance
@@ -202,19 +194,18 @@ Elements that create weight:
 - Size
 - Faces/ Figures
 
-<img src="https://i.imgur.com/kIpRJ56.png" width="550">
+![[Pasted image 20230604162002.png|550]]
 
 A way to find unbalanced points, is to turn up the contrast and blur. 
 
 As we can see in the example below the presence of only one big light on the left makes the image very unbalanced:
 
-<img src="https://i.imgur.com/rE78cSp.png" width="400">
-<img src="https://i.imgur.com/VabRnAc.png" width="400">
+![[Pasted image 20230604162027.png|400]]
+![[Pasted image 20230604162039.png|400]]
 
-<details>
-<summary>Other (good) Balanced Examples</summary>
-<img src="https://i.imgur.com/17FiBPi.png" width="500">
-</details>
+Another example of how to properly balance an image:
+
+![[Pasted image 20230604162125.png|500]]
 
 
 ## Positioning and Movement Direction
@@ -248,19 +239,17 @@ Moving to the left/ right, forward/ backward and so on, can portray different th
 ## Tilt Shift Camera
 Used to get straight lines in renders/ photographs and for panoramas. It's mainly used for architecture. It can also be done in compositing but that's a worst case scenario. To do this the camera should optimally be at an 90° angle, then change the shift amount on the desired axis. (In Blender this is in the camera tab)
 
-<img src="https://i.imgur.com/mu9BKud.png" width="950">
 
-<details>
-<summary>Other Tilt Shift Examples</summary>
-<img src="https://i.imgur.com/rn26Dwo.png">
-<img src="https://i.imgur.com/QISDvat.png">
-<img src="https://i.imgur.com/aNHOA12.png">
-</details>
+![[Pasted image 20230604162416.png|950]]
 
-<details>
-<summary>Links</summary>
+>[!example]- Other Tilt Shift Examples
+>
+>![[Pasted image 20230604162442.png]]
+>![[Pasted image 20230604162447.png]]
+>![[Pasted image 20230604162454.png]]
+
+Links:
 
 - https://www.youtube.com/watch?v=OeAXYgMwbyw
 - https://youtu.be/gvV5sINKnT8?t=102
 - https://www.youtube.com/watch?v=JuEkb6FNptE
-</details>
