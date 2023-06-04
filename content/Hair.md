@@ -1,20 +1,15 @@
+<style>
+img {  border-radius: 50%;}
+</style>
+
+<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/14f73be42900535619a13e28bb08b121a6a601fe/wiki_image_storage/hair_card_003.png">
+
 ---
 title: "Hair"
 enableToc: true
 ---
 
 ## Table of Contents
-
-> [!note]- A YouTube Playlist I made, for all kinds of hair methods
-> 
-> <br>
-> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-**A [**YT PLAYLIST**](https://www.youtube.com/playlist?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu) I made, for all kinds of hair methods**.
-
-
-
 - [General](#general-)
 - [Good Software for Making Hair](#good-software-for-making-hair-)
 - [Sculpted Hair](#sculpted-hair-)
@@ -30,9 +25,15 @@ enableToc: true
 - [Particle System Hair](#particle-system-hair-)
 - [Resources](#resources-)
 
+>[!note]- A YouTube Playlist I made, for all kinds of hair methods
+> 
+><br>
+><div style="text-align: center;">
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
+
 
 ## General
-
 I recommend starting every haircut with a base sculpt. Refine this sculpt until the silhouette is close to what you want. After that create the hair with your desired style, keeping true to your sculpted block out.
 
 ## Good Software for Making Hair
@@ -45,28 +46,22 @@ I recommend starting every haircut with a base sculpt. Refine this sculpt until 
 - Both **Blender** and **ZBrush** are the best when it comes to placing hair strand curves by hand
 
 
-# Sculpted Hair
-## Sculpted Hair Examples
+## Sculpted Hair
+![[Pasted image 20230604170808.png|350]]![[Pasted image 20230604170824.png|350]]![[Pasted image 20230604170858.png|300]]![[Pasted image 20230604170907.png|300]]![[Pasted image 20230604170921.png|600]]![[Pasted image 20230604170758.png|250]]
 
-![[Pasted image 20230604170758.png|250]]
-![[Pasted image 20230604170808.png|350]]
-![[Pasted image 20230604170824.png|350]]
-
-![[Pasted image 20230604170858.png|300]]
-![[Pasted image 20230604170907.png|300]]
-![[Pasted image 20230604170921.png|600]]
-
-## About Sculpted Hair
+### About Sculpted Hair
 Sculpting is great method for the final hair but where it really shines is as a base/ block out for all other hair creations methods. Make it a habit to first sculpt a block out of the haircut until the silhouette is correct, and to use that as a shape guide.
 
-**[Sculpting Hair Playlist](https://www.youtube.com/playlist?list=PLveghVPT3X7bAL5O02HQ6Y_ESsW26t1wK)**
+**Sculpting Hair Playlist:**
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bAL5O02HQ6Y_ESsW26t1wK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Hair Cards
-## Hair Card Hair Examples
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_card_001.png" width="400"/>
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_card_002.png" width="400"/>
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_card_003.png" width="400"/>
+## Hair Cards
+.markdown-source-view.mod-cm6 .internal-embed > img, .markdown-preview-view .internal-embed > img { box-shadow: 0 28px 8px -26px rgba(0, 0, 0); border:1px solid #ccc; margin: 0.25rem 0.25rem 0.75rem 0.25rem; }
+
+![[Pasted image 20230604174906.png|400]]
+![[Pasted image 20230604174914.png|400]]
+![[Pasted image 20230604174921.png|400]]
 
 
 ## About Hair Cards

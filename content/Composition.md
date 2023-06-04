@@ -33,11 +33,13 @@ Great composition is achieved through:
 
 > [!example]- Videos about Composition
 > 
-> <br>
-> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JuEkb6FNptE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><br>
+><div style="text-align: center;">
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JuEkb6FNptE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O8i7OKbWmRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zbi_XUtb1Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VArISvUuyr0?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
 
 ### Color/ Saturation/ Contrast
 Bolder colors for more important things and duller/ muted color for unimportant things. If the entire piece is very dark then lighter colors will draw attention and when it is very light darker colors will draw attention
@@ -216,7 +218,9 @@ Moving to the left/ right, forward/ backward and so on, can portray different th
 >[!example]- Links
 >
 ><br>
+><div style="text-align: center;">
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ys8-a0yD-MM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
 >
 >- [Left or Right? Why a Character's Lateral Movement On-Screen Matters in Film](https://nofilmschool.com/2016/02/left-or-right-why-characters-lateral-movement-screen-matters-film)
 
@@ -257,6 +261,7 @@ Used to get straight lines in renders/ photographs and for panoramas. It's mainl
 >[!example]- Links
 >
 ><br>
+><div style="text-align: center;">
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OeAXYgMwbyw?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
->
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gvV5sINKnT8?start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
