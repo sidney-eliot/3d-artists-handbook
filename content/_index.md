@@ -10,6 +10,8 @@ enableToc: false
 ## Hi
 I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me, you, and everyone else.
 
+[[#Anatomy]]
+[[_index#Anatomy]]
 
 > [!info]- More about this handbook
 >
