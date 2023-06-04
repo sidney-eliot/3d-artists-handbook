@@ -32,6 +32,7 @@ enableToc: true
 >[!info] Linear ACES
 
 >[!info] Linear
+>
 >- Used for EXR images
 >- Best for rendering and compositing
 >- Corresponds more closely to nature
@@ -60,7 +61,8 @@ enableToc: true
 
 ## Shader Nodes
 ### Basic PBR Material Setup
-<img src="https://i.imgur.com/WYEEBeo.png" height="600">
+
+![[Pasted image 20230604143132.png|600]]
 
 ### Principled Shader Nodes
 The Principled BSDF Node is a combination of many other Principled nodes, which means that in theory you don't need to use the Principled BSDF but can simply put together other Principled nodes. This can sometimes be desired especially in game engines, when you want a performant and simple node setup and don't need the sheen for example. The Principled BSDF is built in such a way to accommodate the metallic workflow.
@@ -85,7 +87,7 @@ The Principled BSDF Node is a combination of many other Principled nodes, which 
 >- Clearcoat Normal >>> Controls the normals of the Clearcoat layer
 >- Tangent >>> Controls the tangent for the Anisotropic layer
 >
->![image](https://user-images.githubusercontent.com/85735034/127783221-c8f4deda-9cb5-4e93-86fd-b0e5f0d02ce1.png)
+>![[Pasted image 20230604143208.png]]
 
 > [!example]  Principled Glossy
 >

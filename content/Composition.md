@@ -1,73 +1,77 @@
 ---
-title: "Anime Style Characters"
+title: "Composition"
 enableToc: false
 ---
 
 
-# Table of Contents
-- [Focal Elements, Emphasis](#focal-elements-emphasis-)
-- [Balance](#Balance-)
-- [Positioning and Movement Direction](#positioning-and-movement-direction-)
-- [Tilt Shift Camera](#tilt-shift-camera-)
+## Table of Contents
+- [[#Focal Elements/ Emphasis]]
+- [[#Balance]]
+- [[#Positioning and Movement Direction]]
+- [[#Tilt Shift Camera]]
 
-# Focal Elements/ Emphasis [^](#table-of-contents)
+## Focal Elements/ Emphasis
 Focal Elements/ Emphasis dictates the rough order at which the eye looks at the different elements of the artwork. This doesn't just apply to static renders but composition can also be achieved in games and even outside of cutscenes. 
 
 Great composition is achieved through:
 
-- [Colors/ Saturation/ Contrasts](#Color-Saturation-Contrast-)
-- [Placement of Key Elements](#Placement-Of-Key-Elements-)
-- [Negative Space](#Negative-Space-)
-- [Energy Lines](#Energy-Lines-)
-- [Guiding Lines](#Guiding-Lines-)
-- [Framing](#Framing-)
+- [[#Color/ Saturation/ Contrast]]
+- [[#Placement of Key Elements]]
+- [[#Negative Space]]
+- [[#Energy Lines]]
+- [[#Guiding Lines]]
+- [[#Framing]]
 - Camera Focus
 - Motion
 - Faces/ Figures
 - Geometric Shapes
 
+[[#Other Elements/ Emphasis Examples]]
 
-[Other Examples](#Other-Elements-Emphasis-Examples-)
+[[#Bad Example]]
 
-
-[Bad Examples](#Bad-Example-)
-<details>
-<summary>Links</summary>
-
+Videos about Composition:
 - https://www.youtube.com/watch?v=JuEkb6FNptE
 - https://www.youtube.com/watch?v=O8i7OKbWmRM
 - https://www.youtube.com/watch?v=Zbi_XUtb1Mk
 - https://www.youtube.com/watch?v=VArISvUuyr0
-</details>
 
-## Color/ Saturation/ Contrast [^](#Focal-Elements-Emphasis-)
+### Color/ Saturation/ Contrast
 Bolder colors for more important things and duller/ muted color for unimportant things. If the entire piece is very dark then lighter colors will draw attention and when it is very light darker colors will draw attention
 
-## Placement of Key Elements [^](#Focal-Elements-Emphasis-)
-### (Fibonacci) Golden Ratio/ Golden Mean
+### Placement of Key Elements
+#### (Fibonacci) Golden Ratio/ Golden Mean
 Having important points at the ratio of 1 to one edge and 1.68 to the opposite edge
 
-<img src="https://i.imgur.com/74gmyAZ.png" width="400">
+![[Pasted image 20230604143244.png|400]]
 
-<details>
-<summary>Other Golden Ratio Examples</summary>
-<img src="https://i.imgur.com/Kn6DNJb.jpg" width="700">
-<img src="https://i.imgur.com/8NwNpaO.jpg" width="700">
-<img src="https://i.imgur.com/GAHenZk.jpg" width="700">
+> [!example]- Other Golden Ratio examples
+> 
+>![[Pasted image 20230604144128.jpg|700]]
+>![[Pasted image 20230604144141.jpg|700]]
+>![[Pasted image 20230604144147.jpg|700]]
+>And one more for laughs
+>![[Pasted image 20230604144201.png|700]]
 
-And one more for laughs
-
-<img src="https://user-images.githubusercontent.com/85735034/182143042-8fe351aa-cd29-47f7-ad53-b3b2a83f6609.png" width="700">
-</details>
-
-### Rule of Thirds
-Rule of thirds is not just used to place important points, but also to determine other things like for example:
+#### Rule of Thirds
+Rule of thirds isn't just used to place important points, but also to determine other things like:
 - Surfaces where light hits vs shadows
 - How much skin of the character should be revealed
 - Ratio between shiny and matte materials
 - Ratio of one color vs another color
 
 1/3 stands out more than the 2/3.
+
+![[Pasted image 20230604144626.png|400]]
+
+> [!example]- Other Rule of Thirds examples
+> 
+>![[Pasted image 20230604144633.png]]
+>![[Pasted image 20230604144639.png]]
+>![[Pasted image 20230604144646.png]]
+>![[Pasted image 20230604144653.jpg|2000]]
+
+![[Pasted image 20230604144653.jpg|2000]]
 
 <img src="https://i.imgur.com/V1sNuVS.png" width="400">
 
@@ -82,7 +86,7 @@ Rule of thirds is not just used to place important points, but also to determine
 
 </details>
 
-### Triangle/ Pyramid
+#### Triangle/ Pyramid
 Good for characters.
 
 <img src="https://i.imgur.com/lXnPERU.png" width="250">
@@ -103,7 +107,7 @@ A reason why the triangle is so good, is because it's a sturdy shape:
 
 
 
-### Flipped Triangle
+#### Flipped Triangle
 A more dynamic version of the triangle. The triangle can also be tilted which can make it a bit more interesting.
 
 <img src="https://user-images.githubusercontent.com/85735034/182140447-4ab5aba8-4c27-47b5-9893-73ff10393581.png" width="300">
@@ -116,7 +120,7 @@ A more dynamic version of the triangle. The triangle can also be tilted which ca
 
 
 
-### Symmetry
+#### Symmetry
 Good to signal power, of a building for example. Symmetry line can be anywhere.
 
 <img src="https://i.imgur.com/24iSvf4.png" width="250">
@@ -129,7 +133,7 @@ Good to signal power, of a building for example. Symmetry line can be anywhere.
 
 </details>
 
-### Full Frame
+#### Full Frame
 
 Full frame allows the viewer to focus on what is important and to se more detail. It is almost only used for characters and creatures. A great thing about full frame composition is that it can be achieved with basically every finished painting by cutting away sides and doing some small tweaks if, though preparing for a full frame instead of it being afterthought is still better.
 
@@ -143,12 +147,12 @@ Full frame allows the viewer to focus on what is important and to se more detail
 
 </details>
 
-## Negative Space [^](#Focal-Elements-Emphasis-)
+### Negative Space
 Positive space is a subject or point of interest and negative space is the surrounding area. More negative space gives the artwork space to breath while less negative space makes it more claustrophobic. Both can be good or bad depending on what kind of mood the artwork should convey. 
 
 - ToDo: Examples
 
-## Energy Lines [^](#Focal-Elements-Emphasis-)
+### Energy Lines
 Found in the pose of the character, can however also appear in the environment as rivers and roads for example.
 
 <img src="https://i.imgur.com/fp8rsQ4.png" width="450">
@@ -158,7 +162,7 @@ Found in the pose of the character, can however also appear in the environment a
 
 </details>
 
-## Guiding Lines [^](#Focal-Elements-Emphasis-)
+### Guiding Lines
 
 An object that guides the eye to a position, when correctly placed they can make the eye travel around the image the way the artist wants them to. An all time favourite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
 
@@ -171,7 +175,7 @@ An object that guides the eye to a position, when correctly placed they can make
 <img src="https://i.imgur.com/8P490Ot.png" width="700">
 </details>
 
-## Framing [^](#Focal-Elements-Emphasis-)
+### Framing
 - Vignettes
 - Big windows
 - Openings to the sky among dense buildings
@@ -186,7 +190,7 @@ An object that guides the eye to a position, when correctly placed they can make
 <img src="https://user-images.githubusercontent.com/85735034/180188210-5a740068-e02d-47c6-b352-c0fad20d70ab.png" width="600">
 </details>
 
-## Other Elements/ Emphasis Examples [^](#Focal-Elements-Emphasis-)
+### Other Elements/ Emphasis Examples
 
 <details>
 <summary>Example</summary>
@@ -198,7 +202,7 @@ An object that guides the eye to a position, when correctly placed they can make
 <img src="https://i.imgur.com/VWdLqxD.png" width="800">
 </details>
 
-## Bad Example [^](#Focal-Elements-Emphasis-)
+### Bad Example
 <details>
 <summary>Example</summary>
 <img src="https://i.imgur.com/nMLf2gc.png" width="800">
@@ -206,7 +210,7 @@ An object that guides the eye to a position, when correctly placed they can make
 </details>
 
 
-# Balance [^](#table-of-contents)
+## Balance
 Some elements in an image create weight and need to be balanced by other elements.
 
 Elements that create weight:
@@ -229,35 +233,35 @@ As we can see in the example below the presence of only one big light on the lef
 </details>
 
 
-# Positioning and Movement Direction [^](#table-of-contents)
+## Positioning and Movement Direction
 Moving to the left/ right, forward/ backward and so on, can portray different things in an image/ animation. Things like emotion, intent, power. (This can also apply to the direction in which the character is facing).
 
-### Left/ Right
+#### Left/ Right
 - **Moving from left to `RIGHT`:** Progression Of Time, Progress, Normality, To The Action _(Example: Soldiers running into battle to the right)_
 - **Moving from right to `LEFT`:** Moving Back In Time, Regression, Abnormality, Back To Safety _(Example: Soldiers carrying wounded to the left)_
 
 - **`Right` side of the screen:** Good, Positive
 - **`Left` side of the screen:** Bad, Negative
-### Forward/ Backward
+#### Forward/ Backward
 - **Moving `Forward`/ `Towards` the Camera`:** Power, Domination/ Dominance, Aggression
 - **Moving `Backward`/ `Away` from the Camera:** Weakness
 
-### Top/ Bottom
+#### Top/ Bottom
 - **Moving `Up`/ being at the `Top`/ being `looked up` at:** Dominance, Power 
 - **Moving `Down`/ being at the `Bottom`/ `looking down` on:** Weak
 
-### Why Is This/ Exmaples
+#### Why Is This/ Exmaples
 - Most languages read from left to right
 - Books begin at the left and end at the right
 - Evolution images show evolution starting at the left
 - In platformers one starts on the left and ends on the right
 - On graphs time increases as one moves to the right
 
-### Links
+#### Links
 - https://youtu.be/Ys8-a0yD-MM
 - https://nofilmschool.com/2016/02/left-or-right-why-characters-lateral-movement-screen-matters-film
 
-# Tilt Shift Camera [^](#table-of-contents)
+## Tilt Shift Camera
 Used to get straight lines in renders/ photographs and for panoramas. It's mainly used for architecture. It can also be done in compositing but that's a worst case scenario. To do this the camera should optimally be at an 90° angle, then change the shift amount on the desired axis. (In Blender this is in the camera tab)
 
 <img src="https://i.imgur.com/mu9BKud.png" width="950">
