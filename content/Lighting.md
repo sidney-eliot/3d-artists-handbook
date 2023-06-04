@@ -25,21 +25,16 @@ enableToc: false
 
 # God Ray
 
-<details>
-<summary>Blocky edges problem</summary>
+Blocky edges problem (in Blender Eevee):
 
 - Increase Cube Size (Shadows)
 - Increase Cascade Size (Shadows)
 - Increase Tile Size (Volumetrics)
 - Increase Samples (Volumetrics)
 - Increase Samples
-</details>
 
 
 
 # Theory
-<details>
-<summary>Example</summary>
-<img src="https://i.imgur.com/3QaTKJG.jpg" width="800">
-<img src="https://i.imgur.com/0zzCoJO.jpg" width="800">
-</details>
+![[Pasted image 20230604224125.jpg|800]]
+![[Pasted image 20230604224132.jpg|800]]

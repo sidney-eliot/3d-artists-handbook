@@ -65,17 +65,20 @@ Even though allot is possible in both of these software, you should still be usi
 - [Sculpting Videos](#Sculpting-Videos)
 
 # Best Channels For ZBrush [^](#table-of-contents)
-- <img src="https://yt3.ggpht.com/ytc/AMLnZu83MuHLljeij-3leh4AAfCdhEzpYkhMg1SdEKhGaw=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Keos Masons](https://www.youtube.com/@KeosMasons/featured)
-- <img src="https://yt3.ggpht.com/ytc/AMLnZu-19uSR48ET4I1mEbJ7h1zdcVQdiYkVeaky7eXvfA=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Michael Pavlovich](https://www.youtube.com/c/MichaelPavlovich)
-- <img src="https://yt3.ggpht.com/7_urt0o6U2ojEgwZkH0zUHWqXV303JAbQWj4Ia6OaBH5M9sWZnDEAzIOjD7AAj_J7VXe2695_w=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Flipped Normals](https://www.youtube.com/c/FlippedNormals)
-- <img src="https://yt3.ggpht.com/ytc/AMLnZu9aI4p24Wd70m1qlQKBE9S8kW6CB2lFpV3WVsPq=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Royal Skies](https://www.youtube.com/c/RoyalSkiesLLC)
-- <img src="https://yt3.ggpht.com/ytc/AMLnZu9ZtAtv4ZFqLQvxgtSLg8YA7FIO1R6T_SFK30ruyw=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Speed Char](https://www.youtube.com/c/SpeedChar)
-- <img src="https://yt3.ggpht.com/ytc/AMLnZu8N2vGqVcndjQ_Y7uVnlZkpRaOCziuMLGA-UGLL=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Outgang](https://www.youtube.com/c/Outgang)
-- <img src="https://yt3.googleusercontent.com/C5KNYUXf7pNS0FJM6kQKDURmIRZGxvE5ESALT_pQAG6WMaNBe0huqlosy-k_6-phKbBD0-27LhI=s176-c-k-c0x00ffffff-no-rj" width ="35"> [J Hill](https://www.youtube.com/c/artofjhill/videos)
-- <img src="https://yt3.googleusercontent.com/ytc/AMLnZu-ADWZLhnTFFRmEX_Xt6bRABBqk09RX9sv0eLag-w=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Danny Mac](https://www.youtube.com/c/DannyMac3d)
-- <img src="https://yt3.ggpht.com/ytc/AMLnZu8hcWtNG6BSaKqDEF52JHFpd5e_30gAz5MTNWIxBw=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Folgore CGI](https://www.youtube.com/c/TheFolgore94)
-- <img src="https://yt3.ggpht.com/ytc/AMLnZu-qYCfZHjCIFUWmYB5bRQE-YZdl5jWiujVsscNd=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Ryan Kingslien](https://www.youtube.com/c/RyanKingslienVertexSchool/videos)
-- <img src="https://yt3.googleusercontent.com/ytc/AMLnZu_eYmDxieJp3bFdoBflM0AFwizNKJ_OMYQ-u0TOoA=s176-c-k-c0x00ffffff-no-rj" width ="35"> [Pixologic ZBrush](https://www.youtube.com/c/PixologicZBrush) 
+
+
+|![[Pasted image 20230604224313.jpg\|40]]|[Keos Masons](https://www.youtube.com/@KeosMasons/featured)
+|:-:|:-:
+|![[Pasted image 20230604224506.jpg\|40]]|[Michael Pavlovich](https://www.youtube.com/c/MichaelPavlovich)
+|![[Pasted image 20230604225008.jpg\|40]]|[Flipped Normals](https://www.youtube.com/c/FlippedNormals)
+|![[Pasted image 20230604225043.jpg\|40]]| [Royal Skies](https://www.youtube.com/c/RoyalSkiesLLC)
+|![[Pasted image 20230604225154.jpg\|40]]|[Speed Char](https://www.youtube.com/c/SpeedChar)
+|![[Pasted image 20230604225236.jpg\|40]]|[Outgang](https://www.youtube.com/c/Outgang)
+|![[Pasted image 20230604225251.jpg\|40]]|[J Hill](https://www.youtube.com/c/artofjhill/videos)
+|![[Pasted image 20230604225307.jpg\|40]]|[Danny Mac](https://www.youtube.com/c/DannyMac3d)
+|![[Pasted image 20230604225324.jpg\|40]]|[Folgore CGI](https://www.youtube.com/c/TheFolgore94)
+|![[Pasted image 20230604225338.jpg\|40]]|[Ryan Kingslien](https://www.youtube.com/c/RyanKingslienVertexSchool/videos)
+|![[Pasted image 20230604225403.jpg\|40]]|[Pixologic ZBrush](https://www.youtube.com/c/PixologicZBrush) 
 
 # ------ BASIC ACTIONS ------ [^](#table-of-contents)
 

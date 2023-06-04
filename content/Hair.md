@@ -92,8 +92,7 @@ The textures that are most essential are: Alpha, Color, Normal, AO, Gradient
 
 But to get the desired hair look there are many others that are often used.
 
-<img src="https://i.imgur.com/lSjmzl3.png">
-
+![[Pasted image 20230604224005.png]]
 
 |Map|Explained
 |:-:|:--

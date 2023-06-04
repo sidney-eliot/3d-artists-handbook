@@ -83,8 +83,7 @@ Compression can be lossless or lossy. Lossless allows to reconstruct the origina
 ## Comparison
 ⚠ Take this image with a grain of salt
 
-<img src="https://i.imgur.com/9KgTJ1c.png">
-
+![[Pasted image 20230604224021.png]]
 
 # Links [^](#table-of-contents)
 - https://blender.stackexchange.com/questions/148231/what-image-format-encodes-the-fastest-or-at-least-faster-png-is-too-slow
