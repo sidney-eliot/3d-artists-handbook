@@ -7,7 +7,7 @@ enableToc: false
 ## Table of Contents
 
 - [[#Focal Elements/ Emphasis]]
-- [[Comsotition#Balance|Balanced]]
+- [[Composition#Balance|Balanced]]
 - [[#Positioning and Movement Direction]]
 - [[#Tilt Shift Camera]]
 
