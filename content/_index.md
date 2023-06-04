@@ -30,42 +30,42 @@ _This section will be moved to a side panel so it can accessed from every page._
 > - [[_index|Home]]
 >   
 >  ### Theory
->  - [[Glossary|Glossary]] 📄
->  - [[Composition|Composition]] 🌆
->  - [**Technical Side of Character Design**](Technical-Side-of-Character-Design) 👩🏽‍💻
+>  - [[Glossary]] 📄
+>  - [[Composition]] 🌆
+>  - [[Technical Side of Character Design]] 👩🏽‍💻
 >  - ⚠ [[Artistic Side of Character Design]]
->  - [**Topology/ Retopology**](Topology)
->  - [**Optimization**](Optimization) 📊
->  - [**Color**](Color) 🎨🏳️‍🌈
->  - [**Texture Maps**](Texture-Maps) 🗺️
->  - [**Image Extension**](Image-Extensions) 
+>  - [[Topology|Topology/ Retopology]]
+>  - [[Optimization]] 📊
+>  - [[Color]] 🎨🏳️‍🌈
+>  - [[Texture Maps]] 🗺️
+>  - [[Image Extensions]]
 > 
 > ### Process
-> - [**Organic/ Hardsurface/ Sculpting**](Hardsurface-Organic-Sculpting) 🧊🗿
-> - [**Blender <--> ZBrush Workflow**](ZBrush-To-Blender-Workflow) 🌀
-> - [**Blender Sculpting**](Sculpting)
-> - [**Hair**](Hair) 💇
-> - ⚠ [**Skin**](Skin)
-> - [**Anime Style Characters**](Anime-Style-Characters)
+> - [[Organic Hard Surface Sculpting|Organic/ Hard Surface/ Sculpting]] 🧊🗿
+> - [[Workflow Between ZBrush and Blender]] 🌀
+> - [[Blender Sculpting]]
+> - [[Hair]] 💇
+> - ⚠ [[Skin]]
+> - [[Anime Style Characters]]
 > 
 > ### Texture
-> - [**UV Unwrapping**](UV-Unwrapping)
-> - [**Texturing/ Baking Preparations**](Texturing-and-Baking-Preparations)
-> - [**Baking**](Baking) 🎛️
-> - [**Texturing**](Texturing) 🖌️
+> - [[UV Unwrapping]]
+> - [[Preparations for Baking and Texturing]]
+> - [[Baking]] 🎛️
+> - [[Texturing]] 🖌️
 > 
 > ### Presentation
-> - [**Rigging**](Rigging) 🦴
-> - ⚠ [**Animating, Posing**](Animating,-Posing)
-> - ⚠ [**Lighting**](Lighting)
-> - [**Blender to Unreal Pipeline**](Blender-to-Unreal-Pipeline)
+> - [[Rigging]] 🦴
+> - ⚠ [[Animating and Posing|Posing/ Animating]]
+> - ⚠ [[Lighting]]
+> - [[Blender to Unreal Pipeline]]
 > 
 > ### Post
-> - [**Rendering/ Compositing/ Posting**](Rendering,-Compositing,-Uploading)
+> - [[Rendering Compositing Uploading|Rendering/ Compositing/ Uploading]]
 > 
 > ### Software Specific Knowledge
-> - [**ZBrush**](ZBrush) ⚪
-> - [**Blender**](Blender) 🟠
+> - [[ZBrush]] ⚪
+> - [[Blender]] 🟠
 > 
 > ### Other Relevant Wikis
 > - [**Anatomy**](https://github.com/Epicrex/AnatomyForArtists/wiki) 💪
@@ -75,7 +75,7 @@ _This section will be moved to a side panel so it can accessed from every page._
 > - [**Unreal**](https://github.com/Epicrex/UnrealEngine/wiki)
 > 
 > ### Setup
-> - [**My Setup**](My-Setup)
+> - [[My Setup]]
 
 ## Anatomy
 - [Anatomy For Artists](https://github.com/Epicrex/AnatomyForArtists/wiki)

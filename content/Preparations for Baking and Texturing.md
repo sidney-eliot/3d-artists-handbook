@@ -25,7 +25,7 @@ enableToc: true
 - Floaters create AO map height offset (makes AO map look bad around floater)
 - Make sure floater has the exact angle of the the face below
 
-# Normals [[Texturing-and-Baking-Preparations|^]]
+# Normals [[Preparations for Baking and Texturing|^]]
 Normals or shading is very important and can dramatically alter the bake. Bad normals will result in a multitude of issues, some of them being grid patterns, black spots, bad angles of baked detail.
 
 The ultimate rule of thumb:
@@ -68,7 +68,7 @@ Sometimes however with more complex objects the generated cage won't work, then 
 
 # UV Unwrapping
 
-More in the [UV](UV-Unwrapping) page
+More in the [UV](UV%20Unwrapping.md) page
 
 
 # Naming Conventions

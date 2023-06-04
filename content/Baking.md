@@ -1,5 +1,5 @@
 # Table of Contents
-ℹ **Make sure to have red the [baking prep page](Texturing-and-Baking-Preparations) before baking for the best result.** ℹ
+ℹ **Make sure to have red the [baking prep page](Preparations%20for%20Baking%20and%20Texturing.md) before baking for the best result.** ℹ
 
 - [Where to Bake](#where-to-bake-)
 - [Reasons for Ambient Occlusion Maps Looking Bad](#reasons-for-ambient-occlusion-maps-looking-bad-)
@@ -18,7 +18,7 @@ Marmoset Toolbag yields the best bakes and has the best tools for troubleshootin
 - Play with ignore groups (located under every high object)
 - Not enough AO rays
 - Not enough texture resolution
-- Bad preparation. [Texturing/ Baking Preparations](Texturing-and-Baking-Preparations)
+- Bad preparation. [Texturing/ Baking Preparations](Preparations%20for%20Baking%20and%20Texturing.md)
 
 If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This indeed is such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map form Pyke's mount Nensi. I did a slight brightness adjustment for better visualization.
 
@@ -38,7 +38,7 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 # Reasons for Normal Maps Looking Bad [^](#table-of-contents)
 - Bad baked corners can be a result of not enough texture resolution
 - Usage of SubDiv
-- Bad preparation. [Texturing/ Baking Preparations](Texturing-and-Baking-Preparations)
+- Bad preparation. [Texturing/ Baking Preparations](Preparations%20for%20Baking%20and%20Texturing.md)
 
 # What Passes to Use [^](#table-of-contents)
 <details>
