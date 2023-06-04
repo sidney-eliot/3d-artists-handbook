@@ -3,14 +3,16 @@ title: "Color"
 enableToc: false
 ---
 
->[!info] Easily create wonderful color palettes 
-**To help choose your color palettes use [coolors.co](https://coolors.co/generate) or alternatively [Adobes color picker](https://color.adobe.com/create/color-wheel)**
+>[!info] Easily create wonderful color palettes
+>
+>**To help choose your color palettes use [coolors.co](https://coolors.co/generate) or alternatively [Adobes color picker](https://color.adobe.com/create/color-wheel)**
 
 ## Color Models
 There are three color models commonly used by digital artists:
 - [[#RGB Color Model|RGB]]
 - [[#HSV/ HSL Color Model|HSV/HSL]]
 - [[#Hex Color Model|HEX]]
+
 Note that all these color models are in the RGB color space.
 
 ### RGB Color Model
@@ -23,14 +25,15 @@ Use is for quick color picking, colors that won't be final. Using RGB color mode
 HSV stands for Hue, Saturation, Value where as HSL stands for Hue, Saturation, Lightness. The difference being that a color with maximum tint(lightness) is white with HSL and the actual color in HSV.
 
 HSL Example:
-![grafik](https://user-images.githubusercontent.com/85735034/171587872-1303ec9c-d13c-4b58-bc60-63636201b32a.png)
-![grafik](https://user-images.githubusercontent.com/85735034/171587942-6a23ecb6-14f9-4224-b237-62d641c7f6c5.png)
+
+![[Pasted image 20230604142613.png]]
+![[Pasted image 20230604142624.png]]
 
 **When to use**
 For 2D art and hand painted textures this is pretty much always the best choice, because of being able to easily select different tints/shades of a color. But it's also good for any other color picking. The choice between HSV vs HSL is a thing of preference, though HSV is probably the more popular one.
 
 ## Hex Color Model
-A hex color is like RGB. The syntax is `#RRGGBB`, so green would be #00FF00. 00 means none of that channel and FF means 255 of that channel (0,1,...9,A,...F). It's also possible to store alpha in hex with following syntax #RRGGBBAA, so green with alpha would be #00FF0012. The A can only range from 0-100.
+A hex color is like RGB. The syntax is #RRGGBB, so green would be #00FF00. 00 means none of that channel and FF means 255 of that channel (0,1,...9,A,...F). It's also possible to store alpha in hex with following syntax #RRGGBBAA, so green with alpha would be #00FF0012. The A can only range from 0-100.
 
 **When to use**
 HEX is almost only used for copying a color per values from A to B

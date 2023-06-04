@@ -3,7 +3,7 @@ title: "Blender Sculpting"
 enableToc: true
 ---
 
->[!iinfo] 
+>[!iinfo] Info
 >
 >Sculpting is better in ZBrush and ZBrush is the industry standard, which means that for most jobs you'll need to know how to use it. If you however don't have ZBrush, then here's a quick section about Blender sculpting.
 
@@ -41,11 +41,13 @@ higher focal length makes you see less of the model but more detail.
 >- Occasionally switch to a reflective MatCap to see if surfaces are smooth  
 
 >[!example] Other Settings
+>
 >- Under Viewport Overlays, enable: Annotations, Statistics
 >- Switch to annotation surface placement mode 
 >- Turn on X mirror
 
 >[!example] Brushes Settings
+>
 >- Front Faces only
 >- Size Pressure = Off
 >- Unified Radius = Off
