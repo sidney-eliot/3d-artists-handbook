@@ -3,7 +3,7 @@ title: "Home"
 enableToc: false
 ---
 
-# Hi
+## Hi
 I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me, you, and everyone else.
 
 
