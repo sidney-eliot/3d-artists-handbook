@@ -37,14 +37,14 @@ _This section will be moved to a side panel so it can accessed from every page._
 >  - [[Composition]] 🌆
 >  - [[Technical Side of Character Design]] 👩🏽‍💻
 >  - ⚠ [[Artistic Side of Character Design]]
->  - [[Topology Retopology|Topology and Retopology]]
+>  - [[Topology and Retopology|Topology, Retopology]]
 >  - [[Optimization]] 📊
 >  - [[Color]] 🎨🏳️‍🌈
 >  - [[Texture Maps]] 🗺️
 >  - [[Image Extensions]]
 > 
 > ### Process
-> - [[Organic Hard Surface Sculpting|Organic/ Hard Surface/ Sculpting]] 🧊🗿
+> - [[Organic Hard Surface Sculpting|Organic, Hard Surface, Sculpting]] 🧊🗿
 > - [[Workflow between ZBrush and Blender]] 🌀
 > - [[Blender Sculpting]]
 > - [[Hair]] 💇🏼‍♀️
@@ -59,12 +59,12 @@ _This section will be moved to a side panel so it can accessed from every page._
 > 
 > ### Presentation
 > - [[Rigging]] 🦴
-> - ⚠ [[Posing Animating|Posing/ Animating]]
+> - ⚠ [[Posing Animating|Posing, Animating]]
 > - ⚠ [[Lighting]] 💡
 > - [[Blender to Unreal Pipeline]]
 > 
 > ### Post
-> - [[Rendering Compositing Uploading|Rendering/ Compositing/ Uploading]]
+> - [[Rendering Compositing Uploading|Rendering, Compositing, Uploading]]
 > 
 > ### Software Specific Knowledge
 > - [[ZBrush]] ⚪
