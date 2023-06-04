@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 To keep keywords consisstent I'll define them here. Foe example a mistake that might happen is that one call the ZBrush SubTool, "sub tool" instead of "SubTool". 
 
 Some examples why this is important:
@@ -16,4 +21,5 @@ Some examples why this is important:
 |Real-Time|
 |Hyper-Realistic|
 |capitalize software names|
+|MatCap|
 

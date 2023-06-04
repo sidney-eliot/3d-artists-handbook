@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Table of Contents
 - [Best Formats](#Best-Formats-)
 - [Factors](#Factors-)

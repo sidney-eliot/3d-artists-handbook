@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Table of Contents
 - [Best Texturing Software](#best-texturing-software-)
 - [Layer Based Texturing Resources](#layer-based-texturing-resources-)

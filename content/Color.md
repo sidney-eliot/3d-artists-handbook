@@ -1,4 +1,9 @@
-# Quickly Get Wonderful Color Palettes
+---
+title: "Color"
+enableToc: false
+---
+
+>[!info] Easily create wonderful color palettes 
 **To help choose your color palettes use [coolors.co](https://coolors.co/generate) or alternatively [Adobes color picker](https://color.adobe.com/create/color-wheel)**
 
 # Color Models
@@ -32,6 +37,7 @@ A hex color is like RGB. The syntax is #RRGGBB, so green would be #00FF00. 00 me
 HEX is almost only used for copying a color per values from A to B
 
 # Keywords
+
 |Keyword|What is it|What does it affect|Notes
 |:-:|:-:|:-:|:-:
 |Tint|Mixture of a color with WHITE|Lightens the color/ Increases the colors brightness|

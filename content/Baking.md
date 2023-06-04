@@ -1,18 +1,17 @@
-# Table of Contents
-ℹ **Make sure to have red the [baking prep page](Preparations%20for%20Baking%20and%20Texturing.md) before baking for the best result.** ℹ
+---
+title: "Baking 🎛"
+enableToc: true
+---
 
-- [Where to Bake](#where-to-bake-)
-- [Reasons for Ambient Occlusion Maps Looking Bad](#reasons-for-ambient-occlusion-maps-looking-bad-)
-- [Reasons for Normal Maps Looking Bad](#reasons-for-normal-maps-looking-bad-)
-- [What Passes to Use](#what-passes-to-use-)
-- [A Great Way to Bake Normals for Every Situation](#a-great-way-to-bake-normals-for-every-situation-)
-- [Marmoset Specific](#marmoset-specific-)
+> [!info] Info
+> 
+> **Make sure to have red the [[Preparations for Baking and Texturing]] before baking for the best result.**
 
 
-# Where to Bake [^](#table-of-contents)
+## Where to Bake
 Marmoset Toolbag yields the best bakes and has the best tools for troubleshooting bakes. Followed by Marmoset, Substance Painter also gives acceptable results. Stay away from most bakers that are in 3D modeling software. Blender for example, can bake with some addons which I won't even mention. Don't bake in Blender if you care about your time and sanity. 
 
-# Reasons for Ambient Occlusion Maps Looking Bad [^](#table-of-contents)
+## Reasons for Ambient Occlusion Maps Looking Bad
 - High poly mesh not high enough
 - Not enough samples
 - Play with ignore groups (located under every high object)
@@ -35,12 +34,12 @@ I have come up with a fix however. The trick is to do 2 bakes of the AO map, one
 
 This issue doesn't just arise with AO maps, but other maps as well. So import all the other affected maps with their high subdivision pair and reuse the same mask used for the AO map before, instead of repainting the mask for all maps.
 
-# Reasons for Normal Maps Looking Bad [^](#table-of-contents)
+## Reasons for Normal Maps Looking Bad
 - Bad baked corners can be a result of not enough texture resolution
 - Usage of SubDiv
 - Bad preparation. [Texturing/ Baking Preparations](Preparations%20for%20Baking%20and%20Texturing.md)
 
-# What Passes to Use [^](#table-of-contents)
+## What Passes to Use
 <details>
 <summary>Bake Passes</summary>
 
@@ -64,16 +63,16 @@ These passes are only needed if one wants to texture in Marmoset or is working w
 
 </details>
 
-# A Great Way to Bake Normals for Every Situation [^](#table-of-contents)
+## A Great Way to Bake Normals for Every Situation
 
 Use 32bit Open EXR, if the software doesn't support that use PSD or 32 bit PNG. Make sure the image is made of floats and not bytes in Blender this is visible behind the channels. Also always go for 32 bit even if you don't want the final normal map to be 32 bit.
 
 If a 32 bit channel is the desired bit depth for the texture map, than you're done. If not, open it in PS or CSP and change the bit depth mode from 32bits to desired bit depth make sure to switch the method to Exposure and Gamma. This down-resing will result in terrible dithering, which can easily be removed. In Photoshop select the color bucket and set the color to R:128 G:128 B:255 (gray), then set the tolerance to 10 and turn off both Anti-alias and Contiguous. Then color fill the flat space which is blue.
 
-# Marmoset Specific [^](#table-of-contents)
+## Marmoset Specific
 [Official Marmoset baking guide](https://marmoset.co/posts/toolbag-baking-tutorial/)
 
-## Texture Map Setup
+### Texture Map Setup
 <details>
 <summary>Texture Map Setup</summary>
 
@@ -83,7 +82,7 @@ This is not needed for most normal map baking workflows
 
 </details>
 
-## What Settings to Use?
+### What Settings to Use?
 <details>
 <summary>Bake Settings</summary>
 
@@ -103,7 +102,7 @@ Use low settings for test bakes
 </details>
 
 
-## Skews
+### Skews
 Skews is a Marmoset only feature that allows for the normals to be edited real time and immediately shows the re baked result. This however doesn't replace the initial correction of normals.
 
 Skews can be toggled in the low menu and can be edited there as well. Editing the skew will make it red and make the normal point in a 90° angle form the face. The skew should (if at all) be painted at spots where screws, rivets and other detail is baked.
@@ -112,7 +111,7 @@ Marmoset automatically creates skews by looking at the face normals of the low p
 
 - When painting skews often white spots that don't need it need to be painted so the AO looks correct
 
-## Things to Be Aware of in Marmoset
+### Things to Be Aware of in Marmoset
 - Sometimes when re-baking or auto importing the modified mesh, the wrong normal map will be displayed. Re-toggle the preview and when that doesn't help delete the preview material
 - Only use smoothed cage (default cage)
 - Use Mikk/ xNormal as the tangent space (default tangent space)

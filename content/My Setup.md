@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Utility Software
 
 - Reference Board: [PureRef](https://www.pureref.com/), [MultiViewer](https://github.com/rgrams/multiviewer) (minimalistic alternative)

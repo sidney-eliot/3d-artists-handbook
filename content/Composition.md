@@ -1,6 +1,8 @@
 ---
-title: "Composition"
+title: "Anime Style Characters"
+enableToc: false
 ---
+
 
 # Table of Contents
 - [Focal Elements, Emphasis](#focal-elements-emphasis-)

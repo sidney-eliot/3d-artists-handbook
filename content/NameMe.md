@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Links
 
 - https://www.youtube.com/watch?v=eL7r1Yav7qs (theory of sketching clothing before comitting)

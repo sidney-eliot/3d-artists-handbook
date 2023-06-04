@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Table of Contents
 - [Performance](#Performance-Frame-Rate-)
 - [Industry Examples](#Industry-Examples-Characters-)

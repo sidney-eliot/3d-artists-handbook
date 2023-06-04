@@ -1,7 +1,12 @@
-# Overview
+---
+title: "Blender to Unreal Pipeline"
+enableToc: false
+---
+
+## Overview
 This pipeline will allow for any character that is rigged in a certain way to be seamlessly imported into unreal and use pre made unreal animations as well as ones own animations. What this pipeline also allows for is for creating character with more arms or maybe more neck bones and still use all the animations from the store as well as ones own animations made for character with a normal skeleton. Through retargeting, any animations even with totally other skeletons can be retargeted to yours.
 
-# Some Important Concepts to Understand
+## Some Important Concepts to Understand
 ### Correct Pose for Animation Retargeting
 If the rest pose of the source and target don't quite match up the animations won't perfectly transfer over. There are 3 ways of fixing it. The first way is to make sure that all the characters one makes have the same pose. This is quite unrealistic though. The second way is to have uefy at export from blender to match the pose. This has the disadvantage that the model is forcefully put in a slightly different rest pose which can mess with the model(especially around the crotch and armpit area). The third way is to temporarily give the model a different pose in the IK retargeter, this pose is only for the retargeting of animations, and the character will keeps it's original rest pose after animation export. This comes with the disadvantage of having to have all animations separate for every character with a different rest pose. All 3 ways have pros and cons. Just be aware that they don't have to perfectly line up, eyeballing it is fine. Also a combination of multiple ways may be the best way.
    - Way 1: Use a previously made character mesh and when making the character check if the pose matches
@@ -10,14 +15,14 @@ If the rest pose of the source and target don't quite match up the animations wo
 
 Correcting the pose includes things like having the elbows bent at the right angle, or having the hand rotation match up
 
-# 1. Install uefy Addon/ Script
+## 1. Install uefy Addon/ Script
 Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python addon. For the `pro version` simply install the addon (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It will create the same panel but with less functionality. It is important to know that the `light version` does not dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I will describe how to do it both with pro and lite.
 
 Rigify addon is also needed, but it's shipped with blender. If it isn't already enabled then enable it.
 
-# 2. TODO: Fill the blender part
+## 2. TODO: Fill the blender part
 
-# 3. Import into Unreal Engine
+## 3. Import into Unreal Engine
 - **Skeleton**: If this is the first character with this type of rig `don't select skeleton`. For every other character that has that same skeleton, `select that previously imported skeleton`. (If you bring in let's say a new race with 4 arms, then for the first character of that race, select no skeleton. After that select the previously imported 4 arm skeleton for every 4 arm character)
 - **Skeletal Mesh**: Only `false` when "Skeleton" has a skeleton selected, otherwise `true`
 - **Import Mesh**: `true`
@@ -25,20 +30,20 @@ Rigify addon is also needed, but it's shipped with blender. If it isn't already 
 
 
 
-# 4. Quick Clean Up
+## 4. Quick Clean Up
 Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Materials` `Textures` 
 - Put the imported Skeletal Mesh, Physics Asset and Skeleton into the `Meshes` folder
 - Put the imported materials into the `Materials` folder
 - Pull in all textures from the file explorer to the `Textures` folder
 
-# 5. Create Control Rig Blueprint 
+## 5. Create Control Rig Blueprint 
 1. Inside the `Rigs` folder, create a new `Control Rig` (RMB>Animation>Control Rig)
 2. Rename the `Control Rig` to `CharacterName_ControlRig`
 3. Open the `Control Rig`
 4. Click `Import Hierarchy` and select the corresponding `Skeletal Mesh` that was just imported (sometimes the skeletal mesh is not selectable, this makes little sense, nut re-importing can fix it)
 5. Compile, save and close the `Control Rig`
 
-# 6. Create Procedural Control Rig Blueprint
+## 6. Create Procedural Control Rig Blueprint
 1. Get the `Procedural Control Rig` called `CR_Mannequin_Procedural` from the Unreal Engine 5 third person starter project (All>Content>Characters>Mannequins>Rigs). And bring a copy of it back to your `Rigs` folder
 2. Rename the `Procedural Control Rig` to `CharacterName_Procedural_ControlRig`
 3. Open the `Procedural Control Rig`
@@ -48,7 +53,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
    - There will always be 2 nodes called `Interpolate` beside each other. Change the left ones value to `0.0` and the right ones value to `0.5`
 6. Save and close the `Procedural Control Rig`
 
-# 7. Create Post Process Animation Blueprint
+## 7. Create Post Process Animation Blueprint
 1. Inside the `Rigs` folder, create a new `Animation Blueprint` and select the corresponding `skeleton` that was just imported(RMB>Animation>Animation Blueprint)
 2. Rename the `Post Process Animation` BP to `CharacterName_Post_Process_AnimBP`
 3. Open the `Post Process Animation` BP
@@ -58,7 +63,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
    - Then connect the nodes like so: Input Pose -> Control Rig -> Output Pose
 5. Compile, save and close the `Post Process Animation` BP
 
-# 8. Skeletal Mesh Settings
+## 8. Skeletal Mesh Settings
 1. Open `Skeletal Mesh`
 2. In Asset Details > Animation Rig, set `Default Animation Rig` to the corresponding `Control Rig` that was just created
 3. In Asset Details > Skeletal Mesh, set `Post Process Animation Blueprint` to the corresponding `Post Process Animation` that was just created
@@ -70,7 +75,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
    - Set `pelvis` bone to `Animation Scaled` mode
 7. Switch to Skeleton mode (top right) and make sure the correct `Skeleton` is selected under Preview Scene > Mesh (If beside that there is an apply to asset button, click it)
 
-# 9. Create IK Rig
+## 9. Create IK Rig
 1. Inside the `Rigs` folder, create a new `IK Rig` and select the corresponding `skeletal Mesh` that was just imported(RMB>Animation>IK Rig)
 2. Rename the `IK Rig` to `CharacterName_IKRig`
 3. Open the `IK Rig`
@@ -97,13 +102,13 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
     - For the chain `thigh_l` the IK Goal = `foot_l_Goal`
     - Repeat for right side
 
-# 10. Create IK Rig for Animation Pack
+## 10. Create IK Rig for Animation Pack
 1. Somewhere inside the folder of the animation pack, create a new `IK Rig` and select the corresponding `skeletal Mesh` of that animation pack(RMB>Animation>IK Rig)
 2. Rename the `IK Rig` to `AnimationPackName_IKRig`
 3. Open the `IK Rig`
 4. Follow steps from section 9.. Apply some common logic when creating the bone chains, the order in which the bones is in will differ as well as the length of some of the chains.
 
-# 11. Create IK Retargeter
+## 11. Create IK Retargeter
 1. Inside the `Rigs` folder, create a new `IK Retargeter` (RMB>Animation>IK Retargeter)
 2. Rename the `IK Retargeter` to `AnimationPackName_To_CharacterName_IKRetargeter`
 3. Open the `IK Retargeter`
@@ -125,59 +130,39 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
 
 8. Finally when happy with the result export the animations. The Export button is at the top of the `Asset Browser` tab, select all the animations you want to export and click the button
 
-# 12. Cleaning Up Animation
+## 12. Cleaning Up Animation
 If the animation looks kind of off, or you think something can be improved, then tweak values from all prier steps as well as maybe using different chains. If the source and target skeleton are very different, then allot of tweaking will have to be done until everything looks perfect.
 
-# Extended Setup
+## Extended Setup
 ### High Heels
-<details>
-<summary>Open</summary>
-
 Resources:
-
 - https://www.youtube.com/watch?v=CzbzRevmOhc
 - https://forums.unrealengine.com/t/high-heels-and-flat-feet-help/147715
 - https://www.reddit.com/r/unrealengine/comments/m1qqk0/highheels_and_non_highheels_animations_help/
 - https://forum.reallusion.com/320306/Unreal-4-Retarget-CC-20-Highheel-Flatheel-Characters
 
-</details>
 
 ### Hair Physics
-<details>
-<summary>Open</summary>
-
 Resources:
-
 https://www.youtube.com/watch?v=T5pCaj0trAQ
 
-</details>
-
 ### Breast/ But Jiggle Physics
-<details>
-<summary>Open</summary>
-
 Jiggle physic can either be integrated into the animation, simulated or a combination of both. For physics to work the rig needs bones and weight painting for breasts/ but
 
 Resources:
-
 - https://www.youtube.com/watch?v=BFE5e-XUcwo
 - https://www.youtube.com/watch?v=8NB0Z79Gzk8
 - https://www.youtube.com/watch?v=kM4owhT2bR8
 
-</details>
 
-### Accessories/ Extra Body Parts (Necklaces, Wings, Tails,...)
-<details>
-<summary>Open</summary>
-</details>
+### Accessories/ Extra Body Parts (Necklaces, Wings, Tails, ...)
 
 
-
-# Links to Definitely Check Out to Understand How It Works
+## Links to Definitely Check Out to Understand How It Works
 - [Unreal explaining skeletons/ animation theory 1](https://www.youtube.com/watch?v=FDbpHamn2eY)
 - [Unreal explaining skeletons/ animation theory 2](https://www.youtube.com/watch?v=JkcJ5bjGPsg)
 
-# Links to Help When Stuck
+## Links to Help When Stuck
 - [Rakiz Farooq's Channel](https://www.youtube.com/c/RakizFarooq/featured)
 - [Blender to unreal video](https://www.youtube.com/watch?v=nY4Q8cYBLP8)
 - [Blender to unreal series(UE5)](https://www.youtube.com/watch?v=AhpOrqyGf0o)
@@ -189,10 +174,10 @@ Resources:
 - [Maya to unreal](https://www.youtube.com/watch?v=w3a1oHyxPl8)
 
 
-# WHAT'S NEXT?
+## WHAT'S NEXT?
 The next section (not done yet) will cover how to actually use the animation ready character, either for animations/ still renders or as a player controlled character in Unreal Engine 5. 
 
-# ⚠ Sort in ⚠
+## ⚠ Sort in ⚠
 
 ## Route 1 Converting Rigify Rig to Unreal Engine Ready Rig
 - Go into unreal engine and export the `SKM_Quinn_Simple` or `SKM_Manny_Simple` Skeletal Mesh(RMB > Asset Actions > Export)

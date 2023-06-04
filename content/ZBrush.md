@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Table of Contents
 - [General Things to Be Aware Of](#General-Things-To-Be-Aware-Of-)
 - 🖌 [Brushes/ Alphas/ Insert Mesh Brushes/ VDM Brushes/ Nano Meshes](#-Brushes-Alphas-Insert-Mesh-Brushes-VDM-Brushes-Nano-Meshes-)
@@ -18,7 +23,7 @@
 - ❌ [Errors](#-Errors-)
 
 # General Things to Be Aware Of [^](#table-of-contents)
-- My workflow between ZBrush and Blender is [here](Workflow%20Between%20ZBrush%20and%20Blender.md)
+- My workflow between ZBrush and Blender is [here](Workflow%20between%20ZBrush%20and%20Blender.md)
 - It's good to stay on the left side of the model (right side from the characters perspective). _This is because of Mirror and Weld_
 - Unlike in other software, subdivision in ZBrush are destructive. Even if one goes back to SubDiv level 1 and deletes all higher levels, the SubDiv will have dulled the edges in an irreversible way. This doesn't matter if you'll be adding a SubDiv at some point again to the object, because this edge dulling effect does not stack.
 

@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Table of Contents
 - [Rendering](#rendering-)
 - [Compositing](#compositing-)

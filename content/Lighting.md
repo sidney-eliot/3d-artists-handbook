@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # ⚠COMPLETELY UNFINISHED⚠
 
 # Volumetric Fog

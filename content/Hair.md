@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Table of Contents
 
 **A [**YT PLAYLIST**](https://www.youtube.com/playlist?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu) I made, for all kinds of hair methods**.

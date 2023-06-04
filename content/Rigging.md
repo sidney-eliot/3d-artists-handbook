@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Rigging Humanoid with Blender's Rigify (Addon)
 
 ## Theory

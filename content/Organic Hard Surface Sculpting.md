@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Overview
 This section covers all possible ways to achieve general and specific modeling/ sculpting tasks. There's no reason to only stick to Blender or ZBrush, thanks to GoB/ GoZ one can send selected parts of the model between both software with one click. 
 

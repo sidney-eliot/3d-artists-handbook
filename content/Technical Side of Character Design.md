@@ -1,3 +1,8 @@
+---
+title: "Anime Style Characters"
+enableToc: false
+---
+
 # Table of Contents
 - [Important Conventions to Follow](#important-conventions-to-follow-)
 - [Pitfalls to Watch Out For](#pitfalls-to-watch-out-for-)

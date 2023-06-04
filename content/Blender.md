@@ -1,11 +1,16 @@
-# Increase Performance
+---
+title: "Blender"
+enableToc: true
+---
+
+## Increasing Performance
 - Turn off statistics (surprisingly grants big boost)
 - When possible apply modifier
 - When sculpting use multires modifier
 - Disable objects from viewport (display symbol)
 - Don't overdue it with subD levels and rather increase render SubDiv levels
 
-# Clean Up Interface
+## Cleaning Up Interface
 - Enter Fullscreen mode (Window > Toggle Windowed Fullscreen)
 - Maximize current window inside of blender (Ctrl + Space)
 - Hide Left/ Right Tabs (T/ N)
@@ -14,63 +19,27 @@
 - Right click on the header to disable parts at the top
 
 
-# Blender Texture Map Node Setup
-Mostly you will want flat materials (textures that don't manipulate the mesh), however sometimes one wants the textures to manipulate the mesh. The following 3 textures node setups are in blender.
+## Blender Color Spaces
 
-### PBR Material
-<img src="https://i.imgur.com/WYEEBeo.png" height="600">
+>[!info] sRGB
 
-### Geometry Displacement Material
-```
-Base Color map -> Principled BSDF
-Metallic map -> “
-Roughness map -> “
-Normal map -> “
-Subdivide mesh
-Add displace modifier (select the height map and change strength)
-```
-Extra Cycles setting: Materials Properties>Settings>Displacement
+>[!info] Raw
 
+>[!info] Non-Color
+>
+>- Used for images that don't actually contain color data
 
-### Geometry Displacement Material with a Height Map
-```
-Base Color map -> Principled BSDF
-Metallic map -> “
-Roughness map -> “
-Normal map -> “
-Height map -> Displacement node -> Material Output 
-Subdivide mesh
-```
-Extra Cycles setting: Materials Properties>Settings>Displacement
+>[!info] Linear ACES
 
-# Blender Color Spaces
-```
-sRGB:
-```
-```
-Raw:
-```
-```
-Non-Color:
-- Used for images that don't actually contain color data
-```
-```
-Linear ACES:
-```
-```
-Linear:
-- Used for EXR images
-- Best for rendering and compositing
-- Corresponds more closely to nature
-- Do not directly correspond to human perception/ display devices
-```
-```
-Filmic Log
-```
+>[!info] Linear
+>- Used for EXR images
+>- Best for rendering and compositing
+>- Corresponds more closely to nature
+>- Doesn't directly correspond to human perception/ display devices
 
----
+>[!info] Filmic Log
 
-# Problem Fixes
+## Fixing Issues in Blender
 ### General
 - If any modifier or action aren't working properly it might be because one or multiple transforms should be applied first
 - Check if the origin/ world origin is at the desired location if a modifier/ action fails
@@ -80,8 +49,7 @@ Filmic Log
 - Sometimes shading looks bad because viewport shading options like cavity are on
 - For curves it is good to turn on handles (Edit Mode > Viewport Overlays > Handles/ Handles Normals)
 
-
-### Correcting Shading
+### Fixing Shading
 - Shade smooth
 - Turn on auto smooth/ change degree amount (Object Data Properties: Normals>Auto Smooth)
 - Average face Area (Alt + N)
@@ -90,93 +58,143 @@ Filmic Log
 - Use data transfer modifier
 - Use Hard Ops Sharpen
 
+## Shader Nodes
+### Basic PBR Material Setup
+<img src="https://i.imgur.com/WYEEBeo.png" height="600">
 
-# Principled Nodes(Standalone)
-### Principled BSDF
-<details>
-<summary>Expand</summary>
+### Principled Shader Nodes
+The Principled BSDF Node is a combination of many other Principled nodes, which means that in theory you don't need to use the Principled BSDF but can simply put together other Principled nodes. This can sometimes be desired especially in game engines, when you want a performant and simple node setup and don't need the sheen for example. The Principled BSDF is built in such a way to accommodate the metallic workflow.
 
-This node is also know as a x and uses the metallic workflow. By combining other nodes this node can be almost totally recreated.
-- Base Color -> Color
-- Subsurface -> Subsurface scattering
-- Metallic -> Metalness
-- Specular -> How much reflection is possible
-- Specular Tint ->
-- Roughness -> Increase/ decrease sharpness of light reflection
-- Anisotropic -> Amount of anisotropy for specular reflection. Higher values give elongated highlights along the tangent direction (Cycles only)
-- Anisotropic Rotation -> Rotates the direction of anisotropy (Cycles only)
-- Sheen -> For cloth like materials near edges
-- Clearcoat -> Adds glossy specular layer on top of everything (used for car/ boat paint)
-- IOR - > Index of refraction for transmission
-- Transmission -> turn material in glass like object
-- Emission/ Emission Strength -> The color and strength of the emitted light (bloom needs to be enabled for this to work properly)
-- Alpha -> Transparency/Opacity/Alpha (not translucency)
-- Normal -> 
-- Clearcoat Normal -> Controls the normals of the Clearcoat layer
-- Tangent -> Controls the tangent for the Anisotropic layer
-![image](https://user-images.githubusercontent.com/85735034/127783221-c8f4deda-9cb5-4e93-86fd-b0e5f0d02ce1.png)
+> [!example] Principled BSDF
+> 
+>- Base Color >>> Color
+>- Subsurface >>> Sub Surface Scattering
+>- Metallic >>> The metallicness of an object
+>- Specular >>> How much reflection is possible
+>- Specular Tint >>>
+>- Roughness >>> Increase/ decrease sharpness of light reflection
+>- Anisotropic >>> Amount of anisotropy for specular reflection. Higher values give elongated highlights along the tangent direction (Cycles only)
+>- Anisotropic Rotation >>> Rotates the direction of anisotropy (Cycles only)
+>- Sheen >>> For cloth like materials near edges
+>- Clearcoat >>> Adds glossy specular layer on top of everything (used for car/ boat paint)
+>- IOR >>> Index of refraction for transmission
+>- Transmission >>> turn material in glass like object
+>- Emission/ Emission Strength >>> The color and strength of the emitted light (bloom needs to be enabled for this to work properly)
+>- Alpha >>> Transparency/Opacity/Alpha (not translucency)
+>- Normal >>> 
+>- Clearcoat Normal >>> Controls the normals of the Clearcoat layer
+>- Tangent >>> Controls the tangent for the Anisotropic layer
+>
+>![image](https://user-images.githubusercontent.com/85735034/127783221-c8f4deda-9cb5-4e93-86fd-b0e5f0d02ce1.png)
 
-</details>
+> [!example]  Principled Glossy
+>
+>- Metals
+>- Mirrors
+>- Plastic
 
-### Principled Glossy
-Used for metals, mirrors and plastic
+> [!example]  Principled Diffuse
 
-### Principled Diffuse
+> [!example]  Principled Hair BSDF
+>
+>- Hair cards
+>- Particle hair
 
-### Principled Hair BSDF
-- Always use for hair
+> [!example] Emission
+>
+>- Lights
+>- Emissive objects
 
-### Emission
-- Used for lights and emissive objects
+> [!example] Principled Specular
+>
+>- Uses the old specular workflow
 
-### Principled Specular
-- Uses the old specular workflow
+> [!example] Principled Volume
+>
+>- Smoke
 
-### Principled Volume
-- Used for smoke
+### Color Correction
 
+> [!example] Bright/ Contrast
 
-# Color Correction
-### Bright/ Contrast
+> [!example] Hue Saturation Value
 
-### Hue Saturation Value
+> [!example] RGB Curves
+>
+>- Color correct R/G/B channels
 
-### RGB Curves
-- Color correct R/G/B channels
+> [!example] Color Ramp
 
-### Color Ramp
+### Channel Converter
 
-# Channel Converter
-### Seperate RGB/ Combine RGB
-- Allows one to remove a color channel or manipulate a single color channel
+> [!example] Seperate RGB/ Combine RGB
+>
+>- Allows one to remove a color channel or manipulate a single color channel
 
-### Seperate HSV/ Combine HSV
+> [!example] Seperate HSV/ Combine HSV
 
-### Seperate XYZ/ Combine XYZ
-
-# Math
-### Clamp
-- Set minimum and maximum values
-- Used for when exaple the darks are to dark, one can clamp the lowest dark value
+> [!example] Seperate XYZ/ Combine XYZ
 
 ### Math
-- Used for conversion of values
 
-# Other Interesting Nodes
+> [!example] Clamp
+>
+>- Set minimum and maximum values
+>- Used for when exaple the darks are to dark, one can clamp the lowest dark value
 
-### Noise Maps
-### Texture Maps
-### Fresnel
+> [!example] Math
+>
+>- Used for conversion of values
 
-# Materials
-### Glass
-<details>
-<summary>Glass</summary>
+### Other Interesting Nodes
+
+> [!example] Noise Maps
+
+> [!example] Texture Maps
+
+> [!example] Fresnel
 
 ### Glass (Eevee)
-- Render settings: Screen Space Reflection, Refraction and Half Res Trace
-- Material settings: Alpha Hashed for both modes, Screen Space Refraction, Refraction Depth and Backface Culling off.
 
-## Glass (Cycles)
+> [!example] Setting
+> 
+> #### Render Settings
+>- Screen Space Reflection
+>-  Refraction and Half Res Trace
+>  
+> #### Material settings
+>-  Alpha Hashed for both modes 
+>- Screen Space Refraction
+>- Refraction Depth and Backface Culling off
 
-</details>
+### Geometry Displacement Material via Modifier
+> [!example] Setup
+>#### 1. Shader Setup
+>Base Color map -> Principled BSDF
+>Metallic map -> ""
+>Roughness map -> ""
+>Normal map -> ""
+>
+>#### 2. Actions
+>Subdivide mesh 
+>
+>#### 3. Modifiers
+>Add Displace modifier (Select the height map and change strength)
+>
+>#### 4. For Cycles Rendering
+>Cycles Settings > Materials Properties > Settings > Displacement
+
+### Geometry Displacement Material via Height Map
+>[!example] Shader Setup
+>#### Shader Setup
+>Base Color map -> Principled BSDF
+>Metallic map -> ""
+>Roughness map -> ""
+>Normal map -> ""
+>Height map -> Displacement node -> Material Output
+> 
+>### 2. Actions
+>Subdivide mesh
+>  
+>#### 4. For Cycles Rendering
+>Cycles Settings > Materials Properties > Settings > Displacement
