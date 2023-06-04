@@ -15,7 +15,7 @@ I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me,
 
 This is probably best suited for intermediate and advanced 3D artist's. If you're a 2D artist look [[#All Relevant Things from This Handbook for 2D Artists|here]]. My 3D workflow mostly consists of following software: [Blender](https://www.blender.org/features/), [ZBrush](https://pixologic.com/), [Marmoset](https://marmoset.co/toolbag/), [Substance Painter](https://www.adobe.com/products/substance3d-painter.html), [Photoshop](https://www.adobe.com/products/photoshop.html) and [Unreal](https://www.unrealengine.com/en-US/features). So this handbook will cover workflows in said software, but many of the concepts can be applied to other software as well.
 
-If you don't understand a term give the [[notes/Glossary|glossary]] a visit.
+If you don't understand a term give the [[Glossary|glossary]] a visit.
 
 Feel free to point out things that might not be the best practice or plain incorrect and I will fix those spots - [Discussion Area](https://github.com/Epicrex/3DArtistsHandbook/discussions/1).
 
@@ -27,11 +27,11 @@ _This section will be moved to a side panel so it can accessed from every page._
 > [!note]
 > 
 > ### Home
-> - [**Home**](https://github.com/Epicrex/3DArtistsHandbook/wiki#main)
+> - [[_index|Home]]
 >   
 >  ### Theory
->  - [**Glossary**](Technical-Terms) 📄
->  - [**Composition**](Composition) 🌆
+>  - **[[Glossary|Glossary]]** 📄
+>  - **[[Composition|Composition]]** 🌆
 >  - [**Technical Side of Character Design**](Technical-Side-of-Character-Design) 👩🏽‍💻
 >  - ⚠ [**Artistic Side of Character Design**](Artistic-Side-of-Character-Design)
 >  - [**Topology/ Retopology**](Topology)
