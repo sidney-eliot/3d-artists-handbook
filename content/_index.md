@@ -36,7 +36,7 @@ _This section will be moved to a side panel so it can accessed from every page._
 >  - [[Glossary]] 📄
 >  - [[Composition]] 🌆
 >  - [[Technical Side of Character Design]] 👩🏽‍💻
->  - ⚠ [[Artistic Side of Character Design]]
+>  - 🚧 [[Artistic Side of Character Design]]
 >  - [[Topology and Retopology|Topology, Retopology]]
 >  - [[Optimization]] 📊
 >  - [[Color]] 🎨🏳️‍🌈
@@ -48,7 +48,7 @@ _This section will be moved to a side panel so it can accessed from every page._
 > - [[Workflow between ZBrush and Blender]] 🌀
 > - [[Blender Sculpting]]
 > - [[Hair]] 💇🏼‍♀️
-> - ⚠ [[zSkin]]
+> - 🚧 [[zSkin]]
 > - [[Anime Style Characters]]
 > 
 > ### Texture
@@ -59,8 +59,8 @@ _This section will be moved to a side panel so it can accessed from every page._
 > 
 > ### Presentation
 > - [[Rigging]] 🦴
-> - ⚠ [[Posing Animating|Posing, Animating]]
-> - ⚠ [[Lighting]] 💡
+> - 🚧 [[Posing Animating|Posing, Animating]]
+> - 🚧 [[Lighting]] 💡
 > - [[Blender to Unreal Pipeline]]
 > 
 > ### Post
