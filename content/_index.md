@@ -30,8 +30,8 @@ _This section will be moved to a side panel so it can accessed from every page._
 > - [[_index|Home]]
 >   
 >  ### Theory
->  - **[[Glossary|Glossary]]** 📄
->  - **[[Composition|Composition]]** 🌆
+>  - [[Glossary|Glossary]] 📄
+>  - [[Composition|Composition]] 🌆
 >  - [**Technical Side of Character Design**](Technical-Side-of-Character-Design) 👩🏽‍💻
 >  - ⚠ [**Artistic Side of Character Design**](Artistic-Side-of-Character-Design)
 >  - [**Topology/ Retopology**](Topology)
