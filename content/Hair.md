@@ -1,11 +1,18 @@
 ---
-title: "Anime Style Characters"
-enableToc: false
+title: "Hair"
+enableToc: true
 ---
 
-# Table of Contents
+## Table of Contents
+
+> [!note]- A YouTube Playlist I made, for all kinds of hair methods
+> 
+> <br>
+> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 **A [**YT PLAYLIST**](https://www.youtube.com/playlist?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu) I made, for all kinds of hair methods**.
+
 
 
 - [General](#general-)
@@ -24,11 +31,11 @@ enableToc: false
 - [Resources](#resources-)
 
 
-# General [^](#table-of-contents)
+## General
 
 I recommend starting every haircut with a base sculpt. Refine this sculpt until the silhouette is close to what you want. After that create the hair with your desired style, keeping true to your sculpted block out.
 
-# Good Software for Making Hair [^](#table-of-contents)
+## Good Software for Making Hair
 - **[Hair Strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-68-2-full-perpetual-license-free-demo-and-sample-set)** is a great software for creating high quality realistic hair cards quickly. But less useful for stylized anime hair for example.
 
 - **Blender** is a S-Tier tool for creating hair of any style, since the 3.3 update
@@ -38,31 +45,31 @@ I recommend starting every haircut with a base sculpt. Refine this sculpt until 
 - Both **Blender** and **ZBrush** are the best when it comes to placing hair strand curves by hand
 
 
-# Sculpted Hair [^](#table-of-contents)
-## Sculpted Hair Examples [^](#table-of-contents)
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_sculpted_004.png" width="250"/>
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_sculpted_001.png" width="350"/>
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_sculpted_002.png" width="350"/>
-<br>
+# Sculpted Hair
+## Sculpted Hair Examples
 
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_sculpted_005.1.png" width="300"/>
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_sculpted_005.2.png" width="300"/>
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_sculpted_003.png" width="600"/>
+![[Pasted image 20230604170758.png|250]]
+![[Pasted image 20230604170808.png|350]]
+![[Pasted image 20230604170824.png|350]]
 
-## About Sculpted Hair [^](#table-of-contents)
+![[Pasted image 20230604170858.png|300]]
+![[Pasted image 20230604170907.png|300]]
+![[Pasted image 20230604170921.png|600]]
+
+## About Sculpted Hair
 Sculpting is great method for the final hair but where it really shines is as a base/ block out for all other hair creations methods. Make it a habit to first sculpt a block out of the haircut until the silhouette is correct, and to use that as a shape guide.
 
 **[Sculpting Hair Playlist](https://www.youtube.com/playlist?list=PLveghVPT3X7bAL5O02HQ6Y_ESsW26t1wK)**
 
 
-# Hair Cards [^](#table-of-contents)
-## Hair Card Hair Examples [^](#table-of-contents)
+# Hair Cards
+## Hair Card Hair Examples
 <img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_card_001.png" width="400"/>
 <img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_card_002.png" width="400"/>
 <img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/hair_card_003.png" width="400"/>
 
 
-## About Hair Cards [^](#table-of-contents)
+## About Hair Cards
 ### Info
 Hair cards are a hair method where a variety of strand texture maps are mapped to a flat mesh plane. These hair planes are then subdivided and placed around the head while moving vertices to fit the shape of the head and haircut. 
 
@@ -78,7 +85,7 @@ _... empty for now_
 
 
 
-## Creating Hair Cards [^](#table-of-contents)
+## Creating Hair Cards
 ### Different Ways To Make Hair
 There are a couple of ways of getting hair cards. The easiest is to look for pre made ones. Another good way is to use software like [Hair strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-67-5-full-perpetual-license-free-demo-and-sample-set). Software like this creates all different maps for you. The last and most time costly way is to use particle systems to create hair and then to render some of the maps and use PS or other software to generate the others.
 
@@ -128,7 +135,7 @@ But to get the desired hair look there are many others that are often used.
 
 
 
-## Placing Hair Cards [^](#table-of-contents)
+## Placing Hair Cards
 
 <details>
 <summary>Texture map setup in Blender</summary>
@@ -160,7 +167,7 @@ But to get the desired hair look there are many others that are often used.
 - Keep a UV window open and try to make all faces in UV space have equal sizes
 - Try to have hair cards not clip through each other
 
-## Rendering Hair Cards [^](#table-of-contents)
+## Rendering Hair Cards
 ### Things to Check Before Rendering
 - Use a clean studio HDRI and no other light sources. Rotate the HDRI so that the main light source is coming from the other side of the camera
 - Make sure the camera resolution is 2048 x 2048 or 4096 x 4096
@@ -176,7 +183,7 @@ But to get the desired hair look there are many others that are often used.
 - [Rendering setup](https://youtu.be/db7Xfg_oSYE?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=735)
 - [Rendering setup](https://www.youtube.com/watch?v=_WbNUly6EYM&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=18)
 
-# Stylized Hair (Curves/ Arrays) [^](#table-of-contents)
+# Stylized Hair (Curves/ Arrays)
 ## About Stylized Hair
 _... empty for now_
 
@@ -190,7 +197,7 @@ _... empty for now_
 - Lower Curve and circle curve resolution to around 3 and use sub d mod on the hair curve
 - Make sure to use resolution increase instead of SubDiv on Bevel Profile object for hair curve
 
-# Particle System Hair [^](#table-of-contents)
+# Particle System Hair
 ## About Particle Hair
 Particle Hair can be very time consuming and frustrating to make, as well as not being the best option for Real-Time use. It can however be quite useful for making hair cards. Particle hair especially shines with a Hyper-Realistic art style and when the hair will be involved in allot of physics heavy actions like wind, fighting and other hair interactions.
 
@@ -212,7 +219,7 @@ _Following software support particle hair:_ Blender, Marmoset Toolbag (XGen), Ma
 Children:
 - Change Clump and roughness
 
-# Resources [^](#table-of-contents)
+# Resources
 ### Finished Hair Styles
 
 - https://blendermarket.com/products/35-hair-cards-for-blender-blend-files-
