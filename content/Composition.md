@@ -31,11 +31,13 @@ Great composition is achieved through:
 
 [[#Bad Examples]]
 
-Videos about Composition:
-- https://www.youtube.com/watch?v=JuEkb6FNptE
-- https://www.youtube.com/watch?v=O8i7OKbWmRM
-- https://www.youtube.com/watch?v=Zbi_XUtb1Mk
-- https://www.youtube.com/watch?v=VArISvUuyr0
+> [!example]- Videos about Composition
+> 
+> <br>
+> <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JuEkb6FNptE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O8i7OKbWmRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zbi_XUtb1Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VArISvUuyr0?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Color/ Saturation/ Contrast
 Bolder colors for more important things and duller/ muted color for unimportant things. If the entire piece is very dark then lighter colors will draw attention and when it is very light darker colors will draw attention
