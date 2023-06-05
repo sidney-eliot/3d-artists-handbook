@@ -77,8 +77,8 @@ Even though allot is possible in both of these software, you should still be usi
 |![[Pasted image 20230604225251.jpg\|40]]|[J Hill](https://www.youtube.com/c/artofjhill/videos)
 |![[Pasted image 20230604225307.jpg\|40]]|[Danny Mac](https://www.youtube.com/c/DannyMac3d)
 |![[Pasted image 20230604225324.jpg\|40]]|[Folgore CGI](https://www.youtube.com/c/TheFolgore94)
-|![[Pasted image 20230604225338.jpg\|40]]|[Ryan Kingslien](https://www.youtube.com/c/RyanKingslienVertexSchool/videos)
-|![[Pasted image 20230604225403.jpg\|40]]|[Pixologic ZBrush](https://www.youtube.com/c/PixologicZBrush) 
+|![[Pasted image 20230604225338.jpg\|50]]|[Ryan Kingslien](https://www.youtube.com/c/RyanKingslienVertexSchool/videos)
+|![[Pasted image 20230604225403.jpg\|80]]|[Pixologic ZBrush](https://www.youtube.com/c/PixologicZBrush) 
 
 # ------ BASIC ACTIONS ------ [^](#table-of-contents)
 
