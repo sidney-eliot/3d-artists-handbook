@@ -11,10 +11,10 @@ _[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion)_
 Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
 It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
 
-> [!info]
+> [!info] Info
 > 
 > - Adds depth
-> - Can be used as a budget [[Glossary#Ray Tracing Ray Traced Shadows/ Reflections/ Lighting|Ray Traced]] Occlusion
+> - Can be used as a budget [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|Ray Traced]] Occlusion
 > - Requires high resolution light maps to look good
 
 

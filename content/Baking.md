@@ -17,7 +17,7 @@ Marmoset Toolbag yields the best bakes and has the best tools for troubleshootin
 - Play with ignore groups (located under every high object)
 - Not enough AO rays
 - Not enough texture resolution
-- Bad preparation. [Texturing/ Baking Preparations](Preparations%20for%20Baking%20and%20Texturing.md)
+- Bad preparation. [[Preparations for Baking and Texturing]]
 
 If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This indeed is such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map form Pyke's mount Nensi. I did a slight brightness adjustment for better visualization.
 
@@ -36,8 +36,7 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 ## Reasons for Normal Maps Looking Bad
 - Bad baked corners can be a result of not enough texture resolution
 - Usage of SubDiv
-- Bad preparation. [Texturing/ Baking Preparations](Preparations%20for%20Baking%20and%20Texturing.md)
-
+- Bad preparation. [[Preparations for Baking and Texturing]]
 ## What Passes to Use
 
 >[!example] General Passes
@@ -59,7 +58,7 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 >- Alpha Mask
 >- Wireframe
 >  
->These passes are only needed if one wants do texturing in Marmoset or is working with a textured [[Glossary#Low/ High Poly|High Poly]] model that should be baked down to a [[Glossary#Low/ High Poly|Low Poly]] model.
+>These passes are only needed if one wants do texturing in Marmoset or is working with a textured [[Glossary#Low High Poly|High Poly]] model that should be baked down to a [[Glossary#Low High Poly|Low Poly]] model.
 
 ## A Great Way to Bake Normals for Every Situation
 
