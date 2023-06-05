@@ -625,11 +625,16 @@ mark {
   color: var(--gray);
 }
 
+
+// Custom chnages
+
 // Lower saturation of subheaders
-//h4, h5, h6 {
-//}
+h4, h5, h6 {
+  color: #bfbfbf;
+}
 
 
+// Header sizes
 h1 {
   font-size: 32px;
 }
@@ -646,14 +651,7 @@ h5 {
   font-size: 13.28px;
 }
 
-img {
-  border-radius: 12px;
-}
-
-iframe{
-  border-radius: 12px;
-}
-
-table.roundedCorners { 
+// Border rarius
+img, iframe {
   border-radius: 12px;
 }

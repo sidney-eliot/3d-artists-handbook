@@ -1,21 +1,13 @@
 ---
 title: "Topology/ Retopology"
-enableToc: false
+enableToc: true
 ---
 
-# Table of Contents
+[[Glossary#Topology|Glossary Topology Terms]]
 
-- [Topology Types](#Topology-Types-)
-- [Poles](#Poles-)
-- [Terminating/ Rerouting Edge Loops](#Terminating-Rerouting-Edge-Loops-)
-- [The Optimal Triangle/ Quad Shape](#The-Optimal-Triangle-Quad-Shape-)
+## Topology Types
 
-
-[**Glossary Topology Terms**](https://github.com/Epicrex/3DArtistsHandbook/wiki/Technical-Terms#topology)
-
-# Topology Types [^](#table-of-contents)
-
-There are different types of topology which depend on use case. 
+There are different types of topology which depend on use case.
 
 ### For Real Time Use (Games Industry):
 

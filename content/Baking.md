@@ -26,6 +26,7 @@ If you want to look at it yourself, you can officially download it from Riot's [
 
 ![[Pasted image 20230604230247.png|500]]
 
+
 As you can see, the low mesh face polygons are visible in the AO map. Resulting in nasty grid like lines all across the texture.
 
 I have come up with a fix however. The trick is to do 2 bakes of the AO map, one with everything as it should be and then another bake with every high object having extra subdivisions. This will most likely make the high look bad at some spots, but that doesn't matter. Then when we have the 2 AO maps, we open them in Photoshop or any alternative as 2 layers. The desired AO map at the top and the AO map with subdivisions below. Then add a black mask to the top layer and paint flat surfaces that have the grid problem with white. This will make the smooth surface of the subdivisions AO map shine through. Use gray tones, as well as a mix of harder/ softer brushes when painting, to get nice transitions between the 2 AO maps.
@@ -38,28 +39,29 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 - Bad preparation. [Texturing/ Baking Preparations](Preparations%20for%20Baking%20and%20Texturing.md)
 
 ## What Passes to Use
-<details>
-<summary>Bake Passes</summary>
 
-### General Passes
-- Normals
-- Ambient Occlusion
-- Curvature
-- Thickness
-- Position
-- Object ID (optional)
-- UV Island (optional)
+>[!example] General Passes
+>
+>- Normals
+>- Ambient Occlusion
+>- Curvature
+>- Thickness
+>- Position
+>- Object ID (optional)
+>- UV Island (optional)
 
-### Other Passes
-These passes are only needed if one wants to texture in Marmoset or is working with a textured high that should be baked down to a low
-- Color (called "Albedo" in Marmoset)
-- Metallic (called "Albedo(Metal)" in Marmoset)
-- Roughness (Use "Roughness" or "Gloss" depending on where you plugged the texture into)
-- Bloom
-- Alpha Mask
-- Wireframe
+>[!example] Other Passes
+>
+>- Color (called "Albedo" in Marmoset)
+>- Metallic (called "Albedo(Metal)" in Marmoset)
+>- Roughness (Use "Roughness" or "Gloss" depending on where you plugged the texture into)
+>- Bloom
+>- Alpha Mask
+>- Wireframe
+>  
+>These passes are only needed if one wants to texture in Marmoset or is working with a textured high model that should be baked down to a low model.
 
-</details>
+LINK to HIGH AND LOW IN GLOSAARY
 
 ## A Great Way to Bake Normals for Every Situation
 
@@ -67,7 +69,7 @@ Use 32bit Open EXR, if the software doesn't support that use PSD or 32 bit PNG. 
 
 If a 32 bit channel is the desired bit depth for the texture map, than you're done. If not, open it in PS or CSP and change the bit depth mode from 32bits to desired bit depth make sure to switch the method to Exposure and Gamma. This down-resing will result in terrible dithering, which can easily be removed. In Photoshop select the color bucket and set the color to R:128 G:128 B:255 (gray), then set the tolerance to 10 and turn off both Anti-alias and Contiguous. Then color fill the flat space which is blue.
 
-## Marmoset Specific
+## Marmoset Specific Baking
 [Official Marmoset baking guide](https://marmoset.co/posts/toolbag-baking-tutorial/)
 
 ### Texture Map Setup
