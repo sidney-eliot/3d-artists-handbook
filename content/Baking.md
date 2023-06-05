@@ -59,9 +59,7 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 >- Alpha Mask
 >- Wireframe
 >  
->These passes are only needed if one wants to texture in Marmoset or is working with a textured high model that should be baked down to a low model.
-
-LINK to HIGH AND LOW IN GLOSAARY
+>These passes are only needed if one wants do texturing in Marmoset or is working with a textured [[Glossary#Low/ High Poly|High Poly]] model that should be baked down to a [[Glossary#Low/ High Poly|Low Poly]] model.
 
 ## A Great Way to Bake Normals for Every Situation
 

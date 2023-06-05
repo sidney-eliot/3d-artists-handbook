@@ -2,8 +2,6 @@
 title: "Glossary 📄"
 enableToc: true
 ---
-
-
 ## Visual
 
 ---
@@ -401,6 +399,11 @@ https://marmoset.co/posts/toolbag-baking-tutorial/
 
 ### Floaters
 Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save allot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
+
+### Low/ High Poly
+ToDo:
+
+(in the context of baking high to low)
 
 ### Skews (ToDo)
 
