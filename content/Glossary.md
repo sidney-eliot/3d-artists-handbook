@@ -6,7 +6,7 @@ enableToc: true
 
 ---
 ### Ambient Occlusion
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion)_
+_[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion)_ - _[[Polycount]](http://wiki.polycount.com/wiki/Ambient_occlusion_map)_
 
 Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
 It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
