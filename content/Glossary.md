@@ -6,7 +6,8 @@ enableToc: true
 
 ## Visual
 
-### Ambient Occlusion
+---
+### Ambient occlusion
 Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
 It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
 
@@ -21,6 +22,7 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 
 ![[tdmMtT4.png|600]]
 
+---
 ### Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
 
@@ -38,6 +40,7 @@ On the flipped side, here's and example of Ray Tracing makes the lighting and sh
 
 This doesn't mean that Ray Tracing in it's nature makes lighting and shadows worse, but rather adding Ray Tracing into a scene that wasn't designed with Ray Tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with Ray Tracing on. And potentially there needs to be 2 different presets for Ray Tracing on and off. 
 
+---
 ### Anisotropic Filtering
 ToDo: Explain better
 
@@ -45,13 +48,13 @@ Anisotropic filtering or AF for short, is a method of enhancing the image qualit
 
 ![[20230603111310.png|600]]
 
-
+---
 ### Screen Space Refraction
 - Adds local reflections to the objects
 - Helps Glass, plastic, water, and other transparent/translucent materials.
 - Similar to screen space reflection. Screen Space Reflections and Ambient Occlusion aren't compatible with Screen Space Refraction. And are disabled on surfaces that use it.
 
-
+---
 ### Screen Space Reflection
 A technique for reusing screen-space data to calculate reflections. Used for more subtle reflections like wet surfaces or puddles.
 
