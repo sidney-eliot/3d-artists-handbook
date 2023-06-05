@@ -5,19 +5,18 @@ enableToc: true
 ## Visual
 
 ---
+
 ### Ambient Occlusion
 _[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion)_ - _[[Polycount]](http://wiki.polycount.com/wiki/Ambient_occlusion_map)_
 
-Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
-It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
+Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable.
 
 > [!info] Info
 > 
+> - Softens the overall lighting in your scene
 > - Adds depth
-> - Can be used as a budget [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|Ray Traced]] Occlusion
+> - Can be used as a budget [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|ray traced]] occlusion
 > - Requires high resolution light maps to look good
-
-
 
 |Ambient Occlusion OFF|Ambient Occlusion ON
 |:-:|:-:
@@ -26,16 +25,24 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 |![[tdmMtT4_off.png]]|![[tdmMtT4_on.png]]
 
 ---
+
 ### Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
 
 _[[Wikipedia]](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))_
 
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
 
-- Only works on NVIDIA RTX and some GTX series cards with DirectX ray tracing support
-- Enables ray traced results for shadows, AO, reflections, translucency and global illumination
+> [!info] Info
+> 
+> - Only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|ray tracing]] support)
+> - Enables [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|ray traced]] results for shadows, [[Glossary#Ambient Occlusion|ambient occlusion]], reflections, translucency and global illumination
+> 
+> 
 
-Ray Tracing off vs on:
+
+
+
+Ray Tracing OFF vs ON:
 
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
