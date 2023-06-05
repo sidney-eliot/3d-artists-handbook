@@ -7,7 +7,8 @@ enableToc: true
 ## Visual
 
 ---
-### Ambient occlusion
+### Ambient Occlusion
+[_[Wikipedia]_](https://en.wikipedia.org/wiki/Ambient_occlusion)
 Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting.
 It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable. Softens the overall lighting in your scene.
 
@@ -24,6 +25,8 @@ It shows subtle variations in lighting and helps your eyes detect surface detail
 
 ---
 ### Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
+
+[_[Wikipedia]_](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
 
 - Only works on NVIDIA RTX and some GTX series cards with DirectX ray tracing support
