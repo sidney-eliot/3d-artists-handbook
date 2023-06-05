@@ -630,25 +630,25 @@ mark {
 ////////////////////
 
 // Lower saturation of subheaders
-h3, h4, h5, h6 {
-  color: #bfbfbf;
-}
+//h3, h4, h5, h6 {
+//  color: #bfbfbf;
+//}
 
 // Header sizes
 h1 {
-  font-size: 32px;
+  font-size: 32px;//32px;
 }
 h2 {
-  font-size: 24px;
+  font-size: 32px;
 }
 h3 {
-  font-size: 18.72px;
+  font-size: 20px;
 }
 h4 {
   font-size: 16px;
 }
 h5 {
-  font-size: 13.28px;
+  font-size: 14px;
 }
 
 // Border rarius

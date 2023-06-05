@@ -1,5 +1,5 @@
 ---
-title: "Organic Hard Surface Sculpting 🧊🗿"
+title: "Organic/ Hard Surface/ Sculpting 🧊🗿"
 enableToc: false
 ---
 
