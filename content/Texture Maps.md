@@ -145,13 +145,11 @@ Res: 512, 1024, 2048, 4096, 8192
 ### Making Base Color Map using a photography
 The color map should not contain any shadows or ambient occlusion. Every photograph contains this so the first step is to remove them.
 
-<details>
-<summary>Example</summary>
+Example:
 
 Left Bad | Right Good
 
-<img src="https://i.imgur.com/xuSHJsS.jpg" height="250">
-</details>
+![[Pasted image 20230604225946.jpg|200]]
 
 #### Removal method 1
 - Make an inverted Luminance Map of the Image, Desaturate it and invert it.

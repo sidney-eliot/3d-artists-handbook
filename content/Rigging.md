@@ -62,15 +62,10 @@ Asymmetrical rig can have problems, however with rigify's upgraded rig this isn'
 
 For Face, parent lower teeth to teeth bone same with upper
 
+Outliner layout:
 
-<details>
-<summary>Outliner layout</summary>
+![[Pasted image 20230604225851.png]]
 
-<img src="https://i.imgur.com/t5zPIhe.png" >
-</details>
+Rigify Rig:
 
-<details>
-<summary>Rigify Rig</summary>
-
-<img src="https://i.imgur.com/KpzVEZ9.png" >
-</details>
+![[Pasted image 20230604225910.png]]

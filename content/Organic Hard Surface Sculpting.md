@@ -145,10 +145,8 @@ Manually beveling gives the best control of the bevel shape and location, but ne
 ### 🟠 Blender's Bevel
 Manual bevels in blender are done via `Ctrl + B` for edges or `Ctrl + Shift + B` for vertices and scrolling to adjust segment count, and is very customizable.
 
-<img src="https://user-images.githubusercontent.com/85735034/211197348-d7f1a864-f07b-435a-a203-f4fe6e43b234.png" width="250">
-
-<img src="https://user-images.githubusercontent.com/85735034/211197934-3674b766-a9a5-4e50-9d6f-7b6550199934.png" width="250">
-
+![[Pasted image 20230604225628.png|250]]
+![[Pasted image 20230604225642.png|250]]
 
 ### ⚪ ZModeler Edge Bevel
 Manual bevels in ZBrush are done via the ZModeler Brush. `Bevel`(Edge Mode) can only do chamfers, with 7 profiles to chose from. It's only capable of making chamfers because it's not meant to be used like a conventional bevel, but together with subdivisions. 
@@ -159,8 +157,7 @@ Some tips for beveling with the ZModeler Brush:
 - Alternatively use `Swivel`(Edge Mode) or `Delete`(Edge Mode) to create chamfers
 - Masking and Selections can also
 
-<img src="https://user-images.githubusercontent.com/85735034/211197518-6241ddaf-9111-4867-a90e-5f1aac58c4ab.png" width="400">
-
+![[Pasted image 20230604225656.png|400]]
 
 ### ⚪ Crease Menu Bevel
 (Tool > Geometry > Crease) Similar to the "ZModeler Edge Bevel", just that this places the bevel based on the creases. Remember to remove the crease.
@@ -510,9 +507,8 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 
 # Smoothing PolyGroup Borders [^](#table-of-contents)
 
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/14f73be42900535619a13e28bb08b121a6a601fe/wiki_image_storage/group_smoothing_1.png" width="215">
-
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/14f73be42900535619a13e28bb08b121a6a601fe/wiki_image_storage/group_smoothing_2.png" width="200">
+![[Pasted image 20230604225721.png|215]]
+![[Pasted image 20230604225730.png|200]]
 
 |Software|Method|Notes
 |:-:|:-:|:-:

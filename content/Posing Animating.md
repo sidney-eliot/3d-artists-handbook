@@ -19,7 +19,7 @@ The only 2 file formats one can really use are .fbx and .abc(Alembic).
 - Selected Objects: Enable
 - Forward/ Up: Depends on destination software
 
-<img src="https://user-images.githubusercontent.com/85735034/169546373-f2a39d41-1338-4ce2-b06d-99b2ba395406.jpg" width="700">
+![[Pasted image 20230604225600.jpg|700]]
 
 - Apply Modifiers: In most cases good, allows working non-destructively
 - Only Deform Bones: Only export bones that have deform toggled. This is often good because unnecessary helper bone are not exported

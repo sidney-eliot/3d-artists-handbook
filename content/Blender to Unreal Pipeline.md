@@ -88,12 +88,9 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
 
    Chain all bones together that are surrounded by a red box in this image:
 
-<details>
-<summary>Bone Hierarchy</summary>
+Bone Hierarchy: (ToDo collapse image maybe)
 
-<img src="https://github.com/Epicrex/3DArtistsHandbook/blob/main/wiki_image_storage/IkRigSettingsWithBlenderRolls_UnrealEngine5.png" width="600"/>
-
-</details>
+![[Pasted image 20230604230343.png|600]]
 
 10. Select `Full Body Ik Slover` again and right click the bones with green dots in the image above and click `Add Settings to Selected Bone`. After adding settings adjust the settings in the `Details` panel to what is seen in the image above. As seen in the picture the `hand_l_goal settings` have to also changed
 

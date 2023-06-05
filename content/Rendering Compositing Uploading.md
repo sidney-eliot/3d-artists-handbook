@@ -151,7 +151,9 @@ Take into consideration that working with EXR files especially Multilayer EXR is
 - In the compositor output 2 EXRs, one with the image with back background and one with transparency, like in this image (renders 2 EXR files)
 <details>
 <summary>Node Setup</summary>
-<img src="https://i.imgur.com/ru3WTmy.png" width="800">
+
+![[Pasted image 20230604225809.png|800]]
+
 </details>
 
 - Pull the color EXR into PS with default [EXR IO](https://www.exr-io.com/) settings and split alpha on

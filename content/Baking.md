@@ -24,9 +24,7 @@ If your AO map has grid like lines, it's because the low mesh isn't high enough.
 ### Example of Riot Games Messing Up Their AO Maps
 If you want to look at it yourself, you can officially download it from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
 
-<img src="https://user-images.githubusercontent.com/85735034/179347009-71ca1291-1e1c-493c-923c-9252042d4e32.png" width = 500>
-
-</details>
+![[Pasted image 20230604230247.png|500]]
 
 As you can see, the low mesh face polygons are visible in the AO map. Resulting in nasty grid like lines all across the texture.
 
