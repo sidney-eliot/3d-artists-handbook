@@ -113,7 +113,7 @@ COLOR|RGB|HEX
 
 
 
-# ⚠ SORT IN ⚠
+# 🚧Work in Progress🚧
 
 #### Hue
 - Changing the Tint, Shade or Tone of a color changes the Chroma/ Colorfulness

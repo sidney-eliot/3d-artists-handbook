@@ -3,7 +3,7 @@ title: "Artistic Side of Character Design"
 enableToc: false
 ---
 
-## ⚠COMPLETELY UNFINISHED⚠
+## 🚧Work in Progress🚧
 
 ## The Power of Simplicity
 

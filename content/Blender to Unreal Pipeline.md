@@ -174,7 +174,7 @@ Resources:
 ## WHAT'S NEXT?
 The next section (not done yet) will cover how to actually use the animation ready character, either for animations/ still renders or as a player controlled character in Unreal Engine 5. 
 
-## ⚠ Sort in ⚠
+## 🚧Work in Progress🚧
 
 ## Route 1 Converting Rigify Rig to Unreal Engine Ready Rig
 - Go into unreal engine and export the `SKM_Quinn_Simple` or `SKM_Manny_Simple` Skeletal Mesh(RMB > Asset Actions > Export)

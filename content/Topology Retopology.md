@@ -138,7 +138,7 @@ As one can nicely see here, it has the best result with SubDiv and bevels:
 
 
 
-#  ⚠ Unfinished, Sort in
+#  🚧Work in Progress🚧
 - Avoid holding edges, go with creases and bevels
 - Evenly space edge loops and try to keep every quad the same size
 - Use extra edge loops in areas of heavy deformation. For example transition areas and muscle joints

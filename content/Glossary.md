@@ -239,7 +239,7 @@ Multiplies the values of the Material against the pixels of the background.
 - When a light ray hits opaque surface one of two events occur:
     1. Incident light ray hit surface and `bounces off` in the same angle `(reflected light)`
     2. The light ray `passes through` the surface in a straight line `(refracted light)`
-- Absorption of the light ray ==doesn’t== occur on the material surface
+- Absorption of the light ray doesn’t occur on the material surface
 
 > [!example] Objects that reflect light
 > 
@@ -396,6 +396,8 @@ https://marmoset.co/posts/toolbag-baking-tutorial/
 Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save allot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
 
 ### Skews (ToDo)
+
+## 🚧Work in Progress🚧
 
 ## Other (ToDo)
 

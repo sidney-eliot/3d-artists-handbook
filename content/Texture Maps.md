@@ -134,7 +134,7 @@ You should only ever use bump maps if you are using pre made textures which are 
 https://youtu.be/_dU3DONwSzU
 ```
 
-# ⚠ Sort In ⚠
+# 🚧Work in Progress🚧
 # The making of texture maps
 Res: 512, 1024, 2048, 4096, 8192
 

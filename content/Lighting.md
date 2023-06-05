@@ -3,7 +3,7 @@ title: "Lighting 💡"
 enableToc: false
 ---
 
-# ⚠COMPLETELY UNFINISHED⚠
+# 🚧Work in Progress🚧
 
 # Volumetric Fog
 ## Fog Object

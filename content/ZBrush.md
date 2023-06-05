@@ -325,5 +325,5 @@ The main thing about this interface is that I made a custom menu with every tool
 
 ZZZ files are temporary ZBrush files, it's how ZBrush names ZTLs while it's writing into them (saving). When the file extensions stays .ZZZ after the process has finished it means something went wrong while saving and the file is most likely corrupted. The corrupted file is as far as I know unfixable.
 
-# ⚠ Unsorted tips area
+# 🚧Work in Progress🚧
 - us dynamic sub d as long as possible to keep the zbrush file small

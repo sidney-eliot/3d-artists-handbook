@@ -73,6 +73,6 @@ If a piece is more hardsurface, and you decide to not use ZBrush, but your model
 
 
 
-# ⚠ Sort In
+# 🚧Work in Progress🚧
 - Have as much as logically possible merged together, to make rigging easy
 - Have as little overlaying geo as possible, to avoid rigging issues
