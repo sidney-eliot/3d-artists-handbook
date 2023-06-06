@@ -109,7 +109,7 @@ But to get the desired hair look there are many others that are often used.
 >- Roughness: Color map > Color Ramp > P. BSDF
 >- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)
 
->[!info] Hair card placing strategies
+>[!tip] Hair card placing strategies
 >
 >- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
 >- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
@@ -125,15 +125,17 @@ But to get the desired hair look there are many others that are often used.
 >- Try to have hair cards not clip through each other
 
 ### Rendering Hair Cards
-#### Things to Check Before Rendering
-- Use a clean studio HDRI and no other light sources. Rotate the HDRI so that the main light source is coming from the other side of the camera
-- Make sure the camera resolution is 2048 x 2048 or 4096 x 4096
-- Render with the correct image extension (more about that [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/0.4_Texture-Maps_Theory))
-- Do not render with transparent background (the alpha texture is for that)
-- Try to keep the render settings high
-- In Blender use Cycles. In Maya use Renderman or Arnlod
-- Make sure to turn off all form of color correction (Blender: Color Management, Compositor)
-- Place a flat colored neutral gray(#7F7F7F) background behind the hair (this is done to help the anti-aliasing by bouncing softer light and thus producing crisper edges)
+
+>[!tip] Things to Check Before Rendering
+>
+>- Use a clean studio HDRI and no other light sources. Rotate the HDRI so that the main light source is coming from the other side of the camera
+>- Make sure the camera resolution is 2048 x 2048 or 4096 x 4096
+>- Render with the correct image extension (more about that [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/0.4_Texture-Maps_Theory))
+>- Do not render with transparent background (the alpha texture is for that)
+>- Try to keep the render settings high
+>- In Blender use Cycles. In Maya use Renderman or Arnlod
+>- Make sure to turn off all form of color correction (Blender: Color Management, Compositor)
+>- Place a flat colored neutral gray (#7F7F7F) background behind the hair (this is done to help the anti-aliasing by bouncing softer light and thus producing crisper edges)
 
 #### Videos on Rendering Hair Cards
 - [Rendering setup procedurally (Daniel Bystedt)](https://youtu.be/oqjKMd9CYI4?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1297)
