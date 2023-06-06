@@ -7,18 +7,18 @@ enableToc: true
 ---
 
 ### Ambient Occlusion
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion)_ - _[[Polycount]](http://wiki.polycount.com/wiki/Ambient_occlusion_map)_
+_[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion) - [[Polycount]](http://wiki.polycount.com/wiki/Ambient_occlusion_map) - [[Unreal Engine Doc]](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/) - [[Unity Doc]](https://docs.unity3d.com/2021.3/Documentation/Manual/LightingBakedAmbientOcclusion.html)_
 
-Ambient Occlusion or AO is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable.
+Ambient Occlusion (AO) is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable.
 
 > [!info] Info
 > 
 > - Softens the overall lighting in your scene
 > - Adds depth
-> - Can be used as a budget [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|ray traced]] occlusion
+> - Can be used as a budget [[Glossary#Ray Tracing|ray traced]] occlusion
 > - Requires high resolution light maps to look good
 
-|Ambient Occlusion OFF|Ambient Occlusion ON
+|Ambient Occlusion Off|Ambient Occlusion On
 |:-:|:-:
 |![[AO_off_1.png]]|![[AO_on_1.png]]
 |![[AO_off_2.png]]|![[AO_on_2.png]]
@@ -26,32 +26,37 @@ Ambient Occlusion or AO is a shading and rendering technique used to calculate h
 
 ---
 
-### Ray Tracing: Ray Traced Shadows/ Reflections/ Lighting
+### Ray Tracing
 
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))_
+_[[Wikipedia]](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) - [[Unreal Engine Doc]](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/) (real-time)  [[Unreal Engine Doc]]() (hardware) - [[Unity Doc]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)_
 
-Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows and light and only keep ray traced reflections on.
+Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (films industry).
+
+Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows, lights and only keep ray traced reflections on.
+
+Ray tracing is a broad term and consists of many smaller things like:
+- Ray Traced Shadows
+- Ray Traced Reflections
+- Ray Traced Lighting
 
 > [!info] Info
 > 
-> - Only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|ray tracing]] support)
-> - Enables [[Glossary#Ray Tracing Ray Traced Shadows Reflections Lighting|ray traced]] results for shadows, [[Glossary#Ambient Occlusion|ambient occlusion]], reflections, translucency and global illumination
-> 
-> 
+> - Only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX [[Glossary#Ray Tracing|ray tracing]] support)
+> - Enables [[Glossary#Ray Tracing|ray traced]] results for shadows, [[Glossary#Ambient Occlusion|ambient occlusion]], reflections, translucency and global illumination
 
 
 
 
-Ray Tracing OFF vs ON:
+Ray tracing off vs on:
 
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
 
-On the flipped side, here's and example of Ray Tracing makes the lighting and shadows look way worse. 
+On the flipped side, here's and example of [[Glossary#Ray Tracing|ray tracing]] making the lighting and shadows look way worse. 
 
 ![[20230603111140.png|600]]
 
-This doesn't mean that Ray Tracing in it's nature makes lighting and shadows worse, but rather adding Ray Tracing into a scene that wasn't designed with Ray Tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with Ray Tracing on. And potentially there needs to be 2 different presets for Ray Tracing on and off. 
+This doesn't mean that [[Glossary#Ray Tracing|ray tracing]] in it's nature makes lighting and shadows worse, but rather adding [[Glossary#Ray Tracing|ray tracing]] into a scene that wasn't designed with [[Glossary#Ray Tracing|ray tracing]] in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with [[Glossary#Ray Tracing|ray tracing]] on. And potentially there needs to be 2 different presets for [[Glossary#Ray Tracing|ray tracing]] on and off. 
 
 ---
 ### Anisotropic Filtering
