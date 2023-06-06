@@ -53,11 +53,11 @@ It's used for both hyper realistic and stylized hair.
 ToDo: Add industry examples
 
 
-## Creating Hair Cards
-### Different Ways To Make Hair
+### Creating Hair Cards
+#### Different Ways To Make Hair
 There are a couple of ways of getting hair cards. The easiest is to look for pre made ones. Another good way is to use software like [Hair strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-67-5-full-perpetual-license-free-demo-and-sample-set). Software like this creates all different maps for you. The last and most time costly way is to use particle systems to create hair and then to render some of the maps and use PS or other software to generate the others.
 
-### What to Put on the Hair Card
+#### What to Put on the Hair Card
 The hair card contains the **hair**, but also **eyebrows** and **eyelashes**.
 For hair strands there should be following:
 
@@ -70,7 +70,7 @@ For hair strands there should be following:
 
 [Video to Hair Card types/ breakup](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=153)
 
-### Needed Texture Maps
+#### Needed Texture Maps
 The textures that are most essential are: Alpha, Color, Normal, AO, Gradient
 
 But to get the desired hair look there are many others that are often used.
@@ -94,48 +94,38 @@ But to get the desired hair look there are many others that are often used.
 |**Depth**|Can be used for parallax displacement mapping to give the hair more depth, or just like AO add a tint for some general depth for better performance than AO but not looking as good.
 |**Flow**|2D vector maps similar to normal maps. However, unlike normal maps, the data is not representing a surface normal but instead a general flow from one direction to another. This can create many effects, but for hair it's used for anisotropy highlights.
 
+>[!tip] Creating texture maps for hair cards YT videos
+>
+>- [Creating maps](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1015)
+>- [Creating maps Substance Painter](https://youtu.be/6xBMcnx2Kkk?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=120)
+>- [Full Process](https://www.youtube.com/watch?v=u6IP74f8pBo&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=32)
 
-### Videos about Creating Texture Maps for Hair Cards
-- [Creating maps](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1015)
-- [Creating maps Substance Painter](https://youtu.be/6xBMcnx2Kkk?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=120)
-- [Full Process](https://www.youtube.com/watch?v=u6IP74f8pBo&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=32)
 
 
+### Placing Hair Cards
 
-## Placing Hair Cards
+>[!info] Hair texture map setup in Blender
+>
+>- Roughness: Color map > Color Ramp > P. BSDF
+>- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)
 
-<details>
-<summary>Texture map setup in Blender</summary>
+>[!info] Hair texture map setup in Unreal Engine
 
-- Roughness: Color map > Color Ramp > P. BSDF
-- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)
-</details>
-
-<details>
-<summary>Texture map setup in Marmoset</summary>
-... empty for now
-</details>
-
-<details>
-<summary>Texture map setup in Unreal</summary>
-... empty for now
-</details>
-
-### Placing Strategies
+>[!info]  Placing Strategies
 - It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
 - Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
 - When placing the hair it's fine to move the hair both in object and edit mode
 - When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
 
-### Things to Watch Out For
+#### Things to Watch Out For
 - Use as much of the hair strand as possible
 - Watch out that when moving the vertices you don't move them in UV space, in blender sliding verts would do this and should thus be avoided
 - Never extrude the hair card only add new detail in with loop cuts
 - Keep a UV window open and try to make all faces in UV space have equal sizes
 - Try to have hair cards not clip through each other
 
-## Rendering Hair Cards
-### Things to Check Before Rendering
+### Rendering Hair Cards
+#### Things to Check Before Rendering
 - Use a clean studio HDRI and no other light sources. Rotate the HDRI so that the main light source is coming from the other side of the camera
 - Make sure the camera resolution is 2048 x 2048 or 4096 x 4096
 - Render with the correct image extension (more about that [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/0.4_Texture-Maps_Theory))
@@ -145,16 +135,14 @@ But to get the desired hair look there are many others that are often used.
 - Make sure to turn off all form of color correction (Blender: Color Management, Compositor)
 - Place a flat colored neutral gray(#7F7F7F) background behind the hair (this is done to help the anti-aliasing by bouncing softer light and thus producing crisper edges)
 
-### Videos on Rendering Hair Cards
+#### Videos on Rendering Hair Cards
 - [Rendering setup procedurally (Daniel Bystedt)](https://youtu.be/oqjKMd9CYI4?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1297)
 - [Rendering setup](https://youtu.be/db7Xfg_oSYE?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=735)
 - [Rendering setup](https://www.youtube.com/watch?v=_WbNUly6EYM&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=18)
 
-# Stylized Hair (Curves/ Arrays)
-## About Stylized Hair
-_... empty for now_
+## Stylized Hair (Curves/ Arrays)
 
-## Creating Stylized Hair in Blender
+### Creating Stylized Hair in Blender
 - To control the hair one can use bezier curves or path curves
 - Enable Curve Handles
 - Add Circle Curve rotate on x by 90° (When scaling apply scale, but do not apply rotation or location)
@@ -164,15 +152,15 @@ _... empty for now_
 - Lower Curve and circle curve resolution to around 3 and use sub d mod on the hair curve
 - Make sure to use resolution increase instead of SubDiv on Bevel Profile object for hair curve
 
-# Particle System Hair
-## About Particle Hair
+## Particle System Hair
+### About Particle Hair
 Particle Hair can be very time consuming and frustrating to make, as well as not being the best option for Real-Time use. It can however be quite useful for making hair cards. Particle hair especially shines with a Hyper-Realistic art style and when the hair will be involved in allot of physics heavy actions like wind, fighting and other hair interactions.
 
 Though particle hair is currently not that Real-Time friendly, that definitely will change soon, it's the hair method which has the most space to improve and become easier to use.
 
 _Following software support particle hair:_ Blender, Marmoset Toolbag (XGen), Maya(XGen), Unreal Engine
 
-## Particle Hair in Blender _(pre 3.3)_
+### Particle Hair in Blender _(pre 3.3)_
 
 
 - Add part of head to vertex group
@@ -186,7 +174,6 @@ _Following software support particle hair:_ Blender, Marmoset Toolbag (XGen), Ma
 Children:
 - Change Clump and roughness
 
-# Resources
-### Finished Hair Styles
-
+## Resources
+**Finished Hair Styles:**
 - https://blendermarket.com/products/35-hair-cards-for-blender-blend-files-
