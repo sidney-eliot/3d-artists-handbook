@@ -18,7 +18,7 @@ enableToc: true
 - [Particle System Hair](#particle-system-hair-)
 - [Resources](#resources-)
 
->[!tip]- A YouTube Playlist I made, for all kinds of hair methods
+>[!tip]- A YouTube playlist I made, for all kinds of hair methods
 > 
 ><br>
 ><div style="text-align: center;">
@@ -40,29 +40,13 @@ I recommend starting every haircut with a base sculpt. Refine this sculpt until 
 
 
 ## Sculpted Hair
-![[Pasted image 20230604170808.png|350]]![[Pasted image 20230604170824.png|350]]![[Pasted image 20230604170858.png|300]]![[Pasted image 20230604170907.png|300]]![[Pasted image 20230604170921.png|600]]![[Pasted image 20230604170758.png|250]]
+![[Pasted image 20230604170808.png|350]]![[Pasted image 20230604170824.png|350]]![[Pasted image 20230604170858.png|300]]![[Pasted image 20230604170907.png|300]]![[Pasted image 20230604170758.png|250]]![[Pasted image 20230604170921.png|600]]
 
 Sculpting is great method for the final hair but where it really shines is as a base/ block out for all other hair creations methods. Make it a habit to first sculpt a block out of the haircut until the silhouette is correct, and to use that as a shape guide.
-
->[!tip] Sculpting Hair Playlist
->
-><br>
-><div style="text-align: center;">
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bAL5O02HQ6Y_ESsW26t1wK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-></div>
 
 **Sculpting Hair Playlist:**
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bAL5O02HQ6Y_ESsW26t1wK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-<div style="text-align: center;" >
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bAL5O02HQ6Y_ESsW26t1wK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-
-
 
 ## Hair Cards
 ![[Pasted image 20230604174906.png|400]]
