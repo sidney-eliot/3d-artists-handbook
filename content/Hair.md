@@ -68,7 +68,7 @@ For hair strands there should be following:
 - (1-2) **Flyaways** (These wild hair strands help break the silhouette)
 - (0-1) **Scalp Card** (Scalp Cards are optional because the scalp hair can also be baked into the head texture. But if there should be areas where one see a bit of the skin below the hair then scalp cards are the way to go. Scalp Cards are also more flexible because the characters hair style can be changed dramatically without having to re-bake scalp hair into the body texture map)
 
-[Video to Hair Card types/ breakup](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=153)
+- [Video to Hair Card types/ breakup](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=153)
 
 #### Needed Texture Maps
 The textures that are most essential are: Alpha, Color, Normal, AO, Gradient
@@ -94,7 +94,7 @@ But to get the desired hair look there are many others that are often used.
 |**Depth**|Can be used for parallax displacement mapping to give the hair more depth, or just like AO add a tint for some general depth for better performance than AO but not looking as good.
 |**Flow**|2D vector maps similar to normal maps. However, unlike normal maps, the data is not representing a surface normal but instead a general flow from one direction to another. This can create many effects, but for hair it's used for anisotropy highlights.
 
->[!tip] Creating texture maps for hair cards YT videos
+>[!tip] Creating texture maps for hair cards YouTube videos
 >
 >- [Creating maps](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1015)
 >- [Creating maps Substance Painter](https://youtu.be/6xBMcnx2Kkk?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=120)
@@ -104,25 +104,25 @@ But to get the desired hair look there are many others that are often used.
 
 ### Placing Hair Cards
 
->[!info] Hair texture map setup in Blender
+>[!info] Hair texture map setup in Blender (ToDo: move to a different section)
 >
 >- Roughness: Color map > Color Ramp > P. BSDF
 >- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)
 
->[!info] Hair texture map setup in Unreal Engine
+>[!info] Hair card placing strategies
+>
+>- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
+>- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
+>- When placing the hair it's fine to move the hair both in object and edit mode
+>- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
 
->[!info]  Placing Strategies
-- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
-- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
-- When placing the hair it's fine to move the hair both in object and edit mode
-- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
-
-#### Things to Watch Out For
-- Use as much of the hair strand as possible
-- Watch out that when moving the vertices you don't move them in UV space, in blender sliding verts would do this and should thus be avoided
-- Never extrude the hair card only add new detail in with loop cuts
-- Keep a UV window open and try to make all faces in UV space have equal sizes
-- Try to have hair cards not clip through each other
+>[!warning] Things to watch out for when placing hair cards
+>
+>- Use as much of the hair strand as possible
+>- Watch out that when moving the vertices, you don't move them in the UV space (In Blender [sliding vertices](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/vertex/slide_vertices.html) will also move them in UV space and should thus be avoided)
+>- Never extrude the hair card, only add in new detail with [loop cuts](https://docs.blender.org/manual/en/latest/modeling/meshes/tools/loop.html)
+>- Keep a UV window open and try to make all faces in UV space have equal sizes
+>- Try to have hair cards not clip through each other
 
 ### Rendering Hair Cards
 #### Things to Check Before Rendering
