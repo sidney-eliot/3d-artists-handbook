@@ -2,22 +2,6 @@
 title: "Hair 💇🏼‍♀️"
 enableToc: true
 ---
-## Table of Contents
-- [General](#general-)
-- [Good Software for Making Hair](#good-software-for-making-hair-)
-- [Sculpted Hair](#sculpted-hair-)
-   - [Sculpted Hair Examples](#sculpted-hair-examples-)
-   - [About Sculpted Hair](#about-sculpted-hair-)
-- [Hair Cards](#hair-cards-)
-   - [Hair Card Hair Examples](#hair-card-hair-examples-)
-   - [About Hair Cards](#about-hair-cards-)
-   - [Creating Hair Cards](#creating-hair-cards-)
-   - [Placing Hair Cards](#placing-hair-cards-)
-   - [Rendering Hair Cards](#rendering-hair-cards-)
-- [Stylized Hair (Curves/ Arrays)](#Stylized-hair-curves-arrays-)
-- [Particle System Hair](#particle-system-hair-)
-- [Resources](#resources-)
-
 >[!tip]- A YouTube playlist I made, for all kinds of hair methods
 > 
 ><br>
