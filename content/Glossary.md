@@ -11,7 +11,7 @@ _[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion) - [[Polycount]](
 
 Ambient Occlusion (AO) is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable.
 
-> [!info] Info
+> [!info] Ambient Occlusion Info
 > 
 > - Softens the overall lighting in your scene
 > - Adds depth
@@ -38,25 +38,24 @@ Ray tracing is a broad term and consists of many smaller things like:
 - Ray Traced Shadows
 - Ray Traced Reflections
 - Ray Traced Lighting
+- Ray Traced [[Glossary#Ambient Occlusion|Ambient Occlusion]]
+- Ray Traced Global Illumination [[1]](https://developer.nvidia.com/rtx/ray-tracing/rtxgi)[[2]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@15.0/manual/Ray-Traced-Global-Illumination.html)
+- Ray Traced Translucency
 
-> [!info] Info
+> [!info] Ray Tracing Info
 > 
-> - Only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX [[Glossary#Ray Tracing|ray tracing]] support)
-> - Enables [[Glossary#Ray Tracing|ray traced]] results for shadows, [[Glossary#Ambient Occlusion|ambient occlusion]], reflections, translucency and global illumination
-
-
-
+> - Only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX ray tracing support)
 
 Ray tracing off vs on:
 
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
 
-On the flipped side, here's and example of [[Glossary#Ray Tracing|ray tracing]] making the lighting and shadows look way worse. 
+On the flipped side, here's and example of ray tracing making the lighting and shadows look way worse. 
 
 ![[20230603111140.png|600]]
 
-This doesn't mean that [[Glossary#Ray Tracing|ray tracing]] in it's nature makes lighting and shadows worse, but rather adding [[Glossary#Ray Tracing|ray tracing]] into a scene that wasn't designed with [[Glossary#Ray Tracing|ray tracing]] in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with [[Glossary#Ray Tracing|ray tracing]] on. And potentially there needs to be 2 different presets for [[Glossary#Ray Tracing|ray tracing]] on and off. 
+This doesn't mean that ray tracing in it's nature makes lighting and shadows worse, but rather adding |ray tracing into a scene that wasn't designed with ray tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with ray tracing on. And potentially there needs to be 2 different presets for ray tracing on and off. 
 
 ---
 ### Anisotropic Filtering
