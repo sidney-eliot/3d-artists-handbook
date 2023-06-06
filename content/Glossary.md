@@ -28,7 +28,7 @@ Ambient Occlusion (AO) is a shading and rendering technique used to calculate ho
 
 ### Ray Tracing
 
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) - [Unreal Engine Doc] [1](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/) [2](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing) (real-time) - [[Unreal Engine Doc]](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/) (hardware) - [[Unity Doc]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)_
+_[[Wikipedia]](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) - [Unreal Engine Doc] [[1]](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing) [[2]](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/) (real-time) - [[Unreal Engine Doc]](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/) (hardware) - [[Unity Doc]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)_
 
 Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (films industry).
 
@@ -56,6 +56,47 @@ On the flipped side, here's and example of ray tracing making the lighting and s
 ![[20230603111140.png|600]]
 
 This doesn't mean that ray tracing in it's nature makes lighting and shadows worse, but rather adding ray tracing into a scene that wasn't designed with ray tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with ray tracing on. And potentially there needs to be 2 different presets for ray tracing on and off. 
+
+---
+
+### Sub Surface Scattering
+
+For the SSS maps there mostly is a `SSS Color Map` and sometimes a `SSS Control Map` and to help the SSS `Thickness Maps`  are also often used.
+
+Real objects can either absorb, scatter or ??? light rays. To recreate this in 3D, Sub Surface Scattering (SSS) maps are used in combination with thickness maps.
+
+>[!info] Theory behind real life SSS (Transparency and Translucency)
+>
+>When traveling in an inhomogeneous medium like air or translucent materials, light can be absorbed or scattered.
+> 
+>When absorption occurs, the light intensity decreases and the direction of the ray doesn’t change.
+>>[!example] Objects that absorb light
+>
+>When scattering occur, the ray direction changes randomly and doesn’t change its intensity.
+>
+>>[!example] Objects that scatter light
+>>
+>>- Dirty water
+>
+>If there is no scattering and the absorption is low, rays can pass directly through.
+>
+>>[!example] Objects that don’t scatter light with low absorption
+>>
+>> - Clear water
+>
+>The further light travels in such a medium/ material, the more it's absorbed and/ or scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
+>>[!example] Examples of SSS in action
+>>
+>> Ears are thin >>> Low light ray absorption = Light is very visible through ears
+
+![[20230603111548.png|50]]
+
+> [!example] Objects where SSS is vital
+> 
+> - Fleshy characters (any character or creature)
+> - Wacs
+> - Marble
+> - Milk
 
 ---
 ### Anisotropic Filtering
@@ -98,37 +139,6 @@ https://youtu.be/7l6QOcgWXfI
 ### Lens Flare (ToDo)
 
 ![[20230603111506.png|400]]
-
-
-### Sub Surface Scattering (SSS)
-Real objects can either absorb, scatter or ??? light. To recreate this in 3D SSS and thickness maps are used. For the SSS maps there mostly is a `SSS Color Map` and sometimes a `SSS Control Map` and to help the SSS `Thickness Maps`  are also often used.
-
-#### Theory behind SSS (Transparency and Translucency)
-- When traveling in an inhomogeneous medium(air) or translucent materials, light can be absorbed or scattered
-- Absorption: `Light intensity decreases`, direction of the ray doesn’t change
-- Scattering: The ray direction changes randomly and doesn’t change its intensity (ear is thin -> low absorption = ear catches light)
-- If there is no scattering and the absorption is low, rays can pass directly through
-- The further light travels in such a medium/material, the more it is absorbed and/or scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
-
-> [!example] Objects where SSS is vital
-> 
-> - Fleshy characters
-> - Wacs
-> - Marble
-> - Milk
-
-![[20230603111548.png|50]]
-
-> [!example] Objects that absorb light
-
-> [!example] Objects that scatter light
->  
->  - dirty water
-
-> [!example] Objects that don’t scatter/ absorb light
->  
-> - Clear water
-
 
 ### Volumetric effects: Volumetric Lighting/ Fog
 
