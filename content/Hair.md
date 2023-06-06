@@ -53,20 +53,20 @@ Sculpting is great method for the final hair but where it really shines is as a 
 ![[Pasted image 20230604174914.png|400]]
 ![[Pasted image 20230604174921.png|400]]
 
-## About Hair Cards
-### Info
 Hair cards are a hair method where a variety of strand texture maps are mapped to a flat mesh plane. These hair planes are then subdivided and placed around the head while moving vertices to fit the shape of the head and haircut. 
 
 To avoid repetition in textures used for strands, a couple of materials are created each using different hair stands that can then be easily chosen from. This allows one to be very flexible as one can at any point decide that one wants to replace all the hair stand types with other or even more types.
 
-Hair cards are great for games because of its low topology count and working well with physics/ animation. Used for both super realistic and stylized hair.
+Hair cards are great for games because of its low tris count and working well with physics/ animation. The poly count vastly depends on hair style, can range from 1k tris to 10k tris.
 
-### Poly Count
-Vastly depends on hair style, can range from 1k tris to 10k tris. Alloys hair from horizon has 100k tris.
+|Tris|Character
+|:-:|:-:
+|100k|Alloy's hair from Horizon Zero Dawn
 
-### Industry Examples
-_... empty for now_
 
+It's used for both hyper realistic and stylized hair.
+
+ToDo: Add industry examples
 
 
 ## Creating Hair Cards
