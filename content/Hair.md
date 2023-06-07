@@ -2,7 +2,7 @@
 title: "Hair 💇🏼‍♀️"
 enableToc: true
 ---
->[!tip]- A YouTube playlist I made, for all kinds of hair methods
+>[!example]-  A YouTube playlist I made, for all kinds of hair methods
 > 
 ><br>
 ><div style="text-align: center;">
@@ -94,7 +94,7 @@ But to get the desired hair look there are many others that are often used.
 |**Depth**|Can be used for parallax displacement mapping to give the hair more depth, or just like AO add a tint for some general depth for better performance than AO but not looking as good.
 |**Flow**|2D vector maps similar to normal maps. However, unlike normal maps, the data is not representing a surface normal but instead a general flow from one direction to another. This can create many effects, but for hair it's used for anisotropy highlights.
 
->[!tip] Creating texture maps for hair cards YouTube videos
+>[!example] Creating texture maps for hair cards YouTube videos
 >
 >- [Creating maps](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1015)
 >- [Creating maps Substance Painter](https://youtu.be/6xBMcnx2Kkk?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=120)
@@ -137,10 +137,11 @@ But to get the desired hair look there are many others that are often used.
 >- Make sure to turn off all form of color correction (Blender: Color Management, Compositor)
 >- Place a flat colored neutral gray (#7F7F7F) background behind the hair (this is done to help the anti-aliasing by bouncing softer light and thus producing crisper edges)
 
-#### Videos on Rendering Hair Cards
-- [Rendering setup procedurally (Daniel Bystedt)](https://youtu.be/oqjKMd9CYI4?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1297)
-- [Rendering setup](https://youtu.be/db7Xfg_oSYE?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=735)
-- [Rendering setup](https://www.youtube.com/watch?v=_WbNUly6EYM&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=18)
+>[!example] Rendering Hair Cards YouTube videos
+>
+>- [Rendering setup procedurally (Daniel Bystedt)](https://youtu.be/oqjKMd9CYI4?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1297)
+>- [Rendering setup](https://youtu.be/db7Xfg_oSYE?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=735)
+>- [Rendering setup](https://www.youtube.com/watch?v=_WbNUly6EYM&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=18)
 
 ## Stylized Hair (Curves/ Arrays)
 

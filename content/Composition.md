@@ -6,7 +6,7 @@ enableToc: false
 
 ## Table of Contents
 
-- [[Composition#Focal Elements Emphasis|Focal Elements Emphasis]]
+- [[Composition#Focal Elements Emphasis|Focal Elements, Emphasis]]
 - [[Composition#Balance|Balance]]
 - [[Composition#Positioning and Movement Direction|Positioning and Movement Direction]]
 - [[Composition#Tilt Shift Camera|Tilt Shift Camera]]
@@ -97,7 +97,7 @@ Good for characters.
 
 A reason why the triangle is so good, is because it's a sturdy shape:
 
-![[Pasted image 20230604160811.png|220]]
+![[Pasted image 20230604160811.png|250]]
 
 
 #### Flipped Triangle
