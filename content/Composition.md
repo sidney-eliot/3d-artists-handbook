@@ -16,7 +16,7 @@ Focal Elements/ Emphasis dictates the rough order at which the eye looks at the 
 
 Great composition is achieved through:
 
-- [[Composition#Color/ Saturation/ Contrast|Color, Saturation, Contrast]]
+- [[Composition#Color Saturation Contrast|Color, Saturation, Contrast]]
 - [[Composition#Placement of Key Elements|Placement of Key Elements]]
 - [[Composition#Negative Space|Negative Space]]
 - [[Composition#Energy Lines|Energy Lines]]
@@ -27,7 +27,7 @@ Great composition is achieved through:
 - Faces/ Figures
 - Geometric Shapes
 
-[[Composition#Other Elements/ Emphasis Examples|Other Elements, Emphasis Examples]]
+[[Composition#Other Elements Emphasis Examples|Other Elements, Emphasis Examples]]
 
 [[Composition#Bad Examples|Bad Examples]]
 
@@ -83,6 +83,7 @@ Rule of thirds isn't just used to place important points, but also to determine 
 
 #### Triangle/ Pyramid
 Good for characters.
+
 ![[Pasted image 20230604160548.png|250]]
 
 > [!example]- Other Triangle examples

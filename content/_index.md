@@ -48,7 +48,6 @@ _This section will be moved to a side panel so it can accessed from every page._
 > - [[Workflow between ZBrush and Blender]] 🌀
 > - [[Blender Sculpting]]
 > - [[Hair]] 💇🏼‍♀️
-> - 🚧 [[zSkin]]
 > - [[Anime Style Characters]]
 > 
 > ### Texture
