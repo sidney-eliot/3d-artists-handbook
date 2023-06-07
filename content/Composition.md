@@ -6,7 +6,7 @@ enableToc: false
 
 ## Table of Contents
 
-- [[Composition#Focal Elements Emphasis|Focal Elements, Emphasis]]
+- [[Composition#Focal Elements Emphasis|Focal Elements/ Emphasis]]
 - [[Composition#Balance|Balance]]
 - [[Composition#Positioning and Movement Direction|Positioning and Movement Direction]]
 - [[Composition#Tilt Shift Camera|Tilt Shift Camera]]
