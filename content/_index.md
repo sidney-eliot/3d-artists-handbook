@@ -37,11 +37,11 @@ _This section will be moved to a side panel so it can accessed from every page._
 >  - [[Composition]] 🌆
 >  - [[Technical Side of Character Design]] 👩🏽‍💻
 >  - 🚧 [[Artistic Side of Character Design]]
->  - [[Topology and Retopology|Topology, Retopology]]
+>  - [[Topology Retopology|Topology, Retopology]]
 >  - [[Optimization]] 📊
 >  - [[Color]] 🎨🏳️‍🌈
 >  - [[Texture Maps]] 🗺️
->  - [[Image Extensions]]
+>  - [[Image File Format]]
 > 
 > ### Process
 > - [[Organic Hard Surface Sculpting|Organic, Hard Surface, Sculpting]] 🧊🗿

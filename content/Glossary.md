@@ -103,7 +103,7 @@ Real objects can either absorb, scatter or ??? light rays. To recreate this in 3
 ### Anisotropic Filtering
 ToDo: Explain better
 
-Anisotropic filtering or AF for short, is a method of enhancing the image quality of textures on surfaces that are at oblique viewing angles with respect to the camera. Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing effects.
+Anisotropic Filtering (AF), is a method of enhancing the image quality of textures on surfaces that are at oblique viewing angles with respect to the camera. Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing effects.
 
 ![[20230603111310.png|600]]
 
@@ -390,20 +390,19 @@ Convex is means (ToDo). A convex hull is a mesh that wraps around another mesh i
 ---
 
 ### Chamfer
-A corner with one edge is a hard edge, with 2 edges a chamfer and anything more than 2 is a bevel. Chamfers mostly have a 45° angle.
+A corner with one edge is a hard edge, with 2 edges a chamfer and anything more than 2 is a bevel. Chamfers mostly have a ~45° angle.
 
 ---
 
 ### LOD
+ToDo
 
 LOD's (Level of Detail) ...
-
-ToDo
 
 ---
 
 ### Tessellation
-Also called triangulation. Is the process of the converting faces to random even triangles.
+Tessellation (Triangulation) is the process of the converting faces to random even triangles.
 
 ---
 
@@ -434,31 +433,57 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 - 24 bit RGB (8,8,8)
 - 32 bit RGBA (8,8,8,8)
 
-
->[!info] Max amount of unique values per channel (exponential growth)
->
->asdasd
-
 >[!info] Max amount of unique values per channel (exponential growth)
 >
 >1 bit Image (Integer):
 >```
 > 2 Tone Values >>> Black/ 0 and White/ 1
-> ```
+>```
 >8 bit Image (Integer):
 >```
 > 256 Tone Values >>> 256 Reds x 256 Greens x 256 Blues = 16.7 Million RGB Values
-> ```
+>```
 >16 bit Image (Integer/ Float):
 >```
 > 65,536 Tone Values >>> 65,536 Reds x 65,536 Greens x 65,536 Blues = 281 Trillion RGB Values
-> ```
+>```
 >32 bit Image (Integer/ Float):
 >```
 >4,294,967,295 Tone Value
 >```
 >
 >So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit. Though the file size gets progressively bigger, it doesn't increase by that margin. 
+
+
+>[!info] Max amount of unique values per channel (exponential growth) > >1 bit Image (Integer): >
+
+```
+> 2 Tone Values >>> Black/ 0 and White/ 1
+> 
+```
+
+>8 bit Image (Integer): >
+
+```
+> 256 Tone Values >>> 256 Reds x 256 Greens x 256 Blues = 16.7 Million RGB Values
+> 
+```
+
+>16 bit Image (Integer/ Float): >
+
+```
+> 65,536 Tone Values >>> 65,536 Reds x 65,536 Greens x 65,536 Blues = 281 Trillion RGB Values
+> 
+```
+
+>32 bit Image (Integer/ Float): >
+
+```
+>4,294,967,295 Tone Value
+>
+```
+
+> >So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit. Though the file size gets progressively bigger, it doesn't increase by that margin.
 
 #### Human Perception of Bit Depth
 Humans can only distinguish between 2 ~ 10 million colors, so we can't even see all colors of 8 bit. This means that an image exported in 8 bit or 16 bit will always look identical. The only advantage in using anything above 8 bit is for editing photos and only for the process of editing and not the export. For 2D artists 8 bit will always be enough and most drawing software doesn't even support more than 8 bit.
