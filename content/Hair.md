@@ -10,6 +10,13 @@ enableToc: true
 ></div>
 
 
+>[!info] Finished hair card textures/ hair styles
+>
+>If you're using hair cards and don't want to create the texture yourself, or want to pick from already created haircuts, some places to look are:
+>- [ArtStation Marketplace](https://www.artstation.com/marketplace/game-dev?q=Hair&section=best_selling)
+>- [Flipped Normals Marketplace](https://flippednormals.com/explore?term=Hair&tagIds=2)
+
+
 ## General
 I recommend starting every haircut with a base sculpt. Refine this sculpt until the silhouette is close to what you want. After that create the hair with your desired style, keeping true to your sculpted block out.
 
@@ -110,22 +117,21 @@ But to get the desired hair look there are many others that are often used.
 
 ### Placing Hair Cards
 
->[!note] Placing hair cards
+>[!tip] Strategies
 >
->>[!tip] Strategies
->>
->>- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
->>- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
->>- When placing the hair it's fine to move the hair both in object and edit mode
->>- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
+>- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
+>- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
+>- When placing the hair it's fine to move the hair both in object and edit mode
+>- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
+
+>[!warning] Things to watch out for
 >
->>[!warning] Things to watch out for
->>
->>- Use as much of the hair strand as possible
->>- Watch out that when moving the vertices, you don't move them in the UV space (In Blender [sliding vertices](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/vertex/slide_vertices.html) will also move them in UV space and should thus be avoided)
->>- Never extrude the hair card, only add in new detail with loop cuts
->>- Keep a UV window open and try to make all faces in UV space have equal sizes
->>- Try to have hair cards not clip through each other
+>- Use as much of the hair strand as possible
+>- Watch out that when moving the vertices, you don't move them in the UV space (In Blender [sliding vertices](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/vertex/slide_vertices.html) will also move them in UV space and should thus be avoided)
+>- Never extrude the hair card, only add in new detail with loop cuts
+>- Keep a UV window open and try to make all faces in UV space have equal sizes
+>- Try to have hair cards not clip through each other
+
 
 ### Rendering Hair Cards
 
@@ -151,29 +157,48 @@ But to get the desired hair look there are many others that are often used.
 >**Render setup**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_WbNUly6EYM?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Stylized Hair (Curves/ Arrays)
+## Curve/ Array Hair
 
-### Creating Stylized Hair in Blender
-- To control the hair one can use bezier curves or path curves
-- Enable Curve Handles
-- Add Circle Curve rotate on x by 90° (When scaling apply scale, but do not apply rotation or location)
-- Set bevel profile to the circle curve under curve Object Data Tab>Geometry>Bevel>Object
-- To change the hair shape edit the circle curve in edit mode
-- Ctrl + T to change rotation, Alt + S to change scale, Alt + S + 0 for perfect tip
-- Lower Curve and circle curve resolution to around 3 and use sub d mod on the hair curve
-- Make sure to use resolution increase instead of SubDiv on Bevel Profile object for hair curve
+This method consists of a couple of key concepts. Instead of placing the hair, a curve is placed which generates a hair strand in it's place which follows the curves shape. This makes it very easy to move and twist the hair strands as one does not have to work about topology. To display the hair strand along the path of the curve a shape is used, in Blender this shape is represented by a circle curve. This shape is then used by the curve to generate the hair mesh. This means that one can on a whim change the shape of the hair.
+
+Mostly one will have a couple of different shapes to bring variety into the haircut and assigns the shapes individual to curves.
+
+This method also easily allows to change the topology resolution of the hair.
+
+>[!tip] Creating curve/ array hair in Blender
+>
+>- To control the hair one can use bezier curves or path curves
+>- Enable Curve Handles
+>- Add Circle Curve rotate on x by 90° (When scaling apply scale, but do not apply rotation or location)
+>- Set bevel profile to the circle curve under curve Object Data Tab>Geometry>Bevel>Object
+>- To change the hair shape edit the circle curve in edit mode
+>- Ctrl + T to change rotation, Alt + S to change scale, Alt + S + 0 for perfect tip
+>- Lower Curve and circle curve resolution to around 3 and use sub d mod on the hair curve
+>- Make sure to use resolution increase instead of SubDiv on Bevel Profile object for hair curve
 
 ## Particle System Hair
-### About Particle Hair
 Particle Hair can be very time consuming and frustrating to make, as well as not being the best option for Real-Time use. It can however be quite useful for making hair cards. Particle hair especially shines with a Hyper-Realistic art style and when the hair will be involved in allot of physics heavy actions like wind, fighting and other hair interactions.
 
-Though particle hair is currently not that Real-Time friendly, that definitely will change soon, it's the hair method which has the most space to improve and become easier to use.
+Though particle hair is currently not that Real-Time friendly, that definitely will change soon, it's the hair method which has the most space to improve, both in performance and ease of use.
 
-_Following software support particle hair:_ Blender, Marmoset Toolbag (XGen), Maya(XGen), Unreal Engine
+>[!info] Software with particle hair support
+>- Blender
+>- Marmoset Toolbag (XGen)
+>- Maya(XGen)
+>- Unreal Engine
+>- Unity
 
-### Particle Hair in Blender _(pre 3.3)_
+
+## 🚧Work in Progress🚧
 
 
+Hair texture map setup in Blende:
+
+- Roughness: Color map > Color Ramp > P. BSDF
+- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)
+  
+  
+Particle Hair in Blender _(pre 3.3)_:
 - Add part of head to vertex group
 - Subdivide particle close to scalp with root select and +
 - Change Number, Length and Segments
@@ -184,15 +209,3 @@ _Following software support particle hair:_ Blender, Marmoset Toolbag (XGen), Ma
 
 Children:
 - Change Clump and roughness
-
-## Resources
-**Finished Hair Styles:**
-- https://blendermarket.com/products/35-hair-cards-for-blender-blend-files-
-  
-## 🚧Work in Progress🚧
-
-
-Hair texture map setup in Blende:
-
-- Roughness: Color map > Color Ramp > P. BSDF
-- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)

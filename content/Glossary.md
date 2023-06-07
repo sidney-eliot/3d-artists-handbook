@@ -99,6 +99,7 @@ Real objects can either absorb, scatter or ??? light rays. To recreate this in 3
 > - Milk
 
 ---
+
 ### Anisotropic Filtering
 ToDo: Explain better
 
@@ -107,26 +108,31 @@ Anisotropic filtering or AF for short, is a method of enhancing the image qualit
 ![[20230603111310.png|600]]
 
 ---
+
 ### Screen Space Refraction
 - Adds local reflections to the objects
 - Helps Glass, plastic, water, and other transparent/translucent materials.
 - Similar to screen space reflection. Screen Space Reflections and Ambient Occlusion aren't compatible with Screen Space Refraction. And are disabled on surfaces that use it.
 
 ---
+
 ### Screen Space Reflection
 A technique for reusing screen-space data to calculate reflections. Used for more subtle reflections like wet surfaces or puddles.
 
+---
 
-### Caustic
+### Caustics
 
 https://youtu.be/7l6QOcgWXfI
 
+---
 
 ### Bloom
 - Bloom/ light bloom (not to be confused with glow/emission) is a rendering technique to reproduce artifacts of real-world cameras. It produces fringes or feathers of light extending from the borders of bright areas in an image, contributing to the illusion of an extremely bright light overwhelming the camera or eye capturing the scene. 
 
 - Even tough bloom is most apparent around emissive objects, it can just as well happen with normal light sources
 
+---
 
 ### Motion Blur
 - Portrays the illusion of speed or movement blurring the objects
@@ -135,10 +141,13 @@ https://youtu.be/7l6QOcgWXfI
 - Not having Motion Blur on can lead to more eye strain, but can give you motion sickness
 - It can also increase the visual fidelity
 
+---
 
 ### Lens Flare (ToDo)
 
 ![[20230603111506.png|400]]
+
+---
 
 ### Volumetric effects: Volumetric Lighting/ Fog
 
@@ -162,6 +171,8 @@ Volumetric fog has a great synergy with volumetric lighting.
 
 ToDo: Add image
 
+---
+
 ### Chromatic Aberration
 ToDo: Restructure
 
@@ -171,24 +182,28 @@ ToDo: Restructure
 
 ![[Pasted image 20230603125616.png|700]]
 
+---
 
 ### Depth of Field
 Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends as well as the fall off can all be adjusted in the render/ game engines settings. Sometimes it is even possible to set multiple focal points.
 
 ![[Pasted image 20230603125653.png|700]]
 
+---
 
 ### DLSS/ FSR
 - DLSS stands for Deep learning super sampling (Nvidia GPUs)
 - FSR  stand for FidelityFX Super Resolution (AMD GPUs)
 - It is a image upscaling technology. Using deep learning to upscale lower-resolution images
 
+---
 
 ### Anti-Aliasing
 Removes aliasing effect. Aliasing is the appearance of jagged edges in a rasterized image (image rendered using pixels). Samples the pixels around the edges and uses them to blend away the appearance of jagged edges.
 
+---
 
-### Blending modes in 3D software
+### Blend Modes in 3D Software
 ToDo: Restructure
 
 Blend methods apply to every software (some have more or less modes). Every texture has to have a blend mode, the most common one being Opaque. Blend Modes describe how the output of the current material will blend over what is already being drawn (rendered) in the background.
@@ -235,7 +250,9 @@ No darkening, since all pixel values are added together.
 Multiplies the values of the Material against the pixels of the background.
 
 
-### Object properties
+---
+
+### Object Properties
 
 #### Transparent
 - With transparent objects almost all light passes directly through them. 
@@ -261,6 +278,7 @@ Multiplies the values of the Material against the pixels of the background.
 
 #### Transparency/Opacity/Alpha
 
+---
 
 ### Light Ray
 - In air light rays travel as straight lines
@@ -284,6 +302,7 @@ Multiplies the values of the Material against the pixels of the background.
 
 ![[Pasted image 20230603130631.png|400]]
 
+---
 
 ### Specular Reflection
 - The more planar the surface is, the more the incidence angle equals the reflected angle (law of reflection)
@@ -308,6 +327,7 @@ Examples:
 
 ![[Pasted image 20230603130821.png|500]]
 
+---
 
 ### Diffuse Reflection
 
@@ -336,11 +356,14 @@ Examples for diffuse objects:
 
 ## Topology
 
+---
 
 ### Poles
 There are two types of poles N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
 
 A pole is a set of edges that merge into a single vertex. Avoiding poles with six or more edges on a curved surfaces is something that you should incorporate into your modeling workflow. It is best practice to try to avoid poles when modeling.
+
+---
 
 ### Faces
 
@@ -348,7 +371,11 @@ A pole is a set of edges that merge into a single vertex. Avoiding poles with si
 - Quad: 4 vert face
 - Ngon: 5+ vert face
 
+---
+
 ### Backface Culling (ToDo)
+
+---
 
 ### Convex/ Convex Hull
 Convex is means (ToDo). A convex hull is a mesh that wraps around another mesh in the most optimal way.
@@ -359,30 +386,95 @@ Convex is means (ToDo). A convex hull is a mesh that wraps around another mesh i
 > - Physics calculation boundaries, for hair for example
 > - Baking cages
 
+---
+
 ### Chamfer
 A corner with one edge is a hard edge, with 2 edges a chamfer and anything more than 2 is a bevel. Chamfers mostly have a 45° angle.
 
+---
+
 ### LOD's (Level of Detail) (ToDo)
+
+---
 
 ### Tessellation
 Also called triangulation. Is the process of the converting faces to random even triangles.
 
+---
 
 ## Textures
+
+---
+
+### Bit Depth
+
+_[[Wikipedia]](https://en.wikipedia.org/wiki/Color_depth) - [[Polycount]](http://wiki.polycount.com/wiki/BitDepth) - [Photoshop Doc]](https://helpx.adobe.com/photoshop/using/bit-depth.html)_
+
+Bit depth (Color depth) determines how much color information an image can store, which directly influences the dynamic range the image can have.
+
+It's often good to render/ bake images with higher bit depth than needed and later in the process convert them to a lower bit depth. The trade offs with higher bit depths are increased render times and bigger file sizes.
+
+Weather the texture is only for one object or a texture atlas, should not influence which bit depth to choose
+
+#### Bit Depth Math
+The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 bit for example, 8 of the 32 channel represent red, 8 channels green, 8 channels blue and lastly 8 channels for alpha. This means that just by looking at the bit depth one can deduce if the image has alpha or not. If the image didn't have alpha those 8 channels for alpha would fall away and one would have a 24 bit image.
+
+- 6 bit RGB (2,2,2)
+- 8 bit RGBA (2,2,2,2)
+- 12 bit RGB (4,4,4)
+- 16 bit RGBA (4,4,4,4)
+- 24 bit RGB (8,8,8)
+- 32 bit RGBA (8,8,8,8)
+
+>[!info] Max amount of unique values per channel (exponential growth)
+>
+>1 bit Image (Integer):
+>```
+> 2 Tone Values >>> Black/ 0 and White/ 1
+> ```
+>8 bit Image (Integer):
+>```
+> 256 Tone Values >>> 256 Reds x 256 Greens x 256 Blues = 16.7 Million RGB Values
+> ```
+>16 bit Image (Integer/ Float):
+>```
+> 65,536 Tone Values >>> 65,536 Reds x 65,536 Greens x 65,536 Blues = 281 Trillion RGB Values
+> ```
+>32 bit Image (Integer/ Float):
+>```
+>4,294,967,295 Tone Value
+>```
+>
+>So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit. Though the file size gets progressively bigger, it doesn't increase by that margin. 
+
+#### Human Perception of Bit Depth
+Humans can only distinguish between 2 ~ 10 million colors, so we can't even see all colors of 8 bit. This means that an image exported in 8 bit or 16 bit will always look identical. The only advantage in using anything above 8 bit is for editing photos and only for the process of editing and not the export. For 2D artists 8 bit will always be enough and most drawing software doesn't even support more than 8 bit.
+
+[Video explaining bit depth](https://www.youtube.com/watch?v=Y-wSHpNJs-8)
+
+
+---
 
 ### Banding
 Banding artifacts are caused by a lack of precision with 8-bit normal maps. There aren’t enough color values to accurately represent subtle differences between the high poly and low poly surfaces, which results in stair stepping artifacts.
 
 [In depth PDF about banding](https://loopit.dk/banding_in_games.pdf)
 
+---
+
 ### Atlas/ Trim Sheet (ToDo)
+
+---
 
 ### Dithering
 Adds noise to combat banding. So Dithering is mostly only used with low bit images. Dithering can be done by adding a noise filter in Photoshop.
 
+---
+
 ### Tangent space
 Normal maps can be tangent-space or object-space. World-space is basically the same as object-space, except it requires the model to remain in its original orientation, neither rotating nor deforming, so it's almost never used. Always use tangent space for the normal map, however object space normal maps can be useful as a utility mask for texturing. The object space Normals maps are easily spotted, they look like orange normal maps.
 
+---
 
 ### Handedness (Normal Map)
 Handedness has influence over: Object transforms, Normal maps, rigs/ animations, ... . 
@@ -408,33 +500,49 @@ The X is in all software the Right vector (Left/Right). The Y and X can either b
 
 It's important to use the same space for an assets and it's textures. When working with software that has different spaces this can be done by switching channels at export.
 
+---
+
 ### Mipmaps (ToDo)
+
+---
 
 ### Tangent space ToDo
 https://marmoset.co/posts/toolbag-baking-tutorial/
 
+---
+
 ## Animation
+
+---
 
 ### Apex/ Peak (ToDo)
 
+---
+
 ### Bone Head/ Tail/ Body (ToDo)
 
-
 ## Baking
+
+---
 
 ### Floaters
 Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save allot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
 
+---
+
 ### Low/ High Poly
-ToDo:
+ToDo
 
 (in the context of baking high to low)
 
-### Skews (ToDo)
+---
+
+### Skews 
+ToDo
 
 ## 🚧Work in Progress🚧
 
-## Other (ToDo)
+## Other
 
-### Rigid body (ToDo)
+### Rigid Body
 An object that is affected by forces gravity.
