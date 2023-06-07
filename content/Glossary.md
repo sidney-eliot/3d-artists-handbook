@@ -354,9 +354,9 @@ Examples for diffuse objects:
 
 ![[Pasted image 20230603131037.png|400]]
 
-## Topology
-
 ---
+
+## Topology
 
 ### Poles
 There are two types of poles N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
@@ -373,7 +373,8 @@ A pole is a set of edges that merge into a single vertex. Avoiding poles with si
 
 ---
 
-### Backface Culling (ToDo)
+### Backface Culling
+ToDo
 
 ---
 
@@ -393,7 +394,11 @@ A corner with one edge is a hard edge, with 2 edges a chamfer and anything more 
 
 ---
 
-### LOD's (Level of Detail) (ToDo)
+### LOD
+
+LOD's (Level of Detail) ...
+
+ToDo
 
 ---
 
@@ -403,8 +408,6 @@ Also called triangulation. Is the process of the converting faces to random even
 ---
 
 ## Textures
-
----
 
 ### Bit Depth
 
@@ -469,7 +472,8 @@ Banding artifacts are caused by a lack of precision with 8-bit normal maps. Ther
 
 ---
 
-### Atlas/ Trim Sheet (ToDo)
+### Atlas/ Trim Sheet
+ToDo
 
 ---
 
@@ -509,28 +513,33 @@ It's important to use the same space for an assets and it's textures. When worki
 
 ---
 
-### Mipmaps (ToDo)
+### Mipmaps
+ToDo
 
 ---
 
-### Tangent space ToDo
+### Tangent Space
+ToDo
 https://marmoset.co/posts/toolbag-baking-tutorial/
 
 ---
 
 ## Animation
+ToDo
 
 ---
 
-### Apex/ Peak (ToDo)
+### Apex/ Peak
+ToDo
 
 ---
 
-### Bone Head/ Tail/ Body (ToDo)
+### Bone Head/ Tail/ Body
+ToDo
+
+---
 
 ## Baking
-
----
 
 ### Floaters
 Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save allot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
