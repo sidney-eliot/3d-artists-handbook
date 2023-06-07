@@ -2,7 +2,7 @@
 title: "Hair 💇🏼‍♀️"
 enableToc: true
 ---
->[!example]-  A YouTube playlist I made, for all kinds of hair methods
+>[!example]-  All kinds of hair methods (video playlist)
 > 
 ><br>
 ><div style="text-align: center;">
@@ -71,6 +71,20 @@ For hair strands there should be following:
 - [Video to Hair Card types/ breakup](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=153)
 
 #### Needed Texture Maps
+
+>[!example]- Creating hair card texture maps (videos)
+>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lqpQd2vcahs?start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>**Creating maps**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tiuNm7ZD9qw?start=1032" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>**Creating maps in Substance Painter**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6xBMcnx2Kkk?start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>**Full process**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u6IP74f8pBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 The textures that are most essential are: Alpha, Color, Normal, AO, Gradient
 
 But to get the desired hair look there are many others that are often used.
@@ -94,35 +108,24 @@ But to get the desired hair look there are many others that are often used.
 |**Depth**|Can be used for parallax displacement mapping to give the hair more depth, or just like AO add a tint for some general depth for better performance than AO but not looking as good.
 |**Flow**|2D vector maps similar to normal maps. However, unlike normal maps, the data is not representing a surface normal but instead a general flow from one direction to another. This can create many effects, but for hair it's used for anisotropy highlights.
 
->[!example] Creating texture maps for hair cards YouTube videos
->
->- [Creating maps](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1015)
->- [Creating maps Substance Painter](https://youtu.be/6xBMcnx2Kkk?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=120)
->- [Full Process](https://www.youtube.com/watch?v=u6IP74f8pBo&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=32)
-
-
-
 ### Placing Hair Cards
 
->[!info] Hair texture map setup in Blender (ToDo: move to a different section)
+>[!note] Placing hair cards
 >
->- Roughness: Color map > Color Ramp > P. BSDF
->- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)
-
->[!tip] Hair card placing strategies
+>>[!tip] Strategies
+>>
+>>- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
+>>- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
+>>- When placing the hair it's fine to move the hair both in object and edit mode
+>>- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
 >
->- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
->- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
->- When placing the hair it's fine to move the hair both in object and edit mode
->- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
-
->[!warning] Things to watch out for when placing hair cards
->
->- Use as much of the hair strand as possible
->- Watch out that when moving the vertices, you don't move them in the UV space (In Blender [sliding vertices](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/vertex/slide_vertices.html) will also move them in UV space and should thus be avoided)
->- Never extrude the hair card, only add in new detail with [loop cuts](https://docs.blender.org/manual/en/latest/modeling/meshes/tools/loop.html)
->- Keep a UV window open and try to make all faces in UV space have equal sizes
->- Try to have hair cards not clip through each other
+>>[!warning] Things to watch out for
+>>
+>>- Use as much of the hair strand as possible
+>>- Watch out that when moving the vertices, you don't move them in the UV space (In Blender [sliding vertices](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/vertex/slide_vertices.html) will also move them in UV space and should thus be avoided)
+>>- Never extrude the hair card, only add in new detail with loop cuts
+>>- Keep a UV window open and try to make all faces in UV space have equal sizes
+>>- Try to have hair cards not clip through each other
 
 ### Rendering Hair Cards
 
@@ -137,11 +140,16 @@ But to get the desired hair look there are many others that are often used.
 >- Make sure to turn off all form of color correction (Blender: Color Management, Compositor)
 >- Place a flat colored neutral gray (#7F7F7F) background behind the hair (this is done to help the anti-aliasing by bouncing softer light and thus producing crisper edges)
 
->[!example] Rendering Hair Cards YouTube videos
+>[!example]- Rendering Hair Cards (videos)
 >
->- [Rendering setup procedurally (Daniel Bystedt)](https://youtu.be/oqjKMd9CYI4?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=1297)
->- [Rendering setup](https://youtu.be/db7Xfg_oSYE?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=735)
->- [Rendering setup](https://www.youtube.com/watch?v=_WbNUly6EYM&list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&index=18)
+>**Procedural render setup**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqjKMd9CYI4?start=1299" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>**Render setup**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/db7Xfg_oSYE?start=736" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>**Render setup**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_WbNUly6EYM?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Stylized Hair (Curves/ Arrays)
 
@@ -180,3 +188,11 @@ Children:
 ## Resources
 **Finished Hair Styles:**
 - https://blendermarket.com/products/35-hair-cards-for-blender-blend-files-
+  
+## 🚧Work in Progress🚧
+
+
+Hair texture map setup in Blende:
+
+- Roughness: Color map > Color Ramp > P. BSDF
+- Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)
