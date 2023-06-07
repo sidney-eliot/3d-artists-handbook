@@ -408,13 +408,18 @@ Also called triangulation. Is the process of the converting faces to random even
 
 ### Bit Depth
 
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Color_depth) - [[Polycount]](http://wiki.polycount.com/wiki/BitDepth) - [Photoshop Doc]](https://helpx.adobe.com/photoshop/using/bit-depth.html)_
+_[[Wikipedia]](https://en.wikipedia.org/wiki/Color_depth) - [[Polycount]](http://wiki.polycount.com/wiki/BitDepth) - [[Photoshop Doc]](https://helpx.adobe.com/photoshop/using/bit-depth.html)_
+
+>[!example]- Bit depth explanation (videos)
+>
+>**Bit depth explanation**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y-wSHpNJs-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Bit depth (Color depth) determines how much color information an image can store, which directly influences the dynamic range the image can have.
 
 It's often good to render/ bake images with higher bit depth than needed and later in the process convert them to a lower bit depth. The trade offs with higher bit depths are increased render times and bigger file sizes.
 
-Weather the texture is only for one object or a texture atlas, should not influence which bit depth to choose
+Weather the texture is only intended for one object or a texture atlas, should not influence which bit depth to choose.
 
 #### Bit Depth Math
 The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 bit for example, 8 of the 32 channel represent red, 8 channels green, 8 channels blue and lastly 8 channels for alpha. This means that just by looking at the bit depth one can deduce if the image has alpha or not. If the image didn't have alpha those 8 channels for alpha would fall away and one would have a 24 bit image.
@@ -425,6 +430,11 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 - 16 bit RGBA (4,4,4,4)
 - 24 bit RGB (8,8,8)
 - 32 bit RGBA (8,8,8,8)
+
+
+>[!info] Max amount of unique values per channel (exponential growth)
+>
+>asdasd
 
 >[!info] Max amount of unique values per channel (exponential growth)
 >
@@ -449,9 +459,6 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 
 #### Human Perception of Bit Depth
 Humans can only distinguish between 2 ~ 10 million colors, so we can't even see all colors of 8 bit. This means that an image exported in 8 bit or 16 bit will always look identical. The only advantage in using anything above 8 bit is for editing photos and only for the process of editing and not the export. For 2D artists 8 bit will always be enough and most drawing software doesn't even support more than 8 bit.
-
-[Video explaining bit depth](https://www.youtube.com/watch?v=Y-wSHpNJs-8)
-
 
 ---
 
