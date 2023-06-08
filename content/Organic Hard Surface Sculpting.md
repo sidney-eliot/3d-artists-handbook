@@ -66,20 +66,17 @@ Even though allot is possible in both of these software, you should still be usi
 
 # Best Channels For ZBrush [^](#table-of-contents)
 
+<div style="border-radius: 999px;">
 
-|![[Pasted image 20230604224313.jpg\|40]]|[Keos Masons](https://www.youtube.com/@KeosMasons/featured)
-|:-:|:-:
-|![[Pasted image 20230604224506.jpg\|40]]|[Michael Pavlovich](https://www.youtube.com/c/MichaelPavlovich)
-|![[Pasted image 20230604225008.jpg\|40]]|[Flipped Normals](https://www.youtube.com/c/FlippedNormals)
-|![[Pasted image 20230604225043.jpg\|40]]| [Royal Skies](https://www.youtube.com/c/RoyalSkiesLLC)
-|![[Pasted image 20230604225154.jpg\|40]]|[Speed Char](https://www.youtube.com/c/SpeedChar)
-|![[Pasted image 20230604225236.jpg\|40]]|[Outgang](https://www.youtube.com/c/Outgang)
-|![[Pasted image 20230604225251.jpg\|40]]|[J Hill](https://www.youtube.com/c/artofjhill/videos)
-|![[Pasted image 20230604225307.jpg\|40]]|[Danny Mac](https://www.youtube.com/c/DannyMac3d)
-|![[Pasted image 20230604225324.jpg\|40]]|[Folgore CGI](https://www.youtube.com/c/TheFolgore94)
-|![[Pasted image 20230604225338.jpg\|50]]|[Ryan Kingslien](https://www.youtube.com/c/RyanKingslienVertexSchool/videos)
-|![[Pasted image 20230604225403.jpg\|80]]|[Pixologic ZBrush](https://www.youtube.com/c/PixologicZBrush) 
+|![[Pasted image 20230604224313.jpg\|70]]|[Keos Masons](https://www.youtube.com/@KeosMasons/featured)|![[Pasted image 20230604224506.jpg\|70]]|[Michael Pavlovich](https://www.youtube.com/c/MichaelPavlovich)
+|:-:|:-:|:-:|:-:
+|![[Pasted image 20230604225008.jpg\|70]]|[Flipped Normals](https://www.youtube.com/c/FlippedNormals)|![[Pasted image 20230604225043.jpg\|70]]| [Royal Skies](https://www.youtube.com/c/RoyalSkiesLLC)
+|![[Pasted image 20230604225154.jpg\|70]]|[Speed Char](https://www.youtube.com/c/SpeedChar)|![[Pasted image 20230604225236.jpg\|70]]|[Outgang](https://www.youtube.com/c/Outgang)
+|![[Pasted image 20230604225251.jpg\|70]]|[J Hill](https://www.youtube.com/c/artofjhill/videos)|![[Pasted image 20230604225307.jpg\|70]]|[Danny Mac](https://www.youtube.com/c/DannyMac3d)
+|![[Pasted image 20230604225324.jpg\|70]]|[Folgore CGI](https://www.youtube.com/c/TheFolgore94)|![[Pasted image 20230604225338.jpg\|70]]|[Ryan Kingslien](https://www.youtube.com/c/RyanKingslienVertexSchool/videos)
+|![[Pasted image 20230604225403.jpg\|70]]|[Pixologic ZBrush](https://www.youtube.com/c/PixologicZBrush) 
 
+</div>
 
 
 # ------ BASIC ACTIONS ------ [^](#table-of-contents)
