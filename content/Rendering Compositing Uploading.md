@@ -1,16 +1,10 @@
 ---
 title: "Rendering/ Compositing/ Uploading"
-enableToc: false
+enableToc: true
 ---
 
-# Table of Contents
-- [Rendering](#rendering-)
-- [Compositing](#compositing-)
-- [Export/ Upload](#export-upload-)
-- [Great Showcase Examples](#great-showcase-examples-)
-
-# Rendering [^](#table-of-contents)
-## Where to Render
+## Rendering
+### Where to Render
 |Renderer|Rendering|Real-Time Rendering|Showcase|Notes
 |:-:|:-:|:-:|:-:|:-:
 |Marmoset Toolbag|Very Good|Very Good|Very Good|Best for single models/ characters, not that good for environments. Also not good for complex lighting. Amazing showcase because of Marmoset Viewer
@@ -23,7 +17,7 @@ enableToc: false
 |Nuke|
 |Maya|
 
-## Upload Limitations
+### Upload Limitations
 |-|Art Station User|Art Station Pro User|Sketchfab User|Youtube
 |:-:|:-:|:-:|:-:|:-:
 |Max size (mb)|10mb|||-
@@ -33,8 +27,8 @@ enableToc: false
 |Max MarmosetViewer size (mb)|15|50||-
 |Embeding YT link|yes|yes||-
 
-## Resolutions
-### Common Display ratio(16:9)
+### Resolutions
+#### Common Display ratio(16:9)
 - 1920 x 1080 (2k/Full HD)
 - 2560 x 1440 (QHD/WQHD)
 - 3840 x 2160 (4k/Ultra HD)
@@ -43,7 +37,7 @@ enableToc: false
 
 Try to not go above 3840 × 2160 res for final art pieces, for showcases higher is fine.
 
-### Triple Image
+#### Triple Image
 This is a workaround for getting better res if you just want bigger images look [here](https://magazine.artstation.com/2017/01/maximizing-images-artstation/).
 
 Split render into 3 separate images to see more detail without having to zoom, and bypass file size/res limits.
@@ -53,7 +47,7 @@ Split render into 3 separate images to see more detail without having to zoom, a
 - 5400 X 9600 (1800 x 3200 *3)
 - 11520 x 6480 (3840 x 2160 * 3)
 
-## Turntable Animation
+### Turntable Animation
 This can be done by rendering the sequence as a video by stitching the images together after rendering. Stitching is better because the render can crash.
 ||24fps|30fps|60fps
 |:-:|:-:|:-:|:-:
@@ -67,7 +61,7 @@ In Blender:
 - Keyframe Interpolation Mode > Linear
 - Start at frame 1 (???)
 
-## Wireframe Rendering
+### Wireframe Rendering
 Best with marmoset viewer. Marmoset can also render wireframe as texture maps. Blender can also render wireframe by marking every edge as a freestyle edge and toggling that in the render settings.
 
 <details>
@@ -79,23 +73,23 @@ Best with marmoset viewer. Marmoset can also render wireframe as texture maps. B
 </details>
 
 
-## Rendering in Blender
-### Camera Manager Addon
+### Rendering in Blender
+#### Camera Manager Addon
 [Camera Manager addon](https://blenderartists.org/t/render-button-camera-manager-for-blender-2-81-update-07-01-2020-v0-3-7/1159414)
 
-### Rendering all cameras with one click
+#### Rendering all cameras with one click
 - Make camera active camera (Ctrl + 0)
 - Place marker at desired frame in timeline (M)
 - Bind active camera to marker (Ctrl + B)
 - Repeat for all cameras on following frames
 
 
-### Eevee Render Settings
-####
+#### Eevee Render Settings
+#####
 - Background Transparency on
 - Bloom off (only turn it off  right before rendering)
 
-#### Color Management
+##### Color Management
 |Setting|Value
 |:-:|:-:
 |Display Device|SRGB
@@ -104,7 +98,7 @@ Best with marmoset viewer. Marmoset can also render wireframe as texture maps. B
 |Gamma|1
 |Sequencer|sRGB/Linear
 
-### Render Passes
+#### Render Passes
 |Passes|Use|Explanation
 |:-:|:-:|:-:
 |Combined|yes|All render passes
@@ -122,7 +116,7 @@ Best with marmoset viewer. Marmoset can also render wireframe as texture maps. B
 |Bloom|no|Good for underwater scenes
 |Cryptomatte|no|
 
-### Rendering Output
+#### Rendering Output
 |Setting|Value
 |:-:|:-:
 |Output path|Keep empty
@@ -132,10 +126,10 @@ Best with marmoset viewer. Marmoset can also render wireframe as texture maps. B
 |Codec|PIZ/ ZIP(lossless) or DWAA (lossy), DWAA is one of the smallest image formats and looks almost identical to the lossless EXR codecs
 
 
-### Rendering (Bloom in Compositing Software)
+#### Rendering (Bloom in Compositing Software)
 
 
-### Rendering (Bloom in Blender)
+#### Rendering (Bloom in Blender)
 
 This is a viable way but I don't use it anymore and use the one above instead. This way adds the bloom in blender instead doing it in the compositing software.
 
@@ -169,14 +163,14 @@ Extra Info:
 
 </details>
 
-## Rendering in Marmoset
-## Rendering with Marmoset Real time Viewer
+### Rendering in Marmoset
+### Rendering with Marmoset Real time Viewer
 - Add a camera, camera spawn location is viewport view
 - Adjust render settings. They are available in the camera tab, Lens and Post Effects but also in export tab. Note that some settings won't carry over into the viewer file like chromatic aberration
 
 
-# Compositing [^](#table-of-contents)
-## Where to Composite
+## Compositing
+### Where to Composite
 - Photoshop (the best)
 - Clip Studio Paint
 - Blender (very slow)
@@ -186,9 +180,9 @@ Extra Info:
 
 Photoshop is by far the best, however one needs the [EXR IO](https://www.exr-io.com/) plugin when one want's to work with .EXR images
 
-## Adjustment Layers
+### Adjustment Layers
 
-# Export/ Upload [^](#table-of-contents)
+## Export/ Upload
 - Make sure image is a JPG
 - Make sure video is a MP4/ MOV/ GIF
 (GIF being quite big but providing a loop functionality, however many sites also allow for MP4's to loop)
@@ -198,15 +192,15 @@ Photoshop is by far the best, however one needs the [EXR IO](https://www.exr-io.
 
 
 
-# Great Showcase Examples [^](#table-of-contents)
+## Great Showcase Examples
 [Showcase playlist](https://www.youtube.com/playlist?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f)
 
-### Turn Table Animation
+#### Turn Table Animation
 - https://www.artstation.com/artwork/zOoGNw
 
-### Marmoset Viewer
+#### Marmoset Viewer
 - https://www.artstation.com/artwork/31kvv
 
-### Technical Showcase
+#### Technical Showcase
 - https://www.artstation.com/artwork/B1PLOz
 

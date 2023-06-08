@@ -1,9 +1,9 @@
 ---
 title: "My Setup"
-enableToc: false
+enableToc: true
 ---
 
-# Utility Software
+## Utility Software
 
 - Reference Board: [PureRef](https://www.pureref.com/), [MultiViewer](https://github.com/rgrams/multiviewer) (minimalistic alternative)
 - Reference Manager (through tags): [Eagle](https://en.eagle.cool/) (far better than Adobe Bridge in every way), [Adobe Bridge](https://www.adobe.com/products/bridge.html). I highly recommend managing your reference art with tags, allot of issues arise with folders
@@ -39,11 +39,9 @@ For modeling I use my keyboard, mouse and monitor.
 
 # The Hardware I Use
 - Huion Kamas 22 Plus _(Graphics Tablet With Screen - 21.5 inch - 1920x 1080 - 140% sRGB Color Gamut - Etched Anti-Glare Glass - Full Lamination - 1200:1 Contrast Ratio)_
-- 64GB RAM _(Crucial Ballistix - 4 * 16GB - DDR4)_
+- 64GB DDR4 RAM
 - 10 key less Mechanical Keyboard _(Master keys 730 - Cherry MX Red Switches)_
-- Wireless Mouse _(Basilisk X Hyperspeed)_
-- 2 * 4T HDD
-- 2 * 1T SSD
+- Wireless Mouse _(Logitech G502 X Lightspeed)_
 - DT 770 Pro _(Headphones)_
 - U-PHORIA UMC202HD _(Sound Interface)_
 

@@ -1,6 +1,6 @@
 ---
 title: "Blender to Unreal Pipeline"
-enableToc: false
+enableToc: true
 ---
 
 ## Overview

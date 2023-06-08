@@ -1,5 +1,5 @@
 ---
-title: "Glossary 📄"
+title: "Glossary 📑"
 enableToc: true
 ---
 ## Visual
@@ -143,7 +143,8 @@ https://youtu.be/7l6QOcgWXfI
 
 ---
 
-### Lens Flare (ToDo)
+### Lens Flare
+ToDo
 
 ![[20230603111506.png|400]]
 
@@ -199,7 +200,7 @@ Blurs out things that are farther away from the focus point. The distance at whi
 ---
 
 ### Anti-Aliasing
-Removes aliasing effect. Aliasing is the appearance of jagged edges in a rasterized image (image rendered using pixels). Samples the pixels around the edges and uses them to blend away the appearance of jagged edges.
+Anti-aliasing (AA) removes aliasing effect. Aliasing is the appearance of jagged edges in a rasterized image (image rendered using pixels). Samples the pixels around the edges and uses them to blend away the appearance of jagged edges.
 
 ---
 
@@ -433,7 +434,7 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 - 24 bit RGB (8,8,8)
 - 32 bit RGBA (8,8,8,8)
 
->[!info] Max amount of unique values per channel (exponential growth)
+>[!info] Max amount of unique values per channel
 >
 >1 bit Image (Integer):
 >```
@@ -452,7 +453,7 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 >4,294,967,295 Tone Value
 >```
 >
->So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit. Though the file size gets progressively bigger, it doesn't increase by that margin. 
+>So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit (exponential growth). Though the file size gets progressively bigger, it doesn't increase by that margin.  
 
 
 >[!info] Max amount of unique values per channel (exponential growth) > >1 bit Image (Integer): >
@@ -507,7 +508,7 @@ Adds noise to combat banding. So Dithering is mostly only used with low bit imag
 
 ---
 
-### Tangent space
+### Tangent Space
 Normal maps can be tangent-space or object-space. World-space is basically the same as object-space, except it requires the model to remain in its original orientation, neither rotating nor deforming, so it's almost never used. Always use tangent space for the normal map, however object space normal maps can be useful as a utility mask for texturing. The object space Normals maps are easily spotted, they look like orange normal maps.
 
 ---

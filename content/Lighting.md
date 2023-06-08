@@ -5,12 +5,12 @@ enableToc: false
 
 ## 🚧Work in Progress🚧
 
-# Volumetric Fog
-## Fog Object
+## Volumetric Fog
+### Fog Object
 - Plane is a good shape (only convex shapes work)
 - Noise into Principled Volume plugged into Emission Strength  with Density 0 or use Density input.
 
-## Fog Light
+### Fog Light
 - Volume Scatter node
 - Render settings:
     - Volumetric Clamping (Bigger values dulls light source, increase light intensity to get same amount of light)
@@ -21,9 +21,9 @@ enableToc: false
     - Increase Cube Size
     - Increase Cascade Size
 
-# Embers
+## Embers
 
-# God Ray
+## God Ray
 
 Blocky edges problem (in Blender Eevee):
 
@@ -35,6 +35,6 @@ Blocky edges problem (in Blender Eevee):
 
 
 
-# Theory
+## Theory
 ![[Pasted image 20230604224125.jpg|800]]
 ![[Pasted image 20230604224132.jpg|800]]

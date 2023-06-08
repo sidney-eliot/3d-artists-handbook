@@ -1,14 +1,9 @@
 ---
 title: "Optimization 📊"
-enableToc: false
+enableToc: true
 ---
 
-# Table of Contents
-- [Performance](#Performance-Frame-Rate-)
-- [Industry Examples](#Industry-Examples-Characters-)
-- [Links](#Links-)
-
-# Performance (Frame Rate) [^](#table-of-contents)
+## Performance (Frame Rate)
 Following things will increase performance for real time use.
 
 These points are roughly all the things one needs to take into consideration when working with the model in a game engine like Unreal or Unity. These tips can however also help for things like Marmoset Toolbag Real-Time view files as well as making the 3d software viewport smoother.
@@ -22,7 +17,7 @@ These points are roughly all the things one needs to take into consideration whe
 - Clean poly flow will ensure better triangle strip generation. Which saves memory and transform time. Yes sometimes MORE geometry can result in less memory use and less performance loss if done right!
 - Character mesh optimization has different rules than those for environments (This is partially because world geometry in games is mostly set to static)
 
-# Industry Examples (Characters) [^](#table-of-contents)
+## Industry Examples (Characters)
 
 - [Games polycount list 1](https://polycount.com/discussion/126662/triangle-counts-for-assets-from-various-videogames)
 - [Games polycount list 2](https://polycount.com/discussion/141061/polycounts-in-next-gen-games-thread)
@@ -48,13 +43,13 @@ I didn't add platform because basically all are both PC and Console. The focus h
 |Fractured Space - 2016|Spaceship = 30-280k
 |Star Citizen|Spaceship=30mil
 
-# Links [^](#table-of-contents)
+## Links
 
 - [Polycount/Optimization Article Links](http://wiki.polycount.com/wiki/PolygonCount#Typical_Triangle_Counts)
 - [Beautiful, Yet Friendly Part 1](http://www.ericchadwick.com/examples/provost/byf1.html)
 - [Beautiful, Yet Friendly Part 2](http://www.ericchadwick.com/examples/provost/byf2.html)
 
 
-#### A Deep Dive into the Technical Side of Mesh Rendering
+A Deep Dive into the Technical Side of Mesh Rendering:
 
 - [GPU Performance for Game Artists](http://www.fragmentbuffer.com/gpu-performance-for-game-artists/)

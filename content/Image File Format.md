@@ -1,6 +1,6 @@
 ---
 title: "Image Extensions"
-enableToc: false
+enableToc: true
 ---
 
 ## Great File Formats for Textures
@@ -52,7 +52,7 @@ enableToc: false
 
 There are 3 factors to compare when choosing between image formats:
 
-- [[Glossary#Bit Depth]]
+- [[Glossary#Bit Depth|Bit Depth]]
 - Compression/ Encoding
 - Alpha (Occlusion/ Transparency/ Opacity)
 
@@ -61,15 +61,18 @@ There are 3 factors to compare when choosing between image formats:
 Compression can be lossless or lossy. Lossless allows to reconstruct the original values as is. Lossy compression leverages that the human perception doesn't notice slight quality degradation. It can therefore reach higher compression ratios. Lossless vs lossy does not influence the save speed but compression speeds up save time. 
 
 ### Alpha (Occlusion/ Transparency/ Opacity)
-#### Straight Alpha/ Unassociated Alpha/ Un-matted Alpha
-- Can't model pixels that are simultaneously emissive and semi-transparent
 
-#### Premultiplied Alpha/ Associated Alpha/ Matted Alpha
-- Can store pixels that are simultaneously emissive and semi-transparent
-- Suitable for VFX/Compositing
+>[!info] Straight Alpha/ Unassociated Alpha/ Un-matted Alpha
+>
+>- Can't model pixels that are simultaneously emissive and semi-transparent
+
+>[!info] Premultiplied Alpha/ Associated Alpha/ Matted Alpha
+>
+>- Can store pixels that are simultaneously emissive and semi-transparent
+>- Suitable for VFX/Compositing
 
 ### Comparison
-⚠ Take this image with a grain of salt
+⚠️ Take this image with a grain of salt
 
 ![[Pasted image 20230604224021.png]]
 

@@ -33,7 +33,7 @@ _This section will be moved to a side panel so it can accessed from every page._
 > - [[_index|Home]]
 >   
 >  ### Theory
->  - [[Glossary]] 📄
+>  - [[Glossary]] 📑
 >  - [[Composition]] 🌆
 >  - [[Technical Side of Character Design]] 👩🏽‍💻
 >  - 🚧 [[Artistic Side of Character Design]]
@@ -42,6 +42,7 @@ _This section will be moved to a side panel so it can accessed from every page._
 >  - [[Color]] 🎨🏳️‍🌈
 >  - [[Texture Maps]] 🗺️
 >  - [[Image File Format]]
+> - [[Art Software]]
 > 
 > ### Process
 > - [[Organic Hard Surface Sculpting|Organic, Hard Surface, Sculpting]] 🧊🗿
