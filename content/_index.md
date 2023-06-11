@@ -5,7 +5,7 @@ enableToc: false
 
 > [!warning] Warning
 > 
-> This handbook is still being migrated from the [GitHub wiki](https://github.com/Epicrex/3DArtistsHandbook/wiki), so many things are currently broken.
+> This handbook is almost fully migrated from [GitHub wiki](https://github.com/Epicrex/3DArtistsHandbook/wiki), so some things might still be broken. Other handbooks of mine will also follow in the future and be deployed like this one.
 
 ## Hi
 I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me, you, and everyone else.
