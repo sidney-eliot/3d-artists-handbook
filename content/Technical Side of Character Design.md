@@ -1,5 +1,5 @@
 ---
-title: "Technical Side of Character Design 👩🏽‍💻"
+title: "👩🏽‍💻Technical Side of Character Design"
 enableToc: true
 ---
 

@@ -1,26 +1,7 @@
 ---
-title: "ZBrush ⚪"
-enableToc: false
+title: "⚪ZBrush"
+enableToc: true
 ---
-
-## Table of Contents
-- [General Things to Be Aware Of](#General-Things-To-Be-Aware-Of-)
-- 🖌 [Brushes/ Alphas/ Insert Mesh Brushes/ VDM Brushes/ Nano Meshes](#-Brushes-Alphas-Insert-Mesh-Brushes-VDM-Brushes-Nano-Meshes-)
-    - [Overview](#Overview-)
-    - [Brush Save Locations](#Brush-Save-Locations-)
-    - [Insert Mesh Brush](#Insert-Mesh-Brush-)
-    - [Curve Insert Mesh Brush](#Curve-Insert-Mesh-Brush-)
-    - [VDM Brush (Vector Displacement Mesh)](#VDM-Brush-Vector-Displacement-Mesh-)
-    - [Alpha Brush](#Alpha-Brush-)
-    - [Sculpting Brush](#Sculpting-Brush-)
-    - [Nano Mesh](#Nano-Mesh-)
-- 💾 [Saving/ Backups/ ZPR vs ZTL](#-Saving-Backups-ZPR-vs-ZTL-)
-- 👤 [Check Silhouette](#Check-Silhouette-)
-- 🎨 [Poly Paint](#Poly-Paint-)
-- 📷 [Rendering](#Rendering-)
-- ⚙ [Configuring UI](#-Configuring-UI-)
-- [Using My Interface](#Using-My-Interface-)
-- ❌ [Errors](#-Errors-)
 
 ## General Things to Be Aware Of
 - My workflow between ZBrush and Blender is [[Workflow between ZBrush and Blender|here]]
@@ -43,19 +24,26 @@ Though `Normal Brushes` might seem better than `Alphas`, the big advantage to `A
 - All Alphas use .psd file extension per default but .png/ .exr/ .tiff is just as good. Just don't use .jpg/ .jpeg or any other lossy compression type
 
 ### Brush Save Locations
-Here `your custom brushes` are stored, that `load on startup` into the Brush Menu (B hotkey). Only put brushes in here you use often
+Here `your custom brushes` are stored, that `load on startup` into the Brush Menu (B hotkey). Only put brushes in here you use often.
 
-```php
-"your program files"\Zbrush\ZStartup\BrushPresets
-```
-Here the `default ZBrush brushes` ZBrush ships with are stored, that `load on startup` into the Brush Menu (B hotkey). Don't touch this folder
-```php
-...\ZBrush"Year"\ZData\BrushPresets
-```
+>[!info] Your custom brushes
+>```
+>"your program files"\Zbrush\ZStartup\BrushPresets
+>```
+
+Here the `default ZBrush brushes` ZBrush ships with are stored, that `load on startup` into the Brush Menu (B hotkey). Don't touch this folder.
+
+>[!info] Default ZBrush brushes
+>```
+>...\ZBrush"Year"\ZData\BrushPresets
+>```
+
 Brushes that are put in the `Lightbox` brush tab are only `loaded when selected,` thus not bloating the project file. Added to that you can create your own folder hierarchy inside the Lightbox brush tab, to organize your brushes.
-```php
-...\Zbrush\ZBrushes
-```
+
+>[!info] Lightbox menu brushes
+>```
+>...\Zbrush\ZBrushes
+>```
 
 ### Insert Mesh Brush
 A **Insert Mesh Brush** is a **Brush** that contains one or multiple meshes to chose from. These meshes can the be placed on the SubTool or used to perform precisely placed boolean operations of custom shapes on the SubTool.
@@ -109,119 +97,128 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 >- [Making Custom Vector Brushes (Pixologic)](https://www.youtube.com/watch?v=FB07uGbFje8) 12min
 
 
-### Alpha Brush [^](#table-of-contents)
->[!example] Alpha Brush examples
+### Alpha Brush
+>[!example] Alpha brush examples
 >
 >- Hardsurface Detail
 >- Skin Detail
 >- Scratch Marks
 
 >[!Info] Fixing Alphas
+>
 >Sometimes alphas like folds will not just add folds but also dramatically change the surface curvature. There are `2 fixes` to this issue:
 >- Fix 1 is to change the `MidValue` to somewhere around 50. Or enable `Surface`. In the `Alpha > Modify` menu. 
 >- Mostly Fix 1 isn't enough, so fix 2 comes into play. In Photoshop, go to `Filter > Other > High Pass` and reduce the value. Optionally you can also add a levels layer.
 
 >[!Info] Creating custom Alphas
+>
 >There are 2 ways of making alphas. The first way is by making them in a 2D software like Photoshop or generating them in software like substance designer. And the second way is by generating them from a 3D mesh.
 >- [Making Of Alphas in PS for ZBrush](https://www.youtube.com/watch?v=a7CT8MruMcI)
 >- [Making Of Alphas in ZBrush](https://www.youtube.com/watch?v=QyMmeoHrWjk)
 
 
-### Sculpting Brush [^](#table-of-contents)
-#### Sculpting Brush Examples
-```gql
-- Clay Strips
-- Dam Standard
-- Inflate
-- Grab
-```
-#### Creating Custom Sculpting Brushes
-1. Clone a brush
-2. Change it's settings
-3. Save Brush (Brush>Save As) and give it a fitting name
+### Sculpting Brush
+>[!example] Sculpting brush examples
+>
+>- Clay Strips
+>- Dam Standard
+>- Inflate
+>- Grab
+
+>[!Info] Creating custom sculpting brushes
+>
+>1. Clone a brush
+>2. Change it's settings
+>3. Save Brush (Brush>Save As) and give it a fitting name
 
 
-### Nano Mesh [^](#table-of-contents)
-#### Nano Mesh Examples
-```gql
-- Patterns
-- Fishnet Stockings
-- Nets
-- Clothing Spikes
-```
-#### Creating Custom Nano Meshes</summary>
-- [Nano Meshes short](https://www.youtube.com/watch?v=HPmlMD3f4xs) (Michael Pavlovich) 3min
-- [Nano Meshes](https://www.youtube.com/watch?v=wv3uNqr1Rf4) (Michael Pavlovich) 10min
-- [All Michael Pavlovich videos to Nano Meshes](https://www.youtube.com/c/MichaelPavlovich/search?query=Nano%20Mesh)
+### Nano Mesh
+>[!example] Nano Mesh Examples
+>
+>- Patterns
+>- Fishnet Stockings
+>- Nets
+>- Clothing Spikes
+
+>[!Info] Creating Custom Nano Meshes
+>
+>- [Nano Meshes short](https://www.youtube.com/watch?v=HPmlMD3f4xs) (Michael Pavlovich) 3min
+>- [Nano Meshes](https://www.youtube.com/watch?v=wv3uNqr1Rf4) (Michael Pavlovich) 10min
+>- [All Michael Pavlovich videos to Nano Meshes](https://www.youtube.com/c/MichaelPavlovich/search?query=Nano%20Mesh)
 
 
 ## 💾Saving/ Backups/ ZPR vs ZTL
-#### Strategy
-- Save as ZTL every once and a while during the day as well as clicking the QuickSave button before doing risky actions
-- At the end of the day save as ZPR and ZTL
-- If during the day ZBrush crashes use auto saves to get back undo history
+>[!tip] Saving strategy
+>
+>- Save as ZTL every once and a while during the day as well as clicking the QuickSave button before doing risky actions
+>- At the end of the day save as ZPR and ZTL
+>- If during the day ZBrush crashes use auto saves to get back undo history
+>
+>f you don't care about history, then only use ZTL and auto saves. And if you do care about history then still occasionally save as ZTL because it's not to uncommon for ZPR files to get corrupted, not work on other systems/ OS's or newer ZBrush versions.
 
-If you don't care about history, then only use ZTL and auto saves. And if you do care about history then still occasionally save as ZTL because it's not to uncommon for ZPR files to get corrupted, not work on other systems/ OS's or newer ZBrush versions.
+>[!info] ZPR vs ZTL
+>
+>- ZPR = Entire Project
+>- ZTL = Selected Tool
+>
+>|Feature|ZPR|ZTL
+>|:-:|:-:|:-:
+>|Tools|All|Selected Only
+>|File Size|Big|Light weight
+>|Undo History|✅|❌
+>|Project Settings|✅|❌
+>|Non-Default Materials|✅|❌
+>|Gird Image Reference|✅|❌
+>|Keyframes|✅|❌
+>|Poly Groups|✅|✅
+>|Textures, Displacement and Normal Maps|✅|✅
+>|Poly Paint|✅|✅
+>|Creasing|✅|✅
+>|Export Scale/ Offset values|✅|✅
 
-#### ZPR vs ZTL
-- ZPR = Entire Project
-- ZTL = Selected Tool
-
-|Feature|ZPR|ZTL
-|:-:|:-:|:-:
-|Tools|All|Selected Only
-|File Size|Big|Light weight
-|Undo History|✓|
-|Project Settings|✓|
-|Non-Default Materials|✓|
-|Gird Image Reference|✓|
-|Keyframes|✓|
-|Poly Groups|✓|✓
-|Textures, Displacement and Normal Maps|✓|✓
-|Poly Paint|✓|✓
-|Creasing|✓|✓
-|Export Scale/ Offset values|✓|✓
-</details>
-
-#### Location
-
-Save ZPR
-```
-File > Save As
-```
-Save ZTL
-```
-Tool > Save As
-```
-You can also increase the Quick Save Time
-```
-Preference > QuickSave > Maximum Duration
-``` 
-Auto saves are saved at
-```
-???
-```
+>[!question] Where are these save methods located?
+>
+>Save ZPR
+>```
+>File > Save As
+>```
+>Save ZTL
+>```
+>Tool > Save As
+>```
+>You can also increase the Quick Save Time
+>```
+>Preference > QuickSave > Maximum Duration
+>``` 
+>Auto saves are saved at
+>```
+>???
+>```
 
 
-## Check Silhouette
-- Open Thumbnail Window and Turn on Silhouette `Preferences > Thumbnail`
+## 👤Check Silhouette
+Open Thumbnail Window and Turn on Silhouette `Preferences > Thumbnail` or switch to the `Flat Color` MatCap (SubTools need PolyPaint for this to work properly).
 
-or
+## 🎨Poly Paint
 
-- Switch to the `Flat Color` MatCap (SubTools need PolyPaint for this to work properly)
+>[!example]- PolyPaint resources (videos)
+>
+>**Polypainting/ Material Painting**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eQ7B3Y4aGZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Poly Paint
-#### PolyPaint Info
-- Resolution of mesh affects resolution of PolyPaint
-- Clicking the brush icon beside the SubTool will toggle the PolyPaint (Colorize) of that SubTool. Shift clicking the icon will do that for all SubTools
-- If the SubTool has no Polypaint on it or PolyPaint is disabled for that SubTool, then the SubTool will adjust to the currently selected color
-- A SubTool can't be PolyPainted on, before it has been filled with a base color
-- DynaMesh will not remove PolyPaint **as long as the paint is visible**, it will however remove all materials
-- ZRemesher will completely remove PolyPaint and materials
-- Unlike PolyPaint, Material Paint can either be or not be on a face, which makes material transitions rough. To reduce this issue: Hide transitions, increase mesh detail or turn on Render Materials Blend-Radius
-- ToDo: Figure out how reprojection plays with poly paint
 
-#### Working With Color
+>[!info] About PolyPaint
+>
+>- Resolution of mesh affects resolution of PolyPaint
+>- Clicking the brush icon beside the SubTool will toggle the PolyPaint (Colorize) of that SubTool. Shift clicking the icon will do that for all SubTools
+>- If the SubTool has no Polypaint on it or PolyPaint is disabled for that SubTool, then the SubTool will adjust to the currently selected color
+>- A SubTool can't be PolyPainted on, before it has been filled with a base color
+>- DynaMesh will not remove PolyPaint **as long as the paint is visible**, it will however remove all materials
+>- ZRemesher will completely remove PolyPaint and materials
+>- Unlike PolyPaint, Material Paint can either be or not be on a face, which makes material transitions rough. To reduce this issue: Hide transitions, increase mesh detail or turn on Render Materials Blend-Radius
+>- ToDo: Figure out how reprojection plays with poly paint
+
+### Working With Color
 Use the pre-installed ZColor plugin `ZPlugin > ZColor`. 
 - To get all settings, expand the window downwards
 - To **create** a new palette `File > New`
@@ -238,18 +235,18 @@ ZColor doc [here](http://docs.pixologic.com/user-guide/zbrush-plugins/zcolor/).
 
 - To sample color within ZBrush use C
 
-#### PolyPaint Setup Process
+### PolyPaint Setup Process
 1. Select the `Paint` Brush (Or Select the `Standard` brush, set its channel to `Rgb` and disable `Zadd`/ `Zsub`)
 2. Select the `Smooth` brush, disable `Zadd`/`Zsub`
 3. Fill SubTool with base color (Color > FillObject)
 4. Make sure a plain MatCap is selected (Material Tab)
 
-#### Paint with materials
+### Paint with materials
 Works the same as color painting.
 
 To paint with materials, switch to the brush channel `M`, fill the object with that material (FillObject) and then you can freely switch to other materials and paint with them.
 
-#### Painting Options
+### Painting Options
 The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt options apply to painting as well.
 
 - Color (Color > Color Selector, Clicking on the Main or Secondary Color will open of the color selector window in big)
@@ -259,42 +256,45 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 - Stroke Type (Dots, DragRect, Spray)
 - Brush Alpha
 
-#### PolyPaint Links
-- [Polypainting/ Material Painting](https://www.youtube.com/watch?v=eQ7B3Y4aGZY) (Michael Pavlovich - 25min)
 
 
-## Rendering
-#### Rendering Info
-- Render is the size of the document
+## 📷Rendering
 
-#### Render Settings
-- Antialiasing (SPix)
-- Subsurface Scattering (Sss)
-- Shadows
-- AOcclusion
-- Materials Blend-Radius
-- Wax Preview: Only for preview mode
-
-#### Further Tweaking Settings
-
-#### Lighting
-
-#### ZBrush Render Links
-- [Rendering and Exporting](https://www.youtube.com/watch?v=uM-VonmG0jU) (7min)
-- [How to create a stunning CINEMATIC render](https://www.youtube.com/watch?v=HoIRjQdAL3k) (Digital Clay - 9min)
-- [ZBRUSH Rendering to PHOTOSHOP Compositing](https://www.youtube.com/watch?v=g4lxPB25Zp4) (1h 30min)
+>[!example]- Rendering in ZBrush resources (videos)
+>
+><br>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uM-VonmG0jU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HoIRjQdAL3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g4lxPB25Zp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+>[!info] Rendering info
+>
+>- The render resolution is the size of the ZBrush document
+
+>[!tip] Render Settings
+>
+>- Antialiasing (SPix)
+>- Subsurface Scattering (Sss)
+>- Shadows
+>- AOcclusion
+>- Materials Blend-Radius
+>- Wax Preview: Only for preview mode
+
+>[!tip] Lighting in ZBrush
+>
+>ToDo
 
 
 ## Document Size
-How to get rid of the terrible document border?
 
-When ever ZBrush is on a different monitor resolution or you change that monitors scale size, you will have to reset your redo the following steps (something I despise). 
-
-1. In the Documents Menu toggle `WSize` and click `NewDocument`
-2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it is completely irrelevant and will not mess up your tool
-3. So ZBrush always opens at this resolution, click `Save As Startup Doc` in the Document menu
+>[!question] How to get rid of the empty document border?
+>
+>When ever ZBrush is on a different monitor resolution or you change that monitors scale size, you will have to redo the following steps (something I despise). 
+>
+>1. In the Documents Menu toggle `WSize` and click `NewDocument`
+>2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it is completely irrelevant and will not mess up your tool
+>3. So ZBrush always opens at this resolution, click `Save As Startup Doc` in the Document menu
 
 
 ## ⚙Configuring UI
@@ -308,28 +308,29 @@ The process is the same for Hotkeys and Color Themes.
 
 
 ## Using My Interface
-My configs are [here](https://github.com/Epicrex/3DArtistsHandbook/tree/main/ZBrush%20Configs), you only need the interface file.
+My ZBrush configs are [here](https://github.com/Epicrex/3DArtistsHandbook/tree/main/ZBrush%20Configs), you only need the interface file.
 
-For the interface, if the size of the display you use for ZBrush is 1920 x 1080, you are good to go. If not, then you will need to adjust the document size, so you don't have massive gray borders around the 3D viewport ([video about that here](https://www.youtube.com/watch?v=04wFtkdict0)).
+For the interface, if the size of the display you use for ZBrush is 1920 x 1080, you're 'good to go. If not, then you'll need to adjust the document size, so you don't have massive gray borders around your 3D viewport ([video about that here](https://www.youtube.com/watch?v=04wFtkdict0)).
 
 The main thing about this interface is that I made a custom menu with every tool in it that is often used sorted into groups. The menu is at the top and called "MyInterface", I recommend giving it some hotkey you will never press and then in the driver settings for your tablet, mapping that hotkey to the back button of your stylus.
 
 
 ## ❌Errors
 
-### "To many items in AllList" error
-|Q|A
-|:-:|:--
-|**Info**|- Latest recorded version: ZBrush 2022.0.1<br>- Happens when saving .zpr (entire project)
-|**Fix**|Save file without history, or delete Tools and SubTools you don't need anymore (Isn't a good fix)
-|**Cause**|_Unknown_
-|**Possible cause**|File size to big (started happening around the 2.3 - 2.5GB mark for me)
-|**What isn't the cause**|Amount of SubTools(tested 400), amount of Tools(tested 40), amount of polygons in SubTools(tested 150 mil)
-|**What does it do**|It makes ZBrush immediately crash the next time you or ZBrush quick/ manual saves
+>[!error] "To many items in AllList" error
+>
+>|Q|A
+>|:-:|:--
+>|**Info**|- Latest recorded version: ZBrush 2022.0.1<br>- Happens when saving .zpr (entire project)
+>|**Fix**|Save file without history, or delete Tools and SubTools you don't need anymore (Isn't a good fix).
+>|**Cause**|_Unknown_
+>|**Possible cause**|File size to big (started happening around the 2.3 - 2.5GB mark for me).
+>|**What isn't the cause**|- Amount of SubTools (tested 400)<br>- Amount of Tools (tested 40)<br>- Amount of polygons in SubTools (tested 150 mil)
+>|**What does it do**|It makes ZBrush immediately crash the next time you or ZBrush quick/ manual saves.
 
-### ZBrush file extension .ZZZ instead of .ZTL
-
-ZZZ files are temporary ZBrush files, it's how ZBrush names ZTLs while it's writing into them (saving). When the file extensions stays .ZZZ after the process has finished it means something went wrong while saving and the file is most likely corrupted. The corrupted file is as far as I know unfixable.
+>[!error] ZBrush file extension is .ZZZ instead of .ZTL
+>
+>ZZZ files are temporary ZBrush files, it's how ZBrush names ZTLs while it's writing into them (saving). When the file extensions stays .ZZZ after the process has finished it means something went wrong while saving and the file is most likely corrupted. The corrupted file is as far as I know unfixable.
 
 ## 🚧Work in Progress🚧
-- us dynamic sub d as long as possible to keep the zbrush file small
+- use dynamic sub d as long as possible to keep the ZBrush file small

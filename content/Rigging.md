@@ -1,5 +1,5 @@
 ---
-title: "Rigging 🦴"
+title: "🦴 Rigging"
 enableToc: false
 ---
 

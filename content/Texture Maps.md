@@ -1,5 +1,5 @@
 ---
-title: "Texture Maps 🗺️"
+title: "🗺️Texture Maps"
 enableToc: true
 ---
 

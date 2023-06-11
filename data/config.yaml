@@ -24,3 +24,5 @@ page_title: "🎴🦑 3D Artist's Handbook"
 links:
   - link_name: "GitHub"
     link: "https://github.com/Epicrex"
+  - link_name: "This Handbook's Repo"
+    link; "https://github.com/Epicrex/3DArtistsHandbook/tree/hugo"

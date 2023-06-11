@@ -48,7 +48,7 @@ _This section will be moved to a side panel so it can accessed from every page._
 > - [[Organic Hard Surface Sculpting|Organic, Hard Surface, Sculpting]] 🧊🗿
 > - [[Workflow between ZBrush and Blender]] 🌀
 > - [[Blender Sculpting]]
-> - [[Hair]] 💇🏼‍♀️
+> - [[Hair]] 
 > - [[Anime Style Characters]]
 > 
 > ### Texture

@@ -1,5 +1,5 @@
 ---
-title: "Optimization 📊"
+title: "📊Optimization"
 enableToc: true
 ---
 
