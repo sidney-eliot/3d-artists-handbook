@@ -30,7 +30,7 @@ Ambient Occlusion (AO) is a shading and rendering technique used to calculate ho
 
 _[[Wikipedia]](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) - [Unreal Engine Doc] [[1]](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing) [[2]](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/) (real-time) - [[Unreal Engine Doc]](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/) (hardware) - [[Unity Doc]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)_
 
-Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (films industry).
+Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (film industry).
 
 Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows, lights and only keep ray traced reflections on.
 
@@ -492,7 +492,7 @@ Humans can only distinguish between 2 ~ 10 million colors, so we can't even see 
 ---
 
 ### Banding
-Banding artifacts are caused by a lack of precision with 8-bit normal maps. There aren’t enough color values to accurately represent subtle differences between the high poly and low poly surfaces, which results in stair stepping artifacts.
+Banding artifacts are caused by a lack of precision with 8 bit normal maps. There aren’t enough color values to accurately represent subtle differences between the high poly and low poly surfaces, which results in stair stepping artifacts.
 
 [In depth PDF about banding](https://loopit.dk/banding_in_games.pdf)
 

@@ -1,18 +1,18 @@
 ---
 title: "Organic/ Hard Surface/ Sculpting 🧊🗿"
-enableToc: false
+enableToc: true
 ---
 
-# Overview
-This section covers all possible ways to achieve general and specific modeling/ sculpting tasks. There's no reason to only stick to Blender or ZBrush, thanks to GoB/ GoZ one can send selected parts of the model between both software with one click. 
+## Overview
+This page covers all possible ways to achieve general and specific modeling/ sculpting tasks. There's no reason to only stick to Blender, ZBrush or any other 3D software, thanks to tools like GoB/ GoZ one can send entire or selected parts of the model between both software with one click.
 
-Other software to consider using for the modeling and sculpting stages would be: **Fusion 360**, **Maya** and **Marvelous Designer** (I'll most likely add them into this section at some point, when I get more familiar with them).
+Other software to consider using for the modeling and sculpting stages are: **Fusion 360**, **Maya** and **Marvelous Designer** (I'll most likely add them into this page at some point, when I get more familiar with them).
 
 _(What isn't covered here is basic polygon modeling, watch videos for that)_
 
 ---
 
-Even though allot is possible in both of these software, you should still be using ZBrush for the bulk of the work because it's faster and allows for more creativity. But it really depends on what one is doing.
+Even though allot is possible in both Blender and ZBrush, you should still be using ZBrush for the bulk of the work, because it's faster and allows for more creativity. But it really depends on what model one is working on
 
 
 - The workflow between ZBrush and Blender is [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/ZBrush-To-Blender-Workflow)
@@ -20,15 +20,15 @@ Even though allot is possible in both of these software, you should still be usi
 
 
 
-### I'll use
+#### I'll use
 - 🟠 to indicate that it's a **Blender** action
 - ⚪ to indicate that it's a **ZBrush** action
 - 🔵 to indicate that it's a **Maya** action
 
-# Table of Contents
+## Table of Contents
 
 - [Best Channels For ZBrush](#Best-Channels-For-ZBrush-)
-### Basic Actions
+#### Basic Actions
 - [Adding/ Editing Primitive Shapes](#adding-editing-primitive-shapes-)
 - [Transformations](#transformations-)
 - [Deformations](#deformations-)
@@ -46,7 +46,7 @@ Even though allot is possible in both of these software, you should still be usi
 - [Fusing Meshes](#fusing-meshes-)
 - [ZModeler (ZBrush's Modeling Brush)](#zmodeler-zbrushs-modeling-brush-)
 
-### Specific Actions
+#### Specific Actions
 - [Diamond Grid](#Diamond-Grid-)
 - [Cushion](#Cushion-)
 - [Bevel Transitions](#Bevel-Transitions-)
@@ -59,12 +59,12 @@ Even though allot is possible in both of these software, you should still be usi
 - [Interesting Skin Clothing Effect](#Interesting-Skin-Clothing-Effect-)
 - [Smoothing PolyGroup Borders](#Smoothing-PolyGroup-borders-)
 
-### Sculpting
+#### Sculpting
 - [Sculpting Tips](#Sculpting-Tips)
 - [Brushes](#Brushes)
 - [Sculpting Videos](#Sculpting-Videos)
 
-# Best Channels For ZBrush [^](#table-of-contents)
+## Best Channels For ZBrush
 
 <div style="border-radius: 999px;">
 
@@ -79,23 +79,26 @@ Even though allot is possible in both of these software, you should still be usi
 </div>
 
 
-# ------ BASIC ACTIONS ------ [^](#table-of-contents)
+## ------ BASIC ACTIONS ------
 
-# Adding/ Editing Primitive Shapes [^](#table-of-contents)
+## Adding/ Editing Primitive Shapes
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪|Insert Brushes|Quick, directly into SubTool, works great with mesh fusion and snaps to mesh
 |⚪🟠🔵|Add Primitive Shape|⚪ Tool > SubTool > Append or Insert 🟠 Ctrl + A 🔵 Poly Modeling Shelf 🔵 Create > Polygon Primitives
 |🔵⚪|Edit Primitive Shape|🔵T⚪
 
-### 🔵 Adding/ Editing Primitives
-- Interactive Creation can be toggled in the `Create > Polygon Primitives` menu ![image](https://user-images.githubusercontent.com/85735034/206026463-e3d79fba-7d5c-4011-9180-2f8a3413cf3b.png)
+#### 🔵 Adding/ Editing Primitives
+- Interactive Creation can be toggled in the `Create > Polygon Primitives` menu !
 
-- In the `Create > Polygon Primitives` menu one can also directly edit the primitive settings ![image](https://user-images.githubusercontent.com/85735034/206026314-7dfe07e2-c83d-469a-b317-cfccf795b7e6.png)
+![[Pasted image 20230608024009.png]]
+
+- In the `Create > Polygon Primitives` menu one can also directly edit the primitive settings
+
+![[Pasted image 20230608024017.png]]
 
 
-
-# Transformations [^](#table-of-contents)
+## Transformations
 |Software|Method|Notes
 |:-:|:-:|:-:
 |🟠|G/S/R|The fastest
@@ -106,7 +109,7 @@ Even though allot is possible in both of these software, you should still be usi
 |⚪|S.Pivot/ C.Pivot|Use `S.Pivot` button to reset the model’s rotation, symmetry, etc. based on the visible polygons. Press `C.Pivot` to return to how the model was originally. Great for doing Symmetry actions on SubTools that aren't at the center.
 
 
-### Transpose Line
+#### Transpose Line
 Video on Transpose line [here](https://www.youtube.com/watch?v=FVaTCf90l7Q)
 
 Click the gizmo button (Transform > Gizmo Button) to switch between the transpose line and gizmo 
@@ -115,14 +118,14 @@ Click the gizmo button (Transform > Gizmo Button) to switch between the transpos
 - Inner circles to modify object (shift works)
 - Ctrl + Click on white circle, makes view align to line
 
-# Deformations [^](#table-of-contents)
+## Deformations
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪|Transpose Gizmo Cog Wheel|Amazing suite of deformations/transformations
 |🟠|Bend/ other Deform Modifiers|
 
 
-# Remeshing [^](#table-of-contents)
+## Remeshing
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪🟠|**Z:** ZRemesher/ **B:** Quad Remesher Addon|The best auto retopology tool. Quad Remesher is a blender addon made by the maker of ZRemesher
@@ -132,16 +135,16 @@ Click the gizmo button (Transform > Gizmo Button) to switch between the transpos
 |🟠|Decimate Modifier|Reduces mesh density without losing mesh shape
 
 
-# Edge Control [^](#table-of-contents)
+## Edge Control
 Edge control can be achieved through adding:
 - Bevels/ Chamfers
 - Creases
 - Edge Loops
 
-## Beveling (By Hand)
+### Beveling (By Hand)
 Manually beveling gives the best control of the bevel shape and location, but needs good topology as a base.
 
-### 🟠 Blender's Bevel
+#### 🟠 Blender's Bevel
 Manual bevels in blender are done via `Ctrl + B` for edges or `Ctrl + Shift + B` for vertices and scrolling to adjust segment count, and is very customizable.
 
 ![[Pasted image 20230604225628.png|250]]
@@ -158,24 +161,24 @@ Some tips for beveling with the ZModeler Brush:
 
 ![[Pasted image 20230604225656.png|400]]
 
-### ⚪ Crease Menu Bevel
+#### ⚪ Crease Menu Bevel
 (Tool > Geometry > Crease) Similar to the "ZModeler Edge Bevel", just that this places the bevel based on the creases. Remember to remove the crease.
-### ⚪ Bevel/Chamfer Brush
+#### ⚪ Bevel/Chamfer Brush
 Great for quick bevels on models with bad topology
-### ⚪ Hard Brushes like hPolish, TrimDynamic
+#### ⚪ Hard Brushes like hPolish, TrimDynamic
 A sculpting approach to bevels. Makes the bevel look more organic and interesting 
 
-## Beveling (Dynamically/ Automatically)
-### 🟠 Blender Bevel Modifier
+### Beveling (Dynamically/ Automatically)
+#### 🟠 Blender Bevel Modifier
 Same as the manual bevel just that edges  for beveling are chosen by angle, vertex groups and so on.
-### ⚪ Bevel Pro
+#### ⚪ Bevel Pro
 (ZPlugin > BevelPro) [Full tutorial on Bevel Pro](https://www.youtube.com/watch?v=6uvPmEqD4nY). Works on terrible topology.
 - Prep: `Fix Mesh`, `Weld Points`
 - Prep: `Polish By Polygroups/ Features` when using DynaMeshed mesh
-### ⚪ Dynamic SubDiv menu
+#### ⚪ Dynamic SubDiv menu
 (Tool > Geometry > Dynamic SubDiv)This menus allows for all kinds of bevel and chamfers
 
-## Creasing
+### Creasing
 Creases can transfer between ZBrush and Blender. Note that creases in Blender can go from 0% to 100% but ZBrush can only have or not have a crease.
 
 |Software|Method|Notes
@@ -184,7 +187,7 @@ Creases can transfer between ZBrush and Blender. Note that creases in Blender ca
 |⚪|Crease by Polygroups/???|
 |🟠|Crease With Selection Menu|
 
-# Mirroring [^](#table-of-contents)
+## Mirroring
 |Software|Method|Notes
 |:-:|:-:|:-:
 |🟠|Mirror Modifier|Allows for mirroring of mirrors and other complex mirror operations. Can also use empty's as mirror point
@@ -193,11 +196,11 @@ Creases can transfer between ZBrush and Blender. Note that creases in Blender ca
 
 **Tip:** To circumvent the issue of not being able to set ones own mirror axis in ZBrush, use S.Pivot/C.Pivot
 
-# Booleans [^](#table-of-contents)
+## Booleans
 ToDo
 
 
-# Duplicating/ Repeating [^](#table-of-contents)
+## Duplicating/ Repeating
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪|Repeat Last Brush Stroke|1 key. Works for insert brushes as well: Click sticky button above transpose gizmo, then drag out new boolean(Ctrl + Drag) and press 1
@@ -205,7 +208,7 @@ ToDo
 |🟠|Live Duplicate|Alt + D
 |⚪🟠|Arrays
 
-# Splitting/ Merging [^](#table-of-contents)
+## Splitting/ Merging
 - Split = Separate
 - Merge = Join
 
@@ -218,7 +221,7 @@ ToDo
 |⚪|Merge Down (In Hierarchy)|Watch out, the history of the lower/ not selected object is lost
 |⚪|Merge Visible (In Viewport)|Watch out, the history of all but the selected object is lost
 
-# Cutting [^](#table-of-contents)
+## Cutting
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪|Clip/Trim/Knife/Slice|Use `Knife` to remove parts of the mesh. If knife doesn't work use `trim` instead(Only do straight cuts with trim, because the topo will otherwise collapse!(No Alt)). If you want to remove a part of the mesh but want to keep the topology intact use `clip`. Use `slice` to add in edge cuts. (Remember that all of these actions can be inverted with alt)
@@ -230,26 +233,26 @@ ToDo
 <details>
 <summary>Example of Edge Split or Cutting With DynaMesh + Polygroups</summary>
 
-![3](https://i.imgur.com/qNrzuLN.png)
+![[Pasted image 20230608023519.png]]
 </details>
 
 
-### Clip (Blender Line Project)
+#### Clip (Blender Line Project)
 - Smashes the clipped side into the model
 - Keeps topology intact
-### Trim
+#### Trim
 - Removes trimmed mesh and closes the hole with the close hole operation
 - Creates issues because the close holes operation algorithm is quite simple
-### Knife (Blender Trim)
+#### Knife (Blender Trim)
 - Removes knifed mesh and closes holes with it's own algorithm
 - A better version of trim
 - (Knife currently is not stable so always quick save before using it)
 - For cutting 45° angles with curve knife in all directions, following degrees are good to remember(**45°, 135°, 225°, 315°**)
-### Slice 
+#### Slice 
 - Creates a clean edge loop through the mesh (Also creates a new Polygroup)
 
-# Morphing [^](#table-of-contents)
-### ⚪ Morphs
+## Morphing
+#### ⚪ Morphs
 _(Morph menu is at `Tool > Morph Target`)_
 
 
@@ -257,21 +260,21 @@ After a morph is stored with the `StoreMT` button, new strokes ignore each other
 
 **Without Morph Target:**
 
-![image](https://user-images.githubusercontent.com/85735034/192107920-138337bf-0afd-4f07-9c81-ac875f14617a.png)
+![[Pasted image 20230608024046.png]]
 
 **With Morph Target Stored:**
 
-![image](https://user-images.githubusercontent.com/85735034/192107901-99f646ec-e2aa-4767-b22a-74afa45f5141.png)
+![[Pasted image 20230608024118.png]]
 
 While a morph target is stored one can use the **Morph Brush** to bring back parts of the stored morph. Or in other words, erase strokes after storing the morph.
 
 Morphs and Layers have great synergy as showcased in this video: https://www.youtube.com/watch?v=8oU7ZnTSkHA
-# Shape Keys/ Layers
-### 🟠 Shape Keys
+## Shape Keys/ Layers
+#### 🟠 Shape Keys
 
-### ⚪ Layers
+#### ⚪ Layers
 
-# Extruding/ Thickening [^](#table-of-contents)
+## Extruding/ Thickening
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪🟠|Extrude|**ZBrush:** ZModeler QMesh/ Extrude. **Blender:** Extrude or extrude menu for more options _(Alt + E)_
@@ -283,7 +286,7 @@ Morphs and Layers have great synergy as showcased in this video: https://www.you
 |⚪|Topology Brush
 |⚪|Slice + QMesh new Polygroup
 
-### Mesh Project
+#### Mesh Project
 |Hotkey|Name
 |:-:|:-:
 |Ctrl|Add new plating
@@ -295,7 +298,7 @@ Morphs and Layers have great synergy as showcased in this video: https://www.you
 (Mesh balloon works the same)
 
 
-# Reprojecting Detail [^](#table-of-contents)
+## Reprojecting Detail
 From high to low
 
 ⚪ >
@@ -310,7 +313,7 @@ From high to low
 🟠 >
 
 
-# Recreating Subdivision Levels [^](#table-of-contents)
+## Recreating Subdivision Levels
 ⚪ >
 
 🟠 >
@@ -322,21 +325,21 @@ From high to low
 
 Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
 
-# Fusing Meshes [^](#table-of-contents)
+## Fusing Meshes
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪|Mesh Fusion|Only works with 2 meshes at once. [Mesh Fusion Tutorial](https://www.youtube.com/watch?v=frxGss8_XBY&). [Video of nicely using it here](https://youtu.be/sp0pwSGoaRM?t=155)
 |⚪🟠|DynaMesh/Remesh|DynaMesh/Remesh will fuse meshes when they are close enough
 
-### ⚪ Fusion
+#### ⚪ Fusion
 0. Turn off DynaMesh
 1. Place mesh with insert brush for example, have back faces facing target mesh
 2. Create a Polygroup around area where fusion should happen
 3. Clear mask, then clear mask again for fusion
 
 
-# ZModeler (ZBrush's Modeling Brush) [^](#table-of-contents)
-## Introduction To ZModeler
+## ZModeler (ZBrush's Modeling Brush)
+### Introduction To ZModeler
 **Royal Skies has a great [`playlist`](https://www.youtube.com/playlist?list=PLZpDYt0cyiuvWir5Lmzf7NM7j27FOn2fp) covering everything about the ZModeler as quickly as possible.**
 
 
@@ -346,18 +349,18 @@ Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
 <details>
 <summary>ZModeler Actions</summary>
 
-## Vertex Actions
+### Vertex Actions
 
-## Edge Actions
-### Bevel
+### Edge Actions
+#### Bevel
 - Hold on edge to bevel
 - Click on another edge to repeat last bevel amount
 
-### Insert(Loop Cut)
+#### Insert(Loop Cut)
 - Alt to dissolve edge
 
-## Face Actions
-### Q Mesh (Smart Extrude)
+### Face Actions
+#### Q Mesh (Smart Extrude)
 - Pull on face to extrude
 - Push in face to delete block
 - Hold Shift to dissolve closet edge loop
@@ -365,7 +368,7 @@ Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
 - While extruding click alt to cycle through poly groups
 - Extrude does smart merges, smart merge chamfer step amount can be adjusted
 
-## Inset
+### Inset
 - One can chose to inset entire poly group
 - Clicking on other face gives them the last inset amount
 - Ctrl and shift for more
@@ -373,9 +376,9 @@ Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
 </details>
 
 
-# ------ SPECIFIC ACTIONS ------ [^](#table-of-contents)
+## ------ SPECIFIC ACTIONS ------
 
-# Diamond Grid [^](#table-of-contents)
+## Diamond Grid
 Used for fishnet stockings, fences and nets.
 
 🟠 >
@@ -390,12 +393,11 @@ Used for fishnet stockings, fences and nets.
 
 - https://www.youtube.com/watch?v=wv3uNqr1Rf4
 
-# Cushion [^](#table-of-contents)
+## Cushion
 
 <details>
 <summary>Example</summary>
-
-![1](https://i.imgur.com/OaNwL4M.png)
+![[Pasted image 20230608023725.png]]
 </details>
 
 🟠 > 
@@ -404,25 +406,25 @@ Used for fishnet stockings, fences and nets.
 - Or use Cloth Pro addon
 
 
-# Bevel Transitions [^](#table-of-contents)
+## Bevel Transitions
 🟠 > 
 
 <details>
 <summary>Example</summary>
 
-![grafik](https://user-images.githubusercontent.com/85735034/166425986-543c6630-59be-40b0-84ca-cf521da835e9.png)
-![grafik](https://user-images.githubusercontent.com/85735034/166426001-ab74c073-a8f2-4773-b9fa-607250fc8e2e.png)
+![[Pasted image 20230608024132.png]]
+![[Pasted image 20230608024146.png]]
+
 </details>
 
-# Connecting Circle with Square or Low Detail Circle [^](#table-of-contents)
+## Connecting Circle with Square or Low Detail Circle
 🟠 > 
 <details>
 <summary>Example</summary>
-
-![grafik](https://user-images.githubusercontent.com/85735034/166427410-f894450b-d03e-417c-83d7-02fe0820e583.png)
+![[Pasted image 20230608024158.png]]
 </details>
 
-# Rotation Reset Trick [^](#table-of-contents)
+## Rotation Reset Trick
 🟠 >
 
 Rotation Reset Trick or "box trick" is a method for removing extra data from a model: unwanted transforms, corrupted internal data, etc.
@@ -430,11 +432,10 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 2. Merge object with issues into cube and delete cube mesh
 
 
-# Bend Object along the Surface of Another [^](#table-of-contents)
+## Bend Object along the Surface of Another
 <details>
 <summary>Example</summary>
-
-![2](https://i.imgur.com/xAZci9M.png)
+![[Pasted image 20230608023737.png]]
 </details>
 
 🟠 >
@@ -452,11 +453,10 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 
 ⚪ > 
 
-# Clean Surface Transition Between 2 Objects [^](#table-of-contents)
+## Clean Surface Transition Between 2 Objects
 <details>
 <summary>Example</summary>
-
-![1](https://i.imgur.com/U6qiK9u.png)
+![[Pasted image 20230608023749.png]]
 </details>
 
 🟠 >
@@ -469,13 +469,12 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 5. Turn on face snap. Snap With: Median, Align Rotation to Target. And place object on the target surface
 6. Add DataTransfer mod. Source: Target Object, Vertex Group: vertex group from 4., Face Corner Data: Custom Normals
 
-# Wireframe [^](#table-of-contents)
+## Wireframe
 
 <details>
 <summary>Example</summary>
-
-![5](https://i.imgur.com/ogSh1PT.png)
-![6](https://i.imgur.com/VgRW1mH.png)
+![[Pasted image 20230608023800.png]]
+![[Pasted image 20230608023809.png]]
 </details>
 
 |Software|Method|Notes
@@ -484,18 +483,17 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 |⚪|
 
 
-# Clothing, Armor or Retopology [^](#table-of-contents)
+## Clothing, Armor or Retopology
 
 |Software|Method|Notes
 |:-:|:-:|:-:
 |🟠|Shrinkwrap + SubDiv|Use Shrinkwrap and SubDiv with others mods like bevel. In the `Snap To` menu switch to the `Snap With` `Closet` mode. When retopologizing results may often be better on lower SubDiv levels because the Shrinkwrap won't have the chance to imprint every sculpted imperfection.
 
-# Interesting Skin Clothing Effect [^](#table-of-contents)
+## Interesting Skin Clothing Effect
 
 <details>
 <summary>Example</summary>
-
-![4](https://i.imgur.com/BjdIjU3.png)
+![[Pasted image 20230608023822.png]]
 </details>
 
 |Software|Method|Notes
@@ -504,7 +502,7 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 
 
 
-# Smoothing PolyGroup Borders [^](#table-of-contents)
+## Smoothing PolyGroup Borders
 
 ![[Pasted image 20230604225721.png|215]]
 ![[Pasted image 20230604225730.png|200]]
@@ -513,10 +511,10 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 |:-:|:-:|:-:
 |⚪|Smooth Groups Brush|_(LightBox > Brush Tab > Smooth Folder > Smooth Groups.ZBP)_ Be careful to not smooth the mesh by accident, use masking
 
-# ------ SCULPTING ------ [^](#table-of-contents)
+## ------ SCULPTING ------
 Organic sculpting is something best learned by simply sculpting and watching others sculpt
 
-## Sculpting Tips
+### Sculpting Tips
 - Try to adjust brush strength as little as possible and instead setup your stylus correctly
 - Don't have the mindset that every sculpt will be a portfolio piece
 - Jump around the sculpt  instead of finishing one area. This has 2 main reasons reason one is one should first get the main shapes correct before moving on to smaller shapes and reasons 2 is, if one works on one area to long, one stops seeing mistakes
@@ -526,20 +524,20 @@ Organic sculpting is something best learned by simply sculpting and watching oth
 
 [15 Blender and Zbrush Sculpting Tips No One Talks About](https://www.youtube.com/watch?v=rkMH77hZ9xc) _(Outgang  - 7min)_
 
-## Brushes
-### Main Brushes
+### Brushes
+#### Main Brushes
 - Clay Buildup _(B CB)_
 - Standard _(B ST)_
 - Dam Standard _(B DS)_
 
-### Surface Smoothing
+#### Surface Smoothing
 - Smooth
 - Trim Dynamic _(B TD)_
 - hPolish (same as flatten but respects hard edges, alt for different behaviour) _(B HP)_
 - Flatten _(B FA)_
 - Planar _(B PL)_
 
-### Special Brushes
+#### Special Brushes
 - Inflate _(B IN)_
 - Layer _(B LA)_
 - Bevel Arc/ Flat _(B BA/ B BF)_
@@ -547,7 +545,7 @@ Organic sculpting is something best learned by simply sculpting and watching oth
 - Scribe Chisel _(B SC)_
 - History Recal(_B HR_)
 
-### Great Brush Packs
+#### Great Brush Packs
 Search for Brushes/ Insert Brushes on Artstation and Gumroad
 
 - [Orb Brush Pack (free)](https://orb.gumroad.com/l/nOkHw)
@@ -557,7 +555,7 @@ Search for Brushes/ Insert Brushes on Artstation and Gumroad
 - [Igor Golovkov (free + paid)](https://www.artstation.com/astiil/store)
 - [Flipped Normal Shop Sin Brushes (free + paid)](https://flippednormals.com/downloads/tag/skin/)
 
-## Sculpting Videos
+### Sculpting Videos
 For good YouTube channels look [here](#Best-Channels-For-ZBrush-)
 
 

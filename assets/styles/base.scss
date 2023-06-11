@@ -118,7 +118,7 @@ tbody, li, p {
 
 table {
   border: 1px solid var(--outlinegray);
-  width: auto;
+  width: 100%;
   padding: 1.5em;
   border-collapse: collapse;
 }
@@ -654,4 +654,8 @@ h5 {
 // Round Edges
 img, iframe {
   border-radius: 12px;
+}
+
+table {
+  width: auto;
 }

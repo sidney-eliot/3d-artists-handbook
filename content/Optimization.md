@@ -27,7 +27,7 @@ I didn't add platform because basically all are both PC and Console. The focus h
 
 |Example|Polycount(tris)/ LOD's|Texture Maps|Map Channels/ Bit Depths|Links
 |:-:|:-:|:-:|:-:|:-:
-|Overwatch - Blizzard - 2016|4 LOD's: LOD0=45k, LOD1=22k, LOD2=11k, LOD3=5.5k. Plus around 15k for weapon|2k (Emissive is usually reduced to 1024 or 512) The same set is made for weapons at 1024x1024. Heroes with visible skin also get a blood map (24-bit RGB) that our skin shader uses to fake sub-surface scattering. All textures must be under 30MB after block compression|Color (24-bit RGB) + Ambient Occlusion (8-bit gray), combined into a 32-bit RGBA map. Specular (8-bit gray) + Roughness (8-bit gray), combined into a 16-bit map. Emissive (8-bit gray)|[Source](https://polycount.com/discussion/170394/technical-study-overwatch-image-heavy)
+|Overwatch - Blizzard - 2016|4 LOD's: LOD0=45k, LOD1=22k, LOD2=11k, LOD3=5.5k. Plus around 15k for weapon|2k (Emissive is usually reduced to 1024 or 512) The same set is made for weapons at 1024x1024. Heroes with visible skin also get a blood map (24 bit RGB) that our skin shader uses to fake sub-surface scattering. All textures must be under 30MB after block compression|Color (24 bit RGB) + Ambient Occlusion (8 bit gray), combined into a 32 bit RGBA map. Specular (8 bit gray) + Roughness (8 bit gray), combined into a 16 bit map. Emissive (8 bit gray)|[Source](https://polycount.com/discussion/170394/technical-study-overwatch-image-heavy)
 |Resident Evil Village - Capcom - 2021|Lady Dimitrescu is 350k. And the Duke is 300k
 |League of Legend - Riot|
 |Killzone Shadow Fall - Guerrilla Games - 2013|LOD1=40k, LOD7=150

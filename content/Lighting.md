@@ -38,3 +38,7 @@ Blocky edges problem (in Blender Eevee):
 ## Theory
 ![[Pasted image 20230604224125.jpg|800]]
 ![[Pasted image 20230604224132.jpg|800]]
+
+
+Links
+https://www.youtube.com/watch?v=XLEvpel3nHY

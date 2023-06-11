@@ -42,3 +42,6 @@ Specific rotations can also be achieved with parenting the object to a empty and
 ## other
 
 Turn off IK stretch for arms legs and head
+
+
+https://www.youtube.com/watch?v=NRMCGJk_hN8

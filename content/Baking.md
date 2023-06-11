@@ -62,9 +62,9 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 
 ## A Great Way to Bake Normals for Every Situation
 
-Use 32bit Open EXR, if the software doesn't support that use PSD or 32 bit PNG. Make sure the image is made of floats and not bytes in Blender this is visible behind the channels. Also always go for 32 bit even if you don't want the final normal map to be 32 bit.
+Use 32 bit Open EXR, if the software doesn't support that use PSD or 32 bit PNG. Make sure the image is made of floats and not bytes in Blender this is visible behind the channels. Also always go for 32 bit even if you don't want the final normal map to be 32 bit.
 
-If a 32 bit channel is the desired bit depth for the texture map, than you're done. If not, open it in PS or CSP and change the bit depth mode from 32bits to desired bit depth make sure to switch the method to Exposure and Gamma. This down-resing will result in terrible dithering, which can easily be removed. In Photoshop select the color bucket and set the color to R:128 G:128 B:255 (gray), then set the tolerance to 10 and turn off both Anti-alias and Contiguous. Then color fill the flat space which is blue.
+If a 32 bit channel is the desired bit depth for the texture map, than you're done. If not, open it in PS or CSP and change the bit depth mode from 32 bit to desired bit depth make sure to switch the method to Exposure and Gamma. This down-resing will result in terrible dithering, which can easily be removed. In Photoshop select the color bucket and set the color to R:128 G:128 B:255 (gray), then set the tolerance to 10 and turn off both Anti-alias and Contiguous. Then color fill the flat space which is blue.
 
 ## Marmoset Specific Baking
 [Official Marmoset baking guide](https://marmoset.co/posts/toolbag-baking-tutorial/)
@@ -75,7 +75,7 @@ If a 32 bit channel is the desired bit depth for the texture map, than you're do
 
 This is not needed for most normal map baking workflows
 - Gloss is roughness inverted, so check invert beside gloss or switch gloss to roughness
-- 32bit .exr need linear color space
+- 32 bit .exr need linear color space
 
 </details>
 
@@ -112,7 +112,7 @@ Marmoset automatically creates skews by looking at the face normals of the low p
 - Sometimes when re-baking or auto importing the modified mesh, the wrong normal map will be displayed. Re-toggle the preview and when that doesn't help delete the preview material
 - Only use smoothed cage (default cage)
 - Use Mikk/ xNormal as the tangent space (default tangent space)
-- When one wants to use 8bit one should turn Dither on which removes banding by adding noise. For 16 bit, Dither shouldn't be on and to bake as 32 bit, one needs to switch the bake extension to PSD
+- When one wants to use 8 bit one should turn Dither on which removes banding by adding noise. For 16 bit, Dither shouldn't be on and to bake as 32 bit, one needs to switch the bake extension to PSD
 - If Marmoset is hard lagging it most likely is because quick bake is on
 - If the origin isn't at the center of the object the skews will be way to long (only affects interface)
 - Marmoset bakes on the right side per default. So one either has to work on the right side (which is good habit) or have everything mirrored

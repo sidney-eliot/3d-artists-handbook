@@ -22,4 +22,4 @@ Some examples why this is important:
 |Hyper-Realistic|
 |capitalize software names|
 |MatCap|
-
+|16 bit|Keep the number and bit separate
