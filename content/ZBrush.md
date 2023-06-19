@@ -144,7 +144,7 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 >
 >- [Nano Meshes short](https://www.youtube.com/watch?v=HPmlMD3f4xs) (Michael Pavlovich) 3min
 >- [Nano Meshes](https://www.youtube.com/watch?v=wv3uNqr1Rf4) (Michael Pavlovich) 10min
->- [All Michael Pavlovich videos to Nano Meshes](https://www.youtube.com/c/MichaelPavlovich/search?query=Nano%20Mesh)
+>- [All Michael Pavlovich videos to Nano Meshes](https://www.youtube.com/@MichaelPavlovich/search?query=Nano+Mesh)
 
 
 ## 💾Saving/ Backups/ ZPR vs ZTL

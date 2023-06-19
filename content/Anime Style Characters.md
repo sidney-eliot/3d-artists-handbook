@@ -8,10 +8,10 @@ I haven't done much yet with anime styled characters but nonetheless here are so
 
 ## Resources
 ### Channels
-- [Shonzo](https://www.youtube.com/c/Shonzo)
-- [Royale Skies](https://www.youtube.com/c/RoyalSkiesLLC)
-- [Rushzilla](https://www.youtube.com/channel/UC95z0peoH0gaGqrea634Tqw)
-- [Rainhet Chaneru](https://www.youtube.com/c/RainhetChaneru)
+- [Shonzo](https://www.youtube.com/@Shonzo)
+- [Royale Skies](https://www.youtube.com/@TheRoyalSkies)
+- [Rushzilla](https://www.youtube.com/@rushzilla2655)
+- [Rainhet Chaneru](https://www.youtube.com/@RainhetChaneru)
 
 
 ### Videos/ Playlists

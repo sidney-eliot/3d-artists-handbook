@@ -30,7 +30,7 @@ ToDo
 >[!example]- Hand Painted Texturing (videos, playlists, channels)
 >
 >**Channels:**
->- [Stylized Station's Channel](https://www.youtube.com/c/StylizedStation)
+>- [Stylized Station's Channel](https://www.youtube.com/@StylizedStation)
 >
 >**hand Painting Dragon, Entire Process**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nnfkkvCvijc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

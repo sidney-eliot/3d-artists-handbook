@@ -126,7 +126,7 @@ Allows one to fit UVs more tightly together and makes UV unwraps look better. It
 [UV Squares](https://blendermarket.com/products/uv-squares) straightens out quad UV strips at the cost of small distortion. Allows for UVs to be fitted more tightly together and makes UV unwraps look better. It's often also needed for specific textures (patterns) that should appear correctly on the object. For specific hand painting tasks it's sometimes even essential to have straight UVs.
 
 ### Zen UV
-Wonder full UV unwrapping tool, I'll cover it at some point. [Here's](https://www.youtube.com/c/SergeyTyapkin/videos) the channel of the addon creator.
+Wonder full UV unwrapping tool, I'll cover it at some point. [Here's](https://www.youtube.com/@SergeyTyapkin/videos) the channel of the addon creator.
 
 
 

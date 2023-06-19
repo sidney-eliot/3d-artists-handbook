@@ -161,14 +161,14 @@ Resources:
 - [Unreal explaining skeletons/ animation theory 2](https://www.youtube.com/watch?v=JkcJ5bjGPsg)
 
 ## Links to Help When Stuck
-- [Rakiz Farooq's Channel](https://www.youtube.com/c/RakizFarooq/featured)
+- [Rakiz Farooq's Channel](https://www.youtube.com/@RakizFarooq)
 - [Blender to unreal video](https://www.youtube.com/watch?v=nY4Q8cYBLP8)
-- [Blender to unreal series(UE5)](https://www.youtube.com/watch?v=AhpOrqyGf0o)
+- [Blender to unreal series (UE5)](https://www.youtube.com/watch?v=AhpOrqyGf0o)
 - [Blender to unreal series](https://www.youtube.com/watch?v=O-5MXyKyyhc)
-- [Unreal retargeting(UE5)](https://www.youtube.com/watch?v=_I1ldRuAr74&t)
+- [Unreal retargeting (UE5)](https://www.youtube.com/watch?v=_I1ldRuAr74&t)
 - [Blender to unreal series](https://www.youtube.com/watch?v=oZ14vidzSs4)
 - [Blender to unreal video](https://www.youtube.com/watch?v=SAEuZM5Hp0g)
-- [Unreal retargeting(UE5)](https://www.youtube.com/watch?v=N7WdyAeeDrw&t)
+- [Unreal retargeting (UE5)](https://www.youtube.com/watch?v=N7WdyAeeDrw&t)
 - [Maya to unreal](https://www.youtube.com/watch?v=w3a1oHyxPl8)
 
 
