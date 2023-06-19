@@ -27,7 +27,7 @@ Feel free to point out things that might not be the best practice or plain incor
 _Note that things/ entire pages are unfinished. (The symbol ⚠ denotes that those elements/ pages have not yet been finished/ integrated)_
 
 ## Main
-_This section will be moved to a side panel so it can accessed from every page._
+_This section will be moved to a side panel so it can be accessed from every page._
 
 > [!note] Sidebar
 > 
