@@ -1,5 +1,5 @@
 # Hi
--> Head on over to the `wiki tab` or click here [**3D Artists Handbook**](https://github.com/Epicrex/3DArtistsHandbook/wiki)
+-> https://epicrex.github.io/3DArtistsHandbook
 
 -> Or go directly to one of the three `extension wikis`
 | [HotkeyEdition](https://github.com/Epicrex/3DArtistsHandbookHotkeyEdition/wiki)
