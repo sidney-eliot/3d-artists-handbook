@@ -2,6 +2,9 @@
 title: "Blender Hotkeys"
 enableToc: false
 ---
+
+![[Pasted image 20230713192047.png]]
+
 These are the hotkeys I use regularly.
 - Some essential key binds are remapped
 - The hotkeys for addons like Hard Ops and Boxcutter are in the [addon](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki/Blender-Addons-Guide) guide

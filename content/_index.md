@@ -74,7 +74,7 @@ _This section will be moved to a side panel so it can be accessed from every pag
 > 
 > ### Other Relevant Wikis
 > - [**Anatomy**](https://github.com/Epicrex/AnatomyForArtists/wiki) 💪
-> - **[[Hotkeys|Hotkeys ⌨️]]**
+> - **[[Hotkeys|⌨️ Hotkeys]]**
 > - [**Addons**](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki) 🔮
 > - [**Extras**](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki)
 > - [**Unreal**](https://github.com/Epicrex/UnrealEngine/wiki)
