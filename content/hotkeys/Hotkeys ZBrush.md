@@ -4,119 +4,124 @@ enableToc: false
 ---
 >[!info] Foreword
 >
->I use a** keyboard** in my **left hand** and my **drawing tablet** with my **right hand**. The **pen** of mine has **2 buttons**.
+>I use a **keyboard** in my **left hand** and my **drawing tablet** with my **right hand**. The **stylus** of mine has **2 buttons**.
 
 ## 🔥 Most Important/ Commonly Used
 |Function|Key|Notes
 |:-:|:-:|:-:
-|➕ Add SubDiv Level|**Ctrl + D**|
-|⬆️Go Up One SubDiv Level|**D**|
-|⬇ Go Down One SubDiv Level|`Shift + D`|
+|➕ Add SubDiv Level|**`Ctrl`** + **`D`**|
+|⬆️Go Up One SubDiv Level|**`D`**|
+|⬇ Go Down One SubDiv Level|**`Shift + D`**|
 |⬆⬇Dynamic SubDiv ON/ OFF|**`D/ Shift`** + **`D`**|If there are no SubDiv levels** SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
-|DynaMesh|Ctrl + LMB (On Canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border
-|👁 View Topology|Shift + F|
-|PolyGroup Masked|Ctrl + W|PolyGroups all when there's no mask
-|🖌 Brush Menu|B
-|💡📦 LightBox Menu|,
+|DynaMesh|**`Ctrl`** + **`LMB`** (on canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border
+|👁 View Topology|**`Shift`** + **`F`**|
+|PolyGroup Masked|**`Ctrl`** + **`W`**|PolyGroups all when there's no mask
+|🖌 Brush Menu|**`B`**|
+|💡📦 LightBox Menu|**`,`**
 
 ## General
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Clear Canvas|Ctrl + N|
-|Repeat Last Action|1|
-|View Topology|Shift + F|
-|UI Magnifier|Shift + M
-|Open multiple interfaces with shift|
-|Toggle Floor|Shift + P
-|Hide All Side Panels|F
-|Center SubTool|F|
-|Brush Menu|B
-|LightBox Menu|,
+|Clear Canvas|**`Ctrl`** + **`N`**|
+|Repeat Last Action|**`1`**|
+|View Topology|**`Shift`** + **`F`**|
+|UI Magnifier|**`Shift`** + **`M`**
+|Expand Multiple Menus at Once|**`Shift`** + **`LMB`** (on menu name)
+|Toggle Floor|**`Shift`** + **`P`**|
+|Hide All Side Panels|**`F`**|
+|Center SubTool|**`F`**|
+|Brush Menu|**`B`**|
+|LightBox Menu|**`,`**
 
 ## Interface
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Open Image With Associated Image Viewer|Alt + LMBx2|Will Open .psd images from the lightbox tab in photoshop
+|Open Image With Associated Image Viewer|**`Alt`** + **`LMB`** + **`LMB`**|Will Open .psd images from the lightbox tab in photoshop
 
 
 
 ## Mesh Resolution
 |Function|Key|Notes
 |:-:|:-:|:-:
-|➕ Add SubDiv Level|Ctrl + D|
-|⬆ Go Up One SubDiv Level|D|
-|⬇ Go Down One SubDiv Level|Shift + D|
-|⬆⬇Dynamic SubDiv ON/ OFF|D/ Shift + D|**If there are no SubDiv levels** SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
-|DynaMesh|Ctrl + LMB (On Canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border
+|➕ Add SubDiv Level|**`Ctrl`** + **`D`**|
+|⬆ Go Up One SubDiv Level|**`D`**|
+|⬇ Go Down One SubDiv Level|**`Shift`** + **`D`**|
+|⬆⬇Dynamic SubDiv ON/ OFF|**`D/ Shift`** + **`D`**|**If there are no SubDiv levels** SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
+|DynaMesh|**`Ctrl`** + **`LMB`** (on canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border
 
 ## Navigation
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Snap Rotation|Shift + LMB|
-|Rotate|RMB or LMB|Not on model
-|Pan|Alt + RMB or Alt + LMB|Not on model
-|Zoom|Ctrl + LMB|
-|Frame select|F + F|
-|Center SubTool|F|
+|Snap Rotation|**`Shift`** + **`LMB`**|
+|Rotate|**`RMB`** or **`LMB`**|Not on model
+|Pan|**`Alt`** + **`RMB`** or **`Alt`** + **`LMB`**|Not on model
+|Zoom|**`Ctrl`** + **`LMB`**|
+|Frame select|**`F`** + **`F`**|
+|Center SubTool|**`F`**|
 
 ## Selecting (aka hiding)
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Hide selected|Ctrl + Shift + ALT + LMB|
-|Hide everything but selected|Ctrl + Shift + LMB|
-|Invert hidden|Ctrl + Shift + LMB|Drag on canvas
-|Unhide all|Ctrl + Shift + LMB|Click on canvas
-|Shrink visible selection|Ctrl + Shift + S|
-|Grow visible selection|Ctrl + Shift + X|
-|Grow To Polygroup|Ctrl + Shift + Q|Fully reveals all Polygroups that are (partially) visible
-|Grow All|Ctrl + Shift + A| Reveals all polys connected to currently visible polys
+|Hide selected|**`Ctrl`** + **`Shift`** + **`ALT`** + **`LMB`**|
+|Hide everything but selected|**`Ctrl`** + **`Shift`** + **`LMB`**|
+|Invert hidden|**`Ctrl`** + **`Shift`** + **`LMB`**|Drag on canvas
+|Unhide all|**`Ctrl`** + **`Shift`** + **`LMB`**|Click on canvas
+|Shrink visible selection|**`Ctrl`** + **`Shift`** + **`S`**|
+|Grow visible selection|**`Ctrl`** + **`Shift`** + **`X`**|
+|Grow To Polygroup|**`Ctrl`** + **`Shift`** + **`Q`**|Fully reveals all Polygroups that are (partially) visible
+|Grow All|**`Ctrl`** + **`Shift`** + **`A`**| Reveals all polys connected to currently visible polys
 
 ## Masking
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Add to mask|Ctrl + LMB|
-|Subtract from mask|Ctrl + Alt + LMB|
-|Invert mask|Ctrl + LMB|Click
-|Remove mask|Ctrl + LMB|Drag on canvas
-|Hide masked|Ctrl + Shift + Alt + LMB|
-|Unhide masked|Ctrl + Shift + LMB|On canvas
-|Delete hidden|Ctrl + Shift + LMB|Click
-|Split unmasked|Subtool>Split|
-|_**While using curve mask**_|---|---
-|Add curve point|Alt|
-|Add sharp curve point|Alt + Alt|
-|Expand mask over hole mesh|Ctrl + LMB|Drag in move mode
+|Add to mask|**`Ctrl`** + **`LMB`**|
+|Subtract from mask|**`Ctrl`** + **`Alt`** + **`LMB`**|
+|Invert mask|**`Ctrl`** + **`LMB`**|Click
+|Remove mask|**`Ctrl`** + **`LMB`**|Drag on canvas
+|Hide masked|**`Ctrl`** + **`Shift`** + **`Alt`** + **`LMB`**|
+|Unhide masked|**`Ctrl`** + **`Shift`** + **`LMB`**|On canvas
+|Delete hidden|**`Ctrl`** + **`Shift`** + **`LMB`**|Click
+|Split unmasked|**`Subtool > Split`**|
+|_**While Using Curve Mask**_|---|---
+|Add curve point|**`Alt`**|
+|Add sharp curve point|**`Alt`** + **`Alt`**|
+|Expand mask over hole mesh|**`Ctrl`** + **`LMB`**|Drag in move mode
+
 
 ## Poly Groups
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Group masked |Ctrl + W|Group all when there's no mask
-|Group visible|Polygroups menu|
-|Group from mask|Polygroups menu|
-|Group by angle|Polygroups menu|
-|Hide all other poly groups|Ctrl + Shift + LMB| (look into this, what about "Hide poly group"
+|Group masked |**`Ctrl`** + **`W`**|Group all when there's no mask
+|Group visible|**`Polygroups menu`**|
+|Group from mask|**`Polygroups menu`**|
+|Group by angle|**`Polygroups menu`**|
+|Hide all other poly groups|**`Ctrl`** + **`Shift`** + **`LMB`**| (look into this, what about "Hide poly group"
 
 ## Object Manipulation
 |Function|Key|Notes
 |:-:|:-:|:-:
 |_**Transforms**_|---|---
-|Move|W|
-|Scale|E|
-|Rotate|R|
+|Move|**`W`**|
+|Scale|**`E`**|
+|Rotate|**`R`**|
 |_**Other**_|---|---
-|Drag copy of|Ctrl + Click on Transpose tool
-|Symmetry|X|
+|Drag copy of|**`Ctrl`** + **`LMB`** (on Transpose tool) + **`Drag`**
+|Symmetry|**`X`**|
 
 ## Brushes
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Invert brush|Alt|
-|Brush Size|S|
+|Invert brush|**`Alt`**|
+|Brush Size|**`S`**|
+
 
 
 ## Drawing Tablet
-- Front Button -> RMB
-- Back Button -> Opens My custom Menu
+
+> [!info] My stylus mapping
+> 
+>**Front Stylus Button** -> RMB
+>**Back Stylus Button**-> Opens My custom Menu
 
 |Function|Key
 |:-:|:-:

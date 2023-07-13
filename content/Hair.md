@@ -1,5 +1,5 @@
 ---
-title: "💇🏼‍♀️Hair"
+title: "💇🏽‍♀️ Hair"
 enableToc: true
 ---
 >[!example]-  All kinds of hair methods (video playlist)
