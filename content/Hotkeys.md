@@ -1,3 +1,7 @@
+---
+title: "⌨️ Hotkyes"
+enableToc: false
+---
 - [[Hotkeys Blender]]
 - [[Hotkeys ZBrush]]
 - [[Hotkeys Unreal Engine]]
