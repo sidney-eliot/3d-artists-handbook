@@ -3,6 +3,8 @@ title: "⚪ZBrush"
 enableToc: true
 ---
 
+![[zbrush_banner.png]]
+
 ## General Things to Be Aware Of
 - My workflow between ZBrush and Blender is [[Workflow between ZBrush and Blender|here]]
 - It's good to stay on the left side of the model (right side from the characters perspective). _This is because of Mirror and Weld_

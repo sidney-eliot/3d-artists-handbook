@@ -3,7 +3,7 @@ title: "Blender Hotkeys"
 enableToc: false
 ---
 
-![[Pasted image 20230713192047.png]]
+![[blender_banner.png]]
 
 These are the hotkeys I use regularly.
 - Some essential key binds are remapped

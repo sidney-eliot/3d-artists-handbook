@@ -2,6 +2,9 @@
 title: "ZBrush Hotkeys"
 enableToc: false
 ---
+
+![[zbrush_banner 1.png]]
+
 >[!info] Foreword
 >
 >I use a **keyboard** in my **left hand** and my **drawing tablet** with my **right hand**. The **stylus** of mine has **2 buttons**.
