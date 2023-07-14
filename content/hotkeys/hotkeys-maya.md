@@ -2,6 +2,8 @@
 title: "Maya Hotkeys"
 enableToc: false
 ---
+<style> code { color: #FFFFFF; background: #05A7A7; } </style>
+
 ## Navigation/ View/ Transforms
 |Function|Key|Notes
 |:-:|:-:|:-:

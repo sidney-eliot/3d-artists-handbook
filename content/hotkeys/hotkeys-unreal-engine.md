@@ -2,12 +2,15 @@
 title: "Unreal Engine Hotkeys"
 enableToc: false
 ---
+
+<style> code { color: #FFFFFF; background: #0F1128; } </style>
+
 ## Navigation/ Transformation
 |Function|Key
 |:-:|:-:
-|Navigate|WASD+MB
-|Stick to object|Shift
-|Focus Selected|F
+|Navigate|**`WASD`** + **`MB`**
+|Stick to object|**`Shift`**
+|Focus Selected|**`F`**
 |Move/Rotate/Scale mode|W/E/R
 
 

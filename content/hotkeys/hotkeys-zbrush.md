@@ -8,7 +8,7 @@ enableToc: false
 >
 >I use a **keyboard** in my **left hand** and my **drawing tablet** with my **right hand**. The **stylus** of mine has **2 buttons**.
 
-<style> code { color: #FFFFFF; background: #050807; } </style>
+<style> code { color: #050807; background: #FFFFFF; } </style>
 
 ## 🔥 Most Important/ Commonly Used
 |Function|Key|Notes

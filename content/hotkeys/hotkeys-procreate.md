@@ -3,9 +3,11 @@ title: "Procreate Hotkeys"
 enableToc: false
 ---
 
+<style> code { color: #BD35ED; background: #232323; } </style>
+
 |Function|Key
 |:-:|:-:
-|Undo|Two-finger tap (can be held)
+|Undo|**`Two-finger tap`** (can be held)
 |Redo|Three-finger tap (can be held)
 |Switch between brush and eraser|Double tap pen
 |Copy Paste Menu|Three-fingers down
