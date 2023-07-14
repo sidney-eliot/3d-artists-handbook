@@ -1,15 +1,27 @@
-# Hi
--> https://epicrex.github.io/3d-artists-handbook
+# Visit The 3D Artists handbook
+https://epicrex.github.io/3d-artists-handbook
 
--> Or go directly to one of the three `extension wikis`
-| [HotkeyEdition](https://github.com/Epicrex/3DArtistsHandbookHotkeyEdition/wiki)
-| [AddonEdition](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki)
-| [ExtraEdition](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki)
+I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
 
--> Or go directly to one of the the other `related wikis`
-| [Anatomy](https://github.com/Epicrex/AnatomyForArtists/wiki)
-| [UnrealEngine](https://github.com/Epicrex/UnrealEngine/wiki)
+# Info About This Handbook
 
-(The config folders contain things like my workspace, keymaps and so on)
+The 3D Artist Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-artists-handbook) and uses [Quartz](https://github.com/jackyzha0/quartz) and [Hugo](https://gohugo.io/) in the backend.
 
+## Features of this handbook:
+- **Fully Available Offline**
+- **Universal Search** - Double tap tab (Very helpful for finding things quickly. Alternatively you can click into the search field at the top right)
+- **Navigate to Home Page** - Click"🦑 3D Artist's Handbook" at the top of the page
+- **Backlinks** - At the bottom of every page (This is a feature that shows you what pages in the handbook link to the current page your on)
+- **Interactive Graph** - At the bottom of every page (This visualizes the structure of the handbook and shows which pages link to each other)
+- **Collapsible Sections** - Found all over the handbook, can be expanded with a + or arrow down symbol
+- **Embeded YouTube Videos** - Allows playback of YouTube videos from directly within the handbook (If it makes sense I will also set some of the videos to start at a specific time)
+- **Instant Page Load Times**
+- **Dark and Light Theme** - Switch between the themes by clicking the sun sun/ moon buttons at the top right
 
+# How to Read Handbook Offline
+
+You will need [Obsidian](https://obsidian.md/), which is a completely free note taking software available on Windows, Mac, Linux, IOS and Android.
+
+1. Download the zip (and un-zip) or clone the repository from the [hugo branch](https://github.com/Epicrex/3DArtistsHandbook/tree/hugo) (Click `<> Code` then click `Download ZIP`)
+2. Open Obsidian, click `Open folder as vault` and select the 3D Artist Handbook folder you just downloaded. Then open the "content" folder in obsidian and all the pages will be there for you to read.
+3. (optional) If you want to do this in a more clean way, then create a folder called "offline_3DArtisthandbook". Inside of that folder create another folder called "images". Then open the 3D Artist Handbook you just downloaded from GitHub, go to the "content" folder and copy paste those files into "offline_3DArtisthandbook". Lastly copy all the files (images) from the folder called "static" into your "images" folder in the "offline_3DArtisthandbook".
