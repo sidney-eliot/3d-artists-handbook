@@ -12,7 +12,7 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: false
 enableMermaid: true
-GitHubLink: "https://github.com/Epicrex/3DArtistsHandbook/tree/hugo/content"
+GitHubLink: "https://github.com/Epicrex/3d-artists-handbook/tree/hugo/content"
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
@@ -25,4 +25,4 @@ links:
   - link_name: "GitHub"
     link: "https://github.com/Epicrex"
   - link_name: "This Handbook's Repo"
-    link: "https://github.com/Epicrex/3DArtistsHandbook/tree/hugo"
+    link: "https://github.com/Epicrex/3d-artists-handbook/tree/hugo"
