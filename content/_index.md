@@ -86,7 +86,7 @@ _This section will be moved to a side panel so it can be accessed from every pag
 - [Anatomy For Artists](https://github.com/Epicrex/AnatomyForArtists/wiki)
 
 ## Hotkeys
-- [[hotkeys|⌨️ Hotkeys]]
+- [[hotkeys.md|⌨️ Hotkeys]]
 
 ## Addons/ Plugins/ Extensions
 - [3D Artist's Handbook Addon Edition](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki)
