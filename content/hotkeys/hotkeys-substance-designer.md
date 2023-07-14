@@ -2,7 +2,7 @@
 title: "Substance Designer Hotkeys"
 enableToc: false
 ---
-![[banner]]
+![[banner_substance_designer.png]]
 
 <style> code { color: #99E83F; background: #1E3101; } </style>
 
