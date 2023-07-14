@@ -1,4 +1,4 @@
-# Visit The 3D Artists handbook
+# Visit The 3D Artists Handbook
 https://epicrex.github.io/3d-artists-handbook
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
@@ -18,7 +18,7 @@ The 3D Artist Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-arti
 - **Instant Page Load Times**
 - **Dark and Light Theme** - Switch between the themes by clicking the sun sun/ moon buttons at the top right
 
-# How to Read Handbook Offline
+# How to Read The Handbook Offline
 
 You will need [Obsidian](https://obsidian.md/), which is a completely free note taking software available on Windows, Mac, Linux, IOS and Android.
 
