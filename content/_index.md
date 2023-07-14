@@ -47,7 +47,7 @@ _This section will be moved to a side panel so it can be accessed from every pag
 > - [[art-software|Art Software]]
 > 
 > ### Process
-> - [[organic-and-hard-surface-sculpting-or-modeling|Organic & Hard Surface Sculpting/ Modeling 🧊🗿]]
+> - [[organic-and-hard-surface-sculpting-and-modeling|Organic and Hard Surface Sculpting and Modeling 🧊🗿]]
 > - [[workflow-between-zbrush-and-blender|Workflow between ZBrush and Blender 🌀]]
 > - [[sculpting-in-blender|Sculpting in Blender]]
 > - [[hair|Hair 💇🏽‍♀️]] 
