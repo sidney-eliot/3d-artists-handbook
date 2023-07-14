@@ -35,14 +35,14 @@ _This section will be moved to a side panel so it can be accessed from every pag
 > - [[_index|Home]]
 >   
 >  ### Theory
->  - [[glossary|Glossary 📑]] 
->  - [[composition|Composition 🌆]] 
+>  - [[glossary|Glossary 📑]]
+>  - [[composition|Composition 🌆]]
 >  - [[technicals-side-of-character-design|Technical Side of Character Design 👩🏽‍💻]]
 >  - 🚧 [[artistic-side-of-character-design|Artistic Side of Character Design]]
 >  - [[topology-and-retopology|Topology & Retopology]]
->  - [[optimization|Optimization 📊]] 
->  - [[color|Color 🎨🏳️‍🌈]] 
->  - [[texture-maps|Texture Maps 🗺️]] 
+>  - [[optimization|Optimization 📊]]
+>  - [[color|Color 🎨🏳️‍🌈]]
+>  - [[texture-maps|Texture Maps 🗺️]]
 >  - [[image-file-format|Image File Format]]
 > - [[art-software|Art Software]]
 > 
@@ -50,17 +50,17 @@ _This section will be moved to a side panel so it can be accessed from every pag
 > - [[organic-and-hard-surface-sculpting-and-modeling|Organic and Hard Surface Sculpting and Modeling 🧊🗿]]
 > - [[workflow-between-zbrush-and-blender|Workflow between ZBrush and Blender 🌀]]
 > - [[sculpting-in-blender|Sculpting in Blender]]
-> - [[hair|Hair 💇🏽‍♀️]] 
+> - [[hair|Hair 💇🏽‍♀️]]
 > - [[anime-style-characters|Anime Style Characters]]
 > 
 > ### Texture
 > - [[uv-unwrapping|UV Unwrapping]]
 > - [[preparations-for-baking-and-texturing|Preparations for Baking and Texturing]]
 > - [[baking|Baking 🎛️]]
-> - [[texturing|Texturing 🖌️]] 
+> - [[texturing|Texturing 🖌️]]
 > 
 > ### Presentation
-> - [[rigging|Rigging 🦴]] 
+> - [[rigging|Rigging 🦴]]
 > - 🚧 [[posing-and-animating|Posing & Animating]]
 > - 🚧 [[lighting|Lighting 💡]]
 > - [[blender-to-unreal-pipeline|Blender to Unreal Pipeline]]

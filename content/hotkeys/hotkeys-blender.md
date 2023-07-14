@@ -4,40 +4,48 @@ enableToc: false
 ---
 ![[banner_blender.png]]
 
-These are the hotkeys I use regularly.
-- Some essential key binds are remapped
-- The hotkeys for addons like Hard Ops and Boxcutter are in the [addon](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki/Blender-Addons-Guide) guide
-- My config file can be found under the [code tab](https://github.com/Epicrex/3DArtistsHandbook/tree/main/Blender%20Configs) of the repo
+>[!info] These are the hotkeys I use regularly
+>
+>- Some essential key binds are remapped
+>- The hotkeys for addons like Hard Ops and Boxcutter are in the [addon](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki/Blender-Addons-Guide) section
+>- My config file can be found under the [code tab](https://github.com/Epicrex/3DArtistsHandbook/tree/main/Blender%20Configs) of the repo
 
-# Navigation/ View/ Transforms
+<style>
+code {
+	color: black;
+	background: #F2994A;
+}
+</style>
+
+## Navigation, View, Transforms
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Orbit View|MMB|
-|Pan View|Shift + MMB|
-|Zoom View|Ctrl + MMB|
-|Axis View Align|Alt + MMB|
-|Front/ Back|1/ Ctrl + 1|
-|Right/ Left|2/ Ctrl + 2|
-|Top/ Bottom|3 / Ctrl + 3|
-|Orbit Up|4|
-|Orbit Down|5|
-|Orbit Left|6|
-|Orbit Right|7|
-|Pan View Up|Ctrl + 4|
-|Pan View Down|Ctrl + 5|
-|Pan View Left|Ctrl + 6|
-|Pan View Right|Ctrl + 7|
-|Orbit 180°|9|
-|Hide all non selected objects|^|
+|Orbit View|**`MMB`**|
+|Pan View|**`Shift`** + **`MMB`**|
+|Zoom View|**`Ctrl`** + **`MMB`**|
+|Axis View Align|**`Alt`** + **`MMB`**|
+|Front/ Back|**`1`**/ **`Ctrl`** + **`1`**|
+|Right/ Left|**`2`**/ **`Ctrl`** + **`2`**|
+|Top/ Bottom|**`3`** / **`Ctrl`** + **`3`**|
+|Orbit Up|**`4`**|
+|Orbit Down|**`5`**|
+|Orbit Left|**`6`**|
+|Orbit Right|**`7`**|
+|Pan View Up|**`Ctrl`** + **`4`**|
+|Pan View Down|**`Ctrl`** + **`5`**|
+|Pan View Left|**`Ctrl`** + **`6`**|
+|Pan View Right|**`Ctrl`** + **`7`**|
+|Orbit 180°|**`9`**|
+|Hide all non selected objects|**`^`**|
 |========|========|========
-|Move/Rotate/Scale|G/R/S
+|Move/Rotate/Scale|**`G`**/**`R`**/**`S`**
 |Limit Move/Rotation/Scale Axis|G/R/S + X/Y/Z + Move/Type number|Use Shift and Ctrl for slow and snap. Minus values also work. Tools like magnet can also be toggled mid action. Common Rotations: 45°, 90°, 135°, 180°
 |Limit Move/Rotation/Scale to only the input axis|G/R/S  + Shift + X/Y/Z + ...|
 
 _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it a good hotkey. However I recommend using the normal navigation because other 3d software shares that navigation (except for in game engines, there fps navigation is better and more common)._
 
 
-# Menus
+## Menus
 |Function|Key|Notes
 |:-:|:-:|:-:
 |**GENERAL**|========|========
@@ -73,7 +81,7 @@ _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it 
 |Edge Menu|Ctrl + E
 |Faces Menu|Ctrl + F
 
-# Objects
+## Objects
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Redo Last Action|Shift + R|
@@ -97,7 +105,7 @@ _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it 
 |Clamp|Alt/C|
 |Add Snap Point|A|Needs Snapping On
 
-# Selecting
+## Selecting
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Selection Tool Cycle|W|
@@ -116,7 +124,7 @@ _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it 
 
 _More selection tools in selection menu. Examples:Checker Deselect, Select Random(stacks)_
 
-# Camera
+## Camera
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Set Camera To View|Ctrl + Alt + 0|
@@ -124,7 +132,7 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |Make Camera fill viewport|???|
 
 
-# Other
+## Other
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Open Documentation|F1|
@@ -135,7 +143,7 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |Switch Objects while Sculpting|Alt + Q|
 |Toggle Transparent Mode|Alt + Z|
 
-# Animation
+## Animation
 |Function|Key|Notes
 |:-:|:-:|:-:
 |**GENERAL**|========|========
@@ -167,7 +175,7 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |Extrapolation mode|Shift + E|
 
 
-# Geometry Nodes
+## Geometry Nodes
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Mute Node|M
@@ -180,7 +188,7 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |Connect Node to Output|Alt + Shift|
 
 
-# Shader Editor
+## Shader Editor
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Mute Node|M|
@@ -191,6 +199,6 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |Connect Node to Viewer Node|Ctrl + Shift + LMB|Requires "Node Wrangler" addon
 
 
-# Other Hotkey Sheets
+## Other Hotkey Sheets
 - [BlenderHotkeyReference](https://download.blender.org/documentation/BlenderHotkeyReference.pdf)
 - [Blender Doc](https://docs.blender.org/manual/en/latest/index.html)
