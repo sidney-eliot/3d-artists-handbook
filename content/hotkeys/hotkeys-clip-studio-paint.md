@@ -4,52 +4,52 @@ enableToc: false
 ---
 ![[banner_clip_studio_paint.png]]
 
-<style> code { color: #383838; background: #E1E1E2; } </style>
+<style> code { color: #383838; background: #C3C3C4; } </style>
 
 ## Navigation
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Move|**`Space`**|
 |Rotate|**`Shift`** + **`Space`**|
-|Zoom tool|Ctrl + Space|Better than +/- zoom
-|Zoom in|Ctrl + +|
-|Zoom out|Ctrl + -|
-|Reset Rotation|Alt+R|
-|Reset View|Alt+G|
-|Flip Horizontal|´|
-|Hide Side Menus|Tab|
-|Fullscreen|Tab|
+|Zoom tool|**`Ctrl`** + **`Space`**|Better than +/- zoom
+|Zoom in|**`Ctrl`** + **`+`**|
+|Zoom out|**`Ctrl`** + **`-`**|
+|Reset Rotation|**`Alt`** + **`R`**|
+|Reset View|**`Alt`** + **`G`**|
+|Flip Horizontal|**`´`**|
+|Hide Side Menus|**`Tab`**|
+|Fullscreen|**`Tab`**|
 
 ## Brushes
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Brush Size|Ctrl + Alt|
-|Switch Colors|X|
+|Brush Size|**`Ctrl`** + **`Alt`**|
+|Switch Colors|**`X`**|
 |Reset Colors|D|
-|Opacity 10%-100%|1-0|
-|Make your current brush to eraser|C|
-|Straight line|Shift|
+|Opacity 10%-100%|**`1-0`**|
+|Make your current brush to eraser|**`C`**|
+|Straight line|**`Shift`**|
 |-|-|-
-|Cycle through Pencils|P|
-|Cycle through Brushes|B|
-|Airbrush|A|
-|Blend|J|
-|Eraser|E|Hold and let go to automatically go back to the last used brush
-|Eyedropper|Alt|
+|Cycle through Pencils|**`P`**|
+|Cycle through Brushes|**`B`**|
+|Airbrush|**`A`**|
+|Blend|**`J`**|
+|Eraser|**`E`**|Hold and let go to automatically go back to the last used brush
+|Eyedropper|**`Alt`**|
 
 ## Other
 |Function|Key|Notes
 |:-:|:-:|:-:
-|K|Move|
-|Transform|Ctrl + T|
-|Select Layer|Ctrl + Shift|
+|Move|**`K`**|
+|Transform|**`Ctrl`** + **`T`**|
+|Select Layer|**`Ctrl`** + **`Shift`**|
 |-|-|-
-|Selection|M|
-|Invert selection|Ctrl + Shift + I|
-|Remove Selection|Strg + D|
-|Auto Select|W|
+|Selection|**`M`**|
+|Invert selection|**`Ctrl`** + **`Shift`** + **`I`**|
+|Remove Selection|**`Strg`** + **`D`**|
+|Auto Select|**`W`**|
 |-|-|-
-|Edit Vector Line|O|
+|Edit Vector Line|**`O`**|
 
 ## Pen Setup and Extra Info
 My front pen button changes brush size (Ctrl + Alt) while my back button is a right click, so I can get to hidden menu elements.

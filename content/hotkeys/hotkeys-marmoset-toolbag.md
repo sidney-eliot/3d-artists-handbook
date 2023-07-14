@@ -6,8 +6,8 @@ enableToc: false
 
 <style> code { color: #2D2D2D; background: #F00342; } </style>
 
-|Function|Key
-|:-:|:-:
+|Function|Key|Notes
+|:-:|:-:|:-:
 |Orbit View|**`Alt`** + **`LMB`**
 |Pan View|**`Alt`** + **`MMB`**
 |Zoom View|**`Alt`** + **`RMB`**

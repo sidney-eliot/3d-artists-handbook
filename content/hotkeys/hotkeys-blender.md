@@ -19,9 +19,9 @@ enableToc: false
 |Pan View|**`Shift`** + **`MMB`**|
 |Zoom View|**`Ctrl`** + **`MMB`**|
 |Axis View Align|**`Alt`** + **`MMB`**|
-|Front/ Back|**`1`**/ **`Ctrl`** + **`1`**|
-|Right/ Left|**`2`**/ **`Ctrl`** + **`2`**|
-|Top/ Bottom|**`3`** / **`Ctrl`** + **`3`**|
+|Front / Back|**`1`** / **`Ctrl`** + **`1`**|
+|Right / Left|**`2`** / **`Ctrl`** + **`2`**|
+|Top / Bottom|**`3`** / **`Ctrl`** + **`3`**|
 |Orbit Up|**`4`**|
 |Orbit Down|**`5`**|
 |Orbit Left|**`6`**|
@@ -32,8 +32,8 @@ enableToc: false
 |Pan View Right|**`Ctrl`** + **`7`**|
 |Orbit 180°|**`9`**|
 |Hide all non selected objects|**`^`**|
-|========|========|========
-|Move/Rotate/Scale|**`G`**/**`R`**/**`S`**
+|-|-|-
+|Move / Rotate / Scale|**`G`** / **`R`** / **`S`**
 |Limit Move/Rotation/Scale Axis|G/R/S + X/Y/Z + Move/Type number|Use Shift and Ctrl for slow and snap. Minus values also work. Tools like magnet can also be toggled mid action. Common Rotations: 45°, 90°, 135°, 180°
 |Limit Move/Rotation/Scale to only the input axis|G/R/S  + Shift + X/Y/Z + ...|
 
@@ -43,21 +43,21 @@ _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it 
 ## Menus
 |Function|Key|Notes
 |:-:|:-:|:-:
-|**GENERAL**|========|========
+|**GENERAL**|-|-
 |Search|F3
 |Toggle Left Context Menu|T
 |Toggle Right Context Menu|N
 |Maximize Window but keep menus|Ctrl + Space
 |Maximize Window|Ctrl + Alt + Space
 |Quad View|Ctrl + Alt + Q
-|**OBJECT AND EDIT MODE**|========|========
+|**OBJECT AND EDIT MODE**|-|-
 |Interaction Mode Pie Menu|Ctrl + Tab
 |Object Context/ Action Menu|RMB
 |Add Menu|Shift + A
 |Cursor Pie Menu|Shift + S
 |Origin Pie Menu|Ctrl + Alt + X|Requires "3D Viewport Pie menu" addon, uncheck all but origin pie menu in addon settings
 |Quick Access Menu|Q
-|**OBJECT MODE**|========|========
+|**OBJECT MODE**|-|-
 |Apply Menu|Ctrl + A
 |Parent Menu|Ctrl + P
 |Unparent Menu|Alt + P
@@ -65,7 +65,7 @@ _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it 
 |Link/Data Transfer Menu|Ctrl + L
 |Collection Move Menu|M
 |Select Grouped|Shift + G
-|**EDIT MODE**|========|========
+|**EDIT MODE**|-|-
 |Extrude Menu|Alt + E
 |Normals Menu|Alt + N
 |UV Menu|U
@@ -94,7 +94,7 @@ _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it 
 |Vertex Bevel|Ctrl + Shift + B|
 |Solidify|Ctrl + X|A soft delete. Works well on edges but not that well on vertices
 |Slide|G + G|Can be used on Vertices and Edges
-|**Slide Options**|========|========
+|**Slide Options**|-|-
 |Even|E|
 |Flip the Even|F|
 |Clamp|Alt/C|
@@ -141,7 +141,7 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 ## Animation
 |Function|Key|Notes
 |:-:|:-:|:-:
-|**GENERAL**|========|========
+|**GENERAL**|-|-
 |Start Animation|Space|
 |Move to Next Frame|Arrow Keyes Left/ Right|
 |Move to Next Keyframe|Arrow Keyes Up/ Down|
@@ -152,7 +152,7 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |Set Preview range|P|
 |Remove Preview range|Alt + P|
 |Auto preview range|Ctrl + Alt + P|
-|**KEYFRAMES**|========|========
+|**KEYFRAMES**|-|-
 |Insert Keyframe|I|
 |Delete Keyframe|Alt + I|
 |Set Keyframe Type|R|
@@ -160,7 +160,7 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |Handle Type|V|
 |Select linked Keyframes|L|
 |Selects Keframes in column|Alt + LMB|
-|**OTHER**|========|========
+|**OTHER**|-|-
 |Add Marker|M|
 |Rename Marker|Ctrl + M|
 |Hide Transform|H|

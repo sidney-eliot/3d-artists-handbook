@@ -7,18 +7,18 @@ enableToc: false
 ## Navigation/ View/ Transforms
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Orbit View|Alt + LMB
-|Pan View|Alt + MMB 
-|Zoom View|MMB or Alt + RMB
-|Frame|F
+|Orbit View|**`Alt`** + **`LMB`**
+|Pan View|**`Alt`** + **`MMB`**
+|Zoom View|**`MMB`** or **`Alt`** + **`RMB`**
+|Frame|**`F`**
 
 ## Menus
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Search|
-|Face/Edge/Vert Select Mode|RMB
-|Modeling Tools|Shift + RMB
-|Selection Tools|Ctrl + RMB
+|Face/Edge/Vert Select Mode|**`RMB`**
+|Modeling Tools|**`Shift`** + **`RMB`**
+|Selection Tools|**`Ctrl`** + **`RMB`**
 
 ## Objects
 |Function|Key|Notes
@@ -55,7 +55,3 @@ enableToc: false
 ## Shader Editor
 |Function|Key|Notes
 |:-:|:-:|:-:
-
-
-
-## Other Hotkey sheets

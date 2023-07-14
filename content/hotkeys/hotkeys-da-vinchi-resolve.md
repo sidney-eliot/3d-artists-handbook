@@ -5,6 +5,6 @@ enableToc: false
 
 <style> code { color: #64D094; background: #1D354E; } </style>
 
-|Function|Key
-|:-:|:-:
-|Add nodes|**`Ctrl`** + **`Space`**
+|Function|Key|Notes
+|:-:|:-:|:-:
+|Add nodes|**`Ctrl`** + **`Space`**|

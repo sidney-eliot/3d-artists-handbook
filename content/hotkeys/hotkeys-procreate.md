@@ -5,8 +5,8 @@ enableToc: false
 
 <style> code { color: #BD35ED; background: #232323; } </style>
 
-|Function|Key
-|:-:|:-:
+|Function|Key|Notes
+|:-:|:-:|:-:
 |Undo|**`Two-finger tap`** (can be held)
 |Redo|Three-finger tap (can be held)
 |Switch between brush and eraser|Double tap pen
@@ -18,8 +18,8 @@ enableToc: false
 
 One can draw a square, triangle, circle, line, arc, polygons and then not move the pen and procreate will make it to that shape. Then tap with finger to rotate in 15 degree angles. Hold down finger to turn into perfect shape.
 
-|Function|Key
-|:-:|:-:
+|Function|Key|Notes
+|:-:|:-:|:-:
 |Merge Layers|Pinch layers together with fingers
 |Duplicate Layer|Pull layer onto canvas
 |Move layer to other file|Pull layer and with the other hand switch to the documents the release layer in layer menu
@@ -28,9 +28,6 @@ One can draw a square, triangle, circle, line, arc, polygons and then not move t
 |Multi Select Layers|Tap layer, then swipe right other layers
 |Layer Opacity|Double Tap Layer, then slide left/ right
 |Select Layer|Two-finger hold on layer
-||
-||
-||
 
 When changing opacity, the farther you move the finger away from the bar, the finer the adjustment is.
 

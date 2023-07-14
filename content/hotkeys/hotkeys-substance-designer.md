@@ -6,8 +6,8 @@ enableToc: false
 
 <style> code { color: #99E83F; background: #1E3101; } </style>
 
-|Function|Key
-|:-:|:-:
+|Function|Key|Notes
+|:-:|:-:|:-:
 |Rotate HDRI|**`Shift`** + **`Ctrl`** + **`RMB`**
 |Standard mode|**`1`**
 |Material mode|**`2`**

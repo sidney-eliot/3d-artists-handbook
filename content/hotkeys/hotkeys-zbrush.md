@@ -10,7 +10,7 @@ enableToc: false
 
 <style> code { color: #050807; background: #FFFFFF; } </style>
 
-## 🔥 Most Important/ Commonly Used
+## 🔥 Most Important Hotkeys
 |Function|Key|Notes
 |:-:|:-:|:-:
 |➕ Add SubDiv Level|**`Ctrl`** + **`D`**|
@@ -86,7 +86,7 @@ enableToc: false
 |Unhide masked|**`Ctrl`** + **`Shift`** + **`LMB`**|On canvas
 |Delete hidden|**`Ctrl`** + **`Shift`** + **`LMB`**|Click
 |Split unmasked|**`Subtool > Split`**|
-|_**While Using Curve Mask**_|---|---
+|_**While Using Curve Mask**_|-|-
 |Add curve point|**`Alt`**|
 |Add sharp curve point|**`Alt`** + **`Alt`**|
 |Expand mask over hole mesh|**`Ctrl`** + **`LMB`**|Drag in move mode
@@ -104,11 +104,11 @@ enableToc: false
 ## Object Manipulation
 |Function|Key|Notes
 |:-:|:-:|:-:
-|_**Transforms**_|---|---
+|_**Transforms**_|-|-
 |Move|**`W`**|
 |Scale|**`E`**|
 |Rotate|**`R`**|
-|_**Other**_|---|---
+|_**Other**_|-|-
 |Drag copy of|**`Ctrl`** + **`LMB`** (on Transpose tool) + **`Drag`**
 |Symmetry|**`X`**|
 
@@ -164,10 +164,10 @@ More Curve Settings in:
 
 |Function|Key|Notes
 |:-:|:-:|:-:
-|_**Placing Curve**_|---|---
+|_**Placing Curve**_|-|-
 |Snap To Surface|LMB + Shift
-|---|---|---
-|_**Editing Placed Curve**_|---|---
+|-|-|-
+|_**Editing Placed Curve**_|-|-
 |Move Curve|LMB Hold on Curve|Under `Stroke > Curve` there are some options: To make movement sturdy disable: `Bend Start`/ `Bend End`. To make start and end not move at all enable: `Lock Strat`/ `Lock End` (For lock to work one or both of the bend settings should be on). `Elastic`/ `Liquid` allow for both ends to be moved (Needs one or both of the bend settings on)
 |Change Polygroup|LMB Click on Curve
 |Extend Curve|LMB Close to End of Curve|If you hover far enough away from the curve a red line will appear
@@ -177,8 +177,8 @@ More Curve Settings in:
 |Twist/ Rotate Curve|LMB Hold on Curve + Ctrl
 |Snap To Surface After Placing|Stroke > Curve `Snap`
 |Confirm/ Leave Curve Edit Mode|LMB Anywhere on SubTool Away From Curve, Stroke > Curve Functions `Delete`
-|---|---|---
-|_**Curve Functions Menu**_|---|---
+|-|-|-
+|_**Curve Functions Menu**_|-|-
 |Place Curve Around Mesh Border|`Border`
 |Place Curve Around Polygroups|`Polygroups`
 |Place Curve Around Creases|`Creased edges`
