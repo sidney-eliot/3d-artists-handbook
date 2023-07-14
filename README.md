@@ -1,5 +1,5 @@
 # Hi
--> https://epicrex.github.io/3DArtistsHandbook
+-> https://epicrex.github.io/3d-artists-handbook
 
 -> Or go directly to one of the three `extension wikis`
 | [HotkeyEdition](https://github.com/Epicrex/3DArtistsHandbookHotkeyEdition/wiki)
