@@ -1,9 +1,8 @@
 ---
-title: "⌨️ Hotkyes"
+title: "⌨️ Hotkeys"
 enableToc: false
 ---
 
-## Hotkeys 
 [![[banner_blender.png|250]]](hotkeys/hotkeys-blender)[![[banner_clip_studio_paint.png|250]]](hotkeys/hotkeys-clip-studio-paint)[![[banner_marmoset_toolbag.png|250]]](hotkeys/hotkeys-marmoset-toolbag)[![[banner_photoshop_v2.png|250]]](hotkeys/hotkeys-photoshop)[![[banner_substance_designer.png|250]]](hotkeys/hotkeys-substance-designer)[![[banner_substance_painter.png|250]]](hotkeys/hotkeys-substance-painter)[![[banner_zbrush.png|250]]](hotkeys/hotkeys-zbrush)
 
 
