@@ -4,11 +4,13 @@ enableToc: false
 ---
 ![[banner_clip_studio_paint.png]]
 
+<style> code { color: #383838; background: #E1E1E2; } </style>
+
 ## Navigation
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Move|Space|
-|Rotate|Shift + Space|
+|Move|**`Space`**|
+|Rotate|**`Shift`** + **`Space`**|
 |Zoom tool|Ctrl + Space|Better than +/- zoom
 |Zoom in|Ctrl + +|
 |Zoom out|Ctrl + -|

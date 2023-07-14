@@ -4,6 +4,8 @@ enableToc: false
 ---
 ![[banner_photoshop_v2.png]]
 
+<style> code { color: #30A8FF; background: #001E36; } </style>
+
 ## General
 |Function|Key|Notes
 |:-:|:-:|:-:
@@ -17,7 +19,7 @@ enableToc: false
 |Lasso Tool|L|
 ||Alt + D|
 |Eyedroper|Alt|
-|New Layer|Ctrl + Shift + N|
+|New Layer|**`Ctrl`** + **`Shift`** + **`N`**|
 
 
 ## Layers
