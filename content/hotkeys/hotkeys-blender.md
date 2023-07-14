@@ -2,8 +2,7 @@
 title: "Blender Hotkeys"
 enableToc: false
 ---
-
-![[blender_banner.png]]
+![[banner_blender.png]]
 
 These are the hotkeys I use regularly.
 - Some essential key binds are remapped

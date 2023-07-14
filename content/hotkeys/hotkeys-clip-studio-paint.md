@@ -2,6 +2,8 @@
 title: "Clip Studio Paint Hotkeys"
 enableToc: false
 ---
+![[banner_clip_studio_paint.png]]
+
 ## Navigation
 |Function|Key|Notes
 |:-:|:-:|:-:

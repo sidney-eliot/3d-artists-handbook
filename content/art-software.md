@@ -17,10 +17,10 @@ enableToc: true
 - **[Nomad Sculpt](https://nomadsculpt.com)** _(Tablet/ Mobile Sculpting)_
 
 ## Texturing
-- 🔥 **Substance painter** _(Texturing, Baking)_ #🔥
-- 🔥 **Marmoset toolbag** _(Baking, Texturing, Rendering)_ #🔥
+- 🔥 **Substance painter** _(Texturing, Baking)_
+- 🔥 **Marmoset toolbag** _(Baking, Texturing, Rendering)_
 - **Substance designer** _(Procedural Texturing)_
-- 🔥 **Quixel Mixer** _(Texturing, Baking)_ #🔥
+- 🔥 **Quixel Mixer** _(Texturing, Baking)_
 - **Material Maker** _(Procedural Texturing)_
 - 🔥 **ZBrush**
 - 🔥 **3d-Coat** _(Hand Painted Texturing)_

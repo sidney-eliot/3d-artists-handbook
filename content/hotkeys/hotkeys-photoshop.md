@@ -2,8 +2,7 @@
 title: "Photoshop Hotkeys"
 enableToc: false
 ---
-
-![[photoshop_banner.png]]
+![[banner_photoshop_v2.png]]
 
 ## General
 |Function|Key|Notes

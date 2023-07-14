@@ -2,8 +2,7 @@
 title: "ZBrush Hotkeys"
 enableToc: false
 ---
-
-![[zbrush_banner 1.png]]
+![[banner_zbrush.png]]
 
 >[!info] Foreword
 >

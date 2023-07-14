@@ -6,14 +6,14 @@ enableToc: true
 ## Table of Contents
 
 #### GoB Workflow
-- [GoB, An Example Of A Great Workflow](#gob-an-example-of-a-great-workflow-)
+- [[#A Great Workflow Example]]
 
 #### Important Things to Understand about Zbrush for Proper Use of GoB
-- [General Things to Be Aware Of](#general-things-to-be-aware-of-)
-- [Units/ Size](#units-size-)
-- [World Center](#world-center-)
-- [Export Scale/ Offset](#export-scale-offset-)
-- [Manual Exporting/ Importing](#manual-exporting-importing-)
+- [[#General Things to Be Aware Of]]
+- [[#Units/ Size]]
+- [[#World Center (Primary and Secondary Center Points)]]
+- [[#Export Scale/ Offset]]
+- [[#Manual Exporting/ Importing]]
 
 
 ## A Great Workflow Example

@@ -6,30 +6,30 @@ enableToc: false
 
 ## Table of Contents
 
-- [[Composition#Focal Elements Emphasis|Focal Elements, Emphasis]]
-- [[Composition#Balance|Balance]]
-- [[Composition#Positioning and Movement Direction|Positioning and Movement Direction]]
-- [[Composition#Tilt Shift Camera|Tilt Shift Camera]]
+- [[#Focal Elements and Emphasis|Focal Elements and Emphasis]]
+- [[#Balance|Balance]]
+- [[#Positioning and Movement Direction|Positioning and Movement Direction]]
+- [[#Tilt Shift Camera|Tilt Shift Camera]]
 
-## Focal Elements/ Emphasis
-Focal Elements/ Emphasis dictates the rough order at which the eye looks at the different elements of the artwork. This doesn't just apply to static renders but composition can also be achieved in games and even outside of cutscenes. 
+## Focal Elements and Emphasis
+Focal Elements and Emphasis dictates the rough order at which the eye looks at the different elements of the artwork. This doesn't just apply to static renders but composition can also be achieved in games and even outside of cutscenes. 
 
 Great composition is achieved through:
 
-- [[Composition#Color Saturation Contrast|Color, Saturation, Contrast]]
-- [[Composition#Placement of Key Elements|Placement of Key Elements]]
-- [[Composition#Negative Space|Negative Space]]
-- [[Composition#Energy Lines|Energy Lines]]
-- [[Composition#Guiding Lines|Guiding Lines]]
-- [[Composition#Framing|Framing]]
+- [[#Color Saturation and Contrast|Color, Saturation and Contrast]]
+- [[#Placement of Key Elements|Placement of Key Elements]]
+- [[#Negative Space|Negative Space]]
+- [[#Energy Lines|Energy Lines]]
+- [[#Guiding Lines|Guiding Lines]]
+- [[#Framing|Framing]]
 - Camera Focus
 - Motion
-- Faces/ Figures
+- Faces and Figures
 - Geometric Shapes
 
-[[Composition#Other Elements Emphasis Examples|Other Elements, Emphasis Examples]]
+[[#Other Elements and Emphasis Examples|Other Elements and Emphasis Examples]]
 
-[[Composition#Bad Examples|Bad Examples]]
+[[#Bad Examples|Bad Examples]]
 
 
 
@@ -44,7 +44,7 @@ Great composition is achieved through:
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VArISvUuyr0?start=9&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ></div>
 
-### Color/ Saturation/ Contrast
+### Color, Saturation and Contrast
 Bolder colors for more important things and duller/ muted color for unimportant things. If the entire piece is very dark then lighter colors will draw attention and when it is very light darker colors will draw attention
 
 ### Placement of Key Elements
@@ -174,7 +174,7 @@ An object that guides the eye to a position, when correctly placed they can make
 >![[Pasted image 20230604161557.png|500]]
 >![[Pasted image 20230604161612.png|600]]
 
-### Other Elements/ Emphasis Examples
+### Other Elements and Emphasis Examples
 
 >[!example]- Other elements/ emphasis examples
 >

@@ -6,7 +6,7 @@ enableToc: true
 ![[zbrush_banner.png]]
 
 ## General Things to Be Aware Of
-- My workflow between ZBrush and Blender is [[Workflow between ZBrush and Blender|here]]
+- My workflow between ZBrush and Blender is [[workflow-between-zbrush-and-blender|here]]
 - It's good to stay on the left side of the model (right side from the characters perspective). _This is because of Mirror and Weld_
 - Unlike in other software, subdivision in ZBrush are destructive. Even if one goes back to SubDiv level 1 and deletes all higher levels, the SubDiv will have dulled the edges in an irreversible way. This doesn't matter if you'll be adding a SubDiv at some point again to the object, because this edge dulling effect does not stack.
 

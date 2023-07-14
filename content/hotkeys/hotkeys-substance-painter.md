@@ -2,6 +2,8 @@
 title: "Substance Painter Hotkeys"
 enableToc: false
 ---
+![[banner_substance_painter.png]]
+
 ## Navigation
 |Function|Key|Notes
 |:-:|:-:|:-:

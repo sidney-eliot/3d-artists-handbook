@@ -150,7 +150,7 @@ ToDo
 
 ---
 
-### Volumetric effects: Volumetric Lighting/ Fog
+### Volumetric effects: Volumetric Lighting and Fog
 
 #### Volumetric Lighting
 
@@ -192,7 +192,7 @@ Blurs out things that are farther away from the focus point. The distance at whi
 
 ---
 
-### DLSS/ FSR
+### DLSS and FSR
 - DLSS stands for Deep learning super sampling (Nvidia GPUs)
 - FSR  stand for FidelityFX Super Resolution (AMD GPUs)
 - It is a image upscaling technology. Using deep learning to upscale lower-resolution images
@@ -555,12 +555,12 @@ ToDo
 
 ---
 
-### Apex/ Peak
+### Apex and Peak
 ToDo
 
 ---
 
-### Bone Head/ Tail/ Body
+### Bone Head, Tail and Body
 ToDo
 
 ---
@@ -572,7 +572,7 @@ Floaters are loose detail pieces that float above the surface of a mesh and are 
 
 ---
 
-### Low/ High Poly
+### Low and High Poly
 ToDo
 
 (in the context of baking high to low)

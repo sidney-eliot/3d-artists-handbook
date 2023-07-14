@@ -2,6 +2,8 @@
 title: "Substance Designer Hotkeys"
 enableToc: false
 ---
+![[banner_substance_designer.png]]
+
 |Function|Key
 |:-:|:-:
 |Rotate HDRI|Shift + Ctrl + RMB

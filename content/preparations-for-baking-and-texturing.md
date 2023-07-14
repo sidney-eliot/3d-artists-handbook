@@ -26,7 +26,7 @@ enableToc: true
 
 >[!tip] Floaters
 >
->[[Glossary#Floaters|Floaters]] can make the AO maps look bad around the borders of floaters by creating height offsets and messing up light ray paths from the baker. This can be solved by placing the floater not in the air above the mesh, but in such a way as if the floater is a part of the mesh. It's also important to make sure that floaters have the exact angle of the the surface below them
+>[[glossary#Floaters|Floaters]] can make the AO maps look bad around the borders of floaters by creating height offsets and messing up light ray paths from the baker. This can be solved by placing the floater not in the air above the mesh, but in such a way as if the floater is a part of the mesh. It's also important to make sure that floaters have the exact angle of the the surface below them
 
 ## Normals
 Normals/ shading are very important and can dramatically alter the bake. Bad normals will result in a multitude of issues like:
@@ -83,7 +83,7 @@ Following things will manipulate normals:
 
 ## UV Unwrapping
 
-Look at the [[UV Unwrapping]] page.
+Look at the [[uv-unwrapping|UV Unwrapping]] page.
 
 
 ## Naming Conventions

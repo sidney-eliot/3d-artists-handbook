@@ -2,7 +2,7 @@
 title: "Topology/ Retopology"
 enableToc: true
 ---
-[[Glossary#Topology|Glossary Topology Terms]]
+[[glossary#Topology|Glossary Topology Terms]]
 
 >[!example]- Topology resources (videos, articles)
 >

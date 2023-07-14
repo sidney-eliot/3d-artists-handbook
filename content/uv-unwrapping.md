@@ -71,9 +71,9 @@ When scaling make sure to always evenly scale along all axis
 
 [UV Pack Master](https://uvpackmaster.com) is a wonderful UV unwrapping tool, which can generate beautifully compact UV layouts. In combination with that I also like using [UV Squares](https://blendermarket.com/products/uv-squares) which straightens UVs to save more space.
 
-- [[UV Unwrapping#UV Pack Master|UV Pack Master section]]
-- [[UV Unwrapping#Zen UV|Zen UV section]]
-- [[UV Unwrapping#UV Squares|UV Squares section]]
+- [[#UV Pack Master|UV Pack Master section]]
+- [[#Zen UV|Zen UV section]]
+- [[#UV Squares|UV Squares section]]
 
 
 ### UV Pack Master

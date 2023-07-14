@@ -52,7 +52,7 @@ enableToc: true
 
 There are 3 factors to compare when choosing between image formats:
 
-- [[Glossary#Bit Depth|Bit Depth]]
+- [[glossary#Bit Depth|Bit Depth]]
 - Compression/ Encoding
 - Alpha (Occlusion/ Transparency/ Opacity)
 

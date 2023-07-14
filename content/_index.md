@@ -20,7 +20,7 @@ I'm **Sidney** (Epicrex), a Character Artist, and this knowledge pool is for me,
 
 This is probably best suited for intermediate and advanced 3D artist's. If you're a 2D artist look [[#All Relevant Things from This Handbook for 2D Artists|here]]. My 3D workflow mostly consists of following software: [Blender](https://www.blender.org/features/), [ZBrush](https://pixologic.com/), [Marmoset Toolbag](https://marmoset.co/toolbag/), [Substance Painter](https://www.adobe.com/products/substance3d-painter.html), [Photoshop](https://www.adobe.com/products/photoshop.html) and [Unreal Engine](https://www.unrealengine.com/en-US/features). So this handbook will cover workflows in said software, but many of the concepts can be applied to other software as well.
 
-If you don't understand a term give the [[Glossary|glossary]] a visit.
+If you don't understand a term give the [[glossary|glossary]] a visit.
 
 Feel free to point out things that might not be the best practice or plain incorrect and I will fix those spots - [Discussion Area](https://github.com/Epicrex/3DArtistsHandbook/discussions/1).
 
@@ -35,58 +35,58 @@ _This section will be moved to a side panel so it can be accessed from every pag
 > - [[_index|Home]]
 >   
 >  ### Theory
->  - [[Glossary]] 📑
->  - [[Composition]] 🌆
->  - [[Technical Side of Character Design]] 👩🏽‍💻
->  - 🚧 [[Artistic Side of Character Design]]
->  - [[Topology Retopology|Topology, Retopology]]
->  - [[Optimization]] 📊
->  - [[Color]] 🎨🏳️‍🌈
->  - [[Texture Maps]] 🗺️
->  - [[Image File Format]]
-> - [[Art Software]]
+>  - [[glossary|Glossary 📑]] 
+>  - [[composition|Composition 🌆]] 
+>  - [[technicals-side-of-character-design|Technical Side of Character Design 👩🏽‍💻]]
+>  - 🚧 [[artistic-side-of-character-design|Artistic Side of Character Design]]
+>  - [[topology-and-retopology|Topology & Retopology]]
+>  - [[optimization|Optimization 📊]] 
+>  - [[color|Color 🎨🏳️‍🌈]] 
+>  - [[texture-maps|Texture Maps 🗺️]] 
+>  - [[image-file-format|Image File Format]]
+> - [[art-software|Art Software]]
 > 
 > ### Process
-> - [[Organic Hard Surface Sculpting|Organic, Hard Surface, Sculpting]] 🧊🗿
-> - [[Workflow between ZBrush and Blender]] 🌀
-> - [[Blender Sculpting]]
-> - [[Hair]] 💇🏽‍♀️
-> - [[Anime Style Characters]]
+> - [[organic-and-hard-surface-sculpting-or-modeling|Organic & Hard Surface Sculpting/ Modeling 🧊🗿]]
+> - [[workflow-between-zbrush-and-blender|Workflow between ZBrush and Blender 🌀]]
+> - [[sculpting-in-blender|Sculpting in Blender]]
+> - [[hair|Hair 💇🏽‍♀️]] 
+> - [[anime-style-characters|Anime Style Characters]]
 > 
 > ### Texture
-> - [[UV Unwrapping]]
-> - [[Preparations for Baking and Texturing]]
-> - [[Baking]] 🎛️
-> - [[Texturing]] 🖌️
+> - [[uv-unwrapping|UV Unwrapping]]
+> - [[preparations-for-baking-and-texturing|Preparations for Baking and Texturing]]
+> - [[baking|Baking 🎛️]]
+> - [[texturing|Texturing 🖌️]] 
 > 
 > ### Presentation
-> - [[Rigging]] 🦴
-> - 🚧 [[Posing Animating|Posing, Animating]]
-> - 🚧 [[Lighting]] 💡
-> - [[Blender to Unreal Pipeline]]
+> - [[rigging|Rigging 🦴]] 
+> - 🚧 [[posing-and-animating|Posing & Animating]]
+> - 🚧 [[lighting|Lighting 💡]]
+> - [[blender-to-unreal-pipeline|Blender to Unreal Pipeline]]
 > 
 > ### Post
-> - [[Rendering Compositing Uploading|Rendering, Compositing, Uploading]]
+> - [[rendering-and-compositing-and-uploading|Rendering & Compositing & Uploading]]
 > 
 > ### Software Specific Knowledge
-> - [[ZBrush]] ⚪
-> - [[Blender]] 🟠
+> - [[zbrush|ZBrush ⚪]]
+> - [[blender|Blender 🟠]]
 > 
 > ### Other Relevant Wikis
 > - [**Anatomy**](https://github.com/Epicrex/AnatomyForArtists/wiki) 💪
-> - **[[Hotkeys|⌨️ Hotkeys]]**
+> - **[[hotkeys|⌨️ Hotkeys]]**
 > - [**Addons**](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki) 🔮
 > - [**Extras**](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki)
 > - [**Unreal**](https://github.com/Epicrex/UnrealEngine/wiki)
 > 
 > ### Setup
-> - [[My Setup]]
+> - [[my-setup|My Setup]]
 
 ## Anatomy
 - [Anatomy For Artists](https://github.com/Epicrex/AnatomyForArtists/wiki)
 
 ## Hotkeys
-- [3D Artist's Handbook Hotkey Edition](https://github.com/Epicrex/3DArtistsHandbookHotkeyEdition/wiki)
+- [[hotkeys|⌨️ Hotkeys]]
 
 ## Addons/ Plugins/ Extensions
 - [3D Artist's Handbook Addon Edition](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki)
