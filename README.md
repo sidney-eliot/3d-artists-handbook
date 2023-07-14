@@ -7,7 +7,7 @@ I'm happy to hear any feedback and requests on things to improve or add, just me
 
 The 3D Artist Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-artists-handbook) and uses [Quartz](https://github.com/jackyzha0/quartz) and [Hugo](https://gohugo.io/) in the backend.
 
-### Features of this handbook:
+### Features of this Handbook
 - **Fully Available Offline**
 - **Universal Search** - Double tap tab (Very helpful for finding things quickly. Alternatively you can click into the search field at the top right)
 - **Navigate to Home Page** - Click"🦑 3D Artist's Handbook" at the top of the page
