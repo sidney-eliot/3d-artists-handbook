@@ -5,7 +5,7 @@ enableToc: false
 
 > [!warning] Warning
 > 
-> This handbook is almost fully migrated from [GitHub wiki](https://github.com/Epicrex/3DArtistsHandbook/wiki), so some things might still be broken. Other handbooks of mine will also follow in the future and be deployed like this one.
+> This handbook is almost fully migrated, so some things might still be broken.
 > 
 > Note also that the backlink and graph section at the bottom won't show many connections yet but over time I will more and more try to link relevant pages with each other and every page linking to the Home page will also change.
 
@@ -98,12 +98,13 @@ _This section will be moved to a side panel so it can be accessed from every pag
 - [Unreal Engine](https://github.com/Epicrex/UnrealEngine/wiki)
 
 ## All Relevant Things from This Handbook for 2D Artists
-- [Composition](https://github.com/Epicrex/3DArtistsHandbook/wiki/Composition)
+- [[composition|Composition 🌆]]
 - [Anatomy](https://github.com/Epicrex/AnatomyForArtists/wiki)
-- [Color](https://github.com/Epicrex/3DArtistsHandbook/wiki/Color)
-- [Artistic Side of Character Design](https://github.com/Epicrex/3DArtistsHandbook/wiki/Artistic-Side-of-Character-Design)
-- [Photoshop Hotkeys](https://github.com/Epicrex/3DArtistsHandbookHotkeyEdition/wiki/Photoshop-Hotkeys)
-- [Clip Studio Paint Hotkeys](https://github.com/Epicrex/3DArtistsHandbookHotkeyEdition/wiki/Clip-Studio-Paint-Hotekys)
+- [[color|Color 🎨🏳️‍🌈]]
+- [[artistic-side-of-character-design|Artistic Side of Character Design]]
+- [[hotkeys-photoshop|Photoshop Hotkeys]]
+- [[hotkeys-clip-studio-paint|Clip Studio Paint Hotkeys]]
+- [[hotkeys-procreate|Procreate Hotkeys]]
 - [Art Courses](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki/Art-Courses)
 
 ## Awesome Blender Github by Mdsanima

@@ -8,7 +8,7 @@ enableToc: false
 >
 >- Some essential key binds are remapped
 >- The hotkeys for addons like Hard Ops and Boxcutter are in the [addon](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki/Blender-Addons-Guide) section
->- My config file can be found under the [code tab](https://github.com/Epicrex/3DArtistsHandbook/tree/main/Blender%20Configs) of the repo
+>- My config files are [here](https://github.com/Epicrex/3d-artists-handbook/tree/repo_storage/blender-stuff) of the repo
 
 <style> code { color: #265787; background: #EA7600; } </style>
 
