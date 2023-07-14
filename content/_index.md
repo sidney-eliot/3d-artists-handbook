@@ -56,7 +56,7 @@ _This section will be moved to a side panel so it can be accessed from every pag
 > ### Texture
 > - [[uv-unwrapping|UV Unwrapping]]
 > - [[preparations-for-baking-and-texturing|Preparations for Baking and Texturing]]
-> - [[baking|Baking 🎛️]]
+> - [[baking-textures|Baking 🎛️]]
 > - [[texturing|Texturing 🖌️]]
 > 
 > ### Presentation

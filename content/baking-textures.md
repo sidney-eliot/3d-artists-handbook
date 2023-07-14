@@ -1,6 +1,7 @@
 ---
 title: "🎛️ Baking"
 enableToc: true
+description: 
 ---
 
 > [!info] Info
