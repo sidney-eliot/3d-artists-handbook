@@ -2,8 +2,8 @@
 title: "ZBrush Hotkeys"
 enableToc: false
 ---
-![[banner_zbrush.jpg]]
 <style> code { color: #050807; background: #FFFFFF; } </style>
+![[banner_zbrush.jpg]]
 
 >[!info] Foreword
 >

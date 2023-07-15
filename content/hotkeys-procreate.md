@@ -2,8 +2,8 @@
 title: "Procreate Hotkeys"
 enableToc: false
 ---
-![[banner_procreate.jpg]]
 <style> code { color: #BD35ED; background: #232323; } </style>
+![[banner_procreate.jpg]]
 
 |Function|Key|Notes
 |:-:|:-:|:-:
