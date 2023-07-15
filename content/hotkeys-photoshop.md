@@ -90,5 +90,6 @@ enableToc: false
 |Export (window)|**`Ctrl`** + **`Shift`** + **`Alt`** + **`W`**|
 |Save As (window)|**`Ctrl`** + **`Shift`** + **`S`**|
 |Straight Line|**`Shift`**|
+|Layer Style (window)|
 
 https://helpx.adobe.com/photoshop/using/default-keyboard-shortcuts.html

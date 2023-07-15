@@ -1,5 +1,5 @@
 ---
-title: "Da Vinchi Resolve Hotkeys"
+title: "Da Vinci Resolve Hotkeys"
 enableToc: false
 ---
 
