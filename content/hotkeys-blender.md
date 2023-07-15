@@ -2,8 +2,9 @@
 title: "Blender Hotkeys"
 enableToc: false
 ---
-[[banner_blender.jpg]]
 <style> code { color: #265787; background: #EA7600; } </style>
+![[banner_blender.jpg]]
+
 
 >[!info] These are the hotkeys I use regularly
 >

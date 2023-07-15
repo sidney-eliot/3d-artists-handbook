@@ -2,8 +2,9 @@
 title: "Clip Studio Paint Hotkeys"
 enableToc: false
 ---
-![[banner_clip_studio_paint.jpg]]
 <style> code { color: #383838; background: #C3C3C4; } </style>
+![[banner_clip_studio_paint.jpg]]
+
 
 ## Navigation
 |Function|Key|Notes
