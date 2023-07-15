@@ -3,7 +3,7 @@ title: "⚪ZBrush"
 enableToc: true
 ---
 
-![[zbrush_banner.png]]
+![[banner_zbrush.jpg]]
 
 ## General Things to Be Aware Of
 - My workflow between ZBrush and Blender is [[workflow-between-zbrush-and-blender|here]]

@@ -3,7 +3,7 @@ title: "🟠 Blender"
 enableToc: true
 ---
 
-![[blender_banner.png]]
+![[banner_blender.jpg]]
 
 ## Increasing Performance
 - Turn off statistics (surprisingly grants big boost)

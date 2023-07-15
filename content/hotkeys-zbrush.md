@@ -2,13 +2,13 @@
 title: "ZBrush Hotkeys"
 enableToc: false
 ---
-![[banner_zbrush.png]]
+![[banner_zbrush.jpg]]
+<style> code { color: #050807; background: #FFFFFF; } </style>
 
 >[!info] Foreword
 >
 >I use a **keyboard** in my **left hand** and my **drawing tablet** with my **right hand**. The **stylus** of mine has **2 buttons**.
 
-<style> code { color: #050807; background: #FFFFFF; } </style>
 
 ## 🔥 Most Important Hotkeys
 |Function|Key|Notes

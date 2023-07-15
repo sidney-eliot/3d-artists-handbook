@@ -2,7 +2,6 @@
 title: "Houdini Hotkeys "
 enableToc: false
 ---
-
 <style> code { color: #FFFFFF; background: #FE4703; } </style>
 
 |Function|Key|Notes

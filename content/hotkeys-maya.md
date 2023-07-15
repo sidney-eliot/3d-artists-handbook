@@ -2,6 +2,7 @@
 title: "Maya Hotkeys"
 enableToc: false
 ---
+[[banner_maya.jpg]]
 <style> code { color: #FFFFFF; background: #05A7A7; } </style>
 
 ## Navigation/ View/ Transforms

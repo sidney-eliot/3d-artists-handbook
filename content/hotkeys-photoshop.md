@@ -2,8 +2,7 @@
 title: "Photoshop Hotkeys"
 enableToc: false
 ---
-![[banner_photoshop_v2.png]]
-
+![[banner_photoshop.jpg]]
 <style> code { color: #30A8FF; background: #001E36; } </style>
 
 ## General
