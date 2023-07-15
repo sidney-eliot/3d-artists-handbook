@@ -2,8 +2,8 @@
 title: "Substance Painter Hotkeys"
 enableToc: false
 ---
-![[banner_substance_painter.jpg]]
 <style> code { color: #99E83F; background: #1E3101; } </style>
+![[banner_substance_painter.jpg]]
 
 ## Navigation
 |Function|Key|Notes
