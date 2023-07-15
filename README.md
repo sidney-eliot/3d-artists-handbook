@@ -1,11 +1,12 @@
 # Visit The 3D Artists Handbook
-https://epicrex.github.io/3d-artists-handbook
+https://epicrex.github.io/3d-artists-handbook<br>
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
 
+_(Or view the raw pages on the [hugo branch](https://github.com/Epicrex/3d-artists-handbook/tree/hugo))_
 # Info About This Handbook
 
-The 3D Artist Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-artists-handbook) and uses [Quartz](https://github.com/jackyzha0/quartz) and [Hugo](https://gohugo.io/) in the backend.
+The 3D Artists Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-artists-handbook) and uses [Quartz](https://github.com/jackyzha0/quartz) and [Hugo](https://gohugo.io/) in the backend.
 
 ### Handbook's Features
 - **Fully Available Offline**
@@ -23,6 +24,6 @@ The 3D Artist Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-arti
 
 You will need [Obsidian](https://obsidian.md/), which is a completely free note taking software available on Windows, Mac, Linux, IOS and Android.
 
-1. Download the zip (and un-zip) or clone the repository from the [hugo branch](https://github.com/Epicrex/3DArtistsHandbook/tree/hugo) (Click `<> Code` then click `Download ZIP`)
+1. Download the zip (and un-zip) or clone the repository from the [hugo branch](https://github.com/Epicrex/3d-artists-handbook/tree/hugo) (Click `<> Code` then click `Download ZIP`)
 2. Open Obsidian, click `Open folder as vault` and select the 3D Artist Handbook folder you just downloaded. Then open the "content" folder in obsidian and all the pages will be there for you to read.
 3. (optional) If you want to do this in a more clean way, then create a folder called "offline_3DArtisthandbook". Inside of that folder create another folder called "images". Then open the 3D Artist Handbook you just downloaded from GitHub, go to the "content" folder and copy paste those files into "offline_3DArtisthandbook". Lastly copy all the files (images) from the folder called "static" into your "images" folder in the "offline_3DArtisthandbook".
