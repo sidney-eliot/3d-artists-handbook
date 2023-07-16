@@ -24,7 +24,7 @@ If you don't understand a term give the [[glossary|glossary]] a visit.
 
 Feel free to point out things that might not be the best practice or plain incorrect and I will fix those spots - [Discussion Area](https://github.com/Epicrex/3DArtistsHandbook/discussions/1).
 
-_Note that things/ entire pages are unfinished. (The symbol ⚠ denotes that those elements/ pages have not yet been finished/ integrated)_
+_Note that things/ entire pages are unfinished. (The symbol 🚧 denotes that those elements/ pages have not yet been finished/ integrated)_
 
 ## Main
 _This section will be moved to a side panel so it can be accessed from every page._
@@ -79,6 +79,7 @@ _This section will be moved to a side panel so it can be accessed from every pag
 >- [[asset-sites|Asset Sites]]
 >- [[art-software|Art Software]]
 >- [[2d-art-resources|2D Art Resources]]
+>- [[model-part-names|Model Part Names]]  
 >    
 > ### Other Relevant Wikis
 > - [**Anatomy**](https://github.com/Epicrex/AnatomyForArtists/wiki) 💪
