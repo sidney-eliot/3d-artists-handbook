@@ -69,7 +69,7 @@ This is a collection of most software that are helpful for artists, that see any
 - [**RenderMan**](https://renderman.pixar.com) _(Pixar's - Supports: Blender, Maya, Houdini, Katana)_
 - [**Corona**](https://corona-renderer.com)
 
-## Digital 2D Drawing Software
+## 2D Drawing Software
 - [**`Clip Studio Paint`**](https://www.clipstudio.net/en/)
 - [**`Photoshop`**](https://www.adobe.com/products/photoshop.html)
 - [**`Procreate`**](https://procreate.com) _(Apple only)_
@@ -91,7 +91,7 @@ This is a collection of most software that are helpful for artists, that see any
 ## Personal Art Libraries
 - [**`Eagle`**](https://en.eagle.cool)
 - [**Adobe Bridge**](https://www.adobe.com/products/bridge.html)
-- **File Explorer :)**
+- **A File Explorer :)**
 
 ## Reference Art Board
 - [**`PureRef`**](https://www.pureref.com)
