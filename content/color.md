@@ -32,13 +32,13 @@ HSL Example:
 **When to use**
 For 2D art and hand painted textures this is pretty much always the best choice, because of being able to easily select different tints/shades of a color. But it's also good for any other color picking. The choice between HSV vs HSL is a thing of preference, though HSV is probably the more popular one.
 
-## Hex Color Model
+### Hex Color Model
 A hex color is like RGB. The syntax is #RRGGBB, so green would be #00FF00. 00 means none of that channel and FF means 255 of that channel (0,1,...9,A,...F). It's also possible to store alpha in hex with following syntax #RRGGBBAA, so green with alpha would be #00FF0012. The A can only range from 0-100.
 
 **When to use**
 HEX is almost only used for copying a color per values from A to B
 
-# Keywords
+## Color Theory Glossary
 
 |Keyword|What is it|What does it affect|Notes
 |:-:|:-:|:-:|:-:
@@ -73,32 +73,32 @@ HEX is almost only used for copying a color per values from A to B
 |Unbalanced|
 |Monotony|
 
-# Color Synergy
+## Color Synergy
 Colors which, when combined or mixed, cancel each other out or boost a one of the colors.
 One of the things it's used for is to make things stand out.
 
-## Official Synergy Types
+### Official Synergy Types
 A great place to create these synergies and understand how they work is [Adobe's color picker](https://color.adobe.com/create/color-wheel).
 
-### Complementary
+#### Complementary
 - Dark Purple - Yellow, Lime Green - Light Purple
-### Split complementary colors
+#### Split complementary colors
 
-### Analogous colors
+#### Analogous colors
 
-### Triadic colors
+#### Triadic colors
 
-### Tetradic or double complementary colors
+#### Tetradic or double complementary colors
 
-### Monotone chromatic
+#### Monotone chromatic
 - Uses a single hue and all it's tints, tones and shades
 - Risk of monotony
 
-### Monotone achromatic
+#### Monotone achromatic
 - Only neutral colors ranging from black to white
 - Is monotone
 
-# Common Colors RGB/ HEX
+## Common Colors RGB/ HEX
 COLOR|RGB|HEX
 |:-:|:-:|:-:|
 |White|255,255,255|#FFFFFF   	
@@ -113,7 +113,7 @@ COLOR|RGB|HEX
 
 
 
-# 🚧Work in Progress🚧
+## 🚧Work in Progress🚧
 
 #### Hue
 - Changing the Tint, Shade or Tone of a color changes the Chroma/ Colorfulness
@@ -138,6 +138,6 @@ Saturation is changed by tint, shade and tone. Saturation is the purity/ intensi
 Brilliance judged relative to the maximum brightness possible, where as brightness is relative to the brightness of a similarly illuminated white object.
 
 
-# ⚠ Sort in 
+## 🚧Sort in 🚧
 
 - https://www.sensationalcolor.com/hue-value-chroma/

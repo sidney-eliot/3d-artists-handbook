@@ -7,7 +7,7 @@ enableToc: true
 ---
 
 ### Ambient Occlusion
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Ambient_occlusion) - [[Polycount]](http://wiki.polycount.com/wiki/Ambient_occlusion_map) - [[Unreal Engine Doc]](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/) - [[Unity Doc]](https://docs.unity3d.com/2021.3/Documentation/Manual/LightingBakedAmbientOcclusion.html)_
+_[[Wikipedia](https://en.wikipedia.org/wiki/Ambient_occlusion)] - [[Polycount](http://wiki.polycount.com/wiki/Ambient_occlusion_map)] - [[Unreal Engine Doc](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/)] - [[Unity Doc](https://docs.unity3d.com/2021.3/Documentation/Manual/LightingBakedAmbientOcclusion.html)]_
 
 Ambient Occlusion (AO) is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable.
 
@@ -28,7 +28,7 @@ Ambient Occlusion (AO) is a shading and rendering technique used to calculate ho
 
 ### Ray Tracing
 
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) - [Unreal Engine Doc] [[1]](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing) [[2]](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/) (real-time) - [[Unreal Engine Doc]](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/) (hardware) - [[Unity Doc]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)_
+_[[Wikipedia](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))] - Unreal Engine Doc [[1](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing)] [[2](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/)] (real-time) - [[Unreal Engine Doc](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/)] (hardware) - [[Unity Doc](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)]_
 
 Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (film industry).
 
@@ -411,7 +411,7 @@ Tessellation (Triangulation) is the process of the converting faces to random ev
 
 ### Bit Depth
 
-_[[Wikipedia]](https://en.wikipedia.org/wiki/Color_depth) - [[Polycount]](http://wiki.polycount.com/wiki/BitDepth) - [[Photoshop Doc]](https://helpx.adobe.com/photoshop/using/bit-depth.html)_
+_[[Wikipedia](https://en.wikipedia.org/wiki/Color_depth)] - [[Polycount](http://wiki.polycount.com/wiki/BitDepth)] - [[Photoshop Doc](https://helpx.adobe.com/photoshop/using/bit-depth.html)]_
 
 >[!example]- Bit depth explanation (videos)
 >
