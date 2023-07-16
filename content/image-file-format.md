@@ -72,7 +72,7 @@ Compression can be lossless or lossy. Lossless allows to reconstruct the origina
 >- Suitable for VFX/Compositing
 
 ### Comparison
-⚠️ Take this image with a grain of salt
+🚧 Take this image with a grain of salt
 
 ![[Pasted image 20230604224021.png]]
 

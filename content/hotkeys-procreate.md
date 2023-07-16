@@ -7,13 +7,13 @@ enableToc: false
 
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Undo|**`Two-finger tap`** (can be held)
-|Redo|Three-finger tap (can be held)
-|Switch between brush and eraser|Double tap pen
-|Copy Paste Menu|Three-fingers down
-|Eye Dropper|Finger tap
-|Color Bucket|Pull color onto canvas (hold and slide to adjust tolerance)
-|Maximize canvas|Quick Finger-pinch
+|Undo|**`Two-finger Tap`** (can be held)
+|Redo|**`Three-finger Tap`** (can be held)
+|Switch between brush and eraser|**`Double Tap Pen`**
+|Cut/Copy/Paste|Three-fingers Swipe
+|Eye Dropper|Touch-and-Hold
+|Color Drop|**`Drag the Active Color onto artwork`** (hold and slide to adjust tolerance)
+|Maximize Canvas|Quick Finger-pinch
 |Hide UI|Four-finger tap
 
 One can draw a square, triangle, circle, line, arc, polygons and then not move the pen and procreate will make it to that shape. Then tap with finger to rotate in 15 degree angles. Hold down finger to turn into perfect shape.
@@ -35,3 +35,5 @@ Multitasking: Pull up, grab app and pull it onto the procreate window
 
 Undo History = 256
 Layers = 
+
+https://procreate.com/handbook/procreate/interface-gestures/gestures/

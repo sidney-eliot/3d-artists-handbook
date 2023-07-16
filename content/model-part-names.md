@@ -3,10 +3,6 @@ title: "Model Part Names"
 enableToc: false
 ---
 
-
-```mermaid
-mindmap id(I am a rounded square)
-```
 When naming parts of a model, one can either just count up numbers or describe what the part is, like "Cooler_Fan_Screw_3". To help with the latter naming convention, I've tried to come up with as many words as possible to describe parts. This is supposed to make it easier to find the correct name if one just can't think of anything fitting.
 
 ## Hard
