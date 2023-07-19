@@ -2,7 +2,11 @@
 title: "Marmoset Toolbag Hotkeys"
 enableToc: false
 ---
-<style> code { color: #2D2D2D; background: #F00342; } </style>
+<style>
+code { color: #2D2D2D; background: #F00342; }
+table { margin-left: auto; margin-right: auto; }
+p {text-align: center;}
+</style>
 ![[banner_marmoset_toolbag.jpg]]
 
 

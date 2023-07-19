@@ -2,4 +2,7 @@
 title: "Unity Hotkeys"
 enableToc: false
 ---
-<style> code { color: #FFFFFF; background: #242C37; } </style>
+<style>code { color: #FFFFFF; background: #242C37; }
+table { margin-left: auto; margin-right: auto; }
+p {text-align: center;}
+</style>

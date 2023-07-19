@@ -2,7 +2,11 @@
 title: "ZBrush Hotkeys"
 enableToc: false
 ---
-<style> code { color: #050807; background: #FFFFFF; } </style>
+<style>
+code { color: #050807; background: #FFFFFF; }
+table { margin-left: auto; margin-right: auto; }
+p {text-align: center;}
+</style>
 ![[banner_zbrush.jpg]]
 
 >[!info] Foreword

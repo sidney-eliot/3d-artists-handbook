@@ -2,7 +2,11 @@
 title: "Blender Hotkeys"
 enableToc: false
 ---
-<style> code { color: #265787; background: #EA7600; } </style>
+<style>
+code { color: #265787; background: #EA7600; }
+table { margin-left: auto; margin-right: auto; }
+p {text-align: center;}
+</style>
 ![[banner_blender.jpg]]
 
 
