@@ -4,7 +4,6 @@ enableToc: false
 ---
 <style>code { color: #99E83F; background: #1E3101; }
 table { margin-left: auto; margin-right: auto; }
-p {text-align: center;}
 </style>
 ![[banner_substance_painter.jpg]]
 

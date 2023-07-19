@@ -4,7 +4,6 @@ enableToc: false
 ---
 <style>code { color: #BD35ED; background: #232323; }
 table { margin-left: auto; margin-right: auto; }
-p {text-align: center;}
 </style>
 ![[banner_procreate.jpg]]
 

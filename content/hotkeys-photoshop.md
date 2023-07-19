@@ -5,7 +5,6 @@ enableToc: false
 <style>
 code { color: #30A8FF; background: #001E36; }
 table { margin-left: auto; margin-right: auto; }
-p {text-align: center;}
 </style>
 ![[banner_photoshop.jpg]]
 

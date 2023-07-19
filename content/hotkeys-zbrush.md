@@ -5,7 +5,6 @@ enableToc: false
 <style>
 code { color: #050807; background: #FFFFFF; }
 table { margin-left: auto; margin-right: auto; }
-p {text-align: center;}
 </style>
 ![[banner_zbrush.jpg]]
 
@@ -20,7 +19,7 @@ p {text-align: center;}
 |➕ Add SubDiv Level|**`Ctrl`** + **`D`**|
 |⬆️Go Up One SubDiv Level|**`D`**|
 |⬇ Go Down One SubDiv Level|**`Shift + D`**|
-|⬆⬇Dynamic SubDiv ON/ OFF|**`D/ Shift`** + **`D`**|If there are no SubDiv levels** SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
+|⬆⬇Dynamic SubDiv ON/ OFF|**`D/ Shift`** + **`D`**|If there are no SubDiv levels SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
 |DynaMesh|**`Ctrl`** + **`LMB`** (on canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border
 |👁 View Topology|**`Shift`** + **`F`**|
 |PolyGroup Masked|**`Ctrl`** + **`W`**|PolyGroups all when there's no mask

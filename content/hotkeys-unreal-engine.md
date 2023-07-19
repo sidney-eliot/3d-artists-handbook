@@ -4,7 +4,6 @@ enableToc: false
 ---
 <style>code { color: #FFFFFF; background: #0F1128; }
 table { margin-left: auto; margin-right: auto; }
-p {text-align: center;}
 </style>
 
 ## Navigation/ Transformation

@@ -5,7 +5,6 @@ enableToc: false
 <style>
 code { color: #FFFFFF; background: #05A7A7; }
 table { margin-left: auto; margin-right: auto; }
-p {text-align: center;}
 </style>
 ![[banner_maya.jpg]]
 
