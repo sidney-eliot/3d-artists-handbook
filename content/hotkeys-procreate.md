@@ -3,7 +3,6 @@ title: "Procreate Hotkeys"
 enableToc: false
 ---
 <style>code { color: #BD35ED; background: #232323; }
-table { margin-left: auto; margin-right: auto; }
 </style>
 ![[banner_procreate.jpg]]
 

@@ -4,7 +4,6 @@ enableToc: false
 ---
 <style>
 code { color: #050807; background: #FFFFFF; }
-table { margin-left: auto; margin-right: auto; }
 </style>
 ![[banner_zbrush.jpg]]
 

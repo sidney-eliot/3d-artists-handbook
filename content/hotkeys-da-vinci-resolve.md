@@ -4,7 +4,6 @@ enableToc: false
 ---
 <style>
 code { color: #64D094; background: #1D354E; }
-table { margin-left: auto; margin-right: auto; }
 </style>
 
 |Function|Key|Notes

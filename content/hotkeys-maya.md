@@ -4,7 +4,6 @@ enableToc: false
 ---
 <style>
 code { color: #FFFFFF; background: #05A7A7; }
-table { margin-left: auto; margin-right: auto; }
 </style>
 ![[banner_maya.jpg]]
 

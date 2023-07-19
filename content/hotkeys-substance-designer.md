@@ -3,7 +3,6 @@ title: "Substance Designer Hotkeys"
 enableToc: false
 ---
 <style>code { color: #99E83F; background: #1E3101; }
-table { margin-left: auto; margin-right: auto; }
 </style>
 ![[banner_substance_designer.jpg]]
 

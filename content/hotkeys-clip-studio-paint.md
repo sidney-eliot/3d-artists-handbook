@@ -4,7 +4,6 @@ enableToc: false
 ---
 <style>
 code { color: #383838; background: #C3C3C4; }
-table { margin-left: auto; margin-right: auto; }
 </style>
 ![[banner_clip_studio_paint.jpg]]
 
