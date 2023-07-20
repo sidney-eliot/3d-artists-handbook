@@ -10,15 +10,15 @@ enableToc: true
 - When possible apply modifier
 - When sculpting use multires modifier
 - Disable objects from viewport (display symbol)
-- Don't overdue it with subD levels and rather increase render SubDiv levels
+- Don't overdo it with subD levels and rather increase render SubDiv levels
 
 ## Cleaning Up Interface
 - Enter Fullscreen mode (Window > Toggle Windowed Fullscreen)
-- Maximize current window inside of blender (Ctrl + Space)
+- Maximize current window inside of Blender (Ctrl + Space)
 - Hide Left/ Right Tabs (T/ N)
-- Toggle visible gizmos in viewport (Viewport Gizmos(menu)). Things to turn off: Navigate
-- Toggle overlays in viewport (Viewport Overlays(menu)). Things to turn off: Grid, Floor, Axes X Y Z, Text Info
-- Right click on the header to disable parts at the top
+- Toggle visible gizmos in viewport (Viewport Gizmos (menu)). Things to turn off: Navigate
+- Toggle overlays in viewport (Viewport Overlays (menu)). Things to turn off: Grid, Floor, Axes X Y Z, Text Info
+- Right-click on the header to disable parts at the top
 
 
 ## Blender Color Spaces
@@ -54,7 +54,7 @@ enableToc: true
 
 ### Fixing Shading
 - Shade smooth
-- Turn on auto smooth/ change degree amount (Object Data Properties: Normals>Auto Smooth)
+- Turn on auto smooth/ change degree amount (Object Data Properties: Normals > Auto Smooth)
 - Average face Area (Alt + N)
 - Make sure normals are facing the correct direction
 - Use weighted normal modifier
@@ -67,7 +67,7 @@ enableToc: true
 ![[Pasted image 20230604143132.png|600]]
 
 ### Principled Shader Nodes
-The Principled BSDF Node is a combination of many other Principled nodes, which means that in theory you don't need to use the Principled BSDF but can simply put together other Principled nodes. This can sometimes be desired especially in game engines, when you want a performant and simple node setup and don't need the sheen for example. The Principled BSDF is built in such a way to accommodate the metallic workflow.
+The Principled BSDF Node is a combination of many other Principled nodes, which means that in theory you don't need to use the Principled BSDF but can simply put together other Principled nodes. This can sometimes be desired, especially in game engines, when you want a performant and simple node setup and don't need the sheen for example. The Principled BSDF is built in such a way to accommodate the metallic workflow.
 
 > [!example] Principled BSDF
 > 
@@ -97,9 +97,9 @@ The Principled BSDF Node is a combination of many other Principled nodes, which 
 >- Mirrors
 >- Plastic
 
-> [!example]  Principled Diffuse
+> [!example] Principled Diffuse
 
-> [!example]  Principled Hair BSDF
+> [!example] Principled Hair BSDF
 >
 >- Hair cards
 >- Particle hair
@@ -131,20 +131,20 @@ The Principled BSDF Node is a combination of many other Principled nodes, which 
 
 ### Channel Converter
 
-> [!example] Seperate RGB/ Combine RGB
+> [!example] Separate RGB/ Combine RGB
 >
 >- Allows one to remove a color channel or manipulate a single color channel
 
-> [!example] Seperate HSV/ Combine HSV
+> [!example] Separate HSV/ Combine HSV
 
-> [!example] Seperate XYZ/ Combine XYZ
+> [!example] Separate XYZ/ Combine XYZ
 
 ### Math
 
 > [!example] Clamp
 >
 >- Set minimum and maximum values
->- Used for when exaple the darks are to dark, one can clamp the lowest dark value
+>- Used for when the darks are too dark. One can then clamp the lowest dark value
 
 > [!example] Math
 >

@@ -5,7 +5,7 @@ enableToc: true
 
 ## Boxcutter
 ### Theory
-- All options are under N>BoxCutter and the gear in the header
+- All options are under N > BoxCutter and the gear in the header
 - Turn off Sort modifiers to not bevel new bool cuts, this is mostly desired(this can also be achieved by keeping this on and correcting the sort order)
 - Some bool modes are in x cycle the others are in D-Helper
 - Don't use magnet with Ngon but it's own built in angle lock (ctrl for magnet off)
@@ -34,22 +34,22 @@ enableToc: true
 |Hotkey|Name
 |:-:|:-:|
 |Alt + W|Switch between BoxCutter and HardOps
-|W|Go back to normal blender
+|W|Go back to normal Blender
 |D|Boxcutter Pie Menu
 |Alt/Shift while pulling bool cut|
 |Tab|Lock bool
 |X|Cycle through Boolean modes
 |W|Cycle through Wedges (Ctrl for perfect 90° wedge)
-|G/R/S|Transformation (Ctrl + R for 90° rotation, X,Y,Z for axis lock)
+|G / R / S|Transformation (Ctrl + R for 90° rotation, X / Y/ Z for axis lock)
 |B|Bevel
-|T|Solidify (Increase size,scale,depth)
+|T|Solidify (Increase size, scale, depth)
 |V|Array (V again for circle array)
 
 
 ## Hard Ops
 ### Theory
 
-ToDo:
+To-Do:
 - knife project (shift on knife)
 - Tab for Lock Shape
 
@@ -68,7 +68,7 @@ Edge manager under operations bevel manager
 |:-:|:-:|
 |**Sharpen**|
 |---|---|
-|**Bevel**|After a bevel has been added adding a new bevel will edit the exsiting one
+|**Bevel**|After a bevel has been added ,adding a new bevel will edit the existing one
 |Ctrl + Click on Bevel|Add new bevel
 |Ctrl + Shift + Click on Bevel|Add new bevel with 60° angle
 |---|---|
@@ -82,11 +82,11 @@ Edge manager under operations bevel manager
 |Alt + Click on Mod Scroll|Smart Apply (applies all boolean modifiers)
 |Shift + Click on Mod Scroll|Slowly reveals all booleans
 |---|---|
-|**Dice**|A Powerful loop cut tool. Allows one to create loop cuts on n-gons.
+|**Dice**|A Powerful loop cut tool. Allows one to create loop cuts on ngons.
 |---|---|
 |**Twist 360°**|Uses many modifiers to create a circle of your object
 |---|---|
-|**Radial Array**|A sirqular array
+|**Radial Array**|A circular array
 |---|---|
 |**Step**|
 
@@ -107,7 +107,7 @@ Edge manager under operations bevel manager
 |Alt + Click on EM Macro|Extrude along Normals
 |Shift + Click on EM Macro|Intrude the Face along the Edges (Ctrl to change size)
 
-ToDo:
+To-Do:
 |Alt + V|
 |Alt + M|
 hops helper
@@ -119,7 +119,7 @@ Alt and shift click on mark
 ### Hotkeys
 |Hotkey|Name
 |:-:|:-:|
-|Y|Acces
+|Y|Access
 |Fuse|Add Bevel
 |Refuse|Modify Bevel
 |Unfuse|Remove Bevel (only removes all bevels til to the last bevel)
@@ -138,7 +138,7 @@ Alt and shift click on mark
 |H|Help
 |Ctrl + Scroll|Subdivide Grid
 |Alt + Scroll|Change Grid Size
-|Ctrl + Click|Fit Grid to a Edge
+|Ctrl + Click|Fit Grid to an Edge
 |P|Rotate Grid at placed line (Ctrl+P Rotate grid at blue line or middle if there is no blue line)
 |A|Switch between relative mode and absolute mode
 |U|Disable Snapping
@@ -150,12 +150,12 @@ Alt and shift click on mark
 |Space|Stop drawing
 |---|---
 |W / Right Click|Switch between selection mode and normal mode
-|G/ R/ S|Move/ Rotate/ Scale( X or Y to scale on axis)
+|G/ R/ S|Move/ Rotate/ Scale (X or Y to scale on axis)
 |E|Edit Shape (Entf to dissolve, F to fill or delete, A to add)
 |D|Array (C for rotation)
 |B|Bevel
 |C|Custom Shape (Hold Shift + Scroll to change edge amount)
-|N|Flip Side ways
+|N|Flip Sideways
 |M|Flip Horizontally
 |I|Inset/ Outset
 |Alt + N/ M|Mirror every selected shape at blue +

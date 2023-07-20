@@ -58,7 +58,7 @@ These textures are for the PBR metallic workflow. This texture workflow has repl
 >|:-:|:-:
 >|**Contains**|
 >|**Controls**|Lighting info
->|**More info**|Used in game engines, the AO map can be combined with he albedo map 
+>|**More info**|Used in game engines, the AO map can be combined with the albedo map 
 
 
 >[!info] Opacity Map
@@ -133,7 +133,7 @@ These textures are for the PBR metallic workflow. This texture workflow has repl
 
 >[!info] Specular
 >
->|More info|Outdated map, was used with the specular workflow which has been retired by the metallic workflow
+>|More info|Outdated map, was used with the specular workflow, which has been retired by the metallic workflow
 
 
 >[!info] Bump Map
@@ -153,7 +153,7 @@ These textures are for the PBR metallic workflow. This texture workflow has repl
 >**Bump displacement:**
 >Alters geo looks best but terrible render times. Can be combined with normal map. Only use when making displacement through mixing noise. 
 >
->You should only ever use bump maps if you are using pre made textures which are bump.
+>You should only ever use bump maps if you are using pre-made textures which are bump.
 >
 >Video on the 3 bump methods: https://youtu.be/_dU3DONwSzU
 
@@ -167,7 +167,7 @@ Res: 512, 1024, 2048, 4096, 8192
 - Other: Materialize, Marmoset Toolbag
 
 ### Making Base Color Map using a photography
-The color map should not contain any shadows or ambient occlusion. Every photograph contains this so the first step is to remove them.
+The color map should not contain any shadows or ambient occlusion. Every photograph contains this, so the first step is to remove them.
 
 Example:
 
@@ -179,7 +179,7 @@ Left Bad | Right Good
 - Make an inverted Luminance Map of the Image, Desaturate it and invert it.
 - Clone the layer and use the “Soft Light” blend mode on that layer.
 
-#### Removal  method 2
+#### Removal method 2
 
 ### Making Base Color Map
 - Chose a resolution (That has a factor of 2: 1, 2, 4,...)

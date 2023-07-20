@@ -7,7 +7,7 @@ enableToc: false
 
 ### Theory
 Object division:
-- Body + Face + Tongue + Eye Lashes + Eye Shade + Eye Moisture
+- Body + Face + Tongue + Eyelashes + Eye Shade + Eye Moisture
 - Jaw Top
 - Jaw Bot
 - Eye Left
@@ -33,17 +33,17 @@ Asymmetrical rig can have problems, however with rigify's upgraded rig this isn'
 >[!error] Possible errors when generating rig
 >
 >**Bone spine disjoint:**
->Some bone heads and tails have to overlap, so they where probably moved away from each other when aligning the rig. Make them overlap again by using Snap to Cursor.
+>Some bone heads and tails have to overlap, so they were probably moved away from each other when aligning the rig. Make them overlap again by using Snap to Cursor.
 >
 >**ORG-nose not found:**
->Not all face bones where deleted.
+>Not all face bones were deleted.
 >
 >**Armature transforms incorrect:**
 >Apply transforms before generating rig.
 
 7. One can either generate the weights, do them by hand or use both methods
    1. Select the character and everything else that should be influenced by the rig and select the rig last. Then parent everything to the rig with Ctrl + P > **With Automatic Weights**
-   2. Or one can manually parent object to the rig and weight paint them, which is often a must with some models
+   2. Or one can manually parent an object to the rig and weight paint them, which is often a must with some models
 8. For cleanup disable the WGTS_rig collection and the metarig and put them in a collection as a backup.
 
 ### Manually Painting

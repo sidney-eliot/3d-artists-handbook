@@ -26,14 +26,14 @@ The only 2 file formats one can really use are .fbx and .abc(Alembic).
 - Add Leaf Bones: Disable. Adds a bone to the end of every bone chain
 - NLA Strips: Disable
 - All Actions: Disable if all animations are in one action. Enable if every animation has a separate action
-- Simplify: Set to 0.10. Makes exporting take a bit longer but avoid issues especially in the face area
+- Simplify: Set to 0.10. Makes exporting take a bit longer but avoid issues, especially in the face area
 
 # 🚧Sort in
 
 ### Rotation modes
 XYZ Euler: The first axis has the highest priority and the last the lowest priority.
 
-Quaternion (WXYZ): Fixes rotation problems but has the drawback that it can't rotate more than 180° because of looking for the fastest path. But this can be fixed by separating it into multiple keyframes that don't rotate more than 180°.
+Quaternion (WXYZ): Fixes rotation problems, but has the drawback that it can't rotate more than 180° because of looking for the fastest path. But this can be fixed by separating it into multiple keyframes that don't rotate more than 180°.
 
 
 Specific rotations can also be achieved with parenting the object to a empty and making both the parent and child rotate differently for both rotations to be mixed.

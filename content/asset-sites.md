@@ -4,10 +4,10 @@ enableToc: false
 ---
 
 ## Guides/ Articles
-- [🔵Artstation Magazine](https://magazine.artstation.com)
-- [🔵Artstation Guides](https://www.artstation.com/guides)
-- [🔵Artstation Learning](https://www.artstation.com/learning)
-- [🔵Artstation Atricles/Blogs](https://www.artstation.com/blog)
+- [🔵ArtStation Magazine](https://magazine.artstation.com)
+- [🔵ArtStation Guides](https://www.artstation.com/guides)
+- [🔵ArtStation Learning](https://www.artstation.com/learning)
+- [🔵ArtStation Atricles/Blogs](https://www.artstation.com/blog)
 - [⚪80LV Articles](https://80.lv/articles/character-art/)
 - [🔴Marmoset Articles](https://marmoset.co/category/artwork/)
 - [🔴Marmoset Guides](https://marmoset.co/category/community-resources/)
@@ -37,7 +37,7 @@ enableToc: false
 
 ## Art/ Reference Art
 - [🟠ZBrush Central Art](https://www.zbrushcentral.com/)
-- [🔵Artstation](https://www.artstation.com)
+- [🔵ArtStation](https://www.artstation.com)
 - [🔵Sketchfab](https://sketchfab.com/feed)
 - [🔴Pinterest](https://www.pinterest.com/)
 - [⚪80LV Art](https://80.lv/articles/character-art/)
@@ -71,7 +71,7 @@ enableToc: false
 ## Other Asset Sites
 - [🟠ZBrush Assets](https://pixologic.com/zbrush/downloadcenter/alpha/)
 - [XYZ Textures](https://texturing.xyz/)
-- [🔵Artstation Marketplace](https://www.artstation.com/marketplace/game-dev)
+- [🔵ArtStation Marketplace](https://www.artstation.com/marketplace/game-dev)
 - [Normal Map Online](http://cpetry.github.io/NormalMap-Online/) (Convert any grayscale texture to normal map)
 
 ## Porting

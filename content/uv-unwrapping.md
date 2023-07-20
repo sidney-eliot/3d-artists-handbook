@@ -3,7 +3,7 @@ title: "UV Unwrapping"
 enableToc: true
 ---
 ## Overview
-UV Unwrapping is best in blender, by far. When UV unwrapping it's good practice to use UV checker maps to better see distortions. Make sure that every part of the model that shares the same atlas texture map has the same UV checker map size. My favorite collection of UV Checker Maps is [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
+UV Unwrapping is best in Blender, by far. When UV unwrapping, its good practice to use UV checker maps to better see distortions. Make sure that every part of the model that shares the same atlas texture map has the same UV checker map size. My favorite collection of UV Checker Maps is [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
 
 ## Placing Seams
 >[!tip] Helpful stuff for placing seams
@@ -17,18 +17,18 @@ UV Unwrapping is best in blender, by far. When UV unwrapping it's good practice 
 
 >[!tip] Rules for placing seams
 >
->- Make islands as big as possible. This reduces space because every island needs its own padding. For very long islands however, it still makes sense to split them into smaller islands. Another pro of bigger islands is that there are less islands so less seams.
+>- Make islands as big as possible. This reduces space because every island needs its own padding. For very long islands, however, it still makes sense to split them into smaller islands. Another pro of bigger islands is that there are fewer islands, so fewer seams.
 
 >[!tip] The ultimate rule of thumb
 >
->A smoothing/ shading split always needs a UV split but a UV split doesn't always need a smoothing/ shading split.
+>A smoothing/ shading split always needs a UV split, but a UV split doesn't always need a smoothing/ shading split.
 
 ## Paddings/ Margins
-Padding is important to avoid bleeding which is visible as seems on the model. Correct padding is also important for getting nice bevels when baking. Padding is between every UV island and margin between all islands and the texture borders. The amount of padding depends on the texture resolution. It also depends on how much downresing will happen. If the highest resolution is 4k and there is a low settings which downreses/ mips the texture to let's say 256px, then more padding is needed. How the texture will be viewed is also important, if it's a roof tile on an atlas environment sheet, it's viewed at extremely acute angles and will be mipped/ filtered to hell then more padding is generally good.
+Padding is important to avoid bleeding, which is visible as seems on the model. Correct padding is also important for getting nice bevels when baking. Padding is between every UV island and margin between all islands and the texture borders. The amount of padding depends on the texture resolution. It also depends on how much downresing will happen. If the highest resolution is 4k and there is a low settings which downreses/ mips the texture to let's say 256px, then more padding is needed. How the texture will be viewed is also important, if it's a roof tile on an atlas environment sheet, it's viewed at extremely acute angles and will be mipped/ filtered to hell then more padding is generally good.
 
 >[!tip] Recommended paddings/ margins
 >
->Padding is per island so a padding of 2px will result in a 4px distance between 2 islands.
+>Padding is per island, so a padding of 2px will result in a 4px distance between 2 islands.
 >
 >|Texture map size|Padding
 >|:-:|:-:
@@ -39,29 +39,29 @@ Padding is important to avoid bleeding which is visible as seems on the model. C
 >|256px|2px - 1px
 >|128px |1px - 0.5px
 
-Baking software often adds a margins of it's own, when one lays out the UV's with a nice margin this extra margin should be disabled.
+Baking software often adds a margin of its own, when one lays out the UV's with a nice margin this extra margin should be disabled.
 
 [Edge Padding (Polycount wiki)](http://wiki.polycount.com/wiki/Edge_padding)
 
 ## Mirroring UVs
 Before UV unwrapping one has 2 choices, applying the mirror and UV unwrapping or UV unwrapping and applying the mirror at export. 
 
-Applying the mirror at export has the advantage that there's twice as much texture space because the UV's from the left and right are staked on top of each other, thus allowing to use smaller/ less textures or to just have a better resolution. However this has it's issues, generated textures for example don't look natural because everything perfectly mirrors to the other side
+Applying the mirror at export has the advantage that there's twice as much texture space because the UV's from the left and right are staked on top of each other, thus allowing to use smaller/ fewer textures or to just have a better resolution. However, this has its issues, generated textures for example don't look natural because everything perfectly mirrors to the other side
 
-Applying the mirror before is often needed for specific designs and makes textures look more natural around the midline. For example if one wants some words to be on the back of a jacket the UV's of left and right can not be stacked, because both sides should have different text. So the mirror has to be applied before UV unwrapping.
+Applying the mirror before is often needed for specific designs and makes textures look more natural around the midline. For example, if one wants some words to be on the back of a jacket the UV's of left and right can not be stacked, because both sides should have different text. So the mirror has to be applied before UV unwrapping.
 
 Best practice is to mix it up, object that connect at the middle and mirror form left to right should not have stacked UV's, however objects that are farther away from the middle can have stacked UV's. Another option is to split and object into two parts. And give the center a unique UV but stack the split object at the sides, this however comes with a hole another set of problems and should only be used if UV space optimization is key
 
 ### Helpful Stuff for Mirroring UVs
 - A good workflow is to apply mirrors for all objects and then to stack UV's with tools that search for same UV's and stack them
-- Don't place seams for both sides. Either place them before mirroring or symmetrize topology so both sides have the same seam (Hard ops Alt+ X)
+- Don't place seams for both sides. Either place them before mirroring or symmetrize topology, so both sides have the same seam (Hard ops Alt+ X)
 
 [Video about mirrored UV's](https://www.youtube.com/watch?v=Rmv1Cxb3kb0)
 
 ## Scaling UVs
-Scaling UV's on separate meshes that go on the same texture map is fine, however scaling UV islands that touch each other on the same mesh will when texturing result in allot of issues with most of the procedural materials.
+Scaling UV's on separate meshes that go on the same texture map is fine, however scaling UV islands that touch each other on the same mesh will when texturing result in a lot of issues with most of the procedural materials.
 
-When scaling make sure to always evenly scale along all axis
+When scaling, make sure to always evenly scale along all axes
 
 ## Things to be Aware of
 - Not having objects transform scale set to 1 for all object on the same UV map, will result in size differences between UV islands when unwrapping
@@ -69,7 +69,7 @@ When scaling make sure to always evenly scale along all axis
 
 ## UV Unwrapping Tools
 
-[UV Pack Master](https://uvpackmaster.com) is a wonderful UV unwrapping tool, which can generate beautifully compact UV layouts. In combination with that I also like using [UV Squares](https://blendermarket.com/products/uv-squares) which straightens UVs to save more space.
+[UV Pack Master](https://uvpackmaster.com) is a wonderful UV unwrapping tool, which can generate beautifully compact UV layouts. In combination with that, I also like using [UV Squares](https://blendermarket.com/products/uv-squares) which straightens UVs to save more space.
 
 - [[#UV Pack Master|UV Pack Master section]]
 - [[#Zen UV|Zen UV section]]
@@ -123,7 +123,7 @@ Straightens out quad UV strips at the cost of small distortion.
 Allows one to fit UVs more tightly together and makes UV unwraps look better. It's often also needed for specific textures(patterns) that should appear correctly on the object.
 
 ### UV Squares
-[UV Squares](https://blendermarket.com/products/uv-squares) straightens out quad UV strips at the cost of small distortion. Allows for UVs to be fitted more tightly together and makes UV unwraps look better. It's often also needed for specific textures (patterns) that should appear correctly on the object. For specific hand painting tasks it's sometimes even essential to have straight UVs.
+[UV Squares](https://blendermarket.com/products/uv-squares) straightens out quad UV strips at the cost of small distortion. Allows for UVs to be fitted more tightly together and makes UV unwraps look better. It's often also needed for specific textures (patterns) that should appear correctly on the object. For specific hand painting tasks, it's sometimes even essential to have straight UVs.
 
 ### Zen UV
 Wonder full UV unwrapping tool, I'll cover it at some point. [Here's](https://www.youtube.com/@SergeyTyapkin/videos) the channel of the addon creator.
@@ -131,4 +131,4 @@ Wonder full UV unwrapping tool, I'll cover it at some point. [Here's](https://ww
 
 
 ## Good UV Unwrap Examples
-ToDo
+To-Do

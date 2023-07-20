@@ -42,7 +42,7 @@ code { color: #050807; background: #FFFFFF; }
 ## Interface
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Open Image With Associated Image Viewer|**`Alt`** + **`LMB`** + **`LMB`**|Will Open .psd images from the lightbox tab in photoshop
+|Open Image With Associated Image Viewer|**`Alt`** + **`2x LMB`**|Will Open .psd images from the lightbox tab in photoshop
 
 
 

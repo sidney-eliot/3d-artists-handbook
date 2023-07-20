@@ -37,10 +37,10 @@ code { color: #265787; background: #EA7600; }
 |Hide all non selected objects|**`^`**|
 |-|-|-
 |Move / Rotate / Scale|**`G`** / **`R`** / **`S`**
-|Limit Move/Rotation/Scale Axis|G/R/S + X/Y/Z + Move/Type number|Use Shift and Ctrl for slow and snap. Minus values also work. Tools like magnet can also be toggled mid action. Common Rotations: 45°, 90°, 135°, 180°
+|Limit Move/Rotation/Scale Axis|G/R/S + X/Y/Z + Move/Type number|Use Shift and Ctrl for slow and snap. Minus values also work. Tools like magnet can also be toggled mid-action. Common Rotations: 45°, 90°, 135°, 180°
 |Limit Move/Rotation/Scale to only the input axis|G/R/S  + Shift + X/Y/Z + ...|
 
-_If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it a good hotkey. However I recommend using the normal navigation because other 3d software shares that navigation (except for in game engines, there fps navigation is better and more common)._
+_If you want fps game navigation, head to `pref>Navigation>Fly&Walk` and give it a good hotkey. However, I recommend using the normal navigation because other 3d software shares that navigation (except for in game engines, there fps navigation is better and more common)._
 
 
 ## Menus
@@ -92,7 +92,7 @@ _If you want fps game navigation head to `pref>Navigation>Fly&Walk` and give it 
 |Add Loop Cut|Ctrl + R|Use Scroll to add more loops. Use Right Click to center and use H to terminate so the loop cut doesn't go around the whole object
 |Knife Tool|K|Enter to confirm cut. RMB to stop that cut and start a new one
 |Fill|F|Connects all selected vertices with a face. Also used to create an edge between two selected vertices
-|Join|J|Use it to separate faces/n-gons by selecting 2 vertices
+|Join|J|Use it to separate faces/ ngons by selecting 2 vertices
 |Bevel|Ctrl + B|Scroll to change amount of bevels. Click P to change the bevel shape
 |Vertex Bevel|Ctrl + Shift + B|
 |Solidify|Ctrl + X|A soft delete. Works well on edges but not that well on vertices

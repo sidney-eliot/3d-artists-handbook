@@ -12,7 +12,7 @@ enableToc: false
 - [[#Tilt Shift Camera|Tilt Shift Camera]]
 
 ## Focal Elements and Emphasis
-Focal Elements and Emphasis dictates the rough order at which the eye looks at the different elements of the artwork. This doesn't just apply to static renders but composition can also be achieved in games and even outside of cutscenes. 
+Focal Elements and Emphasis dictates the rough order in which the eye looks at the different elements of the artwork. This doesn't just apply to static renders, but composition can also be achieved in games and even outside of cutscenes.
 
 Great composition is achieved through:
 
@@ -101,7 +101,7 @@ A reason why the triangle is so good, is because it's a sturdy shape:
 
 
 #### Flipped Triangle
-A more dynamic version of the triangle. The triangle can also be tilted which can make it a bit more interesting.
+A more dynamic version of the triangle. The triangle can also be tilted, which can make it a bit more interesting.
 
 ![[Pasted image 20230604160840.png|300]]
 
@@ -127,7 +127,7 @@ Good to signal power, of a building for example. Symmetry line can be anywhere.
 
 #### Full Frame
 
-Full frame allows the viewer to focus on what is important and to se more detail. It is almost only used for characters and creatures. A great thing about full frame composition is that it can be achieved with basically every finished painting by cutting away sides and doing some small tweaks if, though preparing for a full frame instead of it being afterthought is still better.
+Full frame allows the viewer to focus on what is important and to see more detail. It is almost only used for characters and creatures. A great thing about full frame composition is that it can be achieved with basically every finished painting by cutting away sides and doing some small tweaks if, though preparing for a full frame instead of it being an afterthought is still better.
 
 ![[Pasted image 20230604161107.png|250]]
 
@@ -138,9 +138,9 @@ Full frame allows the viewer to focus on what is important and to se more detail
 >![[Pasted image 20230604161225.png|300]]
 
 ### Negative Space
-Positive space is a subject or point of interest and negative space is the surrounding area. More negative space gives the artwork space to breath while less negative space makes it more claustrophobic. Both can be good or bad depending on what kind of mood the artwork should convey. 
+Positive space is a subject or point of interest and negative space is the surrounding area. More negative space gives the artwork space to breath, while less negative space makes it more claustrophobic. Both can be good or bad, depending on what kind of mood the artwork should convey. 
 
-- ToDo: Examples
+- To-Do: Examples
 
 ### Energy Lines
 Found in the pose of the character, can however also appear in the environment as rivers and roads for example.
@@ -150,7 +150,7 @@ Found in the pose of the character, can however also appear in the environment a
 
 ### Guiding Lines
 
-An object that guides the eye to a position, when correctly placed they can make the eye travel around the image the way the artist wants them to. An all time favourite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
+An object that guides the eye to a position, when correctly placed they can make the eye travel around the image the way the artist wants them to. An all-time favorite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
 
 ![[Pasted image 20230604161413.jpg|450]]
 
@@ -206,7 +206,7 @@ Elements that create weight:
 
 A way to find unbalanced points, is to turn up the contrast and blur. 
 
-As we can see in the example below the presence of only one big light on the left makes the image very unbalanced:
+As we can see in the example below, the presence of only one big light on the left makes the image very unbalanced:
 
 ![[Pasted image 20230604162027.png|400]]
 ![[Pasted image 20230604162039.png|400]]
@@ -251,7 +251,7 @@ Moving to the left/ right, forward/ backward and so on, can portray different th
 
 
 ## Tilt Shift Camera
-Used to get straight lines in renders/ photographs and for panoramas. It's mainly used for architecture. It can also be done in compositing but that's a worst case scenario. To do this the camera should optimally be at an 90° angle, then change the shift amount on the desired axis. (In Blender this is in the camera tab)
+Used to get straight lines in renders/ photographs and for panoramas. It's mainly used for architecture. It can also be done in compositing, but that's a worst case scenario. To do this, the camera should optimally be at an 90° angle, then change the shift amount on the desired axis. (In Blender this is in the camera tab)
 
 
 ![[Pasted image 20230604162416.png|950]]

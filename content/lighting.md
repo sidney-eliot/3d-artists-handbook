@@ -16,7 +16,7 @@ enableToc: false
     - Volumetric Clamping (Bigger values dulls light source, increase light intensity to get same amount of light)
     - Volumetric Tile Size (Lower values increase quality)    
     - Volumetric Samples (Reduces noise)
-    - Volumetric Shadows (Adds realism to fog fall of)
+    - Volumetric Shadows (Adds realism to fog fall off)
     - Soft Shadows
     - Increase Cube Size
     - Increase Cascade Size

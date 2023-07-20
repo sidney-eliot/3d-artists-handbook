@@ -32,7 +32,7 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))] - Unreal En
 
 Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (film industry).
 
-Ray Tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However ray tracing doesn't make everything better and sometimes it's good to turn off ray traced shadows, lights and only keep ray traced reflections on.
+Ray tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However, ray tracing doesn't make everything better, and sometimes it's good to turn off ray traced shadows, lights and only keep ray traced reflections on.
 
 Ray tracing is a broad term and consists of many smaller things like:
 - Ray Traced Shadows
@@ -51,19 +51,19 @@ Ray tracing off vs on:
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
 
-On the flipped side, here's and example of ray tracing making the lighting and shadows look way worse. 
+On the flipped side, here's an example of ray tracing making the lighting and shadows look way worse. 
 
 ![[20230603111140.png|600]]
 
-This doesn't mean that ray tracing in it's nature makes lighting and shadows worse, but rather adding ray tracing into a scene that wasn't designed with ray tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with ray tracing on. And potentially there needs to be 2 different presets for ray tracing on and off. 
+This doesn't mean that ray tracing in its nature makes lighting and shadows worse, but rather adding ray tracing into a scene that wasn't designed with ray tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with ray tracing on. And potentially there needs to be 2 different presets for ray tracing on and off. 
 
 ---
 
 ### Sub Surface Scattering
 
-For the SSS maps there mostly is a `SSS Color Map` and sometimes a `SSS Control Map` and to help the SSS `Thickness Maps`  are also often used.
+For the SSS maps there mostly is a `SSS Color Map` and sometimes a `SSS Control Map` and to help the SSS `Thickness Maps` are also often used.
 
-Real objects can either absorb, scatter or ??? light rays. To recreate this in 3D, Sub Surface Scattering (SSS) maps are used in combination with thickness maps.
+Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate this in 3D, Sub Surface Scattering (SSS) maps are used in combination with thickness maps.
 
 >[!info] Theory behind real life SSS (Transparency and Translucency)
 >
@@ -101,7 +101,7 @@ Real objects can either absorb, scatter or ??? light rays. To recreate this in 3
 ---
 
 ### Anisotropic Filtering
-ToDo: Explain better
+To-Do: Explain better
 
 Anisotropic Filtering (AF), is a method of enhancing the image quality of textures on surfaces that are at oblique viewing angles with respect to the camera. Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing effects.
 
@@ -144,7 +144,7 @@ https://youtu.be/7l6QOcgWXfI
 ---
 
 ### Lens Flare
-ToDo
+To-Do
 
 ![[20230603111506.png|400]]
 
@@ -170,12 +170,12 @@ Volumetric lighting or God Rays lets beams of light shine across the environment
 
 Volumetric fog has a great synergy with volumetric lighting.
 
-ToDo: Add image
+To-Do: Add image
 
 ---
 
 ### Chromatic Aberration
-ToDo: Restructure
+To-Do: Restructure
 
 - In real life chromatic aberration occurs when a lens fails to focus all the colors into a single point, causing an ever so slight color shift on the edges of some objects
 - A color fringing or distortion
@@ -186,7 +186,7 @@ ToDo: Restructure
 ---
 
 ### Depth of Field
-Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends as well as the fall off can all be adjusted in the render/ game engines settings. Sometimes it is even possible to set multiple focal points.
+Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends at, as well as the fall off, can all be adjusted in the render/ game engines settings. Sometimes it is even possible to set multiple focal points.
 
 ![[Pasted image 20230603125653.png|700]]
 
@@ -194,8 +194,8 @@ Blurs out things that are farther away from the focus point. The distance at whi
 
 ### DLSS and FSR
 - DLSS stands for Deep learning super sampling (Nvidia GPUs)
-- FSR  stand for FidelityFX Super Resolution (AMD GPUs)
-- It is a image upscaling technology. Using deep learning to upscale lower-resolution images
+- FSR stand for FidelityFX Super Resolution (AMD GPUs)
+- It is an image upscaling technology. Using deep learning to upscale lower-resolution images
 
 ---
 
@@ -205,9 +205,9 @@ Anti-aliasing (AA) removes aliasing effect. Aliasing is the appearance of jagged
 ---
 
 ### Blend Modes in 3D Software
-ToDo: Restructure
+To-Do: Restructure
 
-Blend methods apply to every software (some have more or less modes). Every texture has to have a blend mode, the most common one being Opaque. Blend Modes describe how the output of the current material will blend over what is already being drawn (rendered) in the background.
+Blend methods apply to every software (some have more or less modes). Every texture has to have a blend mode, the most common one being opaque. Blend Modes describe how the output of the current material will blend over what is already being drawn (rendered) in the background.
 
 - Black = invisible/ not rendered
 - White = visible/ rendered
@@ -224,7 +224,7 @@ Surface through which light neither passes nor penetrates. The previous color wi
 > - Wood
 
 #### Masked Blend/ Alpha Clip
-Used to make some parts invisible and others visible. The invisible parts are not rendered at all. Only needs Black and white, however if gray values are in the control texture a clip threshold value (which is per default set but can be changed) decides what counts as black and what as white. 
+Used to make some parts invisible and others visible. The invisible parts are not rendered at all. Only needs black and white, however if gray values are in the control texture a clip threshold value (which is per default set but can be changed) decides what counts as black and what as white. 
 
 > [!example] Masked Blend/ Alpha Clip Examples
 > 
@@ -233,7 +233,7 @@ Used to make some parts invisible and others visible. The invisible parts are no
 > - Net
 
 #### Translucent Blend/ Alpha Hashed
-Used for objects that require some form of transparency. By taking advantage of the full range of a opacity control map it can make objects be and opacity level.
+Used for objects that require some form of transparency. By taking advantage of the full range of an opacity control map, it can make objects be and opacity level.
 - Can produce noise
 - Most expensive blend mode
 
@@ -268,7 +268,7 @@ Multiplies the values of the Material against the pixels of the background.
 
 #### Translucent
 - Translucent objects allow some light to travel through them. 
-- Often one can't see what's behind translucent object but 
+- Often one can't see what's behind a translucent object but 
 
 > [!example] Translucent Examples
 > 
@@ -277,7 +277,7 @@ Multiplies the values of the Material against the pixels of the background.
 > - Notebook paper
 > - Lampshade
 
-#### Transparency/Opacity/Alpha
+#### Transparency/ Opacity/ Alpha
 
 ---
 
@@ -360,9 +360,9 @@ Examples for diffuse objects:
 ## Topology
 
 ### Poles
-There are two types of poles N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
+There are two types of poles, N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
 
-A pole is a set of edges that merge into a single vertex. Avoiding poles with six or more edges on a curved surfaces is something that you should incorporate into your modeling workflow. It is best practice to try to avoid poles when modeling.
+A pole is a set of edges that merge into a single vertex. Avoiding poles with six or more edges on curved surfaces is something that you should incorporate into your modeling workflow. It is best practice to try to avoid poles when modeling.
 
 ---
 
@@ -375,7 +375,7 @@ A pole is a set of edges that merge into a single vertex. Avoiding poles with si
 ---
 
 ### Backface Culling
-ToDo
+To-Do
 
 ---
 
@@ -396,7 +396,7 @@ A corner with one edge is a hard edge, with 2 edges a chamfer and anything more 
 ---
 
 ### LOD
-ToDo
+To-Do
 
 LOD's (Level of Detail) ...
 
@@ -420,12 +420,12 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Color_depth)] - [[Polycount](http://
 
 Bit depth (Color depth) determines how much color information an image can store, which directly influences the dynamic range the image can have.
 
-It's often good to render/ bake images with higher bit depth than needed and later in the process convert them to a lower bit depth. The trade offs with higher bit depths are increased render times and bigger file sizes.
+It's often good to render/ bake images with higher bit depth than needed, and later in the process convert them to a lower bit depth. The trade-offs with higher bit depths are increased render times and bigger file sizes.
 
-Weather the texture is only intended for one object or a texture atlas, should not influence which bit depth to choose.
+Whether the texture is only intended for one object or a texture atlas, should not influence which bit depth to choose.
 
 #### Bit Depth Math
-The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 bit for example, 8 of the 32 channel represent red, 8 channels green, 8 channels blue and lastly 8 channels for alpha. This means that just by looking at the bit depth one can deduce if the image has alpha or not. If the image didn't have alpha those 8 channels for alpha would fall away and one would have a 24 bit image.
+The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 bit for example, 8 of the 32 channels represent red, 8 channels green, 8 channels blue and lastly 8 channels for alpha. This means that just by looking at the bit depth, one can deduce if the image has alpha or not. If the image didn't have alpha, those 8 channels for alpha would fall away and one would have a 24 bit image.
 
 - 6 bit RGB (2,2,2)
 - 8 bit RGBA (2,2,2,2)
@@ -455,37 +455,6 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 >
 >So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit (exponential growth). Though the file size gets progressively bigger, it doesn't increase by that margin.  
 
-
->[!info] Max amount of unique values per channel (exponential growth) > >1 bit Image (Integer): >
-
-```
-> 2 Tone Values >>> Black/ 0 and White/ 1
-> 
-```
-
->8 bit Image (Integer): >
-
-```
-> 256 Tone Values >>> 256 Reds x 256 Greens x 256 Blues = 16.7 Million RGB Values
-> 
-```
-
->16 bit Image (Integer/ Float): >
-
-```
-> 65,536 Tone Values >>> 65,536 Reds x 65,536 Greens x 65,536 Blues = 281 Trillion RGB Values
-> 
-```
-
->32 bit Image (Integer/ Float): >
-
-```
->4,294,967,295 Tone Value
->
-```
-
-> >So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit. Though the file size gets progressively bigger, it doesn't increase by that margin.
-
 #### Human Perception of Bit Depth
 Humans can only distinguish between 2 ~ 10 million colors, so we can't even see all colors of 8 bit. This means that an image exported in 8 bit or 16 bit will always look identical. The only advantage in using anything above 8 bit is for editing photos and only for the process of editing and not the export. For 2D artists 8 bit will always be enough and most drawing software doesn't even support more than 8 bit.
 
@@ -499,7 +468,7 @@ Banding artifacts are caused by a lack of precision with 8 bit normal maps. Ther
 ---
 
 ### Atlas/ Trim Sheet
-ToDo
+To-Do
 
 ---
 
@@ -518,7 +487,7 @@ Handedness has influence over: Object transforms, Normal maps, rigs/ animations,
 
 
 #### Handedness with Normal maps
-Normal maps can either be Direct X or Open GL. To go from one to the other the green channel from the normal maps needs to be flipped.
+Normal maps can either be Direct X or Open GL. To go from one to the other, the green channel from the normal maps needs to be flipped.
 
 #### Handedness with Objects
 For objects it's as following:
@@ -540,35 +509,35 @@ It's important to use the same space for an assets and it's textures. When worki
 ---
 
 ### Mipmaps
-ToDo
+To-Do
 
 ---
 
 ### Tangent Space
-ToDo
+To-Do
 https://marmoset.co/posts/toolbag-baking-tutorial/
 
 ---
 
 ## Animation
-ToDo
+To-Do
 
 ---
 
 ### Apex and Peak
-ToDo
+To-Do
 
 ---
 
 ### Bone Head, Tail and Body
-ToDo
+To-Do
 
 ---
 
 ## Baking
 
 ### Floaters
-Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save allot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
+Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save a lot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
 
 ---
 
@@ -587,4 +556,4 @@ ToDo
 ## Other
 
 ### Rigid Body
-An object that is affected by forces gravity.
+An object that is affected by forces of gravity.

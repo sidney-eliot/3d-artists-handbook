@@ -5,7 +5,7 @@ enableToc: false
 
 >[!info] Easily create wonderful color palettes
 >
->**To help choose your color palettes use [coolors.co](https://coolors.co/generate) or alternatively [Adobes color picker](https://color.adobe.com/create/color-wheel)**
+>**To help choose your color palettes, use [coolors.co](https://coolors.co/generate) or alternatively [Adobes color picker](https://color.adobe.com/create/color-wheel)**
 
 ## Color Models
 There are three color models commonly used by digital artists:
@@ -22,7 +22,7 @@ RGB stands for Red, Blue, Green. An example of a RGB value is: 16,139,216. Every
 Use is for quick color picking, colors that won't be final. Using RGB color model should be avoided, because it's very hard to select harmonious colors
 
 ### HSV/ HSL Color Model
-HSV stands for Hue, Saturation, Value where as HSL stands for Hue, Saturation, Lightness. The difference being that a color with maximum tint(lightness) is white with HSL and the actual color in HSV.
+HSV stands for Hue, Saturation, Value whereas HSL stands for Hue, Saturation, Lightness. The difference being that a color with maximum tint(lightness) is white with HSL and the actual color in HSV.
 
 HSL Example:
 
@@ -30,10 +30,10 @@ HSL Example:
 ![[Pasted image 20230604142624.png]]
 
 **When to use**
-For 2D art and hand painted textures this is pretty much always the best choice, because of being able to easily select different tints/shades of a color. But it's also good for any other color picking. The choice between HSV vs HSL is a thing of preference, though HSV is probably the more popular one.
+For 2D art and hand painted textures, this is pretty much always the best choice, because of being able to easily select different tints/shades of a color. But it's also good for any other color picking. The choice between HSV vs HSL is a thing of preference, though HSV is probably the more popular one.
 
 ### Hex Color Model
-A hex color is like RGB. The syntax is #RRGGBB, so green would be #00FF00. 00 means none of that channel and FF means 255 of that channel (0,1,...9,A,...F). It's also possible to store alpha in hex with following syntax #RRGGBBAA, so green with alpha would be #00FF0012. The A can only range from 0-100.
+A hex color is like RGB. The syntax is #RRGGBB, so green would be #00FF00. 00 means none of that channel and FF means 255 of that channel (0-9, A-F). It's also possible to store alpha in hex with the following syntax #RRGGBBAA, so green with alpha would be #00FF0012. The "A" can only range from 0-100.
 
 **When to use**
 HEX is almost only used for copying a color per values from A to B
@@ -42,8 +42,8 @@ HEX is almost only used for copying a color per values from A to B
 
 |Keyword|What is it|What does it affect|Notes
 |:-:|:-:|:-:|:-:
-|Tint|Mixture of a color with WHITE|Lightens the color/ Increases the colors brightness|
-|Shade|Mixture of a color with BLACK|Darkens the color/ Decreases the colors brightness
+|Tint|Mixture of a color with WHITE|Lightens the color/ increases the color's brightness|
+|Shade|Mixture of a color with BLACK|Darkens the color/ decreases the color's brightness
 |Tone|Mixture of a color with GRAY|
 |-|-|-
 |Hue|Pure Colors(Primary Colors, Secondary Colors, ...). Ranges from 0° to 359° on the color wheel||Changing the Tint, Shade or Tone of a color does not change the hue
@@ -91,7 +91,7 @@ A great place to create these synergies and understand how they work is [Adobe's
 #### Tetradic or double complementary colors
 
 #### Monotone chromatic
-- Uses a single hue and all it's tints, tones and shades
+- Uses a single hue and all its tints, tones and shades
 - Risk of monotony
 
 #### Monotone achromatic
@@ -101,7 +101,7 @@ A great place to create these synergies and understand how they work is [Adobe's
 ## Common Colors RGB/ HEX
 COLOR|RGB|HEX
 |:-:|:-:|:-:|
-|White|255,255,255|#FFFFFF   	
+|White|255,255,255|#FFFFFF
 |Black|0,0,0|#000000
 |50%/Neutral Gray|127.5,127.5,127.5|#7F7F7F
 |Red|255,0,0|#FF0000
@@ -135,7 +135,7 @@ colorfulness, saturation, purity, intensity, luminance
 Saturation is changed by tint, shade and tone. Saturation is the purity/ intensity/ brilliance of a color. The higher the saturation of a color, the more vivid/ intense it's. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
 
 ### Brilliance/ Brightness
-Brilliance judged relative to the maximum brightness possible, where as brightness is relative to the brightness of a similarly illuminated white object.
+Brilliance judged relative to the maximum brightness possible, whereas brightness is relative to the brightness of a similarly illuminated white object.
 
 
 ## 🚧Sort in 🚧

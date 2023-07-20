@@ -129,9 +129,9 @@ Click the gizmo button (Transform > Gizmo Button) to switch between the transpos
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪🟠|**Z:** ZRemesher/ **B:** Quad Remesher Addon|The best auto retopology tool. Quad Remesher is a blender addon made by the maker of ZRemesher
-|⚪🟠|**Z:** DynaMesh/ **B:** Remesh|Great for early stages of sculpting. Blenders Remesh takes very long and yields not the best of results. Both of these remeshers are best for the block out/ silhouette finding stages. They also both only work when the mesh has no holes.
+|⚪🟠|**Z:** DynaMesh/ **B:** Remesh|Great for early stages of sculpting. Blender's Remesh takes very long and yields not the best of results. Both of these remeshers are best for the block out/ silhouette finding stages. They also both only work when the mesh has no holes.
 |⚪🟠|**Z:** Sculptris Pro/ **B:** Dyntopo| Not ever needed, never use as beginner because it develops bad habits
-|🟠⚪|Retopology by hand|Very good in blender, but also quite good in ZBrush with the retopology Brush. There's also a great software dedicated to retopology by hand called [Topo Gun](http://www.topogun.com/)
+|🟠⚪|Retopology by hand|Very good in Blender, but also quite good in ZBrush with the retopology Brush. There's also a great software dedicated to retopology by hand called [Topo Gun](http://www.topogun.com/)
 |🟠|Decimate Modifier|Reduces mesh density without losing mesh shape
 
 
@@ -145,7 +145,7 @@ Edge control can be achieved through adding:
 Manually beveling gives the best control of the bevel shape and location, but needs good topology as a base.
 
 #### 🟠 Blender's Bevel
-Manual bevels in blender are done via `Ctrl + B` for edges or `Ctrl + Shift + B` for vertices and scrolling to adjust segment count, and is very customizable.
+Manual bevels in Blender are done via `Ctrl + B` for edges or `Ctrl + Shift + B` for vertices and scrolling to adjust segment count, and is very customizable.
 
 ![[Pasted image 20230604225628.png|250]]
 ![[Pasted image 20230604225642.png|250]]
@@ -522,7 +522,7 @@ Organic sculpting is something best learned by simply sculpting and watching oth
 
 [How you should Sculpt EVERYTHING](https://www.youtube.com/watch?v=zwn7EZczPjY&list=PLveghVPT3X7ZT_SheZDFm4P7FoCRkuj3M) _(J Hill - 27min)_
 
-[15 Blender and Zbrush Sculpting Tips No One Talks About](https://www.youtube.com/watch?v=rkMH77hZ9xc) _(Outgang  - 7min)_
+[15 Blender and ZBrush Sculpting Tips No One Talks About](https://www.youtube.com/watch?v=rkMH77hZ9xc) _(Outgang  - 7min)_
 
 ### Brushes
 #### Main Brushes
@@ -546,7 +546,7 @@ Organic sculpting is something best learned by simply sculpting and watching oth
 - History Recal(_B HR_)
 
 #### Great Brush Packs
-Search for Brushes/ Insert Brushes on Artstation and Gumroad
+Search for Brushes/ Insert Brushes on ArtStation and Gumroad
 
 - [Orb Brush Pack (free)](https://orb.gumroad.com/l/nOkHw)
 - [Flipped Normals Skin Kit (paid)](https://flippednormals.com/downloads/flippednormals-skin-kit/)
@@ -561,4 +561,4 @@ For good YouTube channels look [here](#Best-Channels-For-ZBrush-)
 
 - [Principles of Sculpting | Complete Guide to Zbrush 2022](https://www.youtube.com/watch?v=rkiNs3AQg_o&list=PLveghVPT3X7ZT_SheZDFm4P7FoCRkuj3M) _(1h 26min)_
 - [Top Tips for Improving Your Sculpts in ZBrush](https://www.youtube.com/watch?v=3boCwp9uLsY&list=PLveghVPT3X7ZT_SheZDFm4P7FoCRkuj3M) _(Flipped Normals - 31min)_
-- [Zbrush- General Organic Sculpting Tips](https://www.youtube.com/watch?v=Lj2WPYJfCj0&list=PLveghVPT3X7ZT_SheZDFm4P7FoCRkuj3M) _(Arrimus 3D - 25min)_
+- [ZBrush- General Organic Sculpting Tips](https://www.youtube.com/watch?v=Lj2WPYJfCj0&list=PLveghVPT3X7ZT_SheZDFm4P7FoCRkuj3M) _(Arrimus 3D - 25min)_

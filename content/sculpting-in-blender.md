@@ -17,7 +17,7 @@ enableToc: true
 |Sculptris Pro|Dyntopo
 
 ## Blender Sculpting Workflow
-Do the blockout with remesher, then either hand retopo, use a clean remesh addon or skip it for now. Then to add detail use the multires modifier. Try to stay away from Dyntopo the same as you would avoid Sculptris Pro in ZBrush, it develops bad habits.
+Do the blockout with remesher, then either hand retopo, use a clean remesh addon or skip it for now. Then to add detail, use the multires modifier. Try to stay away from Dyntopo the same as you would avoid Sculptris Pro in ZBrush, it develops bad habits.
 
 More in other sections about workflow, it doesn't differ that much to that of ZBrush.
 

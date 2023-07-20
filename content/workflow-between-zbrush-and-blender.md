@@ -8,7 +8,7 @@ enableToc: true
 #### GoB Workflow
 - [[#A Great Workflow Example]]
 
-#### Important Things to Understand about Zbrush for Proper Use of GoB
+#### Important Things to Understand about ZBrush for Proper Use of GoB
 - [[#General Things to Be Aware Of]]
 - [[#Units/ Size]]
 - [[#World Center (Primary and Secondary Center Points)]]
@@ -17,7 +17,7 @@ enableToc: true
 
 
 ## A Great Workflow Example
-The reason why [GoZ/ GoB](https://github.com/JoseConseco/GoB/releases) is so good, is because it allows for the seamless use of all of blenders modeling and sculpting tools as well as all of ZBrush's modeling and sculpting tools. Without the tedious manual exporting and importing.
+The reason why [GoZ/ GoB](https://github.com/JoseConseco/GoB/releases) is so good, is because it allows for the seamless use of all Blender's modeling and sculpting tools, as well as all of ZBrush's modeling and sculpting tools. Without the tedious manual exporting and importing.
 
 ### Things to Be Aware Of
 - SubTool history is kept when re-importing an object into ZBrush
@@ -31,11 +31,11 @@ The reason why [GoZ/ GoB](https://github.com/JoseConseco/GoB/releases) is so goo
 
 0. Set up the GoB addon settings to fit your needs
 
-1. Set up the scale between ZBrush and Blender. One can either use the methods mentioned above to change the ZBrush export scale or change the scale multiplier in the GoB addon by changing the `Scale` to Manual. We will leave the ZBrush scale at 1, all offsets at 0 and use the GOB addon scale multiplier. Now to find out the correct scale multiplier value we need to do following calculation or eyeball it: `Desired size in meters / ZBrush Tool units = Scale Multiplier`. For this example we will use `1.7 / 2 = 0.85`. _(I highly recommend noting the scale values somewhere)_
+1. Set up the scale between ZBrush and Blender. One can either use the methods mentioned above to change the ZBrush export scale or change the scale multiplier in the GoB addon by changing the `Scale` to Manual. We will leave the ZBrush scale at 1, all offsets at 0 and use the GOB addon scale multiplier. Now to find out the correct scale multiplier value we need to do following calculation or eyeball it: `Desired size in meters / ZBrush Tool units = Scale Multiplier`. For this example, we will use `1.7 / 2 = 0.85`. _(I highly recommend noting the scale values somewhere)_
 
-2. Decide what to send to Blender. By choosing one of the GoZ buttons. `GOZ` will export selected SubTool, to send all SubTools use `All` and to only send visible SubTools click `Visible`(all buttons in the Tools tab).
+2. Decide what to send to Blender. By choosing one of the GoZ buttons. `GOZ` will export a selected SubTool, to send all SubTools use `All` and to only send visible SubTools click `Visible`(all buttons in the Tools tab).
 
-3. In Blender toggle import mode with the GoB import button(top right). With import mode active Blender will listen to ZBrush's GoZ exports
+3. In Blender toggle import mode with the GoB import button(top right). With import mode, active Blender will listen to ZBrush's GoZ exports
 
 4. When done with the changes in Blender, make sure the mesh is clean. Then select one or multiple objects and click the GoB export button(top right). If you don't rename the object in Blender it will replace the SubTool with the newly imported one, if you rename it ZBrush will import it as a new SubTool. Note that the history of will be lost.
 
@@ -45,7 +45,7 @@ The reason why [GoZ/ GoB](https://github.com/JoseConseco/GoB/releases) is so goo
 
 ## Units/ Size
 ### About Units
-ZBrush works with a generic/their own unit system which is called units. It's important that the entire model is always around the size of `2 units cubed` (XYZ size). Don't be to specific about this however 5 units is still fine. Staying close to this size helps tools, brushes and DynaMesh to work properly.
+ZBrush works with a generic/their own unit system which is called units. It's important that the entire model is always around the size of `2 units cubed` (XYZ size). Don't be too specific about this, however 5 units is still fine. Staying close to this size helps tools, brushes and DynaMesh to work properly.
 
 ### Viewing Units/ Size
 There are 2 ways of viewing the units of SubTools. Either in the Size tab (Tool > Geometry > Size), or by using the legacy transpose tool. The legacy transpose tool will show a different units value than the size tab because it calculates `Units Size * Export Scale` instead of `Units Size`. Use booth depending on what value you want
@@ -59,14 +59,14 @@ Units can be changed through a multitude of ways:
 
 - Probably the best way is to use the `Size` slider (Tool > Deformation) which will scale the selected SubTool. To nicely scale down all other SubTools use the `Repeat To Other` button (Tool > Deformation)
 
-Most of these methods will also work for correcting the location. Another great tool for correcting location is the `Set To Ground` in the `Macro` tab. It only works for one SubTool however.
+Most of these methods will also work for correcting the location. Another great tool for correcting location is the `Set To Ground` in the `Macro` tab. It only works for one SubTool, however.
 
 
 ## World Center (Primary and Secondary Center Points)
 
 ZBrush has a primary center point and a secondary center point. The primary center point is the World Center, and is locked to the X-0 Y-0 Z-0 point. The secondary center point is the floor, it has the X and Z axis locked to 0, but the Y(up) axis can freely move.
 
-The floor dynamically reposition to always be below to the lowest point of the lowest SubTool when floor `elv` is set to `-1`(Draw > Elv). When Floor `elv` is set to `0`, then the floor has all axis locked to 0 0 0 and stops dynamically adjusting, making the floor always be at the World Center. Dynamic floor is great for quickly doing changes like extending the leg size. Because ZBrush currently has no good way of quickly placing the entire Tool on the floor at World Center, one should use dynamic floor.
+The floor dynamically repositionso its always below the lowest point of the lowest SubTool. When floor `elv` is set to `-1`(Draw > Elv). When floor `elv` is set to `0`, then the floor has all axis locked to 0 0 0 and stops dynamically adjusting, making the floor always be at the World Center. Dynamic floor is great for quickly doing changes like extending the leg size. Because ZBrush currently has no good way of quickly placing the entire Tool on the floor at World Center, one should use dynamic floor.
 
 >[!question] What’s the difference between the two center points?
 >
@@ -99,4 +99,4 @@ The floor dynamically reposition to always be below to the lowest point of the l
 ## Manual Exporting/ Importing
 ZBrush works best with FBX. OBJ/ Extended OBJ can't export things like polygroups. Also, importing OBJ's will merge all objects into one SubTool, FBX imports every object as a separate SubTool.
 
-Let's say manually we import an object into ZBrush that's 1.8m high. ZBrush will make it's units as close to 2 as possible so one can nicely work with it, the important thing however is that it will change the export scale for that object to for this example 0.8. It will also properly adjust the offset values. This is done so when exported back to the original application the model came from, the scale and location stays preserved.
+Let's say manually we import an object into ZBrush that's 1.8 m high. ZBrush will make its units as close to 2 as possible, so one can nicely work with it, the important thing however is that it will change the export scale for that object to for this example 0.8. It will also properly adjust the offset values. This is done so when exported back to the original application the model came from, the scale and location stays preserved.

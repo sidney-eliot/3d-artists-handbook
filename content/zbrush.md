@@ -7,20 +7,20 @@ enableToc: true
 
 ## General Things to Be Aware Of
 - My workflow between ZBrush and Blender is [[workflow-between-zbrush-and-blender|here]]
-- It's good to stay on the left side of the model (right side from the characters perspective). _This is because of Mirror and Weld_
+- It's good to stay on the left side of the model (right side from the character's perspective). _This is because of Mirror and Weld_
 - Unlike in other software, subdivision in ZBrush are destructive. Even if one goes back to SubDiv level 1 and deletes all higher levels, the SubDiv will have dulled the edges in an irreversible way. This doesn't matter if you'll be adding a SubDiv at some point again to the object, because this edge dulling effect does not stack.
 
-   This can make the mesh unusable as a base for the retopo mesh and makes changing things later on quite hard. To avoid this issue either use Dynamic SubDiv or create backups of the object before adding SubDiv levels.
+   This can make the mesh unusable as a base for the retopo mesh and makes changing things later on quite hard. To avoid this issue, either use Dynamic SubDiv or create backups of the object before adding SubDiv levels.
 
    So in other words always use Dynamic SubDivs as long as possible and only switch to the destructive SubDiv when adding detail, this will also help with performance.
 
 ## 🖌Brushes/ Alphas/ Insert Mesh Brushes/ VDM Brushes/ Nano Meshes
 ### Overview
-_ZBrush has so many different types of brushes which are never explained and it can get quite confusing, so here I went through all the different types._
+_ZBrush has so many different types of brushes which are never explained, and it can get quite confusing, so here I went through all the different types._
 
 `Alphas` can pull out shapes onto the mesh, `VMD` _(Vector Displacement Mesh)_ Brushes works similarly just that they allow for overhangs, so much more complex shapes are possible. `Insert Mesh Brushes` place objects on other surfaces, but with some tweaking they can also become `Insert Mesh Curve Brushes` for creating chains, ropes and more. `Nano Meshes` are similar to Insert Mesh Brushes, just that they place the object on every face, great for creating patterns or things like fishnet stockings. And last but not least there are the `Normal Brushes` for example clay strips or dam standard. They store alphas, drag mode, settings and can even have custom preview icons. 
 
-Though `Normal Brushes` might seem better than `Alphas`, the big advantage to `Alphas` is that they can be used in any software. So you can use your sculpting alpha collection for texturing in other software as well. Added to that it is allot less effort to simply use alphas instead of creating a brush out of every alpha. There is however one quality of life issue with alphas, and that is that one can't have custom images for how the alpha looks like in action. The way I solve this issue is, when I do have preview images of alphas, I have both alpha and preview file in my collection with the same name but a different suffix. This makes the preview appear and directly before the alpha brush.
+Though `Normal Brushes` might seem better than `Alphas`, the big advantage to `Alphas` is that they can be used in any software. So you can use your sculpting alpha collection for texturing in other software as well. Added to that, it's a lot less effort to simply use alphas instead of creating a brush out of every alpha. There is however one quality of life issue with alphas, and that is that one can't have custom images for how the alpha looks like in action. The way I solve this issue is, when I do have preview images of alphas, I have both alpha and preview file in my collection with the same name but a different suffix. This makes the preview appear and directly before the alpha brush.
 
 - All Brushes use the `.zbp` file extension (which stands for "ZBrush Preference" file)
 - All Alphas use .psd file extension per default but .png/ .exr/ .tiff is just as good. Just don't use .jpg/ .jpeg or any other lossy compression type
@@ -40,7 +40,7 @@ Here the `default ZBrush brushes` ZBrush ships with are stored, that `load on st
 >...\ZBrush"Year"\ZData\BrushPresets
 >```
 
-Brushes that are put in the `Lightbox` brush tab are only `loaded when selected,` thus not bloating the project file. Added to that you can create your own folder hierarchy inside the Lightbox brush tab, to organize your brushes.
+Brushes that are put in the `Lightbox` brush tab are only `loaded when selected,` thus not bloating the project file. Added to that, you can create your own folder hierarchy inside the Lightbox brush tab, to organize your brushes.
 
 >[!info] Lightbox menu brushes
 >```
@@ -48,7 +48,7 @@ Brushes that are put in the `Lightbox` brush tab are only `loaded when selected,
 >```
 
 ### Insert Mesh Brush
-A **Insert Mesh Brush** is a **Brush** that contains one or multiple meshes to chose from. These meshes can the be placed on the SubTool or used to perform precisely placed boolean operations of custom shapes on the SubTool.
+A **Insert Mesh Brush** is a **Brush** that contains one or multiple meshes to chose from. These meshes can then be placed on the SubTool or used to perform precisely placed boolean operations of custom shapes on the SubTool.
 
 >[!example] Insert Mesh brush examples
 >
@@ -56,8 +56,8 @@ A **Insert Mesh Brush** is a **Brush** that contains one or multiple meshes to c
 
 >[!Info] Creating custom Insert Mesh brushes
 >
->1. Make the mesh that should become a insert brush
->2. Make sure it's orientation and scale is correct
+>1. Make the mesh that should become an insert brush
+>2. Make sure its orientation and scale is correct
 >3. Save the insert mesh (Brush > Create InsertMesh)
 >- [All about Insert Mesh Brushes](https://www.youtube.com/watch?v=qwchznvX-jQ)
 >- [All about Insert Mesh Curve Brushes](https://www.youtube.com/watch?v=BL46Qnef6N0)
@@ -76,7 +76,7 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 
 >[!Info] Creating custom Curve Insert Mesh brushes
 >
->- Delete top and bottom faces so there are no internal faces when it repeats
+>- Delete top and bottom faces, so there are no internal faces when it repeats
 
 
 ### VDM Brush (Vector Displacement Mesh) 
@@ -89,20 +89,20 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 >[!Info] Creating custom VDM brushes
 >
 >1. Switch to a Plane3D Tool (Make PolyMesh3D)
->2. Sculpt desired detail onto plane. Make sure to not touch the borders of the plane, masking them can help. Alternatively one can mask everything except for the borders and use `Morph to Grid` (Tool > Deformation). `Relax Plane Grid` can also help. Also make sure to sculpt onto the plane from the correct direction. Keep on adding in more planes as SubTools with different detail if you want
+>2. Sculpt desired detail onto plane. Make sure to not touch the borders of the plane, masking them can help. Alternatively, one can mask everything except for the borders and use `Morph to Grid` (Tool > Deformation). `Relax Plane Grid` can also help. Also, make sure to sculpt onto the plane from the correct direction. Keep on adding in more planes as SubTools with different detail if you want
 >3. Select a chisel brush
 >4. Make sure that the Tool only contains SubTools that should go into the VDM brush
 >5. Create the VDM brush with `Create MultiAlpha Brush` (Brush > Create)
 >6. Optional: Give the Brush an icon of the current view (Brush > Alt click on SetIcon)
 >7. Save the VDM brush (Brush > Save As) and give it a fitting name
->- [Making Custom Vector Brushes (Flipped Normals)](https://www.youtube.com/watch?v=jBXs8cUm0CI) 17min
->- [Making Custom Vector Brushes (Pixologic)](https://www.youtube.com/watch?v=FB07uGbFje8) 12min
+>- [Making Custom Vector Brushes (Flipped Normals)](https://www.youtube.com/watch?v=jBXs8cUm0CI) 17 min
+>- [Making Custom Vector Brushes (Pixologic)](https://www.youtube.com/watch?v=FB07uGbFje8) 12 min
 
 
 ### Alpha Brush
 >[!example] Alpha brush examples
 >
->- Hardsurface Detail
+>- Hard surface Detail
 >- Skin Detail
 >- Scratch Marks
 
@@ -110,7 +110,7 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 >
 >Sometimes alphas like folds will not just add folds but also dramatically change the surface curvature. There are `2 fixes` to this issue:
 >- Fix 1 is to change the `MidValue` to somewhere around 50. Or enable `Surface`. In the `Alpha > Modify` menu. 
->- Mostly Fix 1 isn't enough, so fix 2 comes into play. In Photoshop, go to `Filter > Other > High Pass` and reduce the value. Optionally you can also add a levels layer.
+>- Mostly, Fix 1 isn't enough, so fix 2 comes into play. In Photoshop, go to `Filter > Other > High Pass` and reduce the value. Optionally, you can also add a levels layer.
 
 >[!Info] Creating custom Alphas
 >
@@ -130,7 +130,7 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 >[!Info] Creating custom sculpting brushes
 >
 >1. Clone a brush
->2. Change it's settings
+>2. Change its settings
 >3. Save Brush (Brush>Save As) and give it a fitting name
 
 
@@ -144,15 +144,15 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 
 >[!Info] Creating Custom Nano Meshes
 >
->- [Nano Meshes short](https://www.youtube.com/watch?v=HPmlMD3f4xs) (Michael Pavlovich) 3min
->- [Nano Meshes](https://www.youtube.com/watch?v=wv3uNqr1Rf4) (Michael Pavlovich) 10min
+>- [Nano Meshes short](https://www.youtube.com/watch?v=HPmlMD3f4xs) (Michael Pavlovich) 3 min
+>- [Nano Meshes](https://www.youtube.com/watch?v=wv3uNqr1Rf4) (Michael Pavlovich) 10 min
 >- [All Michael Pavlovich videos to Nano Meshes](https://www.youtube.com/@MichaelPavlovich/search?query=Nano+Mesh)
 
 
 ## 💾Saving/ Backups/ ZPR vs ZTL
 >[!tip] Saving strategy
 >
->- Save as ZTL every once and a while during the day as well as clicking the QuickSave button before doing risky actions
+>- Save as ZTL every once in a while during the day as well as clicking the QuickSave button before doing risky actions
 >- At the end of the day save as ZPR and ZTL
 >- If during the day ZBrush crashes use auto saves to get back undo history
 >
@@ -218,13 +218,13 @@ Open Thumbnail Window and Turn on Silhouette `Preferences > Thumbnail` or switch
 >- DynaMesh will not remove PolyPaint **as long as the paint is visible**, it will however remove all materials
 >- ZRemesher will completely remove PolyPaint and materials
 >- Unlike PolyPaint, Material Paint can either be or not be on a face, which makes material transitions rough. To reduce this issue: Hide transitions, increase mesh detail or turn on Render Materials Blend-Radius
->- ToDo: Figure out how reprojection plays with poly paint
+>- To-Do: Figure out how reprojection plays with poly paint
 
 ### Working With Color
 Use the pre-installed ZColor plugin `ZPlugin > ZColor`. 
 - To get all settings, expand the window downwards
 - To **create** a new palette `File > New`
-- To **add** to your palette, drag from the lower color field onto any color on your screen. Then right click the lower color field and `Add to Swatches `
+- To **add** to your palette, drag from the lower color field onto any color on your screen. Then right-click the lower color field and `Add to Swatches `
 - To **save** your palette `File > Save`
 - To **name** colors within the palette, double click beside the color
 - To **re-position** colors within the palette, drag them up and down
@@ -285,14 +285,14 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 
 >[!tip] Lighting in ZBrush
 >
->ToDo
+>To-Do
 
 
 ## Document Size
 
 >[!question] How to get rid of the empty document border?
 >
->When ever ZBrush is on a different monitor resolution or you change that monitors scale size, you will have to redo the following steps (something I despise). 
+>When ever ZBrush is on a different monitor resolution, or you change that monitors scale size, you will have to redo the following steps (something I despise). 
 >
 >1. In the Documents Menu toggle `WSize` and click `NewDocument`
 >2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it is completely irrelevant and will not mess up your tool
@@ -319,7 +319,7 @@ The main thing about this interface is that I made a custom menu with every tool
 
 ## ❌Errors
 
->[!error] "To many items in AllList" error
+>[!error] "Too many items in AllList" error
 >
 >|Q|A
 >|:-:|:--
@@ -332,7 +332,7 @@ The main thing about this interface is that I made a custom menu with every tool
 
 >[!error] ZBrush file extension is .ZZZ instead of .ZTL
 >
->ZZZ files are temporary ZBrush files, it's how ZBrush names ZTLs while it's writing into them (saving). When the file extensions stays .ZZZ after the process has finished it means something went wrong while saving and the file is most likely corrupted. The corrupted file is as far as I know unfixable.
+>ZZZ files are temporary ZBrush files, it's how ZBrush names ZTLs while it's writing into them (saving). When the file extensions stays .ZZZ after the process has finished, it means something went wrong while saving and the file is most likely corrupted. The corrupted file is as far as I know unfixable.
 
 ## 🚧Work in Progress🚧
 - use dynamic sub d as long as possible to keep the ZBrush file small

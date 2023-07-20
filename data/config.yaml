@@ -18,8 +18,7 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  Covers all stages of the 3D creation process, as well as the theory side of things. Helpful for 2D   artists as well.
 page_title: "🦑 3D Artist's Handbook"
 links:
   - link_name: "GitHub"

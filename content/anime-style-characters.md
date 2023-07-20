@@ -4,7 +4,7 @@ enableToc: false
 ---
 
 ## Overview
-I haven't done much yet with anime styled characters but nonetheless here are some good resources.
+I haven't done much yet with anime styled characters, but nonetheless here are some good resources.
 
 ## Resources
 ### Channels

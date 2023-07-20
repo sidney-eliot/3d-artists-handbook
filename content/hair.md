@@ -2,7 +2,7 @@
 title: "💇🏽‍♀️ Hair"
 enableToc: true
 ---
->[!example]-  All kinds of hair methods (video playlist)
+>[!example]- All kinds of hair methods (video playlist)
 > 
 ><br>
 
@@ -10,7 +10,7 @@ enableToc: true
 ></div>
 
 
->[!info] Finished hair card textures/ hair styles
+>[!info] Finished hair card textures/ hairstyles
 >
 >If you're using hair cards and don't want to create the texture yourself, or want to pick from already created haircuts, some places to look are:
 >- [ArtStation Marketplace](https://www.artstation.com/marketplace/game-dev?q=Hair&section=best_selling)
@@ -18,10 +18,10 @@ enableToc: true
 
 
 ## General
-I recommend starting every haircut with a base sculpt. Refine this sculpt until the silhouette is close to what you want. After that create the hair with your desired style, keeping true to your sculpted block out.
+I recommend starting every haircut with a base sculpt. Refine this sculpt until the silhouette is close to what you want. After that, create the hair with your desired style, keeping true to your sculpted block out.
 
 ## Good Software for Making Hair
-- **[Hair Strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-68-2-full-perpetual-license-free-demo-and-sample-set)** is a great software for creating high quality realistic hair cards quickly. But less useful for stylized anime hair for example.
+- **[Hair Strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-68-2-full-perpetual-license-free-demo-and-sample-set)** is a great software for creating high quality realistic hair cards quickly. But less useful for stylized anime hair, for example.
 
 - **Blender** is a S-Tier tool for creating hair of any style, since the 3.3 update
 
@@ -33,7 +33,7 @@ I recommend starting every haircut with a base sculpt. Refine this sculpt until 
 ## Sculpted Hair
 ![[Pasted image 20230604170808.png|350]]![[Pasted image 20230604170824.png|350]]![[Pasted image 20230604170858.png|300]]![[Pasted image 20230604170907.png|300]]![[Pasted image 20230604170758.png|250]]![[Pasted image 20230604170921.png|600]]
 
-Sculpting is great method for the final hair but where it really shines is as a base/ block out for all other hair creations methods. Make it a habit to first sculpt a block out of the haircut until the silhouette is correct, and to use that as a shape guide.
+Sculpting is a great method for the final hair, but where it really shines is as a base/ block out for all other hair creations methods. Make it a habit to first sculpt a block out of the haircut until the silhouette is correct, and to use that as a shape guide.
 
 **Sculpting Hair Playlist:**
 
@@ -46,18 +46,18 @@ Sculpting is great method for the final hair but where it really shines is as a 
 
 Hair cards are a hair method where a variety of strand texture maps are mapped to a flat mesh plane. These hair planes are then subdivided and placed around the head while moving vertices to fit the shape of the head and haircut. 
 
-To avoid repetition in textures used for strands, a couple of materials are created each using different hair stands that can then be easily chosen from. This allows one to be very flexible as one can at any point decide that one wants to replace all the hair stand types with other or even more types.
+To avoid repetition in textures used for strands, a couple of materials are created, each using different hair stands that can then be easily chosen from. This allows one to be very flexible, as one can at any point decide that one wants to replace all the hair stand types with other or even more types.
 
-Hair cards are great for games because of its low tris count and working well with physics/ animation. The poly count vastly depends on hair style, can range from 1k tris to 10k tris.
+Hair cards are great for games because of its low tris count and working well with physics/ animation. The poly count vastly depends on hairstyle, can range from 1k tris to 10k tris.
 
 |Tris|Character
 |:-:|:-:
 |100k|Alloy's hair from Horizon Zero Dawn
 
 
-It's used for both hyper realistic and stylized hair.
+It's used for both hyperrealistic and stylized hair.
 
-ToDo: Add industry examples
+To-Do: Add industry examples
 
 
 ### Creating Hair Cards
@@ -66,14 +66,14 @@ There are a couple of ways of getting hair cards. The easiest is to look for pre
 
 #### What to Put on the Hair Card
 The hair card contains the **hair**, but also **eyebrows** and **eyelashes**.
-For hair strands there should be following:
+For hair strands, there should be the following:
 
 - (1) **Main Hard**
 - (2) **Big Breakup**
 - (2) **Small Breakup**
 - (2) **Transitional Hair** (Helps connect hair to head by placing them at borders)
 - (1-2) **Flyaways** (These wild hair strands help break the silhouette)
-- (0-1) **Scalp Card** (Scalp Cards are optional because the scalp hair can also be baked into the head texture. But if there should be areas where one see a bit of the skin below the hair then scalp cards are the way to go. Scalp Cards are also more flexible because the characters hair style can be changed dramatically without having to re-bake scalp hair into the body texture map)
+- (0-1) **Scalp Card** (Scalp Cards are optional because the scalp hair can also be baked into the head texture. But if there should be areas where one see a bit of the skin below the hair, then scalp cards are the way to go. Scalp Cards are also more flexible because the character's hairstyle can be changed dramatically without having to re-bake scalp hair into the body texture map)
 
 - [Video to Hair Card types/ breakup](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=153)
 
@@ -94,15 +94,15 @@ For hair strands there should be following:
 
 The textures that are most essential are: Alpha, Color, Normal, AO, Gradient
 
-But to get the desired hair look there are many others that are often used.
+But to get the desired hair look, there are many others that are often used.
 
 ![[Pasted image 20230604224005.png]]
 
 |Map|Explained
 |:-:|:--
-|**Mask**|Decides which parts of the hair are rendered and which not(so only black and white texture map). In blender this would be alpha clip and in unreal masked blend. This is the best alpha mode performance wise.
-|**Alpha**|Decides which parts of the hair are rendered and which not however the difference to the mask being that here values between black and white accepted. In blender this would be alpha hashed and in unreal translucent blend.
-|**Mask and Alpha synergy**|There is no way of getting around using an alpha texture however one can make the performance better by also making a mask texture. The mask texture then exclude a good amount of the texture from being rendered which would have used extra performance. 
+|**Mask**|Decides which parts of the hair are rendered and which not(so only black and white texture map). In Blender this would be alpha clip and in unreal masked blend. This is the best alpha mode performance wise.
+|**Alpha**|Decides which parts of the hair are rendered and which not. The difference to the mask however being, that here values between black and white are accepted. In Blender this would be alpha hashed and in unreal translucent blend.
+|**Mask and Alpha synergy**|There is no way of getting around using an alpha texture, however, one can make the performance better by also making a mask texture. The mask texture then exclude a good amount of the texture from being rendered which would have used extra performance. 
 |-|-
 |**Color (length)**|For albedo color
 |**Color (group)**|
@@ -119,9 +119,9 @@ But to get the desired hair look there are many others that are often used.
 
 >[!tip] Strategies
 >
->- It often helps to sculp a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
+>- It often helps to sculpt a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
 >- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
->- When placing the hair it's fine to move the hair both in object and edit mode
+>- When placing the hair, it's fine to move the hair both in object and edit mode
 >- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
 
 >[!warning] Things to watch out for
@@ -144,7 +144,7 @@ But to get the desired hair look there are many others that are often used.
 >- Try to keep the render settings high
 >- In Blender use Cycles. In Maya use Renderman or Arnlod
 >- Make sure to turn off all form of color correction (Blender: Color Management, Compositor)
->- Place a flat colored neutral gray (#7F7F7F) background behind the hair (this is done to help the anti-aliasing by bouncing softer light and thus producing crisper edges)
+>- Place a flat colored neutral gray (#7F7F7F) background behind the hair (this is done to help the [[glossary#Anti-Aliasing|anti aliasing]] by bouncing softer light and thus producing crisper edges)
 
 >[!example]- Rendering Hair Cards (videos)
 >
@@ -159,11 +159,11 @@ But to get the desired hair look there are many others that are often used.
 
 ## Curve/ Array Hair
 
-This method consists of a couple of key concepts. Instead of placing the hair, a curve is placed which generates a hair strand in it's place which follows the curves shape. This makes it very easy to move and twist the hair strands as one does not have to work about topology. To display the hair strand along the path of the curve a shape is used, in Blender this shape is represented by a circle curve. This shape is then used by the curve to generate the hair mesh. This means that one can on a whim change the shape of the hair.
+This method consists of a couple of key concepts. Instead of placing the hair, a curve is placed which generates a hair strand in its place which follows the curve's shape. This makes it very easy to move and twist the hair strands, as one does not have to work about topology. To display the hair strand along the path of the curve a shape is used, in Blender this shape is represented by a circle curve. This shape is then used by the curve to generate the hair mesh. This means that one can on a whim change the shape of the hair.
 
 Mostly one will have a couple of different shapes to bring variety into the haircut and assigns the shapes individual to curves.
 
-This method also easily allows to change the topology resolution of the hair.
+This method also easily allows changing the topology resolution of the hair.
 
 >[!tip] Creating curve/ array hair in Blender
 >
@@ -177,7 +177,7 @@ This method also easily allows to change the topology resolution of the hair.
 >- Make sure to use resolution increase instead of SubDiv on Bevel Profile object for hair curve
 
 ## Particle System Hair
-Particle Hair can be very time consuming and frustrating to make, as well as not being the best option for Real-Time use. It can however be quite useful for making hair cards. Particle hair especially shines with a Hyper-Realistic art style and when the hair will be involved in allot of physics heavy actions like wind, fighting and other hair interactions.
+Particle Hair can be very time-consuming and frustrating to make, as well as not being the best option for Real-Time use. It can however be quite useful for making hair cards. Particle hair especially shines with a Hyper-Realistic art style and when the hair will be involved in a lot of physics heavy actions like wind, fighting and other hair interactions.
 
 Though particle hair is currently not that Real-Time friendly, that definitely will change soon, it's the hair method which has the most space to improve, both in performance and ease of use.
 
@@ -192,7 +192,7 @@ Though particle hair is currently not that Real-Time friendly, that definitely w
 ## 🚧Work in Progress🚧
 
 
-Hair texture map setup in Blende:
+Hair texture map setup in Blender:
 
 - Roughness: Color map > Color Ramp > P. BSDF
 - Alpha: Alpha map(Alpha plug) > P. BSDF (Blend Mode and Shadow Mode to Alpha Hashed)

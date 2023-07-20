@@ -5,7 +5,7 @@ enableToc: true
 ## Overview
 I use almost all of these addons. Addons with a 🔥 are addons I love and think are essential. Addons with a 🧱 are addons that are shipped with Blender.
 
-Many of these addons are free and others come with a hefty price. If you are willing to spend some money then these are the only ones you really need:
+Many of these addons are free and others come with a hefty price. If you are willing to spend some money, then these are the only ones you really need:
 
 - [Hard Ops / Boxcutter Ultimate Bundle](https://www.artstation.com/marketplace/p/D7aM/hard-ops-boxcutter-ultimate-bundle) - Which includes both Hard Ops and Boxcutter, essential for any 3D artist ($40)
 - [UVPackmaster](https://uvpackmaster.com/) - Only if you do allot with UVs ($44)
@@ -15,7 +15,7 @@ Many of these addons are free and others come with a hefty price. If you are wil
 >
 >- [Blender Market](https://blendermarket.com/categories/scripts-and-addons)
 >- [Gumroad](https://gumroad.com/discover)
->- [Artstation Store](https://www.artstation.com/marketplace/game-dev/resources)
+>- [ArtStation Store](https://www.artstation.com/marketplace/game-dev/resources)
 >- [GitHub's blender-addon section](https://github.com/topics/blender-addon)
 
 >[!example] Other Blender addon lists
@@ -73,7 +73,7 @@ For rigging in Blender you need one of these 2 addons. They are even helpful whe
 - `DECALmachine` (Add hardsurface detail as textures)
 
 ## Asset, Material, HDRI
-I don't use any of these anymore because I've switched to Substance Painter, Mari and 3D Coat for texturing. Blenders node system used for texturing is very inflexible and a pain to work with, when the projects goal is to be Real-Time/ Game-Ready or rendered in any other software.
+I don't use any of these anymore because I've switched to Substance Painter, Mari and 3D Coat for texturing. Blender's node system used for texturing is very inflexible and a pain to work with, when the projects goal is to be Real-Time/ Game-Ready or rendered in any other software.
 
 
 - `Kit Ops Pro` (Kit Bash modeling/ Adding detail to your Hard Surface models)
@@ -110,7 +110,7 @@ I don't use any of these anymore because I've switched to Substance Painter, Mar
 - `3D Viewport Pie Menus` 🧱[[Documentation](https://docs.blender.org/manual/en/latest/addons/interface/viewport_pies.html)]
 - `Conform Object` (Make objects perfectly hug curved surfaces)
 - `Send2Unreal`
-- `Hair Tool` (Probably obsolete with blender's 3.4 update which overhauls the hair workflow)
+- `Hair Tool` (Probably obsolete with Blender's 3.4 update which overhauls the hair workflow)
 
 ## Unsorted
 I haven't used any of these yet, but they seem interesting.

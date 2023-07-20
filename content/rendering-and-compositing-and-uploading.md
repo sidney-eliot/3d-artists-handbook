@@ -28,7 +28,7 @@ enableToc: true
 >- Amazing showcase via [Marmoset Viewer](https://marmoset.co/toolbag/viewer/)
 >
 >**Marmoset Viewer:**
->- Some sites like Artstation support the Marmoset Viewer API allowing for the 3D model to be viewed in the browser
+>- Some sites like ArtStation support the Marmoset Viewer API allowing for the 3D model to be viewed in the browser
 >- The receiver needs to download a file and the Marmoset Viewer software
 
 
@@ -41,7 +41,7 @@ enableToc: true
 >[!info] Sketchfab rendering
 >
 >- Not good for complex lighting and environments can only handle smaller things
->- Models can shared with just a link
+>- Models can be shared with just a link
 
 >[!info] Blender rendering
 >
@@ -49,7 +49,7 @@ enableToc: true
 
 ### Render Resolution/ Aspect Ratio
 
-First off all one should look at what device will be viewing the art. Most displays of PC's, laptops, phones, TV's with the exception of tablets, will have an aspect ration of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
+First of all, one should look at what device will be viewing the art. Most displays of PC's, laptops, phones, TV's with the exception of tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
 
 This means that when rendering, it's good to stick with one of these 16:9 resolutions.
 
@@ -65,25 +65,25 @@ _(H=High, D=Definition, Q=Quad, W=Widescreen, a meaningless letter added for mar
 
 Then it's important to look at what resolutions are even supported by sites. Mostly you'll want to render in your desired resolution and then downscale it to meet the resolution requirements set by the website one is uploading it to.
 
-||Artstation|Artstation Pro|Sketchfab|Youtube
+||ArtStation|ArtStation Pro|Sketchfab|YouTube
 |:--|:-:|:-:|:-:|:-:
 |**Max size**|10mb|||-
 |**Max resolution**|400 x 400 - 1920 x 1080|400 x 400 - 10k x 10k ||8k
 |**Max clip resolution**|2k|4k|-|-
-|**Max clip length**|1min|1min|-|-
+|**Max clip length**|1 min|1 min|-|-
 |**Max MarmosetViewer size**|15mb|50mb||-
 |**YouTube iframe**|yes|yes||-
 
 
-Your final art pieces renders should mostly not exceed 3840 × 2160 (this obviously totally depends on the situation like if one wants to be able to use the art work on posters or 8K displays as a background). But for showcases renders with higher resolutions are fine, so one can zoom in to see more details.
+Your final art pieces renders should mostly not exceed 3840 × 2160 (this obviously totally depends on the situation, like if one wants to be able to use the art work on posters or 8K displays as a background). But for showcases, renders with higher resolutions are fine, so one can zoom in to see more details.
 
-Note that even though a aspect ratio of 16:9 is good as a default, choosing the aspect ratio is an artistic choice in itself. For a landscape one would maybe want a more wide image, or if one is showcasing details of a characters armor, a square aspect ratio could look nice and better suit the purpose.
+Note that even though an aspect ratio of 16:9 is good as a default, choosing the aspect ratio is an artistic choice in itself. For a landscape one would maybe want a more wide image, or if one is showcasing details of a character's armor, a square aspect ratio could look nice and better suit the purpose.
 
-Lastly, there's a trick to circumvent resolution caps websites set for uploading art. By splitting the image into 2 or more commonly 3 parts, and displaying them above each other one get's far more resolution with the downside of small gaps in between the images (this works best with portrait oriented images). 
+Lastly, there's a trick to circumvent resolution caps websites set for uploading art. By splitting the image into 2 or more commonly 3 parts, and displaying them above each other one gets far more resolution with the downside of small gaps in between the images (this works best with portrait oriented images). 
 
-[Here's](https://magazine.artstation.com/2017/01/maximizing-images-artstation/) Artstation's take on it, and as they say don't use this method if you just want the image to display big, but if you want to be able to upload higher resolution images.
+[Here's](https://magazine.artstation.com/2017/01/maximizing-images-artstation/) ArtStation's take on it, and as they say don't use this method if you just want the image to display big, but if you want to be able to upload higher resolution images.
 
-To achieve this split art work style the resolutions would look like this:
+To achieve this split art work style, the resolutions would look like this:
 
 - 5760 x 3240 (3 times 1920 x 1080 on top of each other)
 - 7680 x 4320 (3 times 2560 x 1440 on top of each other)
@@ -93,9 +93,9 @@ To achieve this split art work style the resolutions would look like this:
 
 ### Turntable Animation Rendering
 
-Turntable animations are a looping animation where a character does one full turn in a circle, perfectly looping back to the first frame. One could directly render out a video, but it's better to let the renderer render every frame as a separate image, so that if it crashes while rendering one doesn't have to start from the beginning again. Then after all frames are rendered into a folder, one can stitch them together again.
+Turntable animations are a looping animation where a character does one full turn in a circle, perfectly looping back to the first frame. One could directly render out a video, but it's better to let the renderer render every frame as a separate image, so that if it crashes while rendering one doesn't have to start from the beginning again. Then, after all frames are rendered into a folder, one can stitch them together again.
 
-When animating the rotation it's important to make sure that the keyframe interpolation mode is set properly. In Blender for example per default the animations has easing at the start and end (to fix in Blender: Keyframe Interpolation Mode > Linear). Also make sure to start at frame 1 and not frame 0.
+When animating the rotation, it's important to make sure that the keyframe interpolation mode is set properly. In Blender for example, per default the animations has easing at the start and end (to fix in Blender: Keyframe Interpolation Mode > Linear). Also, make sure to start at frame 1 and not frame 0.
 
 
 The amount of frames the animation should have depends on the duration that one full turn should take and the frame rate the animation will be rendered at:
@@ -110,7 +110,7 @@ The amount of frames the animation should have depends on the duration that one 
 
 
 ### Animation Rendering
-ToDo
+To-Do
 
 
 ### Wireframe Rendering
@@ -119,7 +119,7 @@ Wireframe can either be pre rendered into the image or toggled in real-time rend
 
 >[!info] Marmoset Toolbag wireframe rendering
 >
->ToDo
+>To-Do
 
 
 >[!info] Blender wireframe rendering
@@ -134,13 +134,10 @@ Wireframe can either be pre rendered into the image or toggled in real-time rend
 
 >[!info] Unreal Engine wireframe rendering
 >
->ToDo
+>To-Do
 
 ### Render Passes
-ToDo
-
-
-
+To-Do
 
 
 ### Rendering in Blender
@@ -157,9 +154,9 @@ Good Blender addons for rendering:
 
 #### Rendering Bloom (Blender)
 
-This is a viable way of doing it, but often it's better add bloom during post processing in the compositing software instead.
+This is a viable way of doing it, but often it's better to add bloom during post-processing in the compositing software instead.
 
-ToDo: Explain why EXR file format best for rendering bloom
+To-Do: Explain why EXR file format best for rendering bloom
 
 Take into consideration that working with EXR files, especially Multilayer EXR is very advanced and should only be used if one is a bit more experienced. It comes with the benefit of more artistic control.
 
@@ -176,7 +173,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >- Then Pull in the alpha EXR into PS with default [EXR IO](https://www.exr-io.com/) settings and split alpha off
 >- Now bring both together
 >- The color EXR has to have Linear Dodge(Add) blending mode and has to be above the alpha EXR
->- Finally Put a exposure adjustment layer at the top and make Gamma Correction 0.51, because this is a 32 bit image Photoshop will not be smart enough to make things look correctly so this layer always has to be at the top
+>- Finally put an exposure adjustment layer at the top and make Gamma Correction 0.51, because this is a 32 bit image Photoshop will not be smart enough to make things look correctly, so this layer always has to be at the top
 >
 >**Extra Info: **
 >- Converting the image mode to 16 bit will remove all EXR features so while working it should stay at 32 bit
@@ -185,7 +182,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 
 #### Eevee Render Settings (Blender)
 - Background Transparency on
-- Bloom off (only turn it off  right before rendering)
+- Bloom off (only turn it off right before rendering)
 
 >[!info]- Color Management
 >
@@ -202,7 +199,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >|Pass|Use|Explanation
 >|:--|:-:|:-:
 >|**Combined**|yes|All render passes
->|**Z/ Depth**|yes|Great for atmospherics/ volumetrics and object blending. Mist pass is the same as z/depth pass just that the z/depth pass is not configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0m and depth to farthest point in scene. Also z/ depth pass isn't anti aliased
+>|**Z/ Depth**|yes|Great for atmospherics/ volumetrics and object blending. Mist pass is the same as z/depth pass just that the z/depth pass is not configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0 m and depth to the farthest point in scene. Also, z/ depth pass isn't anti aliased
 >|**Mist**|yes|(Same as Z/ Depth)
 >|**Normal**|no|
 >|**Diffuse/ Specular**|depends|
@@ -230,12 +227,12 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 ### Rendering in Marmoset Toolbag
 
 ### Rendering with Marmoset Real time Viewer
-ToDo
+To-Do
 
-In marmoset one can either pre render shots or go the real-time route with Marmoset Viewer.
+In Marmoset, one can either pre render shots or go the real-time route with Marmoset Viewer.
 
 - Add a camera, the camera location will be the default viewport view
-- Adjust render settings. They are available in the camera tab, Lens and Post Effects but also in export tab. Note that some settings won't carry over into the viewer file like chromatic aberration
+- Adjust render settings. They are available in the camera tab, Lens and Post Effects but also in export tab. Note that some settings won't carry over into the viewer file, like chromatic aberration
 
 
 
@@ -257,7 +254,7 @@ In marmoset one can either pre render shots or go the real-time route with Marmo
 >Photoshop is by far the best for compositing images. If one plans on compositing EXR images in Photoshop, the [EXR IO](https://www.exr-io.com/) plugin is needed. 
 
 ### Adjustment Layers
-ToDo
+To-Do
 
 ### Post Processed Bloom
 
