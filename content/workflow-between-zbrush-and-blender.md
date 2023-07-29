@@ -34,15 +34,12 @@ These are important things to understand about ZBrush so you can properly use Go
 
 ### Units & Size
 **-About Units-** 
-
 ZBrush works with their own generic unit system which is called units. It's important that the entire model is always around the size of `2 units cubed` (XYZ size). Don't be too specific about this, 5 units is still fine. Staying close to this size helps tools, brushes and DynaMesh work properly.
 
 **-Viewing Units & Size-**
-
 There are 2 ways of viewing the units of SubTools. Either in the Size tab (Tool > Geometry > Size), or by using the legacy transpose tool. The legacy transpose tool will show a different units value than the size tab because it calculates `Units Size * Export Scale` instead of `Units Size`. Use booth depending on what value you want
 
 **-Changing Units & Size-**
-
 Units can be changed through a multitude of ways:
 
 - The Gizmo Tool has the ability to scale one or every SubTool at once, combining that with changing the location from which the scale is performed makes it a good option

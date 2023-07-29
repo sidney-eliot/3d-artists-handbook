@@ -3,6 +3,8 @@ title: "🧊🗿Organic/ Hard Surface/ Sculpting"
 enableToc: true
 ---
 
+>[!warning] Still Being Migrated
+
 ## Overview
 This page covers all possible ways to achieve general and specific modeling/ sculpting tasks. There's no reason to only stick to Blender, ZBrush or any other 3D software, thanks to tools like GoB/ GoZ one can send entire or selected parts of the model between both software with one click.
 
