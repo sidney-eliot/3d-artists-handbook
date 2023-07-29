@@ -6,7 +6,7 @@ enableToc: false
 When naming parts of a model, one can either just count up numbers or describe what the part is, like "Cooler_Fan_Screw_3". To help with the latter naming convention, I've tried to come up with as many words as possible to describe parts. This is supposed to make it easier to find the correct name if one just can't think of anything fitting.
 
 ## Hard
-|-|-|-|-|-|-|-|-
+||||||||
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Part|Plate|Slab|Armor|Rod|Latch|Shaft
 |Cover|Cable|Ribbon Cable|Twisted Cable|Pipe|Tube|Ball Bearing
@@ -25,14 +25,14 @@ When naming parts of a model, one can either just count up numbers or describe w
 
 
 ## Organic
-|-|-|-|-|-|-|-|-
+||||||||
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Padding|Cushion|Mat|Buffer|Pillow|Frill|Tape
 |Seam|Lace|Net|Webbing|Foam
 
 
 ## Screws
-|-|-|-|-|-|-|-|-
+||||||||
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Bolt|Screw|Nail|Rivet|Nut|Beam|Hex bolt
 |Pin|Peg|
