@@ -10,10 +10,10 @@ enableToc: true
 
 #### Important Things to Understand about ZBrush for Proper Use of GoB
 - [[workflow-between-zbrush-and-blender#General Things to Be Aware Of|General Things to Be Aware Of]]
-- [[workflow-between-zbrush-and-blender#Units & Size|Units & Size]]
+- [[workflow-between-zbrush-and-blender#Units Size|Units Size]]
 - [[workflow-between-zbrush-and-blender#World Center Primary and Secondary Center Points|World Center (Primary and Secondary Center Points)]]
-- [[workflow-between-zbrush-and-blender#Export Scale & Offset|Export Scale & Offset]]
-- [[workflow-between-zbrush-and-blender#Manual Exporting & Importing|Manual Exporting & Importing]]
+- [[workflow-between-zbrush-and-blender#Export Scale Offset|Export Scale & Offset]]
+- [[workflow-between-zbrush-and-blender#Manual Exporting Importing|Manual Exporting & Importing]]
 
 
 ## A Great Workflow Example
