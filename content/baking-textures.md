@@ -117,4 +117,4 @@ Marmoset automatically creates skews by looking at the face normals of the low p
 - If Marmoset is hard lagging it most likely is because quick bake is on
 - If the origin isn't at the center of the object, the skews will be way too long (only affects interface)
 - Marmoset bakes on the right side per default. So one either has to work on the right side (which is good habit) or have everything mirrored
-- Be aware of the hidden the meshes option. Whentoggled,d everything that's hidden won't be used for the bake
+- Be aware of the hidden the meshes option. When toggled, everything that's hidden won't be used for the bake

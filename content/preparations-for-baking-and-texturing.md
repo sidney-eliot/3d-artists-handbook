@@ -21,7 +21,7 @@ enableToc: true
 >- Try to keep the silhouette of the high and low mesh as close to each other as possible
 >- Try to strategically use SubDiv modifiers, they will a lot of the times be the cause for badly baked edges. For pieces that don't play a big role in the silhouette SubDiv is fine
 >- When possible, try to have as many mesh pieces that aren't connected as the high, connected as the low. This will reduce poly count, increase texture space and make weight painting/ animating so much easier
->- Delete all polys that aren't seen, sometimes this means adding in a bit of extra edge flow/ cuts to remove more faces. This gives us more texture space, meaning all UV's that are actually seen can be scaled up and will have a better resolution. A good trade, totally worth the slight increase in polygons that the cuts may create.
+>- Delete all polys that aren't seen, sometimes this means adding in a bit of extra edge flow/ cuts to remove more faces. This gives us more texture space, meaning all UVs that are actually seen can be scaled up and will have a better resolution. A good trade, totally worth the slight increase in polygons that the cuts may create.
 >- Triangulate the high mesh and make sure the low has no Ngons. Every software triangulates differently, so Triangulating in the modeling software instead of auto triangulation in Marmoset will avoid issues (If you are using Maya, you may want to lock the mesh normals first, as the mesh normals change upon triangulation). This however comes with the con of not being able to nicely showcase the wireframe. So one should only Triangulate the high. When you notice quads on the low are triangulating badly, manually triangulate those quads in the modeling software
 
 >[!tip] Floaters
@@ -90,7 +90,7 @@ Look at the [[uv-unwrapping|UV Unwrapping]] page.
 The name indicates the low and high match, however it doesn't indicate what is put on the same atlas, that depends on what was exported together in the same file. Numbers can be added to match more highs with a low. Use batch renamer to rename objects.
 - Needs to end with ```..._low``` or can also be ```..._low_...``` (Marmoset)
 - Not case-sensitive
-- 1/01/001 all works as long as it's consistent
+- 1/01/001 all works as long as its consistent
 - Adding no number is fine if there's only one low/ high
 
 ```

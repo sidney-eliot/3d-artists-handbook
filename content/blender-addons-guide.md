@@ -8,7 +8,7 @@ enableToc: true
 - All options are under N > BoxCutter and the gear in the header
 - Turn off Sort modifiers to not bevel new bool cuts, this is mostly desired(this can also be achieved by keeping this on and correcting the sort order)
 - Some bool modes are in x cycle the others are in D-Helper
-- Don't use magnet with Ngon but it's own built in angle lock (ctrl for magnet off)
+- Don't use the magnet with Ngon, but rather it's own built in angle lock (ctrl for magnet off)
 - While placing bevel one can access the D helper menu after locking the bevel
 - Bool snapping to object, view or origin can be adjusted in D-Helper
 - Magnet is very important sometimes better without grid

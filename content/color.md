@@ -9,9 +9,9 @@ enableToc: false
 
 ## Color Models
 There are three color models commonly used by digital artists:
-- [[#RGB Color Model|RGB]]
-- [[#HSV/ HSL Color Model|HSV/HSL]]
-- [[#Hex Color Model|HEX]]
+- [[color#RGB Color Model|RGB]]
+- [[color#HSV/ HSL Color Model|HSV/HSL]]
+- [[color#Hex Color Model|HEX]]
 
 Note that all these color models are in the RGB color space.
 
@@ -132,7 +132,7 @@ COLOR|RGB|HEX
 colorfulness, saturation, purity, intensity, luminance
 
 ### Saturation
-Saturation is changed by tint, shade and tone. Saturation is the purity/ intensity/ brilliance of a color. The higher the saturation of a color, the more vivid/ intense it's. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
+Saturation is changed by tint, shade and tone. Saturation is the purity/ intensity/ brilliance of a color. The higher the saturation of a color, the more vivid/ intense it is. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
 
 ### Brilliance/ Brightness
 Brilliance judged relative to the maximum brightness possible, whereas brightness is relative to the brightness of a similarly illuminated white object.

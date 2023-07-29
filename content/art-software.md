@@ -53,7 +53,7 @@ This is a collection of most software that are helpful for artists, that see any
 - [**Adobe After Effects**](https://www.adobe.com/products/aftereffects.html) _(VFX)_
 - **Clarisse IFX** _(Rendering, Lighting)_
 - [**Nuke**](https://www.foundry.com/products/nuke-family/nuke) _(Node based compositing and visual effects)_
-- [**RizomUV**](https://www.rizom-lab.com) _(UV's)_
+- [**RizomUV**](https://www.rizom-lab.com) _(UVs)_
 - [**Shotgun**]() _(A review and production tracking toolset)_
 - [**Keyshot**](https://www.keyshot.com) _(Rendering)_
 - [**Katana**](https://www.foundry.com/products/katana)

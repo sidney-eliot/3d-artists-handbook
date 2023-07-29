@@ -190,9 +190,9 @@ Creases can transfer between ZBrush and Blender. Note that creases in Blender ca
 ## Mirroring
 |Software|Method|Notes
 |:-:|:-:|:-:
-|🟠|Mirror Modifier|Allows for mirroring of mirrors and other complex mirror operations. Can also use empty's as mirror point
+|🟠|Mirror Modifier|Allows for mirroring of mirrors and other complex mirror operations. Can also use empties as mirror point
 |⚪|Mirror|Flips the SubTool from one side to the other, depending on the selected mirror axis. Uses the world center as mirror point
-|⚪|Mirror And Weld|Perfectly mirrors the SubTool from the +X to -X axis along the world center. Welding together both half's 
+|⚪|Mirror And Weld|Perfectly mirrors the SubTool from the +X to -X axis along the world center. Welding together both halfs 
 
 **Tip:** To circumvent the issue of not being able to set ones own mirror axis in ZBrush, use S.Pivot/C.Pivot
 
@@ -244,7 +244,7 @@ ToDo
 - Removes trimmed mesh and closes the hole with the close hole operation
 - Creates issues because the close holes operation algorithm is quite simple
 #### Knife (Blender Trim)
-- Removes knifed mesh and closes holes with it's own algorithm
+- Removes knifed mesh and closes holes with its own algorithm
 - A better version of trim
 - (Knife currently is not stable so always quick save before using it)
 - For cutting 45° angles with curve knife in all directions, following degrees are good to remember(**45°, 135°, 225°, 315°**)
@@ -266,9 +266,9 @@ After a morph is stored with the `StoreMT` button, new strokes ignore each other
 
 ![[Pasted image 20230608024118.png]]
 
-While a morph target is stored one can use the **Morph Brush** to bring back parts of the stored morph. Or in other words, erase strokes after storing the morph.
+While a morph target is stored, one can use the **Morph Brush** to bring back parts of the stored morph. Or in other words, erase strokes after storing the morph.
 
-Morphs and Layers have great synergy as showcased in this video: https://www.youtube.com/watch?v=8oU7ZnTSkHA
+Morphs and Layers have great synergy, as showcased in this video: https://www.youtube.com/watch?v=8oU7ZnTSkHA
 ## Shape Keys/ Layers
 #### 🟠 Shape Keys
 
@@ -278,7 +278,7 @@ Morphs and Layers have great synergy as showcased in this video: https://www.you
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪🟠|Extrude|**ZBrush:** ZModeler QMesh/ Extrude. **Blender:** Extrude or extrude menu for more options _(Alt + E)_
-|⚪🟠|Push Along Surface Normals or Shrink/Flatten|**Blender:** _(Alt+ S)_ Enabling `Offset Even` in the pop up window can often yield better results. **ZBrush:** While using QMesh or Extrude hold Shift
+|⚪🟠|Push Along Surface Normals or Shrink/Flatten|**Blender:** _(Alt+ S)_ Enabling `Offset Even` in the pop-up window can often yield better results. **ZBrush:** While using QMesh or Extrude hold Shift
 |⚪🟠|Mask + Transpose/ Move
 |⚪|Thick Skin|Caps the distance a mesh can go in or out, use this in combination with other tools _(Tool > Thick Skin)_
 |⚪|Extract|_(Tool > SubTool > Extract)_
@@ -320,7 +320,7 @@ From high to low
 
 **Recreate ZBrush's subdivisions in Blender**
 
-1. Add Multires modifier to low and and subdivision levels to it
+1. Add Multires modifier to low and subdivision levels to it
 2. Add Shrinkwrap to low, select the high and apply it
 
 Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
@@ -369,7 +369,7 @@ Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
 - Extrude does smart merges, smart merge chamfer step amount can be adjusted
 
 ### Inset
-- One can chose to inset entire poly group
+- One can choose to inset entire poly group
 - Clicking on other face gives them the last inset amount
 - Ctrl and shift for more
 
@@ -384,7 +384,7 @@ Used for fishnet stockings, fences and nets.
 🟠 >
 
 **Square grid to Diamond grid (quad based)**
-- Un-Subdivide and in the pop up window, set Iterations to 1
+- Un-Subdivide and in the pop-up window, set Iterations to 1
 - Poke Faces then Tris to Quads
 - Armored Vitaly Poke (best result)(Armored scripts addon)
 

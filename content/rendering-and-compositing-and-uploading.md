@@ -36,7 +36,7 @@ enableToc: true
 >
 >- Great characters and props as well as environments
 >- Very good for complex lighting
->- The single best showcase for the simple reason that if people see it runs properly in a game engine they know it's well optimized
+>- The single best showcase for the simple reason that if people see it runs properly in a game engine they know its well optimized
 
 >[!info] Sketchfab rendering
 >
@@ -49,7 +49,7 @@ enableToc: true
 
 ### Render Resolution/ Aspect Ratio
 
-First of all, one should look at what device will be viewing the art. Most displays of PC's, laptops, phones, TV's with the exception of tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
+First of all, one should look at what device will be viewing the art. Most displays of PCs, laptops, phones, TVs with the exception of tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
 
 This means that when rendering, it's good to stick with one of these 16:9 resolutions.
 

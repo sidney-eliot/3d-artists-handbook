@@ -4,7 +4,7 @@ enableToc: true
 ---
 
 ## Overview
-This pipeline will allow for any character that is rigged in a certain way to be seamlessly imported into unreal and use pre-made unreal animations as well as one's own animations. What this pipeline also allows for is for creating character with more arms or maybe more neck bones and still use all the animations from the store as well as one's own animations made for character with a normal skeleton. Through retargeting, any animations, even with totally other skeletons, can be retargeted to yours.
+This pipeline will allow for any character that is rigged in a certain way to be seamlessly imported into unreal and use pre-made unreal animations as well as ones own animations. What this pipeline also allows for is for creating character with more arms or maybe more neck bones and still use all the animations from the store as well as ones own animations made for character with a normal skeleton. Through retargeting, any animations, even with totally other skeletons, can be retargeted to yours.
 
 ## Some Important Concepts to Understand
 ### Correct Pose for Animation Retargeting

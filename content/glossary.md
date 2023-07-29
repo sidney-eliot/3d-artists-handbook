@@ -15,7 +15,7 @@ Ambient Occlusion (AO) is a shading and rendering technique used to calculate ho
 > 
 > - Softens the overall lighting in your scene
 > - Adds depth
-> - Can be used as a budget [[Glossary#Ray Tracing|ray traced]] occlusion
+> - Can be used as a budget [[glossary#Ray Tracing|ray traced]] occlusion
 > - Requires high resolution light maps to look good
 
 |Ambient Occlusion Off|Ambient Occlusion On
@@ -38,7 +38,7 @@ Ray tracing is a broad term and consists of many smaller things like:
 - Ray Traced Shadows
 - Ray Traced Reflections
 - Ray Traced Lighting
-- Ray Traced [[Glossary#Ambient Occlusion|Ambient Occlusion]]
+- Ray Traced [[glossary#Ambient Occlusion|Ambient Occlusion]]
 - Ray Traced Global Illumination [[1]](https://developer.nvidia.com/rtx/ray-tracing/rtxgi)[[2]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@15.0/manual/Ray-Traced-Global-Illumination.html)
 - Ray Traced Translucency
 
@@ -490,7 +490,7 @@ Handedness has influence over: Object transforms, Normal maps, rigs/ animations,
 Normal maps can either be Direct X or Open GL. To go from one to the other, the green channel from the normal maps needs to be flipped.
 
 #### Handedness with Objects
-For objects it's as following:
+For objects it's as follows:
 
 |Handedness|Cords|Software
 |:-:|:-:|:-:
