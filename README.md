@@ -3,7 +3,7 @@ https://epicrex.github.io/3d-artists-handbook<br>
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
 
-_(Or view the raw pages on the [hugo branch](https://github.com/Epicrex/3d-artists-handbook/tree/hugo))_
+_(You can see the raw pages here on the [hugo branch](https://github.com/Epicrex/3d-artists-handbook/tree/hugo))_
 # Info About This Handbook
 
 The 3D Artists Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-artists-handbook) and uses [Quartz](https://github.com/jackyzha0/quartz) and [Hugo](https://gohugo.io/) in the backend.
