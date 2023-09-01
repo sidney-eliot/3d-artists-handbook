@@ -27,3 +27,6 @@ You will need [Obsidian](https://obsidian.md/), which is a completely free note 
 1. Download the zip (and un-zip) or clone the repository from the [hugo branch](https://github.com/Epicrex/3d-artists-handbook/tree/hugo) (Click `<> Code` then click `Download ZIP`)
 2. Open Obsidian, click `Open folder as vault` and select the 3D Artist Handbook folder you just downloaded. Then open the "content" folder in obsidian and all the pages will be there for you to read.
 3. (optional) If you want to do this in a more clean way, then create a folder called "offline_3DArtisthandbook". Inside of that folder create another folder called "images". Then open the 3D Artist Handbook you just downloaded from GitHub, go to the "content" folder and copy paste those files into "offline_3DArtisthandbook". Lastly copy all the files (images) from the folder called "static" into your "images" folder in the "offline_3DArtisthandbook".
+
+
+~ Don't forget to give this repo a ✨ so you can easily get back to it. ~
