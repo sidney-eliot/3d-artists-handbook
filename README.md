@@ -29,4 +29,4 @@ You will need [Obsidian](https://obsidian.md/), which is a completely free note 
 3. (optional) If you want to do this in a more clean way, then create a folder called "offline_3DArtisthandbook". Inside of that folder create another folder called "images". Then open the 3D Artist Handbook you just downloaded from GitHub, go to the "content" folder and copy paste those files into "offline_3DArtisthandbook". Lastly copy all the files (images) from the folder called "static" into your "images" folder in the "offline_3DArtisthandbook".
 
 
-~ Don't forget to give this repo a ✨ so you can easily get back to it. ~
+**_Don't forget to give this repo a ✨ so you can easily get back to it._**
