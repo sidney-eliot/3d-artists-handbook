@@ -14,7 +14,7 @@ The 3D Artists Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-art
 - **Dark and Light Theme**🌑☀️ - Switch between the themes by clicking the sun sun/ moon buttons at the top right
 - **Backlinks**🔗 - At the bottom of every page (This is a feature that shows you what pages in the handbook link to the current page your on)
 - **Interactive Graph** - At the bottom of every page (This visualizes the structure of the handbook and shows which pages link to each other)
-- **Quickly return to Home Page**🏠🦑 - Click"🦑 3D Artist's Handbook" at the top of the page
+- **Quickly return to Home Page**🏠 - Click"🦑 3D Artist's Handbook" at the top of the page
 - **Collapsible Sections** - Found all over the handbook, can be expanded with a + or arrow down symbol
 - **Embeded YouTube Videos** - Allows playback of YouTube videos from directly within the handbook (If it makes sense I will also set some of the videos to start at a specific time)
 - **Instant Page Load Times**⏱️
