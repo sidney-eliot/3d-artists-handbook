@@ -59,11 +59,11 @@ This doesn't mean that ray tracing in its nature makes lighting and shadows wors
 
 ---
 
-### Sub Surface Scattering
+### Subsurface Scattering
 
-For the SSS maps there mostly is a `SSS Color Map` and sometimes a `SSS Control Map` and to help the SSS `Thickness Maps` are also often used.
+Subsurface scattering (SSS) is a rendering feature, which allows for objects to appear more alive by scattering light more realistically inside themselves. Though subsurface scattering mostly has a reddish glow, the color totally depends on what is on the `SSS Color Map` as well as the light source color. For the render engine to properly scatter the light it also needs to know how thick each area on the model is, for that the `Thickness Map` is used (A map which is also useful for other things than sub surface scattering). The `SSS Color Map` is sometimes also complemented with a `SSS Control Map`.
 
-Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate this in 3D, Sub Surface Scattering (SSS) maps are used in combination with thickness maps.
+Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate this in 3D, subsurface scattering (SSS) maps are used in combination with thickness maps.
 
 >[!info] Theory behind real life SSS (Transparency and Translucency)
 >
@@ -195,7 +195,8 @@ Blurs out things that are farther away from the focus point. The distance at whi
 ### DLSS and FSR
 - DLSS stands for Deep learning super sampling (Nvidia GPUs)
 - FSR stand for FidelityFX Super Resolution (AMD GPUs)
-- It is an image upscaling technology. Using deep learning to upscale lower-resolution images
+
+Both DLSS and FSR are basically the same thing, just developed by different companies. It's an image upscaling technology which uses deep learning to upscale lower-resolution images
 
 ---
 
