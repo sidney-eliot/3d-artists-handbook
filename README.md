@@ -4,4 +4,4 @@ All the written content and images are inside the `content` folder. Other than t
 
 ---
 
-Click [here](https://github.com/Epicrex/3d-artists-handbook), to go back to the main page of the **[3D Artist's Handbook](https://github.com/Epicrex/3d-artists-handboo)**.
+Click [here](https://github.com/Epicrex/3d-artists-handbook), to go back to the main page of the **[3D Artist's Handbook](https://github.com/Epicrex/3d-artists-handbook)**.
