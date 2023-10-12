@@ -10,13 +10,13 @@ The 3D Artist's Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-ar
 
 ### Handbook's Features
 - **Fully Available Offline** 📶❌ - You can download the entire handbook for offline reding, just follow [these](#how-to-read-the-handbook-offline) simple steps
-- **Read Time & Last Edit Date** ⏳📅- At the top of every page the average read time can be found as well as the date, when the page was last edited
 - **Universal Search** 🌍🔍 - On the top left or top of every page, is a search field which can be used to search for headers or words all across the handbook 
 - **Dark and Light Theme** 🌑☀️ - Beside the search bar of every page, is a sun/ moon icon, which are used to switch between the light and dark mode
 - **Backlinks** 🔗 - On the left side or bottom of every page, is a backlink section in which you can view all other pages that link to the current page you're on
 - **Interactive Graph** 🗺️ - At the bottom of every page, is a spider web of connections, this visualized how the pages link to each other (One can zoom in and out, pan the view, click the dots to navigate to the pages and click the little icon at the top right of the box to enlarge the box)
 - **Quickly Return to Home Page** 🏠 - On the right or top of every page, is the title "🦑 3D Artist's Handbook". Clicking this will send you back to the home page
 - **Embedded YouTube Videos** ▶️ - All videos found across the handbook are embedded YouTube videos. This gives the videos nice thumbnails and allows for them to be played directly within the handbook. If it makes sense, I have also set the videos to start at a specific time.
+- **Read Time & Last Edit Date** ⏳📅- At the top of every page the average read time can be found as well as the date, when the page was last edited
 - **Instant Page Load Times** ⏱️ - There are no load times when clicking on links to other internal pages
 - **Collapsible Sections** - Collapsible sections are found all over the handbook. They can be expanded with the `ᐯ` (arrow down) icon
 - Work in progress: **Handbook Navigation Sidebar**
