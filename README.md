@@ -10,6 +10,7 @@ The 3D Artist's Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-ar
 
 ### Handbook's Features
 - **Fully Available Offline** 📶❌ - You can download the entire handbook for offline reding, just follow [these](#how-to-read-the-handbook-offline) simple steps
+- **Read Time & Last Edit Date** ⏳📅- At the top of every page the average read time can be found as well as the date, when the page was last edited
 - **Universal Search** 🌍🔍 - On the top left or top of every page, is a search field which can be used to search for headers or words all across the handbook 
 - **Dark and Light Theme** 🌑☀️ - Beside the search bar of every page, is a sun/ moon icon, which are used to switch between the light and dark mode
 - **Backlinks** 🔗 - On the left side or bottom of every page, is a backlink section in which you can view all other pages that link to the current page you're on
