@@ -6,7 +6,7 @@ I'm happy to hear any feedback and requests on things to improve or add, just me
 _(You can see the raw pages here on the [v4 branch](https://github.com/Epicrex/3d-artists-handbook/tree/v4))_
 # Info About this Handbook
 
-The 3D Artist's Handbook lives on [GitHub Pages](https://epicrex.github.io/3d-artists-handbook) and uses [Quartz](https://github.com/jackyzha0/quartz) as frontend and [node.JS](https://nodejs.org/en) as backend.
+The [3D Artist's Handbook](https://epicrex.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/Epicrex/3d-artists-handbook/actions) and uses [Quartz](https://github.com/jackyzha0/quartz) as frontend and [node.JS](https://nodejs.org/en) as backend.
 
 ### Handbook's Features
 **Fully Available Offline** 📶❌<br>
