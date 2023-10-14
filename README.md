@@ -1,4 +1,4 @@
-# Visit the 3D Artists Handbook
+# Visit the 3D Artist's Handbook
 https://epicrex.github.io/3d-artists-handbook<br>
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
