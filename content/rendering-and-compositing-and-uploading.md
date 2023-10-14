@@ -8,7 +8,7 @@ enableToc: true
 ## Rendering
 
 ### Render Engines
-|Renderer|Pre-Rendering|Real-Time Rendering|Showcase
+|Renderer|Pre-Rendering|Real-time Rendering|Showcase
 |:--|:-:|:-:|:-:
 |**Marmoset Toolbag**|✅ Very Good| ✅Very Good|✅ Very Good
 |**Unreal Engine**|✅ Very Good|✅ Very Good|✅ Very Good|
@@ -36,7 +36,7 @@ enableToc: true
 >
 >- Great characters and props as well as environments
 >- Very good for complex lighting
->- The single best showcase for the simple reason that if people see it runs properly in a game engine they know its well optimized
+>- The single best showcase for the simple reason that if people see it runs properly in a game engine they know it's well optimized
 
 >[!info] Sketchfab rendering
 >
@@ -49,7 +49,7 @@ enableToc: true
 
 ### Render Resolution/ Aspect Ratio
 
-First of all, one should look at what device will be viewing the art. Most displays of PCs, laptops, phones, TVs with the exception of tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
+Firstly, one should look at what device will be viewing the art. Most displays of PCs, laptops, phones, TVs except for tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
 
 This means that when rendering, it's good to stick with one of these 16:9 resolutions.
 
@@ -79,7 +79,7 @@ Your final art pieces renders should mostly not exceed 3840 × 2160 (this obviou
 
 Note that even though an aspect ratio of 16:9 is good as a default, choosing the aspect ratio is an artistic choice in itself. For a landscape one would maybe want a more wide image, or if one is showcasing details of a character's armor, a square aspect ratio could look nice and better suit the purpose.
 
-Lastly, there's a trick to circumvent resolution caps websites set for uploading art. By splitting the image into 2 or more commonly 3 parts, and displaying them above each other one gets far more resolution with the downside of small gaps in between the images (this works best with portrait oriented images). 
+Lastly, there's a trick to circumvent resolution caps websites set for uploading art. By splitting the image into 2 or more commonly 3 parts, and displaying them above each other, one gets far more resolution with the downside of small gaps in between the images (this works best with portrait oriented images). 
 
 [Here's](https://magazine.artstation.com/2017/01/maximizing-images-artstation/) ArtStation's take on it, and as they say don't use this method if you just want the image to display big, but if you want to be able to upload higher resolution images.
 
@@ -114,7 +114,7 @@ To-Do
 
 
 ### Wireframe Rendering
-Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both pre rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag/ Unreal best for real-time wireframe showcase and Blender/ Marmoset Toolbag best for pre rendered wireframe showcase.
+Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both pre rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag/ Unreal Engine best for real-time wireframe showcase and Blender/ Marmoset Toolbag best for pre rendered wireframe showcase.
 
 
 >[!info] Marmoset Toolbag wireframe rendering
@@ -154,7 +154,7 @@ Good Blender addons for rendering:
 
 #### Rendering Bloom (Blender)
 
-This is a viable way of doing it, but often it's better to add bloom during post-processing in the compositing software instead.
+This is a viable way of doing it, but often it's better to add bloom during post processing in the compositing software instead.
 
 To-Do: Explain why EXR file format best for rendering bloom
 
@@ -199,7 +199,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >|Pass|Use|Explanation
 >|:--|:-:|:-:
 >|**Combined**|yes|All render passes
->|**Z/ Depth**|yes|Great for atmospherics/ volumetrics and object blending. Mist pass is the same as z/depth pass just that the z/depth pass is not configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0 m and depth to the farthest point in scene. Also, z/ depth pass isn't anti aliased
+>|**Z/ Depth**|yes|Great for atmospherics/ volumetrics and object blending. Mist pass is the same as z/depth pass, just that the z/depth pass isn't configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0 m and depth to the farthest point in scene. Also, z/ depth pass isn't anti aliased
 >|**Mist**|yes|(Same as Z/ Depth)
 >|**Normal**|no|
 >|**Diffuse/ Specular**|depends|
@@ -239,7 +239,7 @@ In Marmoset, one can either pre render shots or go the real-time route with Marm
 ## Compositing
 ### Compositing Software
 
-|Software|Area of use|Perfomance|Compositing features
+|Software|Area of use|Performance|Compositing features
 |:-:|:-:|:-:|:-:
 |Photoshop|📷Image compositing|Very fast|The most|
 |Clip Studio Paint|📷 Image compositing||Missing some more obscure features
@@ -272,9 +272,13 @@ To-Do
 >- Export as sRGB not as `Embeded Color Profile`
 
 >[!example] Great showcase examples
->
 >**Art showcase playlist**
+>
+><div style="text-align: center;">
+>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+><div style="text-align: left;">
 >
 >**Turn table animations**
 >- https://www.artstation.com/artwork/zOoGNw

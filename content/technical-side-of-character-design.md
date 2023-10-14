@@ -9,7 +9,7 @@ enableToc: true
 >**Articles**
 >- [80 lv Character Articles](https://80.lv/articles/character-art/)
 >- [Marmoset Character Creation Articles](https://marmoset.co/category/toolbag-tutorials/character/)
->- [Real-Time Character Production Workflow (Samurai)](https://discover.therookies.co/2021/05/06/real-time-character-production-workflow-for-games/)
+>- [Real-time Character Production Workflow (Samurai)](https://discover.therookies.co/2021/05/06/real-time-character-production-workflow-for-games/)
 >
 >**Breakdown/ Showcase**
 >- [Stylized Character Presentation in Toolbag](https://marmoset.co/posts/stylized-character-presentation-in-toolbag/)
@@ -25,7 +25,7 @@ enableToc: true
 
 
 ## Important Conventions to Follow
-- Use `A pose`, it's the most neutral pose and the closet pose to industry standard rigs, like the UE rig. The `T pose` is the second best but also not very good because it makes sculpting the shoulders quite hard and does not match industry standards
+- Use `A pose`, it's the most neutral pose and the closet pose to industry standard rigs, like the UE rig. The `T pose` is the second best but also not very good because it makes sculpting the shoulders quite hard and doesn't match industry standards
 - Make sure measurements are correct, `around 1.7m` for an average character (This will make shadows, physics and more, more accurate. And has many other benefits)
 - Make sure the character is `pointing to the front`
 - Work on the left side of the character (from the character's perspective) and mirror to the right, this helps with Blender addons, marmoset skew painting and more. In ZBrush however, work on the right side because of mirror and weld
@@ -49,7 +49,7 @@ enableToc: true
 
 ## Rundown of the Optimal Workflow
 
-Depending on if the model is hard surface or organic, the workflow will look a bit different. However, it is totally possible to do everything with the organic workflow. The organic workflow is mainly in ZBrush or if you don't have ZBrush, Blender's sculptor.
+Depending on if the model is hard surface or organic, the workflow will look a bit different. However, it is totally possible to do everything with the organic workflow. The organic workflow is mainly in ZBrush or, if you don't have ZBrush, Blender's sculptor.
 
 1. Use a combination of ZBrush and your favorite modeling application to finish the high model
 2. Retopologize the high model in Blender, deciding what detail to keep and what detail to banish into the baked normal map
@@ -60,8 +60,8 @@ Depending on if the model is hard surface or organic, the workflow will look a b
 
 All these steps are covered in far great detail in this handbook.
 
-If a piece is more hard surface, and you decide to not use ZBrush, but your modeling software instead, then make sure not to care about topology when modeling. Only make sure the high with all its bevels and SubDiv looks good. It's however a good idea to work as no-destructively as possible (and when going destructive to keep backups of the non destructive pieces). This is done, so one can salvage high pieces to quickly create the retopology.
+If a piece is more hard surface, and you decide to not use ZBrush, but your modeling software instead, then make sure not to care about topology when modeling. Only make sure the high with all its bevels and SubDiv looks good. It's however a good idea to work as no-destructively as possible (and when going destructive to keep backups of the non-destructive pieces). This is done, so one can salvage high pieces to quickly create the retopology.
 
 ## 🚧Work in Progress🚧
 - Have as much as logically possible merged together, to make rigging easy
-- Have as little overlaying geo as possible, to avoid rigging issues
+- Have as little overlaying meshes/ faces as possible, to avoid rigging issues

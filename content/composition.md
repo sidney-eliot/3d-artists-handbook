@@ -35,9 +35,8 @@ Great composition is achieved through:
 
 
 > [!example]- Videos about Composition
-> 
-><br>
 ><div style="text-align: center;">
+>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JuEkb6FNptE?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O8i7OKbWmRM?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Zbi_XUtb1Mk?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -220,9 +219,8 @@ Another example of how to properly balance an image:
 Moving to the left/ right, forward/ backward and so on, can portray different things in an image/ animation. Things like emotion, intent, power. (This can also apply to the direction in which the character is facing).
 
 >[!example]- Links
->
-><br>
 ><div style="text-align: center;">
+>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ys8-a0yD-MM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ></div>
 >
@@ -263,9 +261,8 @@ Used to get straight lines in renders/ photographs and for panoramas. It's mainl
 >![[Pasted image 20230604162454.png]]
 
 >[!example]- Links
->
-><br>
 ><div style="text-align: center;">
+>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OeAXYgMwbyw?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gvV5sINKnT8?start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ></div>

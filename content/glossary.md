@@ -242,7 +242,7 @@ Used for objects that require some form of transparency. By taking advantage of 
 > 
 > - Thin cloth/ Nylon
 > - Jellyfish
-> - Allot of female clothing
+> - A lot of female clothing
 
 #### Additive
 Takes the pixels of the Material and adds them to the pixels of the background (Like PS Linear Dodge (Add))
@@ -257,7 +257,7 @@ Multiplies the values of the Material against the pixels of the background.
 ### Object Properties
 
 #### Transparent
-- With transparent objects almost all light passes directly through them. 
+- With transparent objects, almost all light passes directly through them. 
 - One can clearly see what's behind transparent objects
 
 > [!example] Transparent Examples
@@ -284,7 +284,7 @@ Multiplies the values of the Material against the pixels of the background.
 
 ### Light Ray
 - In air light rays travel as straight lines
-- A light ray that hits a surface is called the `incident ray` and the light that bounces of a surface is called the `reflected ray`
+- A light ray that hits a surface is called the `incident ray` and the light that bounces off a surface is called the `reflected ray`
 - When the light ray hits an `opaque surface` the `reflected angle` is the `same` as the `incidence angle`
 - When a light ray hits opaque surface one of two events occur:
     1. Incident light ray hit surface and `bounces off` in the same angle `(reflected light)`
@@ -334,8 +334,8 @@ Examples:
 ### Diffuse Reflection
 
 - Diffuse reflection is light that has been refracted
-- Light ray hits surface, enters the object, is scattered multiple times and finally is refracted out of the object at the same point it entered the object
-- Most diffuse materials have high absorption so for the light to leave the object it can only travel(scatter) short distances within the object
+- Light ray hits a surface, enters the object, is scattered multiple times and finally is refracted out of the object at the same point it entered the object
+- Most diffuse materials have high absorption so for the light to leave the object it can only travel (scatter) short distances within the object
 - Materials with both high scattering and low absorption are called translucent or participating materials
 - The outgoing direction of the ray is fairly independent of surface roughness and the incident direction
 - Surface irregularities are referred to as roughness, smoothness, glossiness or 
@@ -415,6 +415,7 @@ Tessellation (Triangulation) is the process of the converting faces to random ev
 _[[Wikipedia](https://en.wikipedia.org/wiki/Color_depth)] - [[Polycount](http://wiki.polycount.com/wiki/BitDepth)] - [[Photoshop Doc](https://helpx.adobe.com/photoshop/using/bit-depth.html)]_
 
 >[!example]- Bit depth explanation (videos)
+><div style="text-align: center;">
 >
 >**Bit depth explanation**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y-wSHpNJs-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -437,19 +438,19 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 
 >[!info] Max amount of unique values per channel
 >
->1 bit Image (Integer):
+>1 bit image (Integer):
 >```
 > 2 Tone Values >>> Black/ 0 and White/ 1
 >```
->8 bit Image (Integer):
+>8 bit image (Integer):
 >```
 > 256 Tone Values >>> 256 Reds x 256 Greens x 256 Blues = 16.7 Million RGB Values
 >```
->16 bit Image (Integer/ Float):
+>16 bit image (Integer/ Float):
 >```
 > 65,536 Tone Values >>> 65,536 Reds x 65,536 Greens x 65,536 Blues = 281 Trillion RGB Values
 >```
->32 bit Image (Integer/ Float):
+>32 bit image (Integer/ Float):
 >```
 >4,294,967,295 Tone Value
 >```
@@ -499,13 +500,13 @@ For objects it's as follows:
 |Right Handed (Open GL)|Z-Up|Blender, 3ds Max, CryENGINE
 |-|-|-
 |Left Handed (Direct X)|Y-Up|ZBrush, Unity, Cinema 4D, Light Wave
-|Left Handed (Direct X)|Z-Up|Unreal
+|Left Handed (Direct X)|Z-Up|Unreal Engine
 
 Software that supports both Left and Right handedness: Blender, Substance, IClone
 
-The X is in all software the Right vector (Left/Right). The Y and X can either be Forward vector (Forward/Back or Back/Forward) or the Up vector (Up/Down or Down/Up).
+The X is in all software the Right vector (Left/Right). The Y and X can either be the Forward vector (Forward/Back or Back/Forward) or the Up vector (Up/Down or Down/Up).
 
-It's important to use the same space for an assets and it's textures. When working with software that has different spaces this can be done by switching channels at export.
+It's important to use the same space for an assets and its textures. When working with software that has different spaces, this can be done by switching channels at export.
 
 ---
 
@@ -538,7 +539,7 @@ To-Do
 ## Baking
 
 ### Floaters
-Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save a lot of time because one does not actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
+Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save a lot of time because one doesn't actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
 
 ---
 

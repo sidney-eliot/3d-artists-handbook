@@ -44,6 +44,8 @@ Normals/ shading are very important and can dramatically alter the bake. Bad nor
 >
 >- [Making sense of hard edges, uvs, normal maps and vertex counts](https://polycount.com/discussion/107196/making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts) (polycount)
 >  
+>  <div style="text-align: center;">
+>  
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ciXTyOOnBZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Following things will manipulate normals:
@@ -54,7 +56,7 @@ Following things will manipulate normals:
 
 >[!Info] Shading
 >
->How the shading is done on the high does not matter as long as the shading looks good. Most of the time shade smooth or no shading will give good results for hard surface objects, if the result has issues then the normals at those spots need to be manually manipulated until the result is as desired.
+>How the shading is done on the high doesn't matter as long as the shading looks good. Most of the time shade smooth or no shading will give good results for hard surface objects, if the result has issues then the normals at those spots need to be manually manipulated until the result is as desired.
 >
 >**Hard Surface**
 >After UV unwrapping, select the seams and mark them as sharp edges. This works for almost all seams. There will however be some seams where the sharp edges should be removed again, on flat surfaces for example. Then turn on auto smooth or use [Hard Ops](https://hardops-manual.readthedocs.io/en/latest/). Problems can often be fixed by setting smooth angle to 100°. If the shading looks bad at the center mirror point of some objects, add a sharp edge along the center line.
@@ -90,7 +92,7 @@ Look at the [[uv-unwrapping|UV Unwrapping]] page.
 The name indicates the low and high match, however it doesn't indicate what is put on the same atlas, that depends on what was exported together in the same file. Numbers can be added to match more highs with a low. Use batch renamer to rename objects.
 - Needs to end with ```..._low``` or can also be ```..._low_...``` (Marmoset)
 - Not case-sensitive
-- 1/01/001 all works as long as its consistent
+- 1/01/001 all works as long as it's consistent
 - Adding no number is fine if there's only one low/ high
 
 ```
@@ -107,7 +109,7 @@ This is a convenience step which makes masking easier and more precise. T
 
 Color ID mapping is a convenience step. The color ID maps save time down the line and can get more precise texturing results. Note however that they can also have the opposite effect because of having to fiddle with masking the colors and the initial setup needed to be able to render them. For more organic models, hand panting masks while texturing is often faster without ad drop in quality. So in general, doing this step is up to personal preference.
 
-When baking the color ID maps, make sure the colors are flat, so no [[glossary#Anti-Aliasing|anti aliasing]]. If the baker doesn't support that, Substance Painter has a tolerance slider for the ID map, which is fine as a last resort. The colors should also be as unique as possible from each other.
+When baking the color ID maps, make sure the colors are flat, so no [[glossary#Anti-Aliasing|anti-aliasing]]. If the baker doesn't support that, Substance Painter has a tolerance slider for the ID map, which is fine as a last resort. The colors should also be as unique as possible from each other.
 
 >[!info] Baking color ID maps
 >

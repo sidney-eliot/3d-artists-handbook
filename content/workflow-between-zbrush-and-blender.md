@@ -7,12 +7,12 @@ The reason why [GoZ/ GoB](https://github.com/JoseConseco/GoB/releases) is so goo
 
 ### Things to Be Aware Of
 
-These are important things to understand about ZBrush so you can properly use GoB.
+These are important things to understand about ZBrush, so one can properly use GoB.
 
 - SubTool history is kept when re-importing an object into ZBrush
 - If you rename an object sent from ZBrush to Blender, and send it back to ZBrush it will not overwrite the SubTool but create a new one. This can sometimes be desired
-- Currently (As of version 3.5.85) GoB does not use ZBrush's export offset
-- Origin does not matter when exporting to ZBrush. The relation from the object volume to the world origin is what matters
+- Currently (As of version 3.5.85) GoB doesn't use ZBrush's export offset
+- Origin doesn't matter when exporting to ZBrush. The relation from the object volume to the world origin is what matters
 - To get the desired size for exporting instead of changing the unit size, you should change the GoB addon export scale inside of Blender
 
 
@@ -34,7 +34,7 @@ These are important things to understand about ZBrush so you can properly use Go
 
 ### Units & Size
 **-About Units-** 
-ZBrush works with their own generic unit system which is called units. It's important that the entire model is always around the size of `2 units cubed` (XYZ size). Don't be too specific about this, 5 units is still fine. Staying close to this size helps tools, brushes and DynaMesh work properly.
+ZBrush works with their own generic unit system, which is called units. It's important that the entire model is always around the size of `2 units cubed` (XYZ size). Don't be too specific about this, 5 units are still fine. Staying close to this size helps tools, brushes and DynaMesh work properly.
 
 **-Viewing Units & Size-**
 There are 2 ways of viewing the units of SubTools. Either in the Size tab (Tool > Geometry > Size), or by using the legacy transpose tool. The legacy transpose tool will show a different units value than the size tab because it calculates `Units Size * Export Scale` instead of `Units Size`. Use booth depending on what value you want
@@ -72,12 +72,12 @@ The floor dynamically repositions in order to make sure that it's always below t
 >- Export scales/ offsets are individual for every Tool
 >- A SubTool of `2 units` with a `export scale of 0/1` will import into Blender as `2m`
 >- A SubTool of `2 units` with a `export scale of 3` will import into Blender as `6m`
->- Y `Offset of 1` will place the characters feet perfectly on the world origin in Blender and `-1` will make the head be under the world origin (this is not influenced by the export scale or SubTool units amount)
+>- Y `Offset of 1` will place the characters feet perfectly on the world origin in Blender and `-1` will make the head be under the world origin (this isn't influenced by the export scale or SubTool units amount)
 >- Always make sure X and Z offset is `0`
 
 >[!example]- More about ZBrush's units/ scale system (videos)
+><div style="text-align: center;">
 >
-><br>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4D6vkeCy6rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n2xPrwI9o1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 >
@@ -86,6 +86,6 @@ The floor dynamically repositions in order to make sure that it's always below t
 
 
 ### Manual Exporting & Importing
-ZBrush works best with FBX. OBJ/ Extended OBJ can't export things like polygroups. Also, importing OBJs will merge all objects into one SubTool, FBX imports every object as a separate SubTool.
+ZBrush works best with FBX. OBJ/ Extended OBJ can't export things like Polygroups. Also, importing OBJs will merge all objects into one SubTool, FBX imports every object as a separate SubTool.
 
 Let's say manually we import an object into ZBrush that's 1.8 m high. ZBrush will make its units as close to 2 as possible, so one can nicely work with it, the important thing however is that it will change the export scale for that object to for this example 0.8. It will also properly adjust the offset values. This is done so when exported back to the original application the model came from, the scale and location stays preserved.

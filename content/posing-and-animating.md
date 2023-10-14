@@ -7,10 +7,10 @@ enableToc: true
 
 # Exporting animations
 ### Actions
-This refers to a timeline containing keyframes of an animation. All animations can be in one action or separated into single actions(run, idle, shoot,...), both methods are fine however separating every animation into a separate actions can make things easier.
+This refers to a timeline containing keyframes of an animation. All animations can be in one action or separated into single actions (run, idle, shoot, ...), both methods are fine, however separating every animation into a separate actions can make things easier.
 
 ### File format
-The only 2 file formats one can really use are .fbx and .abc(Alembic). 
+The only 2 file formats one can really use are .fbx and .abc (Alembic). 
 
 ### Prepping Mesh Before Export
 - Make sure all scales are set to 1
@@ -39,7 +39,7 @@ Quaternion (WXYZ): Fixes rotation problems, but has the drawback that it can't r
 Specific rotations can also be achieved with parenting the object to a empty and making both the parent and child rotate differently for both rotations to be mixed.
 
 
-## other
+## Other
 
 Turn off IK stretch for arms legs and head
 

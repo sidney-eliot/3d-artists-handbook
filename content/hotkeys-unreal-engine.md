@@ -45,7 +45,7 @@ enableToc: false
 |Rename|**`F2`**
 |Toggle post processing|**`P`**
 |Redo|**`Ctrl`** + **`Y`**
-|Realtime|**`Ctrl`** + **`R`**
+|Real-time|**`Ctrl`** + **`R`**
 |Multi Scale Tool|??? Ctrl + M
 |Group / Ungroup|**`Ctrl / Shift`** + **`G`**
 |Create Folder|**`Ctrl`** + **`Shift`** + **`N`**

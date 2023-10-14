@@ -3,9 +3,8 @@ title: "💇🏽‍♀️ Hair"
 enableToc: true
 ---
 >[!example]- All kinds of hair methods (video playlist)
-> 
-><br>
-
+><div style="text-align: center;">
+>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ></div>
 
@@ -23,7 +22,7 @@ I recommend starting every haircut with a base sculpt. Refine this sculpt until 
 ## Good Software for Making Hair
 - **[Hair Strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-68-2-full-perpetual-license-free-demo-and-sample-set)** is a great software for creating high quality realistic hair cards quickly. But less useful for stylized anime hair, for example.
 
-- **Blender** is a S-Tier tool for creating hair of any style, since the 3.3 update
+- **Blender** is an S-Tier tool for creating hair of any style, since the 3.3 update
 
 - **XGen** is a **Maya** hair engine, good for making particle hair
 
@@ -62,7 +61,7 @@ To-Do: Add industry examples
 
 ### Creating Hair Cards
 #### Different Ways To Make Hair
-There are a couple of ways of getting hair cards. The easiest is to look for pre made ones. Another good way is to use software like [Hair strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-67-5-full-perpetual-license-free-demo-and-sample-set). Software like this creates all different maps for you. The last and most time costly way is to use particle systems to create hair and then to render some of the maps and use PS or other software to generate the others.
+There are a couple of ways of getting hair cards. The easiest is to look for pre-made ones. Another good way is to use software like [Hair strand Designer](https://www.artstation.com/marketplace/p/j7PY/hair-strand-designer-v1-67-5-full-perpetual-license-free-demo-and-sample-set). Software like this creates all different maps for you. The last and most time costly way is to use particle systems to create hair and then to render some of the maps and use PS or other software to generate the others.
 
 #### What to Put on the Hair Card
 The hair card contains the **hair**, but also **eyebrows** and **eyelashes**.
@@ -80,6 +79,7 @@ For hair strands, there should be the following:
 #### Needed Texture Maps
 
 >[!example]- Creating hair card texture maps (videos)
+><div style="text-align: center;">
 >
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lqpQd2vcahs?start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 >
@@ -100,8 +100,8 @@ But to get the desired hair look, there are many others that are often used.
 
 |Map|Explained
 |:-:|:--
-|**Mask**|Decides which parts of the hair are rendered and which not(so only black and white texture map). In Blender this would be alpha clip and in unreal masked blend. This is the best alpha mode performance wise.
-|**Alpha**|Decides which parts of the hair are rendered and which not. The difference to the mask however being, that here values between black and white are accepted. In Blender this would be alpha hashed and in unreal translucent blend.
+|**Mask**|Decides which parts of the hair are rendered and which not(so only black and white texture map). In Blender this would be alpha clip and in Unreal Engine masked blend. This is the best alpha mode performance wise.
+|**Alpha**|Decides which parts of the hair are rendered and which not. The difference to the mask however being, that here values between black and white are accepted. In Blender this would be alpha hashed and in Unreal translucent blend.
 |**Mask and Alpha synergy**|There is no way of getting around using an alpha texture, however, one can make the performance better by also making a mask texture. The mask texture then exclude a good amount of the texture from being rendered which would have used extra performance. 
 |-|-
 |**Color (length)**|For albedo color
@@ -113,16 +113,19 @@ But to get the desired hair look, there are many others that are often used.
 |**Normal**|Explained in texture page.
 |**AO**|Adds shadows into crevices and to those spots where shadows should be
 |**Depth**|Can be used for parallax displacement mapping to give the hair more depth, or just like AO add a tint for some general depth for better performance than AO but not looking as good.
-|**Flow**|2D vector maps similar to normal maps. However, unlike normal maps, the data is not representing a surface normal but instead a general flow from one direction to another. This can create many effects, but for hair it's used for anisotropy highlights.
+|**Flow**|2D vector maps similar to normal maps. However, unlike normal maps, the data doesn't represent a surfaceses normals, but rather the general flow from one direction to another. This can create many effects, but for hair it's used for anisotropy highlights.
 
 ### Placing Hair Cards
 
 >[!tip] Strategies
 >
->- It often helps to sculpt a sphere of the rough shape of the hairstyle to be able to place the hair cards easier
->- Start with a base to cover the scalp and then start designing the hair. Another way to do this to bake hair into the head texture map so that the scalp is not bare skin
->- When placing the hair, it's fine to move the hair both in object and edit mode
->- When placing the hair card slowly start adding loops horizontally and vertical. Curving the mesh around the head is important and makes this method really look good, flat hair card meshes will result in bad looking hair
+>- It can be quite helpful to first sculpt a sphere into the rough shape and silhouette of the hairstyle. It makes placing the hair cards a lot quicker and easier.
+>- Next, make sure no bare skin of the scalp will be visible. This is important because unlike real hair, one doesn't have the luxury in 3D to give the character millions of hair strands. The two methods of achieving this are. Placing a very dense "base" hair card on the head, that covers all the areas where hair roots will be. Or another popular method is to include the base hair that covers the scalp directly into the head texture map by baking or texturing it in. Both methods have their advantages and disadvantages.
+
+
+
+>- While placing the hair cards, one can move the hair either in object or edit mode
+>- While placing the hair cards, slowly start adding loops horizontally and vertically. Curving the mesh around the head is important to make this method really look good, flat hair card meshes will result in bad looking hair
 
 >[!warning] Things to watch out for
 >
@@ -147,6 +150,7 @@ But to get the desired hair look, there are many others that are often used.
 >- Place a flat colored neutral gray (#7F7F7F) background behind the hair (this is done to help the [[glossary#Anti-Aliasing|anti aliasing]] by bouncing softer light and thus producing crisper edges)
 
 >[!example]- Rendering Hair Cards (videos)
+><div style="text-align: center;">
 >
 >**Procedural render setup**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqjKMd9CYI4?start=1299" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -159,7 +163,7 @@ But to get the desired hair look, there are many others that are often used.
 
 ## Curve/ Array Hair
 
-This method consists of a couple of key concepts. Instead of placing the hair, a curve is placed which generates a hair strand in its place which follows the curve's shape. This makes it very easy to move and twist the hair strands, as one does not have to work about topology. To display the hair strand along the path of the curve a shape is used, in Blender this shape is represented by a circle curve. This shape is then used by the curve to generate the hair mesh. This means that one can on a whim change the shape of the hair.
+This method consists of a couple of key concepts. Instead of placing the hair, a curve is placed which generates a hair strand in its place which follows the curve's shape. This makes it very easy to move and twist the hair strands, as one doesn't have to work about topology. To display the hair strand along the path of the curve a shape is used, in Blender this shape is represented by a circle curve. This shape is then used by the curve to generate the hair mesh. This means that one can on a whim change the shape of the hair.
 
 Mostly one will have a couple of different shapes to bring variety into the haircut and assigns the shapes individual to curves.
 
@@ -177,9 +181,9 @@ This method also easily allows changing the topology resolution of the hair.
 >- Make sure to use resolution increase instead of SubDiv on Bevel Profile object for hair curve
 
 ## Particle System Hair
-Particle Hair can be very time-consuming and frustrating to make, as well as not being the best option for Real-Time use. It can however be quite useful for making hair cards. Particle hair especially shines with a Hyper-Realistic art style and when the hair will be involved in a lot of physics heavy actions like wind, fighting and other hair interactions.
+Particle Hair can be very time-consuming and frustrating to make, as well as not being the best option for real-time use. It can however be quite useful for making hair cards. Particle hair especially shines with a Hyper-Realistic art style and when the hair will be involved in a lot of physics heavy actions like wind, fighting and other hair interactions.
 
-Though particle hair is currently not that Real-Time friendly, that definitely will change soon, it's the hair method which has the most space to improve, both in performance and ease of use.
+Though particle hair is currently not that real-time friendly, that definitely will change soon, it's the hair method which has the most space to improve, both in performance and ease of use.
 
 >[!info] Software with particle hair support
 >- Blender

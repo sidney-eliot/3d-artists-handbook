@@ -4,26 +4,26 @@ enableToc: true
 ---
 
 ## Overview
-This pipeline will allow for any character that is rigged in a certain way to be seamlessly imported into unreal and use pre-made unreal animations as well as ones own animations. What this pipeline also allows for is for creating character with more arms or maybe more neck bones and still use all the animations from the store as well as ones own animations made for character with a normal skeleton. Through retargeting, any animations, even with totally other skeletons, can be retargeted to yours.
+This pipeline will allow for any character that is rigged in a certain way to be seamlessly imported into Unreal Engine and use pre-made Unreal Engine animations as well as one's own animations. What this pipeline also allows for is for creating character with more arms or maybe more neck bones and still use all the animations from the store as well as one's own animations made for character with a normal skeleton. Through retargeting, any animations, even with totally other skeletons, can be retargeted to yours.
 
 ## Some Important Concepts to Understand
 ### Correct Pose for Animation Retargeting
-If the rest pose of the source and target don't quite match up, the animations won't perfectly transfer over. There are 3 ways of fixing it. The first way is to make sure that all the characters one makes have the same pose. This is quite unrealistic, though. The second way is to have uefy at export from Blender to match the pose. This has the disadvantage that the model is forcefully put in a slightly different rest pose, which can mess with the model(especially around the crotch and armpit area). The third way is to temporarily give the model a different pose in the IK retargeter, this pose is only for the retargeting of animations, and the character will keep it's original rest pose after animation export. This comes with the disadvantage of having to have all animations separate for every character with a different rest pose. All 3 ways have pros and cons. Just be aware that they don't have to perfectly line up, eyeballing it is fine. Also, a combination of multiple ways may be the best way.
+If the rest pose of the source and target don't quite match up, the animations won't perfectly transfer over. There are 3 ways of fixing it. The first way is to make sure that all the characters one makes have the same pose. This is quite unrealistic, though. The second way is to have uefy at export from Blender to match the pose. This has the disadvantage that the model is forcefully put in a slightly different rest pose, which can mess with the model (especially around the crotch and armpit area). The third way is to temporarily give the model a different pose in the IK retargeter, this pose is only for the retargeting of animations, and the character will keep its original rest pose after animation export. This comes with the disadvantage of having to have all animations separate for every character with a different rest pose. All 3 ways have pros and cons. Just be aware that they don't have to perfectly line up, eyeballing it is fine. Also, a combination of multiple ways may be the best way.
    - Way 1: Use a previously made character mesh and when making the character check if the pose matches
    - Way 2: (in Blender with uefy) [here](https://youtu.be/SAEuZM5Hp0g?t=84)
-   - Way 3: (in unreal with ik retargeter) [here](https://youtu.be/N7WdyAeeDrw?t=595)
+   - Way 3: (in Unreal Engine with ik retargeter) [here](https://youtu.be/N7WdyAeeDrw?t=595)
 
 Correcting the pose includes things like having the elbows bent at the right angle, or having the hand rotation match up
 
 ## 1. Install uefy Addon/ Script
-Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python addon. For the `pro version` simply install the addon (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It will create the same panel but with less functionality. It is important to know that the `light version` does not dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I will describe how to do it both with pro and lite.
+Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python addon. For the `pro version` simply install the addon (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It will create the same panel but with less functionality. It's important to know that the `light version` doesn't dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I will describe how to do it both with pro and lite.
 
 Rigify addon is also needed, but it's shipped with Blender. If it isn't already enabled, then enable it.
 
 ## 2. TODO: Fill the Blender part
 
 ## 3. Import into Unreal Engine
-- **Skeleton**: If this is the first character with this type of rig `don't select skeleton`. For every other character that has that same skeleton, `select that previously imported skeleton`. (If you bring in let's say a new race with 4 arms, then for the first character of that race, select no skeleton. After that select the previously imported 4 arm skeleton for every 4 arm character)
+- **Skeleton**: If this is the first character with this type of rig, `don't select skeleton`. For every other character that has that same skeleton, `select that previously imported skeleton`. (If you bring in let's say a new race with 4 arms, then for the first character of that race, select no skeleton. After that select the previously imported 4 arm skeleton for every 4 arm character)
 - **Skeletal Mesh**: Only `false` when "Skeleton" has a skeleton selected, otherwise `true`
 - **Import Mesh**: `true`
 - **Import Animation**: `false`
@@ -40,7 +40,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
 1. Inside the `Rigs` folder, create a new `Control Rig` (RMB>Animation>Control Rig)
 2. Rename the `Control Rig` to `CharacterName_ControlRig`
 3. Open the `Control Rig`
-4. Click `Import Hierarchy` and select the corresponding `Skeletal Mesh` that was just imported (sometimes the skeletal mesh is not selectable, this makes little sense, nut re-importing can fix it)
+4. Click `Import Hierarchy` and select the corresponding `Skeletal Mesh` that was just imported (sometimes the skeletal mesh isn't selectable, this makes little sense, nut re-importing can fix it)
 5. Compile, save and close the `Control Rig`
 
 ## 6. Create Procedural Control Rig Blueprint
@@ -104,7 +104,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
 1. Somewhere inside the folder of the animation pack, create a new `IK Rig` and select the corresponding `skeletal Mesh` of that animation pack(RMB>Animation>IK Rig)
 2. Rename the `IK Rig` to `AnimationPackName_IKRig`
 3. Open the `IK Rig`
-4. Follow steps from section 9.. Apply some common logic when creating the bone chains, the order in which the bones is in will differ as well as the length of some of the chains.
+4. Follow steps from section 9.. Apply some common logic when creating the bone chains, the order in which the bones are in will differ as well as the length of some of the chains.
 
 ## 11. Create IK Retargeter
 1. Inside the `Rigs` folder, create a new `IK Retargeter` (RMB>Animation>IK Retargeter)
@@ -126,7 +126,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
 
 7. Optionally correct the rest pose now as explained [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/Blender-to-Unreal-Pipeline#correct-pose-for-animation-retargeting), if it isn't already correct
 
-8. Finally, when happy with the result export the animations. The Export button is at the top of the `Asset Browser` tab, select all the animations you want to export and click the button
+8. Finally, when happy with the result, export the animations. The Export button is at the top of the `Asset Browser` tab, select all the animations you want to export and click the button
 
 ## 12. Cleaning Up Animation
 If the animation looks kind of off, or you think something can be improved, then tweak values from all prier steps as well as maybe using different chains. If the source and target skeleton are very different, then a lot of tweaking will have to be done until everything looks perfect.
@@ -183,26 +183,26 @@ The next section (not done yet) will cover how to actually use the animation rea
 - Import Simple Quinn or Manny from. In import window: disable `Animations`, enable `Automatic Bone Orientation`
 - Select the mesh called `SKM_Quinn_Simple_LOD0`. And click the uefy button "Extract Mesh" (If you have light version clear parent(Alt+P) instead)
 - Delete all other imported objects
-- Add in a uefy armature (Shift + A > Armature > Uefy Script > Mannequin Metarigs Presets > Quinn89 Metarig/ Manny89 Metarig)
+- Add in an uefy armature (Shift + A > Armature > Uefy Script > Mannequin Metarigs Presets > Quinn89 Metarig/ Manny89 Metarig)
 - With the rig selected use the rigify button `Generate Rig` (now there should be a rig and a metarig)
 - Select mesh and shift click on rig and parent with `Armature Deform`
 - The character is now ready to animate. Weight paint corrections are also possible (deform bones for weight painting are on layer 24,25,26)
 
 
 
-## Export/ Import Character from Blender to Unreal
+## Export/ Import Character from Blender to Unreal Engine
 1. Make sure rig is called "Armature"
 2. Select entire control rig and all connected objects
 3. Export as fbx. Make sure to enable "Only Deform bones", disable "Bake Animations", disable "Add Leaf Bones" and set "Smoothing Mode" to "Face"
-4. Pull fbx into unreal. In the import window: Enable "Skeletal Mesh", enable "Import Mesh", disable "Import Animations", don't select a skeleton
+4. Pull fbx into Unreal Engine. In the import window: Enable "Skeletal Mesh", enable "Import Mesh", disable "Import Animations", don't select a skeleton
 
 
 # Character Animations
-## Export/Import Character Animations From Blender To Unreal
+## Export/Import Character Animations From Blender To Unreal Engine
 1. Go in NLA view and make sure under the rig, all actions are pushed into the NLA strip. Check all boxes and uncheck all stars
 2. Select entire control rig and all connected objects
 3. Export as fbx. Make sure to enable "Only Deform bones", enable "Bake Animations", disable "Add Leaf Bones", enable "NLA Strips" and disable "All Actions"
-4. Pull fbx into unreal. In the import window: Enable "Skeletal Mesh", enable "Import Mesh", enable "Import Animations", select the correct skeleton
+4. Pull fbx into Unreal Engine. In the import window: Enable "Skeletal Mesh", enable "Import Mesh", enable "Import Animations", select the correct skeleton
 
 
 
@@ -223,7 +223,7 @@ It is also important to know that this script breaks the rig and makes it no lon
 ## Other Method for Already Rigged and Animated Models
 
 ## Route 1 or Route 2 ?
-Now, it is important to decide if you want to go `route 1` or `route 2`. `Route 1` will make the model compatible with every unreal animation and is recommended. `Route 2` is for if you have an already rigged and animated character. Try to avoid `route 2` and first generate a unreal ready rig before weight painting and animating (In short: `Route 1` your animations and other animations, `route 2` only your animations).
+Now, it is important to decide if you want to go `route 1` or `route 2`. `Route 1` will make the model compatible with every Unreal Engine animation and is recommended. `Route 2` is for if you have an already rigged and animated character. Try to avoid `route 2` and first generate an Unreal Engine ready rig before weight painting and animating (In short: `Route 1` your animations and other animations, `route 2` only your animations).
 
 ## Route 2 Converting Rigify Rig to Unreal Engine Ready Rig
 - Set unit scale to 0.01

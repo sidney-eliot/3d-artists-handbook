@@ -85,7 +85,7 @@ This is a collection of most software that are helpful for artists, that see any
 
 ## Game Engines
 - [**`Unreal Engine`**](https://www.unrealengine.com/en-US)
-- [**`Unity`**](https://unity.com) _(Don't underestimate Unity, it's more and more able to achieve graphical fidelity on the level of Unreal)_
+- [**`Unity`**](https://unity.com) _(Don't underestimate Unity, it's more and more able to achieve graphical fidelity on the level of Unreal Engine)_
 - [**Godot**](https://godotengine.org) _(A simple to learn Python like language, better suited for indie/ 2D projects)_
 
 ## Personal Art Libraries

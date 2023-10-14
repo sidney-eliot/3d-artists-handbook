@@ -64,7 +64,7 @@ Scaling UVs on separate meshes that go on the same texture map is fine, however 
 When scaling, make sure to always evenly scale along all axes
 
 ## Things to be Aware of
-- Not having objects transform scale set to 1 for all object on the same UV map, will result in size differences between UV islands when unwrapping
+- Not having object's transform scale set to 1 for all object on the same UV map, will result in size differences between UV islands when unwrapping
 - For baking only the low needs to be UV unwrapped
 
 ## UV Unwrapping Tools
@@ -95,7 +95,7 @@ It has quite a few settings to get the perfect result, here are the most importa
 - Pack
 
 **Add New Islands to a UV Already Packed:**
-- Under Advanced options enable pack to others
+- Under Advanced options, enable pack to others
 - Select the new UV island
 - Pack
 
@@ -106,7 +106,7 @@ It has quite a few settings to get the perfect result, here are the most importa
 
 **Padding between UVs:**
 - Select UVs
-- Under Pixel Margin set Pixel Margin to 10 and Pixel padding to 1
+- Under Pixel Margin, set Pixel Margin to 10 and Pixel padding to 1
 - Pack
 
 **Define Rotation Step Per Island:**

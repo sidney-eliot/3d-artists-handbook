@@ -67,7 +67,7 @@ enableToc: false
 |:-:|:-:|:-:
 |Move Projection|W|
 |Rotate Projection|E|
-|Slace Projection|R|
+|Scale Projection|R|
 |Hide Projection|Q|
 |Projection|3|
 |-|-|-
@@ -88,4 +88,4 @@ enableToc: false
 |Switch between maps|C/ Shift + C|
 |Switch to material|M|
 
-|Poligon Fill||
+|Polygon Fill||

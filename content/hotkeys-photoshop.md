@@ -23,7 +23,7 @@ code { color: #30A8FF; background: #001E36; }
 |Brush|**`B`**|
 |Eraser|**`E`**|
 |Lasso|**`L`**|
-|Eyedroper|**`Alt`**|
+|Eyedropper|**`Alt`**|
 |Clone Stamp|**`S`**
 |Spot Healing|**`J`**
 

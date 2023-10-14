@@ -6,7 +6,7 @@ enableToc: true
 ## Overview
 Texture maps are commonly referred to as "map", "skin", "atlas" or "trim sheet".
 
-These textures are for the PBR metallic workflow. This texture workflow has replaced the outdated specular workflow. The specular workflow should not be used however when using materials one can still come across this outdated workflow so it isn't bad to know how it works, it also is quite easy to convert a specular workflow material to a metallic workflow material.
+These textures are for the PBR metallic workflow. This texture workflow has replaced the outdated specular workflow. The specular workflow should not be used however when using materials one can still come across this outdated workflow, so it isn't bad to know how it works, it also is quite easy to convert a specular workflow material to a metallic workflow material.
 
 - Amazing breakdown of all the map types by Marmoset [here](https://marmoset.co/posts/toolbag-baking-tutorial/#maptypes)
 - Polycount also covers map types [here](http://wiki.polycount.com/wiki/Texture_types)
@@ -24,17 +24,17 @@ These textures are for the PBR metallic workflow. This texture workflow has repl
 
 >[!info] Metallic Map
 >
->|Known as|Metallic, Metalness, Metal, Albedo(Metal)
+>|Known as|Metallic, Metalness, Metal, Albedo (Metal)
 >|:-:|:-:
 >|**Contains**|Gray scale
 >|**Controls**|Reflectiveness
->|**More info**|White is fully metallic and black is not metallic
+>|**More info**|White is fully metallic and black isn't metallic
 >|**Color space**|
 
 
 >[!info] Roughness Map
 >
->|Known as|Roughness, Glossy(inverted), Smoothness(inverted), Micro Surface
+>|Known as|Roughness, Glossy (inverted), Smoothness (inverted), Micro Surface
 >|:-:|:-:
 >|**Contains**|Gray scale
 >|**Controls**|
@@ -47,7 +47,7 @@ These textures are for the PBR metallic workflow. This texture workflow has repl
 >|**Known as**|Normal
 >|:-:|:-:
 >|**Contains**|Vectors and Offsets
->|**Controls**|Controls the Normals X,Y & Z(vector) values per pixel 
+>|**Controls**|Controls the Normals X, Y & Z (vector) values per pixel 
 >|**More info**|Alters the shading and thus can fake detail
 >|**Color space**|Linear, Non-color
 
@@ -85,7 +85,7 @@ These textures are for the PBR metallic workflow. This texture workflow has repl
 >|:-:|:-:
 >|**Contains**|
 >|**Controls**|
->|**More info**|Subsurface Scattering maps fake the behavior of light bounce inside of a semitranslucent surface, such as skin or wax. 
+>|**More info**|Subsurface Scattering maps fake the behavior of light bounce inside a semitranslucent surface, such as skin or wax. 
 >|**Color space**|
 
 

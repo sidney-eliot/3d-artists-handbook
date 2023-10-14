@@ -14,7 +14,7 @@ _(What isn't covered here is basic polygon modeling, watch videos for that)_
 
 ---
 
-Even though allot is possible in both Blender and ZBrush, you should still be using ZBrush for the bulk of the work, because it's faster and allows for more creativity. But it really depends on what model one is working on
+Even though a lot is possible in both Blender and ZBrush, you should still be using ZBrush for the bulk of the work, because it's faster and allows for more creativity. But it really depends on what model one is working on
 
 
 - The workflow between ZBrush and Blender is [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/ZBrush-To-Blender-Workflow)
@@ -59,7 +59,7 @@ Even though allot is possible in both Blender and ZBrush, you should still be us
 - [Wireframe](#Wireframe-)
 - [Clothing, Armor or Retopology](#clothing-armor-or-retopology-)
 - [Interesting Skin Clothing Effect](#Interesting-Skin-Clothing-Effect-)
-- [Smoothing PolyGroup Borders](#Smoothing-PolyGroup-borders-)
+- [Smoothing Polygroup Borders](#Smoothing-Polygroup-Borders-)
 
 #### Sculpting
 - [Sculpting Tips](#Sculpting-Tips)
@@ -95,7 +95,7 @@ Even though allot is possible in both Blender and ZBrush, you should still be us
 
 ![[Pasted image 20230608024009.png]]
 
-- In the `Create > Polygon Primitives` menu one can also directly edit the primitive settings
+- In the `Create > Polygon Primitives` menu, one can also directly edit the primitive settings
 
 ![[Pasted image 20230608024017.png]]
 
@@ -105,9 +105,9 @@ Even though allot is possible in both Blender and ZBrush, you should still be us
 |:-:|:-:|:-:
 |🟠|G/S/R|The fastest
 |⚪|Transpose Gizmo|If the gizmo is acting strangely it may be because of focal shift
-|⚪|Transpose Line|Advanced Tranpose Tool
+|⚪|Transpose Line|Advanced Transpose Tool
 |⚪|Snap to Ground (macro)|(Macro > Macros > Snap to Ground)
-|⚪|Unify|Resets location and sets scale as close as possible to 2 units qubed
+|⚪|Unify|Resets location and sets scale as close as possible to 2 units cubed
 |⚪|S.Pivot/ C.Pivot|Use `S.Pivot` button to reset the model’s rotation, symmetry, etc. based on the visible polygons. Press `C.Pivot` to return to how the model was originally. Great for doing Symmetry actions on SubTools that aren't at the center.
 
 
@@ -172,13 +172,13 @@ A sculpting approach to bevels. Makes the bevel look more organic and interestin
 
 ### Beveling (Dynamically/ Automatically)
 #### 🟠 Blender Bevel Modifier
-Same as the manual bevel just that edges  for beveling are chosen by angle, vertex groups and so on.
+Same as the manual bevel, just that edges for beveling are chosen by angle, vertex groups and so on.
 #### ⚪ Bevel Pro
 (ZPlugin > BevelPro) [Full tutorial on Bevel Pro](https://www.youtube.com/watch?v=6uvPmEqD4nY). Works on terrible topology.
 - Prep: `Fix Mesh`, `Weld Points`
 - Prep: `Polish By Polygroups/ Features` when using DynaMeshed mesh
 #### ⚪ Dynamic SubDiv menu
-(Tool > Geometry > Dynamic SubDiv)This menus allows for all kinds of bevel and chamfers
+(Tool > Geometry > Dynamic SubDiv) This menus allows for all kinds of bevel and chamfers
 
 ### Creasing
 Creases can transfer between ZBrush and Blender. Note that creases in Blender can go from 0% to 100% but ZBrush can only have or not have a crease.
@@ -194,7 +194,7 @@ Creases can transfer between ZBrush and Blender. Note that creases in Blender ca
 |:-:|:-:|:-:
 |🟠|Mirror Modifier|Allows for mirroring of mirrors and other complex mirror operations. Can also use empties as mirror point
 |⚪|Mirror|Flips the SubTool from one side to the other, depending on the selected mirror axis. Uses the world center as mirror point
-|⚪|Mirror And Weld|Perfectly mirrors the SubTool from the +X to -X axis along the world center. Welding together both halfs 
+|⚪|Mirror And Weld|Perfectly mirrors the SubTool from the +X to -X axis along the world center. Welding together both halves 
 
 **Tip:** To circumvent the issue of not being able to set ones own mirror axis in ZBrush, use S.Pivot/C.Pivot
 
@@ -226,11 +226,11 @@ ToDo
 ## Cutting
 |Software|Method|Notes
 |:-:|:-:|:-:
-|⚪|Clip/Trim/Knife/Slice|Use `Knife` to remove parts of the mesh. If knife doesn't work use `trim` instead(Only do straight cuts with trim, because the topo will otherwise collapse!(No Alt)). If you want to remove a part of the mesh but want to keep the topology intact use `clip`. Use `slice` to add in edge cuts. (Remember that all of these actions can be inverted with alt)
-|⚪|Cuttings With DynaMesh + Polygroups|Slice mesh to get 2 Polygroups, then DynaMesh with Enable Groups, Blur = 0 . If the results aren't as desired, then first set DynaMesh to a high value and then go back down to a lower value
+|⚪|Clip/Trim/Knife/Slice|Use `Knife` to remove parts of the mesh. If knife doesn't work, use `trim` instead (Only do straight cuts with trim, because the topo will otherwise collapse!(No Alt)). If you want to remove a part of the mesh but want to keep the topology intact, use `clip`. Use `slice` to add in edge cuts. (Remember that all of these actions can be inverted with alt)
+|⚪|Cuttings With DynaMesh + Polygroups|Slice mesh to get 2 Polygroups, then DynaMesh with Enable Groups, Blur = 0. If the results aren't as desired, then first set DynaMesh to a high value and then go back down to a lower value
 |⚪|Deleting with Selection|Use Selection Tools and then `Del Hidden` (Tool > Geometry > Modify Topology)
 |🟠|Box/Lasso Trim, Line Project|The trim tools are like ZBrush's knife tool but create Ngons. The Line Project works like ZBrush's clip
-|🟠|Edge Split|Mark edge as sharp, add edge split + solidify + bevel modidier
+|🟠|Edge Split|Mark edge as sharp, add edge split + solidify + bevel modifier
 
 <details>
 <summary>Example of Edge Split or Cutting With DynaMesh + Polygroups</summary>
@@ -248,7 +248,7 @@ ToDo
 #### Knife (Blender Trim)
 - Removes knifed mesh and closes holes with its own algorithm
 - A better version of trim
-- (Knife currently is not stable so always quick save before using it)
+- (Knife currently isn't stable so always quick save before using it)
 - For cutting 45° angles with curve knife in all directions, following degrees are good to remember(**45°, 135°, 225°, 315°**)
 #### Slice 
 - Creates a clean edge loop through the mesh (Also creates a new Polygroup)
@@ -335,7 +335,7 @@ Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
 
 #### ⚪ Fusion
 0. Turn off DynaMesh
-1. Place mesh with insert brush for example, have back faces facing target mesh
+1. Place mesh with insert brush for example, make sure the back faces are facing the target mesh
 2. Create a Polygroup around area where fusion should happen
 3. Clear mask, then clear mask again for fusion
 
@@ -444,13 +444,13 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 
 1. Make sure the origin is at the point where the object should connect with the target object
 2. Extrude outwards at the connection point. And add a 4 segment bevel at the lowest corner
-3. Make a vertex group and assign every edge loop a different weight. Starting a the most outer loop with a weight of 1. Second most outer a weight of 
+3. Make a vertex group and assign every edge loop a different weight. Starting at the outermost loop with a weight of 1. Give the second outermost a weight of 
 0.8 and so on. After assigning weight 0.2 stop.
-4. Set cursor to object origin. Add a grid, and turn on wireframe for that object. Then press F9 and adjust the grid topology density. The more curve the target has the more dense the gird has to be.
+4. Set cursor to object origin. Add a grid, and turn on wireframe for that object. Then press F9 and adjust the grid topology density. The more curve the target has, the more dense the gird has to be.
 5. Add a surface deform mod to the object. Target: Grid, Click Bind.
 6. Apply scale and rotation for grid, object and parent object to grid
 7. Add Shrinkwrap mod to gird. Snap Mode: Outside surface, Target: Target Object 
-8. Turn on face snap. Snap With: Median, Align Rotation to Target. And place the grid on the target surface
+8. Enable face snap. Snap With: Median, Align Rotation to Target. And place the grid on the target surface
 9. Add DataTransfer mod on Object. Source: Target Object, Vertex Group: vertex group from 3., Face Corner Data: Custom Normals
 
 ⚪ > 
@@ -466,9 +466,9 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 **Shrink wrap + Vertex groups**
 1. Make sure the origin is at the point where the object should connect with the target object
 2. Extrude outwards at the connection point. And add a 4 segment bevel at the lowest corner
-3. Make a vertex group and assign every edge loop a different weight. Starting a the most outer loop with a weight of 1. Second most outer a weight of 0.8 and so on. After assigning weight 0.2 stop.
+3. Make a vertex group and assign every edge loop a different weight. Starting at the outermost loop with a weight of 1. Give the second outermost a weight of 0.8 and so on. After assigning weight 0.2 stop.
 4. Add Shrinkwrap mod. Snap mode: Outside surface, Target: Target Object, Vertex Group: vertex group from 4.
-5. Turn on face snap. Snap With: Median, Align Rotation to Target. And place object on the target surface
+5. Enable face snap. Snap With: Median, Align Rotation to Target. And place object on the target surface
 6. Add DataTransfer mod. Source: Target Object, Vertex Group: vertex group from 4., Face Corner Data: Custom Normals
 
 ## Wireframe
@@ -489,7 +489,7 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 
 |Software|Method|Notes
 |:-:|:-:|:-:
-|🟠|Shrinkwrap + SubDiv|Use Shrinkwrap and SubDiv with others mods like bevel. In the `Snap To` menu switch to the `Snap With` `Closet` mode. When retopologizing results may often be better on lower SubDiv levels because the Shrinkwrap won't have the chance to imprint every sculpted imperfection.
+|🟠|Shrinkwrap + SubDiv|Use Shrinkwrap and SubDiv with others mods like bevel. In the `Snap To` menu, switch to the `Snap With` `Closet` mode. When retopologizing results may often be better on lower SubDiv levels because the Shrinkwrap won't have the chance to imprint every sculpted imperfection.
 
 ## Interesting Skin Clothing Effect
 
@@ -504,22 +504,22 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 
 
 
-## Smoothing PolyGroup Borders
+## Smoothing Polygroup Borders
 
 ![[Pasted image 20230604225721.png|215]]
 ![[Pasted image 20230604225730.png|200]]
 
 |Software|Method|Notes
 |:-:|:-:|:-:
-|⚪|Smooth Groups Brush|_(LightBox > Brush Tab > Smooth Folder > Smooth Groups.ZBP)_ Be careful to not smooth the mesh by accident, use masking
+|⚪|Smooth Groups Brush|_(Lightbox > Brush Tab > Smooth Folder > Smooth Groups.ZBP)_ Be careful to not smooth the mesh by accident, use masking
 
 ## ------ SCULPTING ------
 Organic sculpting is something best learned by simply sculpting and watching others sculpt
 
 ### Sculpting Tips
-- Try to adjust brush strength as little as possible and instead setup your stylus correctly
+- Try to adjust brush strength as little as possible and instead set up your stylus correctly
 - Don't have the mindset that every sculpt will be a portfolio piece
-- Jump around the sculpt  instead of finishing one area. This has 2 main reasons reason one is one should first get the main shapes correct before moving on to smaller shapes and reasons 2 is, if one works on one area to long, one stops seeing mistakes
+- Jump around the sculpt instead of finishing one area. This has 2 main reasons. The first being, that one should first get the main shapes correct before moving on to smaller shapes and reasons two is, if one works on one area too long, one stops seeing mistakes
 - Regularly check silhouette and proportions by zooming out, moving the head away from the screen and turning on ZBrush's silhouette preview
 
 [How you should Sculpt EVERYTHING](https://www.youtube.com/watch?v=zwn7EZczPjY&list=PLveghVPT3X7ZT_SheZDFm4P7FoCRkuj3M) _(J Hill - 27min)_
@@ -535,7 +535,7 @@ Organic sculpting is something best learned by simply sculpting and watching oth
 #### Surface Smoothing
 - Smooth
 - Trim Dynamic _(B TD)_
-- hPolish (same as flatten but respects hard edges, alt for different behaviour) _(B HP)_
+- hPolish (same as flatten but respects hard edges, alt for different behavior) _(B HP)_
 - Flatten _(B FA)_
 - Planar _(B PL)_
 
@@ -545,7 +545,7 @@ Organic sculpting is something best learned by simply sculpting and watching oth
 - Bevel Arc/ Flat _(B BA/ B BF)_
 - Pinch _(B PI)_
 - Scribe Chisel _(B SC)_
-- History Recal(_B HR_)
+- History Recall(_B HR_)
 
 #### Great Brush Packs
 Search for Brushes/ Insert Brushes on ArtStation and Gumroad

@@ -8,7 +8,7 @@ enableToc: true
 - All options are under N > BoxCutter and the gear in the header
 - Turn off Sort modifiers to not bevel new bool cuts, this is mostly desired(this can also be achieved by keeping this on and correcting the sort order)
 - Some bool modes are in x cycle the others are in D-Helper
-- Don't use the magnet with Ngon, but rather it's own built in angle lock (ctrl for magnet off)
+- Don't use the magnet with Ngon, but rather its own built in angle lock (ctrl for magnet off)
 - While placing bevel one can access the D helper menu after locking the bevel
 - Bool snapping to object, view or origin can be adjusted in D-Helper
 - Magnet is very important sometimes better without grid
@@ -82,7 +82,7 @@ Edge manager under operations bevel manager
 |Alt + Click on Mod Scroll|Smart Apply (applies all boolean modifiers)
 |Shift + Click on Mod Scroll|Slowly reveals all booleans
 |---|---|
-|**Dice**|A Powerful loop cut tool. Allows one to create loop cuts on ngons.
+|**Dice**|A Powerful loop cut tool. Allows one to create loop cuts on Ngons.
 |---|---|
 |**Twist 360°**|Uses many modifiers to create a circle of your object
 |---|---|

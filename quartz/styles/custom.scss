@@ -4,20 +4,22 @@ img, iframe{
 	border-radius: 12px;
 }
 
+table, th, td {
+border: 1px solid gray;
+}
 
+th, td {
+  padding: 0.2rem 0.5rem;
+}
 
 table {
-  border: 1px solid gray;
-  width: 100%;
-  padding: 1.5em;
-  border-collapse: collapse;
-  width: auto;
-  table-layout: fixed;
+overflow: scroll;
+//width: 100%;
 }
 
-td, th {
-  padding: 0.2em 1em;
-  border: 1px solid gray;
-  word-wrap: break-word;
-  white-space:pre-wrap;
+th {
+
 }
+
+
+

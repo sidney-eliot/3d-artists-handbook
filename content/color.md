@@ -46,7 +46,7 @@ HEX is almost only used for copying a color per values from A to B
 |Shade|Mixture of a color with BLACK|Darkens the color/ decreases the color's brightness
 |Tone|Mixture of a color with GRAY|
 |-|-|-
-|Hue|Pure Colors(Primary Colors, Secondary Colors, ...). Ranges from 0° to 359° on the color wheel||Changing the Tint, Shade or Tone of a color does not change the hue
+|Hue|Pure Colors(Primary Colors, Secondary Colors, ...). Ranges from 0° to 359° on the color wheel||Changing the Tint, Shade or Tone of a color doesn't change the hue
 |Saturation|
 |Value|Tint(lightness) and Shade(darkness) of a color|
 |Chroma/ Chromatic Intensity|A color where a hue predominates, blue, green, while white gray and black are achromatic because no hue predominates.

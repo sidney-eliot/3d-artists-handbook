@@ -45,7 +45,7 @@ ul,
 .math {
   color: var(--darkgray);
   fill: var(--darkgray);
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
   hyphens: auto;
 }
 
@@ -399,13 +399,12 @@ table {
 }
 
 th {
-  text-align: left;
   padding: 0.4rem 1rem;
   border-bottom: 2px solid var(--gray);
 }
 
 td {
-  padding: 0.2rem 1rem;
+  padding: 0.4rem 1rem;
 }
 
 tr {

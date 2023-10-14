@@ -91,7 +91,7 @@ The Principled BSDF Node is a combination of many other Principled nodes, which 
 >
 >![[Pasted image 20230604143208.png]]
 
-> [!example]  Principled Glossy
+> [!example] Principled Glossy
 >
 >- Metals
 >- Mirrors

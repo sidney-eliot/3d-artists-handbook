@@ -55,16 +55,16 @@ enableToc: false
 - [Quixel Megascans](https://quixel.com/megascans/home/)
 - [Sketchfab](https://sketchfab.com/feed)
 - [Blenderkit](https://www.blenderkit.com/asset-gallery?query=category_subtree:model%20order:-created)
-- [3d Model Haven](https://polyhaven.com/models) (Not many right now but will grow, high quality models)
+- [3D Model Haven](https://polyhaven.com/models) (Not many right now but will grow, high quality models)
 - [CG Trader](https://www.cgtrader.com/3d-models)
 - [Threedscans](https://threedscans.com/) (3d scan statuses)
 - [Blend Swap](https://www.blendswap.com/blends)
 - [The base mesh](https://thebasemesh.com/model-library)
 - Open3dLab
-- Smutbase (nsfw)
+- Smutbase (NSFW)
 - SFMLab
-- Deviant art (allot of freaky content, nsfw)
-- Turbo squid (one of the worst html sites I've come across)
+- Deviant art (a lot of freaky content, NSFW)
+- Turbo squid (one of the worst HTML sites I've come across)
 - Nexus mods (reverse engineering mods with tools)
 - [Adobe Substance Assets](https://substance3d.adobe.com/community-assets)
 

@@ -58,7 +58,7 @@ There are 3 factors to compare when choosing between image formats:
 
 
 ### Compression/ Encoding
-Compression can be lossless or lossy. Lossless allows to reconstruct the original values as is. Lossy compression leverages that the human perception doesn't notice slight quality degradation. It can therefore reach higher compression ratios. Lossless vs lossy does not influence the save speed, but compression speeds up save time. 
+Compression can be lossless or lossy. Lossless allows to reconstruct the original values as is. Lossy compression leverages that the human perception doesn't notice slight quality degradation. It can therefore reach higher compression ratios. Lossless vs lossy doesn't influence the save speed, but compression speeds up save time. 
 
 ### Alpha (Occlusion/ Transparency/ Opacity)
 

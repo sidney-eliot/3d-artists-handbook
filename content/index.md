@@ -106,7 +106,7 @@ _This section will be moved to a side panel, so it can be accessed from every pa
 - [[hotkeys-procreate|Procreate Hotkeys]]
 - [Art Courses](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki/Art-Courses)
 
-## Awesome Blender Github by Mdsanima
+## Awesome Blender GitHub by Mdsanima
 A treasure trove of links to all kinds of places.
 - [Awesome Blender](https://github.com/agmmnn/awesome-blender)
 

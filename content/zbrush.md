@@ -7,8 +7,8 @@ enableToc: true
 
 ## General Things to Be Aware Of
 - My workflow between ZBrush and Blender is [[workflow-between-zbrush-and-blender|here]]
-- It's good to stay on the left side of the model (right side from the character's perspective). _This is because of Mirror and Weld_
-- Unlike in other software, subdivision in ZBrush are destructive. Even if one goes back to SubDiv level 1 and deletes all higher levels, the SubDiv will have dulled the edges in an irreversible way. This doesn't matter if you'll be adding a SubDiv at some point again to the object, because this edge dulling effect does not stack.
+- It's good to work on the **left side** of the model (which is the right side from the character's perspective). This is because of Mirror and Weld
+- Unlike in other software, subdivision in ZBrush are destructive. Even if one goes back to SubDiv level 1 and deletes all higher SubDiv levels, the SubDiv will have dulled the edges in an irreversible way. This won't matter if plan on adding a SubDiv at some point again to the object, because this **edge dulling effect doesn't stack**.
 
    This can make the mesh unusable as a base for the retopo mesh and makes changing things later on quite hard. To avoid this issue, either use Dynamic SubDiv or create backups of the object before adding SubDiv levels.
 
@@ -64,7 +64,7 @@ A **Insert Mesh Brush** is a **Brush** that contains one or multiple meshes to c
 
 
 ### Curve Insert Mesh Brush 
-A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such a way to seamlessly repeat along a stylus stroke (arraying along a stroke). 
+A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such a way to seamlessly repeat along a stylus stroke (arraying along a stroke). 
 
 >[!example] Curve Insert Mesh brush examples
 >
@@ -89,7 +89,7 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 >[!Info] Creating custom VDM brushes
 >
 >1. Switch to a Plane3D Tool (Make PolyMesh3D)
->2. Sculpt desired detail onto plane. Make sure to not touch the borders of the plane, masking them can help. Alternatively, one can mask everything except for the borders and use `Morph to Grid` (Tool > Deformation). `Relax Plane Grid` can also help. Also, make sure to sculpt onto the plane from the correct direction. Keep on adding in more planes as SubTools with different detail if you want
+>2. Sculpt desired detail onto plane. Make sure to not touch the borders of the plane, masking them can help. Alternatively, one can mask everything except for the borders and use `Morph to Grid` (Tool > Deformation). `Relax Plane Grid` can also help. Also, make sure to sculpt onto the plane from the correct direction. Keep on adding in more planes as SubTools with different detail if you want to
 >3. Select a chisel brush
 >4. Make sure that the Tool only contains SubTools that should go into the VDM brush
 >5. Create the VDM brush with `Create MultiAlpha Brush` (Brush > Create)
@@ -156,7 +156,7 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 >- At the end of the day save as ZPR and ZTL
 >- If during the day ZBrush crashes use auto saves to get back undo history
 >
->f you don't care about history, then only use ZTL and auto saves. And if you do care about history then still occasionally save as ZTL because it's not to uncommon for ZPR files to get corrupted, not work on other systems/ OS's or newer ZBrush versions.
+>If you don't care about history, then only use ZTL and auto saves. And if you do care about history then still occasionally save as ZTL because it's not too uncommon for ZPR files to get corrupted, not work on other systems/ OS's or newer ZBrush versions.
 
 >[!info] ZPR vs ZTL
 >
@@ -200,25 +200,26 @@ A **Curve Insert Mesh Brush** is a **Insert Mesh Brushes** that is made in such 
 
 
 ## 👤Check Silhouette
-Open Thumbnail Window and Turn on Silhouette `Preferences > Thumbnail` or switch to the `Flat Color` MatCap (SubTools need PolyPaint for this to work properly).
+Open Thumbnail Window and Turn on Silhouette `Preferences > Thumbnail` or switch to the `Flat Color` MatCap (SubTools need polypaint for this to work properly).
 
 ## 🎨Poly Paint
 
->[!example]- PolyPaint resources (videos)
+>[!example]- Polypaint resources (videos)
+><div style="text-align: center;">
 >
 >**Polypainting/ Material Painting**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eQ7B3Y4aGZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
->[!info] About PolyPaint
+>[!info] About polypaint
 >
->- Resolution of mesh affects resolution of PolyPaint
->- Clicking the brush icon beside the SubTool will toggle the PolyPaint (Colorize) of that SubTool. Shift clicking the icon will do that for all SubTools
->- If the SubTool has no Polypaint on it or PolyPaint is disabled for that SubTool, then the SubTool will adjust to the currently selected color
->- A SubTool can't be PolyPainted on, before it has been filled with a base color
->- DynaMesh will not remove PolyPaint **as long as the paint is visible**, it will however remove all materials
->- ZRemesher will completely remove PolyPaint and materials
->- Unlike PolyPaint, Material Paint can either be or not be on a face, which makes material transitions rough. To reduce this issue: Hide transitions, increase mesh detail or turn on Render Materials Blend-Radius
+>- Resolution of mesh affects resolution of polypaint
+>- Clicking the brush icon beside the SubTool will toggle the polypaint (Colorize) of that SubTool. Shift clicking the icon will do that for all SubTools
+>- If the SubTool has no polypaint on it or polypaint is disabled for that SubTool, then the SubTool will adjust to the currently selected color
+>- A SubTool can't be polypainted on, before it has been filled with a base color
+>- DynaMesh will not remove polypaint **as long as the paint is visible**, it will however remove all materials
+>- ZRemesher will completely remove polypaint and materials
+>- Unlike polypaint, Material Paint can either be or not be on a face, which makes material transitions rough. To reduce this issue: Hide transitions, increase mesh detail or turn on Render Materials Blend-Radius
 >- To-Do: Figure out how reprojection plays with poly paint
 
 ### Working With Color
@@ -238,7 +239,7 @@ ZColor doc [here](http://docs.pixologic.com/user-guide/zbrush-plugins/zcolor/).
 
 - To sample color within ZBrush use C
 
-### PolyPaint Setup Process
+### Polypaint Setup Process
 1. Select the `Paint` Brush (Or Select the `Standard` brush, set its channel to `Rgb` and disable `Zadd`/ `Zsub`)
 2. Select the `Smooth` brush, disable `Zadd`/`Zsub`
 3. Fill SubTool with base color (Color > FillObject)
@@ -264,8 +265,8 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 ## 📷Rendering
 
 >[!example]- Rendering in ZBrush resources (videos)
+><div style="text-align: center;">
 >
-><br>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uM-VonmG0jU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HoIRjQdAL3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g4lxPB25Zp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -293,7 +294,7 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 
 >[!question] How to get rid of the empty document border?
 >
->When ever ZBrush is on a different monitor resolution, or you change that monitors scale size, you will have to redo the following steps (something I despise). 
+>When ever ZBrush is on a different monitor resolution, or you change that monitor's scale size, you will have to redo the following steps (something I despise). 
 >
 >1. In the Documents Menu toggle `WSize` and click `NewDocument`
 >2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it is completely irrelevant and will not mess up your tool
@@ -304,7 +305,7 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 1. Enable `Configure UI` and do changes
 2. Then store the UI for yourself somewhere
 3. Finally click `Store Config` so ZBrush starts with that UI
-4. There are situations where ZBrush does not start with your UI, in that case click `Load UI`
+4. There are situations where ZBrush doesn't start with your UI, in that case click `Load UI`
 
 The process is the same for Hotkeys and Color Themes.
 
@@ -315,7 +316,7 @@ My ZBrush configs are [here](https://github.com/Epicrex/3d-artists-handbook/tree
 
 For the interface, if the size of the display you use for ZBrush is 1920 x 1080, you're 'good to go. If not, then you'll need to adjust the document size, so you don't have massive gray borders around your 3D viewport ([video about that here](https://www.youtube.com/watch?v=04wFtkdict0)).
 
-The main thing about this interface is that I made a custom menu with every tool in it that is often used sorted into groups. The menu is at the top and called "MyInterface", I recommend giving it some hotkey you will never press and then in the driver settings for your tablet, mapping that hotkey to the back button of your stylus.
+The main thing about this interface is that I made a custom menu with every tool in it that is often used, sorted into groups. The menu is at the top and called "MyInterface", I recommend giving it some hotkey you will never press and then in the driver settings for your tablet, mapping that hotkey to the back button of your stylus.
 
 
 ## ❌Errors

@@ -39,7 +39,7 @@ When naming parts of a model, one can either just count up numbers or describe w
 
 
 ## Shapes
-|||||
+||||||
 |:-:|:-:|:-:|:-:|:-:
-|Sphere|Cylinder|Cone|Cube|Tetrahedron|
-|Octahedron (2 Tetrahedron on top of each other)|Prism|Torus|Ring|Pyramid|
+|Sphere|Cylinder|Cone|Cube|Tetrahedron
+|Octahedron (2 Tetrahedron on top of each other)|Prism|Torus|Ring|Pyramid

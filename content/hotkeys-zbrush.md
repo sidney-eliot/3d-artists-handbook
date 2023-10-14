@@ -21,9 +21,9 @@ code { color: #050807; background: #FFFFFF; }
 |⬆⬇Dynamic SubDiv ON/ OFF|**`D/ Shift`** + **`D`**|If there are no SubDiv levels SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
 |DynaMesh|**`Ctrl`** + **`LMB`** (on canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border
 |👁 View Topology|**`Shift`** + **`F`**|
-|PolyGroup Masked|**`Ctrl`** + **`W`**|PolyGroups all when there's no mask
-|🖌 Brush Menu|**`B`**|
-|💡📦 LightBox Menu|**`,`**
+|Polygroup Masked|**`Ctrl`** + **`W`**|Polygroups all when there's no mask
+|🖌️ Brush Menu|**`B`**|
+|💡📦 Lightbox Menu|**`,`**
 
 ## General
 |Function|Key|Notes
@@ -37,12 +37,12 @@ code { color: #050807; background: #FFFFFF; }
 |Hide All Side Panels|**`F`**|
 |Center SubTool|**`F`**|
 |Brush Menu|**`B`**|
-|LightBox Menu|**`,`**
+|Lightbox Menu|**`,`**
 
 ## Interface
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Open Image With Associated Image Viewer|**`Alt`** + **`2x LMB`**|Will Open .psd images from the lightbox tab in photoshop
+|Open Image With Associated Image Viewer|**`Alt`** + **`2x LMB`**|Will Open .psd images from the Lightbox tab in photoshop
 
 
 
@@ -142,7 +142,7 @@ code { color: #050807; background: #FFFFFF; }
 |Subtract from last placed plating |Ctrl + Alt|Don't move camera!
 |Add to last placed plating|Ctrl + Shift|Don't move camera, only click shift when done with shape!
 |Cut with plating into underlying SubTool|Ctrl + Alt (Bool On)|Creates new SubTool
-|Add new plating as new SubTool|Ctrl + Shift (Bool On)|After making a new plating tool, use only ctrl(with bool still on) to add platings while being able to move camera. Then when done ZRemesh to merge all plating of sub tool)
+|Add new plating as new SubTool|Ctrl + Shift (Bool On)|After making a new plating tool, use only ctrl (with bool still on) to add platings while being able to move camera. Then when done, ZRemesh to merge all plating of sub tool)
 
 Mesh ballon works the same
 
@@ -186,5 +186,11 @@ More Curve Settings in:
 |Place Curve Around Creases|`Creased edges`
 
 
-- [Curve Tutorial](https://www.youtube.com/watch?v=BL46Qnef6N0) (hart - 25min)
-- [Curve Brush Functionality](https://www.youtube.com/watch?v=9g8NNoc-v3o) (Michael Pavlovich - 5min)
+> [!example]- Videos about Curves
+><div style="text-align: center;">
+>
+>**Curve Tutorial**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BL46Qnef6N0?si=jEikVUNb10RoLskd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>**Curve Brush Functionality**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9g8NNoc-v3o?si=_NuPMgDNQocLou5H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

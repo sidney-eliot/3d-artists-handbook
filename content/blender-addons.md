@@ -8,7 +8,7 @@ I use almost all of these addons. Addons with a 🔥 are addons I love and think
 Many of these addons are free and others come with a hefty price. If you are willing to spend some money, then these are the only ones you really need:
 
 - [Hard Ops / Boxcutter Ultimate Bundle](https://www.artstation.com/marketplace/p/D7aM/hard-ops-boxcutter-ultimate-bundle) - Which includes both Hard Ops and Boxcutter, essential for any 3D artist ($40)
-- [UVPackmaster](https://uvpackmaster.com/) - Only if you do allot with UVs ($44)
+- [UVPackmaster](https://uvpackmaster.com/) - Only if you do a lot with UVs ($44)
 - [MESHmachine](https://machin3.gumroad.com/l/MESHmachine) - And if you feel like spending a bit more, I would recommend picking up MESHmachine ($40)
 
 >[!example] Where to get Blender addons
@@ -28,7 +28,7 @@ CG Cookie also has a good [addon list](https://cgcookie.com/posts/the-ultimate-2
 - `ARMORED-Theme Candy` (Makes customizing UI easy and fast)
 
 ## Hard Surface Modeling
-- `Hard Ops` 🔥 (Hard Surface Modeling tools suite, a must have for every modeler) [[Documentation](https://hardops-manual.readthedocs.io/en/latest/)]
+- `Hard Ops` 🔥 (Hard Surface Modeling tools suite, a must-have for every modeler) [[Documentation](https://hardops-manual.readthedocs.io/en/latest/)]
 - `BoxCutter` 🔥 (Boolean operations) [[Documentation](https://boxcutter-manual.readthedocs.io/en/latest/)]
 - `MESHmachine` 🔥 (Modify, revers bevels/ Boolean cleanup) [[Documentation](https://machin3.io/MESHmachine/docs/)]
 
@@ -61,7 +61,7 @@ I don't use Blender sculpting addons anymore because I sculpt in ZBrush.
 - `Brush Manager`
 
 ## Rigging
-For rigging in Blender you need one of these 2 addons. They are even helpful when you create your entire rig by yourself (which I don't recommend with your first couple of rigs).
+For rigging in Blender, you need one of these 2 addons. They are even helpful when you create your entire rig by yourself (which I don't recommend with your first couple of rigs).
 
 - `Rigify` 🔥🧱 (My preferred tool and more commonly used) [[Documentation](https://docs.blender.org/manual/en/latest/addons/rigging/rigify/index.html)]
 - `Auto Rig Pro`
@@ -73,7 +73,7 @@ For rigging in Blender you need one of these 2 addons. They are even helpful whe
 - `DECALmachine` (Add hardsurface detail as textures)
 
 ## Asset, Material, HDRI
-I don't use any of these anymore because I've switched to Substance Painter, Mari and 3D Coat for texturing. Blender's node system used for texturing is very inflexible and a pain to work with, when the projects goal is to be Real-Time/ Game-Ready or rendered in any other software.
+I don't use any of these anymore because I've switched to Substance Painter, Mari and 3D Coat for texturing. Blender's node system used for texturing is very inflexible and a pain to work with, when the projects goal is to be real-time/ Game-Ready or rendered in any other software.
 
 
 - `Kit Ops Pro` (Kit Bash modeling/ Adding detail to your Hard Surface models)
@@ -81,7 +81,7 @@ I don't use any of these anymore because I've switched to Substance Painter, Mar
 - `EEVEE-Materials` (Material library)
 
 ## VFX
-- `Mesh Trails` (Made by [dillongoo](https://www.youtube.com/c/dillongoo/videos) and the best stylized vfx system for blender)
+- `Mesh Trails` (Made by [dillongoo](https://www.youtube.com/c/dillongoo/videos) and the best stylized VFX system for blender)
 
 ## UV
 - `UV Packmaster` 🔥
@@ -93,7 +93,7 @@ I don't use any of these anymore because I've switched to Substance Painter, Mar
 - `Node Wrangler` 🔥🧱 (Node managing tool) [[Documentation](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html)]
 - `Node Preview` (Shows the texture result of every node, extremely helpful for understanding complex node networks)
 
-## Generation/ Procedual
+## Generation/ Procedural
 - `A.N.T Landscape` (Landscape generator)
 
 ## Clothing
@@ -110,7 +110,7 @@ I don't use any of these anymore because I've switched to Substance Painter, Mar
 - `3D Viewport Pie Menus` 🧱[[Documentation](https://docs.blender.org/manual/en/latest/addons/interface/viewport_pies.html)]
 - `Conform Object` (Make objects perfectly hug curved surfaces)
 - `Send2Unreal`
-- `Hair Tool` (Probably obsolete with Blender's 3.4 update which overhauls the hair workflow)
+- `Hair Tool` (Probably obsolete with Blender's 3.4 update, which overhauls the hair workflow)
 
 ## Unsorted
 I haven't used any of these yet, but they seem interesting.
@@ -123,7 +123,7 @@ I haven't used any of these yet, but they seem interesting.
 - True terrain
 - Nyserga
 - Graswalt
-- City builder 3d
+- City builder 3D
 - Animation extras
 - Spread objects
 - Mirror selected bones

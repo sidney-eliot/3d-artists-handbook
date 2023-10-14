@@ -23,7 +23,7 @@ One can draw a square, triangle, circle, line, arc, polygons and then not move t
 |:-:|:-:|:-:
 |Merge Layers|Pinch layers together with fingers
 |Duplicate Layer|Pull layer onto canvas
-|Move layer to other file|Pull layer and with the other hand switch to the documents the release layer in layer menu
+|Move layer to other file|Pull layer and with the other hand switch to the document, then release the layer in layer menu
 |Hide all other layers|Holder hide layer button
 |Alpha Lock|Two-finger swipe right on layer
 |Multi Select Layers|Tap layer, then swipe right other layers

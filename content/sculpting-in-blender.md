@@ -17,7 +17,7 @@ enableToc: true
 |Sculptris Pro|Dyntopo
 
 ## Blender Sculpting Workflow
-Do the blockout with remesher, then either hand retopo, use a clean remesh addon or skip it for now. Then to add detail, use the multires modifier. Try to stay away from Dyntopo the same as you would avoid Sculptris Pro in ZBrush, it develops bad habits.
+Do the blockout with remesher, then either hand retopo, use a clean remesh addon or skip it for now. Then, to add detail, use the multires modifier. Try to stay away from Dyntopo the same as you would avoid Sculptris Pro in ZBrush, it develops bad habits.
 
 More in other sections about workflow, it doesn't differ that much to that of ZBrush.
 
@@ -30,7 +30,7 @@ More in other sections about workflow, it doesn't differ that much to that of ZB
 >A focal length of 35 or 50 is normal, something like 80 or 100 can however be to see more
 details.
 >
->Smaller focal length makes you see more of the model but less detail and 
+>Smaller focal length makes you see more of the model but less detail, and 
 higher focal length makes you see less of the model but more detail.
 >
 >ZBrush's default focal length is 50.
