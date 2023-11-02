@@ -10,7 +10,7 @@ enableToc: false
 > Note also that the backlink and graph section at the bottom won't show many connections yet, but over time I will more and more try to link relevant pages with each other and every page linking to the Home page will also change.
 
 ## Hi
-I'm **Sidney** (Epicrex), a 3D Character Artist, and this knowledge pool is for me, you, and everyone else.
+I'm **Sidney** _(Epicrex)_, a 3D Character Artist, and this knowledge pool is for me, you, and everyone else.
 
 > [!info]- More about this handbook
 >
@@ -21,6 +21,8 @@ I'm **Sidney** (Epicrex), a 3D Character Artist, and this knowledge pool is for 
 This is probably best suited for intermediate and advanced 3D artists. If you're a 2D artist, then you might find something interesting [[#All Relevant Things from This Handbook for 2D Artists|here]]. My 3D workflow mostly consists of following software: [Blender](https://www.blender.org/features/), [ZBrush](https://pixologic.com/), [Marmoset Toolbag](https://marmoset.co/toolbag/), [Substance Painter](https://www.adobe.com/products/substance3d-painter.html), [Photoshop](https://www.adobe.com/products/photoshop.html) and [Unreal Engine](https://www.unrealengine.com/en-US/features). So this handbook will cover workflows in said software, but many of the concepts are universal and can be applied to other software as well.
 
 If you don't understand a term, give the [[glossary|glossary]] a visit.
+
+For more information about all the features of this handbook, have a quick read [here](https://github.com/Epicrex/3d-artists-handbook#info-about-this-handbook)
 
 Feel free to point out things that might not be the best practice or plain incorrect, and I will fix those spots - [Discussion Area](https://github.com/Epicrex/3DArtistsHandbook/discussions/1).
 

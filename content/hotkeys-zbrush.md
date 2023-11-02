@@ -186,7 +186,7 @@ More Curve Settings in:
 |Place Curve Around Creases|`Creased edges`
 
 
-> [!example]- Videos about Curves
+> [!example]- About curves (videos)
 ><div style="text-align: center;">
 >
 >**Curve Tutorial**

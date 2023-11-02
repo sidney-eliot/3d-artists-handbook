@@ -271,7 +271,7 @@ To-Do
 >- Use export instead of save as 
 >- Export as sRGB not as `Embeded Color Profile`
 
->[!example] Great showcase examples
+>[!example] Great showcase examples (playlist, links)
 >**Art showcase playlist**
 >
 ><div style="text-align: center;">

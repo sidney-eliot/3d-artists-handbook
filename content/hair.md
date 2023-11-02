@@ -2,7 +2,7 @@
 title: "💇🏽‍♀️ Hair"
 enableToc: true
 ---
->[!example]- All kinds of hair methods (video playlist)
+>[!example]- All kinds of hair methods (playlist)
 ><div style="text-align: center;">
 >
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -149,7 +149,7 @@ But to get the desired hair look, there are many others that are often used.
 >- Make sure to turn off all form of color correction (Blender: Color Management, Compositor)
 >- Place a flat colored neutral gray (#7F7F7F) background behind the hair (this is done to help the [[glossary#Anti-Aliasing|anti aliasing]] by bouncing softer light and thus producing crisper edges)
 
->[!example]- Rendering Hair Cards (videos)
+>[!example]- Rendering hair cards (videos)
 ><div style="text-align: center;">
 >
 >**Procedural render setup**

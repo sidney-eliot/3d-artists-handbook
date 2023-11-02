@@ -8,11 +8,99 @@ enableToc: true
 ## General Things to Be Aware Of
 - My workflow between ZBrush and Blender is [[workflow-between-zbrush-and-blender|here]]
 - It's good to work on the **left side** of the model (which is the right side from the character's perspective). This is because of Mirror and Weld
-- Unlike in other software, subdivision in ZBrush are destructive. Even if one goes back to SubDiv level 1 and deletes all higher SubDiv levels, the SubDiv will have dulled the edges in an irreversible way. This won't matter if plan on adding a SubDiv at some point again to the object, because this **edge dulling effect doesn't stack**.
 
-   This can make the mesh unusable as a base for the retopo mesh and makes changing things later on quite hard. To avoid this issue, either use Dynamic SubDiv or create backups of the object before adding SubDiv levels.
+## Subdivision (SubDiv) Levels
+Something which makes ZBrush quite unique, is the way they implemented subdivisions. Unlike in other software like Blender, there's actually quite a lot of strategy when it comes to working with subdivision levels. This is because ZBrush doesn't simply multiply the mesh faces by four and then smooths them (with the Catmull-Clark algorithm), but in addition to that it also remembers every surface change from every subdivision level. The advantage of that is, that one can sculpt pores on a face at subdivision level 6, and then go back down to level 2 and change the shape of the face without destroying the pore detail from level 6.
 
-   So in other words always use Dynamic SubDivs as long as possible and only switch to the destructive SubDiv when adding detail, this will also help with performance.
+As a result, ZBrush subdivisions are destructive. Even if one goes back to subdivision level 1 and deletes all higher subdivision levels, the subdivision will have dulled the edges in an irreversible way. This doesn't matter if one plans on adding a subdivision at some point in the future again to that object, because this **edge dulling effect doesn't stack**.
+
+This can make the mesh unusable as a base for the retopologized mesh and makes changing things later on quite hard. To avoid this issue, either use Dynamic SubDiv or create backups of the object before adding subdivision levels.
+
+So in other words, always use Dynamic SubDivs as long as possible and only switch to the destructive SubDiv when adding detail (this will also help with performance).
+<br>
+Exporting objects with ZBrush subdivisions to other software will mostly make it a normal subdivided object again, but there are methods, like the Blender addon [Sculpt Layers](https://blendermarket.com/products/sculpt-layers), that can potentially allow for transferring ZBrushes special subdivided objects between ZBrush and Blender.
+
+Finally, ZBrush is quite good at handling millions of poligons, and mostly far more than the software the model will be exported to could handle. So one often has to bake down some of the higher subdivision's surface detail before leaving ZBrush.
+
+More details on the ZBrush's subdivision system [here](https://docs.pixologic.com/user-guide/3d-modeling/modeling-basics/subdivision-levels/).
+
+## Efficient Workflow with Alphas & Textures
+Working with alphas in ZBrush can be quite confusing, so here's everything one should know.
+
+Firstly, your images should be the way ZBrush wants them. If you want to use them as alphas, the images should to be ...
+
+1. A single channel image. Most of your alphas will be RGB channel images and, as the name implies, are made of three channels. The only channel one needs is the gray channel (grayscale).
+2. A 6 bit or 18 bit image.
+3. A .psd file extension _(this is very stupid and hopefully fixed by ZBrush in the future)_
+
+If the alpha file doesn't meet all of these 3 conditions, you might still be able to use the file as an alpha in ZBrush, but you won't be able to double-click load the alpha from the Lightbox menu into your alpha palette. Instead of loading it into the alpha palette, ZBrush will load it into the texture palette. One can at the bottom of the texture palette menu click `MakeAlpha`, but this is tedious.
+
+Note that PSD files are larger than PNGs/ JPGs, but the size of PSDs isn't that bad. If the alpha resolution is 4k and one has 2k alphas, then that would be a storage size of: 
+- PSD = 64 GB
+- PNG = 4 GB
+- JPG = 1.6 GB
+
+Changing the channels and bit depth in Photoshop:
+
+![[image-2023-10-15-02-12-45.png]]
+
+>[!info]- Batch method (recommended)
+>Open action window.
+>![[image-2023-10-15-02-53-06.png]]
+>Create and start recording of action.
+>![[image-2023-10-15-02-54-46.png]]
+>![[image-2023-10-15-02-59-46.png]]
+>Convert to grayscale.
+>![[image-2023-10-15-03-05-17.png]]
+>Convert to 8bit or 16bit channel.
+>![[image-2023-10-15-04-40-54.png]]
+>Stop action recording.
+>![[image-2023-10-15-03-18-25.png]]
+>Open Image Processor Script (come with Photoshop)
+>![[image-2023-10-15-04-06-46.png]]
+>Run Image Processor Script (In menu: Include all sub-folders + Select source folder + File Type PSD + Maximize Compatibility +Run action you just created)
+>![[image-2023-10-15-04-36-28.png]]
+>
+>This will create in every folder below the folder you selected a folder called PSD, which contains all the created files. Pull them out of there, replace them with the PNGs/ JPGs, and you're done. Your entire alpha collection should now be grayscaled, 8/16bit PSD files.
+
+Next is the folder structure. I recommend storing the alphas inside `...ProgramFiles/Zbrush/ZBrushes`. Inside the `ZBrushes` folder, create folders for all the themes you have. 
+
+For example:
+```
+📂ZBrushes
+   ├─── 📂Textiles
+   │       ├─── 📂Cloth Folds
+   │       └─── 📂Zippers, Buttons, Seams, Misc
+   ├─── 📂Skin, Fur, Hair
+   │       ├─── 📂Human Skin
+   │       ├─── 📂Fur
+   │       ├─── 📂Scaly Skin
+   │       ├─── 📂Alien Skin
+   │       └─── 📂Other Skin
+   ├─── 📂Nature
+   │       ├─── 📂Rocks
+   │       ├─── 📂Tree Bark
+   │       ├─── 📂Tree Inner
+   │       └─── 📂Damage (not cracks)
+   ├─── 📂Industrial
+   │       ├─── 📂Hardsurface
+   │       └─── 📂Metal
+   ├─── 📂Stencils
+   │       ├─── 📂Logos
+   │       └─── 📂Other
+   ├─── 📂Ground
+   ├─── 📂Effects
+   ├─── 📂Patterns
+   ├─── 📂Paint
+   └─── 📂Misc
+```
+
+
+Now that all that is done, it's time to load the alphas into ZBrush. Open the Lightbox, switch to the Brush tab and choose the alpha you want. Double click it and it should appear in the alpha palette.
+
+I recommend using the Standard brush as your alpha brush, with the following settings:
+- Stroke Palette > DragRect
+- Brush > Backface Mask
 
 ## 🖌Brushes/ Alphas/ Insert Mesh Brushes/ VDM Brushes/ Nano Meshes
 ### Overview
@@ -125,7 +213,7 @@ A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such
 >- Clay Strips
 >- Dam Standard
 >- Inflate
->- Grab
+>- Move
 
 >[!Info] Creating custom sculpting brushes
 >

@@ -13,7 +13,7 @@ Don't use Blender's shader nodes to texture models if you want texture maps for 
 ## Layer Based Texturing 
 To-Do
 
->[!example]- Layer Based Texturing (videos, playlists, channels)
+>[!example]- Layer based texturing (videos, playlists, channels)
 ><div style="text-align: center;">
 >
 >**Introduction to Substance Painter**
@@ -28,7 +28,7 @@ To-Do
 ## Hand Painted Texturing
 To-Do
 
->[!example]- Hand Painted Texturing (videos, playlists, channels)
+>[!example]- Hand painted texturing (videos, playlists, channels)
 ><div style="text-align: center;">
 >
 >**hand Painting Dragon, Entire Process**

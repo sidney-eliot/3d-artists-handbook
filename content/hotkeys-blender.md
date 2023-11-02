@@ -1,6 +1,6 @@
 ---
 title: "Blender Hotkeys"
-enableToc: false
+enableToc: true
 ---
 <style>
 code { color: #265787; background: #EA7600; }
@@ -36,9 +36,10 @@ code { color: #265787; background: #EA7600; }
 |Orbit 180°|**`9`**|
 |Hide all non-selected objects|**`^`**|
 |-|-|-
-|Move / Rotate / Scale|**`G`** / **`R`** / **`S`**
+|Move / Rotate / Scale|**`G`** /**`R`** / **`S`**
 |Limit Move/Rotation/Scale Axis|G/R/S + X/Y/Z + Move/Type number|Use Shift and Ctrl for slow and snap. Minus values also work. Tools like magnet can also be toggled mid-action. Common Rotations: 45°, 90°, 135°, 180°
 |Limit Move/Rotation/Scale to only the input axis|G/R/S + Shift + X/Y/Z + ...|
+|**`R`** + **`R`**|Trackball Rotate
 
 _If you want a first person game like navigation, head to `pref>Navigation>Fly&Walk` and give it a good hotkey. However, I recommend using the normal navigation because other 3D software shares that navigation (except for in game engines, there first person game like navigation is better and more common)._
 

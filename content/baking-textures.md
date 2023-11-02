@@ -20,10 +20,10 @@ Marmoset Toolbag yields the best bakes and has the best tools for troubleshootin
 - Not enough texture resolution
 - Bad preparation. [[preparations-for-baking-and-texturing|Preparations for Baking and Texturing]]
 
-If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This indeed is such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map from Pyke's mount Nensi. I did a slight brightness adjustment for better visualization.
+If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This is indeed such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map from Pyke's mount; Nensi. (I did a slight brightness adjustment for better visualization)
 
 ### Example of Riot Games Messing Up Their AO Maps
-If you want to look at it yourself, you can officially download it from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
+If you want to take a look for yourself, you can officially download the model and it's texture maps for Pyke and Akali from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
 
 ![[Pasted image 20230604230247.png|500]]
 

@@ -29,37 +29,37 @@ Even though a lot is possible in both Blender and ZBrush, you should still be us
 
 ## Table of Contents
 
-- [Best Channels For ZBrush](#Best-Channels-For-ZBrush-)
+- [Best Channels For ZBrush](#Best-Channels-For-ZBrush)
 #### Basic Actions
-- [Adding/ Editing Primitive Shapes](#adding-editing-primitive-shapes-)
-- [Transformations](#transformations-)
-- [Deformations](#deformations-)
-- [Remeshing](#remeshing-)
-- [Edge Control (Bevels/ Creases/ Edge Loops)](#edge-control-)
-- [Mirroring](#Mirroring-)
-- [Booleans](#Booleans-)
-- [Duplicating/ Repeating](#duplicating-repeating-)
-- [Splitting/ Merging](#splitting-merging-)
-- [Cutting](#cutting-)
-- [Morphing](#morphing-)
-- [Extruding/ Thickening](#extruding-thickening-)
-- [Reprojecting Detail](#reprojecting-detail-)
-- [Recreating Subdivision Levels](#recreating-subdivision-levels-)
-- [Fusing Meshes](#fusing-meshes-)
-- [ZModeler (ZBrush's Modeling Brush)](#zmodeler-zbrushs-modeling-brush-)
+- [Adding/ Editing Primitive Shapes](#adding-editing-primitive-shapes)
+- [Transformations](#transformations)
+- [Deformations](#deformations)
+- [Remeshing](#remeshing)
+- [Edge Control (Bevels/ Creases/ Edge Loops)](#edge-control)
+- [Mirroring](#Mirroring)
+- [Booleans](#Booleans)
+- [Duplicating/ Repeating](#duplicating-repeating)
+- [Splitting/ Merging](#splitting-merging)
+- [Cutting](#cutting)
+- [Morphing](#morphing)
+- [Extruding/ Thickening](#extruding-thickening)
+- [Reprojecting Detail](#reprojecting-detail)
+- [Recreating Subdivision Levels](#recreating-subdivision-levels)
+- [Fusing Meshes](#fusing-meshes)
+- [ZModeler (ZBrush's Modeling Brush)](#zmodeler-zbrushs-modeling-brush)
 
 #### Specific Actions
-- [Diamond Grid](#Diamond-Grid-)
-- [Cushion](#Cushion-)
-- [Bevel Transitions](#Bevel-Transitions-)
-- [Connecting Circle with Square or Low Detail Circle](#Connecting-circle-with-square-or-low-detail-circle-)
-- [Rotation Reset Trick](#Rotation-Reset-Trick-)
-- [Bend Object along the Surface of Another](#Bend-Object-Along-The-Surface-Of-Another-)
-- [Clean Surface Transition Between 2 Objects](#Clean-Surface-Transition-Between-2-Objects-)
-- [Wireframe](#Wireframe-)
-- [Clothing, Armor or Retopology](#clothing-armor-or-retopology-)
-- [Interesting Skin Clothing Effect](#Interesting-Skin-Clothing-Effect-)
-- [Smoothing Polygroup Borders](#Smoothing-Polygroup-Borders-)
+- [Diamond Grid](#Diamond-Grid)
+- [Cushion](#Cushion)
+- [Bevel Transitions](#Bevel-Transitions)
+- [Connecting Circle with Square or Low Detail Circle](#Connecting-circle-with-square-or-low-detail-circle)
+- [Rotation Reset Trick](#Rotation-Reset-Trick)
+- [Bend Object along the Surface of Another](#Bend-Object-Along-The-Surface-Of-Another)
+- [Clean Surface Transition Between 2 Objects](#Clean-Surface-Transition-Between-2-Objects)
+- [Wireframe](#Wireframe)
+- [Clothing, Armor or Retopology](#clothing-armor-or-retopology)
+- [Interesting Skin Clothing Effect](#Interesting-Skin-Clothing-Effect)
+- [Smoothing Polygroup Borders](#Smoothing-Polygroup-Borders)
 
 #### Sculpting
 - [Sculpting Tips](#Sculpting-Tips)
@@ -527,25 +527,26 @@ Organic sculpting is something best learned by simply sculpting and watching oth
 [15 Blender and ZBrush Sculpting Tips No One Talks About](https://www.youtube.com/watch?v=rkMH77hZ9xc) _(Outgang  - 7min)_
 
 ### Brushes
+The **`B ...`** box is the hotkey for the brush. "B" for "brush" and the other letters for the brush name.
 #### Main Brushes
-- Clay Buildup _(B CB)_
-- Standard _(B ST)_
-- Dam Standard _(B DS)_
-
+- Clay Buildup **`B CB`**
+- Standard **`B ST`**
+- Dam Standard **`B DS`**
 #### Surface Smoothing
 - Smooth
-- Trim Dynamic _(B TD)_
-- hPolish (same as flatten but respects hard edges, alt for different behavior) _(B HP)_
-- Flatten _(B FA)_
-- Planar _(B PL)_
+- Trim Dynamic **`B TD`**
+- hPolish **`B HP`** (Same as flatten but respects hard edges, alt for different behavior)
+- Flatten **`B FA`**
+- Planar **`B PL`**
 
 #### Special Brushes
-- Inflate _(B IN)_
-- Layer _(B LA)_
-- Bevel Arc/ Flat _(B BA/ B BF)_
-- Pinch _(B PI)_
-- Scribe Chisel _(B SC)_
-- History Recall(_B HR_)
+- Move **`B MV`** (+Interesting interaction with Ctrl)
+- Inflate **`B IN`**
+- Layer **`B LA`**
+- Bevel Arc/ Flat **`B BA/ B BF`**
+- Pinch **`B PI`**
+- Scribe Chisel **`B SC`**
+- History Recall **`B HR`**
 
 #### Great Brush Packs
 Search for Brushes/ Insert Brushes on ArtStation and Gumroad
