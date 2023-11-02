@@ -1,12 +1,12 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "../types"
-import { Fragment, jsx, jsxs } from "preact/jsx-runtime"
-import { toJsxRuntime } from "hast-util-to-jsx-runtime"
 import path from "path"
 
 import style from "../styles/listPage.scss"
 import { PageList } from "../PageList"
 import { _stripSlashes, simplifySlug } from "../../util/path"
 import { Root } from "hast"
+import { pluralize } from "../../util/lang"
+import { htmlToJsx } from "../../util/jsx"
 
 function FolderContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles } = props
@@ -28,15 +28,14 @@ function FolderContent(props: QuartzComponentProps) {
   const content =
     (tree as Root).children.length === 0
       ? fileData.description
-      : // @ts-ignore
-        toJsxRuntime(tree, { Fragment, jsx, jsxs, elementAttributeNameCase: "html" })
+      : htmlToJsx(fileData.filePath!, tree)
 
   return (
     <div class="popover-hint">
       <article>
         <p>{content}</p>
       </article>
-      <p>{allPagesInFolder.length} items under this folder.</p>
+      <p>{pluralize(allPagesInFolder.length, "item")} under this folder.</p>
       <div>
         <PageList {...listProps} />
       </div>
