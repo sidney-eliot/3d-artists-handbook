@@ -80,9 +80,9 @@ Even though a lot is possible in both Blender and ZBrush, you should still be us
 
 </div>
 
-## ─────────┐
+## ─────────
 ## Basic Actions
-## ─────────┘
+## ─────────
 
 ### Adding/ Editing Primitive Shapes
 |Software|Method|Notes
@@ -378,8 +378,9 @@ Or use the [Sculpt Layers](https://blendermarket.com/products/sculpt-layers)
 
 </details>
 
-
-## ------ SPECIFIC ACTIONS ------
+## ─────────
+## SPECIFIC ACTIONS
+## ─────────
 
 ## Diamond Grid
 Used for fishnet stockings, fences and nets.
@@ -514,7 +515,10 @@ Rotation Reset Trick or "box trick" is a method for removing extra data from a m
 |:-:|:-:|:-:
 |⚪|Smooth Groups Brush|_(Lightbox > Brush Tab > Smooth Folder > Smooth Groups.ZBP)_ Be careful to not smooth the mesh by accident, use masking
 
-## ------ SCULPTING ------
+## ─────────
+## SCULPTING
+## ─────────
+
 Organic sculpting is something best learned by simply sculpting and watching others sculpt
 
 ### Sculpting Tips
