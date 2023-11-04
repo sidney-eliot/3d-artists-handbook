@@ -1,5 +1,5 @@
 ---
-title: "⚪ZBrush"
+title: "⚪ ZBrush"
 enableToc: true
 ---
 
@@ -27,13 +27,13 @@ More details on the ZBrush's subdivision system [here](https://docs.pixologic.co
 ## Efficient Workflow with Alphas & Textures
 Working with alphas in ZBrush can be quite confusing, so here's everything one should know.
 
-Firstly, your images should be the way ZBrush wants them. If you want to use them as alphas, the images should to be ...
+Firstly, the files need to be the way ZBrush wants them. If you want to use them as alphas, the files need to be ...
 
-1. A single channel image. Most of your alphas will be RGB channel images and, as the name implies, are made of three channels. The only channel one needs is the gray channel (grayscale).
+1. A single channel image. Most of your alphas will most likely be RGB, and as the name implies are three channel images. The only channel one needs is the gray channel (grayscale).
 2. A 6 bit or 18 bit image.
-3. A .psd file extension _(this is very stupid and hopefully fixed by ZBrush in the future)_
+3. A .psd file extension _(this is very stupid and hopefully fixed in the future)_
 
-If the alpha file doesn't meet all of these 3 conditions, you might still be able to use the file as an alpha in ZBrush, but you won't be able to double-click load the alpha from the Lightbox menu into your alpha palette. Instead of loading it into the alpha palette, ZBrush will load it into the texture palette. One can at the bottom of the texture palette menu click `MakeAlpha`, but this is tedious.
+If the alpha file doesn't meet all of these 3 conditions, you might still be able to use the file as an alpha, but you won't have the benefit of double-click loading the alpha from the Lightbox menu. Instead of loading it into the alpha palette, ZBrush will load it into the texture palette. One can at the bottom of the texture palette menu click `MakeAlpha`, but this is tedious.
 
 Note that PSD files are larger than PNGs/ JPGs, but the size of PSDs isn't that bad. If the alpha resolution is 4k and one has 2k alphas, then that would be a storage size of: 
 - PSD = 64 GB
@@ -98,9 +98,11 @@ For example:
 
 Now that all that is done, it's time to load the alphas into ZBrush. Open the Lightbox, switch to the Brush tab and choose the alpha you want. Double click it and it should appear in the alpha palette.
 
-I recommend using the Standard brush as your alpha brush, with the following settings:
-- Stroke Palette > DragRect
-- Brush > Backface Mask
+Optimizing the brush: Select the Standard brush, Select the DragRect stroke, Brush > Backface Mask
+
+
+group chnaged points
+mask chnaged points
 
 ## 🖌Brushes/ Alphas/ Insert Mesh Brushes/ VDM Brushes/ Nano Meshes
 ### Overview

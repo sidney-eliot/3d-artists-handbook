@@ -1,5 +1,5 @@
 ---
-title: "Preparations for Baking and Texturing"
+title: "🧭 Baking & Texturing Preparations"
 enableToc: true
 ---
 

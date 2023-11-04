@@ -1,5 +1,5 @@
 ---
-title: "Image Extensions"
+title: "🖼️ Image Extensions"
 enableToc: true
 ---
 

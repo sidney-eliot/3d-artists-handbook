@@ -1,11 +1,12 @@
 ---
-title: "Rendering/ Compositing/ Uploading"
+title: "🎥🔗 Rendering & Compositing & Sharing"
 enableToc: true
 ---
 
 
-
+## ─────────
 ## Rendering
+## ─────────
 
 ### Render Engines
 |Renderer|Pre-Rendering|Real-time Rendering|Showcase
@@ -235,8 +236,9 @@ In Marmoset, one can either pre render shots or go the real-time route with Marm
 - Adjust render settings. They are available in the camera tab, Lens and Post Effects but also in export tab. Note that some settings won't carry over into the viewer file, like chromatic aberration
 
 
-
+## ─────────
 ## Compositing
+## ─────────
 ### Compositing Software
 
 |Software|Area of use|Performance|Compositing features
@@ -258,9 +260,9 @@ To-Do
 
 ### Post Processed Bloom
 
-
+## ─────────
 ## Export/ Upload
-
+## ─────────
 
 >[!tip] Exporting tips
 >

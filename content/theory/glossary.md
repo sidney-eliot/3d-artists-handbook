@@ -2,7 +2,9 @@
 title: "📑 Glossary"
 enableToc: true
 ---
+## ─────────
 ## Visual
+## ─────────
 
 ---
 
@@ -27,7 +29,6 @@ Ambient Occlusion (AO) is a shading and rendering technique used to calculate ho
 ---
 
 ### Ray Tracing
-
 _[[Wikipedia](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))] - Unreal Engine Doc [[1](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing)] [[2](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/)] (real-time) - [[Unreal Engine Doc](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/)] (hardware) - [[Unity Doc](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)]_
 
 Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (film industry).
@@ -60,7 +61,6 @@ This doesn't mean that ray tracing in its nature makes lighting and shadows wors
 ---
 
 ### Subsurface Scattering
-
 Subsurface scattering (SSS) is a rendering feature, which allows for objects to appear more alive by scattering light more realistically inside themselves. Though subsurface scattering mostly has a reddish glow, the color totally depends on what is on the `SSS Color Map` as well as the light source color. For the render engine to properly scatter the light it also needs to know how thick each area on the model is, for that the `Thickness Map` is used (A map which is also useful for other things than sub surface scattering). The `SSS Color Map` is sometimes also complemented with a `SSS Control Map`.
 
 Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate this in 3D, subsurface scattering (SSS) maps are used in combination with thickness maps.
@@ -122,7 +122,6 @@ A technique for reusing screen-space data to calculate reflections. Used for mor
 ---
 
 ### Caustics
-
 https://youtu.be/7l6QOcgWXfI
 
 ---
@@ -150,7 +149,7 @@ To-Do
 
 ---
 
-### Volumetric effects: Volumetric Lighting and Fog
+### Volumetric Effects
 
 #### Volumetric Lighting
 
@@ -159,7 +158,6 @@ Volumetric lighting or God Rays lets beams of light shine across the environment
 ![[Pasted image 20230603124930.png|500]]
 
 #### Volumetric Fog
-
 > [!example] Volumetric Fog is used for 
 >
 > - Fog
@@ -332,7 +330,6 @@ Examples:
 ---
 
 ### Diffuse Reflection
-
 - Diffuse reflection is light that has been refracted
 - Light ray hits a surface, enters the object, is scattered multiple times and finally is refracted out of the object at the same point it entered the object
 - Most diffuse materials have high absorption so for the light to leave the object it can only travel (scatter) short distances within the object
@@ -358,7 +355,11 @@ Examples for diffuse objects:
 
 ---
 
+## ─────────
 ## Topology
+## ─────────
+
+---
 
 ### Poles
 There are two types of poles, N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
@@ -408,10 +409,13 @@ Tessellation (Triangulation) is the process of the converting faces to random ev
 
 ---
 
-## Textures
+## ─────────
+##  Textures
+## ─────────
+
+---
 
 ### Bit Depth
-
 _[[Wikipedia](https://en.wikipedia.org/wiki/Color_depth)] - [[Polycount](http://wiki.polycount.com/wiki/BitDepth)] - [[Photoshop Doc](https://helpx.adobe.com/photoshop/using/bit-depth.html)]_
 
 >[!example]- Bit depth explanation (videos)
@@ -419,6 +423,7 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Color_depth)] - [[Polycount](http://
 >
 >**Bit depth explanation**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Y-wSHpNJs-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
 
 Bit depth (Color depth) determines how much color information an image can store, which directly influences the dynamic range the image can have.
 
@@ -521,7 +526,9 @@ https://marmoset.co/posts/toolbag-baking-tutorial/
 
 ---
 
+## ─────────
 ## Animation
+## ─────────
 To-Do
 
 ---
@@ -536,7 +543,11 @@ To-Do
 
 ---
 
+## ─────────
 ## Baking
+## ─────────
+
+---
 
 ### Floaters
 Floaters are loose detail pieces that float above the surface of a mesh and are baked down into the normal map. This creates the illusion that they are connected with the mesh they hover above. A boolean cut floater for example can save a lot of time because one doesn't actually have to do a boolean cut and can quickly duplicate the piece along the mesh surface without having to integrate it into the topology.
@@ -554,8 +565,6 @@ ToDo
 ToDo
 
 ## 🚧Work in Progress🚧
-
-## Other
 
 ### Rigid Body
 An object that is affected by forces of gravity.

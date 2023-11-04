@@ -1,5 +1,5 @@
 ---
-title: "My Setup"
+title: "🖥️ My Setup"
 enableToc: true
 ---
 
@@ -14,30 +14,28 @@ enableToc: true
 - Preview all kinds of Image Extensions in File Explorer: SageThumbs (supports: .psd/ .tga/ .tiff/ .bmp/ +defaults +more)
 - Nightlight for your eyes: [F.Lux](https://justgetflux.com/)
 
-# Project Folder Structure
+## Project Folder Structure
 Always keep your project files organized. And use the same folder structure among your different projects.
 
-```
-Modeling,sculpting
-   -> Blender
-   -> ZBrush
-   -> Exports
-Ref
-Renders
-Texturing
-   -> MarmosetToolbag
-   -> SubstancePainter
-   -> 3DCoat
-```
+>[!example] Example
+>📂Modeling-Sculpting<br>
+>📂Blender<br>
+>└── 📂ZBrush<br>
+>└── 📂Exports<br>
+>📂Ref<br>
+>📂Renders<br>
+>📂Texturing<br>
+>└── 📂MarmosetToolbag<br>
+>└── 📂SubstancePainter<br>
+>└── 📂3DCoat<br>
 
-
-# My Setup for Sculpting / Texturing
+## My Setup for Sculpting / Texturing
 For sculpting/ texturing, I use a keyboard in my left hand and my drawing tablet with my right hand. Having the 3D software open on the drawing tablet and reference on my main monitor and my mouse close by for when I have to do something on the monitor.
 
-# My Setup for Modeling
+## My Setup for Modeling
 For modeling I use my keyboard, mouse and monitor.
 
-# The Hardware I Use
+## The Hardware I Use
 - **Huion Kamas 22 Plus** _(21.5 inch - 1920 x 1080 (16:9) - 60Hz -140% sRGB Color Gamut (QLED) - Etched Anti-Glare Glass - Fully Laminated - 1200:1 Contrast Ratio)_
 - **iPad Pro 11 4th Gen** _(11 inch - 2388 x 1668 (7:5) - Dynamic refresh rate from 24Hz to 120 Hz (ProMotion) - P3 D65 Color Gamut (A P3 display where sRGB is properly mapped) - Liquid Retina panel - IPS - 600 nits - Fully Laminated - adjust color and intensity to match ambient light (True Tone) - anti-reflective coating (1.8% reflectivity))_
 - **64GB DDR4 RAM**

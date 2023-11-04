@@ -1,5 +1,5 @@
 ---
-title: "Blender Sculpting"
+title: "🟠 Sculpting in Blender"
 enableToc: true
 ---
 

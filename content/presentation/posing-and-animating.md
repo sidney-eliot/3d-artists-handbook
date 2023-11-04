@@ -1,11 +1,11 @@
 ---
-title: "Posing Animating"
+title: "🎭 Posing & Animating"
 enableToc: true
 ---
 
-# 🚧Work in Progress🚧
+## 🚧Work in Progress🚧
 
-# Exporting animations
+## Exporting Animations
 ### Actions
 This refers to a timeline containing keyframes of an animation. All animations can be in one action or separated into single actions (run, idle, shoot, ...), both methods are fine, however separating every animation into a separate actions can make things easier.
 
@@ -28,7 +28,7 @@ The only 2 file formats one can really use are .fbx and .abc (Alembic).
 - All Actions: Disable if all animations are in one action. Enable if every animation has a separate action
 - Simplify: Set to 0.10. Makes exporting take a bit longer but avoid issues, especially in the face area
 
-# 🚧Sort in
+## 🚧Sort in
 
 ### Rotation modes
 XYZ Euler: The first axis has the highest priority and the last the lowest priority.

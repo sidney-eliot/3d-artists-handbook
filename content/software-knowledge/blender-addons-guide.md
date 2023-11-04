@@ -1,5 +1,5 @@
 ---
-title: "Blender Addons Guide"
+title: "🔮📑 Blender Addons Guide"
 enableToc: true
 ---
 

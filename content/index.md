@@ -2,21 +2,14 @@
 title: "Home"
 enableToc: false
 ---
-
-> [!warning] Warning
-> 
-> This handbook is almost fully migrated, so some things might still be broken.
-> 
-> Note also that the backlink and graph section at the bottom won't show many connections yet, but over time I will more and more try to link relevant pages with each other and every page linking to the Home page will also change.
-
 ## Hi
-I'm **Sidney** _(Epicrex)_, a 3D Character Artist, and this knowledge pool is for me, you, and everyone else.
+I'm **Sidney** _(Epicrex)_, a 3D character artist, and this knowledge pool is for me, you, and everyone else.
 
 > [!info]- More about this handbook
 >
 > I'm a self-taught artist and I know just how difficult it can be, having to piece together all the snippets one gets from all kinds of sources. So I made this handbook to cover the entire workflow, as well as other things like composition, character design theory, anatomy, and more. I'm not saying that this is the end-all-be-all, but it can definitely be your main support line that you compliment with a bit of your own research.
 > 
-> My goal with this handbook isn't to cover entry level stuff, the methods and workflows I go over are for a big part industry standard and will yield great results. A perfect example of that would be the [[baking-textures| baking]] page, in which I show how even amazing studios like Riot Games don't always have the best approaches to difficult problems.
+> My goal with this handbook isn't to cover entry level stuff, the methods and workflows I go over are for a big part industry standard and will yield great results. A perfect example of that would be the [[baking| baking]] page, in which I show how even amazing studios like Riot Games don't always have the best approaches to difficult problems.
 
 This is probably best suited for intermediate and advanced 3D artists. If you're a 2D artist, then you might find something interesting [[#All Relevant Things from This Handbook for 2D Artists|here]]. My 3D workflow mostly consists of following software: [Blender](https://www.blender.org/features/), [ZBrush](https://pixologic.com/), [Marmoset Toolbag](https://marmoset.co/toolbag/), [Substance Painter](https://www.adobe.com/products/substance3d-painter.html), [Photoshop](https://www.adobe.com/products/photoshop.html) and [Unreal Engine](https://www.unrealengine.com/en-US/features). So this handbook will cover workflows in said software, but many of the concepts are universal and can be applied to other software as well.
 
@@ -26,71 +19,56 @@ For more information about all the features of this handbook, have a quick read 
 
 Feel free to point out things that might not be the best practice or plain incorrect, and I will fix those spots - [Discussion Area](https://github.com/Epicrex/3DArtistsHandbook/discussions/1).
 
-_Note that things/ entire pages are unfinished. (The 🚧 symbol denotes that those elements/ pages have not yet been finished/ integrated)_
+_Some parts of this handbook are still a work in progress, those parts are denoted with the 🚧 symbol._
 
-## Main
-_This section will be moved to a side panel, so it can be accessed from every page._
-
-> [!note] Sidebar
-> 
-> ### Home
-> - [[_index|Home]]
->   
->  ### Theory
->  - [[glossary|Glossary 📑]]
-> - [[hotkeys|Hotkeys ⌨️]]
->  - [[composition|Composition 🌆]]
->  - [[technical-side-of-character-design|Technical Side of Character Design 👩🏽‍💻]]
->  - 🚧 [[artistic-side-of-character-design|Artistic Side of Character Design]]
->  - [[topology-and-retopology|Topology & Retopology]]
->  - [[optimization|Optimization 📊]]
->  - [[color|Color 🎨]]
->  - [[texture-maps|Texture Maps 🗺️]]
->  - [[image-file-format|Image File Format]]
-> - [[art-software|Art Software]]
+> [!note] Explorer
+>[[hotkeys|⌨️ Hotkeys]]
+>### Theory
+>[[glossary|📑 Glossary]]<br>
+>[[composition|🌆 Composition]]<br>
+>[[technical-side-of-character-design|👩🏽‍💻 Technical Side of Character Design]]<br>
+>[[artistic-side-of-character-design|🧠 Artistic Side of Character Design]]<br>
+>[[topology-and-retopology|📐 Topology & Retopology]]<br>
+>[[optimization|📊 Optimization]]<br>
+>[[color|🎨 Color]]<br>
+>[[texture-maps|🗺️ Texture Maps]]<br>
+>[[image-extensions|🖼️ Image Extensions]]<br>
+>[[art-software|Art Software]]
 > 
 > ### Process
-> - [[organic-and-hard-surface-sculpting-and-modeling|Organic and Hard Surface Sculpting and Modeling 🧊🗿]]
-> - [[workflow-between-zbrush-and-blender|Workflow between ZBrush and Blender 🌀]]
-> - [[sculpting-in-blender|Sculpting in Blender]]
-> - [[hair|Hair 💇🏽‍♀️]]
-> - [[anime-style-characters|Anime Style Characters]]
+>[[organic-sculpting-and-hard-surface-sculpting-and-modeling|🧊🗿 Organic Sculpting & Hard Surface Sculpting & Modeling]]<br>
+>[[workflow-between-zbrush-and-blender|🌀 Workflow between ZBrush & Blender]]<br>
+>[[sculpting-in-blender|🟠 Sculpting in Blender]]<br>
+>[[hair|💇🏽‍♀️ Hair]]<br>
+>[[anime-styled-characters|Anime Style Characters]]
 > 
 > ### Texture
-> - [[uv-unwrapping|UV Unwrapping]]
-> - [[preparations-for-baking-and-texturing|Preparations for Baking and Texturing]]
-> - [[baking-textures|Baking 🎛️]]
-> - [[texturing|Texturing 🖌️]]
+>[[uv-unwrapping|🎁 UV Unwrapping]]<br>
+>[[baking-and-texturing-prep|🧭 Baking & Texturing Preparations]]<br>
+>[[baking|🎛️ Baking]]<br>
+>[[texturing|🖌️ Texturing]]
 > 
 > ### Presentation
-> - [[rigging|Rigging 🦴]]
-> - 🚧 [[posing-and-animating|Posing & Animating]]
-> - 🚧 [[lighting|Lighting 💡]]
-> - [[blender-to-unreal-pipeline|Blender to Unreal Pipeline]]
+>[[rigging|🦴 Rigging]]<br>
+>[[posing-and-animating|🎭 Posing & Animating]]<br>
+>[[lighting|💡 Lighting]]<br>
+>[[blender-to-unreal-pipeline|🌀 Blender to Unreal Pipeline]]
 > 
 > ### Post
-> - [[rendering-and-compositing-and-uploading|Rendering & Compositing & Uploading]]
+>[[rendering-compositing-sharing|🎥🔗 Rendering & Compositing & Sharing]]
 > 
 > ### Software Specific Knowledge
-> - [[zbrush|ZBrush ⚪]]
-> - [[blender|Blender 🟠]]
-> - [[blender-addons|Blender Addons]]
-> - [[blender-addons-guide|Blender Addons Guide]]
+>[[zbrush-specific|⚪ ZBrush]]<br>
+>[[blender-specific|🟠 Blender]]<br>
+>[[blender-addons|🔮 Blender Addons]]<br>
+>[[blender-addons-guide|🔮📑 Blender Addons Guide]]
 >
 >### Extra
->- [[asset-sites|Asset Sites]]
->- [[art-software|Art Software]]
->- [[2d-art-resources|2D Art Resources]]
->- [[model-part-names|Model Part Names]]  
->    
-> ### Other Relevant Wikis
-> - [**Anatomy**](https://github.com/Epicrex/AnatomyForArtists/wiki) 💪
-> - [**Addons**](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki) 🔮
-> - [**Extras**](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki)
-> - [**Unreal**](https://github.com/Epicrex/UnrealEngine/wiki)
-> 
-> ### Setup
-> - [[my-setup|My Setup]]
+>[[asset-sites|Asset Sites]]<br>
+>[[2d-art-resources|2D Art Resources]]<br>
+>[[model-part-names|Model Part Names]]  
+><br>
+>[[my-setup|🖥️ My Setup]]
 
 ## Anatomy
 - [Anatomy For Artists](https://github.com/Epicrex/AnatomyForArtists/wiki)
@@ -99,14 +77,15 @@ _This section will be moved to a side panel, so it can be accessed from every pa
 - [Unreal Engine](https://github.com/Epicrex/UnrealEngine/wiki)
 
 ## All Relevant Things from This Handbook for 2D Artists
-- [[composition|Composition 🌆]]
+- [[composition|🌆 Composition]]
 - [Anatomy](https://github.com/Epicrex/AnatomyForArtists/wiki)
-- [[color|Color 🎨]]
-- [[artistic-side-of-character-design|Artistic Side of Character Design]]
-- [[hotkeys-photoshop|Photoshop Hotkeys]]
-- [[hotkeys-clip-studio-paint|Clip Studio Paint Hotkeys]]
-- [[hotkeys-procreate|Procreate Hotkeys]]
-- [Art Courses](https://github.com/Epicrex/3DArtistsHandbookExtraEdition/wiki/Art-Courses)
+- [[color|🎨Color]]
+- [[artistic-side-of-character-design|🧠 Artistic Side of Character Design]]
+- [[photoshop|⌨️ Photoshop Hotkeys]]
+- [[clip-studio-paint|⌨️ Clip Studio Paint Hotkeys]]
+- [[procreate|⌨️ Procreate Hotkeys]]
+- [[art-courses|Art Courses]]
+- [[2d-art-resources|2D Art Resources]]
 
 ## Awesome Blender GitHub by Mdsanima
 A treasure trove of links to all kinds of places.

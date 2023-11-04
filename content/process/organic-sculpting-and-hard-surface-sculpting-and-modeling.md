@@ -1,5 +1,5 @@
 ---
-title: "🧊🗿Organic/ Hard Surface/ Sculpting"
+title: "🧊🗿 Organic Sculpting & Hard Surface Sculpting & Modeling"
 enableToc: true
 ---
 
@@ -80,10 +80,11 @@ Even though a lot is possible in both Blender and ZBrush, you should still be us
 
 </div>
 
+## ─────────┐
+## Basic Actions
+## ─────────┘
 
-## ------ BASIC ACTIONS ------
-
-## Adding/ Editing Primitive Shapes
+### Adding/ Editing Primitive Shapes
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪|Insert Brushes|Quick, directly into SubTool, works great with mesh fusion and snaps to mesh

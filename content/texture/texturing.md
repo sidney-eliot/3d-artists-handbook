@@ -1,5 +1,5 @@
 ---
-title: "🖌️Texturing"
+title: "🖌️ Texturing"
 enableToc: true
 ---
 

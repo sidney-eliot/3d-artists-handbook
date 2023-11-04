@@ -1,5 +1,5 @@
 ---
-title: "Blender to Unreal Pipeline"
+title: "🌀 Blender to Unreal Pipeline"
 enableToc: true
 ---
 

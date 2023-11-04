@@ -1,5 +1,5 @@
 ---
-title: "🌀Workflow between ZBrush and Blender"
+title: "🌀 Workflow between ZBrush & Blender"
 enableToc: true
 ---
 ## A Great Workflow Example

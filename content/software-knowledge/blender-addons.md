@@ -1,5 +1,5 @@
 ---
-title: "Blender Addons"
+title: "🔮 Blender Addons"
 enableToc: true
 ---
 ## Overview

@@ -1,5 +1,5 @@
 ---
-title: "Topology/ Retopology"
+title: "📐 Topology & Retopology"
 enableToc: true
 ---
 [[glossary#Topology|Glossary Topology Terms]]
