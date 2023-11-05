@@ -33,7 +33,7 @@ HSL Example:
 For 2D art and hand painted textures, this is pretty much always the best choice, because of being able to easily select different tints/shades of a color. But it's also good for any other color picking. The choice between HSV vs HSL is a thing of preference, though HSV is probably the more popular one.
 
 ### Hex Color Model
-A hex color is like RGB. The syntax is #RRGGBB, so green would be #00FF00. 00 means none of that channel and FF means 255 of that channel (0-9, A-F). It's also possible to store alpha in hex with the following syntax #RRGGBBAA, so green with alpha would be #00FF0012. The "A" can only range from 0-100.
+A hex color is like RGB. The syntax is `#RRGGBB`, so green would be `#00FF00`. 00 means none of that channel and FF means 255 of that channel (0-9, A-F). It's also possible to store alpha in hex with the following syntax `#RRGGBBAA`, so green with alpha would be `#00FF0012`. The "A" can only range from 0-100.
 
 **When to use**
 HEX is almost only used for copying a color per values from A to B
@@ -101,15 +101,15 @@ A great place to create these synergies and understand how they work is [Adobe's
 ## Common Colors RGB/ HEX
 COLOR|RGB|HEX
 |:-:|:-:|:-:|
-|White|255,255,255|#FFFFFF
-|Black|0,0,0|#000000
-|50%/Neutral Gray|127.5,127.5,127.5|#7F7F7F
-|Red|255,0,0|#FF0000
-|Lime|0,255,0|#00FF00
-|Blue|0,0,255|#0000FF
-|Yellow|255,255,0|#FFFF00
-|Cyan|0,255,255|#00FFFF
-|Magenta|255,0,255|#FF00FF
+|White|255,255,255|`#FFFFFF`
+|Black|0,0,0|`#000000`
+|50%/Neutral Gray|127.5,127.5,127.5|`#7F7F7F`
+|Red|255,0,0|`#FF0000`
+|Lime|0,255,0|`#00FF00`
+|Blue|0,0,255|`#0000FF`
+|Yellow|255,255,0|`#FFFF00`
+|Cyan|0,255,255|`#00FFFF`
+|Magenta|255,0,255|`#FF00FF`
 
 
 

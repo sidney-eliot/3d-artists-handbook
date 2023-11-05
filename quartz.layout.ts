@@ -64,7 +64,6 @@ export const defaultContentPageLayout: PageLayout = {
             "theory/texture-maps": 208,
             "theory/image-extensions": 209,
             "theory/art-software": 210,
-            // "⌨️ Hotkeys": 300,
             process: 500,
             "process/organic-sculpting-and-hard-surface-sculpting-and-modeling": 501,
             "process/workflow-between-zbrush-and-blender": 502,
