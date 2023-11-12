@@ -3,10 +3,10 @@ title: "🎁 UV Unwrapping"
 enableToc: true
 ---
 ## Overview
-UV Unwrapping is best in Blender, by far. When UV unwrapping, it's a good practice to use UV checker maps to better see distortions. Make sure that every part of the model that shares the same atlas texture map has the same UV checker map size. My favorite collection of UV Checker Maps is [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
+UV unwrapping is best in Blender, by far. When UV unwrapping, it's good practice to use UV checker maps as well as heat maps, to better see distortions. Make sure that every part of the model, that shares the same atlas texture map, has the same UV checker map size. My favorite collection of UV checker maps can be found [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
 
 ## Placing Seams
->[!tip] Helpful stuff for placing seams
+>[!tip] Helpful knowledge for placing seams
 >
 >- Seams can be selected in select menu (Shift + G or Select > Select Similar > Seam)
 >- Seams can be placed at edges that surpass an angle threshold (Select > Select Sharp Edges or Shift + G)
@@ -19,7 +19,7 @@ UV Unwrapping is best in Blender, by far. When UV unwrapping, it's a good practi
 >
 >- Make islands as big as possible. This reduces space because every island needs its own padding. For very long islands, however, it still makes sense to split them into smaller islands. Another pro of bigger islands is that there are fewer islands, so fewer seams.
 
->[!tip] The ultimate rule of thumb
+>[!tip] The ultimate rule of thumb 🔥
 >
 >A smoothing/ shading split always needs a UV split, but a UV split doesn't always need a smoothing/ shading split.
 

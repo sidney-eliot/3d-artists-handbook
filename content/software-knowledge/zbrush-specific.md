@@ -22,6 +22,8 @@ Exporting objects with ZBrush subdivisions to other software will mostly make it
 
 Finally, ZBrush is quite good at handling millions of poligons, and mostly far more than the software the model will be exported to could handle. So one often has to bake down some of the higher subdivision's surface detail before leaving ZBrush.
 
+Another little trick with ZBrush's SubDiv vs Dynamic SubDiv, is that if you never add SubDiv levels just so the object is smoother but only when you want to sculpt in more detail, then you don't have to export all objects at insane SubDiv levels, but can disable Dyanmic SubDiv and add a SubDiv back onto the objects that need it. Without accidentaly losing sculpted detail.
+
 More details on the ZBrush's subdivision system [here](https://docs.pixologic.com/user-guide/3d-modeling/modeling-basics/subdivision-levels/).
 
 ## Efficient Workflow with Alphas & Textures

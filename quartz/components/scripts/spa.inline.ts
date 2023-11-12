@@ -1,5 +1,6 @@
 import micromorph from "micromorph"
 import { FullSlug, RelativeURL, getFullSlug } from "../../util/path"
+import { normalizeRelativeURLs } from "./popover.inline"
 
 // adapted from `micromorph`
 // https://github.com/natemoo-re/micromorph
@@ -46,6 +47,8 @@ async function navigate(url: URL, isBack: boolean = false) {
   if (!contents) return
 
   const html = p.parseFromString(contents, "text/html")
+  normalizeRelativeURLs(html, url)
+  
   let title = html.querySelector("title")?.textContent
   if (title) {
     document.title = title
