@@ -3,8 +3,6 @@ https://epicrex.github.io/3d-artists-handbook<br>
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
 
-`⚠️There is currently a bug on Firefox and Safari where picutres won't load in specific situations. Until I fix it and you encounter it, simply press F5⚠️`
-
 _(You can see the raw pages here on the [v4 branch](https://github.com/Epicrex/3d-artists-handbook/tree/v4))_
 # Info About this Handbook
 
