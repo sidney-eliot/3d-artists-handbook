@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    baseUrl: "https://epicrex.github.io/3d-artists-handbook",
+    baseUrl: "epicrex.github.io/3d-artists-handbook",
     ignorePatterns: ["private", ".obsidian"],
     defaultDateType: "created",
     theme: {

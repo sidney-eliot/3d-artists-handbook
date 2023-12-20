@@ -25,9 +25,9 @@ enableToc: true
 
 
 ## Important Conventions to Follow
-- Use `A pose`, it's the most neutral pose and the closet pose to industry standard rigs, like the UE rig. The `T pose` is the second best but also not very good because it makes sculpting the shoulders quite hard and doesn't match industry standards
-- Make sure measurements are correct, `around 1.7m` for an average character (This will make shadows, physics and more, more accurate. And has many other benefits)
-- Make sure the character is `pointing to the front`
+- Create the character in an **A-pose**. Anatomically, it's the most neutral pose the human body can be in. It will make sculpting areas like the shoulders (Deltoids) quite a lot easier. The **A-pose** is also the closest pose to industry standard rigs, like the Unreal Engine rig. An additional benefit of using the **A-pose**, is that showcasing the character poseless in the portfolio will look much more natural than something like the **T-pose**.
+- Make sure measurements are correct, **around 1.7m** for an average character (This will make shadows, physics, ... more accurate. And has many other benefits)
+- Make sure the character is **pointing to the front**
 - Work on the left side of the character (from the character's perspective) and mirror to the right, this helps with Blender addons, marmoset skew painting and more. In ZBrush however, work on the right side because of mirror and weld
 - Keep center of model always at center of world. In 3D modeling applications this is easy, but in software like ZBrush it's a bit more of a challenge
 - Keep entire base mesh and use hide modifier to remove parts

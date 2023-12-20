@@ -109,8 +109,13 @@ This is a somewhat complete collection of all the software that 3D artists can c
 ## Reference Art Board
 
 - [**`PureRef`**](https://www.pureref.com)
-- [**Milanote**](https://milanote.com/) _(A great online reference art board)_
-- [**BeeRef**](https://github.com/rbreu/beeref) _(PureRef is better)_
+- [**`VizRef`**](https://vizref.com/) (For iOS devices)
+- [**`Milanote`**](https://milanote.com/) _(Feature rich and running in the cloud)_
+- [**Opti**](https://github.com/torcado194/opti)
+- [**Kuadro**](http://www.kruelgames.com/tools/kuadro/)
+- [**RefCanvas**](https://refcanvas.com/) (For iOS/ Android devices)
+- [**DroidRef**](https://github.com/Ruin0x11/DroidRef)(For Android devices)
+- [**BeeRef**](https://github.com/rbreu/beeref)
 
 ## Color Palette Creators
 

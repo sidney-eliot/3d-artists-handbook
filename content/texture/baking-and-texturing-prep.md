@@ -127,8 +127,8 @@ When baking the color ID maps, make sure the colors are flat, so no [[glossary#A
 
 
 ## Exporting
-- Export all high objects that should be on the same atlas do the same for the low in separate file (```Armor_low.obj```  ```Armor_high.obj```)
-- Only the Mesh, UVs, Normals are needed (And optionally: Materials/ Vertex Colors on the low, for the Color ID map)
+- Export all high objects that should be on the same atlas in one fbx file, do the same for the low in a separate file (`Armor_low.obj` `Armor_high.obj`)
+- Only the **mesh**, **UVs** and **normals** are needed (And optionally: Materials/ Vertex colors on the low, for the Color ID map)
 
 **Export File Types:**
 

@@ -64,7 +64,7 @@ enableToc: true
 ## Shader Nodes
 ### Basic PBR Material Setup
 
-![[Pasted image 20230604143132.png|600]]
+![[Pasted image 20230604143132.png]]
 
 ### Principled Shader Nodes
 The Principled BSDF Node is a combination of many other Principled nodes, which means that in theory you don't need to use the Principled BSDF but can simply put together other Principled nodes. This can sometimes be desired, especially in game engines, when you want a performant and simple node setup and don't need the sheen for example. The Principled BSDF is built in such a way to accommodate the metallic workflow.

@@ -1,15 +1,20 @@
 ---
-title: "🎥🔗 Rendering & Compositing & Sharing"
+title: "🎥 Rendering"
 enableToc: true
 ---
 
+## Render Engines
 
-## ─────────
-## Rendering
-## ─────────
+**Pre Rendering**<br>
+For pre rendering render engines, speed isn't important. The only goal is it to, in a somewhat reasonable time, reach the best possible result. It's used to render portfolio pieces, for example.
 
-### Render Engines
-|Renderer|Pre-Rendering|Real-time Rendering|Showcase
+**Real-time Rendering**<br>
+Render engines that excel at real-time rendering have to be able to fluently render entire scenes at higher frame rates and still feel snappy with player input, while also not forfeiting graphical fidelity.
+
+**Showcase Rendering**<br>
+For a render engine to be good at showcasing work to clients/ employers, it has to be easily shareable and viewable or have good integrations into websites. Other things like isolating individual texture maps, viewing wireframe and model stats can also be important. Added to that, it also has to provide a somewhat real-time experience, so one can rotate the model.
+
+|Render Engines|Pre Rendering|Real-time Rendering|Showcase Rendering
 |:--|:-:|:-:|:-:
 |**Marmoset Toolbag**|✅ Very Good| ✅Very Good|✅ Very Good
 |**Unreal Engine**|✅ Very Good|✅ Very Good|✅ Very Good|
@@ -48,7 +53,7 @@ enableToc: true
 >
 >A good option for artworks.
 
-### Render Resolution/ Aspect Ratio
+## Render Resolution/ Aspect Ratio
 
 Firstly, one should look at what device will be viewing the art. Most displays of PCs, laptops, phones, TVs except for tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
 
@@ -92,7 +97,7 @@ To achieve this split art work style, the resolutions would look like this:
 - 11520 x 6480 (3 times 3840 x 2160 on top of each other)
 
 
-### Turntable Animation Rendering
+## Turntable Animation Rendering
 
 Turntable animations are a looping animation where a character does one full turn in a circle, perfectly looping back to the first frame. One could directly render out a video, but it's better to let the renderer render every frame as a separate image, so that if it crashes while rendering one doesn't have to start from the beginning again. Then, after all frames are rendered into a folder, one can stitch them together again.
 
@@ -110,11 +115,11 @@ The amount of frames the animation should have depends on the duration that one 
 |**8 sec**|192|240|480
 
 
-### Animation Rendering
+## Animation Rendering
 To-Do
 
 
-### Wireframe Rendering
+## Wireframe Rendering
 Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both pre rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag/ Unreal Engine best for real-time wireframe showcase and Blender/ Marmoset Toolbag best for pre rendered wireframe showcase.
 
 
@@ -137,23 +142,23 @@ Wireframe can either be pre rendered into the image or toggled in real-time rend
 >
 >To-Do
 
-### Render Passes
+## Render Passes
 To-Do
 
 
-### Rendering in Blender
+## Rendering in Blender
 
 Good Blender addons for rendering:
 - [Camera Manager addon](https://blenderartists.org/t/render-button-camera-manager-for-blender-2-81-update-07-01-2020-v0-3-7/1159414)
 
-#### Rendering all cameras with one click (Blender)
+### Rendering all cameras with one click (Blender)
 - Make camera active camera (Ctrl + 0)
 - Place marker at desired frame in timeline (M)
 - Bind active camera to marker (Ctrl + B)
 - Repeat for all cameras on following frames
 
 
-#### Rendering Bloom (Blender)
+### Rendering Bloom (Blender)
 
 This is a viable way of doing it, but often it's better to add bloom during post processing in the compositing software instead.
 
@@ -181,7 +186,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >- I've noticed that bloom can be more dominant than it was in the render
 
 
-#### Eevee Render Settings (Blender)
+### Eevee Render Settings (Blender)
 - Background Transparency on
 - Bloom off (only turn it off right before rendering)
 
@@ -225,68 +230,12 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >|**Codec**|PIZ/ ZIP(lossless) or DWAA (lossy), DWAA is one of the smallest image formats and looks almost identical to the lossless EXR codecs
 
 
-### Rendering in Marmoset Toolbag
+## Rendering in Marmoset Toolbag
 
-### Rendering with Marmoset Real time Viewer
+## Rendering with Marmoset Real time Viewer
 To-Do
 
 In Marmoset, one can either pre render shots or go the real-time route with Marmoset Viewer.
 
 - Add a camera, the camera location will be the default viewport view
 - Adjust render settings. They are available in the camera tab, Lens and Post Effects but also in export tab. Note that some settings won't carry over into the viewer file, like chromatic aberration
-
-
-## ─────────
-## Compositing
-## ─────────
-### Compositing Software
-
-|Software|Area of use|Performance|Compositing features
-|:-:|:-:|:-:|:-:
-|Photoshop|📷Image compositing|Very fast|The most|
-|Clip Studio Paint|📷 Image compositing||Missing some more obscure features
-|Blender|⚙️ In render engine compositing|Very slow|
-|DaVinci Resolve|🎥 Video compositing|The fastest video compositor|
-|Premiere|🎥 Video compositing|Very fast|
-|Filmora|🎥 Video compositing||
-|Lightroom|🎞️ Bulk image compositing||
-
->[!info] Photoshop compositing
->
->Photoshop is by far the best for compositing images. If one plans on compositing EXR images in Photoshop, the [EXR IO](https://www.exr-io.com/) plugin is needed. 
-
-### Adjustment Layers
-To-Do
-
-### Post Processed Bloom
-
-## ─────────
-## Export/ Upload
-## ─────────
-
->[!tip] Exporting tips
->
->- Make sure image is a JPG
->- Make sure video is a MP4/ MOV/ GIF
-(GIF being quite big but providing a loop functionality, however many sites also allow for MP4's to loop)
->- Wipe metadata
->- Use export instead of save as 
->- Export as sRGB not as `Embeded Color Profile`
-
->[!example] Great showcase examples (playlist, links)
->**Art showcase playlist**
->
-><div style="text-align: center;">
->
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
->
-><div style="text-align: left;">
->
->**Turn table animations**
->- https://www.artstation.com/artwork/zOoGNw
->  
-> **Marmoset Viewer**
-> - https://www.artstation.com/artwork/31kvv
->
->**Technical showcase**
->- https://www.artstation.com/artwork/B1PLOz

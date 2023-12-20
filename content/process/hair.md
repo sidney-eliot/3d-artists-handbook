@@ -1,6 +1,7 @@
 ---
 title: "💇🏽‍♀️ Hair"
 enableToc: true
+description: "Hello"
 ---
 >[!example]- All kinds of hair methods (playlist)
 ><div style="text-align: center;">

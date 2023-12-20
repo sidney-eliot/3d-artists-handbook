@@ -36,7 +36,7 @@ _Some parts of this handbook are still a work in progress, those parts are denot
 >[[art-software|Art Software]]
 > 
 > ### Process
->[[organic-sculpting-and-hard-surface-sculpting-and-modeling|🧊🗿 Organic Sculpting & Hard Surface Sculpting & Modeling]]<br>
+>[[modeling-and-sculpting|🧊🗿 Organic Sculpting & Hard Surface Sculpting & Modeling]]<br>
 >[[workflow-between-zbrush-and-blender|🌀 Workflow between ZBrush & Blender]]<br>
 >[[sculpting-in-blender|🟠 Sculpting in Blender]]<br>
 >[[hair|💇🏽‍♀️ Hair]]<br>
@@ -55,7 +55,9 @@ _Some parts of this handbook are still a work in progress, those parts are denot
 >[[blender-to-unreal-pipeline|🌀 Blender to Unreal Pipeline]]
 > 
 > ### Post
->[[rendering-compositing-sharing|🎥🔗 Rendering & Compositing & Sharing]]
+>[[rendering|🎥 Rendering]]<br>
+>[[compositing|🪄 Compositing]]<br>
+>[[sharing|🔗 Sharing]]
 > 
 > ### Software Specific Knowledge
 >[[zbrush-specific|⚪ ZBrush]]<br>
