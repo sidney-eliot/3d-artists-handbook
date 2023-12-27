@@ -1,5 +1,6 @@
 ---
 title: "Home"
+description: "This handbook covers all stages of the 3D creation process, as well as the theory side of things. Helpful for 2D artists as well."
 enableToc: false
 ---
 ## Hi

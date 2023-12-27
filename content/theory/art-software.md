@@ -5,7 +5,7 @@ enableToc: true
 
 <style> code { color: #FFAF23; background: #A20B6A; } </style>
 
-This is a somewhat complete collection of all the software that 3D artists can choose from, categorized by which step of the workflow it can be used for. Software with a **`lable`** are ones I especially love and recommend using.
+This is a somewhat complete collection of all the software that 3D artists can choose from, categorized by which step of the workflow it can be used for. Software marked with a **`lable`** are ones I especially love and recommend using.
 
 ## Modeling and Sculpting Software
 
@@ -62,7 +62,7 @@ This is a somewhat complete collection of all the software that 3D artists can c
 - **Clarisse IFX** _(Rendering, Lighting)_
 - [**Nuke**](https://www.foundry.com/products/nuke-family/nuke) _(Node based compositing and visual effects)_
 - [**RizomUV**](https://www.rizom-lab.com) _(UVs)_
-- [**Shotgun**]() _(A review and production tracking toolset)_
+- [**Shotgun**](https://www.shotgridsoftware.com/blog/shotgun-for-games) _(A review and production tracking toolset)_
 - [**Keyshot**](https://www.keyshot.com) _(Rendering)_
 - [**Katana**](https://www.foundry.com/products/katana)
 - [**Light Wave**](https://www.lightwave3d.com)
@@ -99,6 +99,7 @@ This is a somewhat complete collection of all the software that 3D artists can c
 - [**`Unreal Engine`**](https://www.unrealengine.com/en-US)
 - [**`Unity`**](https://unity.com) _(Don't underestimate Unity, it's more and more able to achieve graphical fidelity on the level of Unreal Engine)_
 - [**Godot**](https://godotengine.org) _(A simple to learn Python like language, better suited for indie/ 2D projects)_
+- [**Bevy**](https://bevyengine.org/) _(A relatively new and quite interesting game engine)_
 
 ## Personal Art Libraries
 
