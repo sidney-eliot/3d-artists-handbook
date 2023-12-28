@@ -1,7 +1,7 @@
 # Visit the 3D Artist's Handbook
 https://sidney-eliot.github.io/3d-artists-handbook<br>
 
-I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
+I'm happy to hear any feedback and requests on things to improve or add, just message me on Discord, username: epicrex
 
 _(You can see the raw pages here on the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4))_
 # Info About this Handbook
