@@ -3,10 +3,10 @@ https://epicrex.github.io/3d-artists-handbook<br>
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
 
-_(You can see the raw pages here on the [v4 branch](https://github.com/Epicrex/3d-artists-handbook/tree/v4))_
+_(You can see the raw pages here on the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4))_
 # Info About this Handbook
 
-The [3D Artist's Handbook](https://epicrex.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/Epicrex/3d-artists-handbook/actions) and uses [quartz](https://github.com/jackyzha0/quartz) as frontend and [Node.js](https://nodejs.org/en) as backend.
+The [3D Artist's Handbook](https://sidney-eliot.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/sidney-eliot/3d-artists-handbook/actions) and uses [quartz](https://github.com/jackyzha0/quartz) as frontend and [Node.js](https://nodejs.org/en) as backend.
 
 ### Handbook's Features
 **Fully Available Offline** 📶❌<br>
@@ -52,7 +52,7 @@ There are 2 options when it comes to offline viewing. The localhost method being
 ## Localhost Method
 You will need to install the [Node.js](https://nodejs.org/en/download) framework. It's available on Windows, Mac and Linux.
 
-**1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/Epicrex/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
+**1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
 
 **2.** Execute the following commands in succession in the repository folder you just downloaded (If you're on Windows you can type `cmd` into the address bar of your file explorer to open a command prompt in that folder):
 
@@ -67,7 +67,7 @@ Now go to http://localhost:8080 in your browser. The page will be an exact copy 
 ## Obsidian Method
 You will need [Obsidian](https://obsidian.md/), which is a completely free note-taking software/ app available on Windows, Mac, Linux, Android, iOS and iPadOS.
 
-**1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/Epicrex/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
+**1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
 
 **2.** Open Obsidian and click `Open folder as vault`. Then navigate to the "3d-artist-handbook" folder you just downloaded and select the "content" folder inside of it. This will open the "content" folder in Obsidian and all the pages will be there for you to read.<br>
 
