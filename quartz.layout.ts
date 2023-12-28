@@ -7,7 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      "Handbook's GitHub": "https://github.com/Epicrex/3d-artists-handbook",
+      "Handbook's GitHub": "https://github.com/sidney-eliot/3d-artists-handbook",
     },
   }),
 }
