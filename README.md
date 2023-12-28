@@ -1,5 +1,5 @@
 # Visit the 3D Artist's Handbook
-https://epicrex.github.io/3d-artists-handbook<br>
+https://sidney-eliot.github.io/3d-artists-handbook<br>
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on discord, username: epicrex
 
