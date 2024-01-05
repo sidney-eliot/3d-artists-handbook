@@ -3,8 +3,6 @@ https://sidney-eliot.github.io/3d-artists-handbook<br>
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on Discord, username: epicrex
 
-_(You can see the raw pages here on the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4))_
-
 # Handbook's Features
 The [3D Artist's Handbook](https://sidney-eliot.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/sidney-eliot/3d-artists-handbook/actions) and uses [quartz](https://github.com/jackyzha0/quartz) as frontend and [Node.js](https://nodejs.org/en) as backend.
 
