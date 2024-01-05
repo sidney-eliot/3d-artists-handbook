@@ -46,7 +46,7 @@ The interactive graph is a spider web of page connections. It visualizes how the
 
 
 # How to Read the Handbook Offline
-There are 2 options when it comes to offline viewing. The localhost method being the better experience but only working on Windows, Mac and Linux.
+There are 2 methods when it comes to offline viewing. The localhost method being the better experience but only working on Windows, Mac and Linux.
 
 ### Localhost Method
 You will need to install the [Node.js](https://nodejs.org/en/download) framework. It's available on Windows, Mac and Linux.
