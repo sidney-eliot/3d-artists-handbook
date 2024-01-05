@@ -72,5 +72,6 @@ You will need [Obsidian](https://obsidian.md/), which is a completely free note-
 
 **3.**_(optional)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook". Then open the "3d-artist-handbook" you just downloaded from GitHub, and copy paste the files inside the "content" folder to the "Offline_3D-Artists-Handbook".
 
+---
 
 **_Don't forget to give this GitHub repo a ✨ so you can easily get back to it._**
