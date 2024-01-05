@@ -74,4 +74,4 @@ You will need [Obsidian](https://obsidian.md/), which is a completely free note-
 
 ---
 
-**_Don't forget to give this GitHub repo a ✨ so you can easily get back to it._**
+**_Don't forget to give this GitHub repo a ✨, so you can easily get back to it._**
