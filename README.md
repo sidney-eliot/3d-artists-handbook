@@ -8,40 +8,40 @@ _(You can see the raw pages here on the [v4 branch](https://github.com/sidney-el
 # Handbook's Features
 The [3D Artist's Handbook](https://sidney-eliot.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/sidney-eliot/3d-artists-handbook/actions) and uses [quartz](https://github.com/jackyzha0/quartz) as frontend and [Node.js](https://nodejs.org/en) as backend.
 
-**Fully Available Offline** 📶❌<br>
+📶❌ **Fully Available Offline**<br>
 You can download the entire handbook for offline reding, just follow [these](#how-to-read-the-handbook-offline) simple steps.
 
-**Universal Search** 🌍🔍<br>
+🌍🔍 **Universal Search**<br>
 On the top left or top of every page, is a search field which can be used to search for headers or words all across the handbook.
 
-**Dark and Light Theme** 🌑☀️<br>
+🌑☀️ **Dark and Light Theme**<br>
 Beside the search bar of every page, is a sun/ moon icon, which are used to switch between the light and dark mode.
 
-**Quickly Return to Home Page** 🏠<br>
+🏠 **Quickly Return to Home Page**<br>
 On the right or top of every page, is the title "🦑 3D Artist's Handbook". Clicking this will send you back to the home page.
 
-**Explorer** 📂<br>
+📂 **Explorer**<br>
 The explorer shows all the pages nicley structured by topic, great for quickly navigating around the handbook. (It's located on the left and currently not available on mobile. I've added the explorer to the home page so mobile users can still use it and hopefully soon mobile users will also be able to use the explorer)
 
-**Table of Contents** 📑<br>
+📑 **Table of Contents**<br>
 The table of contents shows all the mayor headers on the current page. (It's located on the right and at the bottom on mobile)
 
-**Backlinks** 🔗<br>
+🔗 **Backlinks**<br>
 The backlink section shows all other pages that link to the current page you're on. (It's located on the right and at the bottom on mobile)
 
-**Interactive Graph** 🗺️<br>
+🗺️ **Interactive Graph**<br>
 The interactive graph is a spider web of page connections. It visualizes how the pages link to each other. One can zoom in and out, pan the view, click the dots to navigate to the pages and click the little icon at the top right of the box to enlarge the interactive graph. (It's located on the right and at the bottom on mobile)
 
-**Embedded YouTube Videos** ▶️<br>
+▶️ **Embedded YouTube Videos** <br>
   All videos found across the handbook are embedded YouTube videos. This gives the videos nice thumbnails and allows for them to be played directly within the handbook. If it makes sense, I have also set the videos to start at a specific time.
   
-**Read Time & Last Edit Date** ⏳📅<br>
+⏳📅 **Read Time & Last Edit Date**<br>
   At the top of every page the average read time can be found as well as the date, when the page was last edited.
   
-**Instant Page Load Times** ⏱️<br>
+⏱️ **Instant Page Load Times**<br>
   There are no load times when clicking on links to other internal pages.
   
-**Collapsible Sections** 🔻<br>
+🔻 **Collapsible Sections**<br>
   Collapsible sections are found all over the handbook. They can be expanded with the `ᐯ` (arrow down) icon.
 
 
