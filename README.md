@@ -46,9 +46,9 @@ The interactive graph is a spider web of page connections. It visualizes how the
 
 
 # How to Read the Handbook Offline
-There are 2 methods when it comes to offline viewing. The localhost method being the better experience but only working on Windows, Mac and Linux.
+There are **2 methods** when it comes to offline viewing. The localhost method being the better experience but only working on Windows, Mac and Linux.
 
-### Localhost Method
+### Localhost - Method 1
 You will need to install the [Node.js](https://nodejs.org/en/download) framework. It's available on Windows, Mac and Linux.
 
 **1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
@@ -63,7 +63,7 @@ npx quartz build --serve
 **3.**
 Now go to http://localhost:8080 in your browser. The page will be an exact copy of the online handbook.
 
-### Obsidian Method
+### Obsidian - Method 2
 You will need [Obsidian](https://obsidian.md/), which is a completely free note-taking software/ app available on Windows, Mac, Linux, Android, iOS and iPadOS.
 
 **1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
