@@ -4,11 +4,10 @@ https://sidney-eliot.github.io/3d-artists-handbook<br>
 I'm happy to hear any feedback and requests on things to improve or add, just message me on Discord, username: epicrex
 
 _(You can see the raw pages here on the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4))_
-# Info About this Handbook
 
+# Handbook's Features
 The [3D Artist's Handbook](https://sidney-eliot.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/sidney-eliot/3d-artists-handbook/actions) and uses [quartz](https://github.com/jackyzha0/quartz) as frontend and [Node.js](https://nodejs.org/en) as backend.
 
-### Handbook's Features
 **Fully Available Offline** 📶❌<br>
 You can download the entire handbook for offline reding, just follow [these](#how-to-read-the-handbook-offline) simple steps.
 
@@ -49,7 +48,7 @@ The interactive graph is a spider web of page connections. It visualizes how the
 # How to Read the Handbook Offline
 There are 2 options when it comes to offline viewing. The localhost method being the better experience but only working on Windows, Mac and Linux.
 
-## Localhost Method
+### Localhost Method
 You will need to install the [Node.js](https://nodejs.org/en/download) framework. It's available on Windows, Mac and Linux.
 
 **1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
@@ -64,7 +63,7 @@ npx quartz build --serve
 **3.**
 Now go to http://localhost:8080 in your browser. The page will be an exact copy of the online handbook.
 
-## Obsidian Method
+### Obsidian Method
 You will need [Obsidian](https://obsidian.md/), which is a completely free note-taking software/ app available on Windows, Mac, Linux, Android, iOS and iPadOS.
 
 **1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
