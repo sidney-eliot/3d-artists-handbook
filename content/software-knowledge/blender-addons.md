@@ -30,7 +30,7 @@ Many of these addons are free and others come with a hefty price. If you're will
 ## UI Improvements/ System Overhauls
 - [**`Power Save`**](https://bonjorno7.gumroad.com/l/powersave) _(Never again lose progress)_ - [[Discord](https://discord.gg/uNHmjsHT)] - (free)
 - [**`GoZ/GoB`**](https://github.com/JoseConseco/GoB) _(Fluent workflow tool between ZBrush and Blender)_ - (free)
-- [**Batch Ops™2**](https://moth3r.gumroad.com/l/batchops) - [[Showcase](https://www.youtube.com/watch?v=_hxM5gu7Se0)] - (\$$)
+- [**`Batch Ops™2`**](https://moth3r.gumroad.com/l/batchops) _(Allows for hiding, renaming, disabling, ... things at bulk in creative ways)_- [[Showcase](https://www.youtube.com/watch?v=_hxM5gu7Se0)] - (\$$)
 - [**Extra Image List**](https://github.com/schroef/Extra-Image-List) _(Bigger texture preview)_ - (free)
 - [**ARMORED-Theme Candy**](https://armoredcolony.gumroad.com/l/themecandy) _(Makes customizing UI easy and fast)_ - ($)
 - [**Mouse-look Navigation™**](https://moth3r.gumroad.com/l/mouselook) _(Good for graphic tablets and people accustomed to ZBrush controls)_ - [[Documentation](https://github.com/dairin0d/blender-4.0-scripts/blob/main/docs/mouselook_navigation/mouselook_navigation.md)] - (free)
