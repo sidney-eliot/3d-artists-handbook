@@ -40,8 +40,8 @@ Many of these addons are free and others come with a hefty price. If you're will
 - [**`BoxCutter`**](https://masterxeon1001.gumroad.com/l/BoxCutter)  _(Boolean operations)_ - [[Documentation](https://boxcutter-manual.readthedocs.io)] - (\$$)
 - [**`MESHmachine`**](https://machin3.gumroad.com/l/MESHmachine) _(Modify, revers bevels/ Boolean cleanup)_ - [[Documentation](https://machin3.io/MESHmachine/docs/)] - (\$\$$)
 
-### Kushiro Kushiro's Tools
-Kushiro has many great [addons](https://kushiro.gumroad.com/) which are showcases on Kushiro's [channel](https://www.youtube.com/@kushirokushiro2306/videos).
+### Kushiro's Tools
+Kushiro has many great [addons](https://kushiro.gumroad.com/) which are showcases on Kushiro's [channel](https://www.youtube.com/channel/UCKxXI-jD_xf5_kBo2xHNQow/videos).
 
 - [**`Select Sim`**](https://kushiro.gumroad.com/l/smjsbe) _(A MASSIVE time saver tool, makes selecting fun)_ - (free)
 - [**Grid Modeler**](https://kushiro.gumroad.com/l/VthLyO) _(Block out/ Speed modeling)_ - (\$$)
