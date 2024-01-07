@@ -10,7 +10,7 @@ These are the addons I recommend using, most of which I use on a somewhat freque
 
 Many of these addons are free and others come with a hefty price. If you're willing to spend some money, then these are the only ones you really need:
 
-- [Hard Ops / Boxcutter Ultimate Bundle](https://www.artstation.com/marketplace/p/D7aM/hard-ops-boxcutter-ultimate-bundle) - Which includes both Hard Ops and Boxcutter, essential for any 3D artist ($40)
+- [Hard Ops / Boxcutter Ultimate Bundle](https://www.artstation.com/marketplace/p/D7aM/hard-ops-boxcutter-ultimate-bundle) - Which includes both Hard Ops and Boxcutter; Essential for any 3D artist ($40)
 - [UVPackmaster](https://uvpackmaster.com/) - Only if you do a lot with UVs ($44)
 - [MESHmachine](https://machin3.gumroad.com/l/MESHmachine) - If you feel like spending a bit more, I would recommend picking up MESHmachine as well ($40)
 

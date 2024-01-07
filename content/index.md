@@ -4,7 +4,7 @@ description: "This handbook covers all stages of the 3D creation process, as wel
 enableToc: false
 ---
 ## Hi
-I'm **Sidney** _(Epicrex)_, a 3D character artist, and this knowledge pool is for me, you, and everyone else.
+I'm [Sidney](https://github.com/sidney-eliot), a 3D character artist, and this knowledge pool is for me, you, and everyone else.
 
 > [!info]- More about this handbook
 >
@@ -16,13 +16,18 @@ This is probably best suited for intermediate and advanced 3D artists. If you're
 
 If you don't understand a term, give the [[glossary|glossary]] a visit.
 
-For more information about all the features of this handbook, have a quick read [here](https://github.com/Epicrex/3d-artists-handbook#info-about-this-handbook)
+> [!info] Handbooks features
+> 
+>Learn more about features this handbook has on the [GitHub](https://github.com/sidney-eliot/3d-artists-handbook).
 
-Feel free to point out things that might not be the best practice or plain incorrect, and I will fix those spots - [Discussion Area](https://github.com/Epicrex/3DArtistsHandbook/discussions/1).
+Feel free to leave feedback in the [discussion area](https://github.com/sidney-eliot/3d-artists-handbook/discussions/1) on any aspects that may not be the best practice or are plainly incorrect, and I'll make the necessary improvements.
 
 _Some parts of this handbook are still a work in progress, those parts are denoted with the 🚧 symbol._
 
 > [!note] Explorer
+> 
+>⬅️ This explorer is always visible on the left side (if not, try pulling your browser window wider).
+> 
 >[[hotkeys|⌨️ Hotkeys]]
 >### Theory
 >[[glossary|📑 Glossary]]<br>
