@@ -89,6 +89,7 @@ export const defaultContentPageLayout: PageLayout = {
             "software-knowledge/blender-specific": 902,
             "software-knowledge/blender-addons": 903,
             "software-knowledge/blender-addons-guide": 904,
+			"software-knowledge/batch-ops": 905,
             extra: 1000,
             "extra/asset-sites": 1001,
             "extra/2d-art-resources": 1002,

@@ -2,7 +2,12 @@
 title: "Windows Hotkeys"
 enableToc: false
 ---
-<style>code { color: #FFFFFF; background: #0079D7; }
+<style>
+code { color: #FFFFFF; background: #0079D7; font-size: 19px; font-weight: bold; font-family: Consolas, monospace, monaco; }
+@media screen and (max-width: 700px) {
+table { margin-left: auto; margin-right: auto; }
+h2, h3 { text-align: center; }
+}
 </style>
 
 ## File Explorer

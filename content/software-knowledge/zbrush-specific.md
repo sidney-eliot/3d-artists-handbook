@@ -1,16 +1,17 @@
 ---
 title: "⚪ ZBrush"
+date: 2024-01-10
 enableToc: true
 ---
 
 ![[banner_zbrush.jpg]]
 
 ## General Things to Be Aware Of
-- My workflow between ZBrush and Blender is [[workflow-between-zbrush-and-blender|here]]
+- Having an efficient workflow between ZBrush and other software is key. More on that [[workflow-between-zbrush-and-blender|here]]
 - It's good to work on the **left side** of the model (which is the right side from the character's perspective). This is because of Mirror and Weld
 
-## Subdivision (SubDiv) Levels
-Something which makes ZBrush quite unique, is the way they implemented subdivisions. Unlike in other software like Blender, there's actually quite a lot of strategy when it comes to working with subdivision levels. This is because ZBrush doesn't simply multiply the mesh faces by four and then smooths them (with the Catmull-Clark algorithm), but in addition to that it also remembers every surface change from every subdivision level. The advantage of that is, that one can sculpt pores on a face at subdivision level 6, and then go back down to level 2 and change the shape of the face without destroying the pore detail from level 6.
+## Subdivision Levels
+Something which makes ZBrush quite unique, is how subdivisions work in it. Unlike other software like Blender, there's actually quite a lot of strategy when it comes to working with subdivision levels. This is because ZBrush doesn't simply multiply the mesh faces by four and then smooths them (with the Catmull-Clark algorithm), but in addition to that it also remembers every surface change from every subdivision level. This allows for sculpting pores on a face at subdivision level 6, and then go back down to level 2 and change the shape of the face, without destroying the pore detail from level 6.
 
 As a result, ZBrush subdivisions are destructive. Even if one goes back to subdivision level 1 and deletes all higher subdivision levels, the subdivision will have dulled the edges in an irreversible way. This doesn't matter if one plans on adding a subdivision at some point in the future again to that object, because this **edge dulling effect doesn't stack**.
 
@@ -26,7 +27,7 @@ Another little trick with ZBrush's SubDiv vs Dynamic SubDiv, is that if you neve
 
 More details on the ZBrush's subdivision system [here](https://docs.pixologic.com/user-guide/3d-modeling/modeling-basics/subdivision-levels/).
 
-## Efficient Workflow with Alphas & Textures
+## Efficient Alphas & Textures Workflow
 Working with alphas in ZBrush can be quite confusing, so here's everything one should know.
 
 Firstly, the files need to be the way ZBrush wants them. If you want to use them as alphas, the files need to be ...
@@ -47,20 +48,20 @@ Changing the channels and bit depth in Photoshop:
 ![[image-2023-10-15-02-12-45.png]]
 
 >[!info]- Batch method (recommended)
->Open action window.
->![[image-2023-10-15-02-53-06.png]]
->Create and start recording of action.
->![[image-2023-10-15-02-54-46.png]]
->![[image-2023-10-15-02-59-46.png]]
->Convert to grayscale.
->![[image-2023-10-15-03-05-17.png]]
->Convert to 8bit or 16bit channel.
->![[image-2023-10-15-04-40-54.png]]
->Stop action recording.
->![[image-2023-10-15-03-18-25.png]]
->Open Image Processor Script (come with Photoshop)
->![[image-2023-10-15-04-06-46.png]]
->Run Image Processor Script (In menu: Include all sub-folders + Select source folder + File Type PSD + Maximize Compatibility +Run action you just created)
+>Open action window.<br>
+>![[image-2023-10-15-02-53-06.png]]<br>
+>Create and start recording of action.<br>
+>![[image-2023-10-15-02-54-46.png]]<br>
+>![[image-2023-10-15-02-59-46.png]]<br>
+>Convert to grayscale.<br>
+>![[image-2023-10-15-03-05-17.png]]<br>
+>Convert to 8bit or 16bit channel.<br>
+>![[image-2023-10-15-04-40-54.png]]<br>
+>Stop action recording.<br>
+>![[image-2023-10-15-03-18-25.png]]<br>
+>Open Image Processor Script (come with Photoshop)<br>
+>![[image-2023-10-15-04-06-46.png]]<br>
+>Run Image Processor Script (In menu: Include all sub-folders + Select source folder + File Type PSD + Maximize Compatibility +Run action you just created)<br>
 >![[image-2023-10-15-04-36-28.png]]
 >
 >This will create in every folder below the folder you selected a folder called PSD, which contains all the created files. Pull them out of there, replace them with the PNGs/ JPGs, and you're done. Your entire alpha collection should now be grayscaled, 8/16bit PSD files.
@@ -100,53 +101,57 @@ For example:
 
 Now that all that is done, it's time to load the alphas into ZBrush. Open the Lightbox, switch to the Brush tab and choose the alpha you want. Double click it and it should appear in the alpha palette.
 
-Optimizing the brush: Select the Standard brush, Select the DragRect stroke, Brush > Backface Mask
+It's good to use the standard brush with the `DragRect` stroke. Turning off or on backface mask can also be helpful (`Brush > Backface Mask`).
 
-
-group chnaged points
-mask chnaged points
-
-## 🖌Brushes/ Alphas/ Insert Mesh Brushes/ VDM Brushes/ Nano Meshes
+## Brush Types
 ### Overview
-_ZBrush has so many different types of brushes which are never explained, and it can get quite confusing, so here I went through all the different types._
+ZBrush has so many different types of brushes which are never explained, which can make things quite confusing. So here are all the different types explained.
 
-`Alphas` can pull out shapes onto the mesh, `VMD` _(Vector Displacement Mesh)_ Brushes works similarly just that they allow for overhangs, so much more complex shapes are possible. `Insert Mesh Brushes` place objects on other surfaces, but with some tweaking they can also become `Insert Mesh Curve Brushes` for creating chains, ropes and more. `Nano Meshes` are similar to Insert Mesh Brushes, just that they place the object on every face, great for creating patterns or things like fishnet stockings. And last but not least there are the `Normal Brushes` for example clay strips or dam standard. They store alphas, drag mode, settings and can even have custom preview icons. 
+[[#Alpha Brush|Alphas]] can pull out shapes onto the mesh. [[#VDM Brush|VMD brushes]] work similarly, just that they allow for overhangs, so much more complex shapes are possible. [[#Insert Mesh Brush|Insert mesh brushes]] place objects on other surfaces, but with some tweaking they can also become [[#Curve Insert Mesh Brush|Curve insert mesh brushes]] for creating objects like chains and ropes. [[#Nano Mesh|Nano meshes]] are similar to **Insert Mesh Brushes**, just that they place the object on every face. This can be very useful for creating patterns or clothing pieces like fishnet stockings. Finally, there are the [[#Sculpting Brush|Normal sculpting brushes]], for example Clay Strips or Dam Standard. They store alphas, drag mode as well as other brush related settings and can even have custom preview icons. 
 
-Though `Normal Brushes` might seem better than `Alphas`, the big advantage to `Alphas` is that they can be used in any software. So you can use your sculpting alpha collection for texturing in other software as well. Added to that, it's a lot less effort to simply use alphas instead of creating a brush out of every alpha. There is however one quality of life issue with alphas, and that is that one can't have custom images for how the alpha looks like in action. The way I solve this issue is, when I do have preview images of alphas, I have both alpha and preview file in my collection with the same name but a different suffix. This makes the preview appear and directly before the alpha brush.
+Though **normal sculpting brushes** might seem better than **alphas**, the big advantage to **alphas** is that they can be used universally in any software. This allows one to use a sculpting alpha collection for texturing in other software as well. Added to that, it's a lot less effort to simply use **alphas** instead of creating a brush out of every **alpha**.
 
-- All Brushes use the `.zbp` file extension (which stands for "ZBrush Preference" file)
-- All Alphas use .psd file extension per default but .png/ .exr/ .tiff is just as good. Just don't use .jpg/ .jpeg or any other lossy compression type
+There is however one quality of life issue, **alphas** lack in ZBrush. **Alphas** can't have a preview of how they look in action. This can be somewhat solved by putting the preview image and the **alpha** in the same folder, both with the same name, but the preview with an additional suffix like "(preview)".
+
+>[!info] Brush file formats
+>
+>- All brushes use the **.ZBP** file extension (which stands for ZBrush Preference file)
+>- All alphas use the **.PSD** file extension per default but **.PNG**/ **.EXR**/ **.TIFF** is just as good. Just don't use **.JPG**/ **.JPEG** or any other lossy compression types
 
 ### Brush Save Locations
-Here `your custom brushes` are stored, that `load on startup` into the Brush Menu (B hotkey). Only put brushes in here you use often.
+Here **your custom brushes** are stored, that **load on startup** into the Brush Menu (B hotkey). Only put brushes in here that are often used.
 
 >[!info] Your custom brushes
->```
->"your program files"\Zbrush\ZStartup\BrushPresets
->```
+><b>
+>"YOUR-PROGRAM-FILES"\Zbrush\ZStartup\BrushPresets
+></b>
+><br><br>
 
-Here the `default ZBrush brushes` ZBrush ships with are stored, that `load on startup` into the Brush Menu (B hotkey). Don't touch this folder.
+
+Here the **default ZBrush brushes** ZBrush ships with are stored, that **load on startup** into the Brush Menu (B hotkey). Don't touch this folder.
 
 >[!info] Default ZBrush brushes
->```
->...\ZBrush"Year"\ZData\BrushPresets
->```
+><b>
+>...\ZBrush"YEAR"\ZData\BrushPresets
+></b>
+><br><br>
 
-Brushes that are put in the `Lightbox` brush tab are only `loaded when selected,` thus not bloating the project file. Added to that, you can create your own folder hierarchy inside the Lightbox brush tab, to organize your brushes.
+Brushes that are put in the **Lightbox** brush tab are only **loaded when selected**, thus not bloating the project file. Added to that, you can create your own folder hierarchy inside the Lightbox brush tab, to organize your brushes.
 
 >[!info] Lightbox menu brushes
->```
+><b>
 >...\Zbrush\ZBrushes
->```
+></b>
+><br><br>
 
 ### Insert Mesh Brush
-A **Insert Mesh Brush** is a **Brush** that contains one or multiple meshes to chose from. These meshes can then be placed on the SubTool or used to perform precisely placed boolean operations of custom shapes on the SubTool.
+This is a brush that contains one or more meshes to chose from. These meshes can then be placed on the SubTool's surface, or perform boolean operations.
 
->[!example] Insert Mesh brush examples
+>[!example] Examples
 >
->- Hardsurface Booleans
+>- Hard Surface Booleans
 
->[!Info] Creating custom Insert Mesh brushes
+>[!Info] Creation process
 >
 >1. Make the mesh that should become an insert brush
 >2. Make sure its orientation and scale is correct
@@ -156,9 +161,9 @@ A **Insert Mesh Brush** is a **Brush** that contains one or multiple meshes to c
 
 
 ### Curve Insert Mesh Brush 
-A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such a way to seamlessly repeat along a stylus stroke (arraying along a stroke). 
+Is an **insert mesh brush**, that is made in such a way to seamlessly repeat/ array along a stylus stroke.
 
->[!example] Curve Insert Mesh brush examples
+>[!example] Examples
 >
 >- Chains
 >- Ropes
@@ -166,19 +171,20 @@ A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such
 >- Bandages
 >- Scribe Chisel
 
->[!Info] Creating custom Curve Insert Mesh brushes
+>[!Info] Creation process
 >
 >- Delete top and bottom faces, so there are no internal faces when it repeats
 
 
-### VDM Brush (Vector Displacement Mesh) 
->[!example] VDM brush examples
+### VDM Brush
+VDM stands for Vector Displacement Mesh.
+>[!example] Examples
 >
 >- Dragon Scales
 >- Sharp Teeth/ Spikes
 >- Insert Ears/ Nose/ Horns
 
->[!Info] Creating custom VDM brushes
+>[!Info] Creation process
 >
 >1. Switch to a Plane3D Tool (Make PolyMesh3D)
 >2. Sculpt desired detail onto plane. Make sure to not touch the borders of the plane, masking them can help. Alternatively, one can mask everything except for the borders and use `Morph to Grid` (Tool > Deformation). `Relax Plane Grid` can also help. Also, make sure to sculpt onto the plane from the correct direction. Keep on adding in more planes as SubTools with different detail if you want to
@@ -192,7 +198,7 @@ A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such
 
 
 ### Alpha Brush
->[!example] Alpha brush examples
+>[!example] Examples
 >
 >- Hard surface Detail
 >- Skin Detail
@@ -204,7 +210,7 @@ A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such
 >- Fix 1 is to change the `MidValue` to somewhere around 50. Or enable `Surface`. In the `Alpha > Modify` menu. 
 >- Mostly, Fix 1 isn't enough, so fix 2 comes into play. In Photoshop, go to `Filter > Other > High Pass` and reduce the value. Optionally, you can also add a levels layer.
 
->[!Info] Creating custom Alphas
+>[!Info] Creation process
 >
 >There are 2 ways of making alphas. The first way is by making them in a 2D software like Photoshop or generating them in software like substance designer. And the second way is by generating them from a 3D mesh.
 >- [Making Of Alphas in PS for ZBrush](https://www.youtube.com/watch?v=a7CT8MruMcI)
@@ -212,14 +218,14 @@ A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such
 
 
 ### Sculpting Brush
->[!example] Sculpting brush examples
+>[!example] Examples
 >
 >- Clay Strips
 >- Dam Standard
 >- Inflate
 >- Move
 
->[!Info] Creating custom sculpting brushes
+>[!Info] Creation process
 >
 >1. Clone a brush
 >2. Change its settings
@@ -227,28 +233,28 @@ A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such
 
 
 ### Nano Mesh
->[!example] Nano Mesh Examples
+>[!example] Examples
 >
 >- Patterns
 >- Fishnet Stockings
 >- Nets
 >- Clothing Spikes
 
->[!Info] Creating Custom Nano Meshes
+>[!Info] Creation process
 >
 >- [Nano Meshes short](https://www.youtube.com/watch?v=HPmlMD3f4xs) (Michael Pavlovich) 3 min
 >- [Nano Meshes](https://www.youtube.com/watch?v=wv3uNqr1Rf4) (Michael Pavlovich) 10 min
 >- [All Michael Pavlovich videos to Nano Meshes](https://www.youtube.com/@MichaelPavlovich/search?query=Nano+Mesh)
 
 
-## 💾Saving/ Backups/ ZPR vs ZTL
+## Saving & Backups & ZPR vs ZTL 💾
 >[!tip] Saving strategy
 >
->- Save as ZTL every once in a while during the day as well as clicking the QuickSave button before doing risky actions
+>- Save as ZTL every once in a while during the day, as well as clicking the QuickSave button before doing risky actions
 >- At the end of the day save as ZPR and ZTL
 >- If during the day ZBrush crashes use auto saves to get back undo history
 >
->If you don't care about history, then only use ZTL and auto saves. And if you do care about history then still occasionally save as ZTL because it's not too uncommon for ZPR files to get corrupted, not work on other systems/ OS's or newer ZBrush versions.
+>If you don't care about history, then only use ZTL and auto saves. And if you do care about history, then still occasionally save as ZTL because it's not too uncommon for ZPR files to get corrupted or not work on other systems or newer ZBrush versions.
 
 >[!info] ZPR vs ZTL
 >
@@ -291,17 +297,17 @@ A **Curve Insert Mesh Brush** is an **Insert Mesh Brushes** that is made in such
 >```
 
 
-## 👤Check Silhouette
-Open Thumbnail Window and Turn on Silhouette `Preferences > Thumbnail` or switch to the `Flat Color` MatCap (SubTools need polypaint for this to work properly).
+## Check Silhouette 👤
+Open the Thumbnail Window and Turn on Silhouette (`Preferences > Thumbnail`) or switch to the `Flat Color` MatCap (SubTools need polypaint for this to work properly).
 
-## 🎨Poly Paint
+## Poly Paint 🎨
 
 >[!example]- Polypaint resources (videos)
 ><div style="text-align: center;">
 >
 >**Polypainting/ Material Painting**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eQ7B3Y4aGZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+></div>
 
 >[!info] About polypaint
 >
@@ -354,7 +360,7 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 
 
 
-## 📷Rendering
+## Rendering 📷
 
 >[!example]- Rendering in ZBrush resources (videos)
 ><div style="text-align: center;">
@@ -362,6 +368,7 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uM-VonmG0jU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HoIRjQdAL3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g4lxPB25Zp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
 
 
 >[!info] Rendering info
@@ -393,7 +400,7 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 >3. So ZBrush always opens at this resolution, click `Save As Startup Doc` in the Document menu
 
 
-## ⚙Configuring UI
+##  Configuring UI ⚙️
 1. Enable `Configure UI` and do changes
 2. Then store the UI for yourself somewhere
 3. Finally click `Store Config` so ZBrush starts with that UI
@@ -411,7 +418,7 @@ For the interface, if the size of the display you use for ZBrush is 1920 x 1080,
 The main thing about this interface is that I made a custom menu with every tool in it that is often used, sorted into groups. The menu is at the top and called "MyInterface", I recommend giving it some hotkey you will never press and then in the driver settings for your tablet, mapping that hotkey to the back button of your stylus.
 
 
-## ❌Errors
+## Errors ❌
 
 >[!error] "Too many items in AllList" error
 >

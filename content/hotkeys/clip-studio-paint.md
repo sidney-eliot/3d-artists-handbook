@@ -2,11 +2,13 @@
 title: "Clip Studio Paint Hotkeys"
 enableToc: false
 ---
-
 <style>
-code { color: #383838; background: #C3C3C4; }
+code { color: #383838; background: #C3C3C4; font-size: 19px; font-weight: bold; font-family: Consolas, monospace, monaco; }
+@media screen and (max-width: 700px) {
+table { margin-left: auto; margin-right: auto; }
+h2, h3 { text-align: center; }
+}
 </style>
-
 ![[banner_clip_studio_paint.jpg]]
 
 ## Navigation

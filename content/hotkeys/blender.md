@@ -2,11 +2,13 @@
 title: "Blender Hotkeys"
 enableToc: true
 ---
-
 <style>
-code { color: #265787; background: #EA7600; }
+code { color: #265787; background: #EA7600; font-size: 19px; font-weight: bold; font-family: Consolas, monospace, monaco; }
+@media screen and (max-width: 700px) {
+table { margin-left: auto; margin-right: auto; }
+h2, h3 { text-align: center; }
+}
 </style>
-
 ![[banner_blender.jpg]]
 
 > [!info] These are the hotkeys I use regularly

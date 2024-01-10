@@ -37,7 +37,7 @@ UV unwrapping is best in Blender, by far. When UV unwrapping, it's good practice
 >
 >A smoothing/ shading split always needs a UV split, but a UV split doesn't always need a smoothing/ shading split.
 
-## Texel Density
+## Texel Density (🚧WORK IN PROGRESS🚧)
 
 
 >[!example]- Texel Videos, Articles

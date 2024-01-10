@@ -345,6 +345,11 @@ ZModeler is a brush in ZBrush that allows for poly modeling. **Royal Skies has a
 
 </details>
 
+### Visibility & Masking
+ToDo
+- Mask Changed Points
+- Polygroup Changed Points
+
 ## ─────────
 ## SPECIFIC ACTIONS
 ## ─────────

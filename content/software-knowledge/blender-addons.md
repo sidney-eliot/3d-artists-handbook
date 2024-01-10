@@ -1,5 +1,6 @@
 ---
 title: "🔮 Blender Addons"
+date: 2024-01-09
 enableToc: true
 ---
 
