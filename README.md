@@ -30,17 +30,20 @@ The backlink section shows all other pages that link to the current page you're 
 🗺️ **Interactive Graph**<br>
 The interactive graph is a spider web of page connections. It visualizes how the pages link to each other. One can zoom in and out, pan the view, click the dots to navigate to the pages and click the little icon at the top right of the box to enlarge the interactive graph. (It's located on the right and at the bottom on mobile)
 
+👁️ **Page Preview**<br>
+When hovering links that lead to other pages within the handbook, an interactive preview of that page is shown. One can tell internal from extenral links apart by the design of the link, internal links will have a box like background.
+
 ▶️ **Embedded YouTube Videos** <br>
-  All videos found across the handbook are embedded YouTube videos. This gives the videos nice thumbnails and allows for them to be played directly within the handbook. If it makes sense, I have also set the videos to start at a specific time.
+All videos found across the handbook are embedded YouTube videos. This gives the videos nice thumbnails and allows for them to be played directly within the handbook. If it makes sense, I have also set the videos to start at a specific time.
   
 ⏳📅 **Read Time & Last Edit Date**<br>
-  At the top of every page the average read time can be found as well as the date, when the page was last edited.
+At the top of every page the average read time can be found as well as the date, when the page was last edited.
   
 ⏱️ **Instant Page Load Times**<br>
-  There are no load times when clicking on links to other internal pages.
+There are no load times when clicking on links to other internal pages.
   
 🔻 **Collapsible Sections**<br>
-  Collapsible sections are found all over the handbook. They can be expanded with the `ᐯ` (arrow down) icon.
+Collapsible sections are found all over the handbook. They can be expanded with the `ᐯ` (arrow down) icon.
 
 
 # How to Read the Handbook Offline
