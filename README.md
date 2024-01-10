@@ -16,7 +16,7 @@ On the top left or top of every page, is a search field which can be used to sea
 Beside the search bar of every page, is a sun/ moon icon, which are used to switch between the light and dark mode.
 
 🏠 **Quickly Return to Home Page**<br>
-On the right or top of every page, is the title "🦑 3D Artist's Handbook". Clicking this will send you back to the home page.
+On the right or top of every page, is the title "3D Artist's Handbook". Clicking this will send you back to the home page.
 
 📂 **Explorer**<br>
 The explorer shows all the pages nicley structured by topic, great for quickly navigating around the handbook. (It's located on the left and currently not available on mobile. I've added the explorer to the home page so mobile users can still use it and hopefully soon mobile users will also be able to use the explorer)
