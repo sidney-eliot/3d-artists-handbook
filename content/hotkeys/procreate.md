@@ -32,7 +32,7 @@ One can draw a square, triangle, circle, line, arc, polygons and then not move t
 |Hide all other layers|Holder hide layer button
 |Alpha Lock|Two-finger swipe right on layer
 |Multi Select Layers|Tap layer, then swipe right other layers
-|Layer Opacity|Double Tap Layer, then slide left/ right
+|Layer Opacity|Double Tap Layer, then slide left or right
 |Select Layer|Two-finger hold on layer
 
 When changing opacity, the farther you move the finger away from the bar, the finer the adjustment is.

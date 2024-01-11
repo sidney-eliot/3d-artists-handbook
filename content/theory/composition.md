@@ -44,7 +44,7 @@ Great composition is achieved through:
 ></div>
 
 ### Color, Saturation and Contrast
-Bolder colors for more important things and duller/ muted color for unimportant things. If the entire piece is very dark then lighter colors will draw attention and when it is very light darker colors will draw attention
+Bolder colors for more important things and duller/ muted color for unimportant things. If the entire piece is very dark then lighter colors will draw attention and when it's very light darker colors will draw attention
 
 ### Placement of Key Elements
 #### (Fibonacci) Golden Ratio/ Golden Mean

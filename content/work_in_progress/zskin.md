@@ -6,13 +6,13 @@ enableToc: false
 ## 🚧Work in Progress🚧
 
 # Overview
-There are a couple of ways of making skin/ skin shaders. The first thing to consider is the style. Realistic or stylized/ anime.
+There are a couple of ways of making skin textures and skin shaders. The first thing to consider is the style. Realistic or stylized and anime.
 
 ### Realistic Skin
 For realistic one can use real skin textures and project them onto the model, one can sculpt the pores and other skin detail, one can hand paint maps like Subsurface scattering and one can procedurally generate things like freckles. Use a combination of some or all of these methods for realistic skin
 
-### Stylized/ Anime Skin
-For stylized/ anime skin one can hand paint all the skin tones variations, use dynamic shaders like cell shaders, spray paint or generate things like freckles, 
+### Stylized & Anime Skin
+For stylized and anime skin one can hand paint all the skin tones variations, use dynamic shaders like cell shaders, spray paint or generate things like freckles, 
 
 
 

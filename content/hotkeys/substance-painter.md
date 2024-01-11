@@ -17,7 +17,7 @@ h2, h3 { text-align: center; }
 |Orbit|Alt + LMB|
 |Pan|Alt + MMB|
 |Zoom|Alt + RMB|
-|HDRI/ Light rotation |Shift + RMB|
+|HDRI & Light rotation |Shift + RMB|
 
 ## Help
 |Function|Key|Notes
@@ -29,7 +29,7 @@ h2, h3 { text-align: center; }
 
 [Official Hotkeys](https://substance3d.adobe.com/documentation/spdoc/shortcuts-172818917.html)
 
-## Menus/ Views
+## Menus & Views
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Fullscreen mode|Tab|

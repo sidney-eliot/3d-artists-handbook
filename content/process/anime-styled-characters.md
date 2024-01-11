@@ -14,5 +14,5 @@ I haven't done much yet with anime styled characters, but nonetheless here are s
 - [Rainhet Chaneru](https://www.youtube.com/@RainhetChaneru)
 
 
-### Videos/ Playlists
+### Videos & Playlists
 - [Projected Texture Eyes Tutorials](https://www.youtube.com/playlist?list=PLCDENUgqPEBjIQm9hwO7CkNfgib3rpYA3)

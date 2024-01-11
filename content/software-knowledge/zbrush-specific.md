@@ -38,7 +38,7 @@ Firstly, the files need to be the way ZBrush wants them. If you want to use them
 
 If the alpha file doesn't meet all of these 3 conditions, you might still be able to use the file as an alpha, but you won't have the benefit of double-click loading the alpha from the Lightbox menu. Instead of loading it into the alpha palette, ZBrush will load it into the texture palette. One can at the bottom of the texture palette menu click `MakeAlpha`, but this is tedious.
 
-Note that PSD files are larger than PNGs/ JPGs, but the size of PSDs isn't that bad. If the alpha resolution is 4k and one has 2k alphas, then that would be a storage size of: 
+Note that PSD files are larger than PNGs and JPGs, but the size of PSDs isn't that bad. If the alpha resolution is 4k and one has 2k alphas, then that would be a storage size of: 
 - PSD = 64 GB
 - PNG = 4 GB
 - JPG = 1.6 GB
@@ -64,7 +64,7 @@ Changing the channels and bit depth in Photoshop:
 >Run Image Processor Script (In menu: Include all sub-folders + Select source folder + File Type PSD + Maximize Compatibility +Run action you just created)<br>
 >![[image-2023-10-15-04-36-28.png]]
 >
->This will create in every folder below the folder you selected a folder called PSD, which contains all the created files. Pull them out of there, replace them with the PNGs/ JPGs, and you're done. Your entire alpha collection should now be grayscaled, 8/16bit PSD files.
+>This will create in every folder below the folder you selected a folder called PSD, which contains all the created files. Pull them out of there, replace them with the PNGs or JPGs, and you're done. Your entire alpha collection should now be grayscaled, 8/16bit PSD files.
 
 Next is the folder structure. I recommend storing the alphas inside `...ProgramFiles/Zbrush/ZBrushes`. Inside the `ZBrushes` folder, create folders for all the themes you have. 
 
@@ -161,7 +161,7 @@ This is a brush that contains one or more meshes to chose from. These meshes can
 
 
 ### Curve Insert Mesh Brush 
-Is an **insert mesh brush**, that is made in such a way to seamlessly repeat/ array along a stylus stroke.
+Is an **insert mesh brush**, that is made in such a way to seamlessly repeat (array) along a stylus stroke.
 
 >[!example] Examples
 >
@@ -181,7 +181,7 @@ VDM stands for Vector Displacement Mesh.
 >[!example] Examples
 >
 >- Dragon Scales
->- Sharp Teeth/ Spikes
+>- Sharp Teeth & Spikes
 >- Insert Ears/ Nose/ Horns
 
 >[!Info] Creation process
@@ -275,7 +275,7 @@ VDM stands for Vector Displacement Mesh.
 >|Textures, Displacement and Normal Maps|✅|✅
 >|Poly Paint|✅|✅
 >|Creasing|✅|✅
->|Export Scale/ Offset values|✅|✅
+>|Export Scale & Offset values|✅|✅
 
 >[!question] Where are these save methods located?
 >
@@ -305,7 +305,7 @@ Open the Thumbnail Window and Turn on Silhouette (`Preferences > Thumbnail`) or 
 >[!example]- Polypaint resources (videos)
 ><div style="text-align: center;">
 >
->**Polypainting/ Material Painting**
+>**Polypainting & Material Painting**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eQ7B3Y4aGZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ></div>
 
@@ -396,7 +396,7 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 >When ever ZBrush is on a different monitor resolution, or you change that monitor's scale size, you will have to redo the following steps (something I despise). 
 >
 >1. In the Documents Menu toggle `WSize` and click `NewDocument`
->2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it is completely irrelevant and will not mess up your tool
+>2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it, is completely irrelevant and will not mess up your tool
 >3. So ZBrush always opens at this resolution, click `Save As Startup Doc` in the Document menu
 
 
@@ -429,7 +429,7 @@ The main thing about this interface is that I made a custom menu with every tool
 >|**Cause**|_Unknown_
 >|**Possible cause**|File size to big (started happening around the 2.3 - 2.5GB mark for me).
 >|**What isn't the cause**|- Amount of SubTools (tested 400)<br>- Amount of Tools (tested 40)<br>- Amount of polygons in SubTools (tested 150 mil)
->|**What does it do**|It makes ZBrush immediately crash the next time you or ZBrush quick/ manual saves.
+>|**What does it do**|It makes ZBrush immediately crash the next time you or ZBrush quick or manual saves.
 
 >[!error] ZBrush file extension is .ZZZ instead of .ZTL
 >

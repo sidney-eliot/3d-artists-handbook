@@ -12,7 +12,7 @@ UV unwrapping is best in Blender, by far. When UV unwrapping, it's good practice
 |Only show polygons in UV Editor that are selected in 3D viewport|`UV Sync Selection` (2-way arrows at top left)
 |Only select desired UV island with `L` select|Switch to `Face select` mode or disable `UV Sync Selection`
 |Unwrap automatically after every seam that's placed|`Options > Live Unwrap`
-|Add/ remove a seam every time edges are Ctrl selected|Switch to `Edge select` mode, then Ctrl select some edges, finally in the pop-up menu switch `Edge Tag` to `Tag Seam`
+|Add or remove a seam every time edges are Ctrl selected|Switch to `Edge select` mode, then Ctrl select some edges, finally in the pop-up menu switch `Edge Tag` to `Tag Seam`
 
 - Not having the transform scale of all objects on the same UV map set to 1, will result in size ratio differences between UV islands when unwrapping _(If cube A and cube B have the same visual size, but cube B has a transform scale of 0.5, then the UV unwrap of cube B will be half the size of cube A)_
 - If you intend to bake the model, then you can completely disregard the UV's of the high mesh
@@ -37,104 +37,6 @@ UV unwrapping is best in Blender, by far. When UV unwrapping, it's good practice
 >
 >A smoothing/ shading split always needs a UV split, but a UV split doesn't always need a smoothing/ shading split.
 
-## Texel Density (🚧WORK IN PROGRESS🚧)
-
-
->[!example]- Texel Videos, Articles
->
->- **[Texel Density: All you need to know PDF by Leonardo Iezzi](https://www.artstation.com/marketplace/p/JWwlB/texel-density-all-you-need-to-know-hq-pdf)**
->  
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-SwixDySbIw?si=L4hfia7za2rjInWy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
->
-><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-pTALV0wuI?si=1jrNV_esh-cjvQnP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-### What's Texel Density
-In the same way that pixels are the smallest unit of a screen, texels (short for texture elements) are the smallest unit of a texture. Texel density describes the amount of texture resolution on a mesh.
-
-The way the one changes the texel density is by scaling up or down UV islands on the texture/ in the UV Editor. The bigger the UV island, the more texel density it has and the therefor giving the texture a higher resolution/ more detail
-
-### Why is Texel Density Important
-Different texel densities across multiple UV islands that come from the same mesh, is a no-go and will cause a lot of issues with procedural materials while texturing. What's however in theory fine, is to have different texel densities across multiple UV islands, that come from different meshes. No matter if those UV islands are on the same UDIM or not. 
-
-That said, the most important thing when in comes to texel densities, is consistency. An object that is made ob different meshes with different texel densities, will be very noticeable.
-
-Although t
-
-
-- keeping the the same texel density alloWs for consistency between different artist and even ones own work
-
-but are still on the same texture map is fine in theory. And 
-
-is fine in theory. 
-
- Not just that, but it will also look very inconsistent.
-
-Scaling UVs individually across separate meshes that go on the same texture map is fine, however scaling UV islands that come from the same mesh individually, 
-
-
-### What Texel Density to Choose
-
-Firstly, one should know, how to calculate texel density. The math is as follows:
-
-|Texture<br>Resolution|Divide by Standard UDIM Unit<br>(Project dependent)<br>normally 100cm (1m)|Texel Density<br>px/cm or px/unit|Used For|Density Category
-|-:|:-:|:-:|:-:|:-:
-|128px|➗ 100cm 🟰|1,28|Strategic Camera|Low
-|256px|➗ 100cm 🟰|2,56|Strategic Camera|Low 
-|512px|➗ 100cm 🟰|5,12|Third-Person Camera|Medium 
-|1024px|➗ 100cm 🟰|10,24|First-Person Camera|High
-|2058px|➗ 100cm 🟰|20,48|First-Person Weapon and Arms|High
-|4096px|➗ 100cm 🟰|40,48|First-Person Weapon and Arms|Very High
-|8192px|➗ 100cm 🟰|80,96||Ultra High
-
-Different texel densities across multiple UV islands that come from the same mesh, is a no-go and will cause a lot of issues with procedural materials while texturing. What's however in theory fine, is to have different texel densities across multiple UV islands, that come from different meshes. No matter if those UV islands are on the same UDIM or not. 
-
-That said, the most important thing when in comes to choosing texel densities, is consistency. An object that is made of different meshes with different texel densities, will be very noticeable to the eye.
-
-So how does one stay consistent without using the same texel density for everything? The solution is to split up the environment into different priority/ density groups, as seen in these images:
-![[image-2023-11-22-19-12-57.png]]
-![[image-2023-11-22-19-11-59.png]]
-_images by Leonardo Iezzi and Nicky Cry_
-
-|Priority/ Density Group||
-|:-:|:-:|:-:
-|🟩 High 🟩|Places the player can easily get close to
-|🟨 Medium 🟨|
-|🟥 Low 🟥|Background. Far away assets
-
-
-**Things that affect texel density are :**
-- Camera perspective
-- Distance from camera to asset
-- Hardware goal
-- Art style
-
-
-### How to See and Change Texel Density
-
-The most simple way to see texel density inconsistencies, is with the help of UV checker maps ([here](https://polycount.com/discussion/186513/free-checker-pattern-texture) my favorite UV checker maps collection).
-
----
-
-
-UV unwrapping is best in Blender, by far. When UV unwrapping, it's good practice to use UV checker maps as well as heat maps, to better see stretching and distortions. UV checker maps also help visualize texture resolution differences between UV islands, but more on that [[#Scaling UVs|later]]. My favorite collection of UV checker maps can be found [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
-
-
-----
-
-
-
----
-
-As mentioned before, UV checker maps can visualize the texture resolution of every UV island directly in the 3D view on the model. The bigger the UV checker map, the bigger the texture resolution. Scaling UVs individually across separate meshes that go on the same texture map is fine, however scaling UV islands that come from the same mesh individually, will cause a lot of issues with procedural materials while texturing. 
-
-It's also very important to always scale UV islands evenly along all axes, not doing so will result in distorted textures.
-
-If you notice, that you screwed up the scaling of some of your islands, then there are some easy ways to fix it. Firstly, re unwrapping the affected UVs will give them the same scale again. A much better way of doing it, that doesn't require re unwrapping, is by selecting the affected UV islands in the UV editor and clicking `UV > Average Islands Scale`.
-
-Some reasons why one would want to scale the UV islands of some meshes more than others, would be because one part has more important or visible detail, where other parts of the model might be more hidden, with blank surfaces, that don't need much detail.
-
-Generally, the workflow regarding scaling UV islands will look something like this: Unwrap everything and start baking. Notice that there's no way that the textures will look crisp with your budget of texture resolution and UDIMs amount. After trying every trick in the book to increase the size of the mesh in the UV space (like optimizing the retopology mesh, tweaking the UV packing algorithm, ...), you finally turn to the last option there is, sacrificing the detail of some UV islands to have more space in return to scale up those UV islands that really need it.
 
 ## Rotating UVs
 
@@ -150,7 +52,7 @@ With higher resolution textures, this is less this of an issue, and in rare situ
 ## Mirroring UVs
 Before UV unwrapping one has 2 choices, applying the mirror and UV unwrapping or UV unwrapping and applying the mirror at export. 
 
-Applying the mirror at export has the advantage that there's twice as much texture space because the UVs from the left and right are staked on top of each other, thus allowing to use smaller/ fewer textures or to just have a better resolution. However, this has its issues, generated textures for example don't look natural because everything perfectly mirrors to the other side
+Applying the mirror at export has the advantage that there's twice as much texture space because the UVs from the left and right are staked on top of each other, thus allowing to use smaller or fewer textures or to just have a better resolution. However, this has its issues, generated textures for example don't look natural because everything perfectly mirrors to the other side
 
 Applying the mirror before is often needed for specific designs and makes textures look more natural around the midline. For example, if one wants some words to be on the back of a jacket the UVs of left and right can not be stacked, because both sides should have different text. So the mirror has to be applied before UV unwrapping.
 
@@ -164,7 +66,7 @@ Best practice is to mix it up, objects that connect at the middle and mirror fro
 ## Padding & Margin
 Padding is important to avoid bleeding, which is visible as seems on the model. Correct padding is also important for getting nice bevels when baking. Padding is between every UV island and margin between all islands and the texture borders. The amount of padding depends on the texture resolution. It also depends on how much downresing will happen. If the highest resolution is 4k and there is a low setting which downreses/ mips the texture to let's say 256px, then more padding is needed. How the texture will be viewed is also important, if it's a roof tile on an atlas environment sheet, it's viewed at extremely acute angles and will be mipped/ filtered to hell then more padding is generally good.
 
->[!tip] Recommended paddings/ margins
+>[!tip] Recommended paddings & margins
 >
 >Padding is per island, so a padding of 2px will result in a 4px distance between 2 islands.
 >
@@ -281,3 +183,103 @@ https://www.youtube.com/watch?v=5e6zvJqVqlA
 
 https://www.youtube.com/watch?v=PLLOQD97UAk
 https://www.youtube.com/@nickycry5834
+
+
+## Texel Density (🚧WORK IN PROGRESS🚧)
+
+
+>[!example]- Texel Videos, Articles
+>
+>- **[Texel Density: All you need to know PDF by Leonardo Iezzi](https://www.artstation.com/marketplace/p/JWwlB/texel-density-all-you-need-to-know-hq-pdf)**
+>  
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-SwixDySbIw?si=L4hfia7za2rjInWy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x-pTALV0wuI?si=1jrNV_esh-cjvQnP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+### What's Texel Density (🚧WORK IN PROGRESS🚧)
+In the same way that pixels are the smallest unit of a screen, texels (short for texture elements) are the smallest unit of a texture. Texel density describes the amount of texture resolution on a mesh.
+
+The way the one changes the texel density is by scaling up or down UV islands on the texture in the UV Editor. The bigger the UV island, the more texel density it has and the therefor giving the texture a higher resolution/ more detail.
+
+### Why is Texel Density Important (🚧WORK IN PROGRESS🚧)
+Different texel densities across multiple UV islands that come from the same mesh, is a no-go and will cause a lot of issues with procedural materials while texturing. What's however in theory fine, is to have different texel densities across multiple UV islands, that come from different meshes. No matter if those UV islands are on the same UDIM or not. 
+
+That said, the most important thing when in comes to texel densities, is consistency. An object that is made ob different meshes with different texel densities, will be very noticeable.
+
+Although t
+
+
+- keeping the the same texel density alloWs for consistency between different artist and even ones own work
+
+but are still on the same texture map is fine in theory. And 
+
+is fine in theory. 
+
+ Not just that, but it will also look very inconsistent.
+
+Scaling UVs individually across separate meshes that go on the same texture map is fine, however scaling UV islands that come from the same mesh individually, 
+
+
+### What Texel Density to Choose (🚧WORK IN PROGRESS🚧)
+
+Firstly, one should know, how to calculate texel density. The math is as follows:
+
+|Texture<br>Resolution|Divide by Standard UDIM Unit<br>(Project dependent)<br>normally 100cm (1m)|Texel Density<br>px/cm or px/unit|Used For|Density Category
+|-:|:-:|:-:|:-:|:-:
+|128px|➗ 100cm 🟰|1,28|Strategic Camera|Low
+|256px|➗ 100cm 🟰|2,56|Strategic Camera|Low 
+|512px|➗ 100cm 🟰|5,12|Third-Person Camera|Medium 
+|1024px|➗ 100cm 🟰|10,24|First-Person Camera|High
+|2058px|➗ 100cm 🟰|20,48|First-Person Weapon and Arms|High
+|4096px|➗ 100cm 🟰|40,48|First-Person Weapon and Arms|Very High
+|8192px|➗ 100cm 🟰|80,96||Ultra High
+
+Different texel densities across multiple UV islands that come from the same mesh, is a no-go and will cause a lot of issues with procedural materials while texturing. What's however in theory fine, is to have different texel densities across multiple UV islands, that come from different meshes. No matter if those UV islands are on the same UDIM or not. 
+
+That said, the most important thing when in comes to choosing texel densities, is consistency. An object that is made of different meshes with different texel densities, will be very noticeable to the eye.
+
+So how does one stay consistent without using the same texel density for everything? The solution is to split up the environment into different priority/ density groups, as seen in these images:
+![[image-2023-11-22-19-12-57.png]]
+![[image-2023-11-22-19-11-59.png]]
+_images by Leonardo Iezzi and Nicky Cry_
+
+|Priority/ Density Group|Description|
+|:-:|:-:|
+|🟩 High 🟩|Places the player can easily get close to
+|🟨 Medium 🟨|
+|🟥 Low 🟥|Background. Far away assets
+
+
+**Things that affect texel density are :**
+- Camera perspective
+- Distance from camera to asset
+- Hardware goal
+- Art style
+
+
+### How to See and Change Texel Density (🚧WORK IN PROGRESS🚧)
+
+The most simple way to see texel density inconsistencies, is with the help of UV checker maps ([here](https://polycount.com/discussion/186513/free-checker-pattern-texture) my favorite UV checker maps collection).
+
+---
+
+
+UV unwrapping is best in Blender, by far. When UV unwrapping, it's good practice to use UV checker maps as well as heat maps, to better see stretching and distortions. UV checker maps also help visualize texture resolution differences between UV islands, but more on that [[#Scaling UVs|later]]. My favorite collection of UV checker maps can be found [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
+
+
+----
+
+
+
+---
+
+As mentioned before, UV checker maps can visualize the texture resolution of every UV island directly in the 3D view on the model. The bigger the UV checker map, the bigger the texture resolution. Scaling UVs individually across separate meshes that go on the same texture map is fine, however scaling UV islands that come from the same mesh individually, will cause a lot of issues with procedural materials while texturing. 
+
+It's also very important to always scale UV islands evenly along all axes, not doing so will result in distorted textures.
+
+If you notice, that you screwed up the scaling of some of your islands, then there are some easy ways to fix it. Firstly, re unwrapping the affected UVs will give them the same scale again. A much better way of doing it, that doesn't require re unwrapping, is by selecting the affected UV islands in the UV editor and clicking `UV > Average Islands Scale`.
+
+Some reasons why one would want to scale the UV islands of some meshes more than others, would be because one part has more important or visible detail, where other parts of the model might be more hidden, with blank surfaces, that don't need much detail.
+
+Generally, the workflow regarding scaling UV islands will look something like this: Unwrap everything and start baking. Notice that there's no way that the textures will look crisp with your budget of texture resolution and UDIMs amount. After trying every trick in the book to increase the size of the mesh in the UV space (like optimizing the retopology mesh, tweaking the UV packing algorithm, ...), you finally turn to the last option there is, sacrificing the detail of some UV islands to have more space in return to scale up those UV islands that really need it.

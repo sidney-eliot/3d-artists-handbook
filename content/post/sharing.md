@@ -14,12 +14,11 @@ enableToc: true
 
 >[!example] Great showcase examples (playlist, links)
 >**Art showcase playlist**
->
 ><div style="text-align: center;">
 >
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 >
-><div style="text-align: left;">
+></div>
 >
 >**Turn table animations**
 >- https://www.artstation.com/artwork/zOoGNw

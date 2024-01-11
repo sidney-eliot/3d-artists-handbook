@@ -24,7 +24,7 @@ enableToc: true
 |![[image-2023-10-12-20-25-05.bmp\|80]]|[Baban Illustration](https://www.youtube.com/channel/UC4wvqacXJGRtZIHr_lg_J9w/videos)
 |![[image-2023-10-12-20-25-09.bmp\|80]]|[Draw like a Sir](https://www.youtube.com/channel/UCnzCSbvTWDvty7Hr9Ind4ow/vidoes)<br>(often manga related)
 
-### How To Draw Things/ Anatomy
+### How To Draw Anatomy & Things in General
 
 |![[image-2023-10-12-21-50-00.bmp\|80]]|[mikeymegamega](https://www.youtube.com/channel/UCOvvFK_EhrX9exQ-jkLPg8w/videos)
 |:-:|:-:

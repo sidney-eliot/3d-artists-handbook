@@ -11,7 +11,7 @@ enableToc: true
 >- [Marmoset Character Creation Articles](https://marmoset.co/category/toolbag-tutorials/character/)
 >- [Real-time Character Production Workflow (Samurai)](https://discover.therookies.co/2021/05/06/real-time-character-production-workflow-for-games/)
 >
->**Breakdown/ Showcase**
+>**Breakdown & Showcase**
 >- [Stylized Character Presentation in Toolbag](https://marmoset.co/posts/stylized-character-presentation-in-toolbag/)
 >- [Steampunk Huntress](https://3dtotal.com/tutorials/t/3d-character-sculpting-a-guide#article-introduction)
 >- [Character Presentation With Animation In Toolbag](https://marmoset.co/posts/level-up-your-character-presentation-with-animation-in-toolbag/)
@@ -31,11 +31,11 @@ enableToc: true
 - Work on the left side of the character (from the character's perspective) and mirror to the right, this helps with Blender addons, marmoset skew painting and more. In ZBrush however, work on the right side because of mirror and weld
 - Keep center of model always at center of world. In 3D modeling applications this is easy, but in software like ZBrush it's a bit more of a challenge
 - Keep entire base mesh and use hide modifier to remove parts
-- Keep as many backups as possible of older versions of objects/ the entire file(storage is cheap, your time isn't)
-- Consider using an empty called "WorldOrigin" as a world origin for all modifiers that need a central point like mirrors. This has many benefits, things like allowing for the origin to be not at the center and for use of multi mirrors. One can think of it as the root bone for rigging(Make sure to hide and disable this empty, so it is never touched)
+- Keep as many backups as possible of older versions of objects and the entire file (storage is cheap, your time isn't)
+- Consider using an empty called "WorldOrigin" as a world origin for all modifiers that need a central point like mirrors. This has many benefits, things like allowing for the origin to be not at the center and for use of multi mirrors. One can think of it as the root bone for rigging(Make sure to hide and disable this empty, so it's never touched)
 
 ## Pitfalls to Watch Out For
-- Always apply transforms in 3D modeling software when it makes sense (For example, it is good practice to apply scale before beveling if possible). However, often it makes sense to not apply rotation, so one can quickly go back to a neutral orientation for modeling
+- Always apply transforms in 3D modeling software when it makes sense (For example, it's good practice to apply scale before beveling if possible). However, often it makes sense to not apply rotation, so one can quickly go back to a neutral orientation for modeling
 - Apply all mirrors before rigging
 - Always make sure to remove shrinkwrap offset before applying the modifier
 
@@ -49,7 +49,7 @@ enableToc: true
 
 ## Rundown of the Optimal Workflow
 
-Depending on if the model is hard surface or organic, the workflow will look a bit different. However, it is totally possible to do everything with the organic workflow. The organic workflow is mainly in ZBrush or, if you don't have ZBrush, Blender's sculptor.
+Depending on if the model is hard surface or organic, the workflow will look a bit different. However, it's totally possible to do everything with the organic workflow. The organic workflow is mainly in ZBrush or, if you don't have ZBrush, Blender's sculptor.
 
 1. Use a combination of ZBrush and your favorite modeling application to finish the high model
 2. Retopologize the high model in Blender, deciding what detail to keep and what detail to banish into the baked normal map
@@ -64,4 +64,4 @@ If a piece is more hard surface, and you decide to not use ZBrush, but your mode
 
 ## 🚧Work in Progress🚧
 - Have as much as logically possible merged together, to make rigging easy
-- Have as little overlaying meshes/ faces as possible, to avoid rigging issues
+- Have as little overlaying meshes and faces as possible, to avoid rigging issues

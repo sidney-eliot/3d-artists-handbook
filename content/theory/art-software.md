@@ -19,7 +19,7 @@ This is a somewhat complete collection of all the software that 3D artists can c
 - [**Mudbox**](https://www.autodesk.com/products/mudbox)
 - [**Kodon**](https://www.kodon.xyz) _(VR Sculpting)_
 - [**Sculptris**](https://www.sculpteo.com/en/glossary/sculptris-definition/) _(A super basic version of ZBrush by the makers of ZBrush)_
-- [**Nomad Sculpt**](https://nomadsculpt.com) _(Tablet/ Mobile Sculpting)_
+- [**Nomad Sculpt**](https://nomadsculpt.com) _(Tablet & Mobile Sculpting)_
 
 ## Texturing Software
 
@@ -98,7 +98,7 @@ This is a somewhat complete collection of all the software that 3D artists can c
 
 - [**`Unreal Engine`**](https://www.unrealengine.com/en-US)
 - [**`Unity`**](https://unity.com) _(Don't underestimate Unity, it's more and more able to achieve graphical fidelity on the level of Unreal Engine)_
-- [**Godot**](https://godotengine.org) _(A simple to learn Python like language, better suited for indie/ 2D projects)_
+- [**Godot**](https://godotengine.org) _(A simple to learn Python like language, better suited for indie and 2D projects)_
 - [**Bevy**](https://bevyengine.org/) _(A relatively new and quite interesting game engine)_
 
 ## Personal Art Libraries
@@ -114,7 +114,7 @@ This is a somewhat complete collection of all the software that 3D artists can c
 - [**`Milanote`**](https://milanote.com/) _(Feature rich and running in the cloud)_
 - [**Opti**](https://github.com/torcado194/opti)
 - [**Kuadro**](http://www.kruelgames.com/tools/kuadro/)
-- [**RefCanvas**](https://refcanvas.com/) (For iOS/ Android devices)
+- [**RefCanvas**](https://refcanvas.com/) (For iOS & Android devices)
 - [**DroidRef**](https://github.com/Ruin0x11/DroidRef)(For Android devices)
 - [**BeeRef**](https://github.com/rbreu/beeref)
 

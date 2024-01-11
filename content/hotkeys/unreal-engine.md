@@ -10,7 +10,7 @@ h2, h3 { text-align: center; }
 }
 </style>
 
-## Navigation/ Transformation
+## Navigation & Transformation
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Navigate|**`WASD`** + **`MB`**

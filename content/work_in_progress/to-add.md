@@ -22,3 +22,6 @@ this shape can also happen from subdiv, prevented wit rerouting edges (normally 
   bevel order has a lot of strategy, sometimes it's better to bevel edges in sets after eachother instead of all at once
 
 - shade flat can help fine shading and topology issues, especial those hidden behind modifiers like subD and bevel
+
+- https://help.maxon.net/r3d/cinema/en-us/Content/html/Standard_Material.html
+- https://marmoset.co/posts/getting-to-know-toolbag-3/

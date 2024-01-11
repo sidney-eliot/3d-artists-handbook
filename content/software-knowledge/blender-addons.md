@@ -11,7 +11,7 @@ These are the addons I recommend using, most of which I use on a somewhat freque
 
 Many of these addons are free and others come with a hefty price. If you're willing to spend some money, then these are the only ones you really need:
 
-- [Hard Ops / Boxcutter Ultimate Bundle](https://www.artstation.com/marketplace/p/D7aM/hard-ops-boxcutter-ultimate-bundle) - Which includes both Hard Ops and Boxcutter; Essential for any 3D artist ($40)
+- [Hard Ops & Boxcutter Ultimate Bundle](https://www.artstation.com/marketplace/p/D7aM/hard-ops-boxcutter-ultimate-bundle) - Which includes both Hard Ops and Boxcutter; Essential for any 3D artist ($40)
 - [UVPackmaster](https://uvpackmaster.com/) - Only if you do a lot with UVs ($44)
 - [MESHmachine](https://machin3.gumroad.com/l/MESHmachine) - If you feel like spending a bit more, I would recommend picking up MESHmachine as well ($40)
 
@@ -28,7 +28,7 @@ Many of these addons are free and others come with a hefty price. If you're will
 >
 >CG Cookie also has a good [addon list](https://cgcookie.com/posts/the-ultimate-2022-guide-to-the-best-blender-add-ons) _(which live updates as time goes on)._
 
-## UI Improvements/ System Overhauls
+## UI Improvements & System Overhauls
 - [**`Power Save`**](https://bonjorno7.gumroad.com/l/powersave) _(Never again lose progress)_ - [[Discord](https://discord.gg/uNHmjsHT)] - (free)
 - [**`GoZ/GoB`**](https://github.com/JoseConseco/GoB) _(Fluent workflow tool between ZBrush and Blender)_ - (free)
 - [**`Batch Ops™2`**](https://moth3r.gumroad.com/l/batchops) _(Allows for hiding, renaming, disabling, ... things at bulk in creative ways)_ - [[Showcase](https://www.youtube.com/watch?v=_hxM5gu7Se0)] - (\$$)
@@ -39,26 +39,26 @@ Many of these addons are free and others come with a hefty price. If you're will
 ## Hard Surface Modeling
 - [**`Hard Ops`**](https://masterxeon1001.gumroad.com/l/hardops)  _(Hard Surface Modeling tools suite, a must-have for every modeler)_ - [[Documentation](https://hardops-manual.readthedocs.io)] - (\$$)
 - [**`BoxCutter`**](https://masterxeon1001.gumroad.com/l/BoxCutter)  _(Boolean operations)_ - [[Documentation](https://boxcutter-manual.readthedocs.io)] - (\$$)
-- [**`MESHmachine`**](https://machin3.gumroad.com/l/MESHmachine) _(Modify, revers bevels/ Boolean cleanup)_ - [[Documentation](https://machin3.io/MESHmachine/docs/)] - (\$\$$)
+- [**`MESHmachine`**](https://machin3.gumroad.com/l/MESHmachine) _(Modify, revers bevels & Boolean cleanup)_ - [[Documentation](https://machin3.io/MESHmachine/docs/)] - (\$\$$)
 
 ### Kushiro's Tools
-Kushiro has many great [addons](https://kushiro.gumroad.com/) which are showcases on Kushiro's [channel](https://www.youtube.com/channel/UCKxXI-jD_xf5_kBo2xHNQow/videos).
+Kushiro has many great [addons](https://kushiro.gumroad.com/) which are showcased on Kushiro's [channel](https://www.youtube.com/channel/UCKxXI-jD_xf5_kBo2xHNQow/videos).
 
 - [**`Select Sim`**](https://kushiro.gumroad.com/l/smjsbe) _(A MASSIVE time saver tool, makes selecting fun)_ - (free)
-- [**Grid Modeler**](https://kushiro.gumroad.com/l/VthLyO) _(Block out/ Speed modeling)_ - (\$$)
+- [**Grid Modeler**](https://kushiro.gumroad.com/l/VthLyO) _(Block out & Speed modeling)_ - (\$$)
 - [**Cut Corner**](https://kushiro.gumroad.com/l/varlxb) - (free)
 - [**Safe Ngon (Boolean cleanup)**](https://kushiro.gumroad.com/l/iVWvj) - (free)
 - [**Quad Swords**](https://kushiro.gumroad.com/l/VNhcN) _(Dicing tool)_ - (free)
 - [**Attach Align**](https://kushiro.gumroad.com/l/iutJRq) _(Great snapping tool)_ - (free)
 
-### Other
+### Other Hard Surface
 - [**`Cablerator`**](https://kritskiy.gumroad.com/l/cblrtr) _(Cable maker)_ - [[Documentation](https://cablerator.readthedocs.io/en/latest/)] - (\$$)
 - [**Geo Cables**](https://amanbairwal.gumroad.com/l/GeoCables) _(Another cable addon, great in combination with Cablerator)_ - (free)
 - **Bool Tool** _(Primitive version of BoxCutter)_ - [[Documentation](https://docs.blender.org/manual/en/latest/addons/object/bool_tools.html)] - (Built-in)
 - **`Loop Tools`** _(Tool suite, things like Relax Mesh or Make Circle)_ - [[Documentation](https://docs.blender.org/manual/en/latest/addons/mesh/looptools.html)] - (Built-in)
 - [**`ARMORED-Toolkit`**](https://armoredcolony.gumroad.com/l/toolkit) _(All kinds of little scripts accessible through the search menu (F3))_ - (free)
 - [**Edge Flow**](https://github.com/BenjaminSauder/EdgeFlow) _(Mesh manipulation)_ - (free)
-- [**Bygen**](https://curtisholt.online/by-gen) _(Organic/ Procedural modeling)_ - (free)
+- [**Bygen**](https://curtisholt.online/by-gen) _(Organic & Procedural modeling)_ - (free)
 - [**Smart Fill**](https://handpaintedtextures.gumroad.com/l/Blender_addons_smart_fill) _(Smart F fills, I don't use it anymore because of making F not instant anymore)_ - ($)
 - [**Smart Select**](https://handpaintedtextures.gumroad.com/l/smart_select) - ($)
 - **Cell Fracture** _(Destroy objects)_ - [[Documentation](https://docs.blender.org/manual/en/latest/addons/object/cell_fracture.html)] - (Built-in)
@@ -86,10 +86,10 @@ _I don't do texturing in Blender._
 - **Bpainter** - _removed by creator_
 
 ## Asset, Material, HDRI
-I don't use any of these anymore because I've switched to Substance Painter, Mari and 3D Coat for texturing. Blender's node system used for texturing is very inflexible and a pain to work with, when the projects goal is to be real-time/ Game-Ready or rendered in any other software.
+I don't use any of these anymore because I've switched to Substance Painter, Mari and 3D Coat for texturing. Blender's node system used for texturing is very inflexible and a pain to work with, when the projects goal is to be real-time/ game-ready or rendered in any other software.
 
 
-- [**Kit Ops Pro**](https://www.kit-ops.com/) _(Kit Bash modeling/ Adding detail to your Hard Surface models)_ - (\$\$$)
+- [**Kit Ops Pro**](https://www.kit-ops.com/) _(Kit Bash modeling & Adding detail to your Hard Surface models)_ - (\$\$$)
 - [**Blenderkit**](https://www.blenderkit.com/get-blenderkit/) _(Material and asset library)_ - (free and paid)
 - [**EEVEE-Materials**](https://chippwalters.gumroad.com/l/EEVEE2) _(Material library)_ - (\$\$$)
 
@@ -106,7 +106,7 @@ I don't use any of these anymore because I've switched to Substance Painter, Mar
 - **`Node Wrangler`** _(Node managing tool)_ - [[Documentation](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html)] - (Built-in)
 - [**Node Preview**](https://simonwendsche.gumroad.com/l/node-preview) _(Shows the texture result of every node, extremely helpful for understanding complex node networks)_ - (\$$)
 
-## Generation/ Procedural
+## Generation & Procedural
 - **A.N.T Landscape** _(Landscape generator)_ - (Built-in)
 
 ## Clothing

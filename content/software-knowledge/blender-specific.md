@@ -15,7 +15,7 @@ enableToc: true
 ## Cleaning Up Interface
 - Enter Fullscreen mode (Window > Toggle Windowed Fullscreen)
 - Maximize current window inside of Blender (Ctrl + Space)
-- Hide Left/ Right Tabs (T/ N)
+- Hide left and right tabs (T & N)
 - Toggle visible gizmos in viewport (Viewport Gizmos (menu)). Things to turn off: Navigate
 - Toggle overlays in viewport (Viewport Overlays (menu)). Things to turn off: Grid, Floor, Axes X Y Z, Text Info
 - Right-click on the header to disable parts at the top
@@ -38,19 +38,19 @@ enableToc: true
 >- Used for EXR images
 >- Best for rendering and compositing
 >- Corresponds more closely to nature
->- Doesn't directly correspond to human perception/ display devices
+>- Doesn't directly correspond to human perception & display devices
 
 >[!info] Filmic Log
 
 ## Fixing Issues in Blender
 ### General
 - If any modifier or action aren't working properly it might be because one or multiple transforms should be applied first
-- Check if the origin/ world origin is at the desired location if a modifier/ action fails
+- Check if the origin/ world origin is at the desired location if a modifier or action fails
 - Maybe there are vertices that overlap each other but aren't connected (fix with: Ctrl + M > Merge by distance)
 - Check if face orientation is correct (Viewport Overlays > Face Orientation)
-- Bad topology, quads work best with all modifiers/ actions
+- Bad topology, quads work best with all modifiers and actions
 - Sometimes shading looks bad because viewport shading options like cavity are on
-- For curves it is good to turn on handles (Edit Mode > Viewport Overlays > Handles/ Handles Normals)
+- For curves it's good to turn on handles (Edit Mode > Viewport Overlays > Handles/ Handles Normals)
 
 ### Fixing Shading
 - Shade smooth

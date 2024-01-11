@@ -20,7 +20,7 @@ enableToc: true
 >[!tip] Rules to follow for the mesh
 >- Try to keep the silhouette of the high and low mesh as close to each other as possible
 >- Try to strategically use SubDiv modifiers, they will a lot of the times be the cause for badly baked edges. For pieces that don't play a big role in the silhouette SubDiv is fine
->- When possible, try to have as many mesh pieces that aren't connected as the high, connected as the low. This will reduce poly count, increase texture space and make weight painting/ animating so much easier
+>- When possible, try to have as many mesh pieces that aren't connected as the high, connected as the low. This will reduce poly count, increase texture space and make weight painting as well as animating so much easier
 >- Delete all polys that aren't seen, sometimes this means adding in a bit of extra edge flow/ cuts to remove more faces. This gives us more texture space, meaning all UVs that are actually seen can be scaled up and will have a better resolution. A good trade, totally worth the slight increase in polygons that the cuts may create.
 >- Triangulate the high mesh and make sure the low has no Ngons. Every software triangulates differently, so Triangulating in the modeling software instead of auto triangulation in Marmoset will avoid issues (If you are using Maya, you may want to lock the mesh normals first, as the mesh normals change upon triangulation). This however comes with the con of not being able to nicely showcase the wireframe. So one should only Triangulate the high. When you notice quads on the low are triangulating badly, manually triangulate those quads in the modeling software
 
@@ -65,7 +65,7 @@ Following things will manipulate normals:
 >To-Do
 
 >[!Info] Baking cage
->The cage helps for ray casting to know from where to cast the rays and when to kill the ray. The cage should extend far enough to cover the highest points of the high poly mesh. The cage is almost always a bigger/ solidified version of the low and should never be done by hand, if the baker doesn't generate a cage for you then that baker isn't a good baker. Making cages isn't hard, but when working with many objects it's a complete waste of time. Marmoset and Substance generate cages, bakers in Blender and Maya currently don't. 
+>The cage helps for ray casting to know from where to cast the rays and when to kill the ray. The cage should extend far enough to cover the highest points of the high poly mesh. The cage is almost always a bigger and solidified version of the low and should never be done by hand, if the baker doesn't generate a cage for you then that baker isn't a good baker. Making cages isn't hard, but when working with many objects it's a complete waste of time. Marmoset and Substance generate cages, bakers in Blender and Maya currently don't. 
 >
 >Sometimes however with more complex objects the generated cage won't work, then one can either:
 >- Hand paint the cage distance
@@ -93,7 +93,7 @@ The name indicates the low and high match, however it doesn't indicate what is p
 - Needs to end with ```..._low``` or can also be ```..._low_...``` (Marmoset)
 - Not case-sensitive
 - 1/01/001 all works as long as it's consistent
-- Adding no number is fine if there's only one low/ high
+- Adding no number is fine if there's only one low and high
 
 ```
 Armor_high_001 

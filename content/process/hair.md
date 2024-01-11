@@ -10,7 +10,7 @@ description: "Hello"
 ></div>
 
 
->[!info] Finished hair card textures/ hairstyles
+>[!info] Finished hair card textures & hairstyles
 >
 >If you're using hair cards and don't want to create the texture yourself, or want to pick from already created haircuts, some places to look are:
 >- [ArtStation Marketplace](https://www.artstation.com/marketplace/game-dev?q=Hair&section=best_selling)
@@ -33,7 +33,7 @@ I recommend starting every haircut with a base sculpt. Refine this sculpt until 
 ## Sculpted Hair
 ![[Pasted image 20230604170808.png|350]]![[Pasted image 20230604170824.png|350]]![[Pasted image 20230604170858.png|300]]![[Pasted image 20230604170907.png|300]]![[Pasted image 20230604170758.png|250]]![[Pasted image 20230604170921.png|600]]
 
-Sculpting is a great method for the final hair, but where it really shines is as a base/ block out for all other hair creations methods. Make it a habit to first sculpt a block out of the haircut until the silhouette is correct, and to use that as a shape guide.
+Sculpting is a great method for the final hair, but where it really shines is as a base or block out for all other hair creations methods. Make it a habit to first sculpt a block out of the haircut until the silhouette is correct, and to use that as a shape guide.
 
 **Sculpting Hair Playlist:**
 
@@ -48,7 +48,7 @@ Hair cards are a hair method where a variety of strand texture maps are mapped t
 
 To avoid repetition in textures used for strands, a couple of materials are created, each using different hair stands that can then be easily chosen from. This allows one to be very flexible, as one can at any point decide that one wants to replace all the hair stand types with other or even more types.
 
-Hair cards are great for games because of its low tris count and working well with physics/ animation. The poly count vastly depends on hairstyle, can range from 1k tris to 10k tris.
+Hair cards are great for games because of its low tris count and working well with physics and animation. The poly count vastly depends on hairstyle, can range from 1k tris to 10k tris.
 
 |Tris|Character
 |:-:|:-:
@@ -92,6 +92,7 @@ For hair strands, there should be the following:
 >
 >**Full process**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/u6IP74f8pBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
 
 The textures that are most essential are: Alpha, Color, Normal, AO, Gradient
 
@@ -161,8 +162,9 @@ But to get the desired hair look, there are many others that are often used.
 >
 >**Render setup**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_WbNUly6EYM?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
 
-## Curve/ Array Hair
+## Curve & Array Hair
 
 This method consists of a couple of key concepts. Instead of placing the hair, a curve is placed which generates a hair strand in its place which follows the curve's shape. This makes it very easy to move and twist the hair strands, as one doesn't have to work about topology. To display the hair strand along the path of the curve a shape is used, in Blender this shape is represented by a circle curve. This shape is then used by the curve to generate the hair mesh. This means that one can on a whim change the shape of the hair.
 
@@ -170,7 +172,7 @@ Mostly one will have a couple of different shapes to bring variety into the hair
 
 This method also easily allows changing the topology resolution of the hair.
 
->[!tip] Creating curve/ array hair in Blender
+>[!tip] Creating curve & array hair in Blender
 >
 >- To control the hair one can use bezier curves or path curves
 >- Enable Curve Handles

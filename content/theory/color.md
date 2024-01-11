@@ -21,7 +21,7 @@ RGB stands for Red, Blue, Green. An example of a RGB value is: 16,139,216. Every
 **When to use**
 Use is for quick color picking, colors that won't be final. Using RGB color model should be avoided, because it's very hard to select harmonious colors
 
-### HSV/ HSL Color Model
+### HSV & HSL Color Model
 HSV stands for Hue, Saturation, Value whereas HSL stands for Hue, Saturation, Lightness. The difference being that a color with maximum tint(lightness) is white with HSL and the actual color in HSV.
 
 HSL Example:
@@ -42,8 +42,8 @@ HEX is almost only used for copying a color per values from A to B
 
 |Keyword|What is it|What does it affect|Notes
 |:-:|:-:|:-:|:-:
-|Tint|Mixture of a color with WHITE|Lightens the color/ increases the color's brightness|
-|Shade|Mixture of a color with BLACK|Darkens the color/ decreases the color's brightness
+|Tint|Mixture of a color with WHITE|Lightens the color & increases the color's brightness|
+|Shade|Mixture of a color with BLACK|Darkens the color & decreases the color's brightness
 |Tone|Mixture of a color with GRAY|
 |-|-|-
 |Hue|Pure Colors(Primary Colors, Secondary Colors, ...). Ranges from 0° to 359° on the color wheel||Changing the Tint, Shade or Tone of a color doesn't change the hue
@@ -98,7 +98,7 @@ A great place to create these synergies and understand how they work is [Adobe's
 - Only neutral colors ranging from black to white
 - Is monotone
 
-## Common Colors RGB/ HEX
+## Common Colors RGB & HEX
 COLOR|RGB|HEX
 |:-:|:-:|:-:|
 |White|255,255,255|`#FFFFFF`
@@ -132,9 +132,9 @@ COLOR|RGB|HEX
 colorfulness, saturation, purity, intensity, luminance
 
 ### Saturation
-Saturation is changed by tint, shade and tone. Saturation is the purity/ intensity/ brilliance of a color. The higher the saturation of a color, the more vivid/ intense it is. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
+Saturation is changed by tint, shade and tone. Saturation is the purity/ intensity/ brilliance of a color. The higher the saturation of a color, the more vivid and intense it is. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
 
-### Brilliance/ Brightness
+### Brilliance & Brightness
 Brilliance judged relative to the maximum brightness possible, whereas brightness is relative to the brightness of a similarly illuminated white object.
 
 

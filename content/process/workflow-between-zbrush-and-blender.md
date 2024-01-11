@@ -75,7 +75,7 @@ The floor dynamically repositions in order to make sure that it's always below t
 >- Y `Offset of 1` will place the characters feet perfectly on the world origin in Blender and `-1` will make the head be under the world origin (this isn't influenced by the export scale or SubTool units amount)
 >- Always make sure X and Z offset is `0`
 
->[!example]- More about ZBrush's units/ scale system (videos)
+>[!example]- More about ZBrush's units & scale system (videos)
 ><div style="text-align: center;">
 >
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4D6vkeCy6rg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

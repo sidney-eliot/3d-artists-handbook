@@ -11,7 +11,7 @@ enableToc: true
 ### Ambient Occlusion
 _[[Wikipedia](https://en.wikipedia.org/wiki/Ambient_occlusion)] - [[Polycount](http://wiki.polycount.com/wiki/Ambient_occlusion_map)] - [[Unreal Engine Doc](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/)] - [[Unity Doc](https://docs.unity3d.com/2021.3/Documentation/Manual/LightingBakedAmbientOcclusion.html)]_
 
-Ambient Occlusion (AO) is a shading and rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting and helps your eyes detect surface details that would otherwise be washed out or unnoticeable.
+**Ambient Occlusion** (**AO**) is a rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting as well as shadows and helps one's eyes detect surface details that would otherwise be washed out or unnoticeable.
 
 > [!info] Ambient Occlusion Info
 > 
@@ -31,9 +31,9 @@ Ambient Occlusion (AO) is a shading and rendering technique used to calculate ho
 ### Ray Tracing
 _[[Wikipedia](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))] - Unreal Engine Doc [[1](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing)] [[2](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/)] (real-time) - [[Unreal Engine Doc](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/)] (hardware) - [[Unity Doc](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)]_
 
-Ray tracing can either be real-time ray tracing (games industry) or hardware ray tracing (film industry).
+**Ray tracing** is a rendering technique that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights and bounced light. However, **ray tracing** doesn't make everything better, and sometimes it's good to turn off ray traced shadows, lights and only keep ray traced reflections on.
 
-Ray tracing is a rendering method that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights, and bounced light. However, ray tracing doesn't make everything better, and sometimes it's good to turn off ray traced shadows, lights and only keep ray traced reflections on.
+There are two types of **ray tracing**: Real-time **ray tracing** (games industry) and hardware **ray tracing** (film industry).
 
 Ray tracing is a broad term and consists of many smaller things like:
 - Ray Traced Shadows
@@ -61,11 +61,13 @@ This doesn't mean that ray tracing in its nature makes lighting and shadows wors
 ---
 
 ### Subsurface Scattering
-Subsurface scattering (SSS) is a rendering feature, which allows for objects to appear more alive by scattering light more realistically inside themselves. Though subsurface scattering mostly has a reddish glow, the color totally depends on what is on the `SSS Color Map` as well as the light source color. For the render engine to properly scatter the light it also needs to know how thick each area on the model is, for that the `Thickness Map` is used (A map which is also useful for other things than sub surface scattering). The `SSS Color Map` is sometimes also complemented with a `SSS Control Map`.
+_[[Wikipedia](https://en.wikipedia.org/wiki/Subsurface_scattering)]_
 
-Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate this in 3D, subsurface scattering (SSS) maps are used in combination with thickness maps.
+**Subsurface scattering** (**SSS**), also sometimes referred to as the **skin shader**, is a rendering technique, which allows for objects to appear more alive by scattering light more realistically inside themselves. Though **subsurface scattering** mostly has a reddish glow, the color totally depends on what is on the **SSS Color Map**🗺️ as well as the light source color. For the render engine to properly scatter the light, it also needs to know the thickness of each area on the model. For that, the **Thickness Map**🗺️ is used (a map which also has other uses besides **subsurface scattering**). The **SSS Color Map**🗺️ is also sometimes complemented with an **SSS Control Map**🗺️.
 
->[!info] Theory behind real life SSS (Transparency and Translucency)
+Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate this in 3D, **subsurface scattering** maps are used in combination with thickness maps.
+
+>[!info] Theory behind real life subsurface scattering (Transparency & Translucency)
 >
 >When traveling in an inhomogeneous medium like air or translucent materials, light can be absorbed or scattered.
 > 
@@ -103,7 +105,7 @@ Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate t
 ### Anisotropic Filtering
 To-Do: Explain better
 
-Anisotropic Filtering (AF), is a method of enhancing the image quality of textures on surfaces that are at oblique viewing angles with respect to the camera. Like bilinear and trilinear filtering, anisotropic filtering eliminates aliasing effects.
+**Anisotropic Filtering** (**AF**), is a rendering technique that enhances the image quality of textures on surfaces that are at oblique viewing angles with respect to the camera. Like bilinear and trilinear filtering, **anisotropic filtering** eliminates aliasing effects.
 
 ![[20230603111310.png|600]]
 
@@ -117,7 +119,7 @@ Anisotropic Filtering (AF), is a method of enhancing the image quality of textur
 ---
 
 ### Screen Space Reflection
-A technique for reusing screen-space data to calculate reflections. Used for more subtle reflections like wet surfaces or puddles.
+A rendering technique for reusing screen-space data to calculate reflections. Used for more subtle reflections like wet surfaces or puddles.
 
 ---
 
@@ -177,14 +179,14 @@ To-Do: Restructure
 
 - In real life chromatic aberration occurs when a lens fails to focus all the colors into a single point, causing an ever so slight color shift on the edges of some objects
 - A color fringing or distortion
-- Basically the R, G and B channels are shifted to the left/ right. The shift amount and what channels are shifted can be tweaked
+- Basically the R, G and B channels are shifted to the left or right. The shift amount and what channels are shifted can be tweaked
 
 ![[Pasted image 20230603125616.png|700]]
 
 ---
 
 ### Depth of Field
-Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends at, as well as the fall off, can all be adjusted in the render/ game engines settings. Sometimes it is even possible to set multiple focal points.
+Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends at, as well as the fall off, can all be adjusted in the render or game engines settings. Sometimes it's even possible to set multiple focal points.
 
 ![[Pasted image 20230603125653.png|700]]
 
@@ -208,8 +210,8 @@ To-Do: Restructure
 
 Blend methods apply to every software (some have more or less modes). Every texture has to have a blend mode, the most common one being opaque. Blend Modes describe how the output of the current material will blend over what is already being drawn (rendered) in the background.
 
-- Black = invisible/ not rendered
-- White = visible/ rendered
+- Black = invisible & not rendered
+- White = visible & rendered
 
 #### Opaque Blend
 Surface through which light neither passes nor penetrates. The previous color will be overwritten and alpha is ignored. 
@@ -222,31 +224,32 @@ Surface through which light neither passes nor penetrates. The previous color wi
 > - Stone
 > - Wood
 
-#### Masked Blend/ Alpha Clip
+#### Masked Blend & Alpha Clip
 Used to make some parts invisible and others visible. The invisible parts are not rendered at all. Only needs black and white, however if gray values are in the control texture a clip threshold value (which is per default set but can be changed) decides what counts as black and what as white. 
 
-> [!example] Masked Blend/ Alpha Clip Examples
+> [!example] Masked Blend & Alpha Clip Examples
 > 
 > - Fence
 > - Chains
 > - Net
 
-#### Translucent Blend/ Alpha Hashed
+#### Translucent Blend & Alpha Hashed
 Used for objects that require some form of transparency. By taking advantage of the full range of an opacity control map, it can make objects be and opacity level.
 - Can produce noise
 - Most expensive blend mode
 
-> [!example] Translucent Blend/ Alpha Hashed Examples
+> [!example] Translucent Blend & Alpha Hashed Examples
 > 
-> - Thin cloth/ Nylon
+> - Thin cloth
 > - Jellyfish
+> - Nylons
 > - A lot of female clothing
 
 #### Additive
 Takes the pixels of the Material and adds them to the pixels of the background (Like PS Linear Dodge (Add))
 No darkening, since all pixel values are added together.
 
-#### Multiply/ Modulate
+#### Multiply & Modulate
 Multiplies the values of the Material against the pixels of the background.
 
 
@@ -276,7 +279,7 @@ Multiplies the values of the Material against the pixels of the background.
 > - Notebook paper
 > - Lampshade
 
-#### Transparency/ Opacity/ Alpha
+#### Transparency, Opacity & Alpha
 
 ---
 
@@ -364,7 +367,7 @@ Examples for diffuse objects:
 ### Poles
 There are two types of poles, N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
 
-A pole is a set of edges that merge into a single vertex. Avoiding poles with six or more edges on curved surfaces is something that you should incorporate into your modeling workflow. It is best practice to try to avoid poles when modeling.
+A pole is a set of edges that merge into a single vertex. Avoiding poles with six or more edges on curved surfaces is something that you should incorporate into your modeling workflow. It's best practice to try to avoid poles when modeling.
 
 ---
 
@@ -381,7 +384,7 @@ To-Do
 
 ---
 
-### Convex/ Convex Hull
+### Convex & Convex Hull
 Convex is means (ToDo). A convex hull is a mesh that wraps around another mesh in the most optimal way.
 
 > [!example] Convex Hulls are used for
@@ -427,9 +430,7 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Color_depth)] - [[Polycount](http://
 
 Bit depth (Color depth) determines how much color information an image can store, which directly influences the dynamic range the image can have.
 
-It's often good to render/ bake images with higher bit depth than needed, and later in the process convert them to a lower bit depth. The trade-offs with higher bit depths are increased render times and bigger file sizes.
-
-Whether the texture is only intended for one object or a texture atlas, should not influence which bit depth to choose.
+It's often good to render or bake images with higher bit depth than needed, and later in the process convert them to a lower bit depth. The trade-offs with higher bit depths are increased render times and bigger file sizes.
 
 #### Bit Depth Math
 The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 bit for example, 8 of the 32 channels represent red, 8 channels green, 8 channels blue and lastly 8 channels for alpha. This means that just by looking at the bit depth, one can deduce if the image has alpha or not. If the image didn't have alpha, those 8 channels for alpha would fall away and one would have a 24 bit image.
@@ -437,30 +438,30 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 - 6 bit RGB (2,2,2)
 - 8 bit RGBA (2,2,2,2)
 - 12 bit RGB (4,4,4)
-- 16 bit RGBA (4,4,4,4)
+- 16 bit RGBA (4,4,4,4) or (5,6,5)
 - 24 bit RGB (8,8,8)
 - 32 bit RGBA (8,8,8,8)
 
->[!info] Max amount of unique values per channel
+
+**Max amount of unique values per channel:**
+
+>[!info] 1 bit image (Integer)
 >
->1 bit image (Integer):
->```
-> 2 Tone Values >>> Black/ 0 and White/ 1
->```
->8 bit image (Integer):
->```
-> 256 Tone Values >>> 256 Reds x 256 Greens x 256 Blues = 16.7 Million RGB Values
->```
->16 bit image (Integer/ Float):
->```
-> 65,536 Tone Values >>> 65,536 Reds x 65,536 Greens x 65,536 Blues = 281 Trillion RGB Values
->```
->32 bit image (Integer/ Float):
->```
->4,294,967,295 Tone Value
->```
+> <b>2 Tone Values 🟰 Black (0) and White (1)</b>
+
+>[!info] 8 bit image (Integer)
 >
->So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit (exponential growth). Though the file size gets progressively bigger, it doesn't increase by that margin.  
+><b>256 Tone Values ➡️ 256 Reds ✖️ 256 Greens ✖️ 256 Blues 🟰 16.7 Million RGB Values</b>
+
+>[!info] 16 bit image (Integer/ Float)
+>
+><b>65,536 Tone Values ➡️ 65,536 Reds ✖️ 65,536 Greens ✖️ 65,536 Blues 🟰 281 Trillion RGB Values</b>
+
+>[!info] 32 bit image (Integer/ Float)
+>
+><b>4,294,967,295 Tone Values ➡️ ...</b>
+
+So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit (exponential growth). Though the file size gets progressively bigger, it doesn't increase by that margin.  
 
 #### Human Perception of Bit Depth
 Humans can only distinguish between 2 ~ 10 million colors, so we can't even see all colors of 8 bit. This means that an image exported in 8 bit or 16 bit will always look identical. The only advantage in using anything above 8 bit is for editing photos and only for the process of editing and not the export. For 2D artists 8 bit will always be enough and most drawing software doesn't even support more than 8 bit.
@@ -474,7 +475,7 @@ Banding artifacts are caused by a lack of precision with 8 bit normal maps. Ther
 
 ---
 
-### Atlas/ Trim Sheet
+### Atlas & Trim Sheet
 To-Do
 
 ---
@@ -490,7 +491,7 @@ Normal maps can be tangent-space or object-space. World-space is basically the s
 ---
 
 ### Handedness (Normal Map)
-Handedness has influence over: Object transforms, Normal maps, rigs/ animations, ... . 
+Handedness has influence over: Object transforms, normal maps, rigs/ animations, ... . 
 
 
 #### Handedness with Normal maps

@@ -17,7 +17,7 @@ The only 2 file formats one can really use are .fbx and .abc (Alembic).
 
 ### Export options for FBX
 - Selected Objects: Enable
-- Forward/ Up: Depends on destination software
+- Forward & Up: Depends on destination software
 
 ![[Pasted image 20230604225600.jpg|700]]
 

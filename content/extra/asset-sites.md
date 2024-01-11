@@ -3,7 +3,7 @@ title: "Asset Sites"
 enableToc: false
 ---
 
-## Guides/ Articles
+## Guides & Articles
 - [🔵ArtStation Magazine](https://magazine.artstation.com)
 - [🔵ArtStation Guides](https://www.artstation.com/guides)
 - [🔵ArtStation Learning](https://www.artstation.com/learning)
@@ -19,7 +19,7 @@ enableToc: false
 - [🔴Adobe PBR Guide Part1](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1)
 - [🔴Adobe PBR Guide Part2](https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-2)
   
-## Communities/ Forums
+## Communities & Forums
 - [🟢Polycount Forum](https://polycount.com/forum)
 - [⚫Unreal Forum](https://forums.unrealengine.com/)
 - [🟠ZBrush Central Forum](https://www.zbrushcentral.com/c/zbrush-help/6)
@@ -35,7 +35,7 @@ enableToc: false
 >- [r/conceptart](https://www.reddit.com/r/conceptart/)
 >- [r/unrealengine](https://www.reddit.com/r/unrealengine/)
 
-## Art/ Reference Art
+## Art & Reference Art
 - [🟠ZBrush Central Art](https://www.zbrushcentral.com/)
 - [🔵ArtStation](https://www.artstation.com)
 - [🔵Sketchfab](https://sketchfab.com/feed)

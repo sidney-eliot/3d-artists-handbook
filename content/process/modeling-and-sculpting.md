@@ -6,9 +6,9 @@ enableToc: true
 >[!warning] Still Being Migrated
 
 ## Overview
-This page covers all possible ways to achieve general and specific modeling/ sculpting tasks. There's no reason to only stick to Blender, ZBrush or any other 3D software, thanks to tools like GoB/ GoZ one can send entire or selected parts of the model between both software with one click.
+This page covers all possible ways to achieve general and specific modeling and sculpting tasks. There's no reason to only stick to Blender, ZBrush or any other 3D software, thanks to tools like GoB/ GoZ one can send entire or selected parts of the model between both software with one click.
 
-Currently, only **Blender**, **ZBrush** and a bit of **Maya** is covered here, but other software like **Fusion 360** and **Marvelous Designer** is also worth considering for the modeling/ sculpting stage. (I'll most likely add them into this page at some point, when I get more familiar with them).
+Currently, only **Blender**, **ZBrush** and a bit of **Maya** is covered here, but other software like **Fusion 360** and **Marvelous Designer** is also worth considering for the modeling and sculpting stage. (I'll most likely add them into this page at some point, when I get more familiar with them).
 
 I assume that you are familiar with the basics of polygon modeling, if not, watch some videos on that.
 
@@ -49,7 +49,7 @@ Even though a lot is possible in both Blender and ZBrush, you should still be us
 |**Add Primitive Shape**|⚪ `Tool > SubTool > Append or Insert`<br>🟠 `Ctrl` + `A`<br>🔵 Poly Modeling Shelf<br>🔵 `Create > Polygon Primitives`
 |**Edit Primitive Shape**|🔵 `T`<br>⚪ _ToDo_
 
-🔵 **Adding/ Editing Primitives**
+🔵 **Adding & Editing Primitives**
 - Interactive Creation can be toggled in the `Create > Polygon Primitives` menu.
 
 ![[Pasted image 20230608024009.png]]
@@ -82,21 +82,21 @@ Click the Gizmo button, to switch between the Transpose Line and Gizmo. (`Transf
 ### Deformations
 |Method|Notes|
 |:-:|:--|
-|**Transpose Gizmo Cog Wheel**|⚪ Amazing suite of deformations/ transformations.
-|**Bend/ other Deform Modifiers**|🟠 _ToDo_
+|**Transpose Gizmo Cog Wheel**|⚪ Amazing suite of deformations and transformations.
+|**Bend & other Deform Modifiers** |🟠 _ToDo_
 
 
 ### Remeshing
 |Method|Notes|
 |:-:|:--|
 |**ZRemesher/**<br>**Quad Remesher Addon**|⚪ ZRemesher is the best auto retopology tool.<br>🟠 Quad Remesher is a Blender addon made by ZRemesher developer.
-|**DynaMesh/**<br>**Remesh**|⚪ DynaMesh is great for early stages of sculpting.<br>🟠 Blender's Remesh takes very long and yields not the best of results.<br>Both of these remeshers are best for the block out/ silhouette finding stages. They also both only work when the mesh has no holes.
+|**DynaMesh/**<br>**Remesh**|⚪ DynaMesh is great for early stages of sculpting.<br>🟠 Blender's Remesh takes very long and yields not the best of results.<br>Both of these remeshers are best for the block out and silhouette finding stages. They also both only work when the mesh has no holes.
 |**Sculptris Pro/**<br>**Dyntopo**|⚪+🟠 Can be useful for block out stages, I don't however recommend them for beginners because they develope bad sculpting habits.
 |**Retopology by Hand**|🟠+⚪ Very good in Blender, but also quite good in ZBrush with the retopology Brush. There's also a great software dedicated to retopology by hand called [Topo Gun](http://www.topogun.com/)
 |**Decimate Modifier**|🟠 Reduces mesh density while trying not to lose the mesh shape.
 
 
-### Edge Control (Bevels/ Creases/ Edge Loops)
+### Edge Control (Bevels, Creases & Edge Loops)
 Edge control can be achieved through adding:
 - Bevels/ Chamfers
 - Creases
@@ -153,7 +153,7 @@ _ToDo_
 _ToDo_
 
 
-### Duplicating/ Repeating
+### Duplicating & Repeating
 |Method|Notes|
 |:-:|:--|
 |**Repeat Last Brush Stroke**|⚪ Pressing `1` key will repeat the last action. Works for insert brushes as well: Click sticky button above Transpose Gizmo, then drag out new boolean `(Ctrl` + `Drag`) and press `1`
@@ -161,7 +161,7 @@ _ToDo_
 |**Live Duplicate**|🟠_ToDo_ (`Alt` + `D`)
 |**Arrays**|🟠 _ToDo_<br>⚪ _ToDo_
 
-### Splitting/ Merging
+### Splitting & Merging
 **Splitting**
 
 The words **split** and **separate** are used interchangeably.
@@ -169,7 +169,7 @@ The words **split** and **separate** are used interchangeably.
 |Method|Notes|
 |:--|:--|
 |**Split by Visibility**|⚪ Split Hidden (`Tool > SubTool > Split`)
-|**Split by Masking**|⚪ Split Masked/ Unmasked Points (`Tool > SubTool > Split`)
+|**Split by Masking**|⚪ Split Masked or Unmasked Points (`Tool > SubTool > Split`)
 |**Split by Polygroups**|⚪ Groups Split (`Tool > SubTool > Split`)
 |**Split by Loose Parts**|Great for splitting SubTools in many different SubTools.<br>⚪ Split To Parts (`Tool > SubTool > Split`)<br>🟠 Separate By Loose Parts (`P` or `Mesh > Separate`)
 |**Split by Material**|🟠 Separate By Material (`P` or `Mesh > Separate`)
@@ -239,12 +239,12 @@ After a morph is stored with the `StoreMT` button, new strokes ignore each other
 While a morph target is stored, one can use the **Morph Brush** to bring back parts of the stored morph. Or in other words, erase strokes after storing the morph.
 
 Morphs and Layers have great synergy, as showcased in this video: https://www.youtube.com/watch?v=8oU7ZnTSkHA
-#### Shape Keys/ Layers
+#### Shape Keys & Layers
 ##### 🟠 Shape Keys
 
 ##### ⚪ Layers
 
-### Extruding/ Thickening
+### Extruding & Thickening
 |Software|Method|Notes
 |:-:|:-:|:-:
 |⚪🟠|Extrude|**ZBrush:** ZModeler QMesh/ Extrude. **Blender:** Extrude or extrude menu for more options _(Alt + E)_
@@ -526,7 +526,7 @@ The **`B ...`** box is the hotkey for the brush. "B" for "brush" and the other l
 - History Recall **`B HR`**
 
 #### Great Brush Packs
-Search for Brushes/ Insert Brushes on ArtStation and Gumroad
+Search for Brushes and Insert Brushes on ArtStation and Gumroad.
 
 - [Orb Brush Pack (free)](https://orb.gumroad.com/l/nOkHw)
 - [Flipped Normals Skin Kit (paid)](https://flippednormals.com/downloads/flippednormals-skin-kit/)

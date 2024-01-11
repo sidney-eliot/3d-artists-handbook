@@ -9,8 +9,7 @@ enableToc: true
 >
 >**Everything you need to know about topology**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6Kt0gW3_kio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
->
-><div style="text-align: left;">
+></div>
 >
 >**Articles:**
 >- https://topologyguides.com/
@@ -27,7 +26,7 @@ First, there's the high-res mesh. This mesh has to play nice with SubDiv, bevels
 
 ### For Pre-rendered Content (Film Industry):
 
-The high-res mesh is the same as in the games industry, only used of baking and as a retopology base. The low however needs to be modifier/ SubDiv friendly and isn't too restricted on poly optimization. Though baking is used in the film industry, it definitely is used a lot less. The reason for why it has to be SubDiv/ bevel friendly, is because for a movie one can't have sharp edge silhouettes, so for rendering a SubDiv is added.
+The high-res mesh is the same as in the games industry, only used of baking and as a retopology base. The low however needs to be modifier and SubDiv friendly and isn't too restricted on poly optimization. Though baking is used in the film industry, it definitely is used a lot less. The reason for why it has to be SubDiv and bevel friendly, is because for a movie one can't have sharp edge silhouettes, so for rendering a SubDiv is added.
 
 Some examples of `Professional Film Industry` topology:
 
@@ -88,14 +87,14 @@ A good way to find poles is to use selection tools or to add a SubDiv which will
 ### Pole Conclusion
 Poles can create shading issues when animating and will result in problems when using SubDiv modifiers. Poles also create uneven topology density when subdividing. 3/5 edge poles should appear sparingly. 6 and more should ideally never appear except for on flat surfaces and only when there's no other way. To avoid poles, one simply has to redo the topology at that spot. However, often the pole is needed and can then be relocated.
 
-### Placing/ Relocating Poles
+### Placing & Relocating Poles
 Good spots for poles are hidden areas, like under the armpit, between the legs and so on. Other criteria for good poles is how curved the surface is, the less curved the better for a pole. It's also important to move poles away from heavy deformation areas. Instead of dealing with poles when they're a problem, it's good to anticipate them and plan their locations. It's relatively easy to judge where poles happen by looking at where the mayor topology flows intersect each other. When poles do happen, they can also be relocated:
 
 ![[Pasted image 20230608024451.png|850]]
 ![[Pasted image 20230608024436.png|850]]
 
 
-## Terminating/ Rerouting Edge Loops
+## Terminating & Rerouting Edge Loops
 Terminating edge loops is important when doing the final retopologized version of a mesh. There are 2 patterns to achieve this, these patterns can also be used to increase loops instead of decreasing as well as for rerouting loops.
 
 **The first pattern is:**
@@ -108,7 +107,7 @@ Terminating edge loops is important when doing the final retopologized version o
 
 Edge rerouting is best avoided on curved surfaces and best done on flat surfaces. Edge rerouting is unnecessary for the high and added to that it will often make modifiers like SubDiv look bad (There are however exceptions, if one is using a SubDiv control workflow, rerouting is quite useful).
 
-## The Optimal Triangle/ Quad Shape
+## The Optimal Triangle & Quad Shape
 - The most optimal triangle shape is a triangle with all of its sides having the same edge length, this is refered to as a equilateral triangle.
 - The most optimal quad shape is a quad with all of its sides having the same edge length, this is  refered to as a square quad.
 

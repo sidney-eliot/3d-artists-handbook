@@ -46,7 +46,7 @@ To-Do
 >**Hand Painting Tifa in Blender**
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PyNyFhx-f-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 >
-><div style="text-align: left;">
+></div>
 >
 >**Channels:** 
 >- [Stylized Station's Channel](https://www.youtube.com/@StylizedStation)

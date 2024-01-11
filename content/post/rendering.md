@@ -12,7 +12,7 @@ For pre rendering render engines, speed isn't important. The only goal is it to,
 Render engines that excel at real-time rendering have to be able to fluently render entire scenes at higher frame rates and still feel snappy with player input, while also not forfeiting graphical fidelity.
 
 **Showcase Rendering**<br>
-For a render engine to be good at showcasing work to clients/ employers, it has to be easily shareable and viewable or have good integrations into websites. Other things like isolating individual texture maps, viewing wireframe and model stats can also be important. Added to that, it also has to provide a somewhat real-time experience, so one can rotate the model.
+For a render engine to be good at showcasing work to clients and employers, it has to be easily shareable and viewable or have good integrations into websites. Other things like isolating individual texture maps, viewing wireframe and model stats can also be important. Added to that, it also has to provide a somewhat real-time experience, so one can rotate the model.
 
 |Render Engines|Pre Rendering|Real-time Rendering|Showcase Rendering
 |:--|:-:|:-:|:-:
@@ -53,7 +53,7 @@ For a render engine to be good at showcasing work to clients/ employers, it has 
 >
 >A good option for artworks.
 
-## Render Resolution/ Aspect Ratio
+## Render Resolution & Aspect Ratio
 
 Firstly, one should look at what device will be viewing the art. Most displays of PCs, laptops, phones, TVs except for tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
 
@@ -205,7 +205,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >|Pass|Use|Explanation
 >|:--|:-:|:-:
 >|**Combined**|yes|All render passes
->|**Z/ Depth**|yes|Great for atmospherics/ volumetrics and object blending. Mist pass is the same as z/depth pass, just that the z/depth pass isn't configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0 m and depth to the farthest point in scene. Also, z/ depth pass isn't anti aliased
+>|**Z/ Depth**|yes|Great for atmospherics, volumetrics and object blending. Mist pass is the same as z/depth pass, just that the z/depth pass isn't configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0 m and depth to the farthest point in scene. Also, z/ depth pass isn't anti aliased
 >|**Mist**|yes|(Same as Z/ Depth)
 >|**Normal**|no|
 >|**Diffuse/ Specular**|depends|

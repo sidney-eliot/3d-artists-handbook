@@ -86,7 +86,7 @@ h2, h3 { text-align: center; }
 |Subtract from mask|`Ctrl` + `Alt` + `LMB`|
 |Invert mask|`Ctrl` + `LMB`|Click
 |Remove mask|`Ctrl` + `LMB`|Drag on canvas
-|Hide masked|`Ctrl` + `Shift` + *`Alt` + `LMB`|
+|Hide masked|`Ctrl` + `Shift` + `Alt` + `LMB`|
 |Unhide masked|`Ctrl` + `Shift` + `LMB`|On canvas
 |Delete hidden|`Ctrl` + `Shift` + `LMB`|Click
 |Split unmasked|`Subtool > Split`|

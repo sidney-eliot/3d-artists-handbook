@@ -8,7 +8,7 @@ This pipeline will allow for any character that is rigged in a certain way to be
 
 ## Some Important Concepts to Understand
 ### Correct Pose for Animation Retargeting
-If the rest pose of the source and target don't quite match up, the animations won't perfectly transfer over. There are 3 ways of fixing it. The first way is to make sure that all the characters one makes have the same pose. This is quite unrealistic, though. The second way is to have uefy at export from Blender to match the pose. This has the disadvantage that the model is forcefully put in a slightly different rest pose, which can mess with the model (especially around the crotch and armpit area). The third way is to temporarily give the model a different pose in the IK retargeter, this pose is only for the retargeting of animations, and the character will keep its original rest pose after animation export. This comes with the disadvantage of having to have all animations separate for every character with a different rest pose. All 3 ways have pros and cons. Just be aware that they don't have to perfectly line up, eyeballing it is fine. Also, a combination of multiple ways may be the best way.
+If the rest pose of the source and target don't quite match up, the animations won't perfectly transfer over. There are 3 ways of fixing it. The first way is to make sure that all the characters one makes have the same pose. This is quite unrealistic, though. The second way is to have uefy at export from Blender to match the pose. This has the disadvantage that the model is forcefully put in a slightly different rest pose, which can mess with the model (especially around the crotch and armpit area). The third way is to temporarily give the model a different pose in the IK retargeter, this pose is only for the retargeting of animations, and the character will keep its original rest pose after animation export. This comes with the disadvantage of having to have all animations separate for every character with a different rest pose. All 3 ways have pros and cons. Just be aware that they don't have to perfectly line up. Eyeballing it, is fine. Also, a combination of multiple ways may be the best way.
    - Way 1: Use a previously made character mesh and when making the character check if the pose matches
    - Way 2: (in Blender with uefy) [here](https://youtu.be/SAEuZM5Hp0g?t=84)
    - Way 3: (in Unreal Engine with ik retargeter) [here](https://youtu.be/N7WdyAeeDrw?t=595)
@@ -144,8 +144,8 @@ Resources:
 Resources:
 https://www.youtube.com/watch?v=T5pCaj0trAQ
 
-### Breast/ But Jiggle Physics
-Jiggle physic can either be integrated into the animation, simulated or a combination of both. For physics to work, the rig needs bones and weight painting for breasts/ but
+### Breast & But Jiggle Physics
+Jiggle physic can either be integrated into the animation, simulated or a combination of both. For physics to work, the rig needs bones and weight painting for breasts and but
 
 Resources:
 - https://www.youtube.com/watch?v=BFE5e-XUcwo
@@ -153,7 +153,7 @@ Resources:
 - https://www.youtube.com/watch?v=kM4owhT2bR8
 
 
-### Accessories/ Extra Body Parts (Necklaces, Wings, Tails, ...)
+### Accessories & Extra Body Parts (Necklaces, Wings, Tails, ...)
 
 
 ## Links to Definitely Check Out to Understand How It Works
@@ -173,7 +173,7 @@ Resources:
 
 
 ## WHAT'S NEXT?
-The next section (not done yet) will cover how to actually use the animation ready character, either for animations/ still renders or as a player controlled character in Unreal Engine 5. 
+The next section (not done yet) will cover how to actually use the animation ready character, either for animations, still renders or as a player controlled character in Unreal Engine 5. 
 
 ## 🚧Work in Progress🚧
 
@@ -190,7 +190,7 @@ The next section (not done yet) will cover how to actually use the animation rea
 
 
 
-## Export/ Import Character from Blender to Unreal Engine
+## Export & Import Character from Blender to Unreal Engine
 1. Make sure rig is called "Armature"
 2. Select entire control rig and all connected objects
 3. Export as fbx. Make sure to enable "Only Deform bones", disable "Bake Animations", disable "Add Leaf Bones" and set "Smoothing Mode" to "Face"
@@ -212,7 +212,7 @@ The next section (not done yet) will cover how to actually use the animation rea
 - [Skelton System Explainded](https://www.youtube.com/watch?v=FDbpHamn2eY)
 - https://www.youtube.com/watch?v=nY4Q8cYBLP8
 
-It is also important to know that this script breaks the rig and makes it no longer usable in Blender, so one should create a backup of the blend file.
+It's also important to know that this script breaks the rig and makes it no longer usable in Blender, so one should create a backup of the blend file.
 
 ### Important Notes
 - One Skeleton/ Rig can be used for many models
@@ -223,7 +223,7 @@ It is also important to know that this script breaks the rig and makes it no lon
 ## Other Method for Already Rigged and Animated Models
 
 ## Route 1 or Route 2 ?
-Now, it is important to decide if you want to go `route 1` or `route 2`. `Route 1` will make the model compatible with every Unreal Engine animation and is recommended. `Route 2` is for if you have an already rigged and animated character. Try to avoid `route 2` and first generate an Unreal Engine ready rig before weight painting and animating (In short: `Route 1` your animations and other animations, `route 2` only your animations).
+Now, it's important to decide if you want to go `route 1` or `route 2`. `Route 1` will make the model compatible with every Unreal Engine animation and is recommended. `Route 2` is for if you have an already rigged and animated character. Try to avoid `route 2` and first generate an Unreal Engine ready rig before weight painting and animating (In short: `Route 1` your animations and other animations, `route 2` only your animations).
 
 ## Route 2 Converting Rigify Rig to Unreal Engine Ready Rig
 - Set unit scale to 0.01
