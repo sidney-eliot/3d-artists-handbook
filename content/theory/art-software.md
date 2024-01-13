@@ -20,6 +20,7 @@ This is a somewhat complete collection of all the software that 3D artists can c
 - [**Kodon**](https://www.kodon.xyz) _(VR Sculpting)_
 - [**Sculptris**](https://www.sculpteo.com/en/glossary/sculptris-definition/) _(A super basic version of ZBrush by the makers of ZBrush)_
 - [**Nomad Sculpt**](https://nomadsculpt.com) _(Tablet & Mobile Sculpting)_
+- [**Spline**](https://spline.design/) _(3D for Websites)_
 
 ## Texturing Software
 

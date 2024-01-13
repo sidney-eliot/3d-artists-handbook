@@ -24,3 +24,5 @@ Some examples why this is important:
 |capitalize software names|
 |MatCap|
 |16 bit|Keep the number and bit separate
+|film industry|
+|game industry|Without an S

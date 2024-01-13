@@ -124,6 +124,7 @@ I don't use any of these anymore because I've switched to Substance Painter, Mar
 - **3D Viewport Pie Menus** - [[Documentation](https://docs.blender.org/manual/en/latest/addons/interface/viewport_pies.html)] - (Built-in)
 - [**Conform Object**](https://mark-kingsnorth.gumroad.com/l/conform-object) _(Make objects perfectly hug curved surfaces)_ - [[Documentation](https://conform-object-docs.readthedocs.io/en/latest/)] - (\$\$)
 - [Send2Unreal](https://epicgames.github.io/BlenderTools/send2ue/) - [[Documentation](https://epicgames.github.io/BlenderTools/send2ue/introduction/quickstart.html)] - [[More Unreal x Blender addons](https://www.unrealengine.com/en-US/blog/download-our-new-blender-addons)] - (free)
+- [**Abnormal**](https://github.com/bnpr/Abnormal) _(Extended normal editing tools)_ - [[Showcase](https://www.youtube.com/watch?v=cCEDmxFjQ3k)] - (free)
 - [**Hair Tool**](https://bartoszstyperek.gumroad.com/l/hairtool) _(This is probably obsolete with Blender's 3.4 update, which overhauls the hair workflow)_ - (\$\$\$$)
 
 ## Unsorted

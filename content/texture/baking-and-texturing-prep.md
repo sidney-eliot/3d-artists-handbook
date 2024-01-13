@@ -3,6 +3,16 @@ title: "🧭 Baking & Texturing Preparations"
 enableToc: true
 ---
 
+## Overview
+
+Preparing the model properly is essential before moving on to baking and texturing. The following things are part of the preparation process and will be covered in full detail:
+- [[#Mesh & Topology|Fixing mesh topology]]
+- [[#Normals & Shading|Normals & shading]]
+- [[#UV Unwrapping|UV unwrapping]]
+- [[#Naming Conventions|Naming objects and file]]
+- [[#Color ID Mapping|Color id mapping setup (if desired)]] 
+- [[#Exporting|Proper export]] 
+
 >[!example] Great Resources
 >
 >**Great Polycount Pages**
@@ -15,25 +25,31 @@ enableToc: true
 >- [Marmoset Official Baking Page](https://marmoset.co/posts/toolbag-baking-tutorial/)
 >- [A Practical Guide On Normal Mapping for Games](https://docs.google.com/document/d/0B02lElvs8BcvYllmQWpXUGxod3M/edit?resourcekey=0-qyVFd0vGiqJl56hPbOnRWw)
 
-## Mesh
+## Mesh & Topology
+Make sure to follow the concepts mentioned on the [[topology-and-retopology|Topology and Retopology]] page.
 
->[!tip] Rules to follow for the mesh
+>[!tip] Some baking specific topology advice 
 >- Try to keep the silhouette of the high and low mesh as close to each other as possible
->- Try to strategically use SubDiv modifiers, they will a lot of the times be the cause for badly baked edges. For pieces that don't play a big role in the silhouette SubDiv is fine
+>- Try to strategically use SubDiv modifiers. SubDiv modifiers will often be the cause for **badly baked edges**. For parts that don't play a big role in the silhouette SubDiv is fine
 >- When possible, try to have as many mesh pieces that aren't connected as the high, connected as the low. This will reduce poly count, increase texture space and make weight painting as well as animating so much easier
->- Delete all polys that aren't seen, sometimes this means adding in a bit of extra edge flow/ cuts to remove more faces. This gives us more texture space, meaning all UVs that are actually seen can be scaled up and will have a better resolution. A good trade, totally worth the slight increase in polygons that the cuts may create.
->- Triangulate the high mesh and make sure the low has no Ngons. Every software triangulates differently, so Triangulating in the modeling software instead of auto triangulation in Marmoset will avoid issues (If you are using Maya, you may want to lock the mesh normals first, as the mesh normals change upon triangulation). This however comes with the con of not being able to nicely showcase the wireframe. So one should only Triangulate the high. When you notice quads on the low are triangulating badly, manually triangulate those quads in the modeling software
+>- Delete all polys that aren't seen, sometimes this means adding in a bit of extra edge flow/ cuts to remove more faces. This makes the mesh use less texture space, meaning the texel density of all the UVs that are actually seen can be increased. A good trade, totally worth the slight increase in polygons that the cuts may create, as texture space is more valuable than poly count.
+>- Triangulate the high mesh and make sure the low has no Ngons. Every software triangulates differently, so Triangulating in the modeling software instead of auto triangulation in Marmoset will avoid issues. This however comes with the con of not being able to nicely showcase the wireframe. So one should only Triangulate the high. When you notice quads on the low are triangulating badly, manually triangulate those quads in the modeling software. _(If you're using Maya, you may want to lock the mesh normals first, as the mesh normals change upon triangulation.)_
 
->[!tip] Floaters
->
->[[glossary#Floaters|Floaters]] can make the AO maps look bad around the borders of floaters by creating height offsets and messing up light ray paths from the baker. This can be solved by placing the floater not in the air above the mesh, but in such a way as if the floater is a part of the mesh. It's also important to make sure that floaters have the exact angle of the surface below them
+## Normals & Shading
+Normals & Shading is very important and will dramatically alter the bake if handled incorectly. For starters, bakers like Marmoset Toolbag use the normal direction as the baking angle, like shown in this video:
 
-## Normals
-Normals/ shading are very important and can dramatically alter the bake. Bad normals will result in a multitude of issues like:
-- Square grid patterns in the textures (in the shape of the topology from the low)
-- Black spots
-- Bad angles of baked detail
+![[image-2024-01-12-17-18-50.gif]]
+_video by [Marmoset Toolbag](https://marmoset.co/posts/toolbag-baking-tutorial)_
 
+This will result in normals pointing in the wrong direction like this:
+![[image-2024-01-12-17-29-22.jpg]]
+_image by [EarthQuake](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details) (1 bad normals, 2 good normals)_
+
+Marmoset Toolbag has a way of somewhat fixing this, by painting on a skew map one can re-orient the normal/ skew direction to be at a 90° angle to the face. This solution is however tedious and won't work well on curved surfaces.
+
+More on skewd normals in this polycount [article](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details). _(I don't fully agree however, that adding edge loops to control shading is the best solution for the low mesh in the game industry.)_
+
+Other issue that bad normals & shading will cause are square grid patterns in the textures (in the shape of the topology from the low) as well as black spots.
 
 >[!tip] The ultimate rule of thumb
 >
@@ -44,9 +60,10 @@ Normals/ shading are very important and can dramatically alter the bake. Bad nor
 >
 >- [Making sense of hard edges, uvs, normal maps and vertex counts](https://polycount.com/discussion/107196/making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts) (polycount)
 >  
->  <div style="text-align: center;">
+> <div style="text-align: center;">
 >  
 ><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ciXTyOOnBZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+></div>
 
 Following things will manipulate normals:
 - Shading
@@ -90,19 +107,23 @@ Look at the [[uv-unwrapping|UV Unwrapping]] page.
 
 ## Naming Conventions
 The name indicates the low and high match, however it doesn't indicate what is put on the same atlas, that depends on what was exported together in the same file. Numbers can be added to match more highs with a low. Use batch renamer to rename objects.
-- Needs to end with ```..._low``` or can also be ```..._low_...``` (Marmoset)
+- Needs to end with "**..._low**" or can also be "**..._low_...**" (Marmoset)
 - Not case-sensitive
 - 1/01/001 all works as long as it's consistent
 - Adding no number is fine if there's only one low and high
 
-```
-Armor_high_001 
-Armor_high_002
-```
-```
-Armor_low_001
-Armor_low_002 (mostly the low will only have one piece)
-```
+>[!example] For example
+>_("p" is short for part)_
+>
+>Lows:
+>Armor_p014_low (mostly the low will only have one piece)
+>Armor_p015_low
+>
+>Highs:
+>Armor_p014_high_001
+>Armor_p014_high_002
+>Armor_p014_high_003
+>Armor_pt015_high
 
 ## Color ID Mapping
 This is a convenience step which makes masking easier and more precise. T
@@ -125,6 +146,8 @@ When baking the color ID maps, make sure the colors are flat, so no [[glossary#A
 - The high object needs a blank material, bakers like Marmoset Toolbag will however do this for you
 - Remove all materials from both low and high before export. Alternatively, one can also delete them in the baker or disable material export
 
+## Floaters
+[[glossary#Floaters|Floaters]] can make the AO maps look bad around the borders of floaters by creating height offsets and messing up light ray paths from the baker. This can be solved by placing the floater not in the air above the mesh, but in such a way that it's a part of the mesh. It's also important to make sure that floaters have the exact angle of the surface below them.
 
 ## Exporting
 - Export all high objects that should be on the same atlas in one fbx file, do the same for the low in a separate file (`Armor_low.obj` `Armor_high.obj`)

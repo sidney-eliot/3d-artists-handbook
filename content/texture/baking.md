@@ -10,7 +10,7 @@ description:
 
 
 ## Where to Bake
-Marmoset Toolbag yields the best bakes and has the best tools for troubleshooting bakes. Followed by Marmoset, Substance Painter also gives acceptable results. Stay away from most bakers that are in 3D modeling software. Blender, for example, can bake with some addons which I won't even mention. Don't bake in Blender if you care about your time and sanity. 
+Marmoset Toolbag yields the best bakes and has the best tools for troubleshooting bakes. Followed by Marmoset, Substance Painter also gives acceptable results. Stay away from most bakers that are integrated in 3D modeling software. Blender is a good example for that. It's possible to bake in it with some addons. But the results are so bad and the workflow is totaly unoptimized. Don't bake in Blender if you care about your time and sanity. 
 
 ## Reasons for Ambient Occlusion Maps Looking Bad
 - High poly mesh not high enough
@@ -118,3 +118,6 @@ Marmoset automatically creates skews by looking at the face normals of the low p
 - If the origin isn't at the center of the object, the skews will be way too long (only affects interface)
 - Marmoset bakes on the right side per default. So one either has to work on the right side (which is good habit) or have everything mirrored
 - Be aware of the hidden the meshes option. When toggled, everything that's hidden won't be used for the bake
+
+## 🚧 Stuff to Add
+Though baking is used in the film industry, it definitely is used a lot less.

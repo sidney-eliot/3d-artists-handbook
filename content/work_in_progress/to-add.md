@@ -25,3 +25,17 @@ this shape can also happen from subdiv, prevented wit rerouting edges (normally 
 
 - https://help.maxon.net/r3d/cinema/en-us/Content/html/Standard_Material.html
 - https://marmoset.co/posts/getting-to-know-toolbag-3/
+
+
+
+Where quads vs tris:
+
+- Films industry: Mostly quads in such a qay that they nicely work with subD even on the low (becAuse the low and high are mostly the same object, just with less SubDivs)
+
+- Games industry: Quads are only needed only parts of the mesh that will deform. On other parts they can even be bad because they add in unesesary topology and make the topology look worse with smaller faces. In generanl the goal is to make all faces sas samish in size as possible. And anyway game engines will convert all quads into tries
+Make sure shading is good though, so yeah maybe sometimes quads
+
+Also when the surface isnt perfectly smoth but has curves, then quads will make the shading so much better
+
+
+- https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details
