@@ -52,7 +52,8 @@ export const defaultContentPageLayout: PageLayout = {
 
         sortFn: (a, b) => {
           const nameOrderMap: Record<string, number> = {
-            hotkeys: 199,
+		  	resources: 100,
+            hotkeys: 101,
             theory: 200,
             "theory/glossary": 201,
             "theory/composition": 202,
@@ -92,9 +93,8 @@ export const defaultContentPageLayout: PageLayout = {
             "software-knowledge/blender-addons-guide": 904,
 			"software-knowledge/batch-ops": 905,
             extra: 1000,
-            "extra/asset-sites": 1001,
-            "extra/2d-art-resources": 1002,
-            "extra/model-part-names": 1003,
+            "extra/2d-art-resources": 1001,
+            "extra/model-part-names": 1002,
             "my-setup": 1100,
           }
 

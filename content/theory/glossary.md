@@ -29,7 +29,9 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Ambient_occlusion)] - [[Polycount](h
 ---
 
 ### Ray Tracing
-_[[Wikipedia](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))] - Unreal Engine Doc [[1](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing)] [[2](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/)] (real-time) - [[Unreal Engine Doc](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/)] (hardware) - [[Unity Doc](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)]_
+
+_[[Wikipedia](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))] - [[Unreal Engine Showcase](https://www.unrealengine.com/en-US/explainers/ray-tracing/what-is-real-time-ray-tracing)] - [[Unreal Engine Doc (real-time)](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/RayTracing/)] - [[Unreal Engine Doc (hardware)](https://docs.unrealengine.com/5.0/en-US/hardware-ray-tracing-in-unreal-engine/)] - [[Unity Doc](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@14.0/manual/Ray-Tracing-Getting-Started.html)] - [[Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)] - [[Ray Tracing Gems Series](https://www.realtimerendering.com/raytracinggems/)]_
+
 
 **Ray tracing** is a rendering technique that simulates the physical behavior of light rays. It allows accurate rendering of things like shadows, reflections, highlights and bounced light. However, **ray tracing** doesn't make everything better, and sometimes it's good to turn off ray traced shadows, lights and only keep ray traced reflections on.
 
@@ -57,6 +59,12 @@ On the flipped side, here's an example of ray tracing making the lighting and sh
 ![[20230603111140.png|600]]
 
 This doesn't mean that ray tracing in its nature makes lighting and shadows worse, but rather adding ray tracing into a scene that wasn't designed with ray tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with ray tracing on. And potentially there needs to be 2 different presets for ray tracing on and off. 
+
+---
+
+### Real-Time Rendering
+
+_[[Real-time Rendering Book (4th Edition)](https://www.amazon.de/-/en/Tomas-Akenine-M%C3%B6ller/dp/1138627003)] - [[Real-time Rendering Book Digital Summary (4th Edition)](https://www.realtimerendering.com/)]_
 
 ---
 
@@ -355,6 +363,19 @@ Examples for diffuse objects:
 > - Fog
 
 ![[Pasted image 20230603131037.png|400]]
+
+---
+
+### Physically based rendering
+
+_[[Allegorithmic's PBR Guide Part 1](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/the-pbr-guide-part-1)] - [[Allegorithmic's PBR Guide Part 2](https://creativecloud.adobe.com/learn/substance-3d-designer/web/the-pbr-guide-part-2)] - [[Physically Based Rendering: From Theory To Implementation (4th edition)](https://www.pbr-book.org/)]_
+
+To-Do:
+
+**Physically based rendering** or in short, **PBR** is ...
+
+
+
 
 ---
 

@@ -18,7 +18,7 @@ If you don't understand a term, give the [[glossary|glossary]] a visit.
 
 > [!info] Handbooks features
 > 
->Learn more about features this handbook has on the [GitHub](https://github.com/sidney-eliot/3d-artists-handbook).
+>Learn more about the features this handbook has on the [GitHub](https://github.com/sidney-eliot/3d-artists-handbook).
 
 Feel free to leave feedback in the [discussion area](https://github.com/sidney-eliot/3d-artists-handbook/discussions/1) on any aspects that may not be the best practice or are plainly incorrect, and I'll make the necessary improvements.
 
@@ -28,6 +28,7 @@ _Some parts of this handbook are still a work in progress, those parts are denot
 > 
 >⬅️ This explorer is always visible on the left side (if not, try pulling your browser window wider).
 > 
+>[[resources|Resources]]<br>
 >[[hotkeys|⌨️ Hotkeys]]
 >### Theory
 >[[glossary|📑 Glossary]]<br>
@@ -72,7 +73,6 @@ _Some parts of this handbook are still a work in progress, those parts are denot
 >[[blender-addons-guide|🔮📑 Blender Addons Guide]]
 >
 >### Extra
->[[asset-sites|Asset Sites]]<br>
 >[[2d-art-resources|2D Art Resources]]<br>
 >[[model-part-names|Model Part Names]]  
 ><br>
