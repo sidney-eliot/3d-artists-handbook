@@ -75,7 +75,7 @@ For hair strands, there should be the following:
 - (1-2) **Flyaways** (These wild hair strands help break the silhouette)
 - (0-1) **Scalp Card** (Scalp Cards are optional because the scalp hair can also be baked into the head texture. But if there should be areas where one see a bit of the skin below the hair, then scalp cards are the way to go. Scalp Cards are also more flexible because the character's hairstyle can be changed dramatically without having to re-bake scalp hair into the body texture map)
 
-- [Video to Hair Card types/ breakup](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=153)
+- [Video to Hair Card types / breakup](https://youtu.be/tiuNm7ZD9qw?list=PLveghVPT3X7Yh8DqV-OySOLxzwQC_fQAu&t=153)
 
 #### Needed Texture Maps
 

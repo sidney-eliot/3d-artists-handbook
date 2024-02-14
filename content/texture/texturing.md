@@ -71,11 +71,11 @@ After importing the model into Substance Painter, the maps need to be baked, so 
 - Click the square box beside a layer to enter geometry mask mode
 - One can select by using the viewport or by selecting it in the right sub menu
 - Selecting in the viewport is done by clicking LMB or by holding and pulling LMB. This can also be inversed with CTRL. One can also deselect all but the selected by alt clicking in the right sub menu. Other selection options are also located under the three lines at the top of the right sub menu.
-- There are different mask types: By Mesh Names, by UV Tiles/ UDIMs
+- There are different mask types: By Mesh Names, by UV Tiles / UDIMs
 - The number in front of the geometry mask icon indicates the amount of objects that are visible in the mask
 - Non-destructive, so when one paint on an area and then disables it the painted data isn't lost
 - To exit, click on the layer
-- With the hide/ ignore excluded geometry button in the top bar all other objects will be hidden from viewport and UV space (Alt + h)
+- With the hide / ignore excluded geometry button in the top bar all other objects will be hidden from viewport and UV space (Alt + h)
 
 #### Color ID mask
 To-Do

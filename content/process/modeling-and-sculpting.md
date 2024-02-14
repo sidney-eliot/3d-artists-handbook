@@ -6,7 +6,7 @@ enableToc: true
 >[!warning] Still Being Migrated
 
 ## Overview
-This page covers all possible ways to achieve general and specific modeling and sculpting tasks. There's no reason to only stick to Blender, ZBrush or any other 3D software, thanks to tools like GoB/ GoZ one can send entire or selected parts of the model between both software with one click.
+This page covers all possible ways to achieve general and specific modeling and sculpting tasks. There's no reason to only stick to Blender, ZBrush or any other 3D software, thanks to tools like GoB / GoZ one can send entire or selected parts of the model between both software with one click.
 
 Currently, only **Blender**, **ZBrush** and a bit of **Maya** is covered here, but other software like **Fusion 360** and **Marvelous Designer** is also worth considering for the modeling and sculpting stage. (I'll most likely add them into this page at some point, when I get more familiar with them).
 
@@ -67,7 +67,7 @@ Even though a lot is possible in both Blender and ZBrush, you should still be us
 |**Transpose Line**|⚪ Advanced Transpose Tool
 |**Snap to Ground (macro)**|⚪ `Macro > Macros > Snap to Ground`
 |**Unify**|⚪ Resets location and sets scale as close as possible to 2 units cubed.
-|**S.Pivot/ C.Pivot**|⚪ Use `S.Pivot` button to reset the model’s rotation, symmetry, etc. based on the visible polygons. Press `C.Pivot` to return to how the model was originally. Great for doing Symmetry actions on SubTools that aren't at the center.
+|**S.Pivot / C.Pivot**|⚪ Use `S.Pivot` button to reset the model’s rotation, symmetry, etc. based on the visible polygons. Press `C.Pivot` to return to how the model was originally. Great for doing Symmetry actions on SubTools that aren't at the center.
 
 
 ⚪ **Transpose Line**
@@ -89,7 +89,7 @@ Click the Gizmo button, to switch between the Transpose Line and Gizmo. (`Transf
 ### Remeshing
 |Method|Notes|
 |:-:|:--|
-|**ZRemesher/**<br>**Quad Remesher Addon**|⚪ ZRemesher is the best auto retopology tool.<br>🟠 Quad Remesher is a Blender addon made by ZRemesher developer.
+|**ZRemesher/**<br>**Quad Remesher Add-on**|⚪ ZRemesher is the best auto retopology tool.<br>🟠 Quad Remesher is a Blender add-on made by ZRemesher developer.
 |**DynaMesh/**<br>**Remesh**|⚪ DynaMesh is great for early stages of sculpting.<br>🟠 Blender's Remesh takes very long and yields not the best of results.<br>Both of these remeshers are best for the block out and silhouette finding stages. They also both only work when the mesh has no holes.
 |**Sculptris Pro/**<br>**Dyntopo**|⚪+🟠 Can be useful for block out stages, I don't however recommend them for beginners because they develope bad sculpting habits.
 |**Retopology by Hand**|🟠+⚪ Very good in Blender, but also quite good in ZBrush with the retopology Brush. There's also a great software dedicated to retopology by hand called [Topo Gun](http://www.topogun.com/)
@@ -98,7 +98,7 @@ Click the Gizmo button, to switch between the Transpose Line and Gizmo. (`Transf
 
 ### Edge Control (Bevels, Creases & Edge Loops)
 Edge control can be achieved through adding:
-- Bevels/ Chamfers
+- Bevels & Chamfers
 - Creases
 - Edge Loops
 
@@ -120,7 +120,7 @@ Manually beveling gives the best control of the bevel shape and location, but ne
 |Method|Notes|
 |:-:|:--|
 |**Bevel Modifier**|🟠 Same as the manual bevel, just that edges for beveling are chosen by angle, vertex groups and so on.
-|**Bevel Pro**|⚪ Works on terrible topology.<ul><li>Prep: `Fix Mesh`, `Weld Points`</li><li>Prep: `Polish By Polygroups/ Features` when using DynaMeshed mesh</li></ul>(`ZPlugin > BevelPro` [Full tutorial on Bevel Pro](https://www.youtube.com/watch?v=6uvPmEqD4nY))
+|**Bevel Pro**|⚪ Works on terrible topology.<ul><li>Prep: `Fix Mesh`, `Weld Points`</li><li>Prep: `Polish By Polygroups / Features` when using DynaMeshed mesh</li></ul>(`ZPlugin > BevelPro` [Full tutorial on Bevel Pro](https://www.youtube.com/watch?v=6uvPmEqD4nY))
 |**Dynamic SubDiv Menu**|⚪ This menu allows for all kinds of bevels and chamfers. (`Tool > Geometry > Dynamic SubDiv`)
 
 **Creasing**
@@ -130,7 +130,7 @@ Creases can be transfered between ZBrush and Blender. Note that creases in Blend
 |Method|Notes|
 |:-:|:--|
 |**Creasing By Hand**|⚪ ZModeler Edge Crease<br>🟠 Quite good in Blender, because it has the best edge selection tools. (`Shift` + `E`)
-|**Crease by Polygroups/ ???**|⚪ _ToDo_
+|**Crease by Polygroups / ???**|⚪ _ToDo_
 |**Crease With Selection Menu**|🟠 _ToDo_
 
 
@@ -146,7 +146,7 @@ _ToDo_
 |**Mirror And Weld**|⚪ Perfectly mirrors the SubTool from the +X to -X axis along the world center. It welds together both halves. 
 
 >[!tip] Custom Mirror Axis in ZBrush
->To circumvent the issue of not being able to set ones own mirror axis in ZBrush, use S.Pivot/ C.Pivot.
+>To circumvent the issue of not being able to set ones own mirror axis in ZBrush, use S.Pivot / C.Pivot.
 
 
 ### Booleans
@@ -173,7 +173,7 @@ The words **split** and **separate** are used interchangeably.
 |**Split by Polygroups**|⚪ Groups Split (`Tool > SubTool > Split`)
 |**Split by Loose Parts**|Great for splitting SubTools in many different SubTools.<br>⚪ Split To Parts (`Tool > SubTool > Split`)<br>🟠 Separate By Loose Parts (`P` or `Mesh > Separate`)
 |**Split by Material**|🟠 Separate By Material (`P` or `Mesh > Separate`)
-|**Split by Selection**|🟠 Separate Selection, creates a new object (`P` or `Mesh > Separate`).<br>🟠 Split Selection, only splits the selected not creating a new object (`Alt` + `M` or `Y` (already used my Mesh Machine addon) or `Mesh > Split`) 
+|**Split by Selection**|🟠 Separate Selection, creates a new object (`P` or `Mesh > Separate`).<br>🟠 Split Selection, only splits the selected not creating a new object (`Alt` + `M` or `Y` (already used my Mesh Machine add-on) or `Mesh > Split`) 
 |**Rip Vertices Apart**|🟠 Creates a hole (`V` or `Vertex > Rip Vertices`) [[1](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/vertex/rip_vertices.html)].<br>🟠 The rip can also be done with a fill (`Alt` + `V` or `Vertex > Rip Vertices`) [[2](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/vertex/rip_vertices_fill.html)]
 
 **Merging**
@@ -247,9 +247,9 @@ Morphs and Layers have great synergy, as showcased in this video: https://www.yo
 ### Extruding & Thickening
 |Software|Method|Notes
 |:-:|:-:|:-:
-|⚪🟠|Extrude|**ZBrush:** ZModeler QMesh/ Extrude. **Blender:** Extrude or extrude menu for more options _(Alt + E)_
+|⚪🟠|Extrude|**ZBrush:** ZModeler QMesh /  Extrude. **Blender:** Extrude or extrude menu for more options _(Alt + E)_
 |⚪🟠|Push Along Surface Normals or Shrink/Flatten|**Blender:** _(Alt+ S)_ Enabling `Offset Even` in the pop-up window can often yield better results. **ZBrush:** While using QMesh or Extrude hold Shift
-|⚪🟠|Mask + Transpose/ Move
+|⚪🟠|Mask + Transpose / Move
 |⚪|Thick Skin|Caps the distance a mesh can go in or out, use this in combination with other tools _(Tool > Thick Skin)_
 |⚪|Extract|_(Tool > SubTool > Extract)_
 |⚪|Mesh Project|A mask brush. [Mesh Project video here](https://www.youtube.com/watch?v=CTnYP4vXFsU) 1:49 min
@@ -362,7 +362,7 @@ Used for fishnet stockings, fences and nets.
 **Square grid to Diamond grid (quad based)**
 - Un-Subdivide and in the pop-up window, set Iterations to 1
 - Poke Faces then Tris to Quads
-- Armored Vitaly Poke (best result)(Armored scripts addon)
+- Armored Vitaly Poke (best result) (Armored scripts add-on)
 
 
 ⚪ >
@@ -379,7 +379,7 @@ Used for fishnet stockings, fences and nets.
 🟠 > 
 
 - [Armored Colony's Approach to it](https://youtu.be/HsBvq2j5zt8)
-- Or use Cloth Pro addon
+- Or use Cloth Pro add-on
 
 
 ### Bevel Transitions
@@ -520,7 +520,7 @@ The **`B ...`** box is the hotkey for the brush. "B" for "brush" and the other l
 - Move **`B MV`** (+Interesting interaction with Ctrl)
 - Inflate **`B IN`**
 - Layer **`B LA`**
-- Bevel Arc/ Flat **`B BA/ B BF`**
+- Bevel Arc / Flat **`B BA`** / **`B BF`**
 - Pinch **`B PI`**
 - Scribe Chisel **`B SC`**
 - History Recall **`B HR`**

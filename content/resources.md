@@ -5,16 +5,17 @@ enableToc: true
 
 
 ## Guide & Article Websites
+- [80LV Articles](https://80.lv/articles/character-art/)
 - [ArtStation Magazine](https://magazine.artstation.com)
 - [ArtStation Guides](https://www.artstation.com/guides)
 - [ArtStation Learning](https://www.artstation.com/learning)
 - [ArtStation Atricles/Blogs](https://www.artstation.com/blog)
-- [80LV Articles](https://80.lv/articles/character-art/)
 - [Marmoset Articles](https://marmoset.co/category/artwork/)
 - [Marmoset Guides](https://marmoset.co/category/community-resources/)
-- [CG Cookie Articles](https://cgcookie.com/posts)
 - [The Rookies Articles](https://discover.therookies.co/)
 - [Polycount Wiki](http://wiki.polycount.com/wiki/Polycount)
+- [Beyond Extent](https://www.beyondextent.com/articles)
+- [CG Cookie Articles](https://cgcookie.com/posts)
 - [ZBrush Guides](http://pixologic.com/zclassroom/)
 - [Unreal Forum Guides](https://forums.unrealengine.com/)
 - [Adobe Learn](https://creativecloud.adobe.com/cc/learn/app/substance-3d)

@@ -22,7 +22,7 @@ h2, h3 { text-align: center; }
 |➕ Add SubDiv Level|`Ctrl` + `D`|
 |⬆️Go Up One SubDiv Level|`D`|
 |⬇️ Go Down One SubDiv Level|`Shift` + `D`|
-|⬆️⬇️Dynamic SubDiv ON/ OFF|`D` / `Shift` + `D`|If there are no SubDiv levels, SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv.
+|⬆️⬇️Dynamic SubDiv ON / OFF|`D` / `Shift` + `D`|If there are no SubDiv levels, SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv.
 |DynaMesh|`Ctrl` + `LMB`<br>(on canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border.
 |👁️ View Topology|`Shift` + `F`|
 |Polygroup Masked|`Ctrl` + `W`|Polygroups all when there's no mask
@@ -54,7 +54,7 @@ h2, h3 { text-align: center; }
 |➕ Add SubDiv Level|`Ctrl` + `D`|
 |⬆️ Go Up One SubDiv Level|`D`|
 |⬇️ Go Down One SubDiv Level|`Shift` + `D`|
-|⬆️⬇️Dynamic SubDiv ON/ OFF|`D/ Shift` + `D`|**If there are no SubDiv levels** SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
+|⬆️⬇️Dynamic SubDiv ON / OFF|`D / Shift` + `D`|**If there are no SubDiv levels** SubDiv traversal hotkeys will turn ON or OFF Dynamic SubDiv
 |DynaMesh|`Ctrl` + `LMB`<br>(on canvas)|DynaMesh button needs to be toggled. Perform actions over canvas or border
 
 ## Navigation
@@ -77,7 +77,7 @@ h2, h3 { text-align: center; }
 |Shrink visible selection|`Ctrl` + `Shift` + `S`|
 |Grow visible selection|`Ctrl` + `Shift` + `X`|
 |Grow To Polygroup|`Ctrl` + `Shift` + `Q`|Fully reveals all Polygroups that are (partially) visible
-|Grow All|`Ctrl` + `Shift` + `A`| Reveals all polys connected to currently visible polys
+|Grow All|`Ctrl` + `Shift` + `A`| Reveals all polygons connected to currently visible polygons
 
 ## Masking
 |Function|Key|Notes
@@ -170,15 +170,15 @@ More Curve Settings under:<br>
 |Snap To Surface|LMB + Shift
 |-|-|-
 |_**Editing Placed Curve**_|-|-
-|Move Curve|LMB Hold on Curve|Under `Stroke > Curve` there are some options: To make movement sturdy disable: `Bend Start`/ `Bend End`. To make start and end not move at all enable: `Lock Strat`/ `Lock End` (For lock to work one or both of the bend settings should be on). `Elastic`/ `Liquid` allow for both ends to be moved (Needs one or both of the bend settings on)
+|Move Curve|LMB Hold on Curve|Under `Stroke > Curve` there are some options: To make movement sturdy disable: `Bend Start` / `Bend End`. To make start and end not move at all enable: `Lock Strat` / `Lock End` (For lock to work one or both of the bend settings should be on). `Elastic` / `Liquid` allow for both ends to be moved (Needs one or both of the bend settings on)
 |Change Polygroup|LMB Click on Curve
 |Extend Curve|LMB Close to End of Curve|If you hover far enough away from the curve a red line will appear
 |Draw new Curve any point of the Curve|LMB Close to Any Part of Curve|If you hover far enough away from the curve a red line will appear
 |Change Curve Size|
 |Smoothen Curve|LMB Hold on Curve + Shift
-|Twist/ Rotate Curve|LMB Hold on Curve + Ctrl
+|Twist / Rotate Curve|LMB Hold on Curve + Ctrl
 |Snap To Surface After Placing|Stroke > Curve `Snap`
-|Confirm/ Leave Curve Edit Mode|LMB Anywhere on SubTool Away From Curve, Stroke > Curve Functions `Delete`
+|Confirm / Leave Curve Edit Mode|LMB Anywhere on SubTool Away From Curve, Stroke > Curve Functions `Delete`
 |-|-|-
 |_**Curve Functions Menu**_|-|-
 |Place Curve Around Mesh Border|`Border`

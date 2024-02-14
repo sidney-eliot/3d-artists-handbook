@@ -19,11 +19,11 @@ This can make the mesh unusable as a base for the retopologized mesh and makes c
 
 So in other words, always use Dynamic SubDivs as long as possible and only switch to the destructive SubDiv when adding detail (this will also help with performance).
 <br>
-Exporting objects with ZBrush subdivisions to other software will mostly make it a normal subdivided object again, but there are methods, like the Blender addon [Sculpt Layers](https://blendermarket.com/products/sculpt-layers), that can potentially allow for transferring ZBrushes special subdivided objects between ZBrush and Blender.
+Exporting objects with ZBrush subdivisions to other software will mostly make it a normal subdivided object again, but there are methods, like the Blender add-on [Sculpt Layers](https://blendermarket.com/products/sculpt-layers), that can potentially allow for transferring ZBrushes special subdivided objects between ZBrush and Blender.
 
 Finally, ZBrush is quite good at handling millions of poligons, and mostly far more than the software the model will be exported to could handle. So one often has to bake down some of the higher subdivision's surface detail before leaving ZBrush.
 
-Another little trick with ZBrush's SubDiv vs Dynamic SubDiv, is that if you never add SubDiv levels just so the object is smoother but only when you want to sculpt in more detail, then you don't have to export all objects at insane SubDiv levels, but can disable Dyanmic SubDiv and add a SubDiv back onto the objects that need it. Without accidentaly losing sculpted detail.
+Another little trick with ZBrush's SubDiv vs. Dynamic SubDiv, is that if you never add SubDiv levels just so the object is smoother but only when you want to sculpt in more detail, then you don't have to export all objects at insane SubDiv levels, but can disable Dyanmic SubDiv and add a SubDiv back onto the objects that need it. Without accidentaly losing sculpted detail.
 
 More details on the ZBrush's subdivision system [here](https://docs.pixologic.com/user-guide/3d-modeling/modeling-basics/subdivision-levels/).
 
@@ -78,7 +78,6 @@ For example:
    │       ├─── 📂Human Skin
    │       ├─── 📂Fur
    │       ├─── 📂Scaly Skin
-   │       ├─── 📂Alien Skin
    │       └─── 📂Other Skin
    ├─── 📂Nature
    │       ├─── 📂Rocks
@@ -116,7 +115,7 @@ There is however one quality of life issue, **alphas** lack in ZBrush. **Alphas*
 >[!info] Brush file formats
 >
 >- All brushes use the **.ZBP** file extension (which stands for ZBrush Preference file)
->- All alphas use the **.PSD** file extension per default but **.PNG**/ **.EXR**/ **.TIFF** is just as good. Just don't use **.JPG**/ **.JPEG** or any other lossy compression types
+>- All alphas use the **.PSD** file extension per default but **.PNG** / **.EXR** / **.TIFF** is just as good. Just don't use **.JPG** / **.JPEG** or any other lossy compression types
 
 ### Brush Save Locations
 Here **your custom brushes** are stored, that **load on startup** into the Brush Menu (B hotkey). Only put brushes in here that are often used.
@@ -182,7 +181,7 @@ VDM stands for Vector Displacement Mesh.
 >
 >- Dragon Scales
 >- Sharp Teeth & Spikes
->- Insert Ears/ Nose/ Horns
+>- Insert Ears / Nose / Horns
 
 >[!Info] Creation process
 >
@@ -247,7 +246,7 @@ VDM stands for Vector Displacement Mesh.
 >- [All Michael Pavlovich videos to Nano Meshes](https://www.youtube.com/@MichaelPavlovich/search?query=Nano+Mesh)
 
 
-## Saving & Backups & ZPR vs ZTL 💾
+## Saving & Backups & ZPR vs. ZTL 💾
 >[!tip] Saving strategy
 >
 >- Save as ZTL every once in a while during the day, as well as clicking the QuickSave button before doing risky actions
@@ -256,7 +255,7 @@ VDM stands for Vector Displacement Mesh.
 >
 >If you don't care about history, then only use ZTL and auto saves. And if you do care about history, then still occasionally save as ZTL because it's not too uncommon for ZPR files to get corrupted or not work on other systems or newer ZBrush versions.
 
->[!info] ZPR vs ZTL
+>[!info] ZPR vs. ZTL
 >
 >- ZPR = ZBrush Project (Entire Project)
 >- ZTL = ZBrush Tool (Selected Tool)
@@ -338,7 +337,7 @@ ZColor doc [here](http://docs.pixologic.com/user-guide/zbrush-plugins/zcolor/).
 - To sample color within ZBrush use C
 
 ### Polypaint Setup Process
-1. Select the `Paint` Brush (Or Select the `Standard` brush, set its channel to `Rgb` and disable `Zadd`/ `Zsub`)
+1. Select the `Paint` Brush (Or Select the `Standard` brush, set its channel to `Rgb` and disable `Zadd` / `Zsub`)
 2. Select the `Smooth` brush, disable `Zadd`/`Zsub`
 3. Fill SubTool with base color (Color > FillObject)
 4. Make sure a plain MatCap is selected (Material Tab)

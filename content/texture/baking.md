@@ -10,12 +10,12 @@ description:
 
 
 ## Where to Bake
-Marmoset Toolbag yields the best bakes and has the best tools for troubleshooting bakes. Followed by Marmoset, Substance Painter also gives acceptable results. Stay away from most bakers that are integrated in 3D modeling software. Blender is a good example for that. It's possible to bake in it with some addons. But the results are so bad and the workflow is totaly unoptimized. Don't bake in Blender if you care about your time and sanity. 
+Marmoset Toolbag yields the best bakes and has the best tools for troubleshooting bakes. Followed by Marmoset, Substance Painter also gives acceptable results. Stay away from most bakers that are integrated in 3D modeling software. Blender is a good example for that. It's possible to bake in it with some add-ons. But the results are so bad and the workflow is totally unoptimized. Don't bake in Blender if you care about your time and sanity. 
 
 ## Reasons for Ambient Occlusion Maps Looking Bad
 - High poly mesh not high enough
 - Not enough samples
-- Play with ignore groups (located under every high object)
+- Adjust ignore groups (located under every high object)
 - Not enough AO rays
 - Not enough texture resolution
 - Bad preparation. [[baking-and-texturing-prep|Baking and Texturing Preparations]]
@@ -23,7 +23,7 @@ Marmoset Toolbag yields the best bakes and has the best tools for troubleshootin
 If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This is indeed such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map from Pyke's mount; Nensi. (I did a slight brightness adjustment for better visualization)
 
 ### Example of Riot Games Messing Up Their AO Maps
-If you want to take a look for yourself, you can officially download the model and it's texture maps for Pyke and Akali from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
+If you want to take a look for yourself, you can officially download the model, and it's texture maps for Pyke and Akali from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
 
 ![[Pasted image 20230604230247.png|500]]
 
@@ -36,7 +36,7 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 
 ## Reasons for Normal Maps Looking Bad
 - Badly baked corners can be a result of not enough texture resolution
-- Usage of SubDiv
+- Use of SubDiv
 - Bad preparation. [[baking-and-texturing-prep|Baking and Texturing Preparations]]
 ## What Passes to Use
 
@@ -48,7 +48,7 @@ This issue doesn't just arise with AO maps, but other maps as well. So import al
 >- Thickness
 >- Position
 >- Object ID (optional)
->- UV Island (optional)
+>- UV Shell / Island (optional)
 
 >[!example] Other Passes
 >
@@ -112,12 +112,12 @@ Marmoset automatically creates skews by looking at the face normals of the low p
 ### Things to Be Aware of in Marmoset
 - Sometimes when re-baking or auto importing the modified mesh, the wrong normal map will be displayed. Re-toggle the preview and when that doesn't help delete the preview material
 - Only use smoothed cage (default cage)
-- Use Mikk/ xNormal as the tangent space (default tangent space)
+- Use Mikk / xNormal as the tangent space (default tangent space)
 - When one wants to use 8 bit one should turn Dither on which removes banding by adding noise. For 16 bit, Dither shouldn't be on and to bake as 32 bit, one needs to switch the bake extension to PSD
 - If Marmoset is hard lagging it most likely is because quick bake is on
 - If the origin isn't at the center of the object, the skews will be way too long (only affects interface)
 - Marmoset bakes on the right side per default. So one either has to work on the right side (which is good habit) or have everything mirrored
-- Be aware of the hidden the meshes option. When toggled, everything that's hidden won't be used for the bake
+- Be aware of the option to hide meshes. When toggled, everything that's hidden won't be used for the bake
 
 ## 🚧 Stuff to Add
-Though baking is used in the film industry, it definitely is used a lot less.
+_ToDo: Go over use of baking in the film industry_

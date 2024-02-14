@@ -6,7 +6,7 @@ enableToc: true
 >[!tip] Exporting tips
 >
 >- Make sure image is a JPG
->- Make sure video is a MP4/ MOV/ GIF
+>- Make sure video is a MP4 / MOV / GIF
 (GIF being quite big but providing a loop functionality, however many sites also allow for MP4's to loop)
 >- Wipe metadata
 >- Use export instead of save as 

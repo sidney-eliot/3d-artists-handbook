@@ -54,22 +54,22 @@ There are 3 factors to compare when choosing between image formats:
 
 - [[glossary#Bit Depth|Bit Depth]]
 - Compression & Encoding
-- Alpha (Occlusion/ Transparency/ Opacity)
+- Alpha (Occlusion / Transparency / Opacity)
 
 
 ### Compression & Encoding
-Compression can be lossless or lossy. Lossless allows to reconstruct the original values as is. Lossy compression leverages that the human perception doesn't notice slight quality degradation. It can therefore reach higher compression ratios. Lossless vs lossy doesn't influence the save speed, but compression speeds up save time. 
+Compression can be lossless or lossy. Lossless allows to reconstruct the original values as is. Lossy compression leverages that the human perception doesn't notice slight quality degradation. It can therefore reach higher compression ratios. Lossless vs. lossy doesn't influence the save speed, but compression speeds up save time. 
 
-### Alpha (Occlusion/ Transparency/ Opacity)
+### Alpha (Occlusion / Transparency / Opacity)
 
->[!info] Straight Alpha/ Unassociated Alpha/ Un-matted Alpha
+>[!info] Straight Alpha / Unassociated Alpha / Un-matted Alpha
 >
 >- Can't model pixels that are simultaneously emissive and semi-transparent
 
 >[!info] Premultiplied Alpha, Associated Alpha & Matted Alpha
 >
 >- Can store pixels that are simultaneously emissive and semi-transparent
->- Suitable for VFX/Compositing
+>- Suitable for VFX / Compositing
 
 ### Comparison
 🚧 Take this image with a grain of salt

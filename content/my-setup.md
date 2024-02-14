@@ -11,7 +11,7 @@ enableToc: true
 - Color Picker (from ref): [Windows Power Toys Color Picker](https://learn.microsoft.com/en-us/windows/powertoys/color-picker), [JCPicker](https://annystudio.com/software/colorpicker/). Art software often has a built-in color picker
 - Color Palette Picker: [Coolors](https://coolors.co/), [Lospec](https://lospec.com/palette-list), [Adobe Colors](https://color.adobe.com/create/color-wheel)
 - EXR Image Reader: [DJV](https://darbyjohnston.github.io/DJV/)
-- Preview all kinds of Image Extensions in File Explorer: SageThumbs (supports: .PSD/ .TGA/ .TIFF/ .BMP/ +defaults +more)
+- Preview all kinds of Image Extensions in File Explorer: SageThumbs (supports: .PSD / .TGA / .TIFF / .BMP / +defaults +more)
 - Nightlight for my eyes: [F.Lux](https://justgetflux.com/)
 
 ## Project Folder Structure
@@ -46,7 +46,7 @@ For modeling I use my keyboard, mouse and monitor.
 - **Windows 11** _(OS)_
 - **Sapphire Pulse AMD Radeon RX 5700 GPU** _(8GB VRAM - 1.75 GHz Clock Speed - Release 2019)_
 - **AMD Ryzen 9 5900X CPU** _(12 Cores - 24 Threads - 3.7 GHz-4.8 GHz Clock Speed - 7 nm - Release 2020)_
-- **Samsung C32JG50 WQHD Monitor** _(2560 x 1440 px - 32 Inch/ Zoll - 144 Hz)_
+- **Samsung C32JG50 WQHD Monitor** _(2560 x 1440 px - 32 Inch / Zoll - 144 Hz)_
 
 
 

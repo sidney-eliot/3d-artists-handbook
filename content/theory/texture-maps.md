@@ -18,7 +18,7 @@ These textures are for the PBR metallic workflow. This texture workflow has repl
 >|:-:|:-:
 >|**Contains**|sRGB colors
 >|**Controls**|All the base colors
->|**More info**|Use multiply and hue/ Saturation value nodes
+>|**More info**|Use multiply and hue / saturation value nodes
 >|**Color space**|sRGB
 
 

@@ -31,9 +31,6 @@ Great composition is achieved through:
 
 [[composition#Bad Examples|Bad Examples]]
 
-
-
-
 > [!example]- Understanding composition (videos)
 ><div style="text-align: center;">
 >
@@ -44,11 +41,11 @@ Great composition is achieved through:
 ></div>
 
 ### Color, Saturation and Contrast
-Bolder colors for more important things and duller/ muted color for unimportant things. If the entire piece is very dark then lighter colors will draw attention and when it's very light darker colors will draw attention
+Bolder colors for more important things and duller, muted color for less important things. If the entire piece is very dark, then lighter colors will pull focus, and when it's very light, darker colors will draw a viewer's attention towards them.
 
 ### Placement of Key Elements
-#### (Fibonacci) Golden Ratio/ Golden Mean
-Having important points at the ratio of 1 to one edge and 1.68 to the opposite edge
+#### Golden Ratio
+The **golden ratio**, also known as the **golden mean** or the **Fibonacci sequence** can be achieved by placing the key elements in the "eye of the storm". To do this, the frame is recursively split with a ratio of 1 to 1.68.
 
 ![[Pasted image 20230604143244.png|400]]
 
@@ -63,13 +60,16 @@ Having important points at the ratio of 1 to one edge and 1.68 to the opposite e
 >![[Pasted image 20230604144201.png|700]]
 
 #### Rule of Thirds
-Rule of thirds isn't just used to place important points, but also to determine other things like:
-- Surfaces where light hits vs shadows
-- How much skin of the character should be revealed
-- Ratio between shiny and matte materials
-- Ratio of one color vs another color
+The **rule of thirds** isn't just used to place important points, but also to determine other things like:
 
-1/3 stands out more than the 2/3.
+The** rule of thirds** can be used to determine a number of artistic decisions:
+- Surfaces where light hits vs. shadows
+- How much skin of the character should be revealed
+- The ratio between shiny and matte materials
+- The ratio of one color vs. another color
+- Where to place key elements
+
+>[!tip]  1/3 stands out more than the 2/3.
 
 ![[Pasted image 20230604144626.png|600]]
 
@@ -80,8 +80,8 @@ Rule of thirds isn't just used to place important points, but also to determine 
 >![[Pasted image 20230604144646.png|700]]
 >![[Pasted image 20230604144653.jpg|700]]
 
-#### Triangle/ Pyramid
-Good for characters.
+#### Triangle / Pyramid
+This composition method is good for character shots.
 
 ![[Pasted image 20230604160548.png|250]]
 
@@ -94,13 +94,13 @@ Good for characters.
 >![[Pasted image 20230604160736.png|700]]
 >![[Pasted image 20230604160753.png|400]]
 
-A reason why the triangle is so good, is because it's a sturdy shape:
+One reason why the triangle is a good composition method, is because it's a sturdy shape:
 
 ![[Pasted image 20230604160811.png|250]]
 
 
 #### Flipped Triangle
-A more dynamic version of the triangle. The triangle can also be tilted, which can make it a bit more interesting.
+The flipped triangle is a more dynamic version of the triangle composition; it can also be tilted to become a bit more interesting.
 
 ![[Pasted image 20230604160840.png|300]]
 
@@ -114,6 +114,8 @@ A more dynamic version of the triangle. The triangle can also be tilted, which c
 #### Symmetry
 Good to signal power, of a building for example. Symmetry line can be anywhere.
 
+Symmetry signals power and dominance. This is prominently used in buildings, monuments, and nature. The line of symmetry can be anywhere.
+
 
 ![[Pasted image 20230604160946.png|250]]
 
@@ -125,8 +127,7 @@ Good to signal power, of a building for example. Symmetry line can be anywhere.
 
 
 #### Full Frame
-
-Full frame allows the viewer to focus on what is important and to see more detail. It is almost only used for characters and creatures. A great thing about full frame composition is that it can be achieved with basically every finished painting by cutting away sides and doing some small tweaks if, though preparing for a full frame instead of it being an afterthought is still better.
+Full Frame composition is primarily used for characters and creatures. A great thing about it, is that it can be achieved with basically every finished piece by cropping the sides and doing some small tweaks. Nonetheless, it’s better to prepare for a full frame composition from the beginning, rather than as an afterthought.
 
 ![[Pasted image 20230604161107.png|250]]
 
@@ -139,17 +140,18 @@ Full frame allows the viewer to focus on what is important and to see more detai
 ### Negative Space
 Positive space is a subject or point of interest and negative space is the surrounding area. More negative space gives the artwork space to breath, while less negative space makes it more claustrophobic. Both can be good or bad, depending on what kind of mood the artwork should convey. 
 
-- To-Do: Examples
+- _To-Do: Examples_
 
 ### Energy Lines
-Found in the pose of the character, can however also appear in the environment as rivers and roads for example.
+Energy lines are found in a character’s pose; however, they can also appear in the environment, like in rivers and roads, for instance.
 
 ![[Pasted image 20230604161249.png|450]]
 
 
 ### Guiding Lines
 
-An object that guides the eye to a position, when correctly placed they can make the eye travel around the image the way the artist wants them to. An all-time favorite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
+Guiding lines pull the eye along a path toward a specific position; when correctly deployed, they can encourage the viewer’s eye to travel around the image the way the artist envisioned. An all-time favorite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
+
 
 ![[Pasted image 20230604161413.jpg|450]]
 
@@ -161,6 +163,7 @@ An object that guides the eye to a position, when correctly placed they can make
 
 
 ### Framing
+Framing can be achieved through the following elements:
 - Vignettes
 - Big windows
 - Openings to the sky among dense buildings
@@ -175,7 +178,7 @@ An object that guides the eye to a position, when correctly placed they can make
 
 ### Other Elements and Emphasis Examples
 
->[!example]- Other elements/ emphasis examples
+>[!example]- Other elements / emphasis examples
 >
 >![[Pasted image 20230604161708.png|800]]
 >![[Pasted image 20230604161717.png|800]]
@@ -197,26 +200,26 @@ An object that guides the eye to a position, when correctly placed they can make
 Some elements in an image create weight and need to be balanced by other elements.
 
 Elements that create weight:
-- Colors/ Saturation/ Contrasts 
+- Colors, saturation, and contrasts 
 - Size
-- Faces/ Figures
+- Faces and figures
 
 ![[Pasted image 20230604162002.png|550]]
 
 A way to find unbalanced points, is to turn up the contrast and blur. 
 
-As we can see in the example below, the presence of only one big light on the left makes the image very unbalanced:
+As one can see in the example below, the presence of only one big light on the left makes the image very unbalanced:
 
 ![[Pasted image 20230604162027.png|400]]
 ![[Pasted image 20230604162039.png|400]]
 
-Another example of how to properly balance an image:
+In contrast, here's an example of how to properly balance an image:
 
 ![[Pasted image 20230604162125.png|500]]
 
 
 ## Positioning and Movement Direction
-Moving to the left/ right, forward/ backward and so on, can portray different things in an image/ animation. Things like emotion, intent, power. (This can also apply to the direction in which the character is facing).
+Moving to the left / right or forward / backward, and so on, can portray different things in an image or animation, like emotion, intent, and power. (This can also apply to the direction in which the character is facing.) 
 
 >[!example]- Positioning and movement direction (videos, articles)
 ><div style="text-align: center;">
@@ -226,30 +229,30 @@ Moving to the left/ right, forward/ backward and so on, can portray different th
 >
 >- [Left or Right? Why a Character's Lateral Movement On-Screen Matters in Film](https://nofilmschool.com/2016/02/left-or-right-why-characters-lateral-movement-screen-matters-film)
 
-#### Left/ Right
+#### Left / Right
 - **Moving from left to `RIGHT`:** Progression Of Time, Progress, Normality, To The Action _(Example: Soldiers running into battle to the right)_
 - **Moving from right to `LEFT`:** Moving Back In Time, Regression, Abnormality, Back To Safety _(Example: Soldiers carrying wounded to the left)_
 
 - **`Right` side of the screen:** Good, Positive
 - **`Left` side of the screen:** Bad, Negative
-#### Forward/ Backward
-- **Moving `Forward`/ `Towards` the Camera`:** Power, Domination/ Dominance, Aggression
-- **Moving `Backward`/ `Away` from the Camera:** Weakness
+#### Forward / Backward
+- **Moving `Forward` / `Towards` the Camera`:** Power, Domination/ Dominance, Aggression
+- **Moving `Backward` / `Away` from the Camera:** Weakness
 
-#### Top/ Bottom
-- **Moving `Up`/ being at the `Top`/ being `looked up` at:** Dominance, Power 
-- **Moving `Down`/ being at the `Bottom`/ `looking down` on:** Weak
+#### Top / Bottom
+- **Moving `Up` / being at the `Top` / being `looked up` at:** Dominance, Power 
+- **Moving `Down` / being at the `Bottom` / `looking down` on:** Weak
 
-#### Why Is This/ Examples
+#### Some Other Interesting Examples
 - Most languages read from left to right
 - Books begin at the left and end at the right
 - Evolution images show evolution starting at the left
-- In platformers one starts on the left and ends on the right
+- In most platformers, one starts on the left and moves to the right of the map
 - On graphs time increases as one moves to the right
 
 
 ## Tilt Shift Camera
-Used to get straight lines in renders/ photographs and for panoramas. It's mainly used for architecture. It can also be done in compositing, but that's a worst case scenario. To do this, the camera should optimally be at an 90° angle, then change the shift amount on the desired axis. (In Blender this is in the camera tab)
+Tilt shift is used to get straight lines in renders / photographs and for panoramas. It’s mainly used in architectural contexts. It can also be employed in compositing, but that’s a worst-case scenario. To do this, the camera should optimally be at an 90° angle, then one changes the shift amount on the desired axis. (In Blender, this is in the camera tab.)
 
 
 ![[Pasted image 20230604162416.png|950]]

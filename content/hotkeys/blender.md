@@ -14,8 +14,8 @@ h2, h3 { text-align: center; }
 > [!info] These are the hotkeys I use regularly
 >
 > - Some essential key binds are remapped
-> - The hotkeys for addons like Hard Ops and Boxcutter are in the [addon](https://github.com/Epicrex/3DArtistsHandbookAddonEdition/wiki/Blender-Addons-Guide) section
-> - My config files are [here](https://github.com/Epicrex/3d-artists-handbook/tree/repo_storage/blender-stuff) of the repo
+> - The hotkeys for add-ons like Hard Ops and Boxcutter can be found in the [[blender-addons|add-ons]] section
+> - My config files are [here](https://github.com/sidney-eliot/3d-artists-handbook/tree/repo_storage/blender-stuff) of the repo
 
 ## Navigation, View, Transforms
 
@@ -48,65 +48,65 @@ _If you want a first person game like navigation, head to `pref>Navigation>Fly&W
 
 ## Menus
 
-|                Function                 |        Key         |                                          Notes                                           |
-| :-------------------------------------: | :----------------: | :--------------------------------------------------------------------------------------: |
-|               **GENERAL**               |         -          |                                            -                                             |
-|                 Search                  |         F3         |
-|        Toggle Left Context Menu         |         T          |
-|        Toggle Right Context Menu        |         N          |
-|     Maximize Window but keep menus      |    Ctrl + Space    |
-|             Maximize Window             | Ctrl + Alt + Space |
-|                Quad View                |   Ctrl + Alt + Q   |
-|        **OBJECT AND EDIT MODE**         |         -          |                                            -                                             |
-|        Interaction Mode Pie Menu        |     Ctrl + Tab     |
-|       Object Context/ Action Menu       |        RMB         |
-|                Add Menu                 |     Shift + A      |
-|             Cursor Pie Menu             |     Shift + S      |
-|             Origin Pie Menu             |   Ctrl + Alt + X   | Requires "3D Viewport Pie menu" addon, uncheck all but origin pie menu in addon settings |
-|            Quick Access Menu            |         Q          |
-|             **OBJECT MODE**             |         -          |                                            -                                             |
-|               Apply Menu                |      Ctrl + A      |
-|               Parent Menu               |      Ctrl + P      |
-|              Unparent Menu              |      Alt + P       |
-| Keframe Menu (Works in every interface) |         I          |
-|         Link/Data Transfer Menu         |      Ctrl + L      |
-|          Collection Move Menu           |         M          |
-|             Select Grouped              |     Shift + G      |
-|              **EDIT MODE**              |         -          |                                            -                                             |
-|              Extrude Menu               |      Alt + E       |
-|              Normals Menu               |      Alt + N       |
-|                 UV Menu                 |         U          |
-|              Separate Menu              |         P          |
-|               Merge Menu                |         M          |
-|             Select Similar              |     Shift + G      |
-|              Vertices Menu              |      Ctrl + V      |
-|                Edge Menu                |      Ctrl + E      |
-|               Faces Menu                |      Ctrl + F      |
+| Function | Key | Notes |
+| :--: | :--: | :--: |
+| **GENERAL** | - | - |
+| Search | F3 |  |
+| Toggle Left Context Menu | T |  |
+| Toggle Right Context Menu | N |  |
+| Maximize Window but keep menus | Ctrl + Space |  |
+| Maximize Window | Ctrl + Alt + Space |  |
+| Quad View | Ctrl + Alt + Q |  |
+| **OBJECT AND EDIT MODE** | - | - |
+| Interaction Mode Pie Menu | Ctrl + Tab |  |
+| Object Context / Action Menu | RMB |  |
+| Add Menu | Shift + A |  |
+| Cursor Pie Menu | Shift + S |  |
+| Origin Pie Menu | Ctrl + Alt + X | Requires "3D Viewport Pie menu" add-on, uncheck all but origin pie menu in add-on settings |
+| Quick Access Menu | Q |  |
+| **OBJECT MODE** | - | - |
+| Apply Menu | Ctrl + A |  |
+| Parent Menu | Ctrl + P |  |
+| Unparent Menu | Alt + P |  |
+| Keframe Menu (Works in every interface) | I |  |
+| Link/Data Transfer Menu | Ctrl + L |  |
+| Collection Move Menu | M |  |
+| Select Grouped | Shift + G |  |
+| **EDIT MODE** | - | - |
+| Extrude Menu | Alt + E |  |
+| Normals Menu | Alt + N |  |
+| UV Menu | U |  |
+| Separate Menu | P |  |
+| Merge Menu | M |  |
+| Select Similar | Shift + G |  |
+| Vertices Menu | Ctrl + V |  |
+| Edge Menu | Ctrl + E |  |
+| Faces Menu | Ctrl + F |  |
 
 ## Objects
 
-|             Function             |       Key        |                                                                      Notes                                                                      |
-| :------------------------------: | :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
-|         Redo Last Action         |    Shift + R     |
-|        Duplicate Objects         |    Shift + D     |
-|     Duplicate Objects Linked     |     Alt + D      | All changes to any object part of the link will be done to all other objects in that link. This link can be done by hand with the Ctrl + L menu |
-|            Inset Face            |        I         |
-| Extrude (can be combined with S) |        E         |
-|               Hide               |        H         |                                                              Hides selected object                                                              |
-|             Un-Hide              |     Alt + H      |              Un-Hides every single object. !!! Watch out this is almost never wanted, there are better ways of managing visibility              |
-|           Add Loop Cut           |     Ctrl + R     |       Use Scroll to add more loops. Use Right Click to center and use H to terminate, so the loop cut doesn't go around the whole object        |
-|            Knife Tool            |        K         |                                         Enter to confirm cut. RMB to stop that cut and start a new one                                          |
-|               Fill               |        F         |                      Connects all selected vertices with a face. Also used to create an edge between two selected vertices                      |
-|               Join               |        J         |                                             Use it to separate faces/ Ngons by selecting 2 vertices                                             |
-|              Bevel               |     Ctrl + B     |                                      Scroll to change amount of bevels. Click P to change the bevel shape                                       |
-|           Vertex Bevel           | Ctrl + Shift + B |
-|             Solidify             |     Ctrl + X     |                                        A soft delete. Works well on edges but not that well on vertices                                         |
-|              Slide               |      G + G       |                                                        Can be used on Vertices and Edges                                                        |
-|        **Slide Options**         |        -         |                                                                        -                                                                        |
-|               Even               |        E         |
-|          Flip the Even           |        F         |
-|              Clamp               |      Alt/C       |
-|          Add Snap Point          |        A         |                                                                Needs Snapping On                                                                |
+| Function | Key | Notes |
+| :--: | :--: | :--: |
+| Redo Last Action | Shift + R |  |
+| Duplicate Objects | Shift + D |  |
+| Duplicate Objects Linked | Alt + D | All changes to any object part of the link will be done to all other objects in that link. This link can be done by hand with the Ctrl + L menu |
+| Inset Face | I |  |
+| Extrude (can be combined with S) | E |  |
+| Hide | H | Hides selected object |
+| Un-Hide | Alt + H | Un-Hides every single object. !!! Watch out this is almost never wanted, there are better ways of managing visibility |
+| Add Loop Cut | Ctrl + R | Use Scroll to add more loops. Use Right Click to center and use H to terminate, so the loop cut doesn't go around the whole object |
+| Knife Tool | K | Enter to confirm cut. RMB to stop that cut and start a new one |
+| Fill | F | Connects all selected vertices with a face. Also used to create an edge between two selected vertices |
+| Join | J | Use it to separate faces / Ngons by selecting 2 vertices |
+| Bevel | Ctrl + B | Scroll to change amount of bevels. Click P to change the bevel shape |
+| Vertex Bevel | Ctrl + Shift + B |  |
+| Solidify | Ctrl + X | A soft delete. Works well on edges but not that well on vertices |
+| Slide | G + G | Can be used on Vertices and Edges |
+| **Slide Options** | - | - |
+| Even | E |  |
+| Flip the Even | F |  |
+| Clamp | Alt/C |  |
+| Add Snap Point | A | Needs Snapping On |
 
 ## Selecting
 
@@ -154,8 +154,8 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 | :----------------------------------------: | :---------------------: | :---: |
 |                **GENERAL**                 |            -            |   -   |
 |              Start Animation               |          Space          |
-|             Move to Next Frame             | Arrow Keyes Left/ Right |
-|           Move to Next Keyframe            |  Arrow Keyes Up/ Down   |
+|             Move to Next Frame             | Arrow Keyes Left / Right |
+|           Move to Next Keyframe            |  Arrow Keyes Up / Down   |
 |                     -                      |            -            |   -   |
 | Switch between Dope Sheet and Graph Editor |       Ctrl + Tab        |
 |            Lock/Unlock Channel             |           Tab           |
@@ -200,9 +200,9 @@ _More selection tools in selection menu. Examples:Checker Deselect, Select Rando
 |          Mute Node          |         M          |
 |          Hide Node          |         H          |
 |       Reload Textures       |      Alt + R       |
-|     Add Mapping to Node     |      Ctrl + T      | Requires "Node Wrangler" addon |
+|     Add Mapping to Node     |      Ctrl + T      | Requires "Node Wrangler" add-on |
 |     Cut Node Connection     |     Ctrl + RMB     |
-| Connect Node to Viewer Node | Ctrl + Shift + LMB | Requires "Node Wrangler" addon |
+| Connect Node to Viewer Node | Ctrl + Shift + LMB | Requires "Node Wrangler" add-on |
 
 ## Other Hotkey Sheets
 

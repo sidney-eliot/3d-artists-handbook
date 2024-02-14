@@ -7,7 +7,7 @@ enableToc: true
 |:-:|:-:|:-:|:-:|:-:|:-:
 |[Arrimus Ultimate 3D Modeling Course](https://www.udemy.com/course/arrimus3d/)|Arrimus 3D (Udemy)|Modeling, Hardsurface|ZBrush, Blender, Max, CAD|- Pre-recorded|$110
 |[ycf cg](https://ycfcg.art/)|-|Entire Process, CG, Cartoon, ACG|?|Their [ArtStation](https://www.artstation.com/cifangyi) is probably one of the most impressive 3D character portfolios|-
-|[Character Creation for Games](https://www.cgmasteracademy.com/courses/133-character-creation-for-games/)||Entire Process, Stylized|Maya/ Blender, ZBrush, PS, Substance, Marmoset|- Pre-recorded<br>- 9 weeks<br>- Weekly Assignments<br>- Intermediate to Advanced|$750
+|[Character Creation for Games](https://www.cgmasteracademy.com/courses/133-character-creation-for-games/)||Entire Process, Stylized|Maya / Blender, ZBrush, PS, Substance, Marmoset|- Pre-recorded<br>- 9 weeks<br>- Weekly Assignments<br>- Intermediate to Advanced|$750
 |[Stylized Character Art for Games](https://www.cgmasteracademy.com/courses/advanced-stylized-character-art-for-games-mentorship/)||Entire Process, Stylized|ZBrush, Maya, Marmoset Toolbag, Substance, Unreal Engine|Pre-recorded<br>- 10 weeks<br>- Weekly Assignments<br>- Advanced|$1000
 |[Anatomy for Production](https://www.cgmasteracademy.com/courses/5-anatomy-for-production/)||Sculpting, Anatomy|ZBrush|- Pre-recorded<br>- 10 weeks<br>- Weekly Assignments<br>- Intermediate|$1000
 |[Stylized Character Arts for Games](https://www.cgmasteracademy.com/courses/stylized-character-arts-for-games/)||Entire Process with focus on texturing, Hand Painted|ZBrush, Substance, 3DCoat, Marmoset, any 3D modeling software|- Pre-recorded<br>- 8 weeks<br>- Weekly Assignments<br>- Intermediate|$750

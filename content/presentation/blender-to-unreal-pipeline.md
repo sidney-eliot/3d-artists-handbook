@@ -15,10 +15,10 @@ If the rest pose of the source and target don't quite match up, the animations w
 
 Correcting the pose includes things like having the elbows bent at the right angle, or having the hand rotation match up
 
-## 1. Install uefy Addon/ Script
-Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python addon. For the `pro version` simply install the addon (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It will create the same panel but with less functionality. It's important to know that the `light version` doesn't dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I will describe how to do it both with pro and lite.
+## 1. Install uefy Add-on / Script
+Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python add-on. For the `pro version` simply install the add-on (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It will create the same panel but with less functionality. It's important to know that the `light version` doesn't dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I will describe how to do it both with pro and lite.
 
-Rigify addon is also needed, but it's shipped with Blender. If it isn't already enabled, then enable it.
+Rigify add-on is also needed, but it's shipped with Blender. If it isn't already enabled, then enable it.
 
 ## 2. TODO: Fill the Blender part
 
@@ -84,7 +84,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
 6. Select the `Full Body Ik` solver, then right-click the `pelvis` bone and select `Set Root Bone on Selected Solver`
 7. Still with the `Full Body Ik` solver selected, right click `hand_l` bone and select `New IK Goal`. Do the same for the bone `ball_l`. Repeat for right side bones
 8. Rename the `ball_l_Goal` goal to `foot_l_Goal`. Repeat for right side bone
-9. Select the `IK Retargeting` tab(left). This is where retargeting chains are displayed. To create retargeting chains, select one or multiple bones in the bone Hierarchy tab on the left, right click them and click `New Retarget Chain from Selected Bones`.
+9. Select the `IK Retargeting` tab (left). This is where retargeting chains are displayed. To create retargeting chains, select one or multiple bones in the bone Hierarchy tab on the left, right click them and click `New Retarget Chain from Selected Bones`.
 
    Chain all bones together that are surrounded by a red box in this image:
 
@@ -157,8 +157,8 @@ Resources:
 
 
 ## Links to Definitely Check Out to Understand How It Works
-- [Unreal explaining skeletons/ animation theory 1](https://www.youtube.com/watch?v=FDbpHamn2eY)
-- [Unreal explaining skeletons/ animation theory 2](https://www.youtube.com/watch?v=JkcJ5bjGPsg)
+- [Unreal explaining skeletons / animation theory 1](https://www.youtube.com/watch?v=FDbpHamn2eY)
+- [Unreal explaining skeletons / animation theory 2](https://www.youtube.com/watch?v=JkcJ5bjGPsg)
 
 ## Links to Help When Stuck
 - [Rakiz Farooq's Channel](https://www.youtube.com/@RakizFarooq)
@@ -183,7 +183,7 @@ The next section (not done yet) will cover how to actually use the animation rea
 - Import Simple Quinn or Manny from. In import window: disable `Animations`, enable `Automatic Bone Orientation`
 - Select the mesh called `SKM_Quinn_Simple_LOD0`. And click the uefy button "Extract Mesh" (If you have light version clear parent(Alt+P) instead)
 - Delete all other imported objects
-- Add in an uefy armature (Shift + A > Armature > Uefy Script > Mannequin Metarigs Presets > Quinn89 Metarig/ Manny89 Metarig)
+- Add in an uefy armature (Shift + A > Armature > Uefy Script > Mannequin Metarigs Presets > Quinn89 Metarig / Manny89 Metarig)
 - With the rig selected use the rigify button `Generate Rig` (now there should be a rig and a metarig)
 - Select mesh and shift click on rig and parent with `Armature Deform`
 - The character is now ready to animate. Weight paint corrections are also possible (deform bones for weight painting are on layer 24,25,26)
@@ -215,7 +215,7 @@ The next section (not done yet) will cover how to actually use the animation rea
 It's also important to know that this script breaks the rig and makes it no longer usable in Blender, so one should create a backup of the blend file.
 
 ### Important Notes
-- One Skeleton/ Rig can be used for many models
+- One Skeleton / Rig can be used for many models
 
 
 

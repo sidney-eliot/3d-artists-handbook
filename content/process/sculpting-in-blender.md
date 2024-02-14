@@ -13,11 +13,11 @@ enableToc: true
 |ZBrush|Blender
 |:-:|:-:
 |DynaMesh|Remesh
-|ZRemesher|Default Blender doesn't have this.<br>The [Quad Remesher](https://exoside.com/quadremesher/) addon adds a similar functioning algorithm to Blender.
+|ZRemesher|Default Blender doesn't have this.<br>The [Quad Remesher](https://exoside.com/quadremesher/) add-on adds a similar functioning algorithm to Blender.
 |Sculptris Pro|Dyntopo
 
 ## Blender Sculpting Workflow
-Do the blockout with remesher, then either hand retopo, use a clean remesh addon or skip it for now. Then, to add detail, use the multires modifier. Try to stay away from Dyntopo the same as you would avoid Sculptris Pro in ZBrush, it develops bad habits.
+Do the blockout with remesher, then either hand retopo, use a clean remesh add-on or skip it for now. Then, to add detail, use the multires modifier. Try to stay away from Dyntopo the same as you would avoid Sculptris Pro in ZBrush, it develops bad habits.
 
 More in other sections about workflow, it doesn't differ that much to that of ZBrush.
 
@@ -55,7 +55,7 @@ higher focal length makes you see less of the model but more detail.
 >- Unified Strength = Off
 >- Scrape > Tool Settings > Falloff = Constant
 
-## Great Addons for Sculpting
+## Great Add-ons for Sculpting
 - Brush Manager
 - Sculpt Layers (Import ZBrush SubDiv levels)
 - Sculpt/Paint Wheel (Easy access to sculpting tools through selection wheel)

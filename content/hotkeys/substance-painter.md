@@ -63,7 +63,7 @@ h2, h3 { text-align: center; }
 ## Mask
 |Function|Key|Notes
 |:-:|:-:|:-:
-|Hide/ Ignore Excluded Geo|Alt+ H|
+|Hide / Ignore Excluded Geo|Alt+ H|
 |Disable Mask|Shift + LMB|
 |Reveal Mask|Alt + LMB|
 
@@ -90,7 +90,7 @@ h2, h3 { text-align: center; }
 |Select Texture Set|Ctrl + Alt + RMB|
 |Isolate Texture Set|Alt Q|
 
-|Switch between maps|C/ Shift + C|
+|Switch between maps|C / Shift + C|
 |Switch to material|M|
 
 |Polygon Fill||

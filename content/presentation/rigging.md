@@ -3,7 +3,7 @@ title: "🦴 Rigging"
 enableToc: false
 ---
 
-## Rigging Humanoid with Blender's Rigify (Addon)
+## Rigging Humanoid with Blender's Rigify (Add-on)
 
 ### Theory
 Object division:

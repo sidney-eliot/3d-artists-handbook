@@ -45,16 +45,16 @@ enableToc: true
 ## Fixing Issues in Blender
 ### General
 - If any modifier or action aren't working properly it might be because one or multiple transforms should be applied first
-- Check if the origin/ world origin is at the desired location if a modifier or action fails
+- Check if the origin / world origin is at the desired location if a modifier or action fails
 - Maybe there are vertices that overlap each other but aren't connected (fix with: Ctrl + M > Merge by distance)
 - Check if face orientation is correct (Viewport Overlays > Face Orientation)
 - Bad topology, quads work best with all modifiers and actions
 - Sometimes shading looks bad because viewport shading options like cavity are on
-- For curves it's good to turn on handles (Edit Mode > Viewport Overlays > Handles/ Handles Normals)
+- For curves it's good to turn on handles (Edit Mode > Viewport Overlays > Handles / Handles Normals)
 
 ### Fixing Shading
 - Shade smooth
-- Turn on auto smooth/ change degree amount (Object Data Properties: Normals > Auto Smooth)
+- Turn on auto smooth / change degree amount (Object Data Properties: Normals > Auto Smooth)
 - Average face Area (Alt + N)
 - Make sure normals are facing the correct direction
 - Use weighted normal modifier
@@ -76,14 +76,14 @@ The Principled BSDF Node is a combination of many other Principled nodes, which 
 >- Metallic >>> The metallicness of an object
 >- Specular >>> How much reflection is possible
 >- Specular Tint >>>
->- Roughness >>> Increase/ decrease sharpness of light reflection
+>- Roughness >>> Increase / decrease sharpness of light reflection
 >- Anisotropic >>> Amount of anisotropy for specular reflection. Higher values give elongated highlights along the tangent direction (Cycles only)
 >- Anisotropic Rotation >>> Rotates the direction of anisotropy (Cycles only)
 >- Sheen >>> For cloth like materials near edges
->- Clearcoat >>> Adds glossy specular layer on top of everything (used for car/ boat paint)
+>- Clearcoat >>> Adds glossy specular layer on top of everything (used for car / boat paint)
 >- IOR >>> Index of refraction for transmission
 >- Transmission >>> turn material in glass like object
->- Emission/ Emission Strength >>> The color and strength of the emitted light (bloom needs to be enabled for this to work properly)
+>- Emission / Emission Strength >>> The color and strength of the emitted light (bloom needs to be enabled for this to work properly)
 >- Alpha >>> Transparency/Opacity/Alpha (not translucency)
 >- Normal >>> 
 >- Clearcoat Normal >>> Controls the normals of the Clearcoat layer
@@ -119,7 +119,7 @@ The Principled BSDF Node is a combination of many other Principled nodes, which 
 
 ### Color Correction
 
-> [!example] Bright/ Contrast
+> [!example] Bright / Contrast
 
 > [!example] Hue Saturation Value
 
@@ -131,13 +131,13 @@ The Principled BSDF Node is a combination of many other Principled nodes, which 
 
 ### Channel Converter
 
-> [!example] Separate RGB/ Combine RGB
+> [!example] Separate RGB / Combine RGB
 >
 >- Allows one to remove a color channel or manipulate a single color channel
 
-> [!example] Separate HSV/ Combine HSV
+> [!example] Separate HSV / Combine HSV
 
-> [!example] Separate XYZ/ Combine XYZ
+> [!example] Separate XYZ / Combine XYZ
 
 ### Math
 

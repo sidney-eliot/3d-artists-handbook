@@ -61,7 +61,7 @@ _topology by [Andrew Hodgson](https://www.artstation.com/andrewhodgson/blog)_
 >![[Pasted image 20230608152852.jpg|1300]]
 >![[Pasted image 20230608152923.jpg|1300]]
 
->[!example]- Production ready VS concept topology (by [Andrew Hodgson](https://www.artstation.com/andrewhodgson/blog))
+>[!example]- Production ready vs. concept topology (by [Andrew Hodgson](https://www.artstation.com/andrewhodgson/blog))
 >
 >![[Pasted image 20230608152320.jpg|1300]]
 >![[Pasted image 20230608152457.jpg|1300]]
@@ -76,11 +76,11 @@ _topology by [Andrew Hodgson](https://www.artstation.com/andrewhodgson/blog)_
 ## Poles
 A **pole**, also referred to as **stars**, is a set of edges that merge into a single vertex. There are two types of **poles**: **N-Poles** (3 edges) and **E-Poles** (5+ edges).
 
-Poles with six or more edges on curved surfaces will create problems when animating, as well as make shading look bad, especially when using SubDiv modifiers.
+Poles with 6 or more edges on curved surfaces will create problems when animating, as well as make shading look bad, especially when using SubDiv modifiers.
 
-It's not always possible to avoid **poles**, but one should strive to have as little poles as possible with the least amount of edges connection together and optimally place/ relocate them to an area where they are less visible. **3/5** edge **poles** should appear sparingly and **6+** edge **poles** should ideally never appear, except for on flat surfaces that won't experience any soft body deformations. 
+It's not always possible to avoid **poles**, but one should strive to have as little poles as possible with the least amount of edges connection together and optimally place / relocate them to an area where they are less visible. **3/5** edge **poles** should appear sparingly and **6+** edge **poles** should ideally never appear, except for on flat surfaces that won't experience any soft body deformations. 
 
-### Where Do Poles Happen ?
+### Where Do Poles Commonly Happen ?
 
 - (**E-Pole**) Extrusions
 - (**E-Pole**) Using triangles and Ngons (it's possible to integrate them without creating poles)
@@ -95,9 +95,9 @@ Blender's selection tools make finding **poles** very easy. Simply select a vert
 ### Placing & Relocating Poles
 One can remove **poles** by redoing the topology in that area, however often **poles** are needed and can then be relocated.
 
-Good spots for placing/ relocating poles to, are hidden areas, like under the armpit, between the legs and so on. And as mentioned before, the surface should ideally not be very curved. It's also important to move poles away from areas which will experience heavy deformation. Instead of dealing with poles when they're a problem, it's good to anticipate them and plan their locations. It's relatively easy to judge where poles happen by looking at where the mayor topology flows intersect each other.
+Good spots for placing / relocating poles to, are hidden areas, like under the armpit, between the legs and so on. And as mentioned before, the surface should ideally not be very curved. It's also important to move poles away from areas which will experience heavy deformation. Instead of dealing with poles when they're a problem, it's good to anticipate them and plan their locations. It's relatively easy to judge where poles happen by looking at where the mayor topology flows intersect each other.
 
-Here, the **poles** are completely sidestepped by inserting the face before extrusion:
+Here, the **poles** are completely sidestepped by inserting the face before extruding:
 ![[image-2024-01-12-15-42-49.mp4]]
 
 Relocating **poles**:
@@ -107,7 +107,7 @@ Relocating **poles**:
 
 
 ## Terminating & Rerouting Edge Loops
-Terminating edge loops is important when doing the final retopologized version of a mesh. There are 2 patterns to achieve this, these patterns can also be used to increase loops instead of decreasing as well as for rerouting loops.
+Terminating edge loops is important when doing the final retopologized version of a mesh. There are 2 patterns to achieve this. These patterns can either be used to decrease or increase loops, as well as for rerouting loops.
 
 **The first pattern is:**
 
@@ -117,24 +117,25 @@ Terminating edge loops is important when doing the final retopologized version o
 
 ![[Pasted image 20230608024406.png|250]]
 
-Edge rerouting is best avoided on curved surfaces and best done on flat surfaces. Edge rerouting is unnecessary for the high and added to that it will often make modifiers like SubDiv look bad (There are however exceptions, if one is using a SubDiv control workflow, rerouting is quite useful).
-
+Edge rerouting should be avoided on curved surfaces. Although rerouting patterns don't play especially nice on highs with SubDivs, they can occasionally be useful in SubDiv control workflows.
 ## The Optimal Triangle & Quad Shape
-- The most optimal triangle shape is a triangle with all of its sides having the same edge length, this is refered to as a equilateral triangle.
-- The most optimal quad shape is a quad with all of its sides having the same edge length, this is  refered to as a square quad.
+- The most optimal triangle shape for a render engine, is a triangle with all of its sides having the same edge length, this is referred to as an equilateral triangle.
+- The most optimal quad shape is a quad with all of its sides having the same edge length, this is refered to as a square quad
 
-So with that in mind, in theory the cap topology on the right is better (it also has 2 fewer triangles). However, the difference doesn't really matter that much, and the latter topology takes more time to make.
+So with that in mind, in theory the cap topology on the right in _picture 1_ is better (it also has 2 fewer triangles). However, the difference doesn't really matter that much, and the latter topology takes more time to make.
 
 ![[Pasted image 20230608024347.png|750]]
+_Picture 1_
 
-For the high cylinder, the most optimal cap would look something like this (Blender grid fill operation):
+For the high cylinder, the most optimal cap would look something like _picture 2_ _(Blender grid fill operation)_.
 
 ![[Pasted image 20230608024334.png|400]]
+_Picture 2_
 
-As one can nicely see here, it has the best result with SubDiv and quite a good result with bevels. Method 1 is the best with bevels, but the difference to 3 is negligible:
+As one can nicely see in _picture 3_, the example from _picture 2_ has the best result with SubDiv and quite a good result with bevels. The left approach is the best with bevels, but the difference to the right one is negligible.
 
 ![[Pasted image 20230608024320.png|750]]
-
+_Picture 3_
 
 ## 🚧Work in Progress🚧
 - Avoid holding edges, go with creases and bevels
@@ -151,18 +152,18 @@ Example:
 - Tris aren't always bad it's more that with a tris always a pole comes which is bad
 - Try out I and o for loopcut
 
-## Topology Methods
+#### Topology Methods
 These methods are great for the low object, but one should be careful of using them for the high because SubDiv often doesn't play well with topology that isn't nicely quaded with 4 edge poles. And anyway this is to reduce topology count and that doesn't really matter for the high.
 
-## Retopology
-### ZRemesher Retopo
+#### Retopology
+#### ZRemesher Retopo
 Use ZRemesher during the creation process or for sculpts that are simply for training, but not for the final retopology pass for characters.
 
 There are 2 methods of getting proper results with ZRemesher. Method 1 is to use the `ZRemesherGuides` tool and method 2 is to use polypaint.
 
-#### ZRemesherGuides Method (Method1):
+##### ZRemesherGuides Method (Method1):
 
-#### Polypaint Method (Method2):
+##### Polypaint Method (Method2):
 [Video on this method](https://www.youtube.com/watch?v=9kSaJ1b4QZU)
 1. Polypaint the lines you want ZRemesh to follow (It's good to turn off Tablet RGB Intensity)
 2. `PolyGroupIt from Paint` with PolyGroupIt Plugin in the ZPlugin tab (default plugin)
@@ -170,8 +171,15 @@ There are 2 methods of getting proper results with ZRemesher. Method 1 is to use
 4. ZRemesh with `KeepGroups` on
 
 To-Do
-- Loops/ Topology Of Characters
-- Loops/ Topology Of the Face
-- Loops/ Topology Of The Body
-- Loops/ Topology Of The Hands
-- Loops/ Topology Of The Feet
+- Loops / Topology Of Characters
+- Loops / Topology Of the Face
+- Loops / Topology Of The Body
+- Loops / Topology Of The Hands
+- Loops / Topology Of The Feet
+
+
+#### Links / Resources
+
+https://www.youtube.com/watch?v=1DEx3iwFjbk
+https://www.youtube.com/watch?v=gLIKFCFxnIM
+https://www.youtube.com/watch?v=gKoNLMRR8iE

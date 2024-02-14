@@ -18,7 +18,7 @@ For a render engine to be good at showcasing work to clients and employers, it h
 |:--|:-:|:-:|:-:
 |**Marmoset Toolbag**|✅ Very Good| ✅Very Good|✅ Very Good
 |**Unreal Engine**|✅ Very Good|✅ Very Good|✅ Very Good|
-|**Blender (Eevee/ Cycles X)**|Good|❌ Bad|Ok|
+|**Blender (Eevee / Cycles X)**|Good|❌ Bad|Ok|
 |**Sketchfab**|-|Good|✅ Very Good|
 |**Substance Painter**|
 |**Fusion**|
@@ -120,7 +120,7 @@ To-Do
 
 
 ## Wireframe Rendering
-Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both pre rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag/ Unreal Engine best for real-time wireframe showcase and Blender/ Marmoset Toolbag best for pre rendered wireframe showcase.
+Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both pre rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag / Unreal Engine best for real-time wireframe showcase and Blender / Marmoset Toolbag best for pre rendered wireframe showcase.
 
 
 >[!info] Marmoset Toolbag wireframe rendering
@@ -148,8 +148,8 @@ To-Do
 
 ## Rendering in Blender
 
-Good Blender addons for rendering:
-- [Camera Manager addon](https://blenderartists.org/t/render-button-camera-manager-for-blender-2-81-update-07-01-2020-v0-3-7/1159414)
+Good Blender add-ons for rendering:
+- [Camera Manager add-on](https://blenderartists.org/t/render-button-camera-manager-for-blender-2-81-update-07-01-2020-v0-3-7/1159414)
 
 ### Rendering all cameras with one click (Blender)
 - Make camera active camera (Ctrl + 0)
@@ -169,7 +169,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >[!info]- The workflow
 >
 >- Toggle background transparency (Render > Film > Transparent)
->- Set render output as Open EXR with RGBA, Float (full), PIZ/ ZIP/ DWAA
+>- Set render output as Open EXR with RGBA, Float (full), PIZ / ZIP / DWAA
 >- In the compositor output 2 EXRs, one with the image with a black background and one with transparency. Like in this node setup (renders 2 EXR files):
 >  
 >![[Pasted image 20230604225809.png]]
@@ -198,17 +198,17 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >|**View Transform**|Filmic (more realistic and greater color range)
 >|**Exposure**|0
 >|**Gamma**|1
->|**Sequencer**|sRGB/ Linear
+>|**Sequencer**|sRGB / Linear
 
 >[!info]- Render Passes
 >
 >|Pass|Use|Explanation
 >|:--|:-:|:-:
 >|**Combined**|yes|All render passes
->|**Z/ Depth**|yes|Great for atmospherics, volumetrics and object blending. Mist pass is the same as z/depth pass, just that the z/depth pass isn't configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0 m and depth to the farthest point in scene. Also, z/ depth pass isn't anti aliased
->|**Mist**|yes|(Same as Z/ Depth)
+>|**Z / Depth**|yes|Great for atmospherics, volumetrics and object blending. Mist pass is the same as z/depth pass, just that the z/depth pass isn't configurable while the mist pass is. Mist pass depth adjustments in world panel, set start to 0 m and depth to the farthest point in scene. Also, z / depth pass isn't anti aliased
+>|**Mist**|yes|(Same as Z / Depth)
 >|**Normal**|no|
->|**Diffuse/ Specular**|depends|
+>|**Diffuse / Specular**|depends|
 >|**Volume Light**||
 >|**Transmittance**|-|Only needed when using volumetrics
 >|**Scatter**|-|Only needed when using volumetrics
@@ -227,7 +227,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >|**File Format**|OpenEXR Multilayer
 >|**Color**|RGBA
 >|**Color Depth**|Float (Full)
->|**Codec**|PIZ/ ZIP(lossless) or DWAA (lossy), DWAA is one of the smallest image formats and looks almost identical to the lossless EXR codecs
+>|**Codec**|PIZ / ZIP(lossless) or DWAA (lossy), DWAA is one of the smallest image formats and looks almost identical to the lossless EXR codecs
 
 
 ## Rendering in Marmoset Toolbag

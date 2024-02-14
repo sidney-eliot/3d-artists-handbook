@@ -11,7 +11,7 @@ When naming parts of a model, one can either just count up numbers or describe w
 |Part|Plate|Slab|Armor|Rod|Latch|Shaft
 |Cover|Cable|Ribbon Cable|Twisted Cable|Pipe|Tube|Ball Bearing
 |Casket|Housing|Spring|Coil|Frame|Grip|Binding
-|Intake/ Outtake|Shock Absorber|Wing|Joint|Dock|Blades|Spike
+|Intake / Outtake|Shock Absorber|Wing|Joint|Dock|Blades|Spike
 |Switch|Lever|Hook|Fragment|Segment|Section|Module
 |Plateau|Flap|Shield|Board|Block|Covering|Pole
 |Fastener|Buckle|Clip|Hasp|Axle|Mandrel|Spindle

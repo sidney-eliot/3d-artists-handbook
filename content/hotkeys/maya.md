@@ -11,7 +11,7 @@ h2, h3 { text-align: center; }
 </style>
 ![[banner_maya.jpg]]
 
-## Navigation/ View/ Transforms
+## Navigation / View / Transforms
 |Function|Key|Notes
 |:-:|:-:|:-:
 |Orbit View|**`Alt`** + **`LMB`**

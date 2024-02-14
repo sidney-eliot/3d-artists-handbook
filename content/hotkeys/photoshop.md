@@ -78,7 +78,7 @@ h2, h3 { text-align: center; }
 |:-:|:-:|:-:
 |Rotate View|**`R`**|Holding**`R`** will revert to the previous tool when let go.
 |Move View|**`Hold Space`** or **`H`**|Holding **`H`** will revert to the previous tool when let go.
-|Zoom in/ out|**`Hold Alt`** + **`Scroll Wheel`** or **`Ctrl`** + **`+ / -`**|
+|Zoom in / out|**`Hold Alt`** + **`Scroll Wheel`** or **`Ctrl`** + **`+`** / **`-`**|
 |Switch to Next Image| **`Ctrl`** + **`Tab`**|
 |Switch to Previous Image| **`Ctrl`** + **`Shift`** + **`Tab`**|
 |Maximize View|**`Ctrl`** + **`0`**|

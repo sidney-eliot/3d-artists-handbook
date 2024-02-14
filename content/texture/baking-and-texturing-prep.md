@@ -32,11 +32,11 @@ Make sure to follow the concepts mentioned on the [[topology-and-retopology|Topo
 >- Try to keep the silhouette of the high and low mesh as close to each other as possible
 >- Try to strategically use SubDiv modifiers. SubDiv modifiers will often be the cause for **badly baked edges**. For parts that don't play a big role in the silhouette SubDiv is fine
 >- When possible, try to have as many mesh pieces that aren't connected as the high, connected as the low. This will reduce poly count, increase texture space and make weight painting as well as animating so much easier
->- Delete all polys that aren't seen, sometimes this means adding in a bit of extra edge flow/ cuts to remove more faces. This makes the mesh use less texture space, meaning the texel density of all the UVs that are actually seen can be increased. A good trade, totally worth the slight increase in polygons that the cuts may create, as texture space is more valuable than poly count.
+>- Delete all polygons that aren't seen, sometimes this means adding in a bit of extra edge flow / cuts to remove more faces. This makes the mesh use less texture space, meaning the texel density of all the UVs that are actually seen can be increased. A good trade, totally worth the slight increase in polygons that the cuts may create, as texture space is more valuable than poly count.
 >- Triangulate the high mesh and make sure the low has no Ngons. Every software triangulates differently, so Triangulating in the modeling software instead of auto triangulation in Marmoset will avoid issues. This however comes with the con of not being able to nicely showcase the wireframe. So one should only Triangulate the high. When you notice quads on the low are triangulating badly, manually triangulate those quads in the modeling software. _(If you're using Maya, you may want to lock the mesh normals first, as the mesh normals change upon triangulation.)_
 
 ## Normals & Shading
-Normals & Shading is very important and will dramatically alter the bake if handled incorectly. For starters, bakers like Marmoset Toolbag use the normal direction as the baking angle, like shown in this video:
+Normals & Shading is very important and will dramatically alter the bake if handled incorrectly. For starters, bakers like Marmoset Toolbag use the normal direction as the baking angle, like shown in this video:
 
 ![[image-2024-01-12-17-18-50.gif]]
 _video by [Marmoset Toolbag](https://marmoset.co/posts/toolbag-baking-tutorial)_
@@ -45,20 +45,20 @@ This will result in normals pointing in the wrong direction like this:
 ![[image-2024-01-12-17-29-22.jpg]]
 _image by [EarthQuake](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details) (1 bad normals, 2 good normals)_
 
-Marmoset Toolbag has a way of somewhat fixing this, by painting on a skew map one can re-orient the normal/ skew direction to be at a 90° angle to the face. This solution is however tedious and won't work well on curved surfaces.
+Marmoset Toolbag has a way of somewhat fixing this, by painting on a skew map one can re-orient the normal / skew direction to be at a 90° angle to the face. This solution is however tedious and won't work well on curved surfaces.
 
-More on skewd normals in this polycount [article](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details). _(I don't fully agree however, that adding edge loops to control shading is the best solution for the low mesh in the game industry.)_
+More on skewed normals in this Polycount [article](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details). _(I don't fully agree, however, that adding edge loops to control shading is the best solution for the low mesh in the game industry.)_
 
 Other issue that bad normals & shading will cause are square grid patterns in the textures (in the shape of the topology from the low) as well as black spots.
 
 >[!tip] The ultimate rule of thumb
 >
->A smoothing/ shading split always needs a UV split, but a UV split doesn't always need a smoothing/ shading split.
+>A smoothing split always needs a UV split, but a UV split doesn't always need a smoothing split.
 
 
->[!example]- Smoothing/ Shading (articles, videos)
+>[!example]- Smoothing / Shading (articles, videos)
 >
->- [Making sense of hard edges, uvs, normal maps and vertex counts](https://polycount.com/discussion/107196/making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts) (polycount)
+>- [Making sense of hard edges, uvs, normal maps and vertex counts](https://polycount.com/discussion/107196/making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts) (Polycount)
 >  
 > <div style="text-align: center;">
 >  
@@ -102,7 +102,7 @@ Following things will manipulate normals:
 
 ## UV Unwrapping
 
-Look at the [[uv-unwrapping|UV Unwrapping]] page.
+Look at the [[uv-mapping|UV Mapping]] page.
 
 
 ## Naming Conventions
@@ -128,14 +128,14 @@ The name indicates the low and high match, however it doesn't indicate what is p
 ## Color ID Mapping
 This is a convenience step which makes masking easier and more precise. T
 
-Color ID mapping is a convenience step. The color ID maps save time down the line and can get more precise texturing results. Note however that they can also have the opposite effect because of having to fiddle with masking the colors and the initial setup needed to be able to render them. For more organic models, hand panting masks while texturing is often faster without ad drop in quality. So in general, doing this step is up to personal preference.
+Color ID mapping is a convenience step. The color ID maps save time down the line and can get more precise texturing results. Note however that they can also have the opposite effect because of having to fiddle with masking the colors and the initial setup needed to be able to render them. For more organic models, hand painting masks while texturing is often faster without a drop in quality. So in general, doing this step is up to personal preference.
 
 When baking the color ID maps, make sure the colors are flat, so no [[glossary#Anti-Aliasing|anti-aliasing]]. If the baker doesn't support that, Substance Painter has a tolerance slider for the ID map, which is fine as a last resort. The colors should also be as unique as possible from each other.
 
 >[!info] Baking color ID maps
 >
 >**Method 1 (Materials):**
->Assign different materials to parts of the topology, color can be blank for all. Then import into baker/ texturing software, make sure to have export materials on. For this method, the Object ID map needs to be baked
+>Assign different materials to parts of the topology, color can be blank for all. Then import into baker / texturing software, make sure to have export materials on. For this method, the Object ID map needs to be baked
 >
 >**Method 2 (Vertex Colors):**
 >Select faces in edit mode, then switch to vertex paint mode and toggle mask selected faces. Then press Shift + K to fill with selected color. To keep colors consistent, add them to the vertex color palette.
@@ -151,7 +151,7 @@ When baking the color ID maps, make sure the colors are flat, so no [[glossary#A
 
 ## Exporting
 - Export all high objects that should be on the same atlas in one fbx file, do the same for the low in a separate file (`Armor_low.obj` `Armor_high.obj`)
-- Only the **mesh**, **UVs** and **normals** are needed (And optionally: Materials/ Vertex colors on the low, for the Color ID map)
+- Only the **mesh**, **UVs** and **normals** are needed (And optionally: Materials / Vertex colors on the low, for the Color ID map)
 
 **Export File Types:**
 
@@ -185,4 +185,4 @@ When baking the color ID maps, make sure the colors are flat, so no [[glossary#A
 |Clean Up||Resets rotation, scale and position to 0,0,0. Deletes all vertex information, unused UVs and vertex groups|
 |~|~|~|~|~
 |Web browser compatibility|bad||very good
-|Open to use/ Not a blackbox|❌|✅
+|Open to use / Not a blackbox|❌|✅

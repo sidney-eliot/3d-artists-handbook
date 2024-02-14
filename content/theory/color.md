@@ -5,24 +5,24 @@ enableToc: false
 
 >[!info] Easily create wonderful color palettes
 >
->**To help choose your color palettes, use [coolors.co](https://coolors.co/generate) or alternatively [Adobes color picker](https://color.adobe.com/create/color-wheel)**
+>**To help choose your color palettes, use [coolors.co](https://coolors.co/generate) or alternatively [Adobe's color picker](https://color.adobe.com/create/color-wheel).**
 
 ## Color Models
 There are three color models commonly used by digital artists:
 - [[color#RGB Color Model|RGB]]
-- [[color#HSV/ HSL Color Model|HSV/HSL]]
+- [[color#HSV & HSL Color Model|HSV & HSL]]
 - [[color#Hex Color Model|HEX]]
 
 Note that all these color models are in the RGB color space.
 
 ### RGB Color Model
-RGB stands for Red, Blue, Green. An example of a RGB value is: 16,139,216. Every number group represents one color channel, 139 being the blue channel. Every color channel can range from 0-255. The amount of RGB colors are capped at 16777216.
+RGB stands for Red, Blue, Green. An example of an RGB value is: 16,139,216. Every number group represents one color channel, 139 being the blue channel. Every color channel can range from 0-255. The amount of RGB colors are capped at 16777216.
 
 **When to use**
 Use is for quick color picking, colors that won't be final. Using RGB color model should be avoided, because it's very hard to select harmonious colors
 
 ### HSV & HSL Color Model
-HSV stands for Hue, Saturation, Value whereas HSL stands for Hue, Saturation, Lightness. The difference being that a color with maximum tint(lightness) is white with HSL and the actual color in HSV.
+HSV stands for Hue, Saturation, Value whereas HSL stands for Hue, Saturation, Lightness. The difference being that a color with maximum tint (lightness) is white with HSL and the actual color in HSV.
 
 HSL Example:
 
@@ -30,7 +30,7 @@ HSL Example:
 ![[Pasted image 20230604142624.png]]
 
 **When to use**
-For 2D art and hand painted textures, this is pretty much always the best choice, because of being able to easily select different tints/shades of a color. But it's also good for any other color picking. The choice between HSV vs HSL is a thing of preference, though HSV is probably the more popular one.
+For 2D art and hand painted textures, this is pretty much always the best choice, because of being able to easily select different tints/shades of a color. But it's also good for any other color picking. The choice between HSV vs. HSL is a thing of preference, though HSV is probably the more popular one.
 
 ### Hex Color Model
 A hex color is like RGB. The syntax is `#RRGGBB`, so green would be `#00FF00`. 00 means none of that channel and FF means 255 of that channel (0-9, A-F). It's also possible to store alpha in hex with the following syntax `#RRGGBBAA`, so green with alpha would be `#00FF0012`. The "A" can only range from 0-100.
@@ -49,7 +49,7 @@ HEX is almost only used for copying a color per values from A to B
 |Hue|Pure Colors(Primary Colors, Secondary Colors, ...). Ranges from 0° to 359° on the color wheel||Changing the Tint, Shade or Tone of a color doesn't change the hue
 |Saturation|
 |Value|Tint(lightness) and Shade(darkness) of a color|
-|Chroma/ Chromatic Intensity|A color where a hue predominates, blue, green, while white gray and black are achromatic because no hue predominates.
+|Chroma / Chromatic Intensity|A color where a hue predominates, blue, green, while white gray and black are achromatic because no hue predominates.
 
 |Keyword|Explanation
 |:-:|:-:
@@ -116,7 +116,7 @@ COLOR|RGB|HEX
 ## 🚧Work in Progress🚧
 
 #### Hue
-- Changing the Tint, Shade or Tone of a color changes the Chroma/ Colorfulness
+- Changing the Tint, Shade or Tone of a color changes the Chroma / Colorfulness
 
 #### Tint
 - Changing the tint also changes the Saturation
@@ -132,7 +132,7 @@ COLOR|RGB|HEX
 colorfulness, saturation, purity, intensity, luminance
 
 ### Saturation
-Saturation is changed by tint, shade and tone. Saturation is the purity/ intensity/ brilliance of a color. The higher the saturation of a color, the more vivid and intense it is. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
+Saturation is changed by tint, shade and tone. Saturation is the purity / intensity / brilliance of a color. The higher the saturation of a color, the more vivid and intense it is. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
 
 ### Brilliance & Brightness
 Brilliance judged relative to the maximum brightness possible, whereas brightness is relative to the brightness of a similarly illuminated white object.

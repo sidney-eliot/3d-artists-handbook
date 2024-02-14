@@ -49,7 +49,7 @@ Ray tracing is a broad term and consists of many smaller things like:
 > 
 > - Only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX ray tracing support)
 
-Ray tracing off vs on:
+Ray tracing off vs. on:
 
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
@@ -94,7 +94,7 @@ Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate t
 >>
 >> - Clear water
 >
->The further light travels in such a medium/ material, the more it's absorbed and/ or scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
+>The further light travels in such a medium / material, the more it's absorbed and scattered. Therefore, object thickness plays a large role in how much the light is absorbed or scattered
 >>[!example] Examples of SSS in action
 >>
 >> Ears are thin >>> Low light ray absorption = Light is very visible through ears
@@ -137,7 +137,7 @@ https://youtu.be/7l6QOcgWXfI
 ---
 
 ### Bloom
-- Bloom/ light bloom (not to be confused with glow/emission) is a rendering technique to reproduce artifacts of real-world cameras. It produces fringes or feathers of light extending from the borders of bright areas in an image, contributing to the illusion of an extremely bright light overwhelming the camera or eye capturing the scene. 
+- Bloom / light bloom (not to be confused with glow/emission) is a rendering technique to reproduce artifacts of real-world cameras. It produces fringes or feathers of light extending from the borders of bright areas in an image, contributing to the illusion of an extremely bright light overwhelming the camera or eye capturing the scene. 
 
 - Even tough bloom is most apparent around emissive objects, it can just as well happen with normal light sources
 
@@ -375,7 +375,24 @@ To-Do:
 **Physically based rendering** or in short, **PBR** is ...
 
 
+---
 
+### Smoothing Split
+
+A **Smoothing split**, also sometimes referred to as a **shading split**, is when _ToDo (include terms "soft edge", "sharp edge" and "hard edge")_.
+
+Software like Maya and 3ds Max work with smoothing groups to create smoothing splits. With smoothing groups, one basically creates many smoothing groups which are a selection of one or more faces, and wherever the smoothing groups meet a smoothing split is created. Blender's approach is quite different, but the result is the same. Instead of creating smoothing groups that create smoothing splits, one directly creates the smoothing split, by marking edges as sharp. This allows for more control, as one can have individual edges with smoothing splits, instead of being limited to full faces (not something that's necessarily useful, though).
+
+
+>[!example] Some related articles 
+>- https://polycount.com/discussion/107196/making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts/p1
+>
+
+---
+
+### UV & UV Shell & UV Island
+_ToDo_
+UV stand for horizontal and vertical.
 
 ---
 
@@ -474,11 +491,11 @@ The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 b
 >
 ><b>256 Tone Values ➡️ 256 Reds ✖️ 256 Greens ✖️ 256 Blues 🟰 16.7 Million RGB Values</b>
 
->[!info] 16 bit image (Integer/ Float)
+>[!info] 16 bit image (Integer / Float)
 >
 ><b>65,536 Tone Values ➡️ 65,536 Reds ✖️ 65,536 Greens ✖️ 65,536 Blues 🟰 281 Trillion RGB Values</b>
 
->[!info] 32 bit image (Integer/ Float)
+>[!info] 32 bit image (Integer / Float)
 >
 ><b>4,294,967,295 Tone Values ➡️ ...</b>
 
@@ -512,7 +529,7 @@ Normal maps can be tangent-space or object-space. World-space is basically the s
 ---
 
 ### Handedness (Normal Map)
-Handedness has influence over: Object transforms, normal maps, rigs/ animations, ... . 
+Handedness has an influence over: Object transforms, normal maps, rigs / animations, ... . 
 
 
 #### Handedness with Normal maps

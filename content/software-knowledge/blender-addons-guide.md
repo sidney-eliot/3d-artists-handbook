@@ -1,5 +1,5 @@
 ---
-title: "🔮📑 Blender Addons Guide"
+title: "🔮📑 Blender Add-ons Guide"
 enableToc: true
 ---
 
@@ -150,13 +150,13 @@ Alt and shift click on mark
 |Space|Stop drawing
 |---|---
 |W / Right Click|Switch between selection mode and normal mode
-|G/ R/ S|Move/ Rotate/ Scale (X or Y to scale on axis)
+|G / R / S|Move/ Rotate / Scale (X or Y to scale on axis)
 |E|Edit Shape (Entf to dissolve, F to fill or delete, A to add)
 |D|Array (C for rotation)
 |B|Bevel
 |C|Custom Shape (Hold Shift + Scroll to change edge amount)
 |N|Flip Sideways
 |M|Flip Horizontally
-|I|Inset/ Outset
+|I|Inset / Outset
 |Alt + N/ M|Mirror every selected shape at blue +
 |Q / Enter|Boolean/Finish
