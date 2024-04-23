@@ -10,7 +10,7 @@ The [3D Artist's Handbook](https://sidney-eliot.github.io/3d-artists-handbook) l
 You can download the entire handbook for offline reding, just follow [these](#how-to-read-the-handbook-offline) simple steps.
 
 🌍🔍 **Universal Search**<br>
-On the top left or top of every page, is a search field which can be used to search for headers or words all across the handbook.
+On the top left or top of every page, is a search field which can be used to search for page names or words all across the handbook.
 
 🌑☀️ **Dark and Light Theme**<br>
 Beside the search bar of every page, is a sun/ moon icon, which are used to switch between the light and dark mode.
