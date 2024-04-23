@@ -7,43 +7,43 @@ I'm happy to hear any feedback and requests on things to improve or add, just me
 The [3D Artist's Handbook](https://sidney-eliot.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/sidney-eliot/3d-artists-handbook/actions) and uses [quartz](https://github.com/jackyzha0/quartz) as frontend and [Node.js](https://nodejs.org/en) as backend.
 
 📶❌ **Fully Available Offline**<br>
-You can download the entire handbook for offline reding, just follow [these](#how-to-read-the-handbook-offline) simple steps.
+You can download the entire handbook for offline reading, just follow [these](#how-to-read-the-handbook-offline) simple steps.
 
 🌍🔍 **Universal Search**<br>
-On the top left or top of every page, is a search field which can be used to search for page names or words all across the handbook.
+Use the search field to search for page names or words all across the handbook. _(It's located at the top.)_
 
 🌑☀️ **Dark and Light Theme**<br>
-Beside the search bar of every page, is a sun/ moon icon, which are used to switch between the light and dark mode.
+Use the sun and moon icons to switch between light and dark mode. _(They are located at the top left.)_
 
 🏠 **Quickly Return to Home Page**<br>
-On the right or top of every page, is the title "3D Artist's Handbook". Clicking it will send you back to the home page.
+Click the title of the handbook ("3D Artist's Handbook"), to quickly return to the home page. _(It's located at the top left.)_
 
 📂 **Explorer**<br>
-The explorer shows all the pages nicley structured by topic, great for quickly navigating around the handbook. (It's located on the left and currently not available on mobile. I've added the explorer to the home page so mobile users can still use it and hopefully soon mobile users will also be able to use the explorer)
+Use the explorer to see all pages nicely structured by topics, great for quickly navigating the handbook. _(It's located on the left. It's currently not available on mobile devices and when the browser window is pulled too small, for this reason I've also added the explorer to the home page. Hopefully soon, the explorer will be fully compatible with smaller screens.)_
 
 📑 **Table of Contents**<br>
-The table of contents shows all the mayor headers on the current page. (It's located on the right and at the bottom on mobile)
+Use the table of contents to view and navigate to all mayor headers of the current page you're on. _(It's located on the right and at the bottom on mobile.)_
 
 🔗 **Backlinks**<br>
-The backlink section shows all other pages that link to the current page you're on. (It's located on the right and at the bottom on mobile)
+Use backlinks to navigate backwards, to pages that link to the current page you're on. _(It's located on the right and at the bottom on mobile.)_
 
 🗺️ **Interactive Graph**<br>
-The interactive graph is a spider web of page connections. It visualizes how the pages link to each other. One can zoom in and out, pan the view, click the dots to navigate to the pages and click the little icon at the top right of the box to enlarge the interactive graph. (It's located on the right and at the bottom on mobile)
+Use the interactive graph to see how the pages are linked to one another, visualized through a spider web of connections. You could also use it as an alternative way to navigate through the handbook, although I don't recommend it. _(It's located on the right and at the bottom on mobile. Its controls are as follows: Zooming, panning, clicking the node dots, enter full screen by clicking the icon at the top right of the box.)_
 
 👁️ **Page Preview**<br>
-When hovering links that lead to other pages within the handbook, an interactive preview of that page is shown. One can tell internal from extenral links apart by the design of the link, internal links will have a box like background.
+Hover links that lead to other pages within the handbook, to get an interactive preview of that page. _(You can tell internal from external links apart by the design of the link, internal links will have a box like background.)_
 
 ▶️ **Embedded YouTube Videos** <br>
-All videos found across the handbook are embedded YouTube videos. This gives the videos nice thumbnails and allows for them to be played directly within the handbook. If it makes sense, I have also set the videos to start at a specific time.
+All videos found across the handbook are embedded YouTube videos. This gives the videos nice thumbnails and allows for them to be played directly within the handbook. If it makes sense, I've also set the videos to start at a specific time.
   
 ⏳📅 **Read Time & Last Edit Date**<br>
-At the top of every page the average read time can be found as well as the date, when the page was last edited.
-  
+Every shows an average read time and the date it was last edited on. _(This info is located at the top. The date is a new feature I've added, so it won't work retrospectively, meaning many pages will have the same generic date.)_
+
 ⏱️ **Instant Page Load Times**<br>
 There are no load times when clicking on links to other internal pages.
   
 🔻 **Collapsible Sections**<br>
-Collapsible sections are found all over the handbook. They can be expanded with the `ᐯ` (arrow down) icon.
+Collapsible sections are found all over the handbook. Clicking them will expand them.
 
 
 # How to Read the Handbook Offline
@@ -54,7 +54,7 @@ You will need to install the [Node.js](https://nodejs.org/en/download) framework
 
 **1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
 
-**2.** Execute the following commands in succession in the repository folder you just downloaded (If you're on Windows you can type `cmd` into the address bar of your file explorer to open a command prompt in that folder):
+**2.** Execute the following commands in succession in the repository folder you just downloaded (If you're on Windows, you can type `cmd` into the address bar of your file explorer to open a command prompt in that folder):
 
 ```cmd
 npm i
@@ -71,7 +71,7 @@ You will need [Obsidian](https://obsidian.md/), which is a completely free note-
 
 **2.** Open Obsidian and click `Open folder as vault`. Then navigate to the "3d-artist-handbook" folder you just downloaded and select the "content" folder inside of it. This will open the "content" folder in Obsidian and all the pages will be there for you to read.<br>
 
-**3.**_(optional)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook". Then open the "3d-artist-handbook" you just downloaded from GitHub, and copy paste the files inside the "content" folder to the "Offline_3D-Artists-Handbook".
+**3.**_(optional)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook". Then open the "3d-artist-handbook" you just downloaded from GitHub, and copy and paste the files inside the "content" folder to the "Offline_3D-Artists-Handbook".
 
 ---
 
