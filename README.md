@@ -7,7 +7,7 @@ I'm happy to hear any feedback and requests on things to improve or add, just me
 The [3D Artist's Handbook](https://sidney-eliot.github.io/3d-artists-handbook) lives on [GitHub Pages](https://github.com/sidney-eliot/3d-artists-handbook/actions) and uses [quartz](https://github.com/jackyzha0/quartz) as frontend and [Node.js](https://nodejs.org/en) as backend.
 
 📶❌ **Fully Available Offline**<br>
-You can download the entire handbook for offline reading, just follow [these](#how-to-read-the-handbook-offline) simple steps.
+You can download the entire handbook for offline reading. Just follow [these](#how-to-read-the-handbook-offline) simple steps.
 
 🌍🔍 **Universal Search**<br>
 Use the search field to search for page names or words all across the handbook. _(It's located at the top.)_
