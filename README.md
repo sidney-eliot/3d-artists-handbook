@@ -37,7 +37,7 @@ Hover links that lead to other pages within the handbook, to get an interactive 
 All videos found across the handbook are embedded YouTube videos. This gives the videos nice thumbnails and allows for them to be played directly within the handbook. If it makes sense, I've also set the videos to start at a specific time.
   
 ⏳📅 **Read Time & Last Edit Date**<br>
-Every page shows an average read time and the date it was last edited on. _(This info is located at the top. The date is a new feature I've added, so it won't work retrospectively, meaning many pages will have the same generic date.)_
+Every page shows an average read time as well as the last date it was edited on. _(This info is located at the top. The date is a new feature I've added, so it won't work retrospectively, meaning many pages will have the same generic date.)_
 
 ⏱️ **Instant Page Load Times**<br>
 There are no load times when clicking on links to other internal pages.
