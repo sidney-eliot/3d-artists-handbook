@@ -43,7 +43,7 @@ Every page shows an average read time as well as the last date it was edited on.
 There are no load times when clicking on links to other internal pages.
   
 🔻 **Collapsible Sections**<br>
-Collapsible sections are found all over the handbook. Clicking them will expand them.
+Collapsible sections are found all over the handbook. Clicking them will expand that within. I use them to keep things more digestible.
 
 
 # How to Read the Handbook Offline
