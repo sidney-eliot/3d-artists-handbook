@@ -54,7 +54,7 @@ You will need to install the [Node.js](https://nodejs.org/en/download) framework
 
 **1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
 
-**2.** Execute the following commands in succession in the repository folder you just downloaded, any type of terminal will do the job (If you're on Windows, you can type `cmd` into the address bar of your file explorer to open a terminal in that folder):
+**2.** Execute the following commands in succession in the repository folder you just downloaded, any type of terminal will do the job (If you're on Windows, you can type "cmd" into the address bar of your file explorer to open a terminal in that folder):
 
 _Terminal, CommandLine, PowerShell or Bash:_
 ```
