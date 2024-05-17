@@ -1,5 +1,5 @@
 ---
-title: "🖌️ Texturing"
+title: "Texturing"
 enableToc: true
 ---
 
@@ -85,6 +85,3 @@ To-Do
 
 ### Layer Stack Order
 To-Do
-
-## Texturing in 3D Coat
-To-DO

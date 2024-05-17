@@ -1,5 +1,5 @@
 ---
-title: "🧠 Artistic Side of Character Design"
+title: "Artistic Side of Character Design"
 enableToc: false
 ---
 

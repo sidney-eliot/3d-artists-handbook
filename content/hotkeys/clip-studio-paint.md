@@ -30,19 +30,18 @@ h2, h3 { text-align: center; }
 
 |             Function              |          Key           |                              Notes                              |
 | :-------------------------------: | :--------------------: | :-------------------------------------------------------------: |
-|            Brush Size             | **`Ctrl`** + **`Alt`** |
-|           Switch Colors           |        **`X`**         |
-|           Reset Colors            |           D            |
-|         Opacity 10%-100%          |       **`1-0`**        |
-| Make your current brush to eraser |        **`C`**         |
-|           Straight line           |      **`Shift`**       |
-|                 -                 |           -            |                                -                                |
-|       Cycle through Pencils       |        **`P`**         |
-|       Cycle through Brushes       |        **`B`**         |
-|             Airbrush              |        **`A`**         |
-|               Blend               |        **`J`**         |
+|            Brush Size             | **`Ctrl`** + **`Alt`** |                                                                 |
+|           Switch Colors           |        **`X`**         |                                                                 |
+|           Reset Colors            |          `D`           |                                                                 |
+|         Opacity 10%-100%          |       **`1-0`**        |                                                                 |
+| Make your current brush to eraser |        **`C`**         |                                                                 |
+|           Straight line           |      **`Shift`**       |                                                                 |
+|       Cycle through Pencils       |        **`P`**         |                                                                 |
+|       Cycle through Brushes       |        **`B`**         |                                                                 |
+|             Airbrush              |        **`A`**         |                                                                 |
+|               Blend               |        **`J`**         |                                                                 |
 |              Eraser               |        **`E`**         | Hold and let go to automatically go back to the last used brush |
-|            Eyedropper             |       **`Alt`**        |
+|            Eyedropper             |       **`Alt`**        |                                                                 |
 
 ## Other
 

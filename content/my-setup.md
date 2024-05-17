@@ -1,5 +1,5 @@
 ---
-title: "🖥️ My Setup"
+title: "My Setup"
 enableToc: true
 ---
 
@@ -47,7 +47,3 @@ For modeling I use my keyboard, mouse and monitor.
 - **Sapphire Pulse AMD Radeon RX 5700 GPU** _(8GB VRAM - 1.75 GHz Clock Speed - Release 2019)_
 - **AMD Ryzen 9 5900X CPU** _(12 Cores - 24 Threads - 3.7 GHz-4.8 GHz Clock Speed - 7 nm - Release 2020)_
 - **Samsung C32JG50 WQHD Monitor** _(2560 x 1440 px - 32 Inch / Zoll - 144 Hz)_
-
-
-
-4 16 

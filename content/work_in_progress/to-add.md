@@ -116,3 +116,178 @@ If there are shading errors in the engine, then you have 2 choices.
 1. You can add more geo to the area with the bad shading to ease the smoothing errors and keep your original smoothing groups.  
   
 2. Or you can split the uv shells, making more of them, in that area and re run the Uv Shells to Smoothing groups script."
+
+https://polycount.com/discussion/226585/black-edges-artifacts-from-normal-map-baking-in-marmoset
+
+offline rendering vs real-time
+
+Use floaters or normal detail in the texturing process all the time to save time and prevent the high from needing more detail for all those crevices
+
+Baking starts getting unstable at around 30-40mil tris (600-800mb file)
+
+
+Ctrl + C to add a selected modifier from one object to all other selectd objects
+
+
+"That's not quite how the renderering pipelines of game engine evolve or get used. It doesn't matter *one bit* if this or that feature gets added (for instance, a renderer having some way to simulate the occlusion of light in crevices) - this is just and always will be a tool in a toolset.  
+  
+Even using an engine with the best-of-the-best implementation of realtime AO ever doesn't mean that there can't be benefits in having it also as a texture pass, or even as some of it baked in the diffuse texture. Especially since dirt gathers in cracks ... _exactly_ like an AO pass.  
+  
+Just because these 3 things (realtime AO, AO stored as a texture pass, and AO hard-painted into the color pass) are using the same acronym "AO", doesn't mean that one replaces the other."
+
+When ignore groups is on then one hAs to add an extra face row at edges that disappear with a bevel
+
+
+!!! Make sure to turn off live unwrap as soon as you start using tools like uq squares
+
+
+
+when uv squArs doesnt work try frist sclaing up the island
+
+Before unwrapping, make sure to pres Alt + H to unhide all hidden low mesh
+
+
+
+
+
+when doing retopology, make sure to look at the baked low with ray tracing on, as often artifacts will be visible only with ray cast shadows and will remain hidden with basic viewport rendering
+
+
+https://polycount.com/discussion/56014/how-the-f-do-i-model-this-reply-for-help-with-specific-shapes-post-attempt-before-asking/p181
+
+
+Fixes for low not aligning for high for bake: Increase  bevels width on high and set the low more into the high
+
+Thickness map will be totally unusable if hidden faces on the high are deleted for optimization (to-do: investigate, if on clothing deleting the inner side face is ok, but the transition at edges is the problem, making the ryan reos collar method a viable solution)
+
+
+
+Keeping topology cuts where material changes happen is quite important, try not to switch materials mid face
+
+
+- In Unreal Engine 4, we use a metallic and roughness workflow. The texture maps specific to this workflow are base color, metallic, and roughness. In UE4, we do not actually have control of the specular values of metallic materials, and for most dielectric materials (non-metallic) a specular value of 0.5 will work. These specular values are hardcoded into the shader for metallic objects and cannot be changed. This minimizes inaccuracies caused by the user, but can also cause frustrations if you want full control over the shader for specific cases.
+
+https://uv-game.com/intro
+
+
+
+- id map should have 0 aliasing, everyy single pixle should be a solid color, to prevent sharp edges edge edges along that area, aliasing will not pix jaged edges as softWare like substance won't nicely add masks that progessively get darker, id selections either tur
+
+-cant edit AO/ normal map
+https://www.youtube.com/watch?v=zMYfJ5N67Qg
+https://www.youtube.com/watch?v=hgq3aV3EOIE
+
+
+- make sure id maps are good, hand fixing them in pAInter is not fun
+
+- things like hair can share a texture set with other ojects, but have to have their own material. so substance and marmoset let them have a custom antistropic refelction
+
+- to not acidentally paint on areas one doesnt want to, set alignment to uv projection mode
+
+-look into: 32bit normal maps seem to be brighter, even after conversion, may also be related to baking as psd
+
+- leave a bigger gap between the hair uv shells so painting flow maps is easier
+- plug flowe into color
+
+
+painting flow map:
+- get an image of the uv shells (in Blender UV View > UV > Export UV Layout)
+- Edit Brush Settings
+- Engine: Brush Normal
+
+Brush Tip > Anti-alias = ON
+Brush Tip > Ratio = 0,50
+Brush Tip > Angle = 270°
+Opacity > Enable Pen Settings = OFF (depends on what result one wants)
+Flow > Enable Pen Settings = OFF (depends on what result one wants)
+Size = OFF
+Tangent Tilt > Tilt Options = Direction
+Rotation = ON
+Rotation > Pressure = OFF
+Rotation > Drawing Angle = ON
+
+Then give it a name with the pen icon and click "Save New Brush Preset".
+
+With the brush selected got to **Tool Options** and switch **Brush Smoothing** to Stabilizer. Adjust the delay to something that feels good, I like 120 px.
+
+Finally I recommend chnaging some hotkeys
+
+Settings > Configure Krita > Keyboard Shortcuts
+
+Menu > Select > Deselect > Remap to `Ctrl` + `D`
+Tools > Tool Shortcuts > Freehand Selection Tool > Remap to `L`
+
+|    Navigation    | Hotkey                     | Note                                                                                                                                           |
+| :--------------: | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+|       Move       | Hold `Space`               |                                                                                                                                                |
+|       Zoom       | `Ctrl` + `MMB` or `Scroll` |                                                                                                                                                |
+|  Rotate Canvas   | `Shift` + `MMB`            |                                                                                                                                                |
+|    Brush Tool    | `B`                        |                                                                                                                                                |
+|    Lasso Tool    | `L`                        | Under **Tool Options** switch the **Action** to **Replace**. This allows for adding to the selection with `Shift` and subtracting with `Ctrl`. |
+| Remove Selection | `Ctrl` + `D`               |                                                                                                                                                |
+
+
+Propper UV unwrapping helps
+
+
+Eventhough this method yield quite a good reSult in a reasonable time (took me about 3h for 48 shells), I do see a lot of omprovement is the creation process workflow of flow maps 
+
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NBEiTGHLkEo?si=XNhoDL3j0jqHD5c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/193e1uzzGAk?si=SYO4AHslRgLwI7nf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/mtbCtwgI440?si=uZdMC-Qk2VpjjrFK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NiSxVZER_ls?si=lyFMrj207Uafl3YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/GZgPpLbjwG4?si=Q96Epfy9HSbpfaHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+https://dzungphungdinh.com/projects/De93G?album_id=694340
+
+
+
+- in substance painter always name custom user channels with u0, u1 and if one maps has u0 as cavity then use u1 next
+- bake hair in such a way to only strand cast shadows onto other strands and nothing like the head makes the hair AO mudy
+
+
+- to fix normal map errors, one can either fix the map itself, or turn down the roughness, as then there won't be highlights the emphasise the artifacts in the normal map (the artifacts won't be fully hidden though)
+- watch out for black dark tips in hair, they often are visible even if all texture maps are disabled, to fix them one either fixes the mesh shading or allows for the normal map to fix them
+
+- make the uv seam in the face go down the center starting at the forehead, so the face is as flat as possible, the ears should be on the vertical level between eyes and nose and not tilted
+
+
+
+- give the skin its own material, it will make texturing much more enjoyable
+
+
+- put more though into the head and body unwrap, maybe let the ear have it's own shell
+
+- always bake every possible map the baker has, the only ones that take any significant time are anyway are the  AO and thickness maps
+
+- whenever working with blur, alwAys use a hard brush instead of a soft brush, this will make the rtesult more uniform, when erase was used, or use a soft one intentioanlly to get a more organic and varried result
+
+- as substance always resets brushes on switch, try to make as little changes to the brushes as possible and modify the effect via effect layers
+
+
+- a disadvantage of lower topology, is that texturing can look quite different when looked at from different angles
+
+
+- try to keep all roughness adjustments together in one group in which only rougfness is adjusted. However for the makeup around the eyes, it can make sense, to let those makeup line affect roughness as well, so one doesnt have to retrace the makeup to correct the roughness
+
+
+Edge control methods:
+ZBrush makes some methods quite a lot more aluring, for example the zremesher, but that can cause massive increase in polies when subdividing. Compared to using more common method like placing edge loop for control. Becaue with that only the areas that need the detail get denser. I'm noticing that simple object with like 40k polygons quickly go to 4mil just because I added one small detail, and the entire mesh needes that extra density for that one detail. DynaMesh / sculptris pro one would think would be the soklution, but one shoudl stay away from terrible tool like those in the final stages of the model (anything that isnt blockout)
+
+
+#### Links
+
+- https://www.youtube.com/watch?v=eL7r1Yav7qs (theory of sketching clothing before committing)
+- https://www.youtube.com/watch?v=vaGvsk51vUI&list=RDCMUCH0FwuoIVHtYsuci4QMEbAA&index=2 (form ZBrush base to marvelous)
+- https://www.youtube.com/watch?v=imp3j7l6V1U&list=RDCMUCH0FwuoIVHtYsuci4QMEbAA&index=3 (theory of correct cloth folds)
+- https://www.youtube.com/watch?v=cIYHaPO7IRw&list=RDCMUCH0FwuoIVHtYsuci4QMEbAA&index=4 (cloth sculpting in zrbsuh)
+- https://www.youtube.com/watch?v=lopXcsHzVHU&t=1s (The Amazing Sculpting Brush NOBODY Knows About)

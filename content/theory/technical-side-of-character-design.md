@@ -1,29 +1,7 @@
 ---
-title: "👩🏽‍💻 Technical Side of Character Design"
+title: "Technical Side of Character Design"
 enableToc: true
 ---
-
->[!example] Character Creation Process Resources
->**Videos**
->
->**Articles**
->- [80 lv Character Articles](https://80.lv/articles/character-art/)
->- [Marmoset Character Creation Articles](https://marmoset.co/category/toolbag-tutorials/character/)
->- [Real-time Character Production Workflow (Samurai)](https://discover.therookies.co/2021/05/06/real-time-character-production-workflow-for-games/)
->
->**Breakdown & Showcase**
->- [Stylized Character Presentation in Toolbag](https://marmoset.co/posts/stylized-character-presentation-in-toolbag/)
->- [Steampunk Huntress](https://3dtotal.com/tutorials/t/3d-character-sculpting-a-guide#article-introduction)
->- [Character Presentation With Animation In Toolbag](https://marmoset.co/posts/level-up-your-character-presentation-with-animation-in-toolbag/)
->- [The Rookies Project Breakdowns](https://www.therookies.co/projects)
->- [Red Leaves](https://www.therookies.co/projects/24395)
->- [The Princess of Ambrosia](https://www.therookies.co/projects/26638)
->- [Eilesti - The Local Druid](https://www.therookies.co/projects/22802)
->- [Skywind - Hlaalu Dresses](https://www.therookies.co/projects/28231)
->- ['Fire and Blood' (Real-time)](https://www.therookies.co/projects/24581)
->- [princess Ira and Amina](https://www.therookies.co/projects/29502)
-
-
 ## Important Conventions to Follow
 - Create the character in an **A-pose**. Anatomically, it's the most neutral pose the human body can be in. It will make sculpting areas like the shoulders (Deltoids) quite a lot easier. The **A-pose** is also the closest pose to industry standard rigs, like the Unreal Engine rig. An additional benefit of using the **A-pose**, is that showcasing the character poseless in the portfolio will look much more natural than something like the **T-pose**.
 - Make sure measurements are correct, **around 1.7m** for an average character (This will make shadows, physics, ... more accurate. And has many other benefits)
@@ -41,10 +19,10 @@ enableToc: true
 
 ## Questions to Ask When Doing Models for Others
 - What texture resolution to use
-- The Polycount budget
+- The polycount budget
 - Desired map types
 - The texture Ratio (Mostly 1x1, but sometimes games use different ratios)
-- If a base body below the armor is important (for switching outfits and/or nude senses)
+- If a base body below the armor is important (for switching outfits and / or nude senses)
 
 
 ## Rundown of the Optimal Workflow
@@ -56,12 +34,8 @@ Depending on if the model is hard surface or organic, the workflow will look a b
 3. Bake the high to the low to get maps like normal, AO, curvature, ...
 4. Texture the model
 5. Optionally weight paint, rig and animate it
-6. Render and/or bring into a game engine
+6. Render and / or bring into a game engine
 
-All these steps are covered in far great detail in this handbook.
+All these steps are covered extenisvely in this handbook.
 
 If a piece is more hard surface, and you decide to not use ZBrush, but your modeling software instead, then make sure not to care about topology when modeling. Only make sure the high with all its bevels and SubDiv looks good. It's however a good idea to work as no-destructively as possible (and when going destructive to keep backups of the non-destructive pieces). This is done, so one can salvage high pieces to quickly create the retopology.
-
-## 🚧Work in Progress🚧
-- Have as much as logically possible merged together, to make rigging easy
-- Have as little overlaying meshes and faces as possible, to avoid rigging issues

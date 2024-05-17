@@ -1,5 +1,5 @@
 ---
-title: "📑 Glossary"
+title: "Glossary"
 enableToc: true
 ---
 ## ─────────
@@ -11,7 +11,7 @@ enableToc: true
 ### Ambient Occlusion
 _[[Wikipedia](https://en.wikipedia.org/wiki/Ambient_occlusion)] - [[Polycount](http://wiki.polycount.com/wiki/Ambient_occlusion_map)] - [[Unreal Engine Doc](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/)] - [[Unity Doc](https://docs.unity3d.com/2021.3/Documentation/Manual/LightingBakedAmbientOcclusion.html)]_
 
-**Ambient Occlusion** (**AO**) is a rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting as well as shadows and helps one's eyes detect surface details that would otherwise be washed out or unnoticeable.
+**Ambient occlusion** (**AO**) is a rendering technique used to calculate how exposed each point in a scene is to ambient lighting. It shows subtle variations in lighting as well as shadows and helps one's eyes detect surface details that would otherwise be washed out or unnoticeable.
 
 > [!info] Ambient Occlusion Info
 > 
@@ -79,10 +79,10 @@ Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate t
 >
 >When traveling in an inhomogeneous medium like air or translucent materials, light can be absorbed or scattered.
 > 
->When absorption occurs, the light intensity decreases and the direction of the ray doesn’t change.
+>When absorption occurs, the light intensity decreases and the direction of the ray doesn't change.
 >>[!example] Objects that absorb light
 >
->When scattering occur, the ray direction changes randomly and doesn’t change its intensity.
+>When scattering occur, the ray direction changes randomly and doesn't change its intensity.
 >
 >>[!example] Objects that scatter light
 >>
@@ -90,7 +90,7 @@ Real objects can either absorb, scatter or ??? (To-Do) light rays. To recreate t
 >
 >If there is no scattering and the absorption is low, rays can pass directly through.
 >
->>[!example] Objects that don’t scatter light with low absorption
+>>[!example] Objects that don't scatter light with low absorption
 >>
 >> - Clear water
 >
@@ -146,7 +146,7 @@ https://youtu.be/7l6QOcgWXfI
 ### Motion Blur
 - Portrays the illusion of speed or movement blurring the objects
 - Tends to remove temporal aliasing effects
-- Used as a real time filter, for animation renders and even still renders
+- Used as a real-time filter, for animation renders and even still renders
 - Not having Motion Blur on can lead to more eye strain, but can give you motion sickness
 - It can also increase the visual fidelity
 
@@ -160,6 +160,8 @@ To-Do
 ---
 
 ### Volumetric Effects
+
+_ToDo: add in term Volumetric Sampling_
 
 #### Volumetric Lighting
 
@@ -194,17 +196,17 @@ To-Do: Restructure
 ---
 
 ### Depth of Field
-Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends at, as well as the fall off, can all be adjusted in the render or game engines settings. Sometimes it's even possible to set multiple focal points.
+Blurs out things that are farther away from the focus point. The distance at which the effects starts and ends at, as well as the fall off, can all be adjusted in the render or game engine's settings. Sometimes it's even possible to set multiple focal points.
 
 ![[Pasted image 20230603125653.png|700]]
 
 ---
 
 ### DLSS and FSR
-- DLSS stands for Deep learning super sampling (Nvidia GPUs)
-- FSR stand for FidelityFX Super Resolution (AMD GPUs)
+- DLSS stands for Deep Learning Super Sampling (Nvidia GPUs)
+- FSR stands for FidelityFX Super Resolution (AMD GPUs)
 
-Both DLSS and FSR are basically the same thing, just developed by different companies. It's an image upscaling technology which uses deep learning to upscale lower-resolution images
+Both DLSS and FSR are basically the same thing, just developed by different companies. They are an image upscaling technology which use deep learning to upscale lower-resolution images.
 
 ---
 
@@ -298,7 +300,7 @@ Multiplies the values of the Material against the pixels of the background.
 - When a light ray hits opaque surface one of two events occur:
     1. Incident light ray hit surface and `bounces off` in the same angle `(reflected light)`
     2. The light ray `passes through` the surface in a straight line `(refracted light)`
-- Absorption of the light ray doesn’t occur on the material surface
+- Absorption of the light ray doesn't occur on the material surface
 
 > [!example] Objects that reflect light
 > 
@@ -374,31 +376,139 @@ To-Do:
 
 **Physically based rendering** or in short, **PBR** is ...
 
+---
+
+### Bokeh
 
 ---
 
-### Smoothing Split
+### Noise
 
-A **Smoothing split**, also sometimes referred to as a **shading split**, is when _ToDo (include terms "soft edge", "sharp edge" and "hard edge")_.
-
-Software like Maya and 3ds Max work with smoothing groups to create smoothing splits. With smoothing groups, one basically creates many smoothing groups which are a selection of one or more faces, and wherever the smoothing groups meet a smoothing split is created. Blender's approach is quite different, but the result is the same. Instead of creating smoothing groups that create smoothing splits, one directly creates the smoothing split, by marking edges as sharp. This allows for more control, as one can have individual edges with smoothing splits, instead of being limited to full faces (not something that's necessarily useful, though).
-
-
->[!example] Some related articles 
->- https://polycount.com/discussion/107196/making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts/p1
->
+ToDo: Voronoi, Perlin, Musgrave
+https://en.wikipedia.org/wiki/Voronoi_diagram
+https://cfbrasz.github.io/Voronoi.html
+https://en.wikipedia.org/wiki/Perlin_noise
+http://kitfox.com/projects/perlinNoiseMaker/
 
 ---
 
-### UV & UV Shell & UV Island
-_ToDo_
-UV stand for horizontal and vertical.
+### Fireflies
 
 ---
+
+### Global Illumination
+
+---
+
+### Shadow Mapping
+
+---
+
+### Radiosity
+ToDo: And other types of rendering techniques: https://3d-ace.com/blog/different-rendering-techniques/
+
+---
+
+### Index of Refraction
+
+ToDo: **Index of refraction** (**IOR**) also referred to as **refractive index**, is a ...
+
+---
+
+### HDR & SDR
+
+---
+
+
 
 ## ─────────
 ## Topology
 ## ─────────
+
+---
+
+### Polygon, Vertex, Edge, Triangle, Quad, N-gon
+
+_[[Wikipedia](https://en.wikipedia.org/wiki/Polygon)]_
+
+A **polygon** is a face / plane consisting of 3 or more **edges** (sides). Whenever two **edges** meet, a **vertex** (corner) is created. 
+
+A polygon with exactly 3 vertices is a **triangle** also referred to as a **tri**, with 4 it's a **quad** and anything more than 4 is referred to as an **n-gon** (because in mathematics "n" is used to denote every possible positive value). In theory, a **triangle** is a 3-gon, and a **quad** is a 4-gon, but no one actually calls it that.
+
+A **tringle** will always be **planar** (flat) by the nature of only having 3 **vertices**, **quads** and **n-gons** however can be **non-planar**, but it's desired to have them be as **planar** as possible, which brings us to the next point.
+
+Almost all render and game engines will convert **quads** and **n-gons** into **triangles** at render time. This is why it's important for **quads** and **n-gons** to be as planar as possible, as [[glossary#Triangulation|triangulating]] them can change the silhouette and shading when they aren't flat. More on that in the [[glossary#Triangulation|triangulation]] section.
+
+In mathematics polygons are allowed to intersect themselves, in 3D however not.
+
+---
+
+### Triangulation
+
+**Triangulation**, also referred to as **tessellation**, is the process of the converting [[glossary#Polygon, Vertex, Edge, Triangle, Quad, N-gon|quads and n-gons]] to triangles. In the case of a quad, for example, there are two ways of **triangulating** it. The way in which quads and n-gons are triangulated depends on the algorithm that is used, and thus can differ between software and even versions of the same software.
+
+As an artist, working on a character's final retopology, one wants to make sure that what one is seeing, will look exactly like that in the game engine. Thus it's important 
+
+
+There are two ways of getting a consistent triangulation results, either one triangulates the mesh at export of the modeling software or one gets familiar with the triangulation algorithms as some software like Blender lets the user choose which algorithm to use. 
+
+
+All prominent triangulation algorithms. (Some of these like Delaunay have sub variants)
+
+| Triangulation Algoritm                                                                                         | How good is it? | Pros                                                                                     | Cons                                                     | How it works                                                                         |
+| :------------------------------------------------------------------------------------------------------------- | :-------------: | ---------------------------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation)                                 |                 | - Avoids thin triangles (sliver triangles), by maximizing the size of the smallest angle |                                                          |                                                                                      |
+| Ear clipping triangulation (Ear trimming)                                                                      |                 |                                                                                          |                                                          |                                                                                      |
+| [Minimum-weight triangulation (Shortest diagonal)](https://en.wikipedia.org/wiki/Minimum-weight_triangulation) |                 |                                                                                          |                                                          | Split the quads along their shortest diagonal.                                       |
+| Longest diagonal triangulation                                                                                 |                 | - Can be good for cloth simulations.                                                     |                                                          | Split the quads along their longest diagonal.                                        |
+| [Point-set triangulation](https://en.wikipedia.org/wiki/Point-set_triangulation)                               |                 |                                                                                          |                                                          |                                                                                      |
+| Random triangulation                                                                                           |                 | Very inconsistent with bad results, but the fastest of the bunch.                        | Triangulation speed hardly matters, making this useless. | Although this isn't used anywhere, it's the most basic kind of triangulation method. |
+
+
+What software uses which algorithms.
+
+|                                             Software                                              | Triangulation Algoritm |
+| :-----------------------------------------------------------------------------------------------: | :--------------------: |
+| [Blender](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/triangulate.html) |      Ear clipping      |
+|                                               Maya                                                |                        |
+|                                           Unreal Engine                                           | Delaunay triangulation |
+|                                         Marmoset Toolbag                                          |                        |
+|                                               Unity                                               |                        |
+
+
+
+The most popular triangulation algorithm is. A full list of all the algorithms can be found [here](https://en.wikipedia.org/wiki/Polygon_triangulation)
+
+https://en.wikipedia.org/wiki/Delaunay_triangulation
+http://www.polygontriangulation.com/2018/07/triangulation-algorithm.html
+https://ianthehenry.com/posts/delaunay/
+https://paulbourke.net/papers/triangulate/
+https://www.cs.cmu.edu/~quake/triangle.html
+https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/triangulate.html
+https://polycount.com/discussion/105479/question-about-baking-with-triangulation
+https://discourse.techart.online/t/when-to-triangulate-in-a-pipeline/4654
+
+"tri-stripping method"
+
+"Yes, the resulting triangulation would suck. The Delaunay triangulation has many interesting properties: angles are not too bad, triangles are not too many, neighbouring triangles also, etc."
+
+"The Delaunay triangulation seeks to avoid this. The algorithm picks a triangulation that maximizes the smallest angle, which avoids thin triangles as much as possible and so gives better error terms."
+
+"You don't always have to, but xNormal will triangulate before calculating maps and generally each program will triangulate a little differently. If you don't triangulate before baking, it will mean the model it calculates the maps for will have different face normals than the one you triangulate later in Max. If you don't triangulate prior, and notice strange anomalies with normal maps(single faces with weird black spots), this is what causes that."
+
+
+I use the word "can" as the result can be quite random. A quad can be triangulated in two different ways and while the software will use an algorithm to determine the best way to triangulate a polygon to keep it as planar as possible, it's often not an acceptable result. This can be especially noticeable with low poly meshes. To get clean results one first makes sure to In this case the artist will manually triangulate polygons which
+
+Almost all render and game engines will convert n-gons and quads into triangles at render time.
+
+
+
+**Triangulation**, also referred to as **tessellation**, is the process of the converting faces to random even triangles.
+
+ToDo(things to cover):
+- Manual vs automatic triangulation and how cutting faces into trinagles differently can make a big difference
+- Triangles in relation to game engines
+- UE5 Nanite
 
 ---
 
@@ -445,10 +555,25 @@ LOD's (Level of Detail) ...
 
 ---
 
-### Tessellation
-Tessellation (Triangulation) is the process of the converting faces to random even triangles.
+### Smoothing Split
+
+A **Smoothing split**, also sometimes referred to as a **shading split**, is when _ToDo (include terms "soft edge", "sharp edge" and "hard edge")_.
+
+Software like Maya and 3ds Max work with smoothing groups to create smoothing splits. With smoothing groups, one basically creates many smoothing groups which are a selection of one or more faces, and wherever the smoothing groups meet a smoothing split is created. Blender's approach is quite different, but the result is the same. Instead of creating smoothing groups that create smoothing splits, one directly creates the smoothing split, by marking edges as sharp. This allows for more control, as one can have individual edges with smoothing splits, instead of being limited to full faces (not something that's necessarily useful, though).
+
+
+>[!example] Some related articles 
+>- https://polycount.com/discussion/107196/making-sense-of-hard-edges-uvs-normal-maps-and-vertex-counts/p1
+>
 
 ---
+
+### UV & UV Shell & UV Island
+_ToDo_
+UV stand for horizontal and vertical.
+
+---
+
 
 ## ─────────
 ##  Textures
@@ -507,7 +632,7 @@ Humans can only distinguish between 2 ~ 10 million colors, so we can't even see 
 ---
 
 ### Banding
-Banding artifacts are caused by a lack of precision with 8 bit normal maps. There aren’t enough color values to accurately represent subtle differences between the high poly and low poly surfaces, which results in stair stepping artifacts.
+Banding artifacts are caused by a lack of precision with 8 bit normal maps. There aren't enough color values to accurately represent subtle differences between the high poly and low poly surfaces, which results in stair stepping artifacts.
 
 [In depth PDF about banding](https://loopit.dk/banding_in_games.pdf)
 
@@ -528,27 +653,23 @@ Normal maps can be tangent-space or object-space. World-space is basically the s
 
 ---
 
-### Handedness (Normal Map)
-Handedness has an influence over: Object transforms, normal maps, rigs / animations, ... . 
+### Handedness
+Handedness has an influence over things like normal maps, object transforms, rigs and animations.
 
+Normal maps can either be in the Open GL or Direct X format. To switch between the formats, one can invert the textures green channel, check some invert button in a software or manually edit the normal map in Photoshop. One should however always try to stick with the Open GL format as is make the most sense visually and is broadly accepted as the industry standard. Funnily enough Unreal uses the inferior Direct X format. To fix one's normal maps non-destructively in Unreal, one can simply enable the "Flip Green Channel" in the texture settings.
 
-#### Handedness with Normal maps
-Normal maps can either be Direct X or Open GL. To go from one to the other, the green channel from the normal maps needs to be flipped.
+Here's a list of which software uses what format (some software allows for switching between Open GL and Direct X):
 
-#### Handedness with Objects
-For objects it's as follows:
+| API      |  Handedness  | Cords |                         Software                         |
+| -------- | :----------: | :---: | :------------------------------------------------------: |
+| Open GL  | Right Handed | Y-Up  | Marmoset Toolbag, Substance Painter, Maya, Houdini, Modo |
+| Open GL  | Right Handed | Z-Up  |               Blender, 3ds Max, CryENGINE                |
+| Direct X | Left Handed  | Y-Up  | Substance Painter, ZBrush, Unity, Cinema 4D, Light Wave  |
+| Direct X | Left Handed  | Z-Up  |                      Unreal Engine                       |
 
-|Handedness|Cords|Software
-|:-:|:-:|:-:
-|Right Handed (Open GL)|Y-Up|Marmoset, Substance Painter, Maya, Houdini, Modo
-|Right Handed (Open GL)|Z-Up|Blender, 3ds Max, CryENGINE
-|-|-|-
-|Left Handed (Direct X)|Y-Up|ZBrush, Unity, Cinema 4D, Light Wave
-|Left Handed (Direct X)|Z-Up|Unreal Engine
+As mentioned before, handedness can also influence objects, if an imported object is rotated incorrectly, then it's probably because the source and destination software have a different handedness.
 
-Software that supports both Left and Right handedness: Blender, Substance, IClone
-
-The X is in all software the Right vector (Left/Right). The Y and X can either be the Forward vector (Forward/Back or Back/Forward) or the Up vector (Up/Down or Down/Up).
+The X coordinate is in all software the right vector (Left / Right). The Y and X coordinates can either be the forward vector (Forward / Backward or Backward / Forward) or the up vector (Up / Down or Down / Up).
 
 It's important to use the same space for an assets and its textures. When working with software that has different spaces, this can be done by switching channels at export.
 
@@ -562,6 +683,10 @@ To-Do
 ### Tangent Space
 To-Do
 https://marmoset.co/posts/toolbag-baking-tutorial/
+
+---
+
+### Rasterization & Vector
 
 ---
 

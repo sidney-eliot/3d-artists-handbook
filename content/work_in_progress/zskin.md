@@ -5,55 +5,98 @@ enableToc: false
 
 ## 🚧Work in Progress🚧
 
-# Overview
-There are a couple of ways of making skin textures and skin shaders. The first thing to consider is the style. Realistic or stylized and anime.
+## Overview
+There are many ways to approach skin textures and shaders.
 
-### Realistic Skin
-For realistic one can use real skin textures and project them onto the model, one can sculpt the pores and other skin detail, one can hand paint maps like Subsurface scattering and one can procedurally generate things like freckles. Use a combination of some or all of these methods for realistic skin
+- Hand painting in Substance Painter, ZBrush (Polypaint), 3D Coat or Mari
+- Layer based masking systems in Substance Painter and Mari
+- Procedural Shaders in Blender, Substance Designer or Unreal
 
-### Stylized & Anime Skin
-For stylized and anime skin one can hand paint all the skin tones variations, use dynamic shaders like cell shaders, spray paint or generate things like freckles, 
+These methods can of course be combining as well.
 
+Here's a playlist of some good skin methods for a wide range of styles:
 
-
-# Resources
-- https://flippednormals.com/downloads/texture-stylized-skin-material/
-- https://texturing.xyz/
-
-# Sculpted Skin
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?si=C6iJ-XVRES9_1g1Q&amp;list=PLveghVPT3X7aLwvda15IsIOOem3ABQ-0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-# Texturing Skin
+## Texture Maps
 
-# High Res Skin Projecting
+## Realistic Skin
 
-# Blender Shader Node Skin
-- Set Principled BSDF Sub Surface Scatter mode to Random Walk
-- For Eevee turn on Subsurface refraction in the material settings
+Some of the methods employed for realistic skin texturing are:
 
-### Node Skin Method 1
-1. Add Subsurface Scattering with noise
-   Nodes:
-   ![[Pasted image 20230605134700.png]]
+- Projecting skin scans with the help of sites like https://texturing.xyz/ or https://www.3dscanstore.com/
+- Sculpting pores and other skin damages in ZBrush using alphas
+- Hand painting maps like subsurface scattering
+- Procedurally generating freckles
 
-2. Add base color texture
-    
-    Nodes:
-    ![[Pasted image 20230605134716.png]]
 
-3. Add bump based off of base color
 
-    Nodes:
-    ![[Pasted image 20230605134744.png]]
 
-4. Add roughness based off of base color
+## Painting Skin
 
-    Nodes:
-    ![[Pasted image 20230605134803.png]]
+I tried to only use high resolution images in here, so you should be able to simply pull the images you want from this website into your reference board.
 
-### Node Skin Method 2
-1. Create a vertex color and in vertex paint mode under Paint select Dirty Vertex Colors. Change the Blur iterations to something between 3 and 5.
-    
-    Nodes:
-    ![[Pasted image 20230605134825.png]]
 
+Creating skin by hand without the help of pre-made materials and textures is great to know and allows for more creative freedom over the character.
+
+
+
+Some good brushes: Dirt 1, Dirt 2, Cement 1
+
+
+A look at the skin layers on a purely visual level.
+
+|   Group   |       Skin Layers        | Color                      | Properties                             | Thickness                                   |
+| :-------: | :----------------------: | -------------------------- | -------------------------------------- | ------------------------------------------- |
+| Epidermal |     Stratum Corneum      | Translucent, White         | dead cells, color pigment cells, water | 0.02 mm                                     |
+| Epidermal |        Epidermis         | Skin Color (from melanin)  |                                        | 0.04 - 0.13 mm                              |
+| Subdermal |          Dermis          | Pink, Red                  | blood vessels, hair follicles          | 1.1 mm                                      |
+| Subdermal | Hypodermis/ Subcutaneous | Yellow                     | fatty tissue, blood vessels            | 1.2 mm                                      |
+| Subdermal |          Muscle          | Pinkish-red, Reddish-brown |                                        | 2 - 5 mm                                    |
+| Subdermal |           Bone           | White, Yellow              |                                        | The Humerus (upper arm) is about 20 - 30 mm |
+https://gurneyjourney.blogspot.com/2008/05/color-zones-of-face.html
+
+Now together with the understanding of the layers and the color zones of the face you're ready to do some face painting.
+
+The goal is to incorporate the color zones of the face on the subdermal layer and then paint the skin on top of it, in such a way that one can still slightly see the subdermal layers beneath.
+
+To start things off, create a couple of subdermal colors.
+
+
+cross polarized photographs (photographs that remove reflected light, so it's like a base color channel image)
+
+![[image-2024-03-20-14-15-42.jpg]]
+
+![[image-2024-03-20-14-16-05.jpg]]
+
+
+
+**Red (Blood, Arteries)**
+I like starting with red as the first layer. Use a dark blood, like red. If you're using fill layers with mask painting, then don't overthink the values too much and tweak them later on. (Starting with red will also directly give your mouth cavity the correct color)
+
+![[image-2024-03-20-18-05-25.png]]
+
+![[image-2024-03-20-13-50-23.jpg]]
+Circulatory system revealed with [RBX cameras](https://www.canfieldsci.com/FileLibrary/RBX%20tech%20overview-LoRz1.pdf).
+
+
+**Yellow & White (Bone)**
+Next comes the yellow layer, even though logically it would make more sense to have it beneath the red layer, in practice having it above is better as the bones are quite close to the surface in areas like the **forehead** and **around the eyes**. Further areas are the **nose bridge**, the **chin**, a **bit of the jawline** and the **earlobes**.
+
+Color wise it's better to stick with yellow as bones tend to look more like that under the skin, but depending on the artistic look one is going for, one could make it more white for all areas under the forehead. (Follygon for example likes using white more, as he shows [here](https://youtu.be/0IlcgeJSNzY?si=LSSn_N8p4fOUep34&t=346).)
+
+**Blue & Purple (Veins, Under-oxygenated Blood)**
+Now come the blues and purples. Depending on the character's gender, these regions will be quite different. For males, it will be the entire lower jaw, while for females it will be limited to around the mouth. In addition, both genders will have it under the eyes.
+
+Use purple very lightly and sparingly to exaggerate it further in areas like the center of the lips and maybe a little blob under the eyes.
+
+![[image-2024-03-20-11-58-57.png]]
+_Note that this person has it very prominently, and I adjusted the values of the image to reduce the reds and further bring out the blues!_
+
+
+
+
+- Some tips the Subdermal color are just base color all of those colors will reapear in the Epidermal layers.
+- Ocasionaly turn of symmetry and do somepainting without it, but don't forget to turn it back on
+- paint detai

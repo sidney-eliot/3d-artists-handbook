@@ -1,5 +1,5 @@
 ---
-title: "🪄 Compositing"
+title: "Compositing"
 enableToc: true
 ---
 ## Compositing Software

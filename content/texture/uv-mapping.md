@@ -1,9 +1,9 @@
 ---
-title: "🎁 UV Mapping"
+title: "UV Mapping"
 enableToc: true
 ---
 ## Foreword
-UV mapping is a somewhat complex subject, as not only the placement of seams and unwrapping play a role, but also other things like smoothing splits and texel density. I'll assume that the model is going to be baked and used in a real time engine; if it's just for rendering, that's fine too.
+UV mapping is a somewhat complex subject, as not only the placement of seams and unwrapping plays a role, but also other things like smoothing splits and texel density. I'll assume that the model is going to be baked and used in a real-time engine; if it's just for rendering, that's fine too.
 
 >[!example]- Here are some good videos and articles on the general subject of UV mapping
 >
@@ -20,14 +20,14 @@ UV mapping is a somewhat complex subject, as not only the placement of seams and
 
 UV mapping can be done in all kinds of software like Blender and Maya, or dedicated UV mapping software like [Rizom UV](https://www.rizom-lab.com), [Headus UVLayout](https://www.uvlayout.com/) and [Ultimate Unwrap 3D](https://www.unwrap3d.com/u3d/index.aspx). More on dedicated UV mapping software in this [video](https://youtu.be/1fEZ5Zcdjho?si=Xb0uHGIxOV-rEYYb).
 
-While most AAA companies like Blizzard, Riot Games and Capcom use Rizom UV, I'll focus on Blender, as it has all the tools dedicated UV mapping software have when paired with add-ons. In addition to that, the choice in software won't play that much of a role in the final output, but more so influence the workflow.
+While most AAA studios like Capcom, Blizzard and Riot Games use Rizom UV, I'll focus on Blender, as it has all the tools dedicated UV mapping software have when paired with add-ons. In addition to that, the choice in software won't play that much of a role in the final output, but more so influence the workflow.
 
 The essential add-ons for UV mapping in Blender are [UV Pack Master](https://uvpackmaster.com/), [Texel Density Checker](https://mrven.gumroad.com/l/CEIOR) and [UV Squares](https://github.com/Radivarig/UvSquares). Other add-ons worth looking into are [Zen UV](https://sergeytyapkin.gumroad.com/l/zenuv4), [UV Toolkit](https://alexbel.gumroad.com/l/NbMya), [Texel Tools](https://github.com/franMarz/TexTools-Blender) and [Dream UV](https://github.com/leukbaars/DreamUV). More on these tools at the bottom of this page.
 
-Another helpful tool for UV mapping is UV checker maps or software built in distortion heat maps, they help identify stretching and distortions. UV checker maps also help visualize texel density differences between UV shells (islands), but more on that [[#Texel Density|later]]. My favorite collection of UV checker maps can be found [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
+Another helpful tool for UV mapping is UV checker maps or software built in distortion heat maps. They help identify stretching and distortions. UV checker maps also help visualize texel density differences between UV shells (islands), but more on that [[#Texel Density|later]]. My favorite collection of UV checker maps can be found [here](https://polycount.com/discussion/186513/free-checker-pattern-texture).
 
 ## Placing Seams & Smoothing Splits
-[[glossary#Smoothing Split|Smoothing splits]] are a vital part of UV mapping. There are many different workflows, but mostly one places seams and creates smoothing splits at the same time. This is because a smoothing split always needs to be accompanied by a UV split, if not undesired edges and artifacts will start appearing in the Normal and AO maps.
+[[glossary#Smoothing Split|Smoothing splits]] are a vital part of UV mapping. There are many different workflows, but mostly one places seams and creates smoothing splits at the same time. This is because a smoothing split always needs to be accompanied by a UV split, otherwise undesired sharp edges and artifacts will start appearing in the Normal and AO maps.
 
 
 >[!tip] The ultimate rule of thumb
@@ -36,11 +36,12 @@ Another helpful tool for UV mapping is UV checker maps or software built in dist
 
 
 One can also use smoothing splits wherever UV splits are without increasing the vertex count, as the vertices are split regardless. More on that in this video:
+
+One can freely use smoothing splits wherever UV splits occur without increasing the vertex count, as the vertices are split regardless. Smoothing splits also won't cause any shading artifacts when accompanied by a UV split; so, one can simply add smoothing splits wherever UV splits are. With proper software or add-ons / scripts, this process can be fully automated. (Do check the result, however, because there are some rare situations where this won't work; for example, it can have problems with complex partial mirroring). Here a video covering this:
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bE0YHhTNkGs?si=_dmS6aSuNzsXQs1F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Also, smoothing splits won't cause any sort of negative artifacts, as long as it's accompanied by a UV split; so, one can simply add smoothing splits wherever UV splits are. With proper software or add-ons / scripts, this process can be automated. (Do check the result, however, because there are some rare situations where this won't work; for example, it can have problems with complex partial mirroring).
-
-Lastly, one should try to make UV shells as big as possible, to free up UV space, as every shell needs its own padding. For very long shells, however, it still makes sense to split them into smaller shells, for better packing results. Two other advantages of bigger shells are that there are fewer shells as a result, so fewer potentially visible seams and the vertices count in game engines is reduced (as described in the video above).
+Lastly, one should try to make UV shells as big as possible, to free up UV space, as every shell needs its own padding. For very long shells, it still makes sense to split them into smaller shells, for better packing results. Two other advantages of bigger shells are that there are fewer shells in total, so fewer potentially visible seams, and the vertex count in the game engine is reduced.
 
 
 **Helpful knowledge for placing seams and sharp edges in Blender:**
@@ -53,7 +54,7 @@ Lastly, one should try to make UV shells as big as possible, to free up UV space
 |Select Sharp Edges|Use to place seams and sharp edges at edges that surpass an angle threshold.|`Select > Select Sharp Edges`
 |Smart UV Unwrap|Smart UV unwrap can often do the job for hard surface objects.|`U` or
 |Place Seams Based on UV Shells|Seams can be recreated on the model based on the UV shell, helpful for when seams are lost or extracting smart UV unwrap seams|`UV > Seams from Islands`
-|Live Unwrap|Removes the need to have to constantly press unwrap.|`UV > Live Unwrap`
+|Live Unwrap|Removes the need to have to constantly press unwrap.|`UV > Live Unwrap` & `3D View > Options > Live Unwrap` _(Both options have to be toggled separately)_
 |UV Sync Selection|Nice overview and help for placing seams. But has to be turned off for some things.|Two opposite pointing arrows button in UV view.
 |Create Multiple UV Maps|One can cycle through different UV maps for one model, helpful for comparing UV maps to get the best possible result.|`Properties view > Data Tab > UV Maps`
 |Select Entire UV Shell||Switch to `Face select` mode or disable `UV Sync Selection`, then press `L`
@@ -63,7 +64,7 @@ Lastly, one should try to make UV shells as big as possible, to free up UV space
 
 ## Rotating UVs
 
-Most UV pack algorithms will only rotate the UV shells by 90°. This is done, to reduce the visibility of jagged lines. The reason for the jagged lines has to do with the fact that a monitor pixel has four sides. Having the UV shell follow the flow of one of the these sides, that being 90°, 180°, 270°, 360° reduces the effect of jagged edges. [[glossary#Anti-Aliasing|Anti-aliasing]] can also help reduce this issue, but it's best to combine both of these methods.
+Most UV pack algorithms will only rotate the UV shells by 90°. This is done, to reduce the visibility of jagged lines. The reason for the jagged lines has to do with the fact that a monitor pixel has four sides (rasterisation). Having the UV shell follow the flow of one of the these sides, that being 90°, 180°, 270°, 360° reduces the effect of jagged edges. [[glossary#Anti-Aliasing|Anti-aliasing]] can also help reduce this issue, but it's best to combine both of these methods.
 
 _90° snap texture result example (without the help of [[glossary#Anti-Aliasing|anti-aliasing]])<br>_
 ![[image-2023-11-21-15-17-59.png\|400]]<br>
@@ -75,21 +76,25 @@ With higher resolution textures, this is less of an issue, and in rare situation
 Keeping UV shells at 90° angles can also make texturing easier.
 
 ## Mirroring UVs
-Before UV unwrapping one has 2 choices, applying the mirror and UV unwrapping or UV unwrapping and applying the mirror at export. 
+Before UV unwrapping, one has to decide how to proceed with mirrors. One can apply mirrors before UV mapping or at the end right before export.
 
-Applying the mirror at export has the advantage that there's twice as much texture space because the UVs from the left and right are stacked on top of each other, thus allowing to use smaller or fewer textures or to just have a better resolution. However, this has its issues, generated textures for example don't look natural because everything perfectly mirrors to the other side
+Applying the mirror at export will double the available texture space for UV mapping, as only the right / left side of the model needs to be mapped and the other side is then stacked on top of those shells at export. This then in return means that one can use less or smaller resolution textures, or simply have a better texture resolution.
 
-Applying the mirror before is often needed for specific designs and makes textures look more natural around the midline. For example, if one wants some words to be on the back of a jacket, the UVs of left and right can not be stacked, because both sides should have different text. So the mirror needs to be applied before UV unwrapping.
+There is one mayor issue with mirroring UVs though, both sides will look the same, which can make the textures look less interesting. Procedural textures especially stand out in a bad way, when mirrored.
 
-The best approach is to mix it up. Objects that connect at the middle and mirror from left to right should not have stacked UVs, but when the mesh is farther away from the middle, stacked UVs are more ok. If the texture budget is tighter, one might still want to mirror all the UVs. Another option is to run UV splits around the shoulder joint of a jacket, for example. Then one has the center part of the jacket fully on the UV map, but stacks the left and right arm. This method however comes with its own set of problems and should only be used if UV space optimization is key.
+For this reason, applying the mirror beforehand is often needed for specific designs or to make textures look more natural around the midline. For example, one wouldn't mirror the UVs of a character's shirt if it has some text on it, or when the character's face has a scar. A disadvantage of applying the mirror before UV mapping, is that it's a lot harder to do changes on the model from that point on and making a backup before applying mirrors is essential.
+
+The solution is quite simple, one has to mix it up. Objects that connect at the middle and mirror from left to right should generally not have stacked UVs, but when the mesh is farther away from the middle, stacked UVs are more ok. This obviously depends on the texture map budget and if it's important to have only a few and lower resolution textures, then one should probably mirror as much as possible. Another interesting option is to only stack the UVs of parts of the mesh of an object. One could run UV splits around the shoulder joint of a jacket, apply the mirror, and then unwrap the center part and the right arm. One would then use some stacking tool to stack the UV shells of the left arm onto the right arm. (This method however comes with its own set of problems and should only be used if UV space optimization is key.)
+
+Just don't get too paranoid about mirroring, as when looking at characters in game from normal viewing distances, it's hardly noticeable that the UVs were mirrored, so saving the texture space is mostly the better option. And for the film industry, there is absolutely no reason to ever stack UVs.
 
 >[!tip]
-> It's good practice to try to keep an edge loop running down the center line, even if one doesn't want to mirror the UVs, so one can later on change one's mind on it _(this matters less for hard surface objects and is more important for deformation objects that have complex retopology)_.
+> It's good practice to try to keep an edge loop running down the center line, even if one doesn't want to mirror the UVs, so one can later on change one's mind on it _(this matters less for hard surface objects and is more important for deformation objects that have complex topology)_.
 
 
 **Some Helpful Things for Mirroring UVs :**
 - A good workflow is to apply mirrors for all objects and then to stack UVs with tools that search for same UVs and stack them
-- Don't place seams for both sides. Either place them before mirroring or symmetrize topology, so both sides have the same seam
+- Don't place seams for both sides. Either place them before mirroring or symmetrize the topology, so both sides have the same seam
 
 [Video about mirrored UVs](https://www.youtube.com/watch?v=Rmv1Cxb3kb0)
 
@@ -98,7 +103,7 @@ The best approach is to mix it up. Objects that connect at the middle and mirror
 
 Padding is an important component of UV mapping, it prevents texture bleeding, which will be visible as seams on the model. Proper padding is also important for getting nice bevels when baking.
 
-When one refers to padding, one is talking about the distance between every UV shell, while margin refers to the distance between all the shells and the texture borders.
+When one refers to margin, one is talking about the distance between every UV shell, while padding refers to the distance between all the shells and the texture borders.
 
 The amount of padding depends on the texture resolution. It also depends on how much downresing will happen. If the highest resolution of the texture is 4k and there is a low setting which downreses / mips the texture to 256px, then more padding is needed. The way the texture will be viewed also important, if it's a roof tile on an atlas environment sheet, that's viewed from extremely intense angles and will be mipped / filtered to hell, then more padding is generally good.
 

@@ -1,47 +1,60 @@
 ---
-title: "🎥 Rendering"
+title: "Rendering"
 enableToc: true
 ---
 
 ## Render Engines
 
-**Pre Rendering**<br>
-For pre rendering render engines, speed isn't important. The only goal is it to, in a somewhat reasonable time, reach the best possible result. It's used to render portfolio pieces, for example.
+**Offline Rendering**<br>
+Render engines meant for offline rendering don't rely on speed, rather the goal is to, get the best possible result albeit in a somewhat reasonable time. It's used to render portfolio pieces, for example.
 
 **Real-time Rendering**<br>
-Render engines that excel at real-time rendering have to be able to fluently render entire scenes at higher frame rates and still feel snappy with player input, while also not forfeiting graphical fidelity.
+Render engines that excel at real-time rendering have to be able to fluently render entire scenes at high frame rates and still feel snappy with player input, while also not forfeiting graphical fidelity.
 
 **Showcase Rendering**<br>
-For a render engine to be good at showcasing work to clients and employers, it has to be easily shareable and viewable or have good integrations into websites. Other things like isolating individual texture maps, viewing wireframe and model stats can also be important. Added to that, it also has to provide a somewhat real-time experience, so one can rotate the model.
+These render engines need to be extremely portable so they can easily be shared with clients and employers though either their browser or a file which is easy to open and only has the essential controls. Some good features that a showcase renderer should have are:
+- Basic navigation controls
+- Show wireframe
+- Texture map isolation
+- Show model statistics like tris count
+- Light rotate
+- Multiple cameras with a camera switching system
+- Camera rotation and zoom limiting
+- Controls for starting, stopping and scrubbing through and animation as well as being able to change the playback speed and cycle through different animation sets
+- The ability to display post effects like vignette or chromatic aberration
+- A section in the file for the name of the project, one's own name and a link to one's portfolio
 
-|Render Engines|Pre Rendering|Real-time Rendering|Showcase Rendering
-|:--|:-:|:-:|:-:
-|**Marmoset Toolbag**|✅ Very Good| ✅Very Good|✅ Very Good
-|**Unreal Engine**|✅ Very Good|✅ Very Good|✅ Very Good|
-|**Blender (Eevee / Cycles X)**|Good|❌ Bad|Ok|
-|**Sketchfab**|-|Good|✅ Very Good|
-|**Substance Painter**|
-|**Fusion**|
-|**Arnold**|
-|**Nuke**|
-|**Maya**|
-|**RenderMan**|
+**Software Screenshots**
+Having screenshots of the project in software is a very good way to convey that a model is fully game ready and modular / easy to adapt, as well as making it clear that you are comfterbal in that software
+
+| Render Engines                 | Offline Rendering | Real-time Rendering | Showcase Rendering |
+| :----------------------------- | :---------------: | :-----------------: | :----------------: |
+| **Marmoset Toolbag**           |    ✅ Very Good    |     ✅Very Good      |         Ok         |
+| **Marmoset Viewer**            |         -         |          -          |    ✅ Very Good     |
+| **Unreal Engine**              |    ✅ Very Good    |     ✅ Very Good     |         Ok         |
+| **Blender (Eevee / Cycles X)** |       Good        |        ❌ Bad        |         Ok         |
+| **Sketchfab**                  |         -         |        Good         |    ✅ Very Good     |
+| **Substance Painter**          |        Ok         |         Ok          |         Ok         |
+| **Fusion**                     |                   |                     |                    |
+| **Arnold**                     |                   |                     |                    |
+| **Nuke**                       |                   |                     |                    |
+| **Maya**                       |                   |                     |                    |
+| **RenderMan**                  |                   |                     |                    |
 
 >[!info] Marmoset rendering
 >
->- Best for single characters and props, not that good for environments
->- Not good for complex lighting
+>- Best for single characters and props, not that good for bigger environments
+>- Not that good for complex lighting setups
 >- Amazing showcase via [Marmoset Viewer](https://marmoset.co/toolbag/viewer/)
 >
 >**Marmoset Viewer:**
 >- Some sites like ArtStation support the Marmoset Viewer API allowing for the 3D model to be viewed in the browser
->- The receiver needs to download a file and the Marmoset Viewer software
-
+>- The recipient needs to download a file and the Marmoset Viewer software
 
 >[!info] Unreal Engine rendering
 >
->- Great characters and props as well as environments
->- Very good for complex lighting
+>- Great for characters and props as well as big environments
+>- Very good for complex lighting setups andd ussing things like shadow catchers
 >- The single best showcase for the simple reason that if people see it runs properly in a game engine they know it's well optimized
 
 >[!info] Sketchfab rendering
@@ -53,6 +66,22 @@ For a render engine to be good at showcasing work to clients and employers, it h
 >
 >A good option for artworks.
 
+## Things to Showcase
+
+ToDo: link some example portfolios
+
+These are some ideas of what one could include in one's portfolio showcase.
+
+- Screenshot of Unreal Engine to show that it's fully game ready
+- Screenshot of layer stack in Substance Painter to show that the textures can easily be adapted
+- Screenshots of node setups in Substance Designer or the compositor as long as they are somewhat complex / relevant
+- Screenshot of the project in the modeling software (make sure outlier is nice and organized). This can show things like baking groups. I recommend doing this more so if Maya was used and maybe not with Blender
+- Screenshot of the high detail mesh in ZBrush. This is less needed and maybe not even representative of the final high as one might have done changes to the model in the modeling software
+- Screenshot or render of the model with UV checker maps
+- Screenshot of the character's game rig or control rig and maybe some weight painting. What one could also do is record a quick video of putting the character into different poses to showcase the weight paint
+- One the main cover render itself one could add an Unreal Engine or Marmoset Toolbag logo watermark as long as it was actually rendered in that software. Artists often do this to show that a model is game ready or in general to show that they are experienced and know what their doing, as many beginner artists will opt to using the modeling software built-in renders (I'm not saying that the built-in renders aren't good or don't have their purpose, but that's the general stigma. An employer will most likely think more of a render if it has an Unreal or Marmoset watermark).
+- An idle animation or any kind of slight movement to make the character feel more dynamic and interesting (of course if one is good at animating, then making a small animation is even better)
+
 ## Render Resolution & Aspect Ratio
 
 Firstly, one should look at what device will be viewing the art. Most displays of PCs, laptops, phones, TVs except for tablets, will have an aspect ratio of exactly 16:9 or be close to that ratio (Most tablets have an aspect ratio of 4:3).
@@ -60,19 +89,18 @@ Firstly, one should look at what device will be viewing the art. Most displays o
 This means that when rendering, it's good to stick with one of these 16:9 resolutions.
 
 - 1280x720 (HD)
-- 1920 x 1080 (2k/Full HD)
-- 2560 x 1440 (QHD/WQHD)
-- 3840 x 2160 (4k/Ultra HD)
-- 7680 x 4320 (8k/Ultra HD)
-- 15360 x 8640 (16k)
+- 1920 x 1080 (2k / Full HD)
+- 2560 x 1440 (QHD / WQHD)
+- 3840 x 2160 (4k / Ultra HD)
+- 7680 x 4320 (8k / Ultra HD)
 
-_(H=High, D=Definition, Q=Quad, W=Widescreen, a meaningless letter added for marketing purposes)_
+_(H=High, D=Definition, Q=Quad, W=Widescreen (a meaningless letter added for marketing purposes))_
 
 
 Then it's important to look at what resolutions are even supported by sites. Mostly you'll want to render in your desired resolution and then downscale it to meet the resolution requirements set by the website one is uploading it to.
 
-||ArtStation|ArtStation Pro|Sketchfab|YouTube
-|:--|:-:|:-:|:-:|:-:
+|-|ArtStation|ArtStation Pro|Sketchfab|YouTube|
+|:--|:-:|:-:|:-:|:-:|
 |**Max size**|10mb|||-
 |**Max resolution**|400 x 400 - 1920 x 1080|400 x 400 - 10k x 10k ||8k
 |**Max clip resolution**|2k|4k|-|-
@@ -120,7 +148,7 @@ To-Do
 
 
 ## Wireframe Rendering
-Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both pre rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag / Unreal Engine best for real-time wireframe showcase and Blender / Marmoset Toolbag best for pre rendered wireframe showcase.
+Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both offline rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag / Unreal Engine best for real-time wireframe showcase and Blender / Marmoset Toolbag best for pre rendered wireframe showcase.
 
 
 >[!info] Marmoset Toolbag wireframe rendering
@@ -232,10 +260,10 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 
 ## Rendering in Marmoset Toolbag
 
-## Rendering with Marmoset Real time Viewer
+## Rendering with Marmoset Real-time Viewer
 To-Do
 
-In Marmoset, one can either pre render shots or go the real-time route with Marmoset Viewer.
+In Marmoset, one can either offline render shots or go the real-time route with Marmoset Viewer.
 
 - Add a camera, the camera location will be the default viewport view
 - Adjust render settings. They are available in the camera tab, Lens and Post Effects but also in export tab. Note that some settings won't carry over into the viewer file, like chromatic aberration

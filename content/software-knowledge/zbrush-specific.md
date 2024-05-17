@@ -1,5 +1,5 @@
 ---
-title: "⚪ ZBrush"
+title: "ZBrush"
 date: 2024-01-10
 enableToc: true
 ---

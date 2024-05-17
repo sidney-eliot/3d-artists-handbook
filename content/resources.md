@@ -3,14 +3,79 @@ title: "Resources"
 enableToc: true
 ---
 
+## Overview
+This is probably one of the most important pages of the handbook, here I'll link to things like character breakdowns, articles, YouTube channels to learn workflows from and more. Instead of having resources spread accross the handbook, I've put them all in one place for easy viewing. 
+
+
+## Portfolio Showcases
+**More Technical**
+- https://www.artstation.com/artwork/B1PLOz
+- https://www.artstation.com/artwork/elwDkJ
+- https://www.artstation.com/artwork/xDkDY2
+- https://www.artstation.com/artwork/qQYmzz
+
+**General**
+- https://www.artstation.com/artwork/49r6Vk
+- https://www.artstation.com/artwork/B124vA
+- https://www.artstation.com/artwork/14bRxq
+- https://www.artstation.com/artwork/zOoGNw
+
+**Marmoset Viewer**
+- https://www.artstation.com/artwork/31kvv
+- https://www.artstation.com/artwork/Ge0L53
+- https://www.artstation.com/emiliesanda  
+
+**Sketchfab**
+
+**Video**
+I collected short 3D character presentation videos in this playlist. These are mostly a turn table animation or some other interesting camera pan over a character.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+**Reels**
+
+## Character Project Breakdowns & Showcases
+These are more informative than the portfolio showcases and go into technical detail on workflows and such.
+
+**Articles**
+- [Real-time Character Production Workflow (Samurai)](https://discover.therookies.co/2021/05/06/real-time-character-production-workflow-for-games/)
+- [Stylized Character Presentation in Toolbag](https://marmoset.co/posts/stylized-character-presentation-in-toolbag/)
+- [Steampunk Huntress](https://3dtotal.com/tutorials/t/3d-character-sculpting-a-guide#article-introduction)
+- [Character Presentation With Animation In Toolbag](https://marmoset.co/posts/level-up-your-character-presentation-with-animation-in-toolbag/)
+- [The Rookies Project Breakdowns](https://www.therookies.co/projects)
+- [Red Leaves](https://www.therookies.co/projects/24395)
+- [The Princess of Ambrosia](https://www.therookies.co/projects/26638)
+- [Eilesti - The Local Druid](https://www.therookies.co/projects/22802)
+- [Skywind - Hlaalu Dresses](https://www.therookies.co/projects/28231)
+- ['Fire and Blood' (Real-time)](https://www.therookies.co/projects/24581)
+- [princess Ira and Amina](https://www.therookies.co/projects/29502)
+
+**Videos**
+
+## YouTube Channels
+
+**For ZBrush**
+<div style="border-radius: 999px;">
+
+|![[Pasted image 20230604224313.jpg\|70]]|[Keos Masons](https://www.youtube.com/@KeosMasons/featured)|![[Pasted image 20230604224506.jpg\|70]]|[Michael Pavlovich](https://www.youtube.com/@MichaelPavlovich)
+|:-:|:-:|:-:|:-:
+|![[Pasted image 20230604225008.jpg\|70]]|[Flipped Normals](https://www.youtube.com/@FlippedNormals)|![[Pasted image 20230604225043.jpg\|70]]| [Royal Skies](https://www.youtube.com/@TheRoyalSkies)
+|![[Pasted image 20230604225154.jpg\|70]]|[Speed Char](https://www.youtube.com/@SpeedChar)|![[Pasted image 20230604225236.jpg\|70]]|[Outgang](https://www.youtube.com/@Outgang)
+|![[Pasted image 20230604225251.jpg\|70]]|[J Hill](https://www.youtube.com/@artofjhill)|![[Pasted image 20230604225307.jpg\|70]]|[Danny Mac](https://www.youtube.com/@DannyMac3d)
+|![[Pasted image 20230604225324.jpg\|70]]|[Folgore CGI](https://www.youtube.com/@TheFolgore94)|![[Pasted image 20230604225338.jpg\|70]]|[Ryan Kingslien](https://www.youtube.com/@RyanKingslienVertexSchool)
+|![[Pasted image 20230604225403.jpg\|70]]|[Pixologic ZBrush](https://www.youtube.com/@PixologicZBrush) 
+
+</div>
+
 
 ## Guide & Article Websites
 - [80LV Articles](https://80.lv/articles/character-art/)
 - [ArtStation Magazine](https://magazine.artstation.com)
 - [ArtStation Guides](https://www.artstation.com/guides)
 - [ArtStation Learning](https://www.artstation.com/learning)
-- [ArtStation Atricles/Blogs](https://www.artstation.com/blog)
+- [ArtStation Atricles / Blogs](https://www.artstation.com/blog)
 - [Marmoset Articles](https://marmoset.co/category/artwork/)
+- [Marmoset Character Creation Articles](https://marmoset.co/category/toolbag-tutorials/character/)
 - [Marmoset Guides](https://marmoset.co/category/community-resources/)
 - [The Rookies Articles](https://discover.therookies.co/)
 - [Polycount Wiki](http://wiki.polycount.com/wiki/Polycount)
@@ -35,9 +100,9 @@ Books:
 - [Anatomy for Sculptors](https://www.amazon.de/Anatomy-Sculptors-Understanding-Human-Figure/dp/1735039063)
 - [Anatomy of Facial Expressions](https://www.amazon.de/Uldis-Zarins/dp/1735039047/)
 - [Anatomy for Artists: A visual guide to the human form](https://www.amazon.de/-/en/3dtotal-Publishing/dp/1912843102/257-4153164-8168430?psc=1)
-- 3dtotal Publishing Books _(for all kinds of topics)_
-- Books by Andrew Loomis _(for anatomy and drawing)_
-- Old Disney Books _(for animation)_
+- 3dtotal Publishing books (for all kinds of topics)
+- Books by Andrew Loomis (for anatomy and drawing)
+- Old Disney books (for animation)
 
 ## Art & Game Dev Related Communities & Forums
 - [Polycount Forum](https://polycount.com/forum)

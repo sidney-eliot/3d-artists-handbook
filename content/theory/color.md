@@ -1,5 +1,5 @@
 ---
-title: "🎨 Color"
+title: "Color"
 enableToc: false
 ---
 
@@ -132,7 +132,7 @@ COLOR|RGB|HEX
 colorfulness, saturation, purity, intensity, luminance
 
 ### Saturation
-Saturation is changed by tint, shade and tone. Saturation is the purity / intensity / brilliance of a color. The higher the saturation of a color, the more vivid and intense it is. The lower a color’s saturation, the closer it's to pure gray on the grayscale. Also chroma
+Saturation is changed by tint, shade and tone. Saturation is the purity / intensity / brilliance of a color. The higher the saturation of a color, the more vivid and intense it is. The lower a color's saturation, the closer it's to pure gray on the grayscale. Also chroma
 
 ### Brilliance & Brightness
 Brilliance judged relative to the maximum brightness possible, whereas brightness is relative to the brightness of a similarly illuminated white object.

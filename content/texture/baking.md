@@ -1,5 +1,5 @@
 ---
-title: "🎛️ Baking"
+title: "Baking"
 enableToc: true
 description: 
 ---
@@ -20,12 +20,13 @@ Marmoset Toolbag yields the best bakes and has the best tools for troubleshootin
 - Not enough texture resolution
 - Bad preparation. [[baking-and-texturing-prep|Baking and Texturing Preparations]]
 
-If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This is indeed such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map from Pyke's mount; Nensi. (I did a slight brightness adjustment for better visualization)
+If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This is indeed such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map from Pyke's mount; Nensi.
 
 ### Example of Riot Games Messing Up Their AO Maps
-If you want to take a look for yourself, you can officially download the model, and it's texture maps for Pyke and Akali from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
+If you want to take a look for yourself, you can officially download the model and texture maps for Pyke and Akali from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
 
 ![[Pasted image 20230604230247.png|500]]
+_(The image was brightend for better visualization)_
 
 
 As you can see, the low mesh face polygons are visible in the AO map. Resulting in nasty grid like lines all across the texture.
@@ -101,7 +102,7 @@ Use low settings for test bakes
 
 
 ### Skews
-Skews is a Marmoset only feature that allows for the normals to be edited real time and immediately shows the re baked result. This however doesn't replace the initial correction of normals.
+Skews is a Marmoset only feature that allows for the normals to be edited real-time and immediately shows the re baked result. This however doesn't replace the initial correction of normals.
 
 Skews can be toggled in the low menu and can be edited there as well. Editing the skew will make it red and make the normal point in a 90° angle from the face. The skew should (if at all) be painted at spots where screws, rivets and other detail is baked.
 

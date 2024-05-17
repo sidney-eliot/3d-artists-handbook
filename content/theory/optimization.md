@@ -1,10 +1,10 @@
 ---
-title: "📊 Optimization"
+title: "Optimization"
 enableToc: true
 ---
 
 ## Performance (Frame Rate)
-Following things will increase performance for real time use.
+Following things will increase performance for real-time use.
 
 These points are roughly all the things one needs to take into consideration when working with the model in a game engine like Unreal Engine or Unity. These tips can however also help for things like Marmoset Toolbag real-time view files as well as making the 3D software viewport smoother.
 

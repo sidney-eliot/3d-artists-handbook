@@ -1,5 +1,5 @@
 ---
-title: "🌆 Composition"
+title: "Composition"
 enableToc: false
 ---
 
@@ -127,7 +127,7 @@ Symmetry signals power and dominance. This is prominently used in buildings, mon
 
 
 #### Full Frame
-Full Frame composition is primarily used for characters and creatures. A great thing about it, is that it can be achieved with basically every finished piece by cropping the sides and doing some small tweaks. Nonetheless, it’s better to prepare for a full frame composition from the beginning, rather than as an afterthought.
+Full Frame composition is primarily used for characters and creatures. A great thing about it, is that it can be achieved with basically every finished piece by cropping the sides and doing some small tweaks. Nonetheless, it's better to prepare for a full frame composition from the beginning, rather than as an afterthought.
 
 ![[Pasted image 20230604161107.png|250]]
 
@@ -143,14 +143,14 @@ Positive space is a subject or point of interest and negative space is the surro
 - _To-Do: Examples_
 
 ### Energy Lines
-Energy lines are found in a character’s pose; however, they can also appear in the environment, like in rivers and roads, for instance.
+Energy lines are found in a character's pose; however, they can also appear in the environment, like in rivers and roads, for instance.
 
 ![[Pasted image 20230604161249.png|450]]
 
 
 ### Guiding Lines
 
-Guiding lines pull the eye along a path toward a specific position; when correctly deployed, they can encourage the viewer’s eye to travel around the image the way the artist envisioned. An all-time favorite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
+Guiding lines pull the eye along a path toward a specific position; when correctly deployed, they can encourage the viewer's eye to travel around the image the way the artist envisioned. An all-time favorite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
 
 
 ![[Pasted image 20230604161413.jpg|450]]
@@ -252,7 +252,7 @@ Moving to the left / right or forward / backward, and so on, can portray differe
 
 
 ## Tilt Shift Camera
-Tilt shift is used to get straight lines in renders / photographs and for panoramas. It’s mainly used in architectural contexts. It can also be employed in compositing, but that’s a worst-case scenario. To do this, the camera should optimally be at an 90° angle, then one changes the shift amount on the desired axis. (In Blender, this is in the camera tab.)
+Tilt shift is used to get straight lines in renders / photographs and for panoramas. It's mainly used in architectural contexts. It can also be employed in compositing, but that's a worst-case scenario. To do this, the camera should optimally be at an 90° angle, then one changes the shift amount on the desired axis. (In Blender, this is in the camera tab.)
 
 
 ![[Pasted image 20230604162416.png|950]]

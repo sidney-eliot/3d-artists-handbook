@@ -1,5 +1,5 @@
 ---
-title: "🔮 Blender Add-ons"
+title: "Blender Add-ons"
 date: 2024-01-09
 enableToc: true
 ---

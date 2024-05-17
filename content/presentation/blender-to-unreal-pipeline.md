@@ -1,19 +1,8 @@
 ---
-title: "🌀 Blender to Unreal Pipeline"
+title: "Blender to Unreal Pipeline"
 enableToc: true
 ---
 
-## Overview
-This pipeline will allow for any character that is rigged in a certain way to be seamlessly imported into Unreal Engine and use pre-made Unreal Engine animations as well as one's own animations. What this pipeline also allows for is for creating character with more arms or maybe more neck bones and still use all the animations from the store as well as one's own animations made for character with a normal skeleton. Through retargeting, any animations, even with totally other skeletons, can be retargeted to yours.
-
-## Some Important Concepts to Understand
-### Correct Pose for Animation Retargeting
-If the rest pose of the source and target don't quite match up, the animations won't perfectly transfer over. There are 3 ways of fixing it. The first way is to make sure that all the characters one makes have the same pose. This is quite unrealistic, though. The second way is to have uefy at export from Blender to match the pose. This has the disadvantage that the model is forcefully put in a slightly different rest pose, which can mess with the model (especially around the crotch and armpit area). The third way is to temporarily give the model a different pose in the IK retargeter, this pose is only for the retargeting of animations, and the character will keep its original rest pose after animation export. This comes with the disadvantage of having to have all animations separate for every character with a different rest pose. All 3 ways have pros and cons. Just be aware that they don't have to perfectly line up. Eyeballing it, is fine. Also, a combination of multiple ways may be the best way.
-   - Way 1: Use a previously made character mesh and when making the character check if the pose matches
-   - Way 2: (in Blender with uefy) [here](https://youtu.be/SAEuZM5Hp0g?t=84)
-   - Way 3: (in Unreal Engine with ik retargeter) [here](https://youtu.be/N7WdyAeeDrw?t=595)
-
-Correcting the pose includes things like having the elbows bent at the right angle, or having the hand rotation match up
 
 ## 1. Install uefy Add-on / Script
 Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python add-on. For the `pro version` simply install the add-on (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It will create the same panel but with less functionality. It's important to know that the `light version` doesn't dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I will describe how to do it both with pro and lite.
@@ -27,8 +16,6 @@ Rigify add-on is also needed, but it's shipped with Blender. If it isn't already
 - **Skeletal Mesh**: Only `false` when "Skeleton" has a skeleton selected, otherwise `true`
 - **Import Mesh**: `true`
 - **Import Animation**: `false`
-
-
 
 ## 4. Quick Clean Up
 Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Materials` `Textures` 
@@ -156,20 +143,6 @@ Resources:
 ### Accessories & Extra Body Parts (Necklaces, Wings, Tails, ...)
 
 
-## Links to Definitely Check Out to Understand How It Works
-- [Unreal explaining skeletons / animation theory 1](https://www.youtube.com/watch?v=FDbpHamn2eY)
-- [Unreal explaining skeletons / animation theory 2](https://www.youtube.com/watch?v=JkcJ5bjGPsg)
-
-## Links to Help When Stuck
-- [Rakiz Farooq's Channel](https://www.youtube.com/@RakizFarooq)
-- [Blender to unreal video](https://www.youtube.com/watch?v=nY4Q8cYBLP8)
-- [Blender to unreal series (UE5)](https://www.youtube.com/watch?v=AhpOrqyGf0o)
-- [Blender to unreal series](https://www.youtube.com/watch?v=O-5MXyKyyhc)
-- [Unreal retargeting (UE5)](https://www.youtube.com/watch?v=_I1ldRuAr74&t)
-- [Blender to unreal series](https://www.youtube.com/watch?v=oZ14vidzSs4)
-- [Blender to unreal video](https://www.youtube.com/watch?v=SAEuZM5Hp0g)
-- [Unreal retargeting (UE5)](https://www.youtube.com/watch?v=N7WdyAeeDrw&t)
-- [Maya to unreal](https://www.youtube.com/watch?v=w3a1oHyxPl8)
 
 
 ## WHAT'S NEXT?
@@ -184,7 +157,7 @@ The next section (not done yet) will cover how to actually use the animation rea
 - Select the mesh called `SKM_Quinn_Simple_LOD0`. And click the uefy button "Extract Mesh" (If you have light version clear parent(Alt+P) instead)
 - Delete all other imported objects
 - Add in an uefy armature (Shift + A > Armature > Uefy Script > Mannequin Metarigs Presets > Quinn89 Metarig / Manny89 Metarig)
-- With the rig selected use the rigify button `Generate Rig` (now there should be a rig and a metarig)
+- With the rig selected use the rigify button `Generate Rig` (now there should be a rig and a meta-rig)
 - Select mesh and shift click on rig and parent with `Armature Deform`
 - The character is now ready to animate. Weight paint corrections are also possible (deform bones for weight painting are on layer 24,25,26)
 

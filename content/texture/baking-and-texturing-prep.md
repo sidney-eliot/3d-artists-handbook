@@ -1,5 +1,5 @@
 ---
-title: "🧭 Baking & Texturing Preparations"
+title: "Baking & Texturing Preparations"
 enableToc: true
 ---
 
@@ -30,13 +30,13 @@ Make sure to follow the concepts mentioned on the [[topology-and-retopology|Topo
 
 >[!tip] Some baking specific topology advice 
 >- Try to keep the silhouette of the high and low mesh as close to each other as possible
->- Try to strategically use SubDiv modifiers. SubDiv modifiers will often be the cause for **badly baked edges**. For parts that don't play a big role in the silhouette SubDiv is fine
->- When possible, try to have as many mesh pieces that aren't connected as the high, connected as the low. This will reduce poly count, increase texture space and make weight painting as well as animating so much easier
+>- Try to merge as many **low** objects together as possible. Not only merging the meshes into the same object, but also connecting the polygons. This will reduce poly count, increase texture space and make weight painting as well as animating so much easier. Every once in a while do a test bake and see if there are objects that need to be separated for clean baking results. Merging the **high** meshes doesn't matter and will only help make the outliner less cultured.
 >- Delete all polygons that aren't seen, sometimes this means adding in a bit of extra edge flow / cuts to remove more faces. This makes the mesh use less texture space, meaning the texel density of all the UVs that are actually seen can be increased. A good trade, totally worth the slight increase in polygons that the cuts may create, as texture space is more valuable than poly count.
 >- Triangulate the high mesh and make sure the low has no Ngons. Every software triangulates differently, so Triangulating in the modeling software instead of auto triangulation in Marmoset will avoid issues. This however comes with the con of not being able to nicely showcase the wireframe. So one should only Triangulate the high. When you notice quads on the low are triangulating badly, manually triangulate those quads in the modeling software. _(If you're using Maya, you may want to lock the mesh normals first, as the mesh normals change upon triangulation.)_
+>- Try to strategically use SubDiv modifiers. SubDiv modifiers will often be the cause for **badly baked edges**. For parts that don't play a big role in the silhouette SubDiv is fine
 
 ## Normals & Shading
-Normals & Shading is very important and will dramatically alter the bake if handled incorrectly. For starters, bakers like Marmoset Toolbag use the normal direction as the baking angle, like shown in this video:
+Normals and shading are very important and will dramatically alter the bake if handled incorrectly. For starters, bakers like Marmoset Toolbag use the normal direction as the baking angle, like shown in this video:
 
 ![[image-2024-01-12-17-18-50.gif]]
 _video by [Marmoset Toolbag](https://marmoset.co/posts/toolbag-baking-tutorial)_
@@ -45,9 +45,11 @@ This will result in normals pointing in the wrong direction like this:
 ![[image-2024-01-12-17-29-22.jpg]]
 _image by [EarthQuake](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details) (1 bad normals, 2 good normals)_
 
-Marmoset Toolbag has a way of somewhat fixing this, by painting on a skew map one can re-orient the normal / skew direction to be at a 90° angle to the face. This solution is however tedious and won't work well on curved surfaces.
+Marmoset Toolbag has a way of somewhat fixing this. By painting on a skew map one can re-orient the normal / skew direction to be at a 90° angle to the face. This solution is however tedious and won't work well on curved surfaces. So try to import the mesh with the best possible skewing, and fix the remaining problematic areas with this method.
 
-More on skewed normals in this Polycount [article](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details). _(I don't fully agree, however, that adding edge loops to control shading is the best solution for the low mesh in the game industry.)_
+More on skewed normals in this Polycount [article](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details). _(I don't fully agree with the statement, that adding edge loops to control shading is the best solution for the low mesh in the game industry.)_
+
+
 
 Other issue that bad normals & shading will cause are square grid patterns in the textures (in the shape of the topology from the low) as well as black spots.
 
@@ -98,7 +100,7 @@ Following things will manipulate normals:
 >[!info] Skews
 >
 >To-Do
->(real time editing of normals)
+>(real-time editing of normals)
 
 ## UV Unwrapping
 
@@ -124,6 +126,8 @@ The name indicates the low and high match, however it doesn't indicate what is p
 >Armor_p014_high_002
 >Armor_p014_high_003
 >Armor_pt015_high
+
+Other things one could add to the name are texture resolution and texture sheet, as well as if the low part doesn't need to be baked.
 
 ## Color ID Mapping
 This is a convenience step which makes masking easier and more precise. T
