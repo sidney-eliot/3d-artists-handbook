@@ -72,7 +72,7 @@ You will need [Obsidian](https://obsidian.md/), which is a completely free note-
 
 **2.** Open Obsidian and click `Open folder as vault`. Then navigate to the "3d-artist-handbook" folder you just downloaded and select the "content" folder inside of it. This will open the "content" folder in Obsidian and all the pages will be there for you to read.<br>
 
-**3.**_(optional)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook". Then open the "3d-artist-handbook" you just downloaded from GitHub, and copy and paste the files inside the "content" folder to the "Offline_3D-Artists-Handbook".
+**3.** _(optional)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook". Then open the "3d-artist-handbook" you just downloaded from GitHub, and copy and paste the files inside the "content" folder to the "Offline_3D-Artists-Handbook".
 
 ---
 
