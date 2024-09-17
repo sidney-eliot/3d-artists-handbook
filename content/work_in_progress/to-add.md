@@ -19,7 +19,7 @@
 - avoid these bevels at all costs (blender bevel outer miter = arc):
 this shape can also happen from subdiv, prevented wit rerouting edges (normally by mergeing the 2 closest verts to the spot)
   ![[image-2023-12-30-23-24-23.png]]
-  bevel order has a lot of strategy, sometimes it's better to bevel edges in sets after eachother instead of all at once
+  bevel order has a lot of strategy, sometimes it's better to bevel edges in sets after each other instead of all at once
 
 - shade flat can help fine shading and topology issues, especial those hidden behind modifiers like subD and bevel
 
@@ -291,3 +291,322 @@ ZBrush makes some methods quite a lot more aluring, for example the zremesher, b
 - https://www.youtube.com/watch?v=imp3j7l6V1U&list=RDCMUCH0FwuoIVHtYsuci4QMEbAA&index=3 (theory of correct cloth folds)
 - https://www.youtube.com/watch?v=cIYHaPO7IRw&list=RDCMUCH0FwuoIVHtYsuci4QMEbAA&index=4 (cloth sculpting in zrbsuh)
 - https://www.youtube.com/watch?v=lopXcsHzVHU&t=1s (The Amazing Sculpting Brush NOBODY Knows About)
+
+Changing Eye colors:
+1.  Saturation adjustment layer + mask with big brush dot covering eye + gaussian blur
+2. Another saturation adjustment layer + arrow hand to select color mistakes in eye (greens) + chnage hue saturation brightness
+
+
+- when making the jaw, make sure to add a roof and bottom, as relying on the mouth cavity in the head mesh is not good.
+
+
+talk about how bones are shaped how they are and why the chain starts with a parent and then moves to children and is universially done in all software
+
+
+Overwrite widget meshes is a must toggle
+
+show how to add a def bone toggle to rigify UI
+
+Instead of using limit constraints simply lock axes
+
+bug where deleting bones remvoes constraints when reverting or even removes them from mirror copy of bone even if mirror is off
+
+
+double mirrors on objects will scre with weight apinting mirror
+
+- after adding new bones into the meta.-rig and regenerATing the control rig, make sure to parent with empty groups agAIn
+
+if ypu r creative softwarwe allows for bypassing the 100% weight limit (which most will), then there are some good use cases for it, which I will cover later
+
+to prevent tentacle psine from sclaing bones in the chain give all children bones a copy scale that copies the scale of the root bone ijn the control rig
+
+
+
+Removed from rigging page:
+
+You might have noticed a problem with what I just said, the **control-rig** and **game-rig**, both want to be bound to the character mesh. This however isn't possible in most software, and Blender can only have one rig bound to a character at a time. So one can't easily switch back to the **control-rig** if one wants to add an animation or tweak the rig. Depending on the workflow that is being used, there are a couple of ways of fixing it, one being the "Switch Parent Armature" option, that comes with the Game Rig Tool add-on, more on that later.
+
+
+
+
+Custom rig imporvements:
+- Add a eye look target for the eye controller
+- Extra hand controls (curl controller is not needed)
+- extra breats bones for breast jiggle
+- have a main toggle to remove stretch features
+
+Constantly keyframing stuff is essential, lost entire day of posing due to this
+
+
+Keeping bones Especially in pKLaces like hair parented but disconnecvted help posing
+
+
+
+Don't rely on clothing to nicely deform with the body, give them some bones with weighting that goes above 100% (with auto normalize off), so it's non destructive and doesn't affect any other deformations
+
+
+Placing topology cuts between materials will give clean transitions between materials no matter how low resolution the texture is
+
+
+never add shadows into base color map, except for on hand painted models, instead add it into the AO map
+
+
+- track to surface bone for clothing acessories
+- marmoset toolbag animation moves incorrectly at a specific spot almost in a jjumpy manor, try removing the action from  the nla and re pushing it to the nla
+
+
+
+frame dopping is a real issue when animating, when unsure that its going on then take a stopwatch and make sure the duration is correct  by dividing the total number of frames by the frame rate
+
+
+For anatomy handbook:
+teth arent fully white they can be yellowish due to many reasons one being that the toth reveals the blod vesseles that flow though it, teeth also seem a lot whiter on people with darker skin tones.
+https://80.lv/articles/001agt-002mrs-organic-art-realistic-subdermal-shaders/
+https://www.youtube.com/watch?v=IquQILcBc_4
+
+
+Watch out when adding normal maps into substance painter layer view, it will automatically give it direct x even if the substance project is set to open gl.
+
+
+
+Normal combination calculation: https://www.youtube.com/watch?v=S9sz00l3FqQ
+
+
+The most minimal blur can fully fix height to normal seams in substance
+
+
+
+Substance: Just because one is painting in the UV view, doesnt mean thatz one cant accidentally paint over object that are in 3d space above the currenty painted object, this is is a silly bug one has to be aware of
+
+Substance can not blur across UV islands
+
+uv unwrap and texture character with eyes closed
+
+
+Important point: seams should never be visible and if they are than its mostly fully the softwares fault and some filter is just not well designed. But thats not to say that one can't fix the softwares shortcomming as an artist.
+
+
+https://actiondawg.itch.io/3dblur
+https://actiondawg.itch.io/
+
+texture with AO off, enable it a couple of times to get a feel
+
+ Never ever export mesh maps, as they are just the the maps you fed to substance painter, and you are better off  using the maps you gave susbat ne in the first place, except for if you want substance to convert them in a image format/ bit depth for you
+
+Substance: L as in 16L signifies bit depth
+
+if normal map is too bright then its color mode is set to sRGB instead of linear
+
+Images like  = roughness, glossiness, metaliness, normal, displace, ambient occlusion. Should use non color aka linear. Photoshop likes to force sRGB which will make these images which are suposed to be in linerar color space look wrong
+
+"Normal maps absolutely have to be in linear space.  
+  
+Other than that, if your gloss/roughness/metalness/etc maps are in linear or sRGB space or how you/paint them is not particularly important. What is important is that if you're authoring the map and previewing somewhere, you should make sure that the final result has the same gamma/linear space option checked.  
+  
+If you're painting a gloss/roughness map, what you see in photoshop has very little relevance. I mean you can make some basic assumptions like X value is brighter than Y, but you can't see the effect of these maps in photoshop, so there is little need to be concerned about authoring them in the "correct" space. You shoud be authoring while previewing with some sort of realtime shader to see the end result. Thus, what color space they are authored or previewed in photoshop doesn't matter.  
+  
+However, for a project wide basis, you should make sure these maps are authored in the same consistent way. If one artist is painting gloss maps in sRGB and another in linear, you'll have problems when people try to create new shaders reusing those assets. So it's best to pick some standards for each map type."
+
+
+"Quite tempted to write a god damn essay to clarify this stuff, but don't have the time or required effort available right now. We tried using a fully linear texture pipeline at my studio and suffice to say : it isn't good, don't do it. Works fucking awesome for film / offline, works horribly in games. Certain data textures should be stored in linear yes (normalmaps mostly) but anything which requires precision in the darker end of the histogram will get royally fucked by trying to use linear  8-bit textures. Banding everywhere.  
+  
+By far the most important thing is that you aren't fucking up your texture inputs by doing unnecessary gamma conversions at any point in your pipeline, cos that breaks everything. What most people do is just author everything in sRGB (gamma space) (except normals which are always linear) and then either in the shader when the texture is loaded OR via hardware support, convert those textures from gamma-space to linear-space (because in general all shader calcs need to be done in linear otherwise everything breaks) and then the renderer processes everything in linear, and converts the final frame back to sRGB before it writes it to the screen.  
+  
+Upon a few minutes reflection, I'd probably say that gloss textures should **absolutely** be authored in linear-space if possible. Because god damn the amount of artifacting I've seen with very glossy materials. Linear would help there. If you're using roughness though, sRGB all the way. it's to do with where in the histogram you need your precision tbh."
+
+
+If possible save the highest  bit depth version of maps like normal and AO only as 24 bit, excluding the alpha channel
+
+
+
+Susbtance Painter: To keep an overview over mask paint layers use following naming conventions, start with color selection, then "fill", "paint", "remvoal fixes" 
+
+
+
+
+Most images cant properly store alpha + emisive on the same pixel. The solution is to either
+
+
+
+shadow terminator:
+https://computergraphics.stackexchange.com/questions/4986/ray-tracing-shadows-the-shadow-line-artifact
+https://polycount.com/discussion/226419/toolbag-4-ray-traced-shadow-artefacts#latest
+
+Just wanted to add my own experience with this issue:  
+
+---
+
+Adding sub-division level in Marmoset: This solution is not practical, as it's a good practice to force triangulate specific quads that aren't very flat and might flip incorrectly, as well as even good retopology models occasionally having tris, which won't yield the best results when subdivided  
+  
+Disabling shadow casting for specific objects: This will fix the issue but depending on the model, will make the shadow lighter/ less and thus worse (one can compensate with AO maps, although they will mostly only carry smaller shadow details)
+
+Disabling self shadow casting for specific objects: This is probably one of the best fixes and is a better version of disabling shadow casting from the object entirely. Sadly Marmoset doesn't have this feature yet
+
+Editing the low to more match the high by adding topology: This is definitely not a good fix, there are things which the low poly detail should be based on like what one can see in the silhouette but ray tracing shouldn't be a reason to massively increase the poly count
+
+Disabling normal map or adding a blank one: Does nothing in regard to this issue
+
+Enabling and editing render Shadow Cascadel: Does nothing in regard to this issue
+
+HDRI: This could be an issue for some, but I still have these issues with the default HDRI
+
+Checking maps like normal and AO for grid like patterns: This can help but in my case is not an issue (proper checking is done in image editing software like PS by adding adjustment layers like exposure to reveal hidden detail)
+
+GPU/ Other Hardware: For any one thinking it might be their hardware, I'm very sure that this is not the case
+
+Changing light intensity, location/ rotation and other light properties: This works but is obviously not desired as one doesn't want to change lighting just for shadow terminators. However, just reducing the intensity by a bit might fully fix the issue, and your lighting might have been to intense/ physically unrealistic anyway. A better option to having super bright lights might be to add more lights or add a HDRI/ let the HDRI take over more of the lighting
+
+---
+
+
+Also, if you have issues with this then your AO maps that you baked with Marmoset might have experienced the same issues. As having a low which is very different from the high, surface wise, will introduce topology imitating grid patterns into the AO map. I however made sure that my topology density on the low mes was good enough to achieve clean AO map bakes, but am still having ray traced shadow terminator issues. 
+
+
+https://gurneyjourney.blogspot.com/2010/02/light-and-form-part-1_15.html
+
+
+
+Marmoset has a limited amount of render passes, to add more simply plug the texture into albedo and activate albedo pass
+
+Never render bloom, instead use mask in PS to capture the bloom areas or use a separate render that only shows blooms spots and add the bloom in PS
+
+
+Light will have problems loghting the eye if a scalera is present and the light is set to cast shadow
+
+
+Rendering though glass for the entire chartacter face isnt that smnArt as detail is lost, a bitter alternative is to have the glass as a shader effect (like overwatch)
+
+
+
+greyboxing
+
+
+ZBrush's move brush has an interesting interaction with Alt
+
+
+Hotkey sheets
+- [BlenderHotkeyReference](https://download.blender.org/documentation/BlenderHotkeyReference.pdf)
+- [Blender Doc](https://docs.blender.org/manual/en/latest/index.html)
+
+ZBrush Projection Master (`G`)
+Ctrl + Alt to assing custom hotkey
+
+
+
+What do they do?
+
+| Hide masked                  | `Ctrl` + `Shift` + `Alt` + `LMB` |                   |
+| :--------------------------- | :------------------------------: | :---------------- |
+| Unhide masked                |     `Ctrl` + `Shift` + `LMB`     | On canvas         |
+
+
+
+
+## ZBrush Curve Insert Brush
+Curve insert brushes are insert brushes that are made in such a way to seamlessly repeat, so they can work with the curve stroke mode. Example of Curve Insert Brushes:
+- Chains
+- Ropes
+- Scribe Chisel
+
+More Curve Settings under:<br>
+
+`Brush > Modifiers`: Mainly to modify the way the curve behaves while being placed
+
+`Stroke > Curve`: Mainly to modify the way the curve behaves in curve edit mode
+
+`Stroke > Curve Functions`: This is where the real power lies with curve brushes
+
+`Stroke > Curve Modifiers`: Here one can change things like taper
+
+|               Function                |                                    Key                                     |                                                                                                                                                                         Notes                                                                                                                                                                         |
+| :-----------------------------------: | :------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|          _**Placing Curve**_          |                                     -                                      |                                                                                                                                                                           -                                                                                                                                                                           |
+|            Snap To Surface            |                                LMB + Shift                                 |                                                                                                                                                                                                                                                                                                                                                       |
+|      _**Editing Placed Curve**_       |                                     -                                      |                                                                                                                                                                           -                                                                                                                                                                           |
+|              Move Curve               |                             LMB Hold on Curve                              | Under `Stroke > Curve` there are some options: To make movement sturdy disable: `Bend Start` / `Bend End`. To make start and end not move at all enable: `Lock Strat` / `Lock End` (For lock to work one or both of the bend settings should be on). `Elastic` / `Liquid` allow for both ends to be moved (Needs one or both of the bend settings on) |
+|           Change Polygroup            |                             LMB Click on Curve                             |                                                                                                                                                                                                                                                                                                                                                       |
+|             Extend Curve              |                         LMB Close to End of Curve                          |                                                                                                                                          If you hover far enough away from the curve a red line will appear                                                                                                                                           |
+| Draw new Curve any point of the Curve |                       LMB Close to Any Part of Curve                       |                                                                                                                                          If you hover far enough away from the curve a red line will appear                                                                                                                                           |
+|           Change Curve Size           |                                                                            |                                                                                                                                                                                                                                                                                                                                                       |
+|            Smoothen Curve             |                         LMB Hold on Curve + Shift                          |                                                                                                                                                                                                                                                                                                                                                       |
+|         Twist / Rotate Curve          |                          LMB Hold on Curve + Ctrl                          |                                                                                                                                                                                                                                                                                                                                                       |
+|     Snap To Surface After Placing     |                           Stroke > Curve `Snap`                            |                                                                                                                                                                                                                                                                                                                                                       |
+|    Confirm / Leave Curve Edit Mode    | LMB Anywhere on SubTool Away From Curve, Stroke > Curve Functions `Delete` |                                                                                                                                                                                                                                                                                                                                                       |
+|      _**Curve Functions Menu**_       |                                     -                                      |                                                                                                                                                                           -                                                                                                                                                                           |
+|    Place Curve Around Mesh Border     |                                  `Border`                                  |                                                                                                                                                                                                                                                                                                                                                       |
+|     Place Curve Around Polygroups     |                                `Polygroups`                                |                                                                                                                                                                                                                                                                                                                                                       |
+|      Place Curve Around Creases       |                              `Creased edges`                               |                                                                                                                                                                                                                                                                                                                                                       |
+
+
+> [!example]- About curves (videos) 
+><div style="text-align: center;"></div>
+>
+>**Curve Tutorial**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BL46Qnef6N0?si=jEikVUNb10RoLskd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+>
+>**Curve Brush Functionality**
+><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9g8NNoc-v3o?si=_NuPMgDNQocLou5H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+---
+
+Hotkeys for add-ons like Hard Ops and Boxcutter can be found in the [[blender-addons|add-ons]] section.
+
+
+
+
+## Blender Animation hotkeys
+
+|                  Function                  |              Key               |                                                                                                                                 Notes                                                                                                                                  |
+| :----------------------------------------: | :----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                **GENERAL**                 |               -                |                                                                                                                                   -                                                                                                                                    |
+|              Start Animation               |            `Space`             |                                                                                                                                                                                                                                                                        |
+|             Move to Next Frame             |  `Arrow Keys Left` / `Right`   |                                                                                                                                                                                                                                                                        |
+|           Move to Next Keyframe            |    `Arrow Keys Up` / `Down`    |                                                                                                                                                                                                                                                                        |
+| Switch between Dope Sheet and Graph Editor |         `Ctrl` + `Tab`         |                                                                                                                                                                                                                                                                        |
+|           Lock / Unlock Channel            |             `Tab`              |                                                                                                                                                                                                                                                                        |
+|             Set Preview range              |              `P`               |                                                                                                                                                                                                                                                                        |
+|            Remove Preview range            |          `Alt` + `P`           |                                                                                                                                                                                                                                                                        |
+|             Auto preview range             |      `Ctrl` + `Alt` + `P`      |                                                                                                                                                                                                                                                                        |
+|               **KEYFRAMES**                |               -                |                                                                                                                                   -                                                                                                                                    |
+|              Insert Keyframe               |  `I` _(added in Blender 4.1)_  | Directly keyframes the selected item. One can keyframe almost everything in Blender, both in the viewport and in the UI. If an item can't be keyframed with `I`, then right click it or click the little diamond beside the field. Keyframed fields are marked yellow. |
+|              Delete Keyframe               |          `Alt` + `I`           |                                                                                                                                                                                                                                                                        |
+|               Keyframe Menu                | `K` _(`I` in pre Blender 4.1)_ |                                                                                     Opens the keyframe menu, which allows for keyframing specific values, like only the rotation.                                                                                      |
+|             Set Keyframe Type              |              `R`               |                                                                                                                                                                                                                                                                        |
+|      Set Keyframe Interpolation Mode       |              `T`               |                                                                                                                                                                                                                                                                        |
+|                Handle Type                 |              `V`               |                                                                                                                                                                                                                                                                        |
+|          Select linked Keyframes           |              `L`               |                                                                                                                                                                                                                                                                        |
+|         Selects Keframes in column         |         `Alt` + `LMB`          |                                                                                                                                                                                                                                                                        |
+|                 **OTHER**                  |               -                |                                                                                                                                   -                                                                                                                                    |
+|                 Add Marker                 |              `M`               |                                                                                                                                                                                                                                                                        |
+|               Rename Marker                |          `Ctrl` + `M`          |                                                                                                                                                                                                                                                                        |
+|               Hide Transform               |              `H`               |                                                                                                                                                                                                                                                                        |
+|         Hide all other Transforms          |         `Shift` + `H`          |                                                                                                                                                                                                                                                                        |
+|           Unhide all Transforms            |          `Alt` + `H`           |                                                                                                                                                                                                                                                                        |
+|             F-Curve Modifiers              |     `Ctrl` + `Shift` + `M`     |                                                                                                                                                                                                                                                                        |
+|             Extrapolation mode             |         `Shift` + `E`          |                                                                                                                                                                                                                                                                        |
+
+
+
+Maya to add:
+- Shelf in Maya and adding items like scripts
+- G
+- Alt + D
+- Alt + F9
+- Q + LMB menu
+- Alt + Shift + D
+- view layer
+- book marks (bookmarks vs selection sets?)
+- end action quicker by pressing Y instead of Enter
+- 3 methods of exiting tools, Enter Y, T and Q, not all of them work with every tool
+- one can use attribute editor to change stuff like old bevels
+- grayed out fields are locked attributes, they can be unlocked with RMB but mostly they have been locked because the option doesn't work as intended in that Maya version
+- mmb with move tool
+- green surface means no shading group (look into materials and shading groups https://www.youtube.com/watch?v=gDif305TsoU)
+- Enable use all light to get siluette
+
+ZBrush: fit mesh to view is amazing
+
+Blender: hold alt with most tools to navigate

@@ -11,8 +11,8 @@ h2, h3 { text-align: center; }
 </style>
 ![[banner_substance_designer.jpg]]
 
-|Function|Key|Notes
-|:-:|:-:|:-:
+|Function|Key|Notes|
+|:-:|:-:|:-:|
 |Rotate HDRI|**`Shift`** + **`Ctrl`** + **`RMB`**
 |Standard mode|**`1`**
 |Material mode|**`2`**

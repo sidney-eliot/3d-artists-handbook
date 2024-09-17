@@ -260,6 +260,8 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 
 ## Rendering in Marmoset Toolbag
 
+Create a couple of cameras and give them some names based on what shots they'll be for. Then switch to one of those cameras with the camera drop down list. Moving the viewport now, will affect the selected camera's shot. To see the render region of a camera, enable `Safe Frame` _(Camera Options > Lens > Safe Frame)_, increasing the `Frame Opacity` can help get a better understanding of how the final shot will look like.  
+
 ## Rendering with Marmoset Real-time Viewer
 To-Do
 

@@ -3,8 +3,8 @@ title: "Home"
 description: "This handbook covers all stages of the 3D creation process, as well as the theory side of things. Helpful for 2D artists as well."
 enableToc: false
 ---
-## Hi
-I'm [Sidney](https://github.com/sidney-eliot), a 3D character artist, and this knowledge pool is for me, you, and everyone else.
+## Introduction
+Hi👋 I'm [Sidney](https://github.com/sidney-eliot), a 3D character artist, and this knowledge pool is for me, you, and everyone else.
 
 
 > [!info]- More about this handbook
@@ -13,7 +13,7 @@ I'm [Sidney](https://github.com/sidney-eliot), a 3D character artist, and this k
 > 
 > My goal with this handbook isn't to cover entry level stuff. Rather, the methods and workflows I explore are mainly industry standard; following them will yield great results. A perfect example of this would be the [[baking| baking]] page, in which I demonstrate how even amazing studios, like Riot Games, don't always have the best approaches to difficult problems.
 
-This is probably best suited for intermediate and advanced 3D artists. If you're a 2D artist, then you might find something interesting [[#All Things from This Handbook Relevant for 2D Artists|here]]. My 3D workflow mostly consists of the following software: [Blender](https://www.blender.org/features/), [ZBrush](https://pixologic.com/), [Marmoset Toolbag](https://marmoset.co/toolbag/), [Substance Painter](https://www.adobe.com/products/substance3d-painter.html), [Photoshop](https://www.adobe.com/products/photoshop.html) and [Unreal Engine](https://www.unrealengine.com/en-US/features). Therefore, this handbook will cover workflows in the software listed above, but many of the concepts are universal and can be applied to other software, as well.
+This is probably best suited for intermediate and advanced 3D artists with the focus being on game art. If you're a 2D artist, then you might find something interesting [[#All Things from This Handbook Relevant for 2D Artists|here]]. My 3D workflow mostly consists of the following software: [Blender](https://www.blender.org/features/), [ZBrush](https://pixologic.com/), [Maya](https://www.autodesk.com/products/maya), [Plasticity](https://www.plasticity.xyz/), [Marmoset Toolbag](https://marmoset.co/toolbag/), [Substance Painter](https://www.adobe.com/products/substance3d-painter.html), [Photoshop](https://www.adobe.com/products/photoshop.html) and [Unreal Engine](https://www.unrealengine.com/en-US/features). Therefore, this handbook will cover workflows in the aforementioned software, but many of the concepts are universal and can be applied to other software, as well.
 
 If you don't understand a term, give the [[glossary|glossary]] a visit.
 
@@ -44,7 +44,7 @@ _Some parts of this handbook are still a work in progress, and those parts are d
 >[[art-software|Art Software]]
 > 
 > ### Mesh
->[[modeling-and-sculpting|🧊🗿 Organic Sculpting & Hard Surface Sculpting & Modeling]]<br>
+>[[modeling-and-sculpting|🧊🗿 Organic / Hard Surface Sculpting & Modeling]]<br>
 >[[workflow-between-zbrush-and-blender|🌀 Workflow between ZBrush & Blender]]<br>
 >[[sculpting-in-blender|🟠 Sculpting in Blender]]<br>
 >[[hair|💇🏽‍♀️ Hair]]<br>

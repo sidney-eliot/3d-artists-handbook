@@ -64,6 +64,7 @@ Kushiro has many great [add-ons](https://kushiro.gumroad.com/) which are showcas
 - **Cell Fracture** _(Destroy objects)_ - [[Documentation](https://docs.blender.org/manual/en/latest/addons/object/cell_fracture.html)] - (Built-in)
 - [**Screencast Keys**](https://github.com/nutti/Screencast-Keys) - (free)
 - [**UnBeveler**](https://emineemin.gumroad.com/l/euvhf) - (free)
+- **[Orient and Origin to Selected](https://extensions.blender.org/add-ons/orient-and-origin-to-selected/)** - (free)
 
 ## Sculpting
 I don't use Blender sculpting add-ons anymore because I sculpt in ZBrush.
@@ -79,10 +80,12 @@ For rigging in Blender, you need one of these two add-ons. They are even helpful
 - [**Auto Rig Pro**](https://artell.gumroad.com/l/auto-rig-pro) - (\$\$$)
 
 ## Animation
+- **[Relative Ease](https://fedeparodi.gumroad.com/l/relative-ease)** (Helps with creating snappy and modern animations.) - (free)
+- **[Commotion](https://extensions.blender.org/add-ons/commotion/)** - (Animation offset tools) (free)
 
 ## Texturing
 _I don't do texturing in Blender._
-- [**DECALmachine**](https://machin3.gumroad.com/l/DECALmachine) _(Add hardsurface detail as textures)_ - [[Documentation](https://machin3.io/DECALmachine/docs/)] - (\$\$$)
+- [**DECALmachine**](https://machin3.gumroad.com/l/DECALmachine) _(Add hard surface detail as textures)_ - [[Documentation](https://machin3.io/DECALmachine/docs/)] - (\$\$$)
 - **Bpainter** - _removed by creator_
 
 ## Asset, Material, HDRI
@@ -101,6 +104,7 @@ I don't use any of these anymore because I've switched to Substance Painter, Mar
 - [**`UV Squares`**](https://github.com/Radivarig/UvSquares) - (free)
 - [**Dream UV**](https://github.com/leukbaars/DreamUV) - (free)
 - [**TexTools**](https://github.com/franMarz/TexTools-Blender) - (free)
+- [Selects all UV islands on one UDIM](https://extensions.blender.org/add-ons/selectsallislandsudim/) - (free)
 
 ## Node
 - **`Node Wrangler`** _(Node managing tool)_ - [[Documentation](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html)] - (Built-in)
@@ -168,3 +172,6 @@ I haven't used any of these enough, but they seem interesting.
 - [RealCloud](https://caseysheep.gumroad.com/l/oeltj)
 - [Stylized Tree And Plants Library Flora Paint](https://caseysheep.gumroad.com/l/flora-paint-stylized-tree-and-plants-library)
 - BMesh
+- ND
+- Import Autodesk MAX
+- Ucupaint

@@ -56,6 +56,9 @@ Marmoset Toolbag, Unreal Engine, Substance Painter, Blender, Davinchi Resolve.
 Marmoset Toolbag 
 Camera > Post Effect > Tone Mapping > ACES
 
+Substance Painter
+ToDo
+
 https://community.adobe.com/t5/substance-3d-painter-discussions/aces-in-painter-vs-marmoset-doesn-t-look-the-same/m-p/12562370
 
 Unreal Engine

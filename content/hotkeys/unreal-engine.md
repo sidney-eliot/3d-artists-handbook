@@ -11,49 +11,49 @@ h2, h3 { text-align: center; }
 </style>
 
 ## Navigation & Transformation
-|Function|Key|Notes
-|:-:|:-:|:-:
-|Navigate|**`WASD`** + **`MB`**
-|Stick to object|**`Shift`**
-|Focus Selected|**`F`**
-|Move / Rotate / Scale mode|**`W / E / R`**
+|          Function          |          Key          |
+| :------------------------: | :-------------------: |
+|          Navigate          | **`WASD`** + **`MB`** |
+|      Stick to object       |      **`Shift`**      |
+|       Focus Selected       |        **`F`**        |
+| Move / Rotate / Scale mode |    **`W / E / R`**    |
 
 
 ## Visibility
-|Function|Key|Notes
-|:-:|:-:|:-:
-|Toggle environment visibility|**`I`**
-|Toggle floor visibility|**`O`**
-|Game View|**`G`**
+|           Function            |   Key   |
+| :---------------------------: | :-----: |
+| Toggle environment visibility | **`I`** |
+|    Toggle floor visibility    | **`O`** |
+|           Game View           | **`G`** |
 
 ## Interface
-|Function|Key|Notes
-|:-:|:-:|:-:
-|Content Drawer|**`Ctrl`** + **`Space`**
-|Maximize Viewport|**`F11`**
-|UI Scale Adjustment|**`Ctrl`** + **`Shift`** + **`W`**
-|Show FPS|**`Ctrl`** + **`Shift`** + **`H`**
-|Show Stats|**`Shift`** + **`L`**
-|Find Object|**`Ctrl`** + **`F`**
+|      Function       |                Key                 |
+| :-----------------: | :--------------------------------: |
+|   Content Drawer    |      **`Ctrl`** + **`Space`**      |
+|  Maximize Viewport  |             **`F11`**              |
+| UI Scale Adjustment | **`Ctrl`** + **`Shift`** + **`W`** |
+|      Show FPS       | **`Ctrl`** + **`Shift`** + **`H`** |
+|     Show Stats      |       **`Shift`** + **`L`**        |
+|     Find Object     |        **`Ctrl`** + **`F`**        |
 
 ## Modes
-|Function|Key|Notes
-|:-:|:-:|:-:
-|Select Mode|**`Q`**
+|  Function   |   Key   |
+| :---------: | :-----: |
+| Select Mode | **`Q`** |
 
 
 ## Other
-|Function|Key|Notes
-|:-:|:-:|:-:
-|Duplicate|**`Alt`** + **`LMB`**
-|Open File|**`F1`**
-|Rename|**`F2`**
-|Toggle post processing|**`P`**
-|Redo|**`Ctrl`** + **`Y`**
-|Real-time|**`Ctrl`** + **`R`**
-|Multi Scale Tool|??? Ctrl + M
-|Group / Ungroup|**`Ctrl / Shift`** + **`G`**
-|Create Folder|**`Ctrl`** + **`Shift`** + **`N`**
+|        Function        |                Key                 |
+| :--------------------: | :--------------------------------: |
+|       Duplicate        |       **`Alt`** + **`LMB`**        |
+|       Open File        |              **`F1`**              |
+|         Rename         |              **`F2`**              |
+| Toggle post processing |              **`P`**               |
+|          Redo          |        **`Ctrl`** + **`Y`**        |
+|       Real-time        |        **`Ctrl`** + **`R`**        |
+|    Multi Scale Tool    |            ??? Ctrl + M            |
+|    Group / Ungroup     |    **`Ctrl / Shift`** + **`G`**    |
+|     Create Folder      | **`Ctrl`** + **`Shift`** + **`N`** |
 
 
 

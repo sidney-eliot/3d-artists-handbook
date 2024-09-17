@@ -6,6 +6,21 @@ enableToc: true
 ## Overview
 This is probably one of the most important pages of the handbook, here I'll link to things like character breakdowns, articles, YouTube channels to learn workflows from and more. Instead of having resources spread accross the handbook, I've put them all in one place for easy viewing. 
 
+## YouTube Channels
+
+**For ZBrush**
+
+<div style="border-radius: 999px;">
+
+|![[Pasted image 20230604224313.jpg\|70]]|[Keos Masons](https://www.youtube.com/@KeosMasons/featured)|![[Pasted image 20230604224506.jpg\|70]]|[Michael Pavlovich](https://www.youtube.com/@MichaelPavlovich)
+|:-:|:-:|:-:|:-:
+|![[Pasted image 20230604225008.jpg\|70]]|[Flipped Normals](https://www.youtube.com/@FlippedNormals)|![[Pasted image 20230604225043.jpg\|70]]| [Royal Skies](https://www.youtube.com/@TheRoyalSkies)
+|![[Pasted image 20230604225154.jpg\|70]]|[Speed Char](https://www.youtube.com/@SpeedChar)|![[Pasted image 20230604225236.jpg\|70]]|[Outgang](https://www.youtube.com/@Outgang)
+|![[Pasted image 20230604225251.jpg\|70]]|[J Hill](https://www.youtube.com/@artofjhill)|![[Pasted image 20230604225307.jpg\|70]]|[Danny Mac](https://www.youtube.com/@DannyMac3d)
+|![[Pasted image 20230604225324.jpg\|70]]|[Folgore CGI](https://www.youtube.com/@TheFolgore94)|![[Pasted image 20230604225338.jpg\|70]]|[Ryan Kingslien](https://www.youtube.com/@RyanKingslienVertexSchool)
+|![[Pasted image 20230604225403.jpg\|70]]|[Pixologic ZBrush](https://www.youtube.com/@PixologicZBrush) 
+
+</div>
 
 ## Portfolio Showcases
 **More Technical**
@@ -27,12 +42,13 @@ This is probably one of the most important pages of the handbook, here I'll link
 
 **Sketchfab**
 
-**Video**
-I collected short 3D character presentation videos in this playlist. These are mostly a turn table animation or some other interesting camera pan over a character.
+**Video**<br>
+I collected short 3D character presentation videos in this playlist. These are mostly turn table animations or some other interesting camera pan over a character.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLveghVPT3X7bzbViFXOMNKP5IQqLDzr1f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Reels**
+
 
 ## Character Project Breakdowns & Showcases
 These are more informative than the portfolio showcases and go into technical detail on workflows and such.
@@ -51,23 +67,6 @@ These are more informative than the portfolio showcases and go into technical de
 - [princess Ira and Amina](https://www.therookies.co/projects/29502)
 
 **Videos**
-
-## YouTube Channels
-
-**For ZBrush**
-<div style="border-radius: 999px;">
-
-|![[Pasted image 20230604224313.jpg\|70]]|[Keos Masons](https://www.youtube.com/@KeosMasons/featured)|![[Pasted image 20230604224506.jpg\|70]]|[Michael Pavlovich](https://www.youtube.com/@MichaelPavlovich)
-|:-:|:-:|:-:|:-:
-|![[Pasted image 20230604225008.jpg\|70]]|[Flipped Normals](https://www.youtube.com/@FlippedNormals)|![[Pasted image 20230604225043.jpg\|70]]| [Royal Skies](https://www.youtube.com/@TheRoyalSkies)
-|![[Pasted image 20230604225154.jpg\|70]]|[Speed Char](https://www.youtube.com/@SpeedChar)|![[Pasted image 20230604225236.jpg\|70]]|[Outgang](https://www.youtube.com/@Outgang)
-|![[Pasted image 20230604225251.jpg\|70]]|[J Hill](https://www.youtube.com/@artofjhill)|![[Pasted image 20230604225307.jpg\|70]]|[Danny Mac](https://www.youtube.com/@DannyMac3d)
-|![[Pasted image 20230604225324.jpg\|70]]|[Folgore CGI](https://www.youtube.com/@TheFolgore94)|![[Pasted image 20230604225338.jpg\|70]]|[Ryan Kingslien](https://www.youtube.com/@RyanKingslienVertexSchool)
-|![[Pasted image 20230604225403.jpg\|70]]|[Pixologic ZBrush](https://www.youtube.com/@PixologicZBrush) 
-
-</div>
-
-
 ## Guide & Article Websites
 - [80LV Articles](https://80.lv/articles/character-art/)
 - [ArtStation Magazine](https://magazine.artstation.com)
@@ -109,7 +108,7 @@ Books:
 - [Unreal Forum](https://forums.unrealengine.com/)
 - [ZBrush Central Forum](https://www.zbrushcentral.com/c/zbrush-help/6)
 - [Blender Stack Exchange](https://blender.stackexchange.com/)
-- Discord servers like: Blender Community (there are 2 separate servers with the same name), Create with Clint, 3D Modeling, Blender Discord, Trent's Art Community, 3D Art Discord
+- Discord servers like: Blender Community (there are 2 separate servers with the same name), Create with Clint, 3D Modeling, Blender Discord, Trent's Art Community, 3D Art Discord, ...
 
 >[!example] Subreddits
 >
@@ -136,7 +135,7 @@ Books:
 
 
 ## 3D Model Websites
-For learning purposes it can be a great help to look at and dissect models from games and other artist.
+For learning purposes it can be a great help to look at and dissect models from games and other artists.
 
 - [Cubebrush](https://cubebrush.co/marketplace?resource=3D%20assets&exclude_category=Game%20ready)
 - [Flipped Normals](https://flippednormals.com/)
@@ -155,6 +154,8 @@ For learning purposes it can be a great help to look at and dissect models from 
 - Turbo squid (one of the worst HTML sites I've come across)
 - Nexus mods (reverse engineering mods with tools)
 - [Adobe Substance Assets](https://substance3d.adobe.com/community-assets)
+- [League of Legends models like Akali and Pyke officially downloadable from Riot](https://www.riotgames.com/en/artedu/character-art)
+- [Zenless Zone Zero character models officialy downloadable from miHoYo](https://80.lv/articles/grab-official-zenless-zone-zero-mmd-models-for-free/)
 
 ## Other Asset Websites
 - [ZBrush Assets](https://pixologic.com/zbrush/downloadcenter/alpha/)

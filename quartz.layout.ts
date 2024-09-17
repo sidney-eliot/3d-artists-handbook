@@ -53,12 +53,11 @@ export const defaultContentPageLayout: PageLayout = {
         sortFn: (a, b) => {
           const nameOrderMap: Record<string, number> = {
 		  	resources: 100,
-            hotkeys: 101,
             theory: 200,
             "theory/glossary": 201,
             "theory/composition": 202,
             "theory/technical-side-of-character-design": 203,
-            "theory/artistic-side-of-character-design": 204,
+			
             "theory/topology-and-retopology": 205,
             "theory/optimization": 206,
             "theory/color": 207,
@@ -96,6 +95,7 @@ export const defaultContentPageLayout: PageLayout = {
             extra: 1000,
             "extra/2d-art-resources": 1001,
             "extra/model-part-names": 1002,
+			hotkeys: 1050,
             "my-setup": 1100,
           }
 

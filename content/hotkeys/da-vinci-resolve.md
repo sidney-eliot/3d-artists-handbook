@@ -12,4 +12,4 @@ h2, h3 { text-align: center; }
 
 | Function  |           Key            | Notes |
 | :-------: | :----------------------: | :---: |
-| Add nodes | **`Ctrl`** + **`Space`** |
+| Add nodes | `Ctrl` + `Space` |

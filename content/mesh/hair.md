@@ -58,9 +58,9 @@ To avoid repetition in textures used for strands, a couple of materials are crea
 
 Hair cards are great for games because of its low tris count and working well with physics and animation. The poly count vastly depends on hairstyle, can range from 1k tris to 10k tris.
 
-|Tris|Character
-|:-:|:-:
-|100k|Alloy's hair from Horizon Zero Dawn
+| Tris |              Character              |
+| :--: | :---------------------------------: |
+| 100k | Alloy's hair from Horizon Zero Dawn |
 
 
 It's used for both hyperrealistic and stylized hair.

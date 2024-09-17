@@ -47,7 +47,7 @@ Some good brushes: Dirt 1, Dirt 2, Cement 1
 
 A look at the skin layers on a purely visual level.
 
-|   Group   |       Skin Layers        | Color                      | Properties                             | Thickness                                   |
+|   Group   |       Skin Layers        | Color                      | Purpose / Properties                   | Thickness                                   |
 | :-------: | :----------------------: | -------------------------- | -------------------------------------- | ------------------------------------------- |
 | Epidermal |     Stratum Corneum      | Translucent, White         | dead cells, color pigment cells, water | 0.02 mm                                     |
 | Epidermal |        Epidermis         | Skin Color (from melanin)  |                                        | 0.04 - 0.13 mm                              |

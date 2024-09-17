@@ -43,7 +43,7 @@ _video by [Marmoset Toolbag](https://marmoset.co/posts/toolbag-baking-tutorial)_
 
 This will result in normals pointing in the wrong direction like this:
 ![[image-2024-01-12-17-29-22.jpg]]
-_image by [EarthQuake](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details) (1 bad normals, 2 good normals)_
+(1 bad normals, 2 good normals) _image by [EarthQuake](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details)_
 
 Marmoset Toolbag has a way of somewhat fixing this. By painting on a skew map one can re-orient the normal / skew direction to be at a 90° angle to the face. This solution is however tedious and won't work well on curved surfaces. So try to import the mesh with the best possible skewing, and fix the remaining problematic areas with this method.
 
@@ -108,10 +108,12 @@ Look at the [[uv-mapping|UV Mapping]] page.
 
 
 ## Naming Conventions
-The name indicates the low and high match, however it doesn't indicate what is put on the same atlas, that depends on what was exported together in the same file. Numbers can be added to match more highs with a low. Use batch renamer to rename objects.
-- Needs to end with "**..._low**" or can also be "**..._low_...**" (Marmoset)
-- Not case-sensitive
-- 1/01/001 all works as long as it's consistent
+The name indicates the low and high match, however it doesn't indicate what is put on the same texture atlas, that depends on what was exported together in the same file or what material was assigned to the objects. One can also add further numbers at the end to indicate that multiple highs match with one specific low and vice versa. Use software built-in batch re-namers to quickly rename everything _(Ctrl + F2 in Blender)_.
+
+Some of the naming conventions are:
+- End with "**...low**" or can also be "**...low...**", and same for "high" (Marmoset)
+- Keywords like "low" and "high" aren't case-sensitive
+- 1 / 01 / 001 all work for numbering as long as it's consistent, but it's good to pad the number with one or two zeros as a suffix, so the object sorting in a scene is the same in every software (An 11 could be sorted above an 8, as 8 comes after 1, but some software might be smart enough to notice that they are a number sequence and sort 8 before 11.)
 - Adding no number is fine if there's only one low and high
 
 >[!example] For example
@@ -127,12 +129,10 @@ The name indicates the low and high match, however it doesn't indicate what is p
 >Armor_p014_high_003
 >Armor_pt015_high
 
-Other things one could add to the name are texture resolution and texture sheet, as well as if the low part doesn't need to be baked.
+Other things one could add to the name would be helpful descriptors like texture resolution and texture sheet number, as well as if the low part doesn't need to be baked.
 
 ## Color ID Mapping
-This is a convenience step which makes masking easier and more precise. T
-
-Color ID mapping is a convenience step. The color ID maps save time down the line and can get more precise texturing results. Note however that they can also have the opposite effect because of having to fiddle with masking the colors and the initial setup needed to be able to render them. For more organic models, hand painting masks while texturing is often faster without a drop in quality. So in general, doing this step is up to personal preference.
+Color ID mapping is a convenience step which makes masking in the texturing phase easier and more precise, yielding better results. Note however that they can also have the opposite effect because of having to fiddle with masking the colors and the initial setup needed to be able to render them. For more organic models, hand painting masks while texturing is often faster without a drop in quality. So in general, doing this step depends on personal preference and the project at hand.
 
 When baking the color ID maps, make sure the colors are flat, so no [[glossary#Anti-Aliasing|anti-aliasing]]. If the baker doesn't support that, Substance Painter has a tolerance slider for the ID map, which is fine as a last resort. The colors should also be as unique as possible from each other.
 

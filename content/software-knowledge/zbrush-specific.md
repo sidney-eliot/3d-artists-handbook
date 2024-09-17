@@ -121,27 +121,21 @@ There is however one quality of life issue, **alphas** lack in ZBrush. **Alphas*
 Here **your custom brushes** are stored, that **load on startup** into the Brush Menu (B hotkey). Only put brushes in here that are often used.
 
 >[!info] Your custom brushes
-><b>
+>
 >"YOUR-PROGRAM-FILES"\Zbrush\ZStartup\BrushPresets
-></b>
-><br><br>
 
 
 Here the **default ZBrush brushes** ZBrush ships with are stored, that **load on startup** into the Brush Menu (B hotkey). Don't touch this folder.
 
 >[!info] Default ZBrush brushes
-><b>
+>
 >...\ZBrush"YEAR"\ZData\BrushPresets
-></b>
-><br><br>
 
 Brushes that are put in the **Lightbox** brush tab are only **loaded when selected**, thus not bloating the project file. Added to that, you can create your own folder hierarchy inside the Lightbox brush tab, to organize your brushes.
 
 >[!info] Lightbox menu brushes
-><b>
+>
 >...\Zbrush\ZBrushes
-></b>
-><br><br>
 
 ### Insert Mesh Brush
 This is a brush that contains one or more meshes to chose from. These meshes can then be placed on the SubTool's surface, or perform boolean operations.

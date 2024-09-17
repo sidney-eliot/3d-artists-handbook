@@ -512,6 +512,18 @@ ToDo(things to cover):
 
 ---
 
+### Subdivision Surface
+
+_[Wikipedia](https://en.wikipedia.org/wiki/Subdivision_surface)_
+
+**Subdivision Surface** (also referred to as **Subdivisions**, **Subsurf** and **SubD**) is a basic algorithm which adds poly density by dividing every face on a mesh into 4 smaller faces. As a result, it will work much better with nice quad based topology.  Something else to take into regard, is that the times 4 is and exponential addition, so the poly count can quickly get out of hand if to many level of subdivision are added, which can make the software laggy or result in a crash.
+
+There are many different variants of the subdivision surface algorithm and can be split into two categories. The Interpolating schemes match the original position of the vertices, while the approximating schemes modify the position of the vertices, allowing for stuff like smooth surfaces.
+
+The most common one is the [Catmull and Clark](https://en.wikipedia.org/wiki/Catmull-Clark_subdivision_surface)  algorithm. It nicely smooths the surface more and more with every subdivision level and is used in pretty much every 3D software.
+
+Subdivision make the mesh harder to work with and are mostly destructive, so software often use dynamic subdivision methods which can be edited and disabled on a whim. Other software like ZBrush opt into a more complex method where changes made on every subdivision level are stored individually allowing for sculpting of fine details like pores on a high subdivision level, while being bale to go back down to a lower level to modify the broader shape, while keeping the small detail intact.
+
 ### Poles
 There are two types of poles, N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
 
