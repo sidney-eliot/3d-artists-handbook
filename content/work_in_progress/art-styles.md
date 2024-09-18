@@ -1,8 +1,9 @@
 ---
-title: "Anime Styled Characters"
+title: Art Styles
 enableToc: false
 ---
 
+## Anime Styled Characters
 ## Overview
 I haven't done much yet with anime styled characters, but nonetheless here are some good resources.
 

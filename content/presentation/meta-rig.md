@@ -2,10 +2,10 @@
 title: Meta-Rigs
 enableToc: true
 ---
-
+## 🚧Work in Progress🚧
 ## Foreword
 
-Meta-rig creation is such a vast topic, that it deserves its own page. For more information about how meta-rigs slot into the field of rigging, take a look at the overarching [[rigging|rigging]] page.
+For more information about how meta-rigs slot into the field of rigging, take a look at the overarching [[rigging|rigging]] page.
 
 As a quick recap from what was said on the [[rigging|rigging]] page, the purpose of meta-rigs is to act as blueprints for control-rigs. Any improvement one might have in mind for the control-rig, is something that one has to change in the meta-rig.
 

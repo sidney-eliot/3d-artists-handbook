@@ -19,7 +19,8 @@ Always keep your project files organized. And use the same folder structure amon
 
 >[!example] Example
 >📂Modeling-Sculpting<br>
->📂Blender<br>
+>└── 📂Blender<br>
+>└── 📂Blender<br>
 >└── 📂ZBrush<br>
 >└── 📂Exports<br>
 >📂Ref<br>
@@ -28,12 +29,6 @@ Always keep your project files organized. And use the same folder structure amon
 >└── 📂MarmosetToolbag<br>
 >└── 📂SubstancePainter<br>
 >└── 📂3DCoat<br>
-
-## My Setup for Sculpting & Texturing
-For sculpting and texturing, I use a keyboard in my left hand and my drawing tablet with my right hand. Having the 3D software open on the drawing tablet and reference on my main monitor and my mouse close by for when I have to do something on the monitor.
-
-## My Setup for Modeling
-For modeling I use my keyboard, mouse and monitor.
 
 ## The Hardware I Use
 - **Huion Kamas 22 Plus** _(21.5 inch - 1920 x 1080 (16:9) - 60Hz -140% sRGB Color Gamut (QLED) - Etched Anti-Glare Glass - Fully Laminated - 1200:1 Contrast Ratio)_

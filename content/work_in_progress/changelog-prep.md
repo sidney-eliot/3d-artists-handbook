@@ -23,3 +23,7 @@ A lot of small fixes across many of the pages.
 ---
 
 View the newest version of the handbook at [https://sidney-eliot.github.io/3d-artists-handbook](https://sidney-eliot.github.io/3d-artists-handbook)
+
+
+
+1.1.0

@@ -2,8 +2,6 @@
 title: "Composition"
 enableToc: false
 ---
-
-
 ## Table of Contents
 
 - [[composition#Focal Elements and Emphasis|Focal Elements and Emphasis]]

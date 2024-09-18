@@ -165,24 +165,14 @@ Correcting the pose includes things like having the elbows bent at the right ang
 
 ## Meta-Rig
 
-Meta-rig creation is such a vast topic, that it deserves its [[meta-rig|own page]]. 
-
-[[meta-rig|Meta Rig]]
-
-
-
+_Work in Progress_
 
 ## Control-Rig
 
 ### Poles
 Poles help IK set-ups point in the correct direction. The two main IK setups are for the knee and elbow. Rigify will hide poles in the control-rig, to reveal them select either one of the upper arm or leg arrow controls in pose mode. Then turn on `Toggle Pole` _(Sidebar > Item)_. For the knee, the pole should point perfectly straight forward. If the pole isn't in that position, then there are two options of fixing it. One can fix the bone `Roll` and bone location in edit mode on the meta-rig, which is often not possible as one would then be changing the knee rotation point and thus make the control-rig worse. Or simply move the poles on the control-rig in edit mode to the correct location, which has the only disadvantage that one has to redo this action every time one re-generates the control rig.
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-https://blender.stackexchange.com/questions/253635/auto-rig-pro-knees-bent-backwards
-
 ### Broken Control-Rig
-After generating the control-rig, there are a handfull of things that can break during generation or be broken in the generated control-rig.
+After generating the control-rig, there are a handful of things that can break during generation or be broken in the generated control-rig.
 
 The knee poles should be pointing perfectly straight forward, if they don't then either the bone roll has changed, and they aren't 0 anymore, or the leg bones aren't in a straight line on the X axis.
 

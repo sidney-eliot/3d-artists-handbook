@@ -610,3 +610,8 @@ Maya to add:
 ZBrush: fit mesh to view is amazing
 
 Blender: hold alt with most tools to navigate
+
+
+
+talk about this
+https://blender.stackexchange.com/questions/253635/auto-rig-pro-knees-bent-backwards

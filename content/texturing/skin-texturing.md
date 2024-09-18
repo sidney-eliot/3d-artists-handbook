@@ -1,5 +1,5 @@
 ---
-title: "Skin"
+title: Skin Texturing
 enableToc: false
 ---
 
@@ -8,9 +8,9 @@ enableToc: false
 ## Overview
 There are many ways to approach skin textures and shaders.
 
-- Hand painting in Substance Painter, ZBrush (Polypaint), 3D Coat or Mari
-- Layer based masking systems in Substance Painter and Mari
-- Procedural Shaders in Blender, Substance Designer or Unreal
+- Hand painting skin in Substance Painter, ZBrush (Polypaint), Mari or 3D Coat
+- Layer based with masking skin texturing in Substance Painter, Mari and Photoshop
+- Procedural skin shaders in Blender, Substance Designer or Unreal
 
 These methods can of course be combining as well.
 
@@ -64,7 +64,7 @@ The goal is to incorporate the color zones of the face on the subdermal layer an
 To start things off, create a couple of subdermal colors.
 
 
-cross polarized photographs (photographs that remove reflected light, so it's like a base color channel image)
+Cross polarized photographs (photographs that remove reflected light, so it's like a base color channel image)
 
 ![[image-2024-03-20-14-15-42.jpg]]
 
@@ -97,6 +97,6 @@ _Note that this person has it very prominently, and I adjusted the values of the
 
 
 
-- Some tips the Subdermal color are just base color all of those colors will reapear in the Epidermal layers.
-- Ocasionaly turn of symmetry and do somepainting without it, but don't forget to turn it back on
-- paint detai
+- The Subdermal color are just base color and all of those colors will re-appear in the Epidermal layers
+- Occasionally turn of symmetry and do some painting without it, but don't forget to turn it back on
+- paint detail

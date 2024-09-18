@@ -20,8 +20,8 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Ambient_occlusion)] - [[Polycount](h
 > - Can be used as a budget [[glossary#Ray Tracing|ray traced]] occlusion
 > - Requires high resolution light maps to look good
 
-|Ambient Occlusion Off|Ambient Occlusion On
-|:-:|:-:
+|Ambient Occlusion Off|Ambient Occlusion On|
+|:-:|:-:|
 |![[AO_off_1.png]]|![[AO_on_1.png]]
 |![[AO_off_2.png]]|![[AO_on_2.png]]
 |![[tdmMtT4_off.png]]|![[tdmMtT4_on.png]]
@@ -45,20 +45,20 @@ Ray tracing is a broad term and consists of many smaller things like:
 - Ray Traced Global Illumination [[1]](https://developer.nvidia.com/rtx/ray-tracing/rtxgi)[[2]](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@15.0/manual/Ray-Traced-Global-Illumination.html)
 - Ray Traced Translucency
 
-> [!info] Ray Tracing Info
+> [!info] Graphics Card Specifications
 > 
-> - Only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX ray tracing support)
+> For Nvidia cards it only works on [Nvidia RTX](https://en.wikipedia.org/wiki/Nvidia_RTX) and some Nvidia GTX series graphics cards (all their graphic cards with DirectX have ray tracing support)
 
 Ray tracing off vs. on:
 
 ![[20230603110116.png|600]]
 ![[20230603123401.png|600]]
 
-On the flipped side, here's an example of ray tracing making the lighting and shadows look way worse. 
+On the flipped side, here's an example of ray tracing making the lighting and shadows look way worse:
 
 ![[20230603111140.png|600]]
 
-This doesn't mean that ray tracing in its nature makes lighting and shadows worse, but rather adding ray tracing into a scene that wasn't designed with ray tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with ray tracing on. And potentially there needs to be 2 different presets for ray tracing on and off. 
+This doesn't mean that ray tracing in its nature makes lighting and shadows worse, but rather adding ray tracing into a scene that wasn't designed with ray tracing in mind won't yield good results. It's important for the environment artists to have direct previews of how the scene will look like with ray tracing on. And potentially there needs to be two different presets for ray tracing on and off. 
 
 ---
 

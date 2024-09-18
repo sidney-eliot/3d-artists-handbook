@@ -40,8 +40,8 @@ HEX is almost only used for copying a color per values from A to B
 
 ## Color Theory Glossary
 
-|Keyword|What is it|What does it affect|Notes
-|:-:|:-:|:-:|:-:
+|Keyword|What is it|What does it affect|Notes|
+|:-:|:-:|:-:|:-:|
 |Tint|Mixture of a color with WHITE|Lightens the color & increases the color's brightness|
 |Shade|Mixture of a color with BLACK|Darkens the color & decreases the color's brightness
 |Tone|Mixture of a color with GRAY|
@@ -51,27 +51,22 @@ HEX is almost only used for copying a color per values from A to B
 |Value|Tint(lightness) and Shade(darkness) of a color|
 |Chroma / Chromatic Intensity|A color where a hue predominates, blue, green, while white gray and black are achromatic because no hue predominates.
 
-|Keyword|Explanation
-|:-:|:-:
-|Primary Color|3 in total. Source of all colors (Red, Blue and Yellow)
-|Secondary Color|3 in total. Made of equal amount of 2 primary colors. Located between primary colors (Red + Yellow = Orange; Red + Blue = Violet/Purple; Blue + Yellow = Green)
-|Tertiary Color|Made by mixing a primary color with one secondary color
-|-|-
-|Warm Colors|Energy, Joy, passion, enthusiasm
-|Cold Colors|Calmness, peace, professional
-|-|-
-|Active Colors|
-|Passive Colors|
-|-|-
-|Additive Colors|
-|Subtractive Colors|
-|-|-
-|Dominant Color|
-|Recessive|Fades into the background
-|-|-
-|Balanced|
-|Unbalanced|
-|Monotony|
+|      Keyword       |                                                                           Explanation                                                                           |
+| :----------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Primary Color    |                                                     3 in total. Source of all colors (Red, Blue and Yellow)                                                     |
+|  Secondary Color   | 3 in total. Made of equal amount of 2 primary colors. Located between primary colors (Red + Yellow = Orange; Red + Blue = Violet/Purple; Blue + Yellow = Green) |
+|   Tertiary Color   |                                                     Made by mixing a primary color with one secondary color                                                     |
+|    Warm Colors     |                                                                Energy, Joy, passion, enthusiasm                                                                 |
+|    Cold Colors     |                                                                  Calmness, peace, professional                                                                  |
+|   Active Colors    |                                                                                                                                                                 |
+|   Passive Colors   |                                                                                                                                                                 |
+|  Additive Colors   |                                                                                                                                                                 |
+| Subtractive Colors |                                                                                                                                                                 |
+|   Dominant Color   |                                                                                                                                                                 |
+|     Recessive      |                                                                    Fades into the background                                                                    |
+|      Balanced      |                                                                                                                                                                 |
+|     Unbalanced     |                                                                                                                                                                 |
+|      Monotony      |                                                                                                                                                                 |
 
 ## Color Synergy
 Colors which, when combined or mixed, cancel each other out or boost a one of the colors.
@@ -99,19 +94,18 @@ A great place to create these synergies and understand how they work is [Adobe's
 - Is monotone
 
 ## Common Colors RGB & HEX
-COLOR|RGB|HEX
-|:-:|:-:|:-:|
-|White|255,255,255|`#FFFFFF`
-|Black|0,0,0|`#000000`
-|50%/Neutral Gray|127.5,127.5,127.5|`#7F7F7F`
-|Red|255,0,0|`#FF0000`
-|Lime|0,255,0|`#00FF00`
-|Blue|0,0,255|`#0000FF`
-|Yellow|255,255,0|`#FFFF00`
-|Cyan|0,255,255|`#00FFFF`
-|Magenta|255,0,255|`#FF00FF`
 
-
+|       COLOR        |        RGB        |    HEX    |
+| :----------------: | :---------------: | :-------: |
+|       White        |    255,255,255    | `#FFFFFF` |
+|       Black        |       0,0,0       | `#000000` |
+| Neutral Gray (50%) | 127.5,127.5,127.5 | `#7F7F7F` |
+|        Red         |      255,0,0      | `#FF0000` |
+|        Lime        |      0,255,0      | `#00FF00` |
+|        Blue        |      0,0,255      | `#0000FF` |
+|       Yellow       |     255,255,0     | `#FFFF00` |
+|        Cyan        |     0,255,255     | `#00FFFF` |
+|      Magenta       |     255,0,255     | `#FF00FF` |
 
 ## 🚧Work in Progress🚧
 

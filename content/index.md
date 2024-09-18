@@ -23,7 +23,7 @@ If you don't understand a term, give the [[glossary|glossary]] a visit.
 
 I'm happy to hear any feedback and requests on things to improve or add, just message me on Discord (username: epicrex)
 
-_Some parts of this handbook are still a work in progress, and those parts are denoted with the 🚧 symbol._
+_Some parts of this handbook are still a work in progress, and those parts are denoted with the 🚧 symbol. I also still have a lot planned for this handbook and have many pages hidden in a work in progress section._
 
 > [!note] Explorer
 > 
@@ -35,37 +35,32 @@ _Some parts of this handbook are still a work in progress, and those parts are d
 >[[glossary|📑 Glossary]]<br>
 >[[composition|🌆 Composition]]<br>
 >[[technical-side-of-character-design|👩🏽‍💻 Technical Side of Character Design]]<br>
->[[artistic-side-of-character-design|🧠 Artistic Side of Character Design]]<br>
 >[[topology-and-retopology|📐 Topology & Retopology]]<br>
 >[[optimization|📊 Optimization]]<br>
->[[color|🎨 Color]]<br>
 >[[texture-maps|🗺️ Texture Maps]]<br>
 >[[image-extensions|🖼️ Image Extensions]]<br>
 >[[art-software|Art Software]]
 > 
-> ### Mesh
->[[modeling-and-sculpting|🧊🗿 Organic / Hard Surface Sculpting & Modeling]]<br>
+> ### Model Creation
+>[[modeling-and-sculpting|🧊🗿 Organic & Hard Surface - Sculpting & Modeling]]<br>
 >[[workflow-between-zbrush-and-blender|🌀 Workflow between ZBrush & Blender]]<br>
 >[[sculpting-in-blender|🟠 Sculpting in Blender]]<br>
 >[[hair|💇🏽‍♀️ Hair]]<br>
->[[anime-styled-characters|Anime Style Characters]]
 > 
-> ### Texture
+> ### Texturing
 >[[uv-mapping|🎁 UV Mapping]]<br>
 >[[baking-and-texturing-prep|🧭 Baking & Texturing Preparations]]<br>
 >[[baking|🎛️ Baking]]<br>
 >[[texturing|🖌️ Texturing]]
+>[[skin-texturing|Skin Texturing]]
 > 
 > ### Presentation
 >[[rigging|🦴 Rigging]]<br>
+>[[meta-rig|🦴 Meta-Rigs]]<br>
 >[[posing-and-animating|🎭 Posing & Animating]]<br>
 >[[lighting|💡 Lighting]]<br>
->[[blender-to-unreal-pipeline|🌀 Blender to Unreal Pipeline]]
-> 
-> ### Post
->[[rendering|🎥 Rendering]]<br>
->[[compositing|🪄 Compositing]]<br>
->[[sharing|🔗 Sharing]]
+>[[blender-to-unreal-pipeline|🌀 Blender to Unreal Pipeline]]<br>
+>[[rendering-and-compositing|🎥🪄  Rendering & Compositing]]<br>
 > 
 > ### Software Specific Knowledge
 >[[zbrush-specific|⚪ ZBrush]]<br>
@@ -76,6 +71,7 @@ _Some parts of this handbook are still a work in progress, and those parts are d
 >### Extra
 >[[2d-art-resources|2D Art Resources]]<br>
 >[[model-part-names|Model Part Names]]  
+>[[drawing-tablet-issues|Drawing Tablet Issues]]  
 ><br>
 >[[my-setup|🖥️ My Setup]]
 
