@@ -1,5 +1,6 @@
 ---
 title: Organic & Hard Surface - Sculpting & Modeling
+description: "Covers all possible ways to achieve modeling and sculpting tasks across Maya, Blender and ZBrush."
 date: 2024-09-18
 enableToc: true
 ---
