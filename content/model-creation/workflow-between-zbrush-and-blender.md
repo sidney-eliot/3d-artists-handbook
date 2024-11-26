@@ -27,7 +27,7 @@ Here are some important things to understand about ZBrush, so one can properly u
 
 Here are some important things to understand about ZBrush, before using GoZ to prevent costly mistakes. I condensed this as much as possible, for more in depth on ZBrush look at the [[zbrush-specific|ZBrush page]].
 ### General
-**Ngons**<br>Ngons [[glossary#]] can't ever exist in ZBrush, it can only use triangles and quads. If you ever import meshes with Ngons, ZBrush will automatically cut the Ngon into triangles and quads. As the way ZBrush decides to cut the Ngon can sometimes be undesired, it can make sense to have them cut in your modeling software before sending it to ZBrush.
+**Ngons**<br>Ngons can't ever exist in ZBrush, it can only use triangles and quads. If you ever import meshes with Ngons, ZBrush will automatically cut the Ngon into triangles and quads. As the way ZBrush decides to cut the Ngon can sometimes be undesired, it's a good idea to cut them in your modeling software before sending it to ZBrush (Most software have tools for finding Ngons).
 ### Units & Size
 **About Units**<br>ZBrush works with their own generic unit system, which is called units. It's important that the entire model is always around the size of **2 units cubed** (XYZ size). Staying close to this size helps brushes, operations and DynaMesh to work properly. Don't be too specific about this, 5 units are still fine.
 
