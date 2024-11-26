@@ -16,27 +16,60 @@ _Full list of art software [[art-software|here]]._
 - Nightlight for my eyes: [F.Lux](https://justgetflux.com/)
 
 ## Project Folder Structure
-Always keep your project files organized. And use the same folder structure among your different projects.
+Always keep project files organized, and try to use a similar folder structure across different projects.
 
 >[!example] Example structure
 >📂Projects<br>
->└── 📂Astro Girl<br>
->└──── 📂Reference<br>
->└──── 📂Textures<br>
->└──── 📂Low<br>
->└──── 📂Rigged Character<br>
->└──── 📂Renders<br>
->└──── 📂Other<br>
->└──── 📂Blender<br>
->└──── 📂ZBrush<br>
->└──── 📂Marmoset Toolbag<br>
->└──── 📂Substance Painter<br>
->└──── 📂... names of other software used<br>
->└── 📂Divine Paladin
+>└── 📂Character Projects<br>
+>└──── 📂Astro Girl<br>
+>└────── 📂Reference<br>
+>└──────── 📄AstroGirl.pur<br>
+>└──────── 📄StyleGuide.pur<br>
+>└──────── 📄links.txt<br>
+>└──────── 📄image.png<br>
+>└────── 📂Textures<br>
+>└──────── 📂Blaster<br>
+>└────────── 📄blaster_ao.png<br>
+>└────────── 📄blaster_cavity.png<br>
+>└────────── 📄blaster_albedo.png<br>
+>└────────── 📄...<br>
+>└──────── 📂Bodysuit<br>
+>└──────── 📂...<br>
+>└──────── 📂Substance Painter Output<br>
+>└──────── 📂Baked Maps Backup<br>
+>└────── 📂Low<br>
+>└──────── 📄AstroGirl.fbx<br>
+>└──────── 📄AstroGirl-test2.fbx<br>
+>└────── 📂Rigged Character<br>
+>└────── 📂Renders<br>
+>└──────── 📂Render Output<br>
+>└──────── 📂Screenshots<br>
+>└──────── 📂Compositing Resources<br>
+>└──────── 📂Final Presentation<br>
+>└──────── 📂PS Edits<br>
+>└────────── 📄RenderCollection.psd<br>
+>└──────── 📄Render Info.txt<br>
+>└──────── 📄WIP Astro Girl.mview<br>
+>└────── 📂Other<br>
+>└────── 📂Blender<br>
+>└────── 📂ZBrush<br>
+>└──────── 📄AstroGirlProject1.zpr<br>
+>└──────── 📄AstroGirlProject2.zpr<br>
+>└──────── 📄AstroGirlProject3.zpr<br>
+>└──────── 📄...<br>
+>└────── 📂Marmoset Toolbag<br>
+>└────── 📂Substance Painter<br>
+>└────── 📂... names of other software used<br>
+>└──── 📂Divine Paladin<br>
+>└── 📂Creature Projects<br>
+>└── 📂Environment Projects<br>
+>└── 📂Studies<br>
 
 >[!info] Some notes related to this structure
 >
 >Don't have the textures in the folder of your texturing software and rather have them in their own "Textures" folder. This is because one will likely edit the textures in multiple software like the texturing software as well as Photoshop, and often also use them for the final portfolio showcase or select them in a game engine. The "Low" folder is used for the retopologized model. One will have to export often into here for baking in Marmoset or if some changes to the model need to be re-imported into Substance Painter. A "Rigged Character", "Final Character" or whatever one wants to call it is also a good folder to have, if one is working with a game engine like Unreal.
+>
+>Also note that this structure is only an example and one will probably need quite a bit more folders, depending on the project and situation at hand. But starting a project with an already roughly set file structure, will make the experience a lot more enjoyable.
 
 ## The Hardware I Use
 - **Huion Kamvas 22 Plus** _(21.5 inch - 1920 x 1080 (16:9) - 60Hz -140% sRGB Color Gamut (QLED) - Etched Anti-Glare Glass - Fully Laminated - 1200:1 Contrast Ratio)_
