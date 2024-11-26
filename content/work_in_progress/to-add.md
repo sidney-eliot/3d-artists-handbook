@@ -615,3 +615,7 @@ Blender: hold alt with most tools to navigate
 
 talk about this
 https://blender.stackexchange.com/questions/253635/auto-rig-pro-knees-bent-backwards
+
+
+
+https://www.artstation.com/blogs/shinsoj/VoZK/optimization-general-theory

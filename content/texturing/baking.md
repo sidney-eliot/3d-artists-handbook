@@ -10,7 +10,7 @@ description:
 
 
 ## Where to Bake
-Marmoset Toolbag yields the best bakes and has the best tools for troubleshooting bakes. Followed by Marmoset, Substance Painter also gives acceptable results. Stay away from most bakers that are integrated in 3D modeling software. Blender is a good example for that. It's possible to bake in it with some add-ons. But the results are so bad and the workflow is totally unoptimized. Don't bake in Blender if you care about your time and sanity. 
+Marmoset Toolbag yields the best bakes and has the best tools for troubleshooting bakes. It's also able to bake highs with extremely high polycounts (50-100 mil) without crashing. Substance Painter also gives acceptable results, but one has a lot less control over the bakes. Stay away from most bakers that are integrated in 3D modeling software, Blender being a good example of that. It's possible to bake in it with some add-ons. But the results are so bad and the workflow is totally unoptimized. In short, of you care about your time and sanity, don't bake in Blender. 
 
 ## Reasons for Ambient Occlusion Maps Looking Bad
 - High poly mesh not high enough
@@ -23,7 +23,7 @@ Marmoset Toolbag yields the best bakes and has the best tools for troubleshootin
 If your AO map has grid like lines, it's because the low mesh isn't high enough. If one then however increases the topology resolution of the low mesh, it fixes the grid line issue, but creates new problems, like terrible looking edge bevels in the AO map. This is indeed such a big problem, that not even Riot Games has clean AO maps for their League of Legends champions. This is the AO map from Pyke's mount; Nensi.
 
 ### Example of Riot Games Messing Up Their AO Maps
-If you want to take a look for yourself, you can officially download the model and texture maps for Pyke and Akali from Riot's [page](https://www.riotgames.com/en/artedu/character-art).
+If you want to take a look for yourself, you can officially download the model and texture maps for Pyke and Akali from [Riot's page](https://www.riotgames.com/en/artedu/character-art).
 
 ![[Pasted image 20230604230247.png|500]]
 _(The image was brightend for better visualization)_

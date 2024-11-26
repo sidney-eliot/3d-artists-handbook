@@ -133,21 +133,22 @@ I won't mention ZBrush and Photoshop, as every single studio no matter if game o
 
 Game Studios:
 
-|     Studio     | Software |
-| :------------: | :------: |
-|   Riot Games   |   Maya - 3D Coat - Photoshop - Unity - Rizom UV      |
-|     Capcom     |      Rizom UV    |
-| CD Project Red |       Rizom UV   |
-|    Blizzard    |      Rizom UV    |
-|Ubisoft|Rizom UV
-|   Guerrilla    |          |
-|  Square Enix   |          |
-| From Software  |          |
-|       EA       |          |
-|  Naughty Dog   |          |
-|     Atlus      |          |
-|  id software   |          |
-|                |          |
+|             Studio              | Software                                                       | Engine       |
+| :-----------------------------: | :------------------------------------------------------------- | :----------- |
+|           Riot Games            | Maya, 3D Coat, Photoshop, Rizom UV                             | Unity        |
+|             Ubisoft             | Maya, 3ds Max, Substance Painter & Designer, Blender, Rizom UV | Anvil, Dunia |
+| Massive Entertainment (Ubisoft) |                                                                | Snowdrop     |
+|             Capcom              | Rizom UV                                                       |              |
+|         CD Project Red          | Rizom UV                                                       |              |
+|            Blizzard             | Rizom UV                                                       |              |
+|            Guerrilla            |                                                                |              |
+|           Square Enix           |                                                                |              |
+|          From Software          |                                                                |              |
+|               EA                |                                                                |              |
+|           Naughty Dog           |                                                                |              |
+|              Atlus              |                                                                |              |
+|           id software           |                                                                |              |
+|                                 |                                                                |              |
 
 Other 3D Studios:
 

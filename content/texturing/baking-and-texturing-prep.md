@@ -42,6 +42,7 @@ Normals and shading are very important and will dramatically alter the bake if h
 _video by [Marmoset Toolbag](https://marmoset.co/posts/toolbag-baking-tutorial)_
 
 This will result in normals pointing in the wrong direction like this:
+
 ![[image-2024-01-12-17-29-22.jpg]]
 (1 bad normals, 2 good normals) _image by [EarthQuake](https://polycount.com/discussion/147227/skew-you-buddy-making-sense-of-skewed-normal-map-details)_
 
