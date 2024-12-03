@@ -34,8 +34,8 @@ Always keep project files organized, and try to use a similar folder structure a
 >│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄blaster_albedo.png<br>
 >│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄...<br>
 >│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Bodysuit<br>
->│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📂...<br>
->│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📂Substance Painter Output<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂...<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Substance Painter Output<br>
 >│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📂Baked Maps Backup<br>
 >│&emsp;&emsp;│&emsp;&emsp;├── 📂Low<br>
 >│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄AstroGirl.fbx<br>
@@ -53,9 +53,9 @@ Always keep project files organized, and try to use a similar folder structure a
 >│&emsp;&emsp;│&emsp;&emsp;├── 📂Other<br>
 >│&emsp;&emsp;│&emsp;&emsp;├── 📂Blender<br>
 >│&emsp;&emsp;│&emsp;&emsp;├── 📂ZBrush<br>
->│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄AstroGirlProject1.zpr<br>
->│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄AstroGirlProject2.zpr<br>
->│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄AstroGirlProject3.zpr<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄AstroGirlProject1.zpr<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄AstroGirlProject2.zpr<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄AstroGirlProject3.zpr<br>
 >│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄...<br>
 >│&emsp;&emsp;│&emsp;&emsp;├── 📂Marmoset Toolbag<br>
 >│&emsp;&emsp;│&emsp;&emsp;├── 📂Substance Painter<br>
