@@ -20,50 +20,50 @@ Always keep project files organized, and try to use a similar folder structure a
 
 >[!example] Example structure
 >📂Projects<br>
->└── 📂Character Projects<br>
->└──── 📂Astro Girl<br>
->└────── 📂Reference<br>
->└──────── 📄AstroGirl.pur<br>
->└──────── 📄StyleGuide.pur<br>
->└──────── 📄links.txt<br>
->└──────── 📄image.png<br>
->└────── 📂Textures<br>
->└──────── 📂Blaster<br>
->└────────── 📄blaster_ao.png<br>
->└────────── 📄blaster_cavity.png<br>
->└────────── 📄blaster_albedo.png<br>
->└────────── 📄...<br>
->└──────── 📂Bodysuit<br>
->└──────── 📂...<br>
->└──────── 📂Substance Painter Output<br>
->└──────── 📂Baked Maps Backup<br>
->└────── 📂Low<br>
->└──────── 📄AstroGirl.fbx<br>
->└──────── 📄AstroGirl-test2.fbx<br>
->└────── 📂Rigged Character<br>
->└────── 📂Renders<br>
->└──────── 📂Render Output<br>
->└──────── 📂Screenshots<br>
->└──────── 📂Compositing Resources<br>
->└──────── 📂Final Presentation<br>
->└──────── 📂PS Edits<br>
->└────────── 📄RenderCollection.psd<br>
->└──────── 📄Render Info.txt<br>
->└──────── 📄WIP Astro Girl.mview<br>
->└────── 📂Other<br>
->└────── 📂Blender<br>
->└────── 📂ZBrush<br>
->└──────── 📄AstroGirlProject1.zpr<br>
->└──────── 📄AstroGirlProject2.zpr<br>
->└──────── 📄AstroGirlProject3.zpr<br>
->└──────── 📄...<br>
->└────── 📂Marmoset Toolbag<br>
->└────── 📂Substance Painter<br>
->└────── 📂... names of other software used<br>
->└──── 📂Divine Paladin<br>
->└── 📂Creature Projects<br>
->└── 📂Environment Projects<br>
->└── 📂Studies<br>
+>├── 📂Character Projects<br>
+>│&emsp;&emsp;├── 📂Astro Girl<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Reference<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄AstroGirl.pur<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄StyleGuide.pur<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄links.txt<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄image.png<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Textures<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Blaster<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├──📄blaster_ao.png<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄blaster_cavity.png<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄blaster_albedo.png<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄...<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Bodysuit<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📂...<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📂Substance Painter Output<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📂Baked Maps Backup<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Low<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄AstroGirl.fbx<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄AstroGirl-test2.fbx<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Rigged Character<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Renders<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Render Output<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Screenshots<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Compositing Resources<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂Final Presentation<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📂PS Edits<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄RenderCollection.psd<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;├── 📄Render Info.txt<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄WIP Astro Girl.mview<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Other<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Blender<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂ZBrush<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄AstroGirlProject1.zpr<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄AstroGirlProject2.zpr<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄AstroGirlProject3.zpr<br>
+>│&emsp;&emsp;│&emsp;&emsp;│&emsp;&emsp;└── 📄...<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Marmoset Toolbag<br>
+>│&emsp;&emsp;│&emsp;&emsp;├── 📂Substance Painter<br>
+>│&emsp;&emsp;│&emsp;&emsp;└── 📂... names of other software used<br>
+>│&emsp;&emsp;└── 📂Divine Paladin<br>
+>├── 📂Creature Projects<br>
+>├── 📂Environment Projects<br>
+>└── 📂Studies
 
 >[!info] Some notes related to this structure
 >
