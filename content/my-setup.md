@@ -14,6 +14,7 @@ _Full list of art software [[art-software|here]]._
 - EXR Image Reader: [DJV](https://darbyjohnston.github.io/DJV/)
 - Preview all kinds of Image Extensions in File Explorer: SageThumbs (supports: .PSD / .TGA / .TIFF / .BMP / +defaults +more)
 - Nightlight for my eyes: [F.Lux](https://justgetflux.com/)
+- Disk Folder Size Analyzer: [TreeSize](https://treesize.net/) (For when some software like ZBrush thinks it's funny to fill up your entire disk with saves)
 
 ## Project Folder Structure
 Always keep project files organized, and try to use a similar folder structure across different projects.
