@@ -24,7 +24,32 @@ This project and everyone participating in it is governed by the [3D Artist's Ha
 
 ## What Should I Know Before I Get Started?
 
-ToDo
+### Prerequisites
+
+1. You will need to have [Node.js](https://nodejs.org/en/download/package-manager), and thus `npm` available on your
+   terminal of choice.
+
+   > [!NOTE]
+   > Installing the latest version should work without much problem. However, just in case as a reminder, as of 
+   > 2024-12-10, Quartz 4 needs _at least_ Node v20 and up, as well as `npm` v9.3.1 and up to work.
+   >
+   > By the time you read this, the information contained here may be outdated, for up to date information on Quartz's
+   > dependencies, please consult Quartz's own documentation, which should be found [here](https://quartz.jzhao.xyz/).
+
+2. Then, clone this repository in a directory of your choosing.
+
+3. Change directories (`cd`) to be inside the repository you just cloned.
+
+4. Inside the repository, execute the following commands:
+
+   ```shell
+   npm i
+   npx quartz build --serve
+   ```
+
+5. Now, open a new browser window with the address: [https://localhost:8080](https://localhost:8080)  
+   Note: If the above commands worked properly, you should see a prompt with this address as a result.
+
 
 ## How Can I Contribute?
 
