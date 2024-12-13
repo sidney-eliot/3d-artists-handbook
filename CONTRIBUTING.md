@@ -19,6 +19,7 @@ The following is a set of guidelines and helpful information for contributing to
 - [Additional Note](#additional-notes)
 
 ## Code of Conduct
+
 This project and everyone participating in it is governed by the [3D Artist's Handbook Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ## What Should I Know Before I Get Started?
@@ -73,6 +74,7 @@ Keeping keywords and key terms consistent is important. There are two key reason
 |    game industry     |                                                                                    Try to avoid using an "s" at the end of game, to keep the term consistent when used along-side "film industry".                                                                                    |                                                                                              |
 |  vertex & vertices   |                                                                                                       Properly use the plural (vertices) and singular (vertex) form of vertex.                                                                                                        |                                                                                              |
 |      triangles       |                                                                                         This is a tricky one and not yet decided, so for now it's ok to say either 30k triangles or 30k tris.                                                                                         |                                                                                              |
+
 ## Additional Notes
 
 ToDo
