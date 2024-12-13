@@ -59,7 +59,7 @@ You will need to install the [Node.js](https://nodejs.org/en/download) framework
 **2.** Execute the following commands in succession in the repository folder you just downloaded, any type of terminal will do the job (If you're on Windows, you can type "cmd" into the address bar of your file explorer to open a terminal in that folder):
 
 _Terminal, CommandLine, PowerShell or Bash:_
-```
+```shell
 npm i
 npx quartz build --serve
 ```
