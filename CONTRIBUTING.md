@@ -4,7 +4,7 @@ First off, thanks for taking the time to contribute!
 
 The following is a set of guidelines and helpful information for contributing to the 3D Artist's Handbook, which is hosted on [GitHub](https://github.com/sidney-eliot/3d-artists-handbook). These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-#### Table Of Contents
+## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [What Should I Know Before I Get Started?](#what-should-i-know-before-i-get-started)
@@ -21,7 +21,7 @@ The following is a set of guidelines and helpful information for contributing to
 ## Code of Conduct
 This project and everyone participating in it is governed by the [3D Artist's Handbook Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-## What should I know before I get started?
+## What Should I Know Before I Get Started?
 
 ToDo
 
@@ -29,7 +29,7 @@ ToDo
 
 ToDo
 
-### Test Locally in a Browser Before you Push
+### Test Locally in a Browser Before You Push
 
 The handbook website can easily be run locally on your device, using the first method described in [How to Read the Handbook Offline](https://github.com/sidney-eliot/3d-artists-handbook/tree/main?tab=readme-ov-file#how-to-read-the-handbook-offline). Before every it's recommended that you test it locally in your browser to see if your changes have been properly implemented.
 
