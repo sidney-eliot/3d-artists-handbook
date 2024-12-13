@@ -28,7 +28,15 @@ ToDo
 
 ## How Can I Contribute?
 
-ToDo
+There quite a bit of ways to contribute, here are a few examples:
+
+- General proofreading and grammar.
+- Making or answering Issues.
+- Making pull requests.
+- Suggesting ideas or asking/answering questions in the repo's
+  [Discussions](https://github.com/sidney-eliot/3d-artists-handbook/discussions).
+
+The owner of this repo, Sidney, is also joinable on Discord with the username `epicrex`.
 
 ### Test Locally in a Browser Before You Push
 
