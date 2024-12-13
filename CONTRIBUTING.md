@@ -50,6 +50,14 @@ This project and everyone participating in it is governed by the [3D Artist's Ha
 5. Now, open a new browser window with the address: [https://localhost:8080](https://localhost:8080)  
    Note: If the above commands worked properly, you should see a prompt with this address as a result.
 
+### Choosing What to Work On
+
+Before writing anything, please try to familiarize yourself with the [styleguides](#styleguides) below.
+
+Next, you're free to choose what area of the book you to contribute to. Please note however that areas marked with a 🚧
+(construction) emoji are currently in development. As such, it may be a good idea to contact other maintainers before
+changing anything in areas marked with them. You may also to want put in those emojis yourself to mark areas that you
+are currently working on.
 
 ## How Can I Contribute?
 
