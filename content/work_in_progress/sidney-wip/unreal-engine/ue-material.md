@@ -16,8 +16,8 @@ Blend Modes describe how the output of the current Material will blend over what
 ### Masked Blend
 - Used to make some parts invisible and others visible
 - Needs a mask map plugged into the material(Opacity mask)
-- Black/White??? areas are rendered and black/white??? areas a not rendered at all. Grays are not allowed
-- Opacity Mask Clip Value controls what value of the opacity mask texture will be used as a cutoff point, beyond which all darker pixels will not render
+- Black/White??? areas are rendered and black/white??? areas a not rendered at all. Grays aren't allowed
+- Opacity Mask Clip Value controls what value of the opacity mask texture will be used as a cutoff point, beyond which all darker pixels won't render
 ```
 - Fence
 - Chains

@@ -5,7 +5,7 @@ enableToc: true
 
 
 ## 1. Install uefy Add-on / Script
-Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python add-on. For the `pro version` simply install the add-on (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It will create the same panel but with less functionality. It's important to know that the `light version` doesn't dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I will describe how to do it both with pro and lite.
+Download the free [uefy lite version](https://www.rakiz.com/uefy-script-lite/) python script or paid [uefy pro version](http://www.rakiz.com/uefy/) python add-on. For the `pro version` simply install the add-on (version 2.5 and up needed). This will create a new panel called `Uefy Script Panel` located in the `Object Data Properties` tab. For the `lite version`, open it in the scripting tab and click run. It'll create the same panel but with less functionality. It's important to know that the `light version` doesn't dynamically update, so if after running the script the control rig was renamed, the script has to be run again. This process will be possible with both lite and pro, however at some points some more manual effort will be needed with the lite version, when those spots come I'll describe how to do it both with pro and lite.
 
 Rigify add-on is also needed, but it's shipped with Blender. If it isn't already enabled, then enable it.
 
@@ -99,7 +99,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
 3. Open the `IK Retargeter`
 4. Set `Target IKRig Asset` to the `IK Rig` of you character/the character that should recieve the animations (Optionally one can also switch the skeletal mesh, to see the result on different meshes)
 5. In the `Asset Browser` tab you can see the result on animations
-6. If bone names don't match up between source and target skeleton, they will have to be manually matched in the `Chain Mapping` Tab. If one of the skeletons has more bones, then some chain will have to be unassigned for everything to look correct. 
+6. If bone names don't match up between source and target skeleton, they'll have to be manually matched in the `Chain Mapping` Tab. If one of the skeletons has more bones, then some chain will have to be unassigned for everything to look correct. 
 
     If the source is the UE4 skeleton, following `Target Chains` will have to be set to none:
 

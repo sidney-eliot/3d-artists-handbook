@@ -18,7 +18,7 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Ambient_occlusion)] - [[Polycount](h
 > - Softens the overall lighting in your scene
 > - Adds depth
 > - Can be used as a budget [[glossary#Ray Tracing|ray traced]] occlusion
-> - Requires high resolution light maps to look good
+> - Requires high-resolution light maps to look good
 
 |Ambient Occlusion Off|Ambient Occlusion On|
 |:-:|:-:|
@@ -37,7 +37,7 @@ _[[Wikipedia](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))] - [[Unreal 
 
 There are two types of **ray tracing**: Real-time **ray tracing** (games industry) and hardware **ray tracing** (film industry).
 
-Ray tracing is a broad term and consists of many smaller things like:
+Ray tracing is a broad term that consists of many smaller things like:
 - Ray Traced Shadows
 - Ray Traced Reflections
 - Ray Traced Lighting
@@ -153,7 +153,7 @@ https://youtu.be/7l6QOcgWXfI
 ---
 
 ### Lens Flare
-To-Do
+ToDo
 
 ![[20230603111506.png|400]]
 
@@ -180,7 +180,7 @@ Volumetric lighting or God Rays lets beams of light shine across the environment
 
 Volumetric fog has a great synergy with volumetric lighting.
 
-To-Do: Add image
+ToDo: Add image
 
 ---
 
@@ -216,7 +216,7 @@ Anti-aliasing (AA) removes aliasing effect. Aliasing is the appearance of jagged
 ---
 
 ### Blend Modes in 3D Software
-To-Do: Restructure
+ToDo: Restructure
 
 Blend methods apply to every software (some have more or less modes). Every texture has to have a blend mode, the most common one being opaque. Blend Modes describe how the output of the current material will blend over what is already being drawn (rendered) in the background.
 
@@ -235,7 +235,7 @@ Surface through which light neither passes nor penetrates. The previous color wi
 > - Wood
 
 #### Masked Blend & Alpha Clip
-Used to make some parts invisible and others visible. The invisible parts are not rendered at all. Only needs black and white, however if gray values are in the control texture a clip threshold value (which is per default set but can be changed) decides what counts as black and what as white. 
+Used to make some parts invisible and others visible. The invisible parts aren't rendered at all. Only needs black and white, however if gray values are in the control texture a clip threshold value (which is per default set but can be changed) decides what counts as black and what as white. 
 
 > [!example] Masked Blend & Alpha Clip Examples
 > 
@@ -447,7 +447,7 @@ In mathematics polygons are allowed to intersect themselves, in 3D however not.
 
 **Triangulation**, also referred to as **tessellation**, is the process of the converting [[glossary#Polygon, Vertex, Edge, Triangle, Quad, N-gon|quads and n-gons]] to triangles. In the case of a quad, for example, there are two ways of **triangulating** it. The way in which quads and n-gons are triangulated depends on the algorithm that is used, and thus can differ between software and even versions of the same software.
 
-As an artist, working on a character's final retopology, one wants to make sure that what one is seeing, will look exactly like that in the game engine. Thus it's important 
+As an artist, working on a character's final retopology, one wants to make sure that what one is seeing, will look exactly like that in the game engine. Thus, it's important _ToDo_
 
 
 There are two ways of getting a consistent triangulation results, either one triangulates the mesh at export of the modeling software or one gets familiar with the triangulation algorithms as some software like Blender lets the user choose which algorithm to use. 
@@ -490,11 +490,11 @@ https://discourse.techart.online/t/when-to-triangulate-in-a-pipeline/4654
 
 "tri-stripping method"
 
-"Yes, the resulting triangulation would suck. The Delaunay triangulation has many interesting properties: angles are not too bad, triangles are not too many, neighbouring triangles also, etc."
+"Yes, the resulting triangulation would suck. The Delaunay triangulation has many interesting properties: angles aren't too bad, triangles aren't too many, neighbouring triangles also, etc."
 
 "The Delaunay triangulation seeks to avoid this. The algorithm picks a triangulation that maximizes the smallest angle, which avoids thin triangles as much as possible and so gives better error terms."
 
-"You don't always have to, but xNormal will triangulate before calculating maps and generally each program will triangulate a little differently. If you don't triangulate before baking, it will mean the model it calculates the maps for will have different face normals than the one you triangulate later in Max. If you don't triangulate prior, and notice strange anomalies with normal maps(single faces with weird black spots), this is what causes that."
+"You don't always have to, but xNormal will triangulate before calculating maps and generally each program will triangulate a little differently. If you don't triangulate before baking, it'll mean the model it calculates the maps for will have different face normals than the one you triangulate later in Max. If you don't triangulate prior, and notice strange anomalies with normal maps(single faces with weird black spots), this is what causes that."
 
 
 I use the word "can" as the result can be quite random. A quad can be triangulated in two different ways and while the software will use an algorithm to determine the best way to triangulate a polygon to keep it as planar as possible, it's often not an acceptable result. This can be especially noticeable with low poly meshes. To get clean results one first makes sure to In this case the artist will manually triangulate polygons which
@@ -516,13 +516,13 @@ ToDo(things to cover):
 
 _[Wikipedia](https://en.wikipedia.org/wiki/Subdivision_surface)_
 
-**Subdivision Surface** (also referred to as **Subdivisions**, **Subsurf** and **SubD**) is a basic algorithm which adds poly density by dividing every face on a mesh into 4 smaller faces. As a result, it will work much better with nice quad based topology.  Something else to take into regard, is that the times 4 is and exponential addition, so the poly count can quickly get out of hand if to many level of subdivision are added, which can make the software laggy or result in a crash.
+**Subdivision Surface** (also referred to as **Subdivisions**, **Subsurf** and **SubD**) is a basic algorithm which adds poly density by dividing every face on a mesh into 4 smaller faces. As a result, it'll work much better with nice quad-based topology.  Something else to take into regard, is that the times 4 is and exponential addition, so the poly count can quickly get out of hand if to many level of subdivision are added, which can make the software laggy or result in a crash.
 
 There are many different variants of the subdivision surface algorithm and can be split into two categories. The Interpolating schemes match the original position of the vertices, while the approximating schemes modify the position of the vertices, allowing for stuff like smooth surfaces.
 
 The most common one is the [Catmull and Clark](https://en.wikipedia.org/wiki/Catmull-Clark_subdivision_surface)  algorithm. It nicely smooths the surface more and more with every subdivision level and is used in pretty much every 3D software.
 
-Subdivision make the mesh harder to work with and are mostly destructive, so software often use dynamic subdivision methods which can be edited and disabled on a whim. Other software like ZBrush opt into a more complex method where changes made on every subdivision level are stored individually allowing for sculpting of fine details like pores on a high subdivision level, while being bale to go back down to a lower level to modify the broader shape, while keeping the small detail intact.
+Subdivision make the mesh harder to work with and are mostly destructive, so software often use dynamic subdivision methods which can be edited and disabled on a whim. Other software like ZBrush opt into a more complex method where changes made on every subdivision level are stored individually allowing for sculpting of fine details like pores on a high subdivision level, while being able to go back down to a lower level to modify the broader shape, while keeping the small detail intact.
 
 ### Poles
 There are two types of poles, N-Poles (3 edges) and E-Poles (5+ edges). More about poles on the topology page.
@@ -608,43 +608,43 @@ Bit depth (Color depth) determines how much color information an image can store
 It's often good to render or bake images with higher bit depth than needed, and later in the process convert them to a lower bit depth. The trade-offs with higher bit depths are increased render times and bigger file sizes.
 
 #### Bit Depth Math
-The most common bit depths are 8 bit, 16 bit, 24 bit and 32 bit. Let's take 32 bit for example, 8 of the 32 channels represent red, 8 channels green, 8 channels blue and lastly 8 channels for alpha. This means that just by looking at the bit depth, one can deduce if the image has alpha or not. If the image didn't have alpha, those 8 channels for alpha would fall away and one would have a 24 bit image.
+The most common bit depths are 8bit, 16bit, 24bit and 32bit. Let's take 32bit for example, 8 of the 32 channels represent red, 8 channels green, 8 channels blue and lastly 8 channels for alpha. This means that just by looking at the bit depth, one can deduce whether the image has alpha or not. If the image didn't have alpha, those 8 channels for alpha would fall away and one would have a 24bit image.
 
-- 6 bit RGB (2,2,2)
-- 8 bit RGBA (2,2,2,2)
-- 12 bit RGB (4,4,4)
-- 16 bit RGBA (4,4,4,4) or (5,6,5)
-- 24 bit RGB (8,8,8)
-- 32 bit RGBA (8,8,8,8)
+- 6bit RGB (2,2,2)
+- 8bit RGBA (2,2,2,2)
+- 12bit RGB (4,4,4)
+- 16bit RGBA (4,4,4,4) or (5,6,5)
+- 24bit RGB (8,8,8)
+- 32bit RGBA (8,8,8,8)
 
 
 **Max amount of unique values per channel:**
 
->[!info] 1 bit image (Integer)
+>[!info] 1bit image (Integer)
 >
 > <b>2 Tone Values 🟰 Black (0) and White (1)</b>
 
->[!info] 8 bit image (Integer)
+>[!info] 8bit image (Integer)
 >
 ><b>256 Tone Values ➡️ 256 Reds ✖️ 256 Greens ✖️ 256 Blues 🟰 16.7 Million RGB Values</b>
 
->[!info] 16 bit image (Integer / Float)
+>[!info] 16bit image (Integer / Float)
 >
 ><b>65,536 Tone Values ➡️ 65,536 Reds ✖️ 65,536 Greens ✖️ 65,536 Blues 🟰 281 Trillion RGB Values</b>
 
->[!info] 32 bit image (Integer / Float)
+>[!info] 32bit image (Integer / Float)
 >
 ><b>4,294,967,295 Tone Values ➡️ ...</b>
 
 So 16 bit is 250 times bigger than 8 bit and 32 bit is 15 million times bigger than 16 bit (exponential growth). Though the file size gets progressively bigger, it doesn't increase by that margin.  
 
 #### Human Perception of Bit Depth
-Humans can only distinguish between 2 ~ 10 million colors, so we can't even see all colors of 8 bit. This means that an image exported in 8 bit or 16 bit will always look identical. The only advantage in using anything above 8 bit is for editing photos and only for the process of editing and not the export. For 2D artists 8 bit will always be enough and most drawing software doesn't even support more than 8 bit.
+Humans can only distinguish between 2 ~ 10 million colors, so we can't even see all colors of 8bit. This means that an image exported in 8bit or 16bit will always look identical. The only advantage in using anything above 8bit is for editing photos and only for the process of editing and not the export. For 2D artists 8bit will always be enough and most drawing software doesn't even support more than 8bit.
 
 ---
 
 ### Banding
-Banding artifacts are caused by a lack of precision with 8 bit normal maps. There aren't enough color values to accurately represent subtle differences between the high poly and low poly surfaces, which results in stair stepping artifacts.
+Banding artifacts are caused by a lack of precision with 8bit normal maps. There aren't enough color values to accurately represent subtle differences between the high poly and low poly surfaces, which results in stair stepping artifacts.
 
 [In depth PDF about banding](https://loopit.dk/banding_in_games.pdf)
 
@@ -661,14 +661,14 @@ Adds noise to combat banding. So Dithering is mostly only used with low bit imag
 ---
 
 ### Tangent Space
-Normal maps can be tangent-space or object-space. World-space is basically the same as object-space, except it requires the model to remain in its original orientation, neither rotating nor deforming, so it's almost never used. Always use tangent space for the normal map, however object space normal maps can be useful as a utility mask for texturing. The object space Normals maps are easily spotted, they look like orange normal maps.
+Normal maps can be tangent-space or object-space. World-space is basically the same as object-space, except it requires the model to remain in its original orientation, neither rotating nor deforming, so it's rarely ever used. Always use tangent space for the normal map, however object space normal maps can be useful as a utility mask for texturing. The object space Normals maps are easily spotted, they look like orange normal maps.
 
 ---
 
 ### Handedness
 Handedness has an influence over things like normal maps, object transforms, rigs and animations.
 
-Normal maps can either be in the Open GL or Direct X format. To switch between the formats, one can invert the textures green channel, check some invert button in a software or manually edit the normal map in Photoshop. One should however always try to stick with the Open GL format as is make the most sense visually and is broadly accepted as the industry standard. Funnily enough Unreal uses the inferior Direct X format. To fix one's normal maps non-destructively in Unreal, one can simply enable the "Flip Green Channel" in the texture settings.
+Normal maps can either be in the Open GL or Direct X format. To switch between the formats, one can invert the textures green channel, check some invert button in a software or manually edit the normal map in Photoshop. One should however always try to stick with the Open GL format as is make the most sense visually and is broadly accepted as the industry standard. Funnily, enough Unreal uses the inferior Direct X format. To fix one's normal maps non-destructively in Unreal, one can simply enable the "Flip Green Channel" in the texture settings.
 
 Here's a list of which software uses what format (some software allows for switching between Open GL and Direct X):
 

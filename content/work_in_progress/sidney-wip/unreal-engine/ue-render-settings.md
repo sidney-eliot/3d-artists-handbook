@@ -39,7 +39,7 @@ Ambient Occlusion
 
 <details>
 <summary>Example</summary>
-Translucent shadows (Note that color is not important here)
+Translucent shadows (Note that color isn't important here)
 
 ![Translucent shadows](https://i.imgur.com/CHg6bnG.png)
 </details>

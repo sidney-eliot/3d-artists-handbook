@@ -12,7 +12,7 @@ There are many ways to approach skin textures and shaders.
 - Layer based with masking skin texturing in Substance Painter, Mari and Photoshop
 - Procedural skin shaders in Blender, Substance Designer or Unreal
 
-These methods can of course be combining as well.
+These methods can, of course, be combining as well.
 
 Here's a playlist of some good skin methods for a wide range of styles:
 
@@ -35,7 +35,7 @@ Some of the methods employed for realistic skin texturing are:
 
 ## Painting Skin
 
-I tried to only use high resolution images in here, so you should be able to simply pull the images you want from this website into your reference board.
+I tried to only use high-resolution images in here, so you should be able to simply pull the images you want from this website into your reference board.
 
 
 Creating skin by hand without the help of pre-made materials and textures is great to know and allows for more creative freedom over the character.
@@ -57,7 +57,7 @@ A look at the skin layers on a purely visual level.
 | Subdermal |           Bone           | White, Yellow              |                                        | The Humerus (upper arm) is about 20 - 30 mm |
 https://gurneyjourney.blogspot.com/2008/05/color-zones-of-face.html
 
-Now together with the understanding of the layers and the color zones of the face you're ready to do some face painting.
+Now, together with the understanding of the layers and the color zones of the face, you're ready to do some face painting.
 
 The goal is to incorporate the color zones of the face on the subdermal layer and then paint the skin on top of it, in such a way that one can still slightly see the subdermal layers beneath.
 
@@ -82,12 +82,12 @@ Circulatory system revealed with [RBX cameras](https://www.canfieldsci.com/FileL
 
 
 **Yellow & White (Bone)**
-Next comes the yellow layer, even though logically it would make more sense to have it beneath the red layer, in practice having it above is better as the bones are quite close to the surface in areas like the **forehead** and **around the eyes**. Further areas are the **nose bridge**, the **chin**, a **bit of the jawline** and the **earlobes**.
+Next comes the yellow layer, even though logically, it would make more sense to have it beneath the red layer, in practice having it above is better as the bones are quite close to the surface in areas like the **forehead** and **around the eyes**. Further areas are the **nose bridge**, the **chin**, a **bit of the jawline** and the **earlobes**.
 
-Color wise it's better to stick with yellow as bones tend to look more like that under the skin, but depending on the artistic look one is going for, one could make it more white for all areas under the forehead. (Follygon for example likes using white more, as he shows [here](https://youtu.be/0IlcgeJSNzY?si=LSSn_N8p4fOUep34&t=346).)
+Color wise, it's better to stick with yellow as bones tend to look more like that under the skin, but depending on the artistic look one is going for, one could make it more white for all areas under the forehead. (Follygon for example, likes using white more, as he shows [here](https://youtu.be/0IlcgeJSNzY?si=LSSn_N8p4fOUep34&t=346).)
 
 **Blue & Purple (Veins, Under-oxygenated Blood)**
-Now come the blues and purples. Depending on the character's gender, these regions will be quite different. For males, it will be the entire lower jaw, while for females it will be limited to around the mouth. In addition, both genders will have it under the eyes.
+Now come the blues and purples. Depending on the character's gender, these regions will be quite different. For males, it'll be the entire lower jaw, while for females it'll be limited to around the mouth. In addition, both genders will have it under the eyes.
 
 Use purple very lightly and sparingly to exaggerate it further in areas like the center of the lips and maybe a little blob under the eyes.
 

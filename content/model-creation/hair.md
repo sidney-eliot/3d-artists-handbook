@@ -6,7 +6,7 @@ description: ""
 
 
 ## Hair Methods
-There are a couple of ways of making hair. The two most prevalent methods for real-time use are hair cards and sculpted hair. Particle hair is also quite commonly used for offline rendered content. An advantage that hair cards and particle hair have over sculpted hair, is that they can more easily be animated by hand or jiggle physics, that's not to say though that sculpted mesh based hair can't also be animated with a proper rig setup.
+There are a couple of ways of making hair. The two most prevalent methods for real-time use are hair cards and sculpted hair. Particle hair is also quite commonly used for offline rendered content. An advantage that hair cards and particle hair have over sculpted hair, is that they can more easily be animated by hand or jiggle physics, that's not to say though that sculpted mesh-based hair can't also be animated with a proper rig setup.
 
 In addition to choosing what hair method to go with, there's also the choice of what shader style to use, like one that is more matte or one that makes use of things like anisotropic reflections. Depending on that, different texture maps will be needed.
 
@@ -135,7 +135,7 @@ But to get the desired hair look, there are many others that are often used.
 
 
 >- While placing the hair cards, one can move the hair either in object or edit mode
->- While placing the hair cards, slowly start adding loops horizontally and vertically. Curving the mesh around the head is important to make this method really look good, flat hair card meshes will result in bad looking hair
+>- While placing the hair cards, slowly start adding loops horizontally and vertically. Curving the mesh around the head is important to make this method really look good, flat hair card meshes will result in bad-looking hair
 
 >[!warning] Things to watch out for
 >

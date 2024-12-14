@@ -7,7 +7,7 @@ enableToc: true
 
 ## Exporting Animations
 ### Actions
-This refers to a timeline containing keyframes of an animation. All animations can be in one action or separated into single actions (run, idle, shoot, ...), both methods are fine, however separating every animation into a separate actions can make things easier.
+This refers to a timeline containing keyframes of an animation. All animations can be in one action or separated into single actions (run, idle, shoot, ...), both methods are fine, however separating every animation into a separate action can make things easier.
 
 ### File format
 The only 2 file formats one can really use are .fbx and .abc (Alembic). 
@@ -22,7 +22,7 @@ The only 2 file formats one can really use are .fbx and .abc (Alembic).
 ![[Pasted image 20230604225600.jpg|700]]
 
 - Apply Modifiers: In most cases good, allows working non-destructively
-- Only Deform Bones: Only export bones that have deform toggled. This is often good because unnecessary helper bone are not exported
+- Only Deform Bones: Only export bones that have deform toggled. This is often good because unnecessary helper bone aren't exported
 - Add Leaf Bones: Disable. Adds a bone to the end of every bone chain
 - NLA Strips: Disable
 - All Actions: Disable if all animations are in one action. Enable if every animation has a separate action

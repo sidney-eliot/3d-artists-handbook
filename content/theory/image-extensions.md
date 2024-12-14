@@ -12,14 +12,14 @@ enableToc: true
 >- Fast render time
 >- Premultiplied Alpha
 >- All render passes
->- 16 bit & 32 bit (increased render time) 
+>- 16bit & 32bit (increased render time) 
 >- PIZ variant: lossless compression (bigger size but better quality) or DWAA variant: lossy compression (smaller size but worse quality)
 
 >[!info] TGA
 >
 >- Small size
 >- Straight Alpha
->- 16 bit RGBA & 24 bit RGB (no alpha) & 32 bit RGBA (increased render time) 
+>- 16bit RGBA & 24bit RGB (no alpha) & 32bit RGBA (increased render time) 
 >- Raw (no compression) or Lossless REL compression (works best on logos and cartoons)
 
 >[!info] PNG
@@ -27,7 +27,7 @@ enableToc: true
 >- Small size
 >- Extremely slow render time
 >- Straight Alpha
->- 16 bit RGBA or 24 bit RGB (no alpha) or 32 bit RGBA
+>- 16bit RGBA or 24bit RGB (no alpha) or 32bit RGBA
 >- RAW or Lossless compression or Lossy compression
 
 >[!info] TIFF
@@ -38,15 +38,15 @@ enableToc: true
 
 |Software|Supported file formats
 |:--|:-:
-|**Marmoset Toolbag** (Export)|TGA(8 bit), PNG(8 bit, 16 bit), PSD (8 bit, 16 bit, 32 bit)
+|**Marmoset Toolbag** (Export)|TGA (8bit), PNG (8bit, 16bit), PSD (8bit, 16bit, 32bit)
 |**Blender**|All
 |**Substance Painter**|
 |**ZBrush**|
 |**Unreal Engine**|
 |**Maya**|
 |**3D-Coat**|
-|**Photoshop**|8 bit, 16 bit, 32 bit
-|**Clip Studio Paint**| only 8 bit
+|**Photoshop**|8bit, 16bit, 32bit
+|**Clip Studio Paint**| only 8bit
 
 ## Factors
 
