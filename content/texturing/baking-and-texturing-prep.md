@@ -36,7 +36,7 @@ Make sure to follow the concepts mentioned on the [[topology-and-retopology|Topo
 >- Try to strategically use SubDiv modifiers. SubDiv modifiers will often be the cause for **badly baked edges**. For parts that don't play a big role in the silhouette SubDiv is fine
 
 ## Normals & Shading
-Normals and shading are very important and will dramatically alter the bake if handled incorrectly. For starters, bakers like Marmoset Toolbag use the normal direction as the baking angle, like shown in this video:
+Normals and shading are critical and will dramatically alter the bake if handled incorrectly. For starters, bakers like Marmoset Toolbag use the normal direction as the baking angle, as shown in this video:
 
 ![[image-2024-01-12-17-18-50.gif]]
 _video by [Marmoset Toolbag](https://marmoset.co/posts/toolbag-baking-tutorial)_
@@ -79,7 +79,7 @@ Following things will manipulate normals:
 >How the shading is done on the high doesn't matter as long as the shading looks good. Most of the time shade smooth or no shading will give good results for hard surface objects, if the result has issues then the normals at those spots need to be manually manipulated until the result is as desired.
 >
 >**Hard Surface**
->After UV unwrapping, select the seams and mark them as sharp edges. This works for almost all seams. There will however be some seams where the sharp edges should be removed again, on flat surfaces for example. Then turn on auto smooth or use [Hard Ops](https://hardops-manual.readthedocs.io/en/latest/). Problems can often be fixed by setting smooth angle to 100°. If the shading looks bad at the center mirror point of some objects, add a sharp edge along the center line.
+>After UV unwrapping, select the seams and mark them as sharp edges. This works for almost all seams. There will however be some seams where the sharp edges should be removed again, on flat surfaces for example. Then turn on auto smooth or use [Hard Ops](https://hardops-manual.readthedocs.io/en/latest/). Problems can often be resolved by setting smooth angle to 100°. If the shading looks bad at the center mirror point of some objects, add a sharp edge along the center line.
 >
 >**Organic**
 >To-Do
@@ -148,14 +148,14 @@ When baking the color ID maps, make sure the colors are flat, so no [[glossary#A
 >_(I've only done this in Marmoset Toolbag, but it should work quite similarly in other baking software like Substance Painter)_
 
 ## Materials
-- The high object needs a blank material, bakers like Marmoset Toolbag will however do this for you
+- The high object needs a blank material, bakers like Marmoset Toolbag will, however, do this for you
 - Remove all materials from both low and high before export. Alternatively, one can also delete them in the baker or disable material export
 
 ## Floaters
 [[glossary#Floaters|Floaters]] can make the AO maps look bad around the borders of floaters by creating height offsets and messing up light ray paths from the baker. This can be solved by placing the floater not in the air above the mesh, but in such a way that it's a part of the mesh. It's also important to make sure that floaters have the exact angle of the surface below them.
 
 ## Exporting
-- Export all high objects that should be on the same atlas in one fbx file, do the same for the low in a separate file (`Armor_low.obj` `Armor_high.obj`)
+- Export all high objects that should be on the same atlas in one FBX file, do the same for the low in a separate file (`Armor_low.obj` `Armor_high.obj`)
 - Only the **mesh**, **UVs** and **normals** are needed (And optionally: Materials / Vertex colors on the low, for the Color ID map)
 
 **Export File Types:**

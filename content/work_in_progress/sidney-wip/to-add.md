@@ -66,9 +66,9 @@ Here are some basic rules/facts:
   
 1. You need uv splits wherever you use hard edges/smoothing groups, not doing so will cause artifacts  
   
-2. you *can* use hard edges/smoothing groups anywhere you have uv splits, because it will not increase your actual vert usage(if you have a uv seam, the verts are split regardless).  
+2. you *can* use hard edges/smoothing groups anywhere you have uv splits, because it won't increase your actual vert usage(if you have a uv seam, the verts are split regardless).  
   
-3. Hard edges/smoothing groups will not cause any sort of negative artifacts if you've followed [#1](https://polycount.com/search?Search=%231&Mode=like), however you must bake with an averaged cage. Max and Maya do this by default. Xnormal's basic ray trace setting does NOT(you have to set up a cage in xnormal or export a cage for Max).  
+3. Hard edges/smoothing groups won't cause any sort of negative artifacts if you've followed [#1](https://polycount.com/search?Search=%231&Mode=like), however you must bake with an averaged cage. Max and Maya do this by default. Xnormal's basic ray trace setting does NOT(you have to set up a cage in xnormal or export a cage for Max).  
   
 So, if you understand 1-3, really you can just use a simple script that sets all of your uv border edges to hard, because it doesn't have any real drawbacks. The only real exception is in situations where you're doing complex partial mirroring.
 
@@ -91,7 +91,7 @@ When you UV map a 3d object, each of its vertices is represented by a point in U
 
 The yellow dots you are seeing (which I believe is what you mean by brown?) are vertices. I'll touch on this a little more later.
 
-Each UV dot in your UV editor directly represents a vertex on your 3d model. A UV functionally acts as a coordinate in UV space to which your texture is mapped. You can move a UV in UV space, and it will move what part of the texture is visible on that specific vertex of the model, without changing where the vertex is in 3d space.
+Each UV dot in your UV editor directly represents a vertex on your 3d model. A UV functionally acts as a coordinate in UV space to which your texture is mapped. You can move a UV in UV space, and it'll move what part of the texture is visible on that specific vertex of the model, without changing where the vertex is in 3d space.
 
 **A UV Shell**, on the other hand, is just a collection of UVs grouped into what we call a "shell". Since each UV represents a vertex on your object, and faces are made up of vertices, a UV shell is basically a representation of a group of specific faces in your mesh.
 
@@ -165,20 +165,20 @@ Thickness map will be totally unusable if hidden faces on the high are deleted f
 Keeping topology cuts where material changes happen is quite important, try not to switch materials mid face
 
 
-- In Unreal Engine 4, we use a metallic and roughness workflow. The texture maps specific to this workflow are base color, metallic, and roughness. In UE4, we do not actually have control of the specular values of metallic materials, and for most dielectric materials (non-metallic) a specular value of 0.5 will work. These specular values are hardcoded into the shader for metallic objects and cannot be changed. This minimizes inaccuracies caused by the user, but can also cause frustrations if you want full control over the shader for specific cases.
+- In Unreal Engine 4, we use a metallic and roughness workflow. The texture maps specific to this workflow are base color, metallic, and roughness. In UE4, we do not actually have control of the specular values of metallic materials, and for most dielectric materials (non-metallic) a specular value of 0.5 will work. These specular values are hardcoded into the shader for metallic objects and can't be changed. This minimizes inaccuracies caused by the user, but can also cause frustrations if you want full control over the shader for specific cases.
 
 https://uv-game.com/intro
 
 
 
-- id map should have 0 aliasing, everyy single pixle should be a solid color, to prevent sharp edges edge edges along that area, aliasing will not pix jaged edges as softWare like substance won't nicely add masks that progessively get darker, id selections either tur
+- id map should have 0 aliasing, everyy single pixle should be a solid color, to prevent sharp edges edge edges along that area, aliasing won't pix jaged edges as softWare like substance won't nicely add masks that progessively get darker, id selections either tur
 
 -cant edit AO/ normal map
 https://www.youtube.com/watch?v=zMYfJ5N67Qg
 https://www.youtube.com/watch?v=hgq3aV3EOIE
 
 
-- make sure id maps are good, hand fixing them in pAInter is not fun
+- make sure id maps are good, hand fixing them in painter isn't fun
 
 - things like hair can share a texture set with other ojects, but have to have their own material. so substance and marmoset let them have a custom antistropic refelction
 
@@ -262,7 +262,7 @@ https://dzungphungdinh.com/projects/De93G?album_id=694340
 
 
 
-- give the skin its own material, it will make texturing much more enjoyable
+- give the skin its own material, it'll make texturing much more enjoyable
 
 
 - put more though into the head and body unwrap, maybe let the ear have it's own shell
@@ -297,7 +297,7 @@ Changing Eye colors:
 2. Another saturation adjustment layer + arrow hand to select color mistakes in eye (greens) + chnage hue saturation brightness
 
 
-- when making the jaw, make sure to add a roof and bottom, as relying on the mouth cavity in the head mesh is not good.
+- when making the jaw, make sure to add a roof and bottom, as relying on the mouth cavity in the head mesh isn't good.
 
 
 talk about how bones are shaped how they are and why the chain starts with a parent and then moves to children and is universially done in all software
@@ -316,7 +316,7 @@ double mirrors on objects will scre with weight apinting mirror
 
 - after adding new bones into the meta.-rig and regenerATing the control rig, make sure to parent with empty groups agAIn
 
-if ypu r creative softwarwe allows for bypassing the 100% weight limit (which most will), then there are some good use cases for it, which I will cover later
+if ypu r creative softwarwe allows for bypassing the 100% weight limit (which most will), then there are some good use cases for it, which I'll cover later
 
 to prevent tentacle psine from sclaing bones in the chain give all children bones a copy scale that copies the scale of the root bone ijn the control rig
 
@@ -331,7 +331,7 @@ You might have noticed a problem with what I just said, the **control-rig** and 
 
 Custom rig imporvements:
 - Add a eye look target for the eye controller
-- Extra hand controls (curl controller is not needed)
+- Extra hand controls (curl controller isn't needed)
 - extra breats bones for breast jiggle
 - have a main toggle to remove stretch features
 
@@ -365,7 +365,7 @@ https://80.lv/articles/001agt-002mrs-organic-art-realistic-subdermal-shaders/
 https://www.youtube.com/watch?v=IquQILcBc_4
 
 
-Watch out when adding normal maps into substance painter layer view, it will automatically give it direct x even if the substance project is set to open gl.
+Watch out when adding normal maps into substance painter layer view, it'll automatically give it direct x even if the substance project is set to open gl.
 
 
 
@@ -378,7 +378,7 @@ The most minimal blur can fully fix height to normal seams in substance
 
 Substance: Just because one is painting in the UV view, doesnt mean thatz one cant accidentally paint over object that are in 3d space above the currenty painted object, this is is a silly bug one has to be aware of
 
-Substance can not blur across UV islands
+Substance can't blur across UV islands
 
 uv unwrap and texture character with eyes closed
 
@@ -401,7 +401,7 @@ Images like  = roughness, glossiness, metaliness, normal, displace, ambient occl
 
 "Normal maps absolutely have to be in linear space.  
   
-Other than that, if your gloss/roughness/metalness/etc maps are in linear or sRGB space or how you/paint them is not particularly important. What is important is that if you're authoring the map and previewing somewhere, you should make sure that the final result has the same gamma/linear space option checked.  
+Other than that, if your gloss/roughness/metalness/etc maps are in linear or sRGB space or how you/paint them isn't particularly important. What is important is that if you're authoring the map and previewing somewhere, you should make sure that the final result has the same gamma/linear space option checked.  
   
 If you're painting a gloss/roughness map, what you see in photoshop has very little relevance. I mean you can make some basic assumptions like X value is brighter than Y, but you can't see the effect of these maps in photoshop, so there is little need to be concerned about authoring them in the "correct" space. You shoud be authoring while previewing with some sort of realtime shader to see the end result. Thus, what color space they are authored or previewed in photoshop doesn't matter.  
   
@@ -415,7 +415,7 @@ By far the most important thing is that you aren't fucking up your texture input
 Upon a few minutes reflection, I'd probably say that gloss textures should **absolutely** be authored in linear-space if possible. Because god damn the amount of artifacting I've seen with very glossy materials. Linear would help there. If you're using roughness though, sRGB all the way. it's to do with where in the histogram you need your precision tbh."
 
 
-If possible save the highest  bit depth version of maps like normal and AO only as 24 bit, excluding the alpha channel
+If possible save the highest  bit depth version of maps like normal and AO only as 24bit, excluding the alpha channel
 
 
 
@@ -436,9 +436,9 @@ Just wanted to add my own experience with this issue:
 
 ---
 
-Adding sub-division level in Marmoset: This solution is not practical, as it's a good practice to force triangulate specific quads that aren't very flat and might flip incorrectly, as well as even good retopology models occasionally having tris, which won't yield the best results when subdivided  
+Adding sub-division level in Marmoset: This solution isn't practical, as it's a good practice to force triangulate specific quads that aren't very flat and might flip incorrectly, as well as even good retopology models occasionally having tris, which won't yield the best results when subdivided  
   
-Disabling shadow casting for specific objects: This will fix the issue but depending on the model, will make the shadow lighter/ less and thus worse (one can compensate with AO maps, although they will mostly only carry smaller shadow details)
+Disabling shadow casting for specific objects: This will fix the issue but depending on the model, will make the shadow lighter/ less and thus worse (one can compensate with AO maps, although they'll mostly only carry smaller shadow details)
 
 Disabling self shadow casting for specific objects: This is probably one of the best fixes and is a better version of disabling shadow casting from the object entirely. Sadly Marmoset doesn't have this feature yet
 
@@ -450,9 +450,9 @@ Enabling and editing render Shadow Cascadel: Does nothing in regard to this issu
 
 HDRI: This could be an issue for some, but I still have these issues with the default HDRI
 
-Checking maps like normal and AO for grid like patterns: This can help but in my case is not an issue (proper checking is done in image editing software like PS by adding adjustment layers like exposure to reveal hidden detail)
+Checking maps like normal and AO for grid like patterns: This can help but in my case isn't an issue (proper checking is done in image editing software like PS by adding adjustment layers like exposure to reveal hidden detail)
 
-GPU/ Other Hardware: For any one thinking it might be their hardware, I'm very sure that this is not the case
+GPU/ Other Hardware: For any one thinking it might be their hardware, I'm very sure that this isn't the case
 
 Changing light intensity, location/ rotation and other light properties: This works but is obviously not desired as one doesn't want to change lighting just for shadow terminators. However, just reducing the intensity by a bit might fully fix the issue, and your lighting might have been to intense/ physically unrealistic anyway. A better option to having super bright lights might be to add more lights or add a HDRI/ let the HDRI take over more of the lighting
 

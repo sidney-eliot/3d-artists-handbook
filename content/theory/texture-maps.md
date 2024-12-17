@@ -6,7 +6,7 @@ enableToc: true
 ## Overview
 Texture maps are commonly referred to as "map", "skin", "atlas" or "trim sheet".
 
-These textures are for the PBR metallic workflow. This texture workflow has replaced the outdated specular workflow. The specular workflow should not be used however when using materials one can still come across this outdated workflow, so it isn't bad to know how it works, it also is quite easy to convert a specular workflow material to a metallic workflow material.
+These textures are for the PBR metallic workflow. This texture workflow has replaced the outdated specular workflow. The specular workflow shouldn't be used however when using materials one can still come across this outdated workflow, so it isn't bad to know how it works, it also is quite easy to convert a specular workflow material to a metallic workflow material.
 
 - Amazing breakdown of all the map types by Marmoset [here](https://marmoset.co/posts/toolbag-baking-tutorial/#maptypes)
 - Polycount also covers map types [here](http://wiki.polycount.com/wiki/Texture_types)
@@ -167,7 +167,7 @@ Res: 512, 1024, 2048, 4096, 8192
 - Other: Materialize, Marmoset Toolbag
 
 ### Making Base Color Map using a photography
-The color map should not contain any shadows or ambient occlusion. Every photograph contains this, so the first step is to remove them.
+The color map shouldn't contain any shadows or ambient occlusion. Every photograph contains this, so the first step is to remove them.
 
 Example:
 

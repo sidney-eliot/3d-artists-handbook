@@ -7,7 +7,7 @@ enableToc: true
 _Full list of art software [[art-software|here]]._
 
 - Reference board: [PureRef](https://www.pureref.com/) and [VizRef](https://vizref.com/) for my tablet
-- Reference manager: [Eagle](https://en.eagle.cool/) (Far better than Adobe Bridge in every way. I highly recommend managing reference art with tag based methods, a lot of issues arise with regular folders). 
+- Reference manager: [Eagle](https://en.eagle.cool/) (Far better than Adobe Bridge in every way. I highly recommend managing reference art with tag-based methods. Many issues arise with regular folders). 
 - Screenshots: [LightShot](https://app.prntscr.com/en/index.html), [GreenShot](https://getgreenshot.org/), `Win + Shift + S`, `Print key`
 - Color Picker (from ref): [Windows Power Toys Color Picker](https://learn.microsoft.com/en-us/windows/powertoys/color-picker), [JCPicker](https://annystudio.com/software/colorpicker/). Art software often has a built-in color picker
 - Color Palette Picker: [Coolors](https://coolors.co/), [Lospec](https://lospec.com/palette-list), [Adobe Colors](https://color.adobe.com/create/color-wheel)
@@ -75,7 +75,7 @@ Always keep project files organized, and try to use a similar folder structure a
 ## The Hardware I Use
 - **Huion Kamvas 22 Plus** _(21.5 inch - 1920 x 1080 (16:9) - 60Hz -140% sRGB Color Gamut (QLED) - Etched Anti-Glare Glass - Fully Laminated - 1200:1 Contrast Ratio)_
 - **iPad Pro 11 4th Gen** _(11 inch - 2388 x 1668 (7:5) - Dynamic refresh rate from 24Hz to 120 Hz (ProMotion) - P3 D65 Color Gamut (A P3 display where sRGB is properly mapped) - Liquid Retina panel - IPS - 600 nits - Fully Laminated - adjust color and intensity to match ambient light (True Tone) - anti-reflective coating (1.8% reflectivity))_
-- **64GB DDR4 RAM** (I plan on upgrading to 128GB as for specific things like high-res texture baking 64GB just doesn't cut it)
+- **64GB DDR4 RAM** (I intend to upgrade to 128GB as for specific things like high-res texture baking 64GB just doesn't cut it)
 - **10 key less Mechanical Keyboard** _(Master keys 730 - Cherry MX Red Switches)_
 - **Wireless Mouse with Infinite Scroll Wheel toggle** _(Logitech G502 X Lightspeed)_
 - **DT 770 Pro** _(Studio Headphones)_

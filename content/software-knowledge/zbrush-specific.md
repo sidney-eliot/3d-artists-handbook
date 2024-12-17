@@ -13,7 +13,7 @@ enableToc: true
 ## Subdivision Levels
 Something which makes ZBrush quite unique, is how subdivisions work in it. Unlike other software like Blender, there's actually quite a lot of strategy when it comes to working with subdivision levels. This is because ZBrush doesn't simply multiply the mesh faces by four and then smooths them (with the Catmull-Clark algorithm), but in addition to that it also remembers every surface change from every subdivision level. This allows for sculpting pores on a face at subdivision level 6, and then go back down to level 2 and change the shape of the face, without destroying the pore detail from level 6.
 
-As a result, ZBrush subdivisions are destructive. Even if one goes back to subdivision level 1 and deletes all higher subdivision levels, the subdivision will have dulled the edges in an irreversible way. This doesn't matter if one plans on adding a subdivision at some point in the future again to that object, because this **edge dulling effect doesn't stack**.
+As a result, ZBrush subdivisions are destructive. Even if one goes back to subdivision level 1 and deletes all higher subdivision levels, the subdivision will have dulled the edges in an irreversible way. This doesn't matter if one intends to add a subdivision at some point in the future again to that object because this **edge dulling effect doesn't stack**.
 
 This can make the mesh unusable as a base for the retopologized mesh and makes changing things later on quite hard. To avoid this issue, either use Dynamic SubDiv or create backups of the object before adding subdivision levels.
 
@@ -21,7 +21,7 @@ So in other words, always use Dynamic SubDivs as long as possible and only switc
 <br>
 Exporting objects with ZBrush subdivisions to other software will mostly make it a normal subdivided object again, but there are methods, like the Blender add-on [Sculpt Layers](https://blendermarket.com/products/sculpt-layers), that can potentially allow for transferring ZBrushes special subdivided objects between ZBrush and Blender.
 
-Finally, ZBrush is quite good at handling millions of poligons, and mostly far more than the software the model will be exported to could handle. So one often has to bake down some of the higher subdivision's surface detail before leaving ZBrush.
+Finally, ZBrush is excellent at handling millions of poligons, and mostly far more than the software the model will be exported to could handle. So one often has to bake down some of the higher subdivision's surface detail before leaving ZBrush.
 
 Another little trick with ZBrush's SubDiv vs. Dynamic SubDiv, is that if you never add SubDiv levels just so the object is smoother but only when you want to sculpt in more detail, then you don't have to export all objects at insane SubDiv levels, but can disable Dyanmic SubDiv and add a SubDiv back onto the objects that need it. Without accidentaly losing sculpted detail.
 
@@ -33,8 +33,8 @@ Working with alphas in ZBrush can be quite confusing, so here's everything one s
 Firstly, the files need to be the way ZBrush wants them. If you want to use them as alphas, the files need to be ...
 
 1. A single channel image. Most of your alphas will most likely be RGB, and as the name implies are three channel images. The only channel one needs is the gray channel (grayscale).
-2. A 6 bit or 18 bit image.
-3. A .psd file extension _(this is very stupid and hopefully fixed in the future)_
+2. A 6bit or 18bit image.
+3. A .psd file extension _(this is quite stupid and hopefully fixed in the future)_
 
 If the alpha file doesn't meet all of these 3 conditions, you might still be able to use the file as an alpha, but you won't have the benefit of double-click loading the alpha from the Lightbox menu. Instead of loading it into the alpha palette, ZBrush will load it into the texture palette. One can at the bottom of the texture palette menu click `MakeAlpha`, but this is tedious.
 
@@ -106,7 +106,7 @@ It's good to use the standard brush with the `DragRect` stroke. Turning off or o
 ### Overview
 ZBrush has so many different types of brushes which are never explained, which can make things quite confusing. So here are all the different types explained.
 
-[[#Alpha Brush|Alphas]] can pull out shapes onto the mesh. [[#VDM Brush|VMD brushes]] work similarly, just that they allow for overhangs, so much more complex shapes are possible. [[#Insert Mesh Brush|Insert mesh brushes]] place objects on other surfaces, but with some tweaking they can also become [[#Curve Insert Mesh Brush|Curve insert mesh brushes]] for creating objects like chains and ropes. [[#Nano Mesh|Nano meshes]] are similar to **Insert Mesh Brushes**, just that they place the object on every face. This can be very useful for creating patterns or clothing pieces like fishnet stockings. Finally, there are the [[#Sculpting Brush|Normal sculpting brushes]], for example Clay Strips or Dam Standard. They store alphas, drag mode as well as other brush related settings and can even have custom preview icons. 
+[[#Alpha Brush|Alphas]] can pull out shapes onto the mesh. [[#VDM Brush|VMD brushes]] work similarly, just that they allow for overhangs, so much more complex shapes are possible. [[#Insert Mesh Brush|Insert mesh brushes]] place objects on other surfaces, but with some tweaking, they can also become [[#Curve Insert Mesh Brush|Curve insert mesh brushes]] for creating objects like chains and ropes. [[#Nano Mesh|Nano meshes]] are similar to **Insert Mesh Brushes**, just that they place the object on every face. This can be very useful for creating patterns or clothing pieces like fishnet stockings. Finally, there are the [[#Sculpting Brush|Normal sculpting brushes]], for example Clay Strips or Dam Standard. They store alphas, drag mode as well as other brush related settings and can even have custom preview icons. 
 
 Though **normal sculpting brushes** might seem better than **alphas**, the big advantage to **alphas** is that they can be used universally in any software. This allows one to use a sculpting alpha collection for texturing in other software as well. Added to that, it's a lot less effort to simply use **alphas** instead of creating a brush out of every **alpha**.
 
@@ -199,7 +199,7 @@ VDM stands for Vector Displacement Mesh.
 
 >[!Info] Fixing Alphas
 >
->Sometimes alphas like folds will not just add folds but also dramatically change the surface curvature. There are `2 fixes` to this issue:
+>Sometimes alphas like folds won't just add folds but also dramatically change the surface curvature. There are `2 fixes` to this issue:
 >- Fix 1 is to change the `MidValue` to somewhere around 50. Or enable `Surface`. In the `Alpha > Modify` menu. 
 >- Mostly, Fix 1 isn't enough, so fix 2 comes into play. In Photoshop, go to `Filter > Other > High Pass` and reduce the value. Optionally, you can also add a levels layer.
 
@@ -308,7 +308,7 @@ Open the Thumbnail Window and Turn on Silhouette (`Preferences > Thumbnail`) or 
 >- Clicking the brush icon beside the SubTool will toggle the polypaint (Colorize) of that SubTool. Shift clicking the icon will do that for all SubTools
 >- If the SubTool has no polypaint on it or polypaint is disabled for that SubTool, then the SubTool will adjust to the currently selected color
 >- A SubTool can't be polypainted on, before it has been filled with a base color
->- DynaMesh will not remove polypaint **as long as the paint is visible**, it will however remove all materials
+>- DynaMesh won't remove polypaint **as long as the paint is visible**, it'll however remove all materials
 >- ZRemesher will completely remove polypaint and materials
 >- Unlike polypaint, Material Paint can either be or not be on a face, which makes material transitions rough. To reduce this issue: Hide transitions, increase mesh detail or turn on Render Materials Blend-Radius
 >- To-Do: Figure out how reprojection plays with poly paint
@@ -386,10 +386,10 @@ The paint options are in the `Draw`, `Color` and `Stroke` tab. Almost all sculpt
 
 >[!question] How to get rid of the empty document border?
 >
->When ever ZBrush is on a different monitor resolution, or you change that monitor's scale size, you will have to redo the following steps (something I despise). 
+>Whenever ZBrush is on a different monitor resolution, or you change that monitor's scale size, you'll have to redo the following steps (something I despise). 
 >
 >1. In the Documents Menu toggle `WSize` and click `NewDocument`
->2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it, is completely irrelevant and will not mess up your tool
+>2. Now your canvas will be empty, to get back your SubTools drag on the Canvas once and press T. The angle at which you pull out your tool and how big you pull it, is completely irrelevant and won't mess up your tool
 >3. So ZBrush always opens at this resolution, click `Save As Startup Doc` in the Document menu
 
 
@@ -408,7 +408,7 @@ My ZBrush configs are [here](https://github.com/Epicrex/3d-artists-handbook/tree
 
 For the interface, if the size of the display you use for ZBrush is 1920 x 1080, you're 'good to go. If not, then you'll need to adjust the document size, so you don't have massive gray borders around your 3D viewport ([video about that here](https://www.youtube.com/watch?v=04wFtkdict0)).
 
-The main thing about this interface is that I made a custom menu with every tool in it that is often used, sorted into groups. The menu is at the top and called "MyInterface", I recommend giving it some hotkey you will never press and then in the driver settings for your tablet, mapping that hotkey to the back button of your stylus.
+The main thing about this interface is that I made a custom menu with every tool in it that is often used, sorted into groups. The menu is at the top and called "MyInterface", I recommend giving it some hotkey you'll never press and then in the driver settings for your tablet, mapping that hotkey to the back button of your stylus.
 
 
 ## Errors ❌
@@ -417,7 +417,7 @@ The main thing about this interface is that I made a custom menu with every tool
 >
 >|Q|A
 >|:-:|:--
->|**Info**|- Latest recorded version: ZBrush 2022.0.1<br>- Happens when saving .zpr (entire project)
+>|**Info**|- Latest recorded version: ZBrush 2022.0.1<br>- Happens when saving ZPR (entire project)
 >|**Fix**|Save file without history, or delete Tools and SubTools you don't need anymore (Isn't a good fix).
 >|**Cause**|_Unknown_
 >|**Possible cause**|File size to big (started happening around the 2.3 - 2.5GB mark for me).
@@ -429,4 +429,4 @@ The main thing about this interface is that I made a custom menu with every tool
 >ZZZ files are temporary ZBrush files, it's how ZBrush names ZTLs while it's writing into them (saving). When the file extensions stays .ZZZ after the process has finished, it means something went wrong while saving and the file is most likely corrupted. The corrupted file is as far as I know unfixable.
 
 ## 🚧Work in Progress🚧
-- use dynamic sub d as long as possible to keep the ZBrush file small
+- Use dynamic SubD as long as possible to keep the ZBrush file small

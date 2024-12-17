@@ -4,7 +4,7 @@ enableToc: true
 ---
 
 ## Overview
-This is probably one of the most important pages of the handbook, here I'll link to things like character breakdowns, articles, YouTube channels to learn workflows from and more. Instead of having resources spread accross the handbook, I've put them all in one place for easy viewing. 
+This is probably one of the most important pages of the handbook, here I'll link to things like character breakdowns, articles, YouTube channels to learn workflows from and more. Instead of having resources spread across the handbook, I've put them all in one place for easy viewing. 
 
 ## YouTube Channels
 
@@ -135,14 +135,14 @@ Books:
 
 
 ## 3D Model Websites
-For learning purposes it can be a great help to look at and dissect models from games and other artists.
+For learning purposes, it can be a great help to look at and dissect models from games and other artists.
 
 - [Cubebrush](https://cubebrush.co/marketplace?resource=3D%20assets&exclude_category=Game%20ready)
 - [Flipped Normals](https://flippednormals.com/)
 - [Quixel Megascans](https://quixel.com/megascans/home/)
 - [Sketchfab](https://sketchfab.com/feed)
 - [Blenderkit](https://www.blenderkit.com/asset-gallery?query=category_subtree:model%20order:-created)
-- [3D Model Haven](https://polyhaven.com/models) (Not many right now but will grow, high quality models)
+- [3D Model Haven](https://polyhaven.com/models) (Not many right now but will grow, high-quality models)
 - [CG Trader](https://www.cgtrader.com/3d-models)
 - [Threedscans](https://threedscans.com/) (3d scan statuses)
 - [Blend Swap](https://www.blendswap.com/blends)

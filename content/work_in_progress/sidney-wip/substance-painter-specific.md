@@ -54,7 +54,7 @@ Hand painting inspiration:
 ## General Project Configuration
 
 Substance Painter prep:
-One can only import one single fbx/ obj file into substance painter, so all objects that should be textured together need to be exported in the same file. The materials the objects are assigned to, defines the texture set it will have in substance painter. 
+One can only import one single fbx/ obj file into substance painter, so all objects that should be textured together need to be exported in the same file. The materials the objects are assigned to, defines the texture set it'll have in substance painter. 
 ## Update/ Reimport Textures, Mesh and Shaders
 Resource updater:
 https://www.youtube.com/watch?v=Zh6MxVW-VSk
@@ -105,13 +105,13 @@ Preview Cursor Modes Full Preview, Brush Outline and Cursor
 PBR validation is an important process to ensures that textures from Substance Painter, carry over accurately to game engines like Unreal, the following needs to be taken into consideration:
 
 - Base color should be devoid of lighting information
-- Dark values should not be lower than 30 sRGB (tolerant range) or 50 sRGB (strict range)
-- Bright values should not be higher than 240 sRGB
+- Dark values shouldn't be lower than 30 sRGB (tolerant range) or 50 sRGB (strict range)
+- Bright values shouldn't be higher than 240 sRGB
 
 In addition, the roughness should also not be too extreme:
 
-- Smooth values should not be lower than 0.05
-- Rough values should not be higher than 0.95
+- Smooth values shouldn't be lower than 0.05
+- Rough values shouldn't be higher than 0.95
 
 In Substance Painter, tall of his can be visually validated with the PBR Validate filter. Simply pull it from the asset shelf to the top of the layer stack of every texture set.
 

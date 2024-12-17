@@ -5,7 +5,7 @@ enableToc: true
 
 <style> code { color: #FFAF23; background: #A20B6A; } </style>
 
-This is a somewhat complete collection of all the software commonly used by professional 3D artists, categorized by which step of the workflow it's used for. Software marked with a **`lable`** are solid options all of which are worth learning, and often see use in studios be it games or films industry.
+This is a somewhat complete collection of all the software commonly used by professional 3D artists, categorized by which step of the workflow it's used for. Software marked with a **`lable`** are solid options, all of which are worth learning, and often see use in studios be it games or films industry.
 ## Modeling and Sculpting Software
 
 - [**`Blender`**](https://www.blender.org/features/) (Multi purpose)
@@ -127,9 +127,9 @@ This is a somewhat complete collection of all the software commonly used by prof
 
 ## Software Used in Studios
 
-This chart gives a nice feel of what software is used, but be aware, that one doesn't need to be proficient in all the software a studio uses, to be hired there, as studios mainly hire based on skill as an artist and less so what software one is good at, one can always learn new software on a fly. Riot Games for example mainly uses 3D Coat for texturing, but there are artists at Riot, that use Substance Painter for hand painted texturing instead, because that's what they're more familiar with. Studios also often vary the software based on the project at hand.
+This chart gives a nice feel of what software is used, but be aware, that one doesn't need to be proficient in all the software a studio uses, to be hired there, as studios mainly hire based on skill as an artist and less so what software one is good at, one can always learn new software on a fly. Riot Games for example mainly uses 3D Coat for texturing, but there are artists at Riot, that use Substance Painter for hand painted texturing instead because that's what they're more familiar with. Studios also often vary the software based on the project at hand.
 
-I won't mention ZBrush and Photoshop, as every single studio no matter if game or film uses them.
+I won't mention ZBrush and Photoshop, as every single studio, no matter if game or film uses them.
 
 Game Studios:
 

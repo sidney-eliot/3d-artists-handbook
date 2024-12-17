@@ -28,7 +28,7 @@ First, there's the high-res mesh. This mesh has to play nice with SubDiv, bevels
 
 
 ### For Pre-Rendered Content (Film Industry)
-The most commonly used workflow in the film industry, is the subdivision workflow, where the topology is done in such a way to nicely work with and be controlled by subdivisions. This can save a lot of time by removing the need for creating a low mesh for baking, because the low and high can share the same mesh but with different subdivision levels. This means if one has to get really close for a shot, one can simply bump up the subdivision level and then after the shot set it back down to something more reasonable. 
+The most commonly used workflow in the film industry, is the subdivision workflow, where the topology is done in such a way to nicely work with and be controlled by subdivisions. This can save a lot of time by removing the need for creating a low mesh for baking, because the low and high can share the same mesh but with different subdivision levels. This means, if one requires really close up shots, one can simply bump up the subdivision level and then after the shot set it back down to something more reasonable. 
 
 _(Because of this, game studios will often create a subdivision friendly mesh in addition to their in-game mesh, so they can better make cinematic videos with them.)_
 
@@ -80,7 +80,7 @@ Poles with 6 or more edges on curved surfaces will create problems when animatin
 
 It's not always possible to avoid **poles**, but one should strive to have as little poles as possible with the least amount of edges connection together and optimally place / relocate them to an area where they are less visible. **3/5** edge **poles** should appear sparingly and **6+** edge **poles** should ideally never appear, except for on flat surfaces that won't experience any soft body deformations. 
 
-### Where Do Poles Commonly Happen ?
+### Where Do Poles Commonly Happen?
 
 - (**E-Pole**) Extrusions
 - (**E-Pole**) Using triangles and Ngons (it's possible to integrate them without creating poles)
@@ -120,7 +120,7 @@ Terminating edge loops is important when doing the final retopologized version o
 Edge rerouting should be avoided on curved surfaces. Although rerouting patterns don't play especially nice on highs with SubDivs, they can occasionally be useful in SubDiv control workflows.
 ## The Optimal Triangle & Quad Shape
 - The most optimal triangle shape for a render engine, is a triangle with all of its sides having the same edge length, this is referred to as an equilateral triangle.
-- The most optimal quad shape is a quad with all of its sides having the same edge length, this is refered to as a square quad
+- The most optimal quad shape is a quad with all of its sides having the same edge length, this is referred to as a square quad
 
 So with that in mind, in theory the cap topology on the right in _picture 1_ is better (it also has 2 fewer triangles). However, the difference doesn't really matter that much, and the latter topology takes more time to make.
 
@@ -140,7 +140,7 @@ _Picture 3_
 ## 🚧Work in Progress🚧
 - Avoid holding edges, go with creases and bevels
 - Evenly space edge loops and try to keep every quad the same size
-- Use extra edge loops in areas of heavy deformation. For example transition areas and muscle joints
+- Use extra edge loops in areas of heavy deformation. For example, transition areas and muscle joints
 - denser topology around movement areas
 - Add density in key areas and terminate the edge loop when it leaves that are to reduce polygons but still benefit from dense deformation areas
 - Align edge loops with axis animation in mind, the axis of animation is mostly also the direction of the muscles. Though this is good practice, triangulation makes this much less important
@@ -149,8 +149,7 @@ Example:
 
 ![[Pasted image 20230608024220.png|600]]
 
-- Tris aren't always bad it's more that with a tris always a pole comes which is bad
-- Try out I and o for loopcut
+- Tris aren't always bad. It's more that tris often bring poles with them which is undesired
 
 #### Topology Methods
 These methods are great for the low object, but one should be careful of using them for the high because SubDiv often doesn't play well with topology that isn't nicely quaded with 4 edge poles. And anyway this is to reduce topology count and that doesn't really matter for the high.

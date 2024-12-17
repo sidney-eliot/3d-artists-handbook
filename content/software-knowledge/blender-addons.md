@@ -7,7 +7,7 @@ enableToc: true
 <style> code { color: #FFAF23; background: #A20B6A; } </style>
 
 ## Overview
-These are the add-ons I recommend using, most of which I use on a somewhat frequent basis. Add-ons marked with a lable, are add-ons I love and think are essential. "Built-in" add-ons are add-ons that are shipped with Blender.
+These are the add-ons I recommend using, most of which I use on a somewhat frequent basis. Add-ons marked with a label, are add-ons I love and think are essential. "Built-in" add-ons are add-ons that are shipped with Blender.
 
 Many of these add-ons are free and others come with a hefty price. If you're willing to spend some money, then these are the only ones you really need:
 

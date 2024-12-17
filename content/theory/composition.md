@@ -43,7 +43,7 @@ Bolder colors for more important things and duller, muted color for less importa
 
 ### Placement of Key Elements
 #### Golden Ratio
-The **golden ratio**, also known as the **golden mean** or the **Fibonacci sequence** can be achieved by placing the key elements in the "eye of the storm". To do this, the frame is recursively split with a ratio of 1 to 1.68.
+The **golden ratio**, also known as the **golden mean** or the **Fibonacci sequence** can be achieved by placing the key elements in the "eye of the storm". To achieve this, the frame is recursively split with a ratio of 1 to 1.68.
 
 ![[Pasted image 20230604143244.png|400]]
 
@@ -125,7 +125,7 @@ Symmetry signals power and dominance. This is prominently used in buildings, mon
 
 
 #### Full Frame
-Full Frame composition is primarily used for characters and creatures. A great thing about it, is that it can be achieved with basically every finished piece by cropping the sides and doing some small tweaks. Nonetheless, it's better to prepare for a full frame composition from the beginning, rather than as an afterthought.
+Is a composition type primarily used for characters and creatures. A great thing about it, is that it can be achieved with basically every finished piece by cropping the sides and doing some small tweaks. Nonetheless, it's better to prepare for a full frame composition from the beginning, rather than as an afterthought.
 
 ![[Pasted image 20230604161107.png|250]]
 
@@ -136,19 +136,19 @@ Full Frame composition is primarily used for characters and creatures. A great t
 >![[Pasted image 20230604161225.png|300]]
 
 ### Negative Space
-Positive space is a subject or point of interest and negative space is the surrounding area. More negative space gives the artwork space to breath, while less negative space makes it more claustrophobic. Both can be good or bad, depending on what kind of mood the artwork should convey. 
+Positive space is a subject or point of interest and negative space is the surrounding area. More negative space gives the artwork space to breathe, while less negative space makes it more claustrophobic. Both can be good or bad, depending on what kind of mood the artwork should convey. 
 
 - _To-Do: Examples_
 
 ### Energy Lines
-Energy lines are found in a character's pose; however, they can also appear in the environment, like in rivers and roads, for instance.
+They are found in a character's pose; however, they can also appear in the environment, like in rivers and roads, for instance.
 
 ![[Pasted image 20230604161249.png|450]]
 
 
 ### Guiding Lines
 
-Guiding lines pull the eye along a path toward a specific position; when correctly deployed, they can encourage the viewer's eye to travel around the image the way the artist envisioned. An all-time favorite is open umbrellas, because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
+Guiding lines pull the eye along a path toward a specific position; when correctly deployed, they can encourage the viewer's eye to travel around the image the way the artist envisioned. An all-time favorite is open umbrellas because they so nicely guide the eye back into the artwork with their arch and can be held at any angle.
 
 
 ![[Pasted image 20230604161413.jpg|450]]
@@ -206,12 +206,12 @@ Elements that create weight:
 
 A way to find unbalanced points, is to turn up the contrast and blur. 
 
-As one can see in the example below, the presence of only one big light on the left makes the image very unbalanced:
+As illustrated by the example below, the presence of only one big light on the left makes the image very unbalanced:
 
 ![[Pasted image 20230604162027.png|400]]
 ![[Pasted image 20230604162039.png|400]]
 
-In contrast, here's an example of how to properly balance an image:
+In contrast, here's an example of how to balance an image properly:
 
 ![[Pasted image 20230604162125.png|500]]
 
@@ -250,7 +250,7 @@ Moving to the left / right or forward / backward, and so on, can portray differe
 
 
 ## Tilt Shift Camera
-Tilt shift is used to get straight lines in renders / photographs and for panoramas. It's mainly used in architectural contexts. It can also be employed in compositing, but that's a worst-case scenario. To do this, the camera should optimally be at an 90° angle, then one changes the shift amount on the desired axis. (In Blender, this is in the camera tab.)
+Tilt shift is used to get straight lines in renders / photographs and for panoramas. It's mainly used in architectural contexts. It can also be employed in compositing, but that's a worst-case scenario. To achieve this, the camera should optimally be at an 90° angle, then one changes the shift amount on the desired axis. (In Blender, this is in the camera tab.)
 
 
 ![[Pasted image 20230604162416.png|950]]

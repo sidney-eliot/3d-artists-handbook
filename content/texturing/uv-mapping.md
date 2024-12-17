@@ -3,7 +3,7 @@ title: "UV Mapping"
 enableToc: true
 ---
 ## Foreword
-UV mapping is a somewhat complex subject, as not only the placement of seams and unwrapping plays a role, but also other things like smoothing splits and texel density. I'll assume that the model is going to be baked and used in a real-time engine; if it's just for rendering, that's fine too.
+UV mapping is a somewhat complex subject, as not only the placement of seams and unwrapping plays a role, but also other things like smoothing splits and texel density. We'll assume that the model will be baked and used in a real-time engine; if it's just for rendering, that's fine too.
 
 >[!example]- Here are some good videos and articles on the general subject of UV mapping
 >
@@ -55,7 +55,7 @@ Lastly, one should try to make UV shells as big as possible, to free up UV space
 |Smart UV Unwrap|Smart UV unwrap can often do the job for hard surface objects.|`U` or
 |Place Seams Based on UV Shells|Seams can be recreated on the model based on the UV shell, helpful for when seams are lost or extracting smart UV unwrap seams|`UV > Seams from Islands`
 |Live Unwrap|Removes the need to have to constantly press unwrap.|`UV > Live Unwrap` & `3D View > Options > Live Unwrap` _(Both options have to be toggled separately)_
-|UV Sync Selection|Nice overview and help for placing seams. But has to be turned off for some things.|Two opposite pointing arrows button in UV view.
+|UV Sync Selection|Nice overview and help for placing seams. But it has to be turned off for some things.|Two opposite pointing arrows button in UV view.
 |Create Multiple UV Maps|One can cycle through different UV maps for one model, helpful for comparing UV maps to get the best possible result.|`Properties view > Data Tab > UV Maps`
 |Select Entire UV Shell||Switch to `Face select` mode or disable `UV Sync Selection`, then press `L`
 
@@ -80,11 +80,11 @@ Before UV unwrapping, one has to decide how to proceed with mirrors. One can app
 
 Applying the mirror at export will double the available texture space for UV mapping, as only the right / left side of the model needs to be mapped and the other side is then stacked on top of those shells at export. This then in return means that one can use less or smaller resolution textures, or simply have a better texture resolution.
 
-There is one mayor issue with mirroring UVs though, both sides will look the same, which can make the textures look less interesting. Procedural textures especially stand out in a bad way, when mirrored.
+There is one mayor issue with mirroring UVs though, both sides will look the same, which can make the textures look less interesting. Procedural textures especially stand out in a bad way when mirrored.
 
-For this reason, applying the mirror beforehand is often needed for specific designs or to make textures look more natural around the midline. For example, one wouldn't mirror the UVs of a character's shirt if it has some text on it, or when the character's face has a scar. A disadvantage of applying the mirror before UV mapping, is that it's a lot harder to do changes on the model from that point on and making a backup before applying mirrors is essential.
+For this reason, applying the mirror beforehand is often needed for specific designs or to make textures look more natural around the midline. For example, one wouldn't mirror the UVs of a character's shirt if it has some text on it, or when the character's face has a scar. A disadvantage of applying the mirror before UV mapping, is that it's a lot harder to make changes on the model from that point on and making a backup before applying mirrors is essential.
 
-The solution is quite simple, one has to mix it up. Objects that connect at the middle and mirror from left to right should generally not have stacked UVs, but when the mesh is farther away from the middle, stacked UVs are more ok. This obviously depends on the texture map budget and if it's important to have only a few and lower resolution textures, then one should probably mirror as much as possible. Another interesting option is to only stack the UVs of parts of the mesh of an object. One could run UV splits around the shoulder joint of a jacket, apply the mirror, and then unwrap the center part and the right arm. One would then use some stacking tool to stack the UV shells of the left arm onto the right arm. (This method however comes with its own set of problems and should only be used if UV space optimization is key.)
+The solution is quite simple, one has to mix it up. Objects that connect at the middle and mirror from left to right should generally not have stacked UVs, but when the mesh is farther away from the middle, stacked UVs are more ok. This obviously depends on the texture map budget and if it's important to have only a few and lower resolution textures, then one should probably mirror as much as possible. Another interesting option is to only stack the UVs of parts of the mesh of an object. One could run UV splits around the shoulder joint of a jacket, apply the mirror, and then unwrap the center part and the right arm. One would then use some stacking tool to stack the UV shells of the left arm onto the right arm. (This method, however, comes with its own set of problems and should only be used if UV space optimization is key.)
 
 Just don't get too paranoid about mirroring, as when looking at characters in game from normal viewing distances, it's hardly noticeable that the UVs were mirrored, so saving the texture space is mostly the better option. And for the film industry, there is absolutely no reason to ever stack UVs.
 
@@ -206,20 +206,20 @@ After UV unwrapping, all the objects will have the same texel density. The next 
 
 **Some more things worth mentioning: **
 
-- It's also very important to always scale UV shells evenly along all axes, not doing so will result in distorted textures.
+- It's also essential to always scale UV shells evenly along all axes, not doing so will result in distorted textures.
 - The simplest way to see texel density inconsistencies, is with the help of UV checker maps.
 - If you notice, that you screwed up the scaling of some of your shells, then there are some easy ways to fix it. Firstly, re unwrapping the affected UVs will give them the same scale again. A much better way of doing it, that doesn't require re unwrapping, is by selecting the affected UV shells in the UV editor and clicking `UV > Average Islands Scale`.
-- If you notice that you simply can't get things to look crisp with your texture budget, even after optimizing everything, then as a last resort one can start sacrificing the detail of some UV shells to have more space in return to scale up those UV shells that really need it. This is not a very professional way of doing things and should be used as a last resort
+- If you notice that you simply can't get things to look crisp with your texture budget, even after optimizing everything, then as a last resort one can start sacrificing the detail of some UV shells to have more space in return to scale up those UV shells that really need it. This isn't a very professional way of doing things and should be used as a last resort
 
 ## UV Packing
 UV packing is the last step of the UV process, but occasionally packing beforehand can be helpful, to get a feel of what still has to be done. The goal with packing is to fit all UV shells as densely together as possible, so all shells can use more of the UV space and have more texture resolution.
 
-In the game industry, UV packing is done with packing algorithms. For the film industry this is not always the case though, here's a video by Flipped Normals explaining the benefit of packing by hand.
+In the game industry, UV packing is done with packing algorithms. For the film industry this isn't always the case though, here's a video by Flipped Normals explaining the benefit of packing by hand.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/roNFY8G8KUM?si=FLg62zVEhuvX2ju0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-Blender has a built-in packing algorithm, but its functionality is quite lackluster (`UV > Pack Islands`). Clicking on it will open a menu with some packing customization options. 
+Blender has a built-in packing algorithm, but its functionality is quite lackluster (`UV > Pack Islands`). Clicking on it'll open a menu with some packing customization options. 
 
 What I recommend using, instead, is [UV Pack Master](https://uvpackmaster.com). It's able to pack much more efficiently and has many more vital packing options. It has a [free and paid](https://uvpackmaster.com/free-sdk/) version, but I think the paid version is well worth it. More on how to use UV Pack Master [[#UV Pack Master|here]].
 

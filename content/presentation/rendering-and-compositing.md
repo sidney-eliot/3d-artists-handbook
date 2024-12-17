@@ -76,10 +76,10 @@ These are some ideas of what one could include in one's portfolio showcase.
 - Screenshot of layer stack in Substance Painter to show that the textures can easily be adapted
 - Screenshots of node setups in Substance Designer or the compositor as long as they are somewhat complex / relevant
 - Screenshot of the project in the modeling software (make sure outlier is nice and organized). This can show things like baking groups. I recommend doing this more so if Maya was used and maybe not with Blender
-- Screenshot of the high detail mesh in ZBrush. This is less needed and maybe not even representative of the final high as one might have done changes to the model in the modeling software
+- Screenshot of the high detail mesh in ZBrush. This is less needed and perhaps not even representative of the final high as one might have made changes to the model in the modeling software
 - Screenshot or render of the model with UV checker maps
-- Screenshot of the character's game rig or control rig and maybe some weight painting. What one could also do is record a quick video of putting the character into different poses to showcase the weight paint
-- One the main cover render itself one could add an Unreal Engine or Marmoset Toolbag logo watermark as long as it was actually rendered in that software. Artists often do this to show that a model is game ready or in general to show that they are experienced and know what their doing, as many beginner artists will opt to using the modeling software built-in renders (I'm not saying that the built-in renders aren't good or don't have their purpose, but that's the general stigma. An employer will most likely think more of a render if it has an Unreal or Marmoset watermark).
+- Screenshot of the character's game rig or control rig and perhaps some weight painting. What one could also do is record a quick video of putting the character into different poses to showcase the weight paint
+- On the main cover render itself, one could add an Unreal Engine or Marmoset Toolbag logo watermark as long as it was actually rendered in that software. Artists often do this to show that a model is game ready or in general to show that they are experienced and know what their doing, as many beginner artists will opt to using the modeling software built-in renders (I'm not saying that the built-in renders aren't good or don't have their purpose, but that's the general stigma. An employer will most likely think more of a render if it has an Unreal or Marmoset watermark).
 - An idle animation or any kind of slight movement to make the character feel more dynamic and interesting (of course if one is good at animating, then making a small animation is even better)
 
 ## Render Resolution & Aspect Ratio
@@ -129,7 +129,7 @@ To achieve this split art work style, the resolutions would look like this:
 
 Turntable animations are a looping animation where a character does one full turn in a circle, perfectly looping back to the first frame. One could directly render out a video, but it's better to let the renderer render every frame as a separate image, so that if it crashes while rendering one doesn't have to start from the beginning again. Then, after all frames are rendered into a folder, one can stitch them together again.
 
-When animating the rotation, it's important to make sure that the keyframe interpolation mode is set properly. In Blender for example, per default the animations has easing at the start and end (to fix in Blender: Keyframe Interpolation Mode > Linear). Also, make sure to start at frame 1 and not frame 0.
+When animating the rotation, it's important to make sure that the keyframe interpolation mode is set properly. In Blender for example, per default the animations have easing at the start and end (to fix in Blender: Keyframe Interpolation Mode > Linear). Also, make sure to start at frame 1 and not frame 0.
 
 
 The amount of frames the animation should have depends on the duration that one full turn should take and the frame rate the animation will be rendered at:
@@ -148,7 +148,7 @@ To-Do
 
 
 ## Wireframe Rendering
-Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both offline rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I personally find Marmoset Toolbag / Unreal Engine best for real-time wireframe showcase and Blender / Marmoset Toolbag best for pre rendered wireframe showcase.
+Wireframe can either be pre rendered into the image or toggled in real-time renderer. The 3 best options for both offline rendering and real-time rendering wireframe is Marmoset Toolbag, Blender And Unreal Engine. I, personally, find Marmoset Toolbag / Unreal Engine best for real-time wireframe showcase and Blender / Marmoset Toolbag best for pre rendered wireframe showcase.
 
 
 >[!info] Marmoset Toolbag wireframe rendering
@@ -188,11 +188,11 @@ Good Blender add-ons for rendering:
 
 ### Rendering Bloom (Blender)
 
-This is a viable way of doing it, but often it's better to add bloom during post processing in the compositing software instead.
+This is a viable way of doing it, but often it's better to add bloom during post-processing in the compositing software instead.
 
 To-Do: Explain why EXR file format best for rendering bloom
 
-Take into consideration that working with EXR files, especially Multilayer EXR is very advanced and should only be used if one is a bit more experienced. It comes with the benefit of more artistic control.
+Consider that working with EXR files, especially Multilayer EXR, is very advanced and should only be used if one is a bit more experienced. It comes with the benefit of more artistic control.
 
 >[!info]- The workflow
 >
@@ -207,10 +207,10 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 >- Then Pull in the alpha EXR into PS with default [EXR IO](https://www.exr-io.com/) settings and split alpha off
 >- Now bring both together
 >- The color EXR has to have Linear Dodge(Add) blending mode and has to be above the alpha EXR
->- Finally put an exposure adjustment layer at the top and make Gamma Correction 0.51, because this is a 32 bit image Photoshop will not be smart enough to make things look correctly, so this layer always has to be at the top
+>- Finally put an exposure adjustment layer at the top and make Gamma Correction 0.51, because this is a 32bit image Photoshop won't be smart enough to make things look correctly, so this layer always has to be at the top
 >
 >**Extra Info: **
->- Converting the image mode to 16 bit will remove all EXR features so while working it should stay at 32 bit
+>- Converting the image mode to 16bit will remove all EXR features so while working it should stay at 32bit
 >- I've noticed that bloom can be more dominant than it was in the render
 
 
@@ -260,7 +260,7 @@ Take into consideration that working with EXR files, especially Multilayer EXR i
 
 ## Rendering in Marmoset Toolbag
 
-Create a couple of cameras and give them some names based on what shots they'll be for. Then switch to one of those cameras with the camera drop down list. Moving the viewport now, will affect the selected camera's shot. To see the render region of a camera, enable `Safe Frame` _(Camera Options > Lens > Safe Frame)_, increasing the `Frame Opacity` can help get a better understanding of how the final shot will look like.  
+Create a couple of cameras and give them some names based on what shots they'll be for. Then switch to one of those cameras with the camera dropdown list. Moving the viewport now, will affect the selected camera's shot. To see the render region of a camera, enable `Safe Frame` _(Camera Options > Lens > Safe Frame)_, increasing the `Frame Opacity` can help get a better understanding of what the final shot will look like.  
 
 ## Rendering with Marmoset Real-time Viewer
 To-Do
@@ -286,7 +286,7 @@ In Marmoset, one can either offline render shots or go the real-time route with 
 
 >[!info] Photoshop compositing
 >
->Photoshop is by far the best for compositing images. If one plans on compositing EXR images in Photoshop, the [EXR IO](https://www.exr-io.com/) plugin is required. 
+>Photoshop is by far the best for compositing images. If one intends to composite EXR images in Photoshop, the [EXR IO](https://www.exr-io.com/) plugin is required. 
 >
 >
 
@@ -315,13 +315,13 @@ As mentioned above, it's good to show a breakdown of the topology count, often t
 >[!example]- Here's the full reasoning on why or why not to use a different topology units.
 >
 >**Face Count**<br>
->The general face count that modeling software often displays, which includes triangles, quads and n-gons is not a good way of measuring topology, as an n-gon could have infinitely many vertices.
+>The general face count that modeling software often displays, which includes triangles, quads and n-gons isn't a good way of measuring topology, as an n-gon could have infinitely many vertices.
 >
 >**Quad Count**<br>
->Even when we assume that the model is nicely quad based, this also not a good unit, as it means that in a game engine the actual topology count will 2x that value, as 20k quads is roughly 40k triangles. In most situations it's also impossible to actually have a full quads based model, as for good topology there occasionally need to be triangles.
+>Even when we assume that the model is nicely quad-based, this also not a good unit, as it means that in a game engine the actual topology count will 2x that value, as 20k quads is roughly 40k triangles. In most situations it's also impossible to actually have a full quads-based model, as for good topology there occasionally need to be triangles.
 >
 >**Triangle Count (Tris)**<br>
->This unit is most commonly seen as it conveys the actual in engine topology count. It's also easy to figure out, as most modeling software will show a calculated triangle count. It has one problem however, game engines don't only require triangles, but also split the mesh topology at every UV and smoothing group split.
+>This unit is most commonly seen as it conveys the actual in engine topology count. It's also easy to figure out, as most modeling software will show a calculated triangle count. It has one problem, however, game engines don't only require triangles, but also split the mesh topology at every UV and smoothing group split.
 >
 >**Vertices Count**<br>
 >This is the objectively most correct unit, but is also a bit harder to measure, as looking at a model's vertex count in a modeling software will show a quite different value than the vertex count in a game engine. This is because game engines split the mesh wherever UV and smoothing group splits are.
