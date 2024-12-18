@@ -17,6 +17,7 @@ your best judgment, and feel free to propose changes to this document in a pull 
    - [General](#general)
    - [Specific](#specific)
    - [Markdown](#markdown)
+
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [3D Artist's Handbook Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
@@ -117,10 +118,12 @@ Keeping keywords and key terms consistent is important. There are two key reason
 |    game industry     |                                                                                     Try to avoid using an "s" at the end of game, to keep the term consistent when used along-side "film industry".                                                                                      |                                                                                              |
 |  vertex & vertices   |                                                                                                         Properly use the plural (vertices) and singular (vertex) form of vertex.                                                                                                         |                                                                                              |
 |      triangles       |                                                                                          This is a tricky one and not yet decided, so for now, it's ok to say either 30k triangles or 30k tris.                                                                                           |                                                                                              |
+
 ### Markdown
 
 Nearly all Markdown syntax and most of the Obsidian Markdown syntax is supported (HTML works as well). Here's a quick
 refresher.
+
 #### Format
 
 **BOLD** `**BOLD**`, _Italic_ `_Italic_`, `Code Line` with back ticks, code blocks with triple back ticks above and below text.
