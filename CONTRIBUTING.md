@@ -154,7 +154,7 @@ above and below text.
 ![[image-name.jpg]]
 ```
 
-#### Admonition / Callout blocks
+#### Admonitions / Callout blocks
 
 ```
 > [!note] Title of note
@@ -220,7 +220,7 @@ Left and right aligned table content:
 
 #### Segment Line
 
-Sometimes helpful to create splits that make information for digestible, try not to over use it.
+Sometimes helpful to create splits that make information more digestible, try not to overuse it.
 
 ```
 ---
