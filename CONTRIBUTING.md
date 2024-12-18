@@ -133,12 +133,12 @@ page search.
 Nearly all Markdown syntax and most of the Obsidian Markdown syntax is supported (HTML works as well). Here's a quick
 refresher.
 
-#### Format
+#### Basic Formatting
 
 **BOLD** `**BOLD**`, _Italic_ `_Italic_`, `Inline code` with back ticks `````, code blocks with triple back ticks `\`\`\``
 above and below text.
 
-####  Headers
+####  Headings
 
 ```
 # H1 <<< Reserved for the page `title:` property inside the YAML. Don't use it in the content (markdown).
