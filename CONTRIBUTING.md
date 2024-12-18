@@ -59,8 +59,8 @@ There are quite a bit of ways to contribute, here are a few examples:
 
 - General proofreading and grammar.
 - Improving on topics you are very knowledgeable in.
-- Making or answering Issues.
-- Making pull requests.
+- Making or answering [Issues](https://github.com/sidney-eliot/3d-artists-handbook/issues).
+- Making [Pull Requests](https://github.com/sidney-eliot/3d-artists-handbook/pulls).
 - Suggesting ideas or asking / answering questions in the repo's
   [Discussions](https://github.com/sidney-eliot/3d-artists-handbook/discussions).
 
