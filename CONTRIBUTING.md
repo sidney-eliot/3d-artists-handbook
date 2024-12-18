@@ -218,6 +218,11 @@ Left and right aligned table content:
 |Left aligned value|Right aligned value|
 ```
 
+> [!tip]
+> The header row must contain a least two hyphens `--` or any combination of a hyphen and a colon `:-` / `-:`.
+
+For more complex tables (e.g. tables with cell merging, advanced styling, etc.), please consider using HTML.
+
 #### Segment Line
 
 Sometimes helpful to create splits that make information more digestible, try not to overuse it.
