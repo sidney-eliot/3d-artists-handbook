@@ -34,7 +34,7 @@ This project and everyone participating in it is governed by the
 
 2. A version control software, I recommend [GitHub Desktop](https://desktop.github.com/download/).
 
-2. Then, clone this repository inside of GitHub Desktop (_File > Clone repository_).
+2. Then, fork and clone the repository you just forked inside of GitHub Desktop (_File > Clone repository_).
 
 3. Switch the branch to the one containing the development content.
 
