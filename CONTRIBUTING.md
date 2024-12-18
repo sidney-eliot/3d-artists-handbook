@@ -79,7 +79,14 @@ instead all go into the work_in_progress folder, but for now, it will be this wa
 
 ## Styleguides
 
-Keeping keywords and key terms consistent is important. There are two key reasons. Firstly, inconsistencies can lead to confusion. For example, ZBrush has something called a "Tool" emphasis on the capital T. Seeing this immediately shows the reader that the ZBush Tool is being talked about and not the English word "tool". The second reason is searchability of terms when using the Quartz built in search bar or you browsers `Ctrl` + `F` page search.
+Keeping keywords and key terms consistent is important. There are two key reasons:
+
+Firstly, inconsistencies can lead to confusion. For example, ZBrush has something called a "Tool" emphasis on the
+capital T. Seeing this immediately shows the reader that the ZBush Tool is being talked about and not the English word
+"tool".
+
+The second reason is searchability of terms when using the Quartz built-in search bar or your browser's `Ctrl` + `F`
+page search.
 
 ### General
 
