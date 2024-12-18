@@ -2,7 +2,9 @@
 
 First off, thanks for taking the time to contribute!
 
-The following is a set of guidelines and helpful information for contributing to the 3D Artist's Handbook, which is hosted on [GitHub](https://github.com/sidney-eliot/3d-artists-handbook). These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines and helpful information for contributing to the 3D Artist's Handbook, which is
+hosted on [GitHub](https://github.com/sidney-eliot/3d-artists-handbook). These are mostly guidelines, not rules. Use
+your best judgment, and feel free to propose changes to this document in a pull request.
 
 #### Table of Contents
 
@@ -18,12 +20,17 @@ The following is a set of guidelines and helpful information for contributing to
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [3D Artist's Handbook Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project and everyone participating in it is governed by the
+[3D Artist's Handbook Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ## What Should I Know Before I Get Started?
 
 ### Set-up for Contributing
 
-1. You will need to have [Node.js](https://nodejs.org/en/download). To check the current version and see if it's properly installed, use `node - v` & `npm - v` in your terminal of choice. _(Minimum required node version is v20 and the minimum npm version is v9.3.1. If this is outdated for whatever reason, look at [quartz](https://quartz.jzhao.xyz/))_
+1. You will need to have [Node.js](https://nodejs.org/en/download). To check the current version and see if it's
+   properly installed, use `node - v` & `npm - v` in your terminal of choice. _(Minimum required node version is v20
+   and the minimum npm version is v9.3.1. If this is outdated for whatever reason, look at
+   [quartz](https://quartz.jzhao.xyz/).)_
 
 2. A version control software, I recommend [GitHub Desktop](https://desktop.github.com/download/)
 
@@ -41,9 +48,11 @@ This project and everyone participating in it is governed by the [3D Artist's Ha
 5. Now, open a new browser window with the address: [https://localhost:8080](https://localhost:8080)  
    Note: If the above commands worked properly, you should see a prompt with this address as a result.
 
-6. Before writing anything, please try to familiarize yourself with the [styleguides](#styleguides) below. 
+6. Before writing anything, please try to familiarize yourself with the [styleguides](#styleguides) below.
 
-7. Before creating a pull request, it's recommended that you test it locally in your browser to see if your changes have been properly implemented.
+7. Before creating a pull request, it's recommended that you test it locally in your browser to see if your changes
+   have been properly implemented.
+
 ### How Can I Contribute?
 
 There are quite a bit of ways to contribute, here are a few examples:
@@ -61,9 +70,12 @@ The owner of this repo, Sidney, can also be contacted on Discord with the userna
 
 Work in progress pages are in the "/content/work_in_progress" folder and are hidden from the website, meaning they can contain rough drafts. Inside this folder, you can create your own folder like "YourName-wip". You can, of course, also keep your work in progress local or in your fork, but some like to share their work in progress pages with others so that others might take over and continue fine-tuning them.
 
-Some pages, however, will contain a work in progress section at the bottom of the page with the header "🚧 Work in Progress 🚧". The stuff here is in a state which is readable and mostly factually correct, but just not integrated in the page yet.
+Some pages, however, will contain a work in progress section at the bottom of the page with the header "🚧 Work in
+Progress 🚧". The stuff here is in a state which is readable and mostly factually correct, but just not integrated in
+the page yet.
 
-_It's very possible that in the future no more work in progress stuff will be allowed on the live handbook pages, and instead all go into the work_in_progress folder, but for now, it will be this way._
+_It's very possible that in the future no more work in progress stuff will be allowed on the live handbook pages, and
+instead all go into the work_in_progress folder, but for now, it will be this way._
 
 ## Styleguides
 
@@ -107,7 +119,8 @@ Keeping keywords and key terms consistent is important. There are two key reason
 |      triangles       |                                                                                          This is a tricky one and not yet decided, so for now, it's ok to say either 30k triangles or 30k tris.                                                                                           |                                                                                              |
 ### Markdown
 
-Nearly all Markdown syntax and most of the Obsidian Markdown syntax is supported (HTML works as well). Here's a quick refresher.
+Nearly all Markdown syntax and most of the Obsidian Markdown syntax is supported (HTML works as well). Here's a quick
+refresher.
 #### Format
 
 **BOLD** `**BOLD**`, _Italic_ `_Italic_`, `Code Line` with back ticks, code blocks with triple back ticks above and below text.
@@ -164,7 +177,8 @@ Line Break:
 
 #### YouTube Video Embedding
 
-Under a YouTube video, click _Share > Embed > Copy_. Always make sure to check "Enable privacy-enhanced mode" and if desired check start "Start at ..." to skip to the vital point in the video.
+Under a YouTube video, click _Share > Embed > Copy_. Always make sure to check "Enable privacy-enhanced mode" and if
+desired check start "Start at ..." to skip to the vital point in the video.
 
 For example:
 
@@ -172,7 +186,8 @@ For example:
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=rZWhyUfBwWCAb52p&amp;start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
 
-Sadly, HTML iframes are a thing of the past as most websites nowadays block themselves from being framed, YouTube, however, does not.
+Sadly, HTML iframes are a thing of the past as most websites nowadays block themselves from being framed, YouTube,
+however, does not.
 
 #### Tables
 
