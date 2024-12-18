@@ -33,11 +33,11 @@ This project and everyone participating in it is governed by the
    and the minimum npm version is v9.3.1. If this is outdated for whatever reason, look at
    [quartz](https://quartz.jzhao.xyz/).)_
 
-2. A version control software, I recommend [GitHub Desktop](https://desktop.github.com/download/)
+2. A version control software, I recommend [GitHub Desktop](https://desktop.github.com/download/).
 
 2. Then, clone this repository inside of GitHub Desktop (_File > Clone repository_).
 
-3. Switch the branch to the one containing the development content
+3. Switch the branch to the one containing the development content.
 
 4. Inside the repository folder using any terminal, execute the following commands:
 
@@ -155,7 +155,7 @@ above and below text.
 
 #### Internal Links
 
-When linking to internal pages **always** give them a name as not doing so can lead to issues.
+When linking to internal pages, **always** give them a name as not doing so can lead to issues.
 
 ```diff
 - [[Page Name]] <<< Don't do this
