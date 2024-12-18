@@ -148,9 +148,9 @@ above and below text.
 #### Admonition / Callout blocks
 
 ```
->[!note] Title of note
+> [!note] Title of note
 >
->Note content
+> Note content
 ```
 
 #### Internal Links
