@@ -157,11 +157,11 @@ above and below text.
 
 When linking to internal pages **always** give them a name as not doing so can lead to issues.
 
-```
-[[Page Name]] <<< Don't do this
+```diff
+- [[Page Name]] <<< Don't do this
 
-[[Page Name|Name of Link to Page]]
-[[Page Name#Header Name|Name of Link to Page Header]]
++ [[Page Name|Name of Link to Page]]
++ [[Page Name#Header Name|Name of Link to Page Header]]
 ```
 
 #### External Links
