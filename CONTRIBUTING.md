@@ -68,7 +68,8 @@ The owner of this repo, Sidney, can also be contacted on Discord with the userna
 
 ### Work in Progress Sections
 
-Work in progress pages are in the "/content/work_in_progress" folder and are hidden from the website, meaning they can contain rough drafts. Inside this folder, you can create your own folder like "YourName-wip". You can, of course, also keep your work in progress local or in your fork, but some like to share their work in progress pages with others so that others might take over and continue fine-tuning them.
+Work in progress pages are in the `/content/work_in_progress` folder and are hidden from the website, meaning they can
+contain rough drafts. Inside this folder, you can create your own folder like `YourName-wip`.
 
 Some pages, however, will contain a work in progress section at the bottom of the page with the header "🚧 Work in
 Progress 🚧". The stuff here is in a state which is readable and mostly factually correct, but just not integrated in
