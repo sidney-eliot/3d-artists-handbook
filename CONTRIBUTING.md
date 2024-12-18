@@ -226,6 +226,8 @@ For more complex tables (e.g. tables with cell merging, advanced styling, etc.),
 #### Segment Line
 
 Sometimes helpful to create splits that make information more digestible, try not to overuse it.
+Seperating the two logical concepts you are writing about into two separate pages is something to ponder before
+committing to using this.
 
 ```
 ---
