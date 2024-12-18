@@ -126,7 +126,8 @@ refresher.
 
 #### Format
 
-**BOLD** `**BOLD**`, _Italic_ `_Italic_`, `Code Line` with back ticks, code blocks with triple back ticks above and below text.
+**BOLD** `**BOLD**`, _Italic_ `_Italic_`, `Inline code` with back ticks `````, code blocks with triple back ticks `\`\`\``
+above and below text.
 
 ####  Headers
 
