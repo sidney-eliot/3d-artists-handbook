@@ -141,7 +141,7 @@ above and below text.
 ####  Headers
 
 ```
-# H1 <<< Reserved for page title. Don't use it in markdown
+# H1 <<< Reserved for the page `title:` property inside the YAML. Don't use it in the content (markdown).
 
 ## H2 <<< Will be visible in table of contents
 ### H3 <<< Will be visible in table of contents
