@@ -1,0 +1,27 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+
+img, iframe{
+	border-radius: 12px;
+}
+
+table, th, td {
+border: 1px solid gray;
+}
+
+th, td {
+  padding: 0.2rem 0.5rem;
+}
+
+table {
+overflow: scroll;
+//width: 100%;
+}
+
+th {
+
+}
+
+
+
