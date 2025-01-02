@@ -31,20 +31,20 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('src/**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm ci
+      - run: cd src && npm ci
 
       - name: Check types and style
-        run: npm run check
+        run: cd src && npm run check
 
       - name: Test
-        run: npm test
+        run: cd src && npm test
 
       - name: Ensure Quartz builds, check bundle info
-        run: npx quartz build --bundleInfo
+        run: cd src && npx quartz build --bundleInfo
 
       - name: Create release tag
         uses: Klemensas/action-autotag@stable
