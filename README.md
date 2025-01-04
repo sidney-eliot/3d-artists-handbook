@@ -52,11 +52,10 @@ There are **2 methods** when it comes to offline viewing. The localhost method b
 ### Localhost - Method 1
 You will need to install the [Node.js](https://nodejs.org/en/download) framework. It's available on Windows, Mac and Linux.
 
-**1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
+**1.** Download the repository as a zip and unzip it (Click `<> Code` then click `Download ZIP`)
 
-**2.** Execute the following commands in succession in the repository folder you just downloaded, any type of terminal will do the job (If you're on Windows, you can type "cmd" into the address bar of your file explorer to open a terminal in that folder):
+**2.** Open any terminal in the folder you just unziped and execute the following commands (To open a terminal on Windows, you can type "cmd" into the address bar of your file explorer. Alternatively you can also `Shift` + `RMB` click into the file explorer and select "_Open in Terminal_" or "_Open Power Shell_".):
 
-_Terminal, CommandLine, PowerShell or Bash:_
 ```shell
 npm i
 npx quartz build --serve
@@ -68,11 +67,14 @@ Now go to http://localhost:8080 in your browser. The page will be an exact copy 
 ### Obsidian - Method 2
 You will need [Obsidian](https://obsidian.md/), which is a completely free note-taking software/ app available on Windows, Mac, Linux, Android, iOS and iPadOS.
 
-**1.** Download the zip (and unzip) or clone the repository from the [v4 branch](https://github.com/sidney-eliot/3d-artists-handbook/tree/v4) (Click `<> Code` then click `Download ZIP`)<br>
+**1.** Download the repository as a zip and unzip it (Click `<> Code` then click `Download ZIP`)
 
-**2.** Open Obsidian and click `Open folder as vault`. Then navigate to the "3d-artist-handbook" folder you just downloaded and select the "content" folder inside of it. This will open the "content" folder in Obsidian and all the pages will be there for you to read.<br>
+**2.** Open Obsidian and click `Open folder as vault` and select the "_content_" folder located at "_3d-artist-handbook/src/content_".
 
-**3.** _(optional)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook". Then open the "3d-artist-handbook" you just downloaded from GitHub, and copy and paste the files inside the "content" folder to the "Offline_3D-Artists-Handbook".
+**3.** _(optional step)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook", move the files from "_3d-artist-handbook/src/content_" to the newly create folder and open that folder instead in Obsidian.
+
+### Technical Details of File Structure
+All of the handbooks pages and images are inside of the "_src/content_" folder. Other than that, the quartz folder as well as the files: quartz.config.ts, quartz.layout.ts, tsconfig.json are responsible for the layout and style of the handbook website.
 
 ---
 
