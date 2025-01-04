@@ -73,7 +73,7 @@ You will need [Obsidian](https://obsidian.md/), which is a completely free note-
 
 **3.** _(optional step)_ If you want to do this in a more clean way, then create a folder called "Offline_3D-Artists-Handbook", move the files from "_3d-artist-handbook/src/content_" to the newly create folder and open that folder instead in Obsidian.
 
-### Technical Details of File Structure
+# Technical Details of File Structure
 All of the handbooks pages and images are inside of the "_src/content_" folder. Other than that, the quartz folder as well as the files: quartz.config.ts, quartz.layout.ts, tsconfig.json are responsible for the layout and style of the handbook website.
 
 ---
