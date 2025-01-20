@@ -3,7 +3,7 @@
 ---
 
 Following settings are important to use for the best visual fidelity. Terms meanings are explainded 
-[here](https://github.com/Epicrex/3DArtistsHandbook/wiki/0.0_Tecnical-Terms_Theory).
+[[glossary|here]].
 
 ## Ray tracing
 ```

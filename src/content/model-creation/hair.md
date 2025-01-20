@@ -152,7 +152,7 @@ But to get the desired hair look, there are many others that are often used.
 >
 >- Use a clean studio HDRI and no other light sources. Rotate the HDRI so that the main light source is coming from the other side of the camera
 >- Make sure the camera resolution is 2048 x 2048 or 4096 x 4096
->- Render with the correct image extension (more about that [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/0.4_Texture-Maps_Theory))
+>- Render with the correct image extension (more about that [[texture-maps|here]])
 >- Do not render with transparent background (the alpha texture is for that)
 >- Try to keep the render settings high
 >- In Blender use Cycles. In Maya use Renderman or Arnlod

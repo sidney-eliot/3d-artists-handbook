@@ -404,7 +404,7 @@ The process is the same for Hotkeys and Color Themes.
 
 
 ## Using My Interface
-My ZBrush configs are [here](https://github.com/Epicrex/3d-artists-handbook/tree/repo_storage/zbrush-stuff), you only need the interface file.
+My ZBrush configs are [here](https://github.com/sidney-eliot/3d-artists-handbook/tree/main/resource-files/zbrush-stuff), you only need the interface file.
 
 For the interface, if the size of the display you use for ZBrush is 1920 x 1080, you're 'good to go. If not, then you'll need to adjust the document size, so you don't have massive gray borders around your 3D viewport ([video about that here](https://www.youtube.com/watch?v=04wFtkdict0)).
 

@@ -60,7 +60,7 @@ The **golden ratio**, also known as the **golden mean** or the **Fibonacci seque
 #### Rule of Thirds
 The **rule of thirds** isn't just used to place important points, but also to determine other things like:
 
-The** rule of thirds** can be used to determine a number of artistic decisions:
+The **rule of thirds** can be used to determine a number of artistic decisions:
 - Surfaces where light hits vs. shadows
 - How much skin of the character should be revealed
 - The ratio between shiny and matte materials

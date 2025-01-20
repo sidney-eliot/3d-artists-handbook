@@ -111,7 +111,7 @@ Inside the `CharacterX` folder, create following folders: `Meshes` `Rigs` `Mater
      
     If the source is the UE5 skeleton, everything will match up. Even though they have the same skeleton, the animations will still need to be retargeted.
 
-7. Optionally correct the rest pose now as explained [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/Blender-to-Unreal-Pipeline#correct-pose-for-animation-retargeting), if it isn't already correct
+7. Optionally correct the rest pose now as explained [[blender-to-unreal-pipeline]], if it isn't already correct
 
 8. Finally, when happy with the result, export the animations. The Export button is at the top of the `Asset Browser` tab, select all the animations you want to export and click the button
 

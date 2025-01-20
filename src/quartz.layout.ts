@@ -34,7 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
         useSavedState: true,
         filterFn: (node) => {
           // set containing names of everything you want to filter out
-          const omit = new Set(["work_in_progress", "hotkeys", "art-courses.md"])
+          const omit = new Set(["work-in-progress", "hotkeys"])
           return !omit.has(node.name.toLowerCase())
         },
         mapFn: (node) => {

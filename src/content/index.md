@@ -76,14 +76,14 @@ _Some parts of this handbook are still a work in progress, and those parts are d
 >[[my-setup|🖥️ My Setup]]
 
 ## Anatomy
-- [Anatomy For Artists](https://github.com/Epicrex/AnatomyForArtists/wiki)
+- [Anatomy For Artists](https://github.com/sidney-eliot/anatomy-for-artists/wiki)
 
 ## Unreal Engine
-- [Unreal Engine](https://github.com/Epicrex/UnrealEngine/wiki)
+WIP
 
 ## All Things from This Handbook Relevant for 2D Artists
 - [[composition|🌆 Composition]]
-- [Anatomy](https://github.com/Epicrex/AnatomyForArtists/wiki)
+- [Anatomy](https://github.com/sidney-eliot/anatomy-for-artists/wiki)
 - [[color|🎨Color]]
 - [[artistic-side-of-character-design|🧠 Artistic Side of Character Design]]
 - [[photoshop|⌨️ Photoshop Hotkeys]]

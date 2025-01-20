@@ -19,7 +19,7 @@ Blender, ZBrush and Maya are covered here. Other software like Plasticity, Marve
 
 Even though a lot is possible in Blender and Maya, one should still try to stick to ZBrush for the bulk of the high detail mesh work because it's faster and allows for more creativity. But it really depends on the type of model one is working on.
 
-My workflow between ZBrush and Blender can be found [here](https://github.com/Epicrex/3DArtistsHandbook/wiki/ZBrush-To-Blender-Workflow).
+My workflow between ZBrush and Blender can be found [[workflow-between-zbrush-and-blender|here]].
 
 **Software Indicators:**
 - 🟠 for Blender actions
