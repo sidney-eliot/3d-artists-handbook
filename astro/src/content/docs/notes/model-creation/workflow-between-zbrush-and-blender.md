@@ -33,15 +33,15 @@ Here are some important things to understand about ZBrush, before using GoZ to p
 
 ### General
 
-**Ngons**<br>Ngons can't ever exist in ZBrush, it can only use triangles and quads. If you ever import meshes with Ngons, ZBrush will automatically cut the Ngon into triangles and quads. As the way ZBrush decides to cut the Ngon can sometimes be undesired, it's a good idea to cut them in your modeling software before sending it to ZBrush (Most software have tools for finding Ngons).
+**Ngons**<br />Ngons can't ever exist in ZBrush, it can only use triangles and quads. If you ever import meshes with Ngons, ZBrush will automatically cut the Ngon into triangles and quads. As the way ZBrush decides to cut the Ngon can sometimes be undesired, it's a good idea to cut them in your modeling software before sending it to ZBrush (Most software have tools for finding Ngons).
 
 ### Units & Size
 
-**About Units**<br>ZBrush works with their own generic unit system, which is called units. It's important that the entire model is always around the size of **2 units cubed** (XYZ size). Staying close to this size helps brushes, operations and DynaMesh to work properly. Don't be too specific about this, 5 units are still fine.
+**About Units**<br />ZBrush works with their own generic unit system, which is called units. It's important that the entire model is always around the size of **2 units cubed** (XYZ size). Staying close to this size helps brushes, operations and DynaMesh to work properly. Don't be too specific about this, 5 units are still fine.
 
-**Viewing Units & Size**<br>There are two ways of viewing the units of SubTools. Either in the `Size` tab *(Tool > Geometry > Size)*, or by using the legacy transpose tool. The legacy transpose tool will show a different units value than the size tab because it calculates **Units Size \* Export Scale** instead of **Units Size**. Use booth depending on what value you want.
+**Viewing Units & Size**<br />There are two ways of viewing the units of SubTools. Either in the `Size` tab *(Tool > Geometry > Size)*, or by using the legacy transpose tool. The legacy transpose tool will show a different units value than the size tab because it calculates **Units Size \* Export Scale** instead of **Units Size**. Use booth depending on what value you want.
 
-**Changing Units & Size**<br>Units can be changed through a multitude of ways:
+**Changing Units & Size**<br />Units can be changed through a multitude of ways:
 
 * The Gizmo Tool can scale one or every SubTool at once, combining that with changing the location from which the scale is performed makes it a solid option
 * The `Unify` button *(Tool > Deformation)* will set the selected SubTool's units as close as possible to 2 units cubed, as well as resetting the location. It's possible to repeat this action to all other SubTool with the `Repeat To Other` button *(Tool > Deformation)*, this will however often result in undesired results, so watch out

@@ -16,15 +16,15 @@ editUrl: false
 
 ### Tips & Tricks
 
-| ![80](/notes/images/image-2023-10-12-20-24-42.bmp) |                [Marc Brunet](https://www.youtube.com/channel/UCKtu_JtQCY0yryIy6zK4ZCg/videos)               |
-| :------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
-| ![80](/notes/images/image-2023-10-12-20-24-46.bmp) |             [Trent Kaniuga](https://www.youtube.com/channel/UCmRm1xtLIpBhuWjTyD411pA/playlists)             |
-| ![80](/notes/images/image-2023-10-12-20-24-49.bmp) |                [Tyler Edlin](https://www.youtube.com/channel/UCm9pCim4dDN4KJZUILGizgA/videos)               |
-| ![80](/notes/images/image-2023-10-12-20-24-53.bmp) |               [Ethan Becker](https://www.youtube.com/channel/UCwmDCkPQojch5khdMYCb0EA/videos)               |
-| ![80](/notes/images/image-2023-10-12-20-24-58.bmp) |                 [Proko](https://www.youtube.com/channel/UClM2LuQ1q5WEc23462tQzBg/playlists)                 |
-| ![80](/notes/images/image-2023-10-12-20-25-02.bmp) |             [e r g o j o s h ](https://www.youtube.com/channel/UCD6v_eY0IDEGittgHsmd8aQ/videos)             |
-| ![80](/notes/images/image-2023-10-12-20-25-05.bmp) |            [Baban Illustration](https://www.youtube.com/channel/UC4wvqacXJGRtZIHr_lg_J9w/videos)            |
-| ![80](/notes/images/image-2023-10-12-20-25-09.bmp) | [Draw like a Sir](https://www.youtube.com/channel/UCnzCSbvTWDvty7Hr9Ind4ow/vidoes)<br>(often manga related) |
+| ![80](/notes/images/image-2023-10-12-20-24-42.bmp) |                 [Marc Brunet](https://www.youtube.com/channel/UCKtu_JtQCY0yryIy6zK4ZCg/videos)                |
+| :------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+| ![80](/notes/images/image-2023-10-12-20-24-46.bmp) |              [Trent Kaniuga](https://www.youtube.com/channel/UCmRm1xtLIpBhuWjTyD411pA/playlists)              |
+| ![80](/notes/images/image-2023-10-12-20-24-49.bmp) |                 [Tyler Edlin](https://www.youtube.com/channel/UCm9pCim4dDN4KJZUILGizgA/videos)                |
+| ![80](/notes/images/image-2023-10-12-20-24-53.bmp) |                [Ethan Becker](https://www.youtube.com/channel/UCwmDCkPQojch5khdMYCb0EA/videos)                |
+| ![80](/notes/images/image-2023-10-12-20-24-58.bmp) |                  [Proko](https://www.youtube.com/channel/UClM2LuQ1q5WEc23462tQzBg/playlists)                  |
+| ![80](/notes/images/image-2023-10-12-20-25-02.bmp) |              [e r g o j o s h ](https://www.youtube.com/channel/UCD6v_eY0IDEGittgHsmd8aQ/videos)              |
+| ![80](/notes/images/image-2023-10-12-20-25-05.bmp) |             [Baban Illustration](https://www.youtube.com/channel/UC4wvqacXJGRtZIHr_lg_J9w/videos)             |
+| ![80](/notes/images/image-2023-10-12-20-25-09.bmp) | [Draw like a Sir](https://www.youtube.com/channel/UCnzCSbvTWDvty7Hr9Ind4ow/vidoes)<br />(often manga related) |
 
 ### How To Draw Anatomy & Things in General
 

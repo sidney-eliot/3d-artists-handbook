@@ -18,7 +18,7 @@ For a full list of all the hotkeys, and more information on every hotkey, take a
 :::note[Peripherals, Stylus mapping & Navigation]
 
 
-For Substance Painter, I use a keyboard as well as either a display tablet with a stylus that has **2 buttons** or a mouse.<br>
+For Substance Painter, I use a keyboard as well as either a display tablet with a stylus that has **2 buttons** or a mouse.<br />
 **Front Stylus Button** ➡️ `MMB`
 **Back Stylus Button** ➡️
 
@@ -96,13 +96,13 @@ Holding `Alt`, `Ctrl`, or `Shift` will show a list of hotkeys, that work with th
 
 ## Masking & Hiding
 
-|       Function       |           Key           |                                                                                                                                              Notes                                                                                                                                              |
-| :------------------: | :---------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|   Reveal Layer Mask  |  `Alt` + `LMB` on mask  |                                                                                                                                                                                                                                                                                                 |
-|   Toggle Layer Mask  | `Shift` + `LMB` on mask |                                                                                                                                                                                                                                                                                                 |
-| Toggle Geometry Mask |       `Alt` + `H`       |                                                                                                                                                                                                                                                                                                 |
-|  Isolate Texture Set |       `Alt` + `Q`       |                                                                                                                                                                                                                                                                                                 |
-|      Quick Mask      |        `Y` & `U`        | `Y` activates/ deactivated quick mask. `U` switches between toolbar tools and quick mask edit. `Ctrl` + `Shift` + `I` inverts quick mask (only works in quick mask edit). `X` switches between white and black in quick mask edit.<br><br>Deactivating quick mask with `Y` will reset the mask. |
+|       Function       |           Key           |                                                                                                                                                Notes                                                                                                                                                |
+| :------------------: | :---------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|   Reveal Layer Mask  |  `Alt` + `LMB` on mask  |                                                                                                                                                                                                                                                                                                     |
+|   Toggle Layer Mask  | `Shift` + `LMB` on mask |                                                                                                                                                                                                                                                                                                     |
+| Toggle Geometry Mask |       `Alt` + `H`       |                                                                                                                                                                                                                                                                                                     |
+|  Isolate Texture Set |       `Alt` + `Q`       |                                                                                                                                                                                                                                                                                                     |
+|      Quick Mask      |        `Y` & `U`        | `Y` activates/ deactivated quick mask. `U` switches between toolbar tools and quick mask edit. `Ctrl` + `Shift` + `I` inverts quick mask (only works in quick mask edit). `X` switches between white and black in quick mask edit.<br /><br />Deactivating quick mask with `Y` will reset the mask. |
 
 ## Layer & Properties
 
@@ -117,9 +117,9 @@ Holding `Alt`, `Ctrl`, or `Shift` will show a list of hotkeys, that work with th
 
 ## Other
 
-|       Function       | Key |                                                                                                                                                Notes                                                                                                                                                |
-| :------------------: | :-: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| UV Space Manipulator |  ➡️ | `Q` hides/ shows the manipulator. `Ctrl` scale, scales from origin point. `Shift` scale, keeps aspect ratio intact while scaling (`Ctrl` and `Shift` scale can be combined). `Shift` rotate, snap rotates. `Shift` move, locks movement to U / V axis.<br><br>All other options are in the top bar. |
+|       Function       | Key |                                                                                                                                                  Notes                                                                                                                                                  |
+| :------------------: | :-: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| UV Space Manipulator |  ➡️ | `Q` hides/ shows the manipulator. `Ctrl` scale, scales from origin point. `Shift` scale, keeps aspect ratio intact while scaling (`Ctrl` and `Shift` scale can be combined). `Shift` rotate, snap rotates. `Shift` move, locks movement to U / V axis.<br /><br />All other options are in the top bar. |
 
 ## Material
 

@@ -38,56 +38,56 @@ I'm happy to hear any feedback and requests on things to improve or add, just me
 
 ⬅️ This explorer is always visible on the left side (if not, try pulling your browser window wider).
 
-[Resources](/notes/resources)<br>
+[Resources](/notes/resources)<br />
 [⌨️ Hotkeys](/notes/hotkeys)
 
 ### Theory
 
-[📑 Glossary](/notes/theory/glossary)<br>
-[🌆 Composition](/notes/theory/composition)<br>
-[👩🏽‍💻 Technical Side of Character Design](/notes/theory/technical-side-of-character-design)<br>
-[📐 Topology & Retopology](/notes/theory/topology-and-retopology)<br>
-[📊 Optimization](/notes/theory/optimization)<br>
-[🗺️ Texture Maps](/notes/theory/texture-maps)<br>
-[🖼️ Image Extensions](/notes/theory/image-extensions)<br>
+[📑 Glossary](/notes/theory/glossary)<br />
+[🌆 Composition](/notes/theory/composition)<br />
+[👩🏽‍💻 Technical Side of Character Design](/notes/theory/technical-side-of-character-design)<br />
+[📐 Topology & Retopology](/notes/theory/topology-and-retopology)<br />
+[📊 Optimization](/notes/theory/optimization)<br />
+[🗺️ Texture Maps](/notes/theory/texture-maps)<br />
+[🖼️ Image Extensions](/notes/theory/image-extensions)<br />
 [Art Software](/notes/theory/art-software)
 
 ### Model Creation
 
-[🧊🗿 Organic & Hard Surface - Sculpting & Modeling](/notes/model-creation/modeling-and-sculpting)<br>
-[🌀 Workflow between ZBrush & Blender](/notes/model-creation/workflow-between-zbrush-and-blender)<br>
-[🟠 Sculpting in Blender](/notes/model-creation/sculpting-in-blender)<br>
-[💇🏽‍♀️ Hair](/notes/model-creation/hair)<br>
+[🧊🗿 Organic & Hard Surface - Sculpting & Modeling](/notes/model-creation/modeling-and-sculpting)<br />
+[🌀 Workflow between ZBrush & Blender](/notes/model-creation/workflow-between-zbrush-and-blender)<br />
+[🟠 Sculpting in Blender](/notes/model-creation/sculpting-in-blender)<br />
+[💇🏽‍♀️ Hair](/notes/model-creation/hair)<br />
 
 ### Texturing
 
-[🎁 UV Mapping](/notes/texturing/uv-mapping)<br>
-[🧭 Baking & Texturing Preparations](/notes/texturing/baking-and-texturing-prep)<br>
-[🎛️ Baking](/notes/texturing/baking)<br>
+[🎁 UV Mapping](/notes/texturing/uv-mapping)<br />
+[🧭 Baking & Texturing Preparations](/notes/texturing/baking-and-texturing-prep)<br />
+[🎛️ Baking](/notes/texturing/baking)<br />
 [🖌️ Texturing](/notes/texturing/texturing)
 [Skin Texturing](/notes/texturing/skin-texturing)
 
 ### Presentation
 
-[🦴 Rigging](/notes/presentation/rigging)<br>
-[🦴 Meta-Rigs](/notes/presentation/meta-rig)<br>
-[🎭 Posing & Animating](/notes/presentation/posing-and-animating)<br>
-[💡 Lighting](/notes/presentation/lighting)<br>
-[🌀 Blender to Unreal Pipeline](/notes/presentation/blender-to-unreal-pipeline)<br>
-[🎥🪄  Rendering & Compositing](/notes/presentation/rendering-and-compositing)<br>
+[🦴 Rigging](/notes/presentation/rigging)<br />
+[🦴 Meta-Rigs](/notes/presentation/meta-rig)<br />
+[🎭 Posing & Animating](/notes/presentation/posing-and-animating)<br />
+[💡 Lighting](/notes/presentation/lighting)<br />
+[🌀 Blender to Unreal Pipeline](/notes/presentation/blender-to-unreal-pipeline)<br />
+[🎥🪄  Rendering & Compositing](/notes/presentation/rendering-and-compositing)<br />
 
 ### Software Specific Knowledge
 
-[⚪ ZBrush](/notes/software-knowledge/zbrush-specific)<br>
-[🟠 Blender](/notes/software-knowledge/blender-specific)<br>
-[🔮 Blender Add-ons](/notes/software-knowledge/blender-addons)<br>
+[⚪ ZBrush](/notes/software-knowledge/zbrush-specific)<br />
+[🟠 Blender](/notes/software-knowledge/blender-specific)<br />
+[🔮 Blender Add-ons](/notes/software-knowledge/blender-addons)<br />
 [🔮📑 Blender Add-ons Guide](/notes/software-knowledge/blender-addons-guide)
 
 ### Extra
 
-[2D Art Resources](/notes/extra/2d-art-resources)<br>
+[2D Art Resources](/notes/extra/2d-art-resources)<br />
 [Model Part Names](/notes/extra/model-part-names)\
-[Drawing Tablet Issues](/notes/extra/drawing-tablet-issues)\ <br>
+[Drawing Tablet Issues](/notes/extra/drawing-tablet-issues)\ <br />
 [🖥️ My Setup](/notes/my-setup)
 
 :::

@@ -3,6 +3,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightObsidian, { obsidianSidebarGroup } from 'starlight-obsidian'
 import starlightImageZoom from 'starlight-image-zoom'
+import starlightFullViewMode from 'starlight-fullview-mode'
+import starlightViewModes from 'starlight-view-modes'
 
 
 // https://astro.build/config
@@ -27,10 +29,15 @@ export default defineConfig({
 
 
         }),
-		  starlightImageZoom({showCaptions: false})],
+		  starlightImageZoom({showCaptions: false}),
+			starlightViewModes(),
+		  // starlightFullViewMode({})
+		
+		],
+			
 
 			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/sidney-eliot/3d-artists-handbook' }],
 			sidebar: [
 				
 

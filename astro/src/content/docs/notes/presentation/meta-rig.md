@@ -1,6 +1,10 @@
 ---
 title: 🚧 Meta-Rigs
 editUrl: false
+sidebar:
+  badge:
+    text: 🚧 WIP
+    variant: tip
 ---
 
 ## 🚧Work in Progress🚧
@@ -17,7 +21,7 @@ A lot of theory about meta-rigs is software-independent. I'll go over things usi
 
 As we'll be using rigify to generate the control-rig, the meta-rig should be compatible with rigify. The best way of doing this is by starting with rigify's "Human (Meta-Rig)" *(Add > Armature)* and then adding to that the bones that one still needs for the character. There's nothing special about this pre-made meta-rig, and one can easily replicate it with rigify's meta-rig building blocks, but sticking with the pre-built rig can reduce the chance of errors when generating the game-rig.
 
-In addition to using the pre-built blocks, one can also simply use vanilla Blender rigging methods in the rigify meta-rig, by marking those bones appropriately, but more on that later. <br><br>
+In addition to using the pre-built blocks, one can also simply use vanilla Blender rigging methods in the rigify meta-rig, by marking those bones appropriately, but more on that later. <br /><br />
 You can add as many bones as wish to rigify's Human meta-rig template, those added bones can be freely parented to any other bone. Just make sure not to delete any of the pre-existing bones (even if you don't need them, like when your character only has one arm), add new bones into pre-existing bone chains and re-parent the pre-existing bones. The only exception to that is the face, if you don't need to animate the character's face, then delete all the face bones from the meta-rig, including the bone called "face" hiding inside the "spine.006" bone. Following those rules will prevent most of the issues that can arise with rigify's generate rig button, as well as making the game-rig creation easier, if that's something you'll be doing.
 
 Before we continue, I recommend looking into this video series by CG Dive, for a better base understanding on how to customize meta-rigs with rigify or even create them from scratch with rigify's meta-rig building blocks.

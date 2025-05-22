@@ -18,7 +18,7 @@ As a result, ZBrush subdivisions are destructive. Even if one goes back to subdi
 
 This can make the mesh unusable as a base for the retopologized mesh and makes changing things later on quite hard. To avoid this issue, either use Dynamic SubDiv or create backups of the object before adding subdivision levels.
 
-So in other words, always use Dynamic SubDivs as long as possible and only switch to the destructive SubDiv when adding detail (this will also help with performance). <br>
+So in other words, always use Dynamic SubDivs as long as possible and only switch to the destructive SubDiv when adding detail (this will also help with performance). <br />
 Exporting objects with ZBrush subdivisions to other software will mostly make it a normal subdivided object again, but there are methods, like the Blender add-on [Sculpt Layers](https://blendermarket.com/products/sculpt-layers), that can potentially allow for transferring ZBrushes special subdivided objects between ZBrush and Blender.
 
 Finally, ZBrush is excellent at handling millions of poligons, and mostly far more than the software the model will be exported to could handle. So one often has to bake down some of the higher subdivision's surface detail before leaving ZBrush.
@@ -50,20 +50,20 @@ Changing the channels and bit depth in Photoshop:
 ![image-2023-10-15-02-12-45.png](../../../../assets/notes/images/image-2023-10-15-02-12-45.png)
 
 :::note[Batch method (recommended)]
-Open action window.<br>
-![image-2023-10-15-02-53-06.png](../../../../assets/notes/images/image-2023-10-15-02-53-06.png)<br>
-Create and start recording of action.<br>
-![image-2023-10-15-02-54-46.png](../../../../assets/notes/images/image-2023-10-15-02-54-46.png)<br>
-![image-2023-10-15-02-59-46.png](../../../../assets/notes/images/image-2023-10-15-02-59-46.png)<br>
-Convert to grayscale.<br>
-![image-2023-10-15-03-05-17.png](../../../../assets/notes/images/image-2023-10-15-03-05-17.png)<br>
-Convert to 8bit or 16bit channel.<br>
-![image-2023-10-15-04-40-54.png](../../../../assets/notes/images/image-2023-10-15-04-40-54.png)<br>
-Stop action recording.<br>
-![image-2023-10-15-03-18-25.png](../../../../assets/notes/images/image-2023-10-15-03-18-25.png)<br>
-Open Image Processor Script (come with Photoshop)<br>
-![image-2023-10-15-04-06-46.png](../../../../assets/notes/images/image-2023-10-15-04-06-46.png)<br>
-Run Image Processor Script (In menu: Include all sub-folders + Select source folder + File Type PSD + Maximize Compatibility +Run action you just created)<br>
+Open action window.<br />
+![image-2023-10-15-02-53-06.png](../../../../assets/notes/images/image-2023-10-15-02-53-06.png)<br />
+Create and start recording of action.<br />
+![image-2023-10-15-02-54-46.png](../../../../assets/notes/images/image-2023-10-15-02-54-46.png)<br />
+![image-2023-10-15-02-59-46.png](../../../../assets/notes/images/image-2023-10-15-02-59-46.png)<br />
+Convert to grayscale.<br />
+![image-2023-10-15-03-05-17.png](../../../../assets/notes/images/image-2023-10-15-03-05-17.png)<br />
+Convert to 8bit or 16bit channel.<br />
+![image-2023-10-15-04-40-54.png](../../../../assets/notes/images/image-2023-10-15-04-40-54.png)<br />
+Stop action recording.<br />
+![image-2023-10-15-03-18-25.png](../../../../assets/notes/images/image-2023-10-15-03-18-25.png)<br />
+Open Image Processor Script (come with Photoshop)<br />
+![image-2023-10-15-04-06-46.png](../../../../assets/notes/images/image-2023-10-15-04-06-46.png)<br />
+Run Image Processor Script (In menu: Include all sub-folders + Select source folder + File Type PSD + Maximize Compatibility +Run action you just created)<br />
 ![image-2023-10-15-04-36-28.png](../../../../assets/notes/images/image-2023-10-15-04-36-28.png)
 
 This will create in every folder below the folder you selected a folder called PSD, which contains all the created files. Pull them out of there, replace them with the PNGs or JPGs, and you're done. Your entire alpha collection should now be grayscaled, 8/16bit PSD files.
@@ -518,14 +518,14 @@ The main thing about this interface is that I made a custom menu with every tool
 :::danger["Too many items in AllList" error]
 
 
-|             Q            | A                                                                                                                       |
-| :----------------------: | :---------------------------------------------------------------------------------------------------------------------- |
-|         **Info**         | - Latest recorded version: ZBrush 2022.0.1<br>- Happens when saving ZPR (entire project)                                |
-|          **Fix**         | Save file without history, or delete Tools and SubTools you don't need anymore (Isn't a good fix).                      |
-|         **Cause**        | *Unknown*                                                                                                               |
-|    **Possible cause**    | File size to big (started happening around the 2.3 - 2.5GB mark for me).                                                |
-| **What isn't the cause** | - Amount of SubTools (tested 400)<br>- Amount of Tools (tested 40)<br>- Amount of polygons in SubTools (tested 150 mil) |
-|    **What does it do**   | It makes ZBrush immediately crash the next time you or ZBrush quick or manual saves.                                    |
+|             Q            | A                                                                                                                           |
+| :----------------------: | :-------------------------------------------------------------------------------------------------------------------------- |
+|         **Info**         | - Latest recorded version: ZBrush 2022.0.1<br />- Happens when saving ZPR (entire project)                                  |
+|          **Fix**         | Save file without history, or delete Tools and SubTools you don't need anymore (Isn't a good fix).                          |
+|         **Cause**        | *Unknown*                                                                                                                   |
+|    **Possible cause**    | File size to big (started happening around the 2.3 - 2.5GB mark for me).                                                    |
+| **What isn't the cause** | - Amount of SubTools (tested 400)<br />- Amount of Tools (tested 40)<br />- Amount of polygons in SubTools (tested 150 mil) |
+|    **What does it do**   | It makes ZBrush immediately crash the next time you or ZBrush quick or manual saves.                                        |
 
 :::
 

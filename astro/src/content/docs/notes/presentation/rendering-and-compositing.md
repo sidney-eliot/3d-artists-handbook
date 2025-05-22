@@ -5,13 +5,13 @@ editUrl: false
 
 ## Render Engines
 
-**Offline Rendering**<br>
+**Offline Rendering**<br />
 Render engines meant for offline rendering don't rely on speed, rather the goal is to, get the best possible result albeit in a somewhat reasonable time. It's used to render portfolio pieces, for example.
 
-**Real-time Rendering**<br>
+**Real-time Rendering**<br />
 Render engines that excel at real-time rendering have to be able to fluently render entire scenes at high frame rates and still feel snappy with player input, while also not forfeiting graphical fidelity.
 
-**Showcase Rendering**<br>
+**Showcase Rendering**<br />
 These render engines need to be extremely portable so they can easily be shared with clients and employers though either their browser or a file which is easy to open and only has the essential controls. Some good features that a showcase renderer should have are:
 
 * Basic navigation controls
@@ -352,16 +352,16 @@ As mentioned above, it's good to show a breakdown of the topology count, often t
 :::tip[Here's the full reasoning on why or why not to use a different topology units.]
 
 
-**Face Count**<br>
+**Face Count**<br />
 The general face count that modeling software often displays, which includes triangles, quads and n-gons isn't a good way of measuring topology, as an n-gon could have infinitely many vertices.
 
-**Quad Count**<br>
+**Quad Count**<br />
 Even when we assume that the model is nicely quad-based, this also not a good unit, as it means that in a game engine the actual topology count will 2x that value, as 20k quads is roughly 40k triangles. In most situations it's also impossible to actually have a full quads-based model, as for good topology there occasionally need to be triangles.
 
-**Triangle Count (Tris)**<br>
+**Triangle Count (Tris)**<br />
 This unit is most commonly seen as it conveys the actual in engine topology count. It's also easy to figure out, as most modeling software will show a calculated triangle count. It has one problem, however, game engines don't only require triangles, but also split the mesh topology at every UV and smoothing group split.
 
-**Vertices Count**<br>
+**Vertices Count**<br />
 This is the objectively most correct unit, but is also a bit harder to measure, as looking at a model's vertex count in a modeling software will show a quite different value than the vertex count in a game engine. This is because game engines split the mesh wherever UV and smoothing group splits are.
 
 **Example**
