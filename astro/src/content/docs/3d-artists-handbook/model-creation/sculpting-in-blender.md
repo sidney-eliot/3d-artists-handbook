@@ -12,11 +12,11 @@ Sculpting professionally is far better in ZBrush, and it's also the industry sta
 
 ## Blender to ZBrush Equivalent
 
-|     ZBrush    |                                                                         Blender                                                                        |
-| :-----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: |
-|    DynaMesh   |                                                                         Remesh                                                                         |
-|   ZRemesher   | Default Blender doesn't have this.<br />The [Quad Remesher](https://exoside.com/quadremesher/) add-on adds a similar functioning algorithm to Blender. |
-| Sculptris Pro |                                                                         Dyntopo                                                                        |
+|     ZBrush    |                                                                        Blender                                                                       |
+| :-----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    DynaMesh   |                                                                        Remesh                                                                        |
+|   ZRemesher   | Default Blender doesn't have this.<br>The [Quad Remesher](https://exoside.com/quadremesher/) add-on adds a similar functioning algorithm to Blender. |
+| Sculptris Pro |                                                                        Dyntopo                                                                       |
 
 ## Blender Sculpting Workflow
 

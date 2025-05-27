@@ -1,7 +1,6 @@
 ---
 title: "Home"
 description: "This handbook covers all stages of the 3D creation process, as well as the theory side of things. Helpful for 2D artists as well."
-enableToc: false
 ---
 ## Introduction
 Hi👋 I'm [Sidney](https://github.com/sidney-eliot), a 3D character artist, and this knowledge pool is for me, you, and everyone else.

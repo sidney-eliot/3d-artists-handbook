@@ -36,7 +36,10 @@ export default defineConfig({
 		],
 			
 
-			title: 'My Docs',
+			title: "3D Artist's Handbook",
+			// logo: {
+      // 	src: './src/assets/3d-artists-handbook/images/icon.png',
+      // },
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/sidney-eliot/3d-artists-handbook' }],
 			sidebar: [
 				
@@ -46,4 +49,7 @@ export default defineConfig({
 			],
 		}),
 	],
+	// redirects: {
+  //   "/": "/3d-artists-handbook",
+  // }
 });

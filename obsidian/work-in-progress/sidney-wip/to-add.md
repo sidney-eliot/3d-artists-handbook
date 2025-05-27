@@ -619,3 +619,10 @@ https://blender.stackexchange.com/questions/253635/auto-rig-pro-knees-bent-backw
 
 
 https://www.artstation.com/blogs/shinsoj/VoZK/optimization-general-theory
+
+
+
+
+
+Amazing work breakdown !!!!!!!!!!!
+[Sketchbook: Zetheros — polycount](https://polycount.com/discussion/232731/sketchbook-zetheros)

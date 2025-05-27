@@ -2,6 +2,7 @@
 title: "Baking"
 enableToc: true
 description: 
+hidden: true
 ---
 
 > [!info] Info

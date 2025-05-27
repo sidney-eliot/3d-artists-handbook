@@ -1,4 +1,0 @@
----
-title: Texturing
-editUrl: false
----

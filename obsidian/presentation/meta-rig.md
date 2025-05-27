@@ -1,6 +1,10 @@
 ---
 title: 🚧 Meta-Rigs
 enableToc: true
+sidebar:
+  badge:
+    text: 🚧 WIP
+    variant: tip
 ---
 ## 🚧Work in Progress🚧
 ## Foreword

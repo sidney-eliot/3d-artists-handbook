@@ -5,9 +5,9 @@ editUrl: false
 
 import { Image } from 'astro:assets'
 
-import qnbhhs from '../../../../assets/3d-artists-handbook/images/image-2023-11-21-15-17-59.png'
+import bhbyyv from '../../../../assets/3d-artists-handbook/images/image-2023-11-21-15-17-59.png'
 
-import zlzgpc from '../../../../assets/3d-artists-handbook/images/image-2023-11-21-15-26-07.png'
+import ulwtro from '../../../../assets/3d-artists-handbook/images/image-2023-11-21-15-26-07.png'
 
 ## Foreword
 
@@ -79,8 +79,8 @@ Lastly, one should try to make UV shells as big as possible, to free up UV space
 
 Most UV pack algorithms will only rotate the UV shells by 90°. This is done, to reduce the visibility of jagged lines. The reason for the jagged lines has to do with the fact that a monitor pixel has four sides (rasterisation). Having the UV shell follow the flow of one of the these sides, that being 90°, 180°, 270°, 360° reduces the effect of jagged edges. [Anti-aliasing](/3d-artists-handbook/theory/glossary#anti-aliasing) can also help reduce this issue, but it's best to combine both of these methods.
 
-*90° snap texture result example (without the help of [anti-aliasing](/3d-artists-handbook/theory/glossary#anti-aliasing))<br />* <Image src={qnbhhs} alt="" width="400" height="auto" /><br />
-*45° snap texture result example (without the help of [anti-aliasing](/3d-artists-handbook/theory/glossary#anti-aliasing))<br />* <Image src={zlzgpc} alt="" width="400" height="auto" />
+*90° snap texture result example (without the help of [anti-aliasing](/3d-artists-handbook/theory/glossary#anti-aliasing))<br/>* <Image src={bhbyyv} alt="" width="400" height="auto" /><br/>
+*45° snap texture result example (without the help of [anti-aliasing](/3d-artists-handbook/theory/glossary#anti-aliasing))<br/>* <Image src={ulwtro} alt="" width="400" height="auto" />
 
 With higher resolution textures, this is less of an issue, and in rare situations there can be reasons why one would want to rotate UV shells by more or less than 90°, but in most cases one should stick to 90° rotations.
 
@@ -187,15 +187,15 @@ Different texel densities across multiple UV shells that are on the same mesh, c
 
 Here's a chart of different texel densities, how they are calculated and what they are used for:
 
-| Texture<br />Resolution | Divided by Standard UDIM Unit<br />(Project dependent)<br />normally 100cm (1m) | Texel Density<br />in<br />px/cm or px/unit |           Used For           | Density Category |
-| ----------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------: | :--------------------------: | :--------------- |
-|                   128px |                                    ➗ 100cm 🟰                                   |                     1,28                    |       Strategic Camera       | 🟥 Low           |
-|                   256px |                                    ➗ 100cm 🟰                                   |                     2,56                    |       Strategic Camera       | 🟥 Low           |
-|                   512px |                                    ➗ 100cm 🟰                                   |                     5,12                    |      Third-Person Camera     | 🟨 Medium        |
-|                  1024px |                                    ➗ 100cm 🟰                                   |                    10,24                    |      First-Person Camera     | 🟩 High          |
-|                  2058px |                                    ➗ 100cm 🟰                                   |                    20,48                    | First-Person Weapon and Arms | 🟩 High          |
-|                  4096px |                                    ➗ 100cm 🟰                                   |                    40,48                    | First-Person Weapon and Arms | 🟩 Very High     |
-|                  8192px |                                    ➗ 100cm 🟰                                   |                    80,96                    |                              | 🟩 Ultra High    |
+| Texture<br/>Resolution | Divided by Standard UDIM Unit<br/>(Project dependent)<br/>normally 100cm (1m) | Texel Density<br/>in<br/>px/cm or px/unit |           Used For           | Density Category |
+| ---------------------: | :---------------------------------------------------------------------------: | :---------------------------------------: | :--------------------------: | :--------------- |
+|                  128px |                                   ➗ 100cm 🟰                                  |                    1,28                   |       Strategic Camera       | 🟥 Low           |
+|                  256px |                                   ➗ 100cm 🟰                                  |                    2,56                   |       Strategic Camera       | 🟥 Low           |
+|                  512px |                                   ➗ 100cm 🟰                                  |                    5,12                   |      Third-Person Camera     | 🟨 Medium        |
+|                 1024px |                                   ➗ 100cm 🟰                                  |                   10,24                   |      First-Person Camera     | 🟩 High          |
+|                 2058px |                                   ➗ 100cm 🟰                                  |                   20,48                   | First-Person Weapon and Arms | 🟩 High          |
+|                 4096px |                                   ➗ 100cm 🟰                                  |                   40,48                   | First-Person Weapon and Arms | 🟩 Very High     |
+|                 8192px |                                   ➗ 100cm 🟰                                  |                   80,96                   |                              | 🟩 Ultra High    |
 
 Texel density consistency between different artists and models in the scope of a project or game is key. The trick to staying consistent but also varying the texel density is to split up the environment into different priority / density groups, as seen in these images:
 ![image-2023-11-22-19-12-57.png](../../../../assets/3d-artists-handbook/images/image-2023-11-22-19-12-57.png)

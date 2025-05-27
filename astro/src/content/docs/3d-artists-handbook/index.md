@@ -38,56 +38,56 @@ I'm happy to hear any feedback and requests on things to improve or add, just me
 
 ⬅️ This explorer is always visible on the left side (if not, try pulling your browser window wider).
 
-[Resources](/3d-artists-handbook/resources)<br />
+[Resources](/3d-artists-handbook/resources)<br>
 [⌨️ Hotkeys](/3d-artists-handbook/hotkeys)
 
 ### Theory
 
-[📑 Glossary](/3d-artists-handbook/theory/glossary)<br />
-[🌆 Composition](/3d-artists-handbook/theory/composition)<br />
-[👩🏽‍💻 Technical Side of Character Design](/3d-artists-handbook/theory/technical-side-of-character-design)<br />
-[📐 Topology & Retopology](/3d-artists-handbook/theory/topology-and-retopology)<br />
-[📊 Optimization](/3d-artists-handbook/theory/optimization)<br />
-[🗺️ Texture Maps](/3d-artists-handbook/theory/texture-maps)<br />
-[🖼️ Image Extensions](/3d-artists-handbook/theory/image-extensions)<br />
+[📑 Glossary](/3d-artists-handbook/theory/glossary)<br>
+[🌆 Composition](/3d-artists-handbook/theory/composition)<br>
+[👩🏽‍💻 Technical Side of Character Design](/3d-artists-handbook/theory/technical-side-of-character-design)<br>
+[📐 Topology & Retopology](/3d-artists-handbook/theory/topology-and-retopology)<br>
+[📊 Optimization](/3d-artists-handbook/theory/optimization)<br>
+[🗺️ Texture Maps](/3d-artists-handbook/theory/texture-maps)<br>
+[🖼️ Image Extensions](/3d-artists-handbook/theory/image-extensions)<br>
 [Art Software](/3d-artists-handbook/theory/art-software)
 
 ### Model Creation
 
-[🧊🗿 Organic & Hard Surface - Sculpting & Modeling](/3d-artists-handbook/model-creation/modeling-and-sculpting)<br />
-[🌀 Workflow between ZBrush & Blender](/3d-artists-handbook/model-creation/workflow-between-zbrush-and-blender)<br />
-[🟠 Sculpting in Blender](/3d-artists-handbook/model-creation/sculpting-in-blender)<br />
-[💇🏽‍♀️ Hair](/3d-artists-handbook/model-creation/hair)<br />
+[🧊🗿 Organic & Hard Surface - Sculpting & Modeling](/3d-artists-handbook/model-creation/modeling-and-sculpting)<br>
+[🌀 Workflow between ZBrush & Blender](/3d-artists-handbook/model-creation/workflow-between-zbrush-and-blender)<br>
+[🟠 Sculpting in Blender](/3d-artists-handbook/model-creation/sculpting-in-blender)<br>
+[💇🏽‍♀️ Hair](/3d-artists-handbook/model-creation/hair)<br>
 
 ### Texturing
 
-[🎁 UV Mapping](/3d-artists-handbook/texturing/uv-mapping)<br />
-[🧭 Baking & Texturing Preparations](/3d-artists-handbook/texturing/baking-and-texturing-prep)<br />
-[🎛️ Baking](/3d-artists-handbook/texturing/baking)<br />
+[🎁 UV Mapping](/3d-artists-handbook/texturing/uv-mapping)<br>
+[🧭 Baking & Texturing Preparations](/3d-artists-handbook/texturing/baking-and-texturing-prep)<br>
+[🎛️ Baking](/3d-artists-handbook/texturing/baking)<br>
 [🖌️ Texturing](/3d-artists-handbook/texturing/texturing)
 [Skin Texturing](/3d-artists-handbook/texturing/skin-texturing)
 
 ### Presentation
 
-[🦴 Rigging](/3d-artists-handbook/presentation/rigging)<br />
-[🦴 Meta-Rigs](/3d-artists-handbook/presentation/meta-rig)<br />
-[🎭 Posing & Animating](/3d-artists-handbook/presentation/posing-and-animating)<br />
-[💡 Lighting](/3d-artists-handbook/presentation/lighting)<br />
-[🌀 Blender to Unreal Pipeline](/3d-artists-handbook/presentation/blender-to-unreal-pipeline)<br />
-[🎥🪄  Rendering & Compositing](/3d-artists-handbook/presentation/rendering-and-compositing)<br />
+[🦴 Rigging](/3d-artists-handbook/presentation/rigging)<br>
+[🦴 Meta-Rigs](/3d-artists-handbook/presentation/meta-rig)<br>
+[🎭 Posing & Animating](/3d-artists-handbook/presentation/posing-and-animating)<br>
+[💡 Lighting](/3d-artists-handbook/presentation/lighting)<br>
+[🌀 Blender to Unreal Pipeline](/3d-artists-handbook/presentation/blender-to-unreal-pipeline)<br>
+[🎥🪄  Rendering & Compositing](/3d-artists-handbook/presentation/rendering-and-compositing)<br>
 
 ### Software Specific Knowledge
 
-[⚪ ZBrush](/3d-artists-handbook/software-knowledge/zbrush-specific)<br />
-[🟠 Blender](/3d-artists-handbook/software-knowledge/blender-specific)<br />
-[🔮 Blender Add-ons](/3d-artists-handbook/software-knowledge/blender-addons)<br />
+[⚪ ZBrush](/3d-artists-handbook/software-knowledge/zbrush-specific)<br>
+[🟠 Blender](/3d-artists-handbook/software-knowledge/blender-specific)<br>
+[🔮 Blender Add-ons](/3d-artists-handbook/software-knowledge/blender-addons)<br>
 [🔮📑 Blender Add-ons Guide](/3d-artists-handbook/software-knowledge/blender-addons-guide)
 
 ### Extra
 
-[2D Art Resources](/3d-artists-handbook/extra/2d-art-resources)<br />
+[2D Art Resources](/3d-artists-handbook/extra/2d-art-resources)<br>
 [Model Part Names](/3d-artists-handbook/extra/model-part-names)\
-[Drawing Tablet Issues](/3d-artists-handbook/extra/drawing-tablet-issues)\ <br />
+[Drawing Tablet Issues](/3d-artists-handbook/extra/drawing-tablet-issues)\ <br>
 [🖥️ My Setup](/3d-artists-handbook/my-setup)
 
 :::

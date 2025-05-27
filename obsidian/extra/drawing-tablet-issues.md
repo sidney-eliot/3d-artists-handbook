@@ -1,6 +1,7 @@
 ---
 title: "Drawing Tablet Issues"
-enableToc: true
+tableOfContents: true
+lastUpdated: 2023-08-09
 ---
 
 If there's one thing that doesn't exist in this world, then it's good drawing tablet drivers. No matter if you get a cheap tablet or an extremely expensive Wacom Cintiq, you'll come to despise the drivers with all your soul eventually.

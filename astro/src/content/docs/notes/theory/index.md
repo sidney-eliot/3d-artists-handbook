@@ -1,4 +1,0 @@
----
-title: Theory
-editUrl: false
----
