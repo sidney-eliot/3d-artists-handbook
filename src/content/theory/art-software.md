@@ -111,7 +111,7 @@ This is a somewhat complete collection of all the software commonly used by prof
 
 - [**`PureRef`**](https://www.pureref.com)
 - [**`VizRef`**](https://vizref.com/) (For iOS devices)
-- [**`ArtDeck`**](https://getartdeck.com/) _(For iPhone, iPad, and Mac, with optional iCloud sync)_
+- [**`ArtDeck`**](https://getartdeck.com/) _(For iPhone, iPad, and Mac; optional iCloud sync; image and video study tools)_
 - [**`Milanote`**](https://milanote.com/) _(Feature rich and running in the cloud, making it quite portable)_
 - [**Opti**](https://github.com/torcado194/opti)
 - [**Kuadro**](http://www.kruelgames.com/tools/kuadro/)
