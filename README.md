@@ -1,3 +1,5 @@
+ℹ️Currently on **hiatus** due to university studies.ℹ️
+
 # Visit the 3D Artist's Handbook
 **https://sidney-eliot.github.io/3d-artists-handbook**
 
